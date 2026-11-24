@@ -1,0 +1,222 @@
+{
+  "schema_version": "2.0",
+  "event_id": "TEMPLATE",
+  "artifact_id": "PPT-TEMPLATE",
+  "artifact_type": "CLASSROOM_PPT",
+  "title": "[교육 제목 입력]",
+  "revision": 1,
+  "status": "PLANNED",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "[원본 보고서 번호]",
+    "report_date": "YYYY-MM-DD",
+    "sha256": null
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "[분석 버전]",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "16:9",
+    "editable_native_elements": true,
+    "language": "ko"
+  },
+  "learning_objectives": [
+    "[학습목표 입력]"
+  ],
+  "references": [],
+  "slides": [
+    {
+      "id": "P01",
+      "title": "[제목 및 학습목표]",
+      "layout": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "[라벨] | [근거에 맞는 내용 입력]"
+      ],
+      "speaker_notes": "[교육시간, 근거 ID 및 원문 위치, 진행 방법, 예상 답변·한계 입력]",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P02",
+      "title": "[사건 개요]",
+      "layout": "FACT",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "[라벨] | [근거에 맞는 내용 입력]"
+      ],
+      "speaker_notes": "[교육시간, 근거 ID 및 원문 위치, 진행 방법, 예상 답변·한계 입력]",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P03",
+      "title": "[조사 결과]",
+      "layout": "CAUSE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "[라벨] | [근거에 맞는 내용 입력]"
+      ],
+      "speaker_notes": "[교육시간, 근거 ID 및 원문 위치, 진행 방법, 예상 답변·한계 입력]",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P04",
+      "title": "[학습 주제 1]",
+      "layout": "PRINCIPLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "[라벨] | [근거에 맞는 내용 입력]"
+      ],
+      "speaker_notes": "[교육시간, 근거 ID 및 원문 위치, 진행 방법, 예상 답변·한계 입력]",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P05",
+      "title": "[학습 주제 2]",
+      "layout": "PRINCIPLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "[라벨] | [근거에 맞는 내용 입력]"
+      ],
+      "speaker_notes": "[교육시간, 근거 ID 및 원문 위치, 진행 방법, 예상 답변·한계 입력]",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P06",
+      "title": "[학습 주제 3]",
+      "layout": "PRINCIPLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "[라벨] | [근거에 맞는 내용 입력]"
+      ],
+      "speaker_notes": "[교육시간, 근거 ID 및 원문 위치, 진행 방법, 예상 답변·한계 입력]",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P07",
+      "title": "[원칙별 미진속성 후보]",
+      "layout": "ATTRIBUTE_SUMMARY",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "[원칙 코드·명칭] | [속성 코드·명칭]"
+      ],
+      "speaker_notes": "[교육시간, 근거 ID 및 원문 위치, 진행 방법, 예상 답변·한계 입력]",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P08",
+      "title": "[교육용 가상 상황 A]",
+      "layout": "DISCUSSION",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "[라벨] | [근거에 맞는 내용 입력]"
+      ],
+      "speaker_notes": "[교육시간, 근거 ID 및 원문 위치, 진행 방법, 예상 답변·한계 입력]",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P09",
+      "title": "[교육용 가상 상황 B]",
+      "layout": "DISCUSSION",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "[라벨] | [근거에 맞는 내용 입력]"
+      ],
+      "speaker_notes": "[교육시간, 근거 ID 및 원문 위치, 진행 방법, 예상 답변·한계 입력]",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P10",
+      "title": "[현장 질문 및 개인 실천]",
+      "layout": "ACTION",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "[라벨] | [근거에 맞는 내용 입력]"
+      ],
+      "speaker_notes": "[교육시간, 근거 ID 및 원문 위치, 진행 방법, 예상 답변·한계 입력]",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P11",
+      "title": "[팀 개선 및 효과 확인]",
+      "layout": "ACTION",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "[라벨] | [근거에 맞는 내용 입력]"
+      ],
+      "speaker_notes": "[교육시간, 근거 ID 및 원문 위치, 진행 방법, 예상 답변·한계 입력]",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P12",
+      "title": "[핵심 메시지 및 출처]",
+      "layout": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "[라벨] | [근거에 맞는 내용 입력]"
+      ],
+      "speaker_notes": "[교육시간, 근거 ID 및 원문 위치, 진행 방법, 예상 답변·한계 입력]",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

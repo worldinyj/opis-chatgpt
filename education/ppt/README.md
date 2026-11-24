@@ -26,3 +26,5 @@ node education/ppt/scripts/generate.mjs cases/2025/250919W2/media/classroom_ppt/
 ```
 
 [디자인 시스템](templates/DESIGN_SYSTEM.md) · [작성 양식](templates/SLIDE_TEMPLATE.md) · [실행 검증](tests/VALIDATION_MEDIA007.md). PPTX는 텍스트와 도형 편집 가능, 발표자 노트 내장. 실제 PowerPoint 앱과 현장 투사 테스트는 미수행. 향후 다양한 템플릿, 자동 텍스트 넘침 검출, 다수 속성 그룹 레이아웃 및 영상 삽입 지원 필요.
+
+공통 [JSON 작성 템플릿](templates/slide_manifest.template.json)은 빈 자리표시자 포함; 원본 날짜/ID/근거/내용을 채운 뒤 스키마 검사 및 생성. 검증 재현: `python education/ppt/tests/verify_pptx.py <manifest> <pptx> --pdf <rendered_pdf>` (python-pptx, PyMuPDF 필요). PDF는 LibreOffice Impress 등으로 별도 생성. 해당 검사는 텍스트 누락과 경계 이탈을 확인하지만 가독성과 의미 검토를 대체하지 않는다.
