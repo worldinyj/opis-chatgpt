@@ -30,4 +30,7 @@ node education/ppt/scripts/generate.mjs cases/2025/250919W2/media/classroom_ppt/
 공통 [JSON 작성 템플릿](templates/slide_manifest.template.json)은 빈 자리표시자 포함; 원본 날짜/ID/근거/내용을 채운 뒤 스키마 검사 및 생성. 검증 재현: `python education/ppt/tests/verify_pptx.py <manifest> <pptx> --pdf <rendered_pdf>` (python-pptx, PyMuPDF 필요). PDF는 LibreOffice Impress 등으로 별도 생성. 해당 검사는 텍스트 누락과 경계 이탈을 확인하지만 가독성과 의미 검토를 대체하지 않는다.
 
 ## 선택 샘플 디자인 기반 제작 V2.0
-[공통 전문 AI 프롬프트](prompts/PROFESSIONAL_AI_PPT_V2.md) · [샘플 디자인 충실성 표준](templates/TEMPLATE_FIDELITY_STANDARD.md) · [템플릿 등록 양식](templates/template_intake.template.json). ChatGPT·Genspark 등 외부 도구와 기존 로컬 생성기가 동일 내용 계약을 공유한다. 고정 디자인 생성기는 기존 12장 경로를 지원하며 샘플 마스터 적용은 별도 실증 대상. [첫 사건 16장 표준형 설계](../../cases/2025/250919W2/media/classroom_ppt/STANDARD_16_BLUEPRINT.md)는 새 샘플 미수신 상태의 검토 초안으로 실제 생성하지 않았다.
+[공통 전문 AI 프롬프트](prompts/PROFESSIONAL_AI_PPT_V2.md) · [샘플 디자인 충실성 표준](templates/TEMPLATE_FIDELITY_STANDARD.md) · [템플릿 등록 양식](templates/template_intake.template.json). ChatGPT·Genspark 등 외부 도구와 기존 로컬 생성기가 동일 내용 계약을 공유한다. 고정 디자인 생성기는 기존 12장 경로를 지원하며 샘플 마스터 적용은 별도 실증 대상. [첫 사건 16장 표준형 설계](../../cases/2025/250919W2/media/classroom_ppt/STANDARD_16_BLUEPRINT.md)는 선택 샘플 등록·매핑 상태의 검토 초안으로 실제 생성하지 않았다.
+
+## 등록된 사용자 선택 디자인
+[WOLSONG_PROFESSIONAL_V1](design_library/WOLSONG_PROFESSIONAL_V1/DESIGN_SPEC.md) · [16장 매핑](design_library/WOLSONG_PROFESSIONAL_V1/LAYOUT_MAP.md). 실제 샘플은 1개 빈 레이아웃에 개별 도형으로 구성되며 실측 패턴을 재사용해야 한다. 원본 내장 자산 사용권 확인 전 공개 바이너리 미등록.

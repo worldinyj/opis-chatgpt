@@ -1,0 +1,94 @@
+{
+  "template_id": "WOLSONG_PROFESSIONAL_V1",
+  "filename": "wolsong2_heavy_water_leak_safety_culture_20261124140836.pptx",
+  "sha256": "6a7e82c66c8509f66c597b6c6acd23bf078baad014b2325d9347bd581dd0e32a",
+  "bytes": 1636590,
+  "source": "USER_UPLOADED_REFERENCE",
+  "registration": "PROFILE_REGISTERED",
+  "binary_storage": "USER_ORIGINAL_NOT_COMMITTED",
+  "permission_status": "PENDING_REUSE_OF_EMBEDDED_ASSETS",
+  "aspect_ratio": "16:9",
+  "width_emu": 12192000,
+  "height_emu": 6858000,
+  "slide_count": 16,
+  "master_count": 1,
+  "layout_count": 1,
+  "layouts": [
+    {
+      "master_index": 0,
+      "layout_index": 0,
+      "name": "DEFAULT"
+    }
+  ],
+  "theme": "Office Theme; direct formatting predominates",
+  "objects": {
+    "text_boxes": 442,
+    "auto_shapes": 402,
+    "pictures": 237,
+    "total": 1081,
+    "media_parts": 200,
+    "native_tables": 0,
+    "native_charts": 0
+  },
+  "style": {
+    "font_runs": {
+      "Noto Sans KR": 565,
+      "Arial": 3
+    },
+    "title_pt": 22.5,
+    "cover_observed_pt": [
+      45,
+      54
+    ],
+    "frequent_body_pt": [
+      9,
+      9.6,
+      10.2,
+      10.5,
+      10.8,
+      11,
+      11.4,
+      12
+    ],
+    "palette": {
+      "navy": "#1E293B",
+      "slate": "#334155",
+      "muted": "#64748B",
+      "white": "#FFFFFF",
+      "surface": "#F1F5F9",
+      "surface_light": "#F8FAFC",
+      "border": "#E2E8F0",
+      "blue": "#2563EB",
+      "blue_accent": "#3B82F6",
+      "teal": "#0D9488",
+      "amber": "#F59E0B",
+      "red": "#DC2626",
+      "purple": "#6366F1"
+    },
+    "header": "상단 제목/부제, 좌측 강조선, 우측 영문 라벨. 2/12/16 네이비 헤더.",
+    "footer": "하단 사건명·영문 라벨 또는 페이지 번호",
+    "body": "흰/옅은 회색 카드, 얇은 경계선, 아이콘·의미색, 2~3열과 표형 구조"
+  },
+  "review": {
+    "zip_crc": "PASS",
+    "rendered_pages": 16,
+    "render_engine": "LibreOffice Impress",
+    "notes_text_nonempty": 0,
+    "objects_outside_bounds": 11,
+    "outside_slide_numbers": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      12,
+      13,
+      16
+    ],
+    "font_match": "Noto Sans (Noto Sans KR exact family not matched)",
+    "visual_review": "RENDERED_CONTACT_SHEET_REVIEWED",
+    "design_fidelity_of_new_deck": "NOT_TESTED",
+    "content_approval": "PENDING",
+    "external_submission_authorized": false
+  }
+}

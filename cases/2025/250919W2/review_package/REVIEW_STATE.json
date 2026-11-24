@@ -45,9 +45,11 @@
     "status": "AUTHOR_COUNTER_REVIEW_COMPLETE",
     "candidate_story_revision": 4,
     "candidate_ppt_blueprint": "../media/classroom_ppt/STANDARD_16_BLUEPRINT.json",
-    "selected_template": "MISSING",
+    "selected_template": "PROFILE_REGISTERED_MAPPING_DRAFT",
     "candidate_promoted": false,
     "independent_review": "PENDING",
-    "expert_approval": "PENDING"
+    "expert_approval": "PENDING",
+    "template_id": "WOLSONG_PROFESSIONAL_V1",
+    "template_sha256": "6a7e82c66c8509f66c597b6c6acd23bf078baad014b2325d9347bd581dd0e32a"
   }
 }

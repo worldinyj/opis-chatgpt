@@ -8,8 +8,9 @@
   "profile": {
     "aspect_ratio": "16:9",
     "design_mode": "SELECTED_TEMPLATE",
-    "template_status": "MISSING",
-    "template_sha256": null
+    "template_status": "PROFILE_REGISTERED_MAPPING_DRAFT",
+    "template_sha256": "6a7e82c66c8509f66c597b6c6acd23bf078baad014b2325d9347bd581dd0e32a",
+    "template_id": "WOLSONG_PROFESSIONAL_V1"
   },
   "slides": [
     {
@@ -24,7 +25,7 @@
       "fact_ids": [],
       "learning_ids": [],
       "design_role": "표지 스타일 우선",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P01",
       "minutes": 2,
       "speaker_notes": "분석 v0.1.1, KINS 2025-07호, 교육용 초안. 실제 사건명을 표시하는 공개보고서 교육 모드; 비난이 아닌 학습. 현장 절차 대체 아님."
     },
@@ -45,7 +46,7 @@
         "L03"
       ],
       "design_role": "목차/학습목표 레이아웃",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P02",
       "minutes": 2,
       "speaker_notes": "한수원 10원칙·40속성 표준 1.0 적용. 종료 시 참여자가 세 행동을 설명하도록 한다."
     },
@@ -66,7 +67,7 @@
       ],
       "learning_ids": [],
       "design_role": "정보 카드/표",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P03",
       "minutes": 3,
       "speaker_notes": "원본 pp.3–5. 최초 인지·현장 확인·보고대상 확인 구분. 보고서 표기 발생일과 인지일을 동일 개념으로 단정하지 않는다."
     },
@@ -89,7 +90,7 @@
       ],
       "learning_ids": [],
       "design_role": "가로 타임라인",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P04",
       "minutes": 3,
       "speaker_notes": "원본 pp.3–5, 8–10, 17–18. 사전검토회의는 별도 시점. 원본 승인 일자 차이는 미해결로 표시; 세부 작업 순서나 방법을 재현하지 않는다."
     },
@@ -109,7 +110,7 @@
       ],
       "learning_ids": [],
       "design_role": "기능 개념도",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P05",
       "minutes": 3,
       "speaker_notes": "보고서 §6.1 및 원본 pp.9–12. 실제 계통도·조작 지침이 아닌 기능 중심 개념도. 보고서의 기술 설명을 강사가 보완한다."
     },
@@ -130,7 +131,7 @@
       ],
       "learning_ids": [],
       "design_role": "원인-결과 도형",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P06",
       "minutes": 3,
       "speaker_notes": "원본 §3.2.1 및 §4, 보고서 §2.1–2.4. D1/R3 혼합 금지. 조사팀이 운영자 분석을 타당하다고 판단했다."
     },
@@ -151,7 +152,7 @@
       ],
       "learning_ids": [],
       "design_role": "4분면 원인 카드",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P07",
       "minutes": 3,
       "speaker_notes": "보고서 §2.2 교육용 재분류. KINS 공식 근본원인 코드 아님. 설비 형상관리 단계 자체의 미흡을 별도 근본원인으로 확정하지 않는다."
     },
@@ -172,7 +173,7 @@
       ],
       "learning_ids": [],
       "design_role": "두 원인 경로 비교",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P08",
       "minutes": 3,
       "speaker_notes": "원본 pp.10–16, 16–18, 보고서 §2.3. C1은 기술적 기여 조건, C2는 인지 지연. 어느 하나가 전체 사건을 반드시 예방했을 것이라고 단정하지 않는다."
     },
@@ -196,7 +197,7 @@
         "L02"
       ],
       "design_role": "원칙 카드+행동",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P09",
       "minutes": 3,
       "speaker_notes": "PA는 추가 검토 후보의 맥락이지 핵심 미진원칙 확정이 아님. 실제 중단 행동 인정, 후속 재평가 강조. L01/L02의 다른 원칙과 연결하되 화면에서는 WP·QA 초점."
     },
@@ -219,7 +220,7 @@
         "L02"
       ],
       "design_role": "원칙 카드+행동",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P10",
       "minutes": 3,
       "speaker_notes": "LA는 리더의 구체적 실행 증거 부족으로 추가 후보. 강사는 작업자에게 해결 부담을 전가하지 않는 관리자 역할을 토론한다."
     },
@@ -240,7 +241,7 @@
         "L03"
       ],
       "design_role": "개선 순환 개념도",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P11",
       "minutes": 3,
       "speaker_notes": "원본 §3.2.4. PI1은 CAP 연결 미이행 사례로 한정. 경향분석 PI4는 추가 후보, 예방정비 연계는 교육 제안. 반복 문제가 곧 개인의 안전의식 결함은 아니다."
     },
@@ -264,7 +265,7 @@
         "L03"
       ],
       "design_role": "6그룹 카드/표 한 장",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P12",
       "minutes": 3,
       "speaker_notes": "분석 v0.1.1 §3.4·3.6. 공식 평가 아님, 미선정은 양호 아님. QA4 별도 후보 유지 여부와 PI1 범위 전문가 검토 대기. 추가 후보 12개는 보고서 참조."
     },
@@ -285,7 +286,7 @@
       ],
       "learning_ids": [],
       "design_role": "수치 카드/구분 표",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P13",
       "minutes": 3,
       "speaker_notes": "원본 pp.18–21. 총 평가량에는 회수 1,306.01 및 외부 배출 5.14 kg-D2O 포함. 두 선량 직접 비교 금지. 삼중수소 전체 측정량 1.82×10¹² Bq와 사건 기여 평가 1.52×10¹² Bq를 구분(원본 p.20 직접 대조; F08 보강 후보 F13, 승인 전)."
     },
@@ -305,7 +306,7 @@
       ],
       "learning_ids": [],
       "design_role": "2트랙 로드맵",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P14",
       "minutes": 3,
       "speaker_notes": "원본 pp.21–23. 단기 7건, 중장기 8건. 예방정비, CAP 자체진단, 작업관리 교육 등. 실제 후속 이행을 최신 자료 없이 단정하지 않는다."
     },
@@ -326,7 +327,7 @@
         "L03"
       ],
       "design_role": "질문+체크리스트",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P15",
       "minutes": 10,
       "speaker_notes": "Q01–Q03, 가상 T01/T02 각 5분 축약형. 개인 A01/A03/A04 및 팀 A02/A05/A06을 연결한다. 팀의 확인 기준·기간·분모·책임 설정은 후속 실천으로 기록. 구체 설비 조작을 모의하지 않는다."
     },
@@ -347,11 +348,11 @@
         "L03"
       ],
       "design_role": "마무리 레이아웃",
-      "sample_layout_id": null,
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P16",
       "minutes": 2,
       "speaker_notes": "핵심 3행동을 다시 확인하고 참석자가 한 가지 실천을 선택한다. 승인 전 공식 교육 배포 금지."
     }
   ],
   "proposed_minutes": 52,
-  "notes": "기존 R3 12장 파일은 유지. 이 파일은 검토용 표준형 설계이며 기존 PPT schema v2 실행용 manifest가 아니다. 템플릿 수신·매핑 및 내용 승인 전 실제 생성 금지."
+  "notes": "기존 R3 유지. 16장 설계는 사용자 샘플 패턴에 매핑한 초안. sample_layout_id는 자체 매핑 ID이며 PPTX 내부 마스터/레이아웃 ID가 아니다. 실제 제작·승인 미실시."
 }

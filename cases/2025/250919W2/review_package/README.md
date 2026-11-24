@@ -13,3 +13,6 @@
 
 ## MEDIA-008-I~M 심화 검토
 [반론 중심 검토](COUNTER_REVIEW.md) · [교육 대상 및 R4 후보 편집안](AUDIENCE_AND_STORY.md) · [표준 사례 후보 및 최종 쟁점](MASTER_REFERENCE_CASE.md) · [16장 표준형 설계](../media/classroom_ppt/STANDARD_16_BLUEPRINT.md) · [검증](MEDIA008_IM_VALIDATION.md). 기존 R3 승인 대상은 변경하지 않음. 새 디자인 샘플 수신 대기.
+
+## PPT-B 샘플 등록
+실제 사용자 선택 16장 샘플의 구조·스타일 실측 및 렌더, 16장 디자인 매핑 완료. 신규 PPTX 실제 적용과 전문가 승인 대기. 기존 R3 유지.
