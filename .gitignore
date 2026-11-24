@@ -1,0 +1,10 @@
+# 원본은 재배포 조건 확인 전 로컬 보관
+sources_local/
+*.pdf
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+.venv/
+.cache/

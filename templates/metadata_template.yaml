@@ -1,0 +1,26 @@
+schema_version: "1.0"
+event_id: null
+report_number: null
+title: null
+event_date: null
+report_date: null
+plant:
+  site: null
+  unit: null
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/accident/SearchAccidentFailPresent.do
+  opis_popup_id: null
+  document_url: null
+  page_count: null
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: null
+  prompt_version: "1.0"
+  standard_version: "1.0"
+  status: REGISTERED
+  approved: false
+  candidate_attributes: []
+  approved_attributes: []
