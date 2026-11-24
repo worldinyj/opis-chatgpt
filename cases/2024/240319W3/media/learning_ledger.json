@@ -1,0 +1,130 @@
+{
+  "schema_version": "2.0",
+  "event_id": "240319W3",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "QA4",
+    "CO1",
+    "LA6",
+    "CL1",
+    "PI1",
+    "PI2",
+    "PI3",
+    "WP1",
+    "WP3",
+    "WP4"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "CO2",
+    "CO3",
+    "LA1",
+    "LA2",
+    "LA4",
+    "LA5",
+    "LA7",
+    "LA8",
+    "DM1",
+    "DM2",
+    "DM3",
+    "CL2",
+    "CL3",
+    "CL4",
+    "PI4",
+    "WP2"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "반복 이상징후는 원인과 조치 효과까지 확인한다",
+      "objective": "운전경험과 CAP를 통해 과열 등 반복 문제의 재발 방지를 검증한다.",
+      "cause_ids": [
+        "R1",
+        "R2"
+      ],
+      "fact_ids": [
+        "F04",
+        "F07",
+        "F09",
+        "F10",
+        "F11"
+      ],
+      "principle_codes": [
+        "QA",
+        "CL",
+        "PI"
+      ],
+      "attribute_codes": [
+        "QA4",
+        "CL1",
+        "PI1",
+        "PI2",
+        "PI3"
+      ],
+      "report_section": "3.4",
+      "qualification": "일부 개선 시행 및 기술 원인분석 인정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "정비 완료의 근거는 실제 설비 상태와 이력이다",
+      "objective": "작업·감시 범위, 기록 및 순환품 추적성을 점검한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F04",
+        "F05",
+        "F08",
+        "F09",
+        "F17"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3"
+      ],
+      "report_section": "3.4",
+      "qualification": "위험한 측정·조작 요구 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "방호기능의 복구와 책임 연결을 끝까지 확인한다",
+      "objective": "임시변경 원복, 기능 확인, 고장 통지 및 책임자·정보 전달을 검토한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F12",
+        "F13",
+        "F14",
+        "F15"
+      ],
+      "principle_codes": [
+        "CO",
+        "LA",
+        "WP"
+      ],
+      "attribute_codes": [
+        "CO1",
+        "LA6",
+        "WP4"
+      ],
+      "report_section": "3.4",
+      "qualification": "현장 보고와 소방·운전 대응을 인정.",
+      "review_status": "PENDING"
+    }
+  ]
+}

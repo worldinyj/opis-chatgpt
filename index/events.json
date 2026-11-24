@@ -120,5 +120,30 @@
       "WP4"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "240319W3",
+    "event_date": "2024-03-19",
+    "report_date": "2024-10-14",
+    "plant": "월성3호기",
+    "title": "월성3호기 13.8kV 등급4전원 BUB 모선 화재 및 전원상실에 의한 원자로 정지",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": 0,
+    "final_ines": null,
+    "path": "cases/2024/240319W3/report.md",
+    "candidate_attributes": [
+      "QA4",
+      "CO1",
+      "LA6",
+      "CL1",
+      "PI1",
+      "PI2",
+      "PI3",
+      "WP1",
+      "WP3",
+      "WP4"
+    ],
+    "approved_attributes": []
   }
 ]

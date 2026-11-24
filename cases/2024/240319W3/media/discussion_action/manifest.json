@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "240319W3",
+  "artifact_id": "DA-240319W3",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "반복 이상과 방호기능 검증",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2024-03",
+    "report_date": "2024-10-14",
+    "sha256": "fdb886161c5c51b07b2ac823068feb5d6b6a4a5216f303aeda7ffc1a14969ccf"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "반복되는 설비 이상을 단순 정비가 아니라 CAP 학습과 효과 확인으로 연결하고 있는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "측정·정비·순환품 이력의 증거는 실제 요구기능을 설명하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "임시 기능정지 후 원복·기능확인·인계를 누가 어떤 기록으로 검증하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상 산업시설에서 동일 종류 기기의 이상 징후가 반복된다. 이전 수리 작업은 종료됐으나 원인과 효과 확인 기록은 불충분하다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 개인1·팀2·공유2분. 반복 문제의 범위, 공식 문제등록, 근거 보존, 원인 평가 및 조치 효과 확인을 논의한다. 실제 원전 작업 재현 없음."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상 사업장에서 점검 중 일시 정지한 경보기능이 복구되었다는 기록이 없고 별도 고장 요청의 담당자도 불분명하다.",
+      "learning_ids": [
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 개인1·팀2·공유2분. 기능확인 증거, 책임자, 미해결 문제의 인계 및 승인된 절차를 논의한다. 조작 방법 모의 없음."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "반복 이상을 발견하면 작업기록과 별개로 적용되는 공식 문제등록 요건을 확인한다.",
+      "verification": "통지·문제등록 근거",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "정비 및 측정 결과의 범위·한계·실제 기기 이력을 확인하고 기록한다.",
+      "verification": "검토 기록 및 식별자",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "일시 변경 후 요구기능 확인과 미해결 사항 인계를 검증한다.",
+      "verification": "승인된 복구 확인 및 인계 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "반복고장·운전경험·시정조치의 연결 및 효과를 표본 검토한다.",
+      "verification": "원인·조치·효과 증빙",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "순환품 추적성과 정비·감시 방법의 대표성을 독립 검토한다.",
+      "verification": "이력 일치 및 기술검토 결과",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "방호기능의 담당자·고장요청·임시변경 종료와 인계를 교차 확인한다.",
+      "verification": "책임·복구 증빙·후속 확인",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

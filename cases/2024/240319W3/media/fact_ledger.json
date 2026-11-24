@@ -1,0 +1,388 @@
+{
+  "schema_version": "2.0",
+  "event_id": "240319W3",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2024-03",
+    "report_date": "2024-10-14",
+    "sha256": "fdb886161c5c51b07b2ac823068feb5d6b6a4a5216f303aeda7ffc1a14969ccf"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "statement": "2024.03.19 월성3호기 모드1, 정격열출력 86.9%에서 등급4전원 모선 화재·전원상실에 따라 냉각재펌프 2대 및 원자로·터빈발전기 정지.",
+      "section": "1,2",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "qualification": "본문의 발생일·출력 기준.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "정상인입차단기의 지락·단락에 의한 소손과 화재로 평가. 소손으로 최초 지락의 구체적 경로 단정 곤란.",
+      "section": "3.2.2",
+      "printed_pages": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "pdf_pages": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "qualification": "정확한 지락 경로를 확정하거나 재현하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "화재 영향으로 다른 등급4전원도 상실되어 소외전원 상실. 예비디젤발전기가 등급3전원에 전원 공급.",
+      "section": "3.1,3.2.2.3",
+      "printed_pages": [
+        4,
+        12,
+        13,
+        14
+      ],
+      "pdf_pages": [
+        8,
+        16,
+        17,
+        18
+      ],
+      "qualification": "기능 수준 요약; 회로 세부 재현 없음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "정렬편차를 상하·좌우 측정했으나 좌우 기준 초과를 해소하지 않은 채 사용. 절차서도 상하 방향 중심 기록·해소.",
+      "section": "3.2.3.1",
+      "printed_pages": [
+        15,
+        16
+      ],
+      "pdf_pages": [
+        19,
+        20
+      ],
+      "qualification": "현장 조정 가능 여부 차이 및 절차 내용 고려.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "유사 조건 설비 및 정비 이력 비교에서 접촉부 표면 열화, 접촉저항 증가·과열과 장력 저하가 원인에 기여한 것으로 평가.",
+      "section": "3.2.3.1,3.2.3.3",
+      "printed_pages": [
+        14,
+        17,
+        18,
+        19,
+        26,
+        27
+      ],
+      "pdf_pages": [
+        18,
+        21,
+        22,
+        23,
+        30,
+        31
+      ],
+      "qualification": "사건 기기는 완전 소손되어 비교·이력·분석 기반 평가.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "인입차단기는 상대적으로 높은 부하율로 운전되며 접촉저항 증가 시 과열 가능성이 높아짐.",
+      "section": "3.2.3.1",
+      "printed_pages": [
+        20,
+        21
+      ],
+      "pdf_pages": [
+        24,
+        25
+      ],
+      "qualification": "부하율만으로 설계기준 위반 단정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "2012년 월성3호기, 2016년 월성4호기 등 과열 운전경험과 관련 원인분석·개선 권고가 있었으며 일부는 미이행 또는 불충분하게 반영.",
+      "section": "3.2.3.1,3.2.3.2",
+      "printed_pages": [
+        21,
+        22,
+        24,
+        25
+      ],
+      "pdf_pages": [
+        25,
+        26,
+        28,
+        29
+      ],
+      "qualification": "기존 조치·개선품 도입 사실 인정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "순환품을 포함한 차단기 이력관리 미흡으로 현재 사용품의 과거 운전·정비 이력 파악 곤란.",
+      "section": "3.2.3.1",
+      "printed_pages": [
+        22
+      ],
+      "pdf_pages": [
+        26
+      ],
+      "qualification": "개별 정비기록 전부 부재 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "감전위험·시야 간섭 등으로 열화상 측정 위치를 변경했고 과거 권고 위치·주기를 절차에 반영하지 않음. 사건 2주 전 측정에도 과열 상태 파악 실패.",
+      "section": "3.2.3.1",
+      "printed_pages": [
+        22,
+        23
+      ],
+      "pdf_pages": [
+        26,
+        27
+      ],
+      "qualification": "안전한 접근·대체 감시의 검증 과제. 구체 위치·측정법 불필요.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "과열 사례 일부 권고(접촉부 육안점검, 오염 제거·저항 측정 등)가 당시 미이행, 2016년 이후 일부 조치는 시행됐으나 충분성 검증 부족.",
+      "section": "3.2.3.2",
+      "printed_pages": [
+        24,
+        25,
+        26
+      ],
+      "pdf_pages": [
+        28,
+        29,
+        30
+      ],
+      "qualification": "부분 이행과 미이행 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "계획예방정비 중 발견된 과열 사례에 설비고장 통지가 발행되지 않고 작업오더로만 처리. CAP 미이행으로 시정조치 유효성 평가 미수행.",
+      "section": "3.2.3.2,3.2.3.3",
+      "printed_pages": [
+        26,
+        27
+      ],
+      "pdf_pages": [
+        30,
+        31
+      ],
+      "qualification": "CAP 접근성이나 고의 누락으로 확대 단정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "다수 경보 속 화재경보 미인지, 현장운전원은 화재 징후 발견 후 전화 연락을 시도했으나 응답되지 않아 직접 보고.",
+      "section": "3.3.1",
+      "printed_pages": [
+        28
+      ],
+      "pdf_pages": [
+        32
+      ],
+      "qualification": "비상운전 수행 중 업무부하 및 적극적 현장 보고 인정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "초동조치 곤란 상황에서 외부소방대 요청이 즉시 수행되지 않았고 물분무소화설비 수동사용 기준이 모호.",
+      "section": "3.3.1",
+      "printed_pages": [
+        29,
+        30
+      ],
+      "pdf_pages": [
+        33,
+        34
+      ],
+      "qualification": "전원 영향 고려 판단과 기준 미흡 구분; 소화전략 지시 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "화재탐지설비 후속 보완작업에서 해제된 주경종 결선이 복구되지 않음. 임시변경·작업계획 관리 미이행, 종합정밀점검 절차에 관련 기능 확인 부족.",
+      "section": "3.3.2",
+      "printed_pages": [
+        31,
+        32
+      ],
+      "pdf_pages": [
+        35,
+        36
+      ],
+      "qualification": "일시 정지와 복구 확인의 관리 문제.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "자체소방대 화재수신반 고장정비를 구두 요청했으나 사건 당시까지 정비되지 않았고 관리 업무분장·프로세스 부재 확인.",
+      "section": "3.3.2",
+      "printed_pages": [
+        31,
+        32
+      ],
+      "pdf_pages": [
+        35,
+        36
+      ],
+      "qualification": "구두 요청 사실 인정; 담당 개인 책임 단정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "원자로 정지 이후 관련 비상·비정상운전절차, 감압·냉각, 운전제한조건 적용·해제와 소외전원 복구 점검을 조사팀이 적절하다고 평가.",
+      "section": "3.4.1",
+      "printed_pages": [
+        32,
+        33,
+        34
+      ],
+      "pdf_pages": [
+        36,
+        37,
+        38
+      ],
+      "qualification": "복구 완료 날짜는 원문 불일치(F21), 단일 날짜 채택 안 함.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "전원 상실 중 연료이송펌프 침수 위험을 인지해 임시배수를 시행했으나 호스 꼬임으로 기능 상실·침수. 연료공급 기능 복구, 디젤 운전은 정상 유지.",
+      "section": "3.4.2",
+      "printed_pages": [
+        35,
+        36
+      ],
+      "pdf_pages": [
+        39,
+        40
+      ],
+      "qualification": "임시조치 실시·복구 인정, 실제 배치·경로 재현 없음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "일부 전기설비 지시·보조기능 이상과 경보 저장 실패가 확인되어 관련 조치 완료. 내부 삼중수소 농도 일시 증가 후 정상화.",
+      "section": "3.4.2",
+      "printed_pages": [
+        35,
+        36,
+        37
+      ],
+      "pdf_pages": [
+        39,
+        40,
+        41
+      ],
+      "qualification": "소외 방사선 영향과 내부 농도 변화 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "필요 안전기능 유지, 소외 방사선량 특이사항 없음. 화재 영향 설비 교체 및 성능시험 결과 적절. INES 기초 0, 최종 위원회 평가 예정.",
+      "section": "3.4.2,3.5,3.6",
+      "printed_pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "pdf_pages": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "qualification": "일부 조명 설치·시험은 발행 이후 예정. 최종 등급 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "단기조치 17건 완료, 중장기조치 10건 예정으로 제시. 조사팀은 원인에 근거한 적절한 대책으로 판단.",
+      "section": "3.7,4",
+      "printed_pages": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "pdf_pages": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "qualification": "발행 이후 이행 및 효과 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F21",
+      "kind": "SOURCE_LIMITATION",
+      "statement": "소외전원 복구 시점이 §2.2(3.21~3.22)와 §3.4.1(3.22~3.23)에서 하루 차이. 요약과 본문의 페이지 번호 중복.",
+      "section": "2.2,3.4.1",
+      "printed_pages": [
+        3,
+        33
+      ],
+      "pdf_pages": [
+        7,
+        37
+      ],
+      "qualification": "정오표 미확인; 날짜 확정 보류. 본문 인쇄 p.1=PDF p.5.",
+      "review_status": "PENDING"
+    }
+  ]
+}

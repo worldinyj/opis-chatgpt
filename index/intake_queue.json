@@ -90,11 +90,12 @@
           "size_bytes": 11276268
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
+      "event_id": "240319W3",
+      "verified_event_date": "2024-03-19",
       "from_prior_table": false,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "분석·원장·토론 등록, 미디어/PPT 진행 중.",
+      "source_sha256": "fdb886161c5c51b07b2ac823068feb5d6b6a4a5216f303aeda7ffc1a14969ccf"
     },
     {
       "queue_order": 5,
