@@ -11,5 +11,14 @@
   "ppt_status": "GENERATED_DRAFT_RENDER_PENDING",
   "paid_generation_calls": 0,
   "external_submissions": 0,
-  "ppt_git_blob": "ee4a43ed3b2a1fdf2cfc486a782f5e54d44c9608"
+  "ppt_git_blob": "ee4a43ed3b2a1fdf2cfc486a782f5e54d44c9608",
+  "technical_structure_review": "PASS_SCHEMA_SUBSET_AND_RELATIONS",
+  "ppt_render": "PENDING_DNS_BLOCKER",
+  "report_page_count": "NOT_VERIFIED",
+  "opis_popup_id": null,
+  "source_issues": [
+    "F17 원문 날짜 표현 차이",
+    "OPIS 상세 ID 미확인",
+    "최종 INES 및 현재 조치 효과 미확인"
+  ]
 }

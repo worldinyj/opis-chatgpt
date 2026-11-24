@@ -25,10 +25,10 @@
   "existing_cases_not_in_root": [
     "250919W2"
   ],
-  "pending_pdf_count": 35,
-  "pending_date_groups": 34,
-  "next_list_date": "2024-12-27",
-  "next_queue_id": "ROOT-002",
+  "pending_pdf_count": 34,
+  "pending_date_groups": 33,
+  "next_list_date": "2024-06-01",
+  "next_queue_id": "ROOT-003",
   "items": [
     {
       "queue_order": 1,
@@ -56,11 +56,11 @@
           "size_bytes": 3300962
         }
       ],
-      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
       "event_id": "240908HB6",
       "verified_event_date": "2024-09-08",
       "from_prior_table": true,
-      "notes": "분석·F/L·토론 초안 등록; 영상·PPT 및 검증 계속 진행.",
+      "notes": "분석·F/L·영상 3종 설계·토론·16장 PPTX 등록; OPIS 상세 ID, PPT 렌더/A4 출력 및 전문가 검토 대기.",
       "source_sha256": "62a1417f0743f9fd1d81ef4c93a83b81f77daf27547ff58922cc0bac2fdba7b3"
     },
     {
@@ -657,5 +657,13 @@
     "blocking": "원본 접근 또는 사실 검증이 불가능하면 BLOCKED 기록; 다음 항목 진행 여부 명시",
     "ordering_date": "파일명 앞 날짜 기준; 원본 발생·발견·보고·발행일을 별도로 저장",
     "scope_refresh": "추후 루트 재조회 시 신규 PDF를 확인하고 기존 완료 기록 보존; 하위 폴더는 포함하지 않음"
-  }
+  },
+  "followup_pending": [
+    {
+      "queue_id": "ROOT-002",
+      "event_id": "240908HB6",
+      "task": "PPT_RENDER_AND_REPORT_PAGE_CHECK",
+      "status": "PENDING_DNS_BLOCKER"
+    }
+  ]
 }
