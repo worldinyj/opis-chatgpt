@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "event_id": "250919W2",
-  "analysis_version": "0.1.0",
+  "analysis_version": "0.1.1",
   "standard_version": "1.0",
   "core_attribute_codes": [
     "WP1",
@@ -83,7 +83,7 @@
         "DM2"
       ],
       "report_section": "3.4",
-      "qualification": "AI 교육용 후보; 공식 평가 아님.",
+      "qualification": "AI 교육 후보. QA2는 후속 재평가 중심, QA4는 위험 대비 활동 중심이며 심리적 자만의 증거 아님; 별도 핵심 후보 유지 전문가 확인.",
       "review_status": "PENDING"
     },
     {
@@ -109,7 +109,7 @@
         "CL1"
       ],
       "report_section": "3.4",
-      "qualification": "AI 교육용 후보; 공식 평가 아님.",
+      "qualification": "AI 교육 후보. PI1은 알려진 문제의 CAP 연결 미이행에 한정; 제도 전체 결함 판단 아님.",
       "review_status": "PENDING"
     }
   ]

@@ -4,8 +4,8 @@
   "artifact_id": "DA-250919W2",
   "artifact_type": "DISCUSSION_ACTION",
   "title": "토론 및 실천자료 기획",
-  "revision": 1,
-  "status": "PLANNED",
+  "revision": 2,
+  "status": "SCRIPT_DRAFT",
   "source": {
     "document_path": "../source.md",
     "report_number": "2025-07",
@@ -14,7 +14,7 @@
   },
   "provenance": {
     "analysis_path": "../../report.md",
-    "analysis_version": "0.1.0",
+    "analysis_version": "0.1.1",
     "standard_version": "1.0",
     "fact_ledger": "../fact_ledger.json",
     "learning_ledger": "../learning_ledger.json",
@@ -52,7 +52,7 @@
         "L01",
         "L02"
       ],
-      "facilitator_prompt": "공통 이해와 승인된 변경 절차를 토론한다."
+      "facilitator_prompt": "5분 축약형: 1분 개별 생각, 2분 짝 토론, 2분 공유. 승인된 변경 절차와 공동 이해, 사실과 가정 구분을 논의한다. 20분 확장형은 분석보고서 §4.2 참조."
     },
     {
       "id": "T02",
@@ -61,15 +61,15 @@
       "learning_ids": [
         "L03"
       ],
-      "facilitator_prompt": "공식 보고, 평가, 운전경험 적용을 토론한다."
+      "facilitator_prompt": "5분 축약형: 1분 개별 생각, 2분 팀 토론, 2분 공유. 공식 보고·평가·운전경험 적용·효과 확인을 논의한다. 확장형은 보고서 §4.2 참조."
     }
   ],
   "actions": [
     {
       "id": "A01",
       "level": "INDIVIDUAL",
-      "action": "불확실한 조건을 책임자에게 확인한다.",
-      "verification": "질의와 해결 근거 확인",
+      "action": "불확실한 조건을 책임자에게 확인하고 해결 근거를 기록한다.",
+      "verification": "질의 및 해결 근거 기록",
       "learning_ids": [
         "L02"
       ]
@@ -78,10 +78,47 @@
       "id": "A02",
       "level": "TEAM",
       "action": "변경관리 및 반복 문제의 후속조치를 점검한다.",
-      "verification": "표본 기록과 효과성 확인",
+      "verification": "표본 기록과 효과성 확인; 기간·분모·기준 명시",
       "learning_ids": [
         "L01",
         "L03"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "변경사항을 최신 승인본과 비교하고 공통 이해를 확인한다.",
+      "verification": "회의·변경 기록 확인",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "INDIVIDUAL",
+      "action": "반복 문제를 공식 개선체계에 연결하고 진행 상태를 확인한다.",
+      "verification": "등록 및 후속관리 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "관련 운전경험의 적용 여부와 근거를 공동 검토한다.",
+      "verification": "관련 사례 중 적용성 판단 기록 비율; 분모와 기간 사전 정의",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "작업전회의의 공동 이해 및 재평가 요청 지원 여부를 확인한다.",
+      "verification": "표본 회의의 이해 확인 기록; 단순 개최율과 구별",
+      "learning_ids": [
+        "L01",
+        "L02"
       ]
     }
   ],

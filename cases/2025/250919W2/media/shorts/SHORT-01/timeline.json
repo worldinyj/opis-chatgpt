@@ -1,0 +1,32 @@
+[
+  {
+    "id": "S01",
+    "start": 0,
+    "end": 6,
+    "duration": 6
+  },
+  {
+    "id": "S02",
+    "start": 6,
+    "end": 12,
+    "duration": 6
+  },
+  {
+    "id": "S03",
+    "start": 12,
+    "end": 18,
+    "duration": 6
+  },
+  {
+    "id": "S04",
+    "start": 18,
+    "end": 24,
+    "duration": 6
+  },
+  {
+    "id": "S05",
+    "start": 24,
+    "end": 30,
+    "duration": 6
+  }
+]

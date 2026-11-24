@@ -1,9 +1,9 @@
 {
   "schema_version": "2.0",
-  "job_id": "SM-250919W2-01-R2-DRAFT",
+  "job_id": "SM-250919W2-01-R3-DRAFT",
   "event_id": "250919W2",
   "artifact_id": "SM-250919W2-01",
-  "manifest_revision": 2,
+  "manifest_revision": 3,
   "route": "GEMINI_TASKS_BATCH",
   "aspect_ratio": "9:16",
   "jobs": [
@@ -11,7 +11,7 @@
       "id": "J01",
       "scene_id": "S02",
       "requested_kind": "IMAGE",
-      "prompt": "9:16 vertical, 720x1280 target, conceptual educational 3D interlocking plastic brick miniature, matte surface, neutral soft light, consistent scale. 가상 교육 회의실에서 문서철을 검토하는 업무 담당자. 실제 사건 장면 아님. Attach approved reference images CHAR-A, LOC-A, OBJ-A from the parent project, reframe for vertical composition with safe caption area. One location and one primary action, no generated text, no logos, no actual plant layout, no technical drawings or actual controls. Fictional participants, neutral non-blaming tone.",
+      "prompt": "9:16 vertical, conceptual educational 3D brick miniature, neutral soft lighting, matte materials. 가상 교육 회의실에서 문서철을 검토하는 업무 담당자. 실제 사건 장면 아님. Attach approved references: CHAR-A, LOC-A, OBJ-A. One location and one primary action, safe caption space, no generated text, no actual plant layout, no technical drawings or actual controls. Fictional characters, neutral non-blaming tone.",
       "reference_ids": [
         "CHAR-A",
         "LOC-A",

@@ -4,7 +4,7 @@
   "artifact_id": "IU-250919W2",
   "artifact_type": "INCIDENT_UNDERSTANDING",
   "title": "월성2호기 사건 이해",
-  "revision": 2,
+  "revision": 3,
   "status": "SCRIPT_DRAFT",
   "source": {
     "document_path": "../source.md",
@@ -120,10 +120,10 @@
       "location_id": null,
       "reference_ids": [],
       "visual_brief": "날짜와 정비 상태를 담은 타이포그래피",
-      "narration": "이 사건은 이천이십오년 구월에 발생했습니다.",
+      "narration": "이 사건은 이천이십오년 구월에 보고됐습니다.",
       "overlay": [
         "2025.09.19",
-        "계획예방정비 중"
+        "계획예방정비 중 중수 누설 보고"
       ],
       "input_mode": null,
       "motion_plan": null,
@@ -178,10 +178,10 @@
       "location_id": null,
       "reference_ids": [],
       "visual_brief": "추상적인 관찰과 확인 아이콘, 실제 화면·계통 없음",
-      "narration": "운전변수의 이상을 확인하고 현장을 점검했습니다.",
+      "narration": "운전변수 이상 인지 후 현장점검으로 누설을 확인했습니다.",
       "overlay": [
-        "운전변수 이상 인지",
-        "현장점검으로 누설 확인"
+        "이상 인지와 현장 확인",
+        "보고대상 확인은 별도"
       ],
       "input_mode": null,
       "motion_plan": null,
@@ -335,17 +335,26 @@
       "learning_ids": [],
       "principle_codes": [],
       "attribute_codes": [],
-      "render_mode": "CONTROLLED_GRAPHIC",
-      "generation_route": "LOCAL_EDIT",
-      "location_id": null,
-      "reference_ids": [],
-      "visual_brief": "서류와 물음표를 통제형 그래픽으로 표현",
-      "narration": "작업조건을 확인하는 방법의 검토도 부족했습니다.",
+      "render_mode": "STILL_MOTION",
+      "generation_route": "INDIVIDUAL",
+      "location_id": "LOC-B",
+      "reference_ids": [
+        "LOC-B",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 교육자료 검토실에서 빈 문서철을 살펴보는 인물. 실제 장비나 문서 아님.",
+      "narration": "작업조건 확인 방법의 검토도 부족했습니다.",
       "overlay": [
-        "작업조건 확인 근거"
+        "작업조건 확인 근거",
+        "조사 결과 · 개념 이미지"
       ],
       "input_mode": null,
-      "motion_plan": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
       "transition": "CUT",
       "attempts": [],
       "accepted_take": null,
@@ -428,17 +437,26 @@
       "learning_ids": [],
       "principle_codes": [],
       "attribute_codes": [],
-      "render_mode": "CONTROLLED_GRAPHIC",
-      "generation_route": "LOCAL_EDIT",
-      "location_id": null,
-      "reference_ids": [],
-      "visual_brief": "빈 기록 카드 여러 장, 국가나 실제 설비 표시 없음",
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-B",
+      "reference_ids": [
+        "LOC-B",
+        "CHAR-A",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 검토실의 빈 기록철을 비교하는 교육용 개념 이미지. 실제 기록이나 현장 아님.",
       "narration": "해외 유사 운전경험의 활용에도 미흡함이 있었습니다.",
       "overlay": [
-        "운전경험 수집과 활용의 차이"
+        "운전경험 수집과 활용",
+        "조사 결과 · 개념 이미지"
       ],
       "input_mode": null,
-      "motion_plan": null,
+      "motion_plan": {
+        "start_scale": 1.08,
+        "end_scale": 1,
+        "pan": "NONE"
+      },
       "transition": "CUT",
       "attempts": [],
       "accepted_take": null,
@@ -490,11 +508,11 @@
       "location_id": null,
       "reference_ids": [],
       "visual_brief": "수치 카드; 총량과 회수량을 텍스트로 정확히 표시",
-      "narration": "총 누설량과 회수량은 별도로 평가됐습니다.",
+      "narration": "총 누설량과 회수량은 중수 질량으로 평가됐습니다.",
       "overlay": [
         "평가기간 9.18~9.24",
-        "총 누설 1,311.15 kg",
-        "회수 1,306.01 kg"
+        "총 누설 1,311.15 kg-D2O",
+        "회수 1,306.01 kg-D2O"
       ],
       "input_mode": null,
       "motion_plan": null,
@@ -520,9 +538,9 @@
       "location_id": null,
       "reference_ids": [],
       "visual_brief": "수치만 표시, 실제 방출 경로 시각화 없음",
-      "narration": "외부로 배출된 중수량도 평가했습니다.",
+      "narration": "외부 배출량도 중수 질량으로 평가했습니다.",
       "overlay": [
-        "외부 배출 평가 5.14 kg",
+        "외부 배출 평가 5.14 kg-D2O",
         "동일 평가기간"
       ],
       "input_mode": null,
@@ -539,7 +557,9 @@
       "overlap_to_next_seconds": 0,
       "scene_type": "FACT",
       "fact_ids": [
-        "F11"
+        "F08",
+        "F11",
+        "F12"
       ],
       "learning_ids": [],
       "principle_codes": [],
@@ -549,10 +569,10 @@
       "location_id": null,
       "reference_ids": [],
       "visual_brief": "중립적 결과 카드; 안전등급 확정 표현 금지",
-      "narration": "조사팀은 발전소 안전기능 영향이 없다고 평가했습니다.",
+      "narration": "보증정지가 유지됐고 방사선 방호도 이루어졌습니다.",
       "overlay": [
-        "보증정지 유지",
-        "안전기능 영향 없음 (조사 평가)"
+        "보증정지 유지 · 안전기능 영향 없음 (조사 평가)",
+        "작업자 개인 최대피폭선량 3.63 mSv"
       ],
       "input_mode": null,
       "motion_plan": null,
@@ -568,6 +588,7 @@
       "overlap_to_next_seconds": 0,
       "scene_type": "FACT",
       "fact_ids": [
+        "F08",
         "F11"
       ],
       "learning_ids": [],
@@ -581,6 +602,7 @@
       "narration": "환경 영향은 미미했고 기초등급은 영이었습니다.",
       "overlay": [
         "환경·주민 영향 미미 (조사 평가)",
+        "예상 주민선량 1.78×10⁻⁴ mSv/yr",
         "INES 기초등급 0 · 최종 미확정"
       ],
       "input_mode": null,
@@ -597,7 +619,8 @@
       "overlap_to_next_seconds": 0,
       "scene_type": "FACT",
       "fact_ids": [
-        "F09"
+        "F09",
+        "F12"
       ],
       "learning_ids": [],
       "principle_codes": [],
@@ -607,10 +630,10 @@
       "location_id": null,
       "reference_ids": [],
       "visual_brief": "체크 목록; 발행 시점 명시",
-      "narration": "보고서에는 단기조치 완료가 기록됐습니다.",
+      "narration": "복구와 점검 등 단기조치는 완료로 기록됐습니다.",
       "overlay": [
         "발행 당시 단기조치 완료",
-        "점검 · 절차 개선 · 교육"
+        "복구 · 점검 · 절차 개선 · 교육"
       ],
       "input_mode": null,
       "motion_plan": null,

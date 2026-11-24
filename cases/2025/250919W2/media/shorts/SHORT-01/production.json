@@ -4,7 +4,7 @@
   "artifact_id": "SM-250919W2-01",
   "artifact_type": "KEY_MESSAGE_SHORT",
   "title": "변경된 조건, 변경되어야 할 계획",
-  "revision": 2,
+  "revision": 3,
   "status": "SCRIPT_DRAFT",
   "source": {
     "document_path": "../source.md",
@@ -14,7 +14,7 @@
   },
   "provenance": {
     "analysis_path": "../../../report.md",
-    "analysis_version": "0.1.0",
+    "analysis_version": "0.1.1",
     "standard_version": "1.0",
     "fact_ledger": "../../fact_ledger.json",
     "learning_ledger": "../../learning_ledger.json",
@@ -126,7 +126,7 @@
       "visual_brief": "가상 교육 회의실에서 문서철을 검토하는 업무 담당자. 실제 사건 장면 아님.",
       "narration": "조사보고서는 작업계획 변경 관리의 미흡을 지적했습니다.",
       "overlay": [
-        "조사 결과",
+        "조사 결과 · 개념 이미지",
         "작업계획 변경 관리"
       ],
       "input_mode": null,

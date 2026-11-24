@@ -21,7 +21,7 @@ operating_mode: "5 (보증정지)"
 preliminary_ines: 0
 final_ines: null
 analysis:
-  version: "0.1.0"
+  version: "0.1.1"
   prompt_version: "1.0"
   standard_version: "1.0"
   status: DRAFT

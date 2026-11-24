@@ -1,9 +1,9 @@
 {
   "schema_version": "2.0",
-  "job_id": "SC-250919W2-R2-DRAFT",
+  "job_id": "SC-250919W2-R3-DRAFT",
   "event_id": "250919W2",
   "artifact_id": "SC-250919W2",
-  "manifest_revision": 2,
+  "manifest_revision": 3,
   "route": "GEMINI_TASKS_BATCH",
   "aspect_ratio": "16:9",
   "jobs": [
@@ -11,7 +11,7 @@
       "id": "J01",
       "scene_id": "S05",
       "requested_kind": "IMAGE",
-      "prompt": "16:9 landscape, 3D brick miniature educational concept illustration, soft neutral light, consistent scale and matte plastic. 가상의 회의실, 업무 담당자가 빈 문서철을 살펴봄. Approved reference assets must be attached: LOC-A, CHAR-A, OBJ-A. One location, one primary action, safe framing with lower caption area clear. No text, logo, actual plant layout, technical drawings, controls, or dramatized leak. Fictional characters only, no implication of actual individual conduct.",
+      "prompt": "16:9 landscape, conceptual educational 3D brick miniature, neutral soft lighting, matte materials. 가상의 회의실, 업무 담당자가 빈 문서철을 살펴봄 Attach approved references: LOC-A, CHAR-A, OBJ-A. One location and one primary action, safe caption space, no generated text, no actual plant layout, no technical drawings or actual controls. Fictional characters, neutral non-blaming tone.",
       "reference_ids": [
         "LOC-A",
         "CHAR-A",
@@ -24,7 +24,7 @@
       "id": "J02",
       "scene_id": "S08",
       "requested_kind": "IMAGE",
-      "prompt": "16:9 landscape, 3D brick miniature educational concept illustration, soft neutral light, consistent scale and matte plastic. 가상 검토실, 담당자가 질문하는 자세. Approved reference assets must be attached: LOC-B, CHAR-A, CHAR-B. One location, one primary action, safe framing with lower caption area clear. No text, logo, actual plant layout, technical drawings, controls, or dramatized leak. Fictional characters only, no implication of actual individual conduct.",
+      "prompt": "16:9 landscape, conceptual educational 3D brick miniature, neutral soft lighting, matte materials. 가상 검토실, 담당자가 질문하는 자세 Attach approved references: LOC-B, CHAR-A, CHAR-B. One location and one primary action, safe caption space, no generated text, no actual plant layout, no technical drawings or actual controls. Fictional characters, neutral non-blaming tone.",
       "reference_ids": [
         "LOC-B",
         "CHAR-A",
@@ -37,7 +37,7 @@
       "id": "J03",
       "scene_id": "S11",
       "requested_kind": "IMAGE",
-      "prompt": "16:9 landscape, 3D brick miniature educational concept illustration, soft neutral light, consistent scale and matte plastic. 가상의 기록 검토실, 업무 담당자가 빈 기록을 정리. Approved reference assets must be attached: LOC-B, CHAR-A, OBJ-A. One location, one primary action, safe framing with lower caption area clear. No text, logo, actual plant layout, technical drawings, controls, or dramatized leak. Fictional characters only, no implication of actual individual conduct.",
+      "prompt": "16:9 landscape, conceptual educational 3D brick miniature, neutral soft lighting, matte materials. 가상의 기록 검토실, 업무 담당자가 빈 기록을 정리 Attach approved references: LOC-B, CHAR-A, OBJ-A. One location and one primary action, safe caption space, no generated text, no actual plant layout, no technical drawings or actual controls. Fictional characters, neutral non-blaming tone.",
       "reference_ids": [
         "LOC-B",
         "CHAR-A",
@@ -50,7 +50,7 @@
       "id": "J04",
       "scene_id": "S16",
       "requested_kind": "IMAGE",
-      "prompt": "16:9 landscape, 3D brick miniature educational concept illustration, soft neutral light, consistent scale and matte plastic. 가상 검토실에서 두 사람이 자료를 정리. Approved reference assets must be attached: LOC-B, CHAR-A, CHAR-B, OBJ-A. One location, one primary action, safe framing with lower caption area clear. No text, logo, actual plant layout, technical drawings, controls, or dramatized leak. Fictional characters only, no implication of actual individual conduct.",
+      "prompt": "16:9 landscape, conceptual educational 3D brick miniature, neutral soft lighting, matte materials. 가상 검토실에서 두 사람이 자료를 정리 Attach approved references: LOC-B, CHAR-A, CHAR-B, OBJ-A. One location and one primary action, safe caption space, no generated text, no actual plant layout, no technical drawings or actual controls. Fictional characters, neutral non-blaming tone.",
       "reference_ids": [
         "LOC-B",
         "CHAR-A",
