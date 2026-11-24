@@ -1,6 +1,6 @@
 # 집합교육 PPT 제작 체계 MVP V1.1
 
-기본 16:9, 편집 가능한 PPTX. 10~14장 권장이나 교육시간에 맞춰 조정. 원본·보고서·학습 원장에 연결된 슬라이드 설계. 텍스트/표/도형/차트는 가능한 네이티브 PPT 요소로 작성하며 이미지와 동영상은 교체 가능한 별도 자산. 발표자 노트에 근거 페이지, 설명, 질문, 예상 토론 포인트, 학습 확인을 포함.
+기본 16:9, 편집 가능한 PPTX. 12~16장 표준형 권장(기존 12장 간결형 유지)이나 교육시간에 맞춰 조정. 원본·보고서·학습 원장에 연결된 슬라이드 설계. 텍스트/표/도형/차트는 가능한 네이티브 PPT 요소로 작성하며 이미지와 동영상은 교체 가능한 별도 자산. 발표자 노트에 근거 페이지, 설명, 질문, 예상 토론 포인트, 학습 확인을 포함.
 
 ## 표준 구성
 1. 제목과 학습목표
@@ -28,3 +28,6 @@ node education/ppt/scripts/generate.mjs cases/2025/250919W2/media/classroom_ppt/
 [디자인 시스템](templates/DESIGN_SYSTEM.md) · [작성 양식](templates/SLIDE_TEMPLATE.md) · [실행 검증](tests/VALIDATION_MEDIA007.md). PPTX는 텍스트와 도형 편집 가능, 발표자 노트 내장. 실제 PowerPoint 앱과 현장 투사 테스트는 미수행. 향후 다양한 템플릿, 자동 텍스트 넘침 검출, 다수 속성 그룹 레이아웃 및 영상 삽입 지원 필요.
 
 공통 [JSON 작성 템플릿](templates/slide_manifest.template.json)은 빈 자리표시자 포함; 원본 날짜/ID/근거/내용을 채운 뒤 스키마 검사 및 생성. 검증 재현: `python education/ppt/tests/verify_pptx.py <manifest> <pptx> --pdf <rendered_pdf>` (python-pptx, PyMuPDF 필요). PDF는 LibreOffice Impress 등으로 별도 생성. 해당 검사는 텍스트 누락과 경계 이탈을 확인하지만 가독성과 의미 검토를 대체하지 않는다.
+
+## 선택 샘플 디자인 기반 제작 V2.0
+[공통 전문 AI 프롬프트](prompts/PROFESSIONAL_AI_PPT_V2.md) · [샘플 디자인 충실성 표준](templates/TEMPLATE_FIDELITY_STANDARD.md) · [템플릿 등록 양식](templates/template_intake.template.json). ChatGPT·Genspark 등 외부 도구와 기존 로컬 생성기가 동일 내용 계약을 공유한다. 고정 디자인 생성기는 기존 12장 경로를 지원하며 샘플 마스터 적용은 별도 실증 대상. [첫 사건 16장 표준형 설계](../../cases/2025/250919W2/media/classroom_ppt/STANDARD_16_BLUEPRINT.md)는 새 샘플 미수신 상태의 검토 초안으로 실제 생성하지 않았다.

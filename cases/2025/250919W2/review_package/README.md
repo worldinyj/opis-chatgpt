@@ -10,3 +10,6 @@
 5. 전문가 내용 승인 후에만 실제 콘텐츠 제작 검토. 실제 영상/음성·화면 QC와 교육 배포 승인은 별도 게이트.
 
 [구조 및 오프라인 검증 기록](VALIDATION.md). 미확인 원본 후속 사실은 추정하지 않는다.
+
+## MEDIA-008-I~M 심화 검토
+[반론 중심 검토](COUNTER_REVIEW.md) · [교육 대상 및 R4 후보 편집안](AUDIENCE_AND_STORY.md) · [표준 사례 후보 및 최종 쟁점](MASTER_REFERENCE_CASE.md) · [16장 표준형 설계](../media/classroom_ppt/STANDARD_16_BLUEPRINT.md) · [검증](MEDIA008_IM_VALIDATION.md). 기존 R3 승인 대상은 변경하지 않음. 새 디자인 샘플 수신 대기.

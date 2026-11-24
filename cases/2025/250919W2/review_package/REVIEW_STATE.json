@@ -39,5 +39,15 @@
     "QA4 별도 핵심 후보 및 PI1 판단 범위",
     "최종 INES 및 발행 후 대책 이행(별도 최신 자료 확인 필요)",
     "실제 자산 및 음성 QC, A4 보고서 분량 및 PowerPoint 현장 가독성"
-  ]
+  ],
+  "master_reference_status": "CANDIDATE",
+  "followup_review": {
+    "status": "AUTHOR_COUNTER_REVIEW_COMPLETE",
+    "candidate_story_revision": 4,
+    "candidate_ppt_blueprint": "../media/classroom_ppt/STANDARD_16_BLUEPRINT.json",
+    "selected_template": "MISSING",
+    "candidate_promoted": false,
+    "independent_review": "PENDING",
+    "expert_approval": "PENDING"
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "template_id": null,
+  "filename": null,
+  "sha256": null,
+  "permission_status": "PENDING",
+  "aspect_ratio": null,
+  "slide_count": null,
+  "master_layout_inventory": [],
+  "style": {
+    "palette": [],
+    "fonts": [],
+    "typography": [],
+    "geometry": [],
+    "footer": null
+  },
+  "layout_mappings": [],
+  "deviations": [],
+  "render_review": "PENDING",
+  "template_status": "MISSING",
+  "external_submission_authorized": false
+}
