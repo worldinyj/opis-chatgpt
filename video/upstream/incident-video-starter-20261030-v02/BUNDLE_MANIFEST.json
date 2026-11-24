@@ -1,0 +1,140 @@
+{
+  "format_version": 1,
+  "snapshot_date": "2026-10-30",
+  "kind": "starter",
+  "files": [
+    {
+      "file": ".env.example",
+      "bytes": 91,
+      "sha256": "d4b62cd64f5e0b5dd171d8fd61cc10c2e0fb9ffea55436fd91330c53117190d2"
+    },
+    {
+      "file": "AGENTS.md",
+      "bytes": 4262,
+      "sha256": "ca99c6095c203bf9098544b321e6b2a965d9c0cd330d6389875f44601b7f10be"
+    },
+    {
+      "file": "ENVIRONMENT.md",
+      "bytes": 3417,
+      "sha256": "a335c46303747a7cfe8c39e771770835d95cf09464e8858fb1ba19f66ac86bd3"
+    },
+    {
+      "file": "LESSONS_LEARNED.md",
+      "bytes": 6184,
+      "sha256": "20fd1a8fa726451b4a8e631dfe4b2d5316af58c6de04918084fb669872d323e5"
+    },
+    {
+      "file": "README.md",
+      "bytes": 226,
+      "sha256": "4a3ae3abe1444f5d1fb02158435d57fc5e0c325b96a4093d0315c8365512c426"
+    },
+    {
+      "file": "START_HERE.md",
+      "bytes": 4742,
+      "sha256": "f3e3b144635d1383459ad40de9f1136de3c602c70da574dd62510ffcda3625a2"
+    },
+    {
+      "file": "STATE.json",
+      "bytes": 287,
+      "sha256": "9796e53b65f8f60f54d185aca86a6eb6deb09e2ca88b9c4aa19eb1b8f4d507b9"
+    },
+    {
+      "file": "WORKFLOW.md",
+      "bytes": 6814,
+      "sha256": "32bd0c478a76afbd64e45acff905dd758d87f6592d4f0d78145dbe68c6d9d6ca"
+    },
+    {
+      "file": "docs/production_schema.md",
+      "bytes": 7593,
+      "sha256": "6af2ab5fd3a963ba7dbc8b63b28cc9dcd928640affde72cd3e7e4293f3c675d8"
+    },
+    {
+      "file": "docs/project_review.md",
+      "bytes": 2605,
+      "sha256": "99ebae9811112d9adc03419ab909d8611c8aac92670eb9d0e0445543425b0eb1"
+    },
+    {
+      "file": "docs/style_guide.md",
+      "bytes": 1437,
+      "sha256": "2f5505c3f8d51926fe012eda78e3d3306fe2bf65f33803edd898efde51815d4a"
+    },
+    {
+      "file": "projects/README.md",
+      "bytes": 81,
+      "sha256": "bd847789446f867fdc5cc494d43cfa763fbd0179ef903fe1ae09d477997a940f"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 127,
+      "sha256": "e88d820c9fff5ebcb1e6979fb601ed527e4066e52f91abb0cb4c01aec1dcecb2"
+    },
+    {
+      "file": "scripts/assemble_voiceover.py",
+      "bytes": 3994,
+      "sha256": "373edf23033af94fd9ca0bbd391610ca9cc4ad6807b340eae1d425930506b01c"
+    },
+    {
+      "file": "scripts/doctor.py",
+      "bytes": 1731,
+      "sha256": "306c18d27eae69636f55533ffbff1c441e93ad479ed3ce82c82f6955fa9e1388"
+    },
+    {
+      "file": "scripts/generate_elevenlabs_vo.py",
+      "bytes": 10525,
+      "sha256": "6afabb05ecdc6df0ebb5e8ee0c65242ffaed2e40c87e3a89f1594115f9942c73"
+    },
+    {
+      "file": "scripts/production.py",
+      "bytes": 21785,
+      "sha256": "888ae23963874cf2a1b8f1f3c1fddaffa2922d7ff8dc8e290b36ced8b71da016"
+    },
+    {
+      "file": "templates/i2v_prompt_template.md",
+      "bytes": 489,
+      "sha256": "2fa0b754538cb31acbc634455ddef1e858a860cb114b08670e39686fcb901954"
+    },
+    {
+      "file": "templates/image_prompt_template.md",
+      "bytes": 421,
+      "sha256": "0bff446d14bab560b60bdedbbebd39a968e30ca8510cbad452d4bc9ddbda1e05"
+    },
+    {
+      "file": "templates/narration_template.md",
+      "bytes": 345,
+      "sha256": "bb64b780818f812b5c755e45d9430c1a52192f5a8866ab30be0e91be2d49b59c"
+    },
+    {
+      "file": "templates/project/edit_plan.md",
+      "bytes": 798,
+      "sha256": "4fb29294a57637a679db70e572e31141e14bcb2bf170c80ef83add020616cef4"
+    },
+    {
+      "file": "templates/project/fact_ledger.md",
+      "bytes": 503,
+      "sha256": "800ae9c9f921a97fac3d9cf7905ca5cb49838626d59a74e64b464216191a556d"
+    },
+    {
+      "file": "templates/project/learning_log.md",
+      "bytes": 614,
+      "sha256": "3adc510ea2983bb58ff159fca7a10a9835fa47f05f0f93ba971f32d3f41e1a00"
+    },
+    {
+      "file": "templates/project/production.json",
+      "bytes": 4228,
+      "sha256": "165ac1bf9c2b26ab152341692a4988323ad242835bf17c524ae96b318d5fa624"
+    },
+    {
+      "file": "templates/storyboard_template.md",
+      "bytes": 406,
+      "sha256": "215f12a72189ea68938d66bfd0b305b39b1b5616752ae83b5d7b9a88dcf4e017"
+    }
+  ],
+  "exclusions": [
+    ".env and credentials",
+    "logins/cookies",
+    "virtual environments",
+    "global agent settings",
+    "macOS-only shared Swift renderers",
+    "completed prior report projects"
+  ]
+}

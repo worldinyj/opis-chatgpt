@@ -27,3 +27,6 @@ event_id, artifact_id, type, source_version, analysis_version, revision, profile
 
 ## 구현 계약
 [JSON Schema 및 교차검증 계약](CONTRACT.md)으로 확정. 실제 미디어 생성/합성은 MEDIA-004 이후. 예제의 scene은 학습 구간으로 6초 I2V 클립 분할은 제작 설계 단계에서 수행한다.
+
+## 오프라인 실행 구현
+media_v2.py: build/voice-plan/render-still/card/assemble/probe/batch-export/batch-import. 줌 범위 1~2, 정지 구간은 최소 2프레임, 실제 목표 해상도·fps·길이 검사. 정지 이미지 종횡비와 안전영역은 제작자가 사전 확인(현재 렌더러는 중앙 크롭). 배치 결과는 기술검사 후 PENDING 유지, 명시적 검토 필요. I2V 및 음성 생성 호출 없음. 전환 겹침은 계산 가능하나 조립은 컷만 지원.

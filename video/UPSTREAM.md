@@ -16,3 +16,6 @@
 
 ## MEDIA-002 검증 기록 (2026-11-24)
 ZIP 원본 SHA-256 일치, 매니페스트 25/25 크기/해시 일치, 26개 파일 로컬 추출 및 바이트 재조회 완료. GitHub에 원본 26개 파일을 실제 등록하는 단계는 미완료(연결 도구의 로컬 파일 전송 제약). [원본 이식 명령](upstream/README.md) 및 scripts/import_upstream.py로 재현한다. 원본 규칙을 새 공통 계약으로 이식한 사항은 [MIGRATION_MAP](MIGRATION_MAP.md)에 기록. 원본 스크립트의 기능 이식·실행 테스트는 MEDIA-004.
+
+## MEDIA-002 추가 보존 (2026-11-24)
+GitHub 원본 14/26 파일 등록(기존 13개 및 원본 BUNDLE_MANIFEST.json), 원본 ZIP에서 계산한 Git blob SHA-1과 일치. 12개 원본 파일은 로컬 ZIP에 보존되어 있으며 미등록이다. 로컬에서 GitHub 직접 접근 시 DNS 해석 실패. 기존 import_upstream.py를 사용해 전체 원본을 이식할 수 있다. v2 신규 도구는 원본 경로를 수정하지 않는다.

@@ -1,0 +1,2 @@
+# Offline Python dependency; FFmpeg and FFprobe installed separately.
+Pillow>=10

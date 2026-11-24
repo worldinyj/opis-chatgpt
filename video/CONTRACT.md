@@ -10,3 +10,6 @@ JSON Schema Draft 2020-12 여섯 종류: production(세 영상 유형), fact_led
 - 토론: 3 질문, 2 가상 시나리오, 개인/팀 실천과 확인.
 
 검증: JSON Schema(표준 준수는 독립 jsonschema 도구 권장) 및 저장소 자체 교차검증기. 자체 검사기는 이 저장소에서 사용하는 JSON Schema 키워드 부분집합만 지원한다. 상태 전이, 실제 파일 존재·해시, 프롬프트 빌드, 미디어 기술 사양 및 의미 검수는 후속 구현. `node video/tests/validate_pilot.mjs`로 시범 문서를 구조 및 관계 검사한다. 스키마는 형식 계약이지 승인/정확성 보증이 아니다.
+
+## MEDIA-004~005 실행 계층
+[오프라인 제작 도구](scripts/media_v2.py)는 v2 manifest의 계획 출력, 타임라인, 정지 이미지 움직임, 속성 카드, WAV 길이/컷 합성/FFprobe, 외부 배치 입출력을 지원한다. 사용 전 MEDIA-003 계약 검사 필요; Python 도구는 JSON Schema 전체를 재검사하지 않는다. 미작성 대본은 NOT WRITTEN. 겹침 전환은 계획만, 실제 합성은 0 overlap. 배치 수입은 기술검증만 수행하고 ACCEPTED로 자동 변경하지 않는다. 실제 승인 참조 이미지 파일은 사용자가 직접 첨부한다. 전체 기능과 한계는 OFFLINE_RUNBOOK 및 GEMINI_BATCH_GUIDE 참조.
