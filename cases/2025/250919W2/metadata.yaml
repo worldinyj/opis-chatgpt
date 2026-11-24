@@ -1,0 +1,34 @@
+schema_version: "1.0"
+event_id: "250919W2"
+report_number: "2025-07"
+title: "월성2호기 감속재정화계통 필터 상부 덮개를 통한 중수 누설"
+event_date: "2025-09-19"
+report_date: "2026-03-23"
+plant:
+  site: 월성
+  unit: 2
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/accident/SearchAccidentFailPresent.do
+  opis_popup_id: "1029"
+  document_url: null
+  page_count: 40
+  sha256: fb3348d2725396a03689556b717876d8d65c72a79dce6716ae1d8471fe6cec83
+  portal_verification: timeout
+event_classification: 시설 내부 중수 누설 보고대상 사건
+operating_mode: "5 (보증정지)"
+preliminary_ines: 0
+final_ines: null
+analysis:
+  version: "0.1.0"
+  prompt_version: "1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [QA2, QA4, CO1, DM1, DM2, CL1, PI1, PI2, PI3, WP1, WP3, WP4]
+  additional_review_attributes: [PA1, PA2, PA3, QA1, QA3, CO2, LA5, LA6, LA7, CL2, PI4, WP2]
+  insufficient_or_low_relevance_attributes: [CO3, CO4, LA1, LA2, LA3, LA4, LA8, DM3, WE1, WE2, WE3, WE4, CL3, CL4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false
