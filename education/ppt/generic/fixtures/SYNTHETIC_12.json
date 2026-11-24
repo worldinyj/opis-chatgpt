@@ -1,0 +1,346 @@
+{
+  "schema_version": "1.0",
+  "event_id": "SYNTHETIC-X",
+  "analysis_version": "test.1",
+  "standard_version": "1.0",
+  "case_type": "SYNTHETIC_TEST",
+  "status": "DESIGN_DRAFT",
+  "can_ship": false,
+  "source": {
+    "issuer": "TEST",
+    "report_number": "SYN-000",
+    "report_date": "가상 날짜",
+    "sha256": null
+  },
+  "fact_ids": [
+    "TF01"
+  ],
+  "learning": [
+    {
+      "id": "TL01",
+      "attribute_codes": [
+        "WE1",
+        "RC2",
+        "LA6",
+        "PA2"
+      ]
+    }
+  ],
+  "core_attribute_codes": [
+    "WE1",
+    "RC2",
+    "LA6",
+    "PA2"
+  ],
+  "additional_attribute_codes": [
+    "QA1"
+  ],
+  "target_slides": 12,
+  "slides": [
+    {
+      "id": "S01",
+      "pattern": "COVER",
+      "title": "가상 시험 사례",
+      "section": "가상 시험 · 실제 사건 아님",
+      "label": "COVER",
+      "lead": "편집 가능한 교안 시험",
+      "cards": [
+        [
+          "목적",
+          "실제 사건이 아닌 테스트 자료"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | 가상 시험 데이터; 실제 사건이나 취약 판정이 아니다.",
+      "fact_ids": [
+        "TF01"
+      ],
+      "learning_ids": [
+        "TL01"
+      ]
+    },
+    {
+      "id": "S02",
+      "pattern": "ACTION",
+      "title": "학습 목표",
+      "section": "가상 시험 · 실제 사건 아님",
+      "label": "ACTION",
+      "lead": "가상의 기록을 검토한다",
+      "cards": [
+        [
+          "목표",
+          "질문과 기록의 연결"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | 가상 시험 데이터; 실제 사건이나 취약 판정이 아니다.",
+      "fact_ids": [
+        "TF01"
+      ],
+      "learning_ids": [
+        "TL01"
+      ]
+    },
+    {
+      "id": "S03",
+      "pattern": "FACT",
+      "title": "가상 사건 개요",
+      "section": "가상 시험 · 실제 사건 아님",
+      "label": "FACT",
+      "lead": "임의의 정보이며 실제 사실이 아니다",
+      "cards": [
+        [
+          "날짜",
+          "가상 날짜 A"
+        ],
+        [
+          "장소",
+          "가상 시설 X"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | 가상 시험 데이터; 실제 사건이나 취약 판정이 아니다.",
+      "fact_ids": [
+        "TF01"
+      ],
+      "learning_ids": [
+        "TL01"
+      ],
+      "detail": "가상 기록 검토를 위한 합성 입력"
+    },
+    {
+      "id": "S04",
+      "pattern": "TIME",
+      "title": "가상 시간 흐름",
+      "section": "가상 시험 · 실제 사건 아님",
+      "label": "TIME",
+      "lead": "순서는 테스트용",
+      "cards": [
+        [
+          "단계 A",
+          "기록 확인"
+        ],
+        [
+          "단계 B",
+          "가상 검토"
+        ],
+        [
+          "단계 C",
+          "후속 확인"
+        ],
+        [
+          "단계 D",
+          "정리"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | 가상 시험 데이터; 실제 사건이나 취약 판정이 아니다.",
+      "fact_ids": [
+        "TF01"
+      ],
+      "learning_ids": [
+        "TL01"
+      ]
+    },
+    {
+      "id": "S05",
+      "pattern": "CAUSE",
+      "title": "가상 직접·관리 원인",
+      "section": "가상 시험 · 실제 사건 아님",
+      "label": "CAUSE",
+      "lead": "실제 원인 판단 아님",
+      "cards": [
+        [
+          "D 시험",
+          "가상 조건"
+        ],
+        [
+          "R 시험",
+          "기록 검토"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | 가상 시험 데이터; 실제 사건이나 취약 판정이 아니다.",
+      "fact_ids": [
+        "TF01"
+      ],
+      "learning_ids": [
+        "TL01"
+      ]
+    },
+    {
+      "id": "S06",
+      "pattern": "PRINC",
+      "title": "원칙 학습",
+      "section": "가상 시험 · 실제 사건 아님",
+      "label": "PRINC",
+      "lead": "검토할 행동의 예시",
+      "cards": [
+        [
+          "WE 분명한 존중",
+          "서로 의견을 듣는다"
+        ],
+        [
+          "RC 우려 제기",
+          "질문을 기록한다"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | 가상 시험 데이터; 실제 사건이나 취약 판정이 아니다.",
+      "fact_ids": [
+        "TF01"
+      ],
+      "learning_ids": [
+        "TL01"
+      ]
+    },
+    {
+      "id": "S07",
+      "pattern": "ATTR",
+      "title": "후보 종합",
+      "section": "가상 시험 · 실제 사건 아님",
+      "label": "ATTR",
+      "lead": "자동 생성",
+      "cards": [],
+      "minutes": 2,
+      "speaker_notes": "2분 | 가상 시험 데이터; 실제 사건이나 취약 판정이 아니다.",
+      "fact_ids": [
+        "TF01"
+      ],
+      "learning_ids": [
+        "TL01"
+      ]
+    },
+    {
+      "id": "S08",
+      "pattern": "METRIC",
+      "title": "가상 측정값",
+      "section": "가상 시험 · 실제 사건 아님",
+      "label": "METRIC",
+      "lead": "실제 방사선·원전 데이터 아님",
+      "cards": [
+        [
+          "시험 지표",
+          "42.7 test-unit"
+        ],
+        [
+          "시험 기간",
+          "가상 기간 B"
+        ],
+        [
+          "확인 상태",
+          "미확정"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | 가상 시험 데이터; 실제 사건이나 취약 판정이 아니다.",
+      "fact_ids": [
+        "TF01"
+      ],
+      "learning_ids": [
+        "TL01"
+      ],
+      "detail": "시험용 보조 수치 8.1"
+    },
+    {
+      "id": "S09",
+      "pattern": "ACTION",
+      "title": "가상 개선안",
+      "section": "가상 시험 · 실제 사건 아님",
+      "label": "ACTION",
+      "lead": "대책은 테스트용",
+      "cards": [
+        [
+          "단기",
+          "기록 확인"
+        ],
+        [
+          "추가",
+          "효과 검토"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | 가상 시험 데이터; 실제 사건이나 취약 판정이 아니다.",
+      "fact_ids": [
+        "TF01"
+      ],
+      "learning_ids": [
+        "TL01"
+      ]
+    },
+    {
+      "id": "S10",
+      "pattern": "ACTION",
+      "title": "토론 질문",
+      "section": "가상 시험 · 실제 사건 아님",
+      "label": "ACTION",
+      "lead": "가상 교육 상황",
+      "cards": [
+        [
+          "Q1",
+          "어떤 기록이 필요한가?"
+        ],
+        [
+          "Q2",
+          "누구와 공유하는가?"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | 가상 시험 데이터; 실제 사건이나 취약 판정이 아니다.",
+      "fact_ids": [
+        "TF01"
+      ],
+      "learning_ids": [
+        "TL01"
+      ]
+    },
+    {
+      "id": "S11",
+      "pattern": "ACTION",
+      "title": "개인·팀 실천",
+      "section": "가상 시험 · 실제 사건 아님",
+      "label": "ACTION",
+      "lead": "실행은 가상 시험",
+      "cards": [
+        [
+          "개인",
+          "질문 기록"
+        ],
+        [
+          "팀",
+          "검토 기준 확인"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | 가상 시험 데이터; 실제 사건이나 취약 판정이 아니다.",
+      "fact_ids": [
+        "TF01"
+      ],
+      "learning_ids": [
+        "TL01"
+      ]
+    },
+    {
+      "id": "S12",
+      "pattern": "END",
+      "title": "마무리",
+      "section": "가상 시험 · 실제 사건 아님",
+      "label": "END",
+      "lead": "사실과 가정을 구분한다",
+      "cards": [
+        [
+          "교훈",
+          "확인하고 공유한다"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | 가상 시험 데이터; 실제 사건이나 취약 판정이 아니다.",
+      "fact_ids": [
+        "TF01"
+      ],
+      "learning_ids": [
+        "TL01"
+      ]
+    }
+  ]
+}
