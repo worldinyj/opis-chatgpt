@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.0",
+  "job_id": "SC-250314SH2-BATCH01",
+  "event_id": "250314SH2",
+  "artifact_id": "SC-250314SH2",
+  "manifest_revision": 1,
+  "route": "GEMINI_TASKS_BATCH",
+  "aspect_ratio": "16:9",
+  "jobs": [
+    {
+      "id": "SC-250314SH2-S07",
+      "scene_id": "S07",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9 educational 3D brick miniature, fictional generic meeting room, two neutral staff reviewing blank document cards; 공유와 재검토. Stable costume, neutral expressions, no real nuclear plant, no labels, no visible technical diagram, no logo, no operational detail. Attach approved LOC-A CHAR-A CHAR-B OBJ-A before execution.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S07_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-250314SH2-S15",
+      "scene_id": "S15",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9 educational 3D brick miniature, fictional generic meeting room, two neutral staff reviewing blank document cards; 개인 실천. Stable costume, neutral expressions, no real nuclear plant, no labels, no visible technical diagram, no logo, no operational detail. Attach approved LOC-A CHAR-A CHAR-B OBJ-A before execution.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S15_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-250314SH2-S16",
+      "scene_id": "S16",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9 educational 3D brick miniature, fictional generic meeting room, two neutral staff reviewing blank document cards; 팀 실천. Stable costume, neutral expressions, no real nuclear plant, no labels, no visible technical diagram, no logo, no operational detail. Attach approved LOC-A CHAR-A CHAR-B OBJ-A before execution.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S16_still_v01.png",
+      "attempt": 1
+    }
+  ],
+  "results": []
+}

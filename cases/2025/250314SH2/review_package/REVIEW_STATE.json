@@ -1,0 +1,20 @@
+{
+  "event_id": "250314SH2",
+  "analysis_version": "0.1.0",
+  "source_sha256": "c79f5dab8a197d8b17e0addb985cf4a43640f610a74e0d5b188576dfc2589d4f",
+  "report_status": "DRAFT",
+  "expert_content_review": "PENDING",
+  "expert_attribute_review": "USER_SEPARATE_REVIEW_PENDING",
+  "independent_review": "PENDING",
+  "can_ship": false,
+  "media_status": "SCRIPT_DRAFT",
+  "ppt_status": "GENERATED_DRAFT_RENDER_PENDING",
+  "source_issues": [
+    "표지 날짜 불일치",
+    "기초 INES 숫자 및 최종 미확인",
+    "대책 현재 이행 미확인",
+    "CAP 및 리더 행동 자료 미확인"
+  ],
+  "paid_generation_calls": 0,
+  "external_submissions": 0
+}

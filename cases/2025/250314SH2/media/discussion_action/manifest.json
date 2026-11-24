@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "250314SH2",
+  "artifact_id": "DA-250314SH2",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "경고 이후의 질문 — 토론 및 실천",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2025-03",
+    "report_date": "2025-08-13",
+    "sha256": "c79f5dab8a197d8b17e0addb985cf4a43640f610a74e0d5b188576dfc2589d4f"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "같은 정례업무라도 운전조건이 달라졌을 때 어떤 정보를 누구와 공동 검토해야 하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "감시기 경고 이후 시료가 검출하한치 미만이면 무엇이 확인됐고 무엇은 아직 모르는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "반복되는 짧은 이상 신호를 어떻게 종합 평가하고 후속조치의 효과를 확인할 것인가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상 산업시설에서 서로 다른 팀이 정례업무를 준비한다. 한 팀이 알고 있는 상태 변화가 다른 팀의 검토 자료에 표시되지 않았다.",
+      "learning_ids": [
+        "L01"
+      ],
+      "facilitator_prompt": "1분 개인, 2분 짝 토론, 2분 공유. 확인 사실·미확인 정보·공유 책임·재검토 기록을 구분한다. 실제 조작을 모의하지 않는다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상의 감시 기록에 짧은 이상 신호가 반복되나 뒤늦은 독립 확인에서는 검출한계 미만으로 표시된다.",
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "facilitator_prompt": "1분 개인, 2분 팀 토론, 2분 공유. 신호와 후속 측정의 시간 차, 불확실성, 공식 원인 평가와 후속조치 확인을 논의한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "업무 시작 전 변화된 조건과 관련 부서 확인 사항을 승인된 절차에 따라 질의한다.",
+      "verification": "변경사항·질의·회신 근거 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "경고 기록과 후속 측정 결과의 의미를 구분해 보고한다.",
+      "verification": "확인된 사실/미확인 사항 구분 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "반복되는 이상 신호를 공식 보고체계에 연결하고 결과를 확인한다.",
+      "verification": "보고 및 후속 확인 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "관련 부서 공동 상황인식 및 변경 위험검토 절차의 적절성을 표본 점검한다.",
+      "verification": "관련 업무 표본 중 공동 확인 기록 비율; 기간·분모 정의",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "일시적 경고와 검출한계 미만 결과를 처리하는 절차와 교육을 검토한다.",
+      "verification": "사례별 판단 근거·후속 평가 기록의 적정성",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "반복 이상 종합평가와 조치의 효과 확인을 정기적으로 검토한다.",
+      "verification": "대상 조치별 책임·기한·재발 확인 기록; 단순 완료율과 구분",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

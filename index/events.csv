@@ -1,2 +1,3 @@
 event_id,event_date,report_date,plant,title,status,approved
 250919W2,2025-09-19,2026-03-23,월성2호기,월성2호기 감속재정화계통 필터 상부 덮개를 통한 중수 누설,DRAFT,false
+250314SH2,2025-03-14,2025-08-13,신한울2호기,신한울2호기 보조건물 관리구역 정상배기 공기정화기 입구 방사선감시기 경보 발생,DRAFT,false

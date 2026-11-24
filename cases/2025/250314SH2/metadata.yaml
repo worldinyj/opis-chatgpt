@@ -1,0 +1,35 @@
+schema_version: "1.0"
+event_id: "250314SH2"
+report_number: "2025-03"
+title: "신한울2호기 보조건물 관리구역 정상배기 공기정화기 입구 방사선감시기 경보 발생"
+event_date: "2025-03-14"
+report_date: "2025-08-13"
+plant:
+  site: 신한울
+  unit: 2
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/accident/SearchAccidentFailPresent.do
+  opis_popup_id: "1025"
+  document_url: null
+  page_count: 35
+  sha256: c79f5dab8a197d8b17e0addb985cf4a43640f610a74e0d5b188576dfc2589d4f
+  portal_verification: user_supplied_attachment
+  cover_date_discrepancy: "2024-03-14 vs body 2025-03-14"
+event_classification: 누설에 의한 방사선감시기 고방사선경보 작동 보고대상
+operating_mode: "5 (상온정지)"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  prompt_version: "1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP1, WP3, CO1, QA2, QA4, DM1, DM2, PI2]
+  additional_review_attributes: [PA2, PA3, QA1, QA3, CO2, CO3, LA5, LA6, LA7, CL1, CL2, CL3, PI1, PI3, PI4, WP2]
+  insufficient_or_low_relevance_attributes: [PA1, CO4, LA1, LA2, LA3, LA4, LA8, DM3, WE1, WE2, WE3, WE4, CL4, RC1, RC2, WP4]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false

@@ -1,0 +1,760 @@
+{
+  "schema_version": "2.0",
+  "event_id": "250314SH2",
+  "artifact_id": "SC-250314SH2",
+  "artifact_type": "SAFETY_CULTURE_LEARNING",
+  "title": "경고가 사라졌다고 문제가 사라진 것은 아니다",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2025-03",
+    "report_date": "2025-08-13",
+    "sha256": "c79f5dab8a197d8b17e0addb985cf4a43640f610a74e0d5b188576dfc2589d4f"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "16:9",
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "language": "ko",
+    "style": "controlled graphic + hypothetical 3D brick miniature"
+  },
+  "timing": {
+    "target_seconds": 120
+  },
+  "learning_objectives": [
+    "변화된 조건과 부서 간 정보를 공동 검토한다.",
+    "검출한계와 감시기 기록을 함께 해석하고 불확실성을 다룬다.",
+    "이상징후를 종합 평가하고 조치 효과를 확인한다."
+  ],
+  "references": [
+    {
+      "id": "LOC-A",
+      "kind": "LOCATION",
+      "description": "가상의 브릭 교육 회의실. 밝은 회색 벽, 청회색 테이블, 실제 시설 배치 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-A",
+      "kind": "CHARACTER",
+      "description": "가상 업무 담당자. 청회색 상의, 중립 표정, 실제 인물 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-B",
+      "kind": "CHARACTER",
+      "description": "가상 검토 담당자. 짙은 청색 상의, 중립 표정, 실제 인물 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "OBJ-A",
+      "kind": "OTHER",
+      "description": "글자 없는 교육용 기록 카드와 문서철. 실제 계기·도면 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "경고가 사라졌다고 문제가 사라진 것은 아니다",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "경고가 사라져도 문제는 남을 수 있습니다.",
+      "overlay": [
+        "경고가 사라졌다고 문제가 사라진 것은 아니다",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "사건 개요",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F01"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "상온정지 중 방사선감시기 경보가 발생했습니다.",
+      "overlay": [
+        "사건 개요",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "선행 경고",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F08",
+        "F09"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "두 차례 선행 경고가 있었지만 오경보로 판단했습니다.",
+      "overlay": [
+        "선행 경고",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "긍정 대응",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F10"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "발전부는 경고부터 선제적으로 절차를 적용했습니다.",
+      "overlay": [
+        "긍정 대응",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "조건 변화",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F02",
+        "F07"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "CO1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "조건이 달라지면 판단 기준을 다시 살펴야 합니다.",
+      "overlay": [
+        "조건 변화",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S06",
+      "title": "공동 상황인식",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F05"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "CO1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "관련 팀이 같은 상태 정보를 알고 있는지 확인합니다.",
+      "overlay": [
+        "공동 상황인식",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S07",
+      "title": "공유와 재검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "CO1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 브릭 회의실에서 문서 카드 검토. 인물과 배경 고정. 실제 시설·계기·조작 재현 없음.",
+      "narration": "확인된 정보와 미확인 정보를 나누어 검토합니다.",
+      "overlay": [
+        "공유와 재검토",
+        "교육용 가상 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S08",
+      "title": "불확실성",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F09"
+      ],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "QA",
+        "DM"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "검출되지 않았다는 말은 무엇을 의미할까요?",
+      "overlay": [
+        "불확실성",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S09",
+      "title": "판단 근거",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F08",
+        "F09"
+      ],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "QA",
+        "DM"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "기록과 후속 측정의 의미를 구별합니다.",
+      "overlay": [
+        "판단 근거",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S10",
+      "title": "재검토 요청",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "QA",
+        "DM"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2"
+      ],
+      "render_mode": "I2V",
+      "generation_route": "INDIVIDUAL",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 브릭 회의실에서 문서 카드 검토. 인물과 배경 고정. 실제 시설·계기·조작 재현 없음.",
+      "narration": "불확실한 판단은 승인된 절차로 다시 검토합니다.",
+      "overlay": [
+        "재검토 요청",
+        "교육용 가상 상황"
+      ],
+      "input_mode": "single_start",
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S11",
+      "title": "반복 신호",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F08",
+        "F11"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "attribute_codes": [
+        "PI2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "반복되는 신호는 함께 평가할 정보입니다.",
+      "overlay": [
+        "반복 신호",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S12",
+      "title": "원인과 조치",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F09",
+        "F10"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "attribute_codes": [
+        "PI2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "문제의 원인과 개선 방향을 공식적으로 검토합니다.",
+      "overlay": [
+        "원인과 조치",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S13",
+      "title": "효과 확인",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F15"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "attribute_codes": [
+        "PI2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "조치 완료와 실제 효과는 서로 다릅니다.",
+      "overlay": [
+        "효과 확인",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S14",
+      "title": "5원칙·8개 핵심 후보",
+      "duration_seconds": 18,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "ATTRIBUTE_SUMMARY",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO",
+        "QA",
+        "DM",
+        "PI"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "CO1",
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2",
+        "PI2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "다섯 원칙의 여덟 후보를 살펴봅니다. 교육용 해석이며 공식 평가가 아닙니다.",
+      "overlay": [
+        "5원칙·8개 핵심 후보",
+        "WP · WP1 작업 관리 / WP3 문서화",
+        "CO · CO1 업무 소통",
+        "QA · QA2 불확실성 확인 / QA4 자만 방지",
+        "DM · DM1 일관적 프로세스 / DM2 보수적 성향",
+        "PI · PI2 문제 평가",
+        "AI 교육 후보 · 공식 평가 아님 · 미선정은 양호 아님"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S15",
+      "title": "개인 실천",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO",
+        "QA",
+        "DM"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "CO1",
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 브릭 회의실에서 문서 카드 검토. 인물과 배경 고정. 실제 시설·계기·조작 재현 없음.",
+      "narration": "확인하지 못한 사항을 기록하고 공유합니다.",
+      "overlay": [
+        "개인 실천",
+        "교육용 가상 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S16",
+      "title": "팀 실천",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "attribute_codes": [
+        "PI2"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 브릭 회의실에서 문서 카드 검토. 인물과 배경 고정. 실제 시설·계기·조작 재현 없음.",
+      "narration": "반복 문제의 평가와 후속 확인을 함께 점검합니다.",
+      "overlay": [
+        "팀 실천",
+        "교육용 가상 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S17",
+      "title": "현장 질문",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "REFLECTION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "QA",
+        "DM",
+        "PI"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2",
+        "PI2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "우리 팀은 경고 뒤의 질문을 어떻게 다룹니까?",
+      "overlay": [
+        "현장 질문",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S18",
+      "title": "핵심 교훈",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 카드/단순 도형. 원본 사실 또는 교육 해석 표시. 수치와 글자는 편집기에서 입력.",
+      "narration": "경고가 사라져도 원인 확인은 계속됩니다.",
+      "overlay": [
+        "핵심 교훈",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}
