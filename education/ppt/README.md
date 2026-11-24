@@ -1,4 +1,4 @@
-# 집합교육 PPT 제작 체계 계획 V1.0
+# 집합교육 PPT 제작 체계 MVP V1.1
 
 기본 16:9, 편집 가능한 PPTX. 10~14장 권장이나 교육시간에 맞춰 조정. 원본·보고서·학습 원장에 연결된 슬라이드 설계. 텍스트/표/도형/차트는 가능한 네이티브 PPT 요소로 작성하며 이미지와 동영상은 교체 가능한 별도 자산. 발표자 노트에 근거 페이지, 설명, 질문, 예상 토론 포인트, 학습 확인을 포함.
 
@@ -16,4 +16,13 @@
 PPT의 사건영상/교육영상 삽입은 선택. 영상 없어도 교육 가능하도록 구성. 실제 작업 단계 재현이 아닌 관리·판단·소통 사례 중심.
 
 ## 향후 개발
-slide_manifest.json(슬라이드 ID, 유형, 제목, 내용, 근거 IDs, asset refs, 노트, 검토), 공통 마스터와 16:9 레이아웃, 생성 스크립트/네이티브 편집성 검증, 슬라이드 렌더링/겹침·넘침·가독성 검사, 파일 버전과 승인. 현재는 제작 계획만 문서화하며 템플릿 및 PPTX는 미생성.
+slide_manifest.json(슬라이드 ID, 유형, 제목, 내용, 근거 IDs, asset refs, 노트, 검토), 공통 마스터와 16:9 레이아웃, 생성 스크립트/네이티브 편집성 검증, 슬라이드 렌더링/겹침·넘침·가독성 검사, 파일 버전과 승인. MEDIA-007에서 템플릿 및 Node.js 기반 네이티브 PPTX 생성기를 구현했으며 실제 첫 사례 12장 PPTX를 저장했다. 승인 전 초안이다.
+
+## 실행 및 검증
+Node.js 22에서 외부 npm 패키지·유료 API 없이 결정적 ZIP/OOXML 출력. 저장소 루트에서:
+
+```sh
+node education/ppt/scripts/generate.mjs cases/2025/250919W2/media/classroom_ppt/slide_manifest.json /tmp/OPIS_250919W2_Classroom_R2.pptx
+```
+
+[디자인 시스템](templates/DESIGN_SYSTEM.md) · [작성 양식](templates/SLIDE_TEMPLATE.md) · [실행 검증](tests/VALIDATION_MEDIA007.md). PPTX는 텍스트와 도형 편집 가능, 발표자 노트 내장. 실제 PowerPoint 앱과 현장 투사 테스트는 미수행. 향후 다양한 템플릿, 자동 텍스트 넘침 검출, 다수 속성 그룹 레이아웃 및 영상 삽입 지원 필요.

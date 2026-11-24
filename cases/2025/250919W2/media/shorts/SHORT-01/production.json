@@ -4,10 +4,10 @@
   "artifact_id": "SM-250919W2-01",
   "artifact_type": "KEY_MESSAGE_SHORT",
   "title": "변경된 조건, 변경되어야 할 계획",
-  "revision": 1,
-  "status": "PLANNED",
+  "revision": 2,
+  "status": "SCRIPT_DRAFT",
   "source": {
-    "document_path": "../source.md",
+    "document_path": "../../../source.md",
     "report_number": "2025-07",
     "report_date": "2026-03-23",
     "sha256": "fb3348d2725396a03689556b717876d8d65c72a79dce6716ae1d8471fe6cec83"
@@ -34,7 +34,40 @@
   "learning_objectives": [
     "변경을 승인 문서와 공통 이해에 연결한다."
   ],
-  "references": [],
+  "references": [
+    {
+      "id": "LOC-A",
+      "kind": "LOCATION",
+      "description": "가상 브릭 교육용 회의실, 무광 연회색 벽, 청회색 탁자, 불특정 산업시설, 실제 발전소 배치 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-A",
+      "kind": "CHARACTER",
+      "description": "가상의 업무 담당자, 짧은 검은 머리, 청회색 상의, 중립적 표정, 얼굴·몸체·복장 일관. 실제 종사자 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-B",
+      "kind": "CHARACTER",
+      "description": "가상의 검토 담당자, 짧은 갈색 머리, 짙은 청색 상의, 차분한 자세. 실제 종사자 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "OBJ-A",
+      "kind": "OTHER",
+      "description": "일반 교육용 빈 문서철, 종이 및 체크리스트 모형, 글자·도면·수치 없음.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    }
+  ],
   "scenes": [
     {
       "id": "S01",
@@ -50,10 +83,11 @@
       "generation_route": "LOCAL_EDIT",
       "location_id": null,
       "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 변경을 발견했나요?",
-      "narration": "",
+      "visual_brief": "네이비 배경. 중앙에 질문 문구와 작은 문서 아이콘. 글자는 후반 삽입.",
+      "narration": "조건이 달라졌는데, 계획은 그대로인가요?",
       "overlay": [
-        "변경을 발견했나요?"
+        "변경을 발견했나요?",
+        "안전문화 교육용 초안"
       ],
       "input_mode": null,
       "motion_plan": null,
@@ -64,11 +98,13 @@
     },
     {
       "id": "S02",
-      "title": "작업계획과 소통",
+      "title": "작업계획의 재검토",
       "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
       "scene_type": "INTERPRETATION",
-      "fact_ids": [],
+      "fact_ids": [
+        "F02"
+      ],
       "learning_ids": [
         "L01"
       ],
@@ -81,17 +117,22 @@
       ],
       "render_mode": "STILL_MOTION",
       "generation_route": "GEMINI_TASKS_BATCH",
-      "location_id": null,
-      "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 작업계획과 소통",
-      "narration": "",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "CHAR-A",
+        "LOC-A",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 교육 회의실에서 문서철을 검토하는 업무 담당자. 실제 사건 장면 아님.",
+      "narration": "조사보고서는 작업계획 변경 관리의 미흡을 지적했습니다.",
       "overlay": [
-        "작업계획과 소통"
+        "조사 결과",
+        "작업계획 변경 관리"
       ],
       "input_mode": null,
       "motion_plan": {
         "start_scale": 1,
-        "end_scale": 1.08,
+        "end_scale": 1.06,
         "pan": "NONE"
       },
       "transition": "CUT",
@@ -101,7 +142,7 @@
     },
     {
       "id": "S03",
-      "title": "가상 상황",
+      "title": "가상 상황: 다른 조건 발견",
       "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
       "scene_type": "HYPOTHETICAL",
@@ -117,17 +158,22 @@
       ],
       "render_mode": "STILL_MOTION",
       "generation_route": "INDIVIDUAL",
-      "location_id": null,
-      "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 가상 상황",
-      "narration": "",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "CHAR-A",
+        "LOC-A",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 회의실에서 담당자가 문서 두 장을 비교하며 잠시 확인하는 중립적 장면.",
+      "narration": "가상 상황입니다. 계획과 다른 조건을 발견했습니다.",
       "overlay": [
-        "가상 상황"
+        "교육용 가상 상황",
+        "계획과 다른 조건 발견"
       ],
       "input_mode": null,
       "motion_plan": {
-        "start_scale": 1,
-        "end_scale": 1.08,
+        "start_scale": 1.08,
+        "end_scale": 1,
         "pan": "NONE"
       },
       "transition": "CUT",
@@ -137,7 +183,7 @@
     },
     {
       "id": "S04",
-      "title": "가상 안전 행동",
+      "title": "가상 대안: 재검토 요청",
       "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
       "scene_type": "HYPOTHETICAL",
@@ -153,17 +199,23 @@
       ],
       "render_mode": "STILL_MOTION",
       "generation_route": "INDIVIDUAL",
-      "location_id": null,
-      "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 가상 안전 행동",
-      "narration": "",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "CHAR-A",
+        "CHAR-B",
+        "LOC-A",
+        "OBJ-A"
+      ],
+      "visual_brief": "같은 회의실에서 담당자와 검토 담당자가 문서철을 함께 살펴봄. 고개나 표정 과장 없음.",
+      "narration": "조건이 다르면 확인하고 재검토를 요청합니다.",
       "overlay": [
-        "가상 안전 행동"
+        "교육용 가상 상황",
+        "확인 · 재검토 요청"
       ],
       "input_mode": null,
       "motion_plan": {
         "start_scale": 1,
-        "end_scale": 1.08,
+        "end_scale": 1.06,
         "pan": "NONE"
       },
       "transition": "CUT",
@@ -173,7 +225,7 @@
     },
     {
       "id": "S05",
-      "title": "변경 시 승인된 절차로 재검토",
+      "title": "핵심 메시지",
       "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
       "scene_type": "OUTRO",
@@ -191,10 +243,12 @@
       "generation_route": "LOCAL_EDIT",
       "location_id": null,
       "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 변경 시 승인된 절차로 재검토",
-      "narration": "",
+      "visual_brief": "통제형 제목과 행동 문구; 배경 네이비, 고대비.",
+      "narration": "조건이 바뀌면, 승인된 계획도 다시 검토합시다.",
       "overlay": [
-        "변경 시 승인된 절차로 재검토"
+        "WP 작업 프로세스",
+        "변경된 조건, 변경되어야 할 계획",
+        "KINS 2025-07호 · AI 교육용 해석"
       ],
       "input_mode": null,
       "motion_plan": null,

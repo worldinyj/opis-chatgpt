@@ -71,3 +71,6 @@ KINS 원본 중심: 사건 배경과 계획정비 상황 → 누설 확인과 �
 
 ## MEDIA-006 상세 제작 설계 R2
 [사건 이해 영상 대본](incident_understanding/SCRIPT.md) · [안전문화 교육영상 대본](safety_culture_learning/SCRIPT.md) · [검증기록](MEDIA006_VALIDATION.md). 두 영상 120초 16:9, 이해 영상 20구간, 교육영상 18구간(17×6초 및 18초 카드 1개). 기준 이미지 및 실제 제작 미실행, 외부 배치 초안 실행 금지. 기존 보고서 DRAFT 유지.
+
+## MEDIA-007 숏폼 및 집합교육 PPT
+[30초 숏폼 상세 대본](shorts/SHORT-01/SCRIPT.md) · [실제 12장 PPTX](classroom_ppt/OPIS_250919W2_Classroom_R2.pptx) · [진행자 안내](classroom_ppt/FACILITATOR_GUIDE.md) · [검증 기록](MEDIA007_VALIDATION.md). PPT 파일은 로컬 실제 렌더링본과 동일한 바이트를 GitHub에 저장. 교육용 초안이며 승인 대기.
