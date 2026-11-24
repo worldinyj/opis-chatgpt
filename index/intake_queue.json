@@ -90,11 +90,11 @@
           "size_bytes": 11276268
         }
       ],
-      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "status": "DRAFT_REGISTERED_RENDER_VERIFIED",
       "event_id": "240319W3",
       "verified_event_date": "2024-03-19",
       "from_prior_table": false,
-      "notes": "분석·원장·영상 3종 설계·토론·16장 PPTX 등록. PPT 렌더/A4 출력·전문가 검토 및 OPIS 상세 ID 대기.",
+      "notes": "분석·원장·영상 3종 설계·토론·16장 PPTX 등록. Git blob 일치 및 실제 16장 렌더/A4 7쪽 확인. 전문가 검토 및 OPIS 상세 ID 대기.",
       "source_sha256": "fdb886161c5c51b07b2ac823068feb5d6b6a4a5216f303aeda7ffc1a14969ccf"
     },
     {
@@ -670,11 +670,6 @@
     {
       "queue_id": "ROOT-003",
       "event_id": "240513W4",
-      "task": "PPT_RENDER_AND_REPORT_PAGE_CHECK"
-    },
-    {
-      "queue_id": "ROOT-004",
-      "event_id": "240319W3",
       "task": "PPT_RENDER_AND_REPORT_PAGE_CHECK"
     }
   ]

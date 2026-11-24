@@ -8,8 +8,13 @@
   "independent_review": "PENDING",
   "can_ship": false,
   "media_status": "SCRIPT_DRAFT",
-  "ppt_status": "GENERATED_DRAFT_RENDER_PENDING",
+  "ppt_status": "GENERATED_DRAFT_RENDER_VERIFIED",
   "paid_generation_calls": 0,
   "external_submissions": 0,
-  "ppt_git_blob": "0403f08057cac894e3cf3d6697377f674cf08d13"
+  "ppt_git_blob": "0403f08057cac894e3cf3d6697377f674cf08d13",
+  "report_page_count": 7,
+  "report_page_count_verified": true,
+  "ppt_local_git_blob_match": true,
+  "ppt_rendered_pages": 16,
+  "author_technical_review": "PASS"
 }
