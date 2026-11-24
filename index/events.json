@@ -73,5 +73,27 @@
       "WP4"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "240908HB6",
+    "event_date": "2024-09-08",
+    "report_date": "2025-07-07",
+    "plant": "한빛6호기",
+    "title": "한빛6호기 기체방사성물질 배출운전 중 격납건물 배기감시기를 통한 연속감시 미수행",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": 0,
+    "final_ines": null,
+    "path": "cases/2024/240908HB6/report.md",
+    "candidate_attributes": [
+      "WP1",
+      "WP2",
+      "WP3",
+      "QA2",
+      "QA4",
+      "DM1",
+      "PI2"
+    ],
+    "approved_attributes": []
   }
 ]

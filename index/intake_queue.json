@@ -56,11 +56,12 @@
           "size_bytes": 3300962
         }
       ],
-      "status": "NEXT_SOURCE_TEXT_READ",
+      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
       "event_id": "240908HB6",
       "verified_event_date": "2024-09-08",
       "from_prior_table": true,
-      "notes": "원본 2024-13호(240908HB6), 2025-07-07 발행. 본문 사건발생 2024-09-08, 운영자 확인 2024-12-24, 표지 사건발견일/보고 2024-12-27. 목록 순서와 사건발생일 분리. 원본 텍스트 앞부분 확인; 전체 분석 및 원본 해시/렌더 아직 미수행."
+      "notes": "분석·F/L·토론 초안 등록; 영상·PPT 및 검증 계속 진행.",
+      "source_sha256": "62a1417f0743f9fd1d81ef4c93a83b81f77daf27547ff58922cc0bac2fdba7b3"
     },
     {
       "queue_order": 3,

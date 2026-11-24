@@ -1,0 +1,306 @@
+{
+  "schema_version": "2.0",
+  "event_id": "240908HB6",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2024-13",
+    "report_date": "2025-07-07",
+    "sha256": "62a1417f0743f9fd1d81ef4c93a83b81f77daf27547ff58922cc0bac2fdba7b3"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "statement": "2024.09.08. 11:04 발생, 핵연료 전량 인출 상태. 표지 발견일 2024.12.27.",
+      "section": "요약, 2",
+      "printed_pages": [
+        1,
+        3,
+        4
+      ],
+      "pdf_pages": [
+        3,
+        5,
+        6
+      ],
+      "qualification": "발생·운영자 확인·보고일 구분",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "2024.08.20~09.06 계획예방정비 중 PSR 후속조치로 방사선감시계통 설계변경 수행.",
+      "section": "2.2, 3.1",
+      "printed_pages": [
+        3,
+        5
+      ],
+      "pdf_pages": [
+        5,
+        7
+      ],
+      "qualification": "PSR 자체의 적절성 판정 아님",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "교체품 변경사항이 공급사 도면에 반영되지 않아 기존 도면으로 시공하면서 결선 오류 발생, 감시기능 미확보.",
+      "section": "3.2.1",
+      "printed_pages": [
+        6,
+        7,
+        8
+      ],
+      "pdf_pages": [
+        8,
+        9,
+        10
+      ],
+      "qualification": "세부 결선도 복제 없음",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "구매 기술규격서에 공급사 변경문서 제출요건이 없었고 변경 도면을 받지 못함.",
+      "section": "3.2.2",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "qualification": "공급사 고의·계약위반 단정 금지",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "물리적 형상 변경으로 판단하여 종합성능시험을 정주기시험으로 대체. 대체 시험은 변경 설비 동작 확인을 포함하지 않음. 배관 검사·누설시험은 수행.",
+      "section": "3.2.2",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "qualification": "모든 시험 미수행 아님",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "초기기동 및 배출 중 감시기 실제 상태를 충분히 확인할 절차가 없었고 일부 정상 지시로 정상 작동 판단. 기록값 변화 검토 절차도 없음.",
+      "section": "3.2.2, 붙임6",
+      "printed_pages": [
+        10,
+        11,
+        32
+      ],
+      "pdf_pages": [
+        12,
+        13,
+        34
+      ],
+      "qualification": "일부 정상과 전체 기능 구분",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "2024.09.08~12.10 총 8회 배출운전 중 해당 감시기 연속감시 미수행(정비 2회, 정상운전 6회).",
+      "section": "2.2, 3.1",
+      "printed_pages": [
+        4,
+        5
+      ],
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "qualification": "다른 감시활동까지 미수행 아님",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "OBSERVED_FACT",
+      "statement": "12.20 지시값 이상 점검 통지, 12.24 결함 확인 및 조치.",
+      "section": "3.1, 3.5.2",
+      "printed_pages": [
+        5,
+        6,
+        18,
+        19
+      ],
+      "pdf_pages": [
+        7,
+        8,
+        20,
+        21
+      ],
+      "qualification": "3.2.1 일부 12.26 표기와 불일치",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "당초 다른 감시기 및 배출 전 평가를 근거로 보고대상이 아니라고 판단했으나 12.27 재검토 후 보고. 12.24 유선 설명, 12.26 대면보고 있었음.",
+      "section": "3.5.2",
+      "printed_pages": [
+        18,
+        19
+      ],
+      "pdf_pages": [
+        20,
+        21
+      ],
+      "qualification": "은폐 또는 의도적 지연 판정 아님",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "배출 전 시료평가로 Ar-41 및 H-3 배출 평가. 해당 감시기 필터를 이용한 배출 후 평가가 불가하여 과거 3년 허가서 추가 확인.",
+      "section": "3.4",
+      "printed_pages": [
+        15,
+        16
+      ],
+      "pdf_pages": [
+        17,
+        18
+      ],
+      "qualification": "사전 평가와 직접 연속감시 구분",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "Ar-41 총 배출 평가량 1.22E-3 TBq, H-3 4.22E-4 TBq. 최대 배출제한계수 0.00406(약 1/246).",
+      "section": "3.4",
+      "printed_pages": [
+        15,
+        16
+      ],
+      "pdf_pages": [
+        17,
+        18
+      ],
+      "qualification": "총량과 농도 비율 구분",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "경계 유효선량 3.92E-7 mSv, 부지 연간 0.25 mSv 기준 대비 보고서상 0.0001566%. 갑상선등가선량 4.13E-7 mSv.",
+      "section": "3.4, 3.5.1",
+      "printed_pages": [
+        16,
+        18
+      ],
+      "pdf_pages": [
+        18,
+        20
+      ],
+      "qualification": "계산 평가와 실측 구분",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "해당 배기감시기의 감시 요건 미충족. 다른 운전가능 감시기 지시값 특이사항 없음, 농도·선량 기준 만족 확인.",
+      "section": "3.5.1",
+      "printed_pages": [
+        17,
+        18
+      ],
+      "pdf_pages": [
+        19,
+        20
+      ],
+      "qualification": "결과 기준과 감시 요건 별개",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "확대점검·시정·종합성능시험 수행, 2025.06.13 KINS 시험 입회와 서류검토로 종합 감시기능 정상화 확인.",
+      "section": "3.2.3, 3.3",
+      "printed_pages": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "pdf_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "qualification": "조사 당시 확인",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "발전소 안전기능 영향 없음, 소내외 방사선감시기 특이사항 없음. INES 기초 0, 최종 평가 예정.",
+      "section": "3.6, 3.7",
+      "printed_pages": [
+        19,
+        20
+      ],
+      "pdf_pages": [
+        21,
+        22
+      ],
+      "qualification": "최종 미확인",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "발행 당시 8개 재발방지대책 완료: 기능 정상화 3건, 설계변경 개선 2건, 운전 신뢰성 3건. 조사팀 적절 평가.",
+      "section": "3.8, 4",
+      "printed_pages": [
+        21,
+        22,
+        23
+      ],
+      "pdf_pages": [
+        23,
+        24,
+        25
+      ],
+      "qualification": "현재 지속 효과 미확인",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "SOURCE_LIMITATION",
+      "statement": "9.8 요일 표기 차이(일/화), 3.2.1 일부 확인일 12.26과 경위·보고경위 12.24 불일치, 발생시각 11:04와 붙임11 첫 배출 시작 11:05 구분.",
+      "section": "요약, 2.1, 2.2, 3.1, 3.2.1, 3.5.2, 붙임11",
+      "printed_pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        19,
+        38
+      ],
+      "pdf_pages": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        21,
+        40
+      ],
+      "qualification": "정오표 미확인; 경위·보고경위 기준으로 등록",
+      "review_status": "PENDING"
+    }
+  ]
+}

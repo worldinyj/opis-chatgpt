@@ -1,0 +1,35 @@
+schema_version: "1.0"
+event_id: "240908HB6"
+report_number: "2024-13"
+title: "한빛6호기 기체방사성물질 배출운전 중 격납건물 배기감시기를 통한 연속감시 미수행"
+event_date: "2024-09-08"
+report_date: "2025-07-07"
+operator_confirmation_date: "2024-12-24"
+reported_date: "2024-12-27"
+plant:
+  site: 한빛
+  unit: 6
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 42
+  sha256: 62a1417f0743f9fd1d81ef4c93a83b81f77daf27547ff58922cc0bac2fdba7b3
+  source_size_bytes: 3300962
+  portal_verification: mobile_fetch_failed
+operating_mode: "N/A (핵연료 전량 인출)"
+preliminary_ines: 0
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP1, WP2, WP3, QA2, QA4, DM1, PI2]
+  additional_review_attributes: [PA1, PA2, PA3, QA1, QA3, CO1, CO2, CO3, LA1, LA2, LA5, LA6, LA7, DM2, CL1, CL2, CL4, PI1, PI3, PI4, WP4]
+  insufficient_or_low_relevance_attributes: [CO4, LA3, LA4, LA8, DM3, WE1, WE2, WE3, WE4, CL3, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false

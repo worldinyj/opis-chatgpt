@@ -1,0 +1,117 @@
+{
+  "schema_version": "2.0",
+  "event_id": "240908HB6",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "WP1",
+    "WP2",
+    "WP3",
+    "QA2",
+    "QA4",
+    "DM1",
+    "PI2"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA3",
+    "CO1",
+    "CO2",
+    "CO3",
+    "LA1",
+    "LA2",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM2",
+    "CL1",
+    "CL2",
+    "CL4",
+    "PI1",
+    "PI3",
+    "PI4",
+    "WP4"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "변경된 설계와 현장 구현을 같은 근거로 확인한다",
+      "objective": "구매 요구·변경문서·현장 구현의 일치성을 검토한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F03",
+        "F04"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP2",
+        "WP3"
+      ],
+      "report_section": "3.4",
+      "qualification": "정량 설계 여유 부족 단정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "시험 완료보다 요구기능 입증이 중요하다",
+      "objective": "변경 기능의 검증 범위와 시험 대체 근거를 검토한다.",
+      "cause_ids": [
+        "R2",
+        "R3"
+      ],
+      "fact_ids": [
+        "F05",
+        "F06",
+        "F07"
+      ],
+      "principle_codes": [
+        "WP",
+        "QA",
+        "DM"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "QA2",
+        "QA4",
+        "DM1"
+      ],
+      "report_section": "3.4",
+      "qualification": "정주기시험 및 배관 검사 수행 인정; 심리 추정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "정상 지시와 실제 기능을 구별하고 이상을 평가한다",
+      "objective": "기록의 의미와 미확인 상태를 공식 평가로 연결한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F06",
+        "F08",
+        "F09",
+        "F13",
+        "F14"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "attribute_codes": [
+        "PI2"
+      ],
+      "report_section": "3.4",
+      "qualification": "점검 통지·재검토·시정 긍정 대응 인정.",
+      "review_status": "PENDING"
+    }
+  ]
+}
