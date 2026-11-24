@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "status": "CANDIDATE_LIBRARY",
+  "reference_sha256": "6a7e82c66c8509f66c597b6c6acd23bf078baad014b2325d9347bd581dd0e32a",
+  "candidate_sha256": "f4c76ce5da828299956d8a7671cf37cdfbc19814bcdda09ffb98734a79838bc7",
+  "entries": [
+    {
+      "id": "LAY-COVER-01",
+      "role": "COVER",
+      "reference_pages": [
+        1
+      ],
+      "candidate_slides": [
+        "P01"
+      ],
+      "pattern": "사진/네이비 표지, 파란 수직선, 2행 제목",
+      "parameters": "사진 사용권 확인 전 자체 도형 또는 검증 자산으로 대체",
+      "status": "CANDIDATE_ONLY",
+      "rights": "DESIGN_PATTERN_ONLY; EMBEDDED_ASSET_RIGHTS_NOT_VERIFIED",
+      "design_review": "PENDING",
+      "content_review": "PENDING",
+      "reuse_approval": "PENDING",
+      "can_ship": false
+    },
+    {
+      "id": "LAY-FACT-01",
+      "role": "FACT_CARDS",
+      "reference_pages": [
+        3
+      ],
+      "candidate_slides": [
+        "P03"
+      ],
+      "pattern": "4개 정보 카드 + 요약 패널",
+      "parameters": "날짜·호기·운전상태·사건분류를 입력 변수로 변경",
+      "status": "CANDIDATE_ONLY",
+      "rights": "DESIGN_PATTERN_ONLY; EMBEDDED_ASSET_RIGHTS_NOT_VERIFIED",
+      "design_review": "PENDING",
+      "content_review": "PENDING",
+      "reuse_approval": "PENDING",
+      "can_ship": false
+    },
+    {
+      "id": "LAY-TIME-01",
+      "role": "TIMELINE",
+      "reference_pages": [
+        4
+      ],
+      "candidate_slides": [
+        "P04"
+      ],
+      "pattern": "상태색과 연결선의 시간 흐름",
+      "parameters": "시점과 단계 수 가변, 원본 불일치 표시",
+      "status": "CANDIDATE_ONLY",
+      "rights": "DESIGN_PATTERN_ONLY; EMBEDDED_ASSET_RIGHTS_NOT_VERIFIED",
+      "design_review": "PENDING",
+      "content_review": "PENDING",
+      "reuse_approval": "PENDING",
+      "can_ship": false
+    },
+    {
+      "id": "LAY-CAUSE-01",
+      "role": "CAUSE",
+      "reference_pages": [
+        6,
+        7,
+        8
+      ],
+      "candidate_slides": [
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "pattern": "물리 원인·관리 원인·기여 조건의 독립 카드",
+      "parameters": "D/R/C 명칭과 수는 사례별 입력; 공식 분류와 교육 분류 구분",
+      "status": "CANDIDATE_ONLY",
+      "rights": "DESIGN_PATTERN_ONLY; EMBEDDED_ASSET_RIGHTS_NOT_VERIFIED",
+      "design_review": "PENDING",
+      "content_review": "PENDING",
+      "reuse_approval": "PENDING",
+      "can_ship": false
+    },
+    {
+      "id": "LAY-PRINC-01",
+      "role": "PRINCIPLE_EVIDENCE",
+      "reference_pages": [
+        9,
+        10,
+        11
+      ],
+      "candidate_slides": [
+        "P09",
+        "P10",
+        "P11"
+      ],
+      "pattern": "원칙과 현장 행동 2열, 근거는 노트",
+      "parameters": "정식 명칭, 원칙 수, 근거 및 추가 후보 구분",
+      "status": "CANDIDATE_ONLY",
+      "rights": "DESIGN_PATTERN_ONLY; EMBEDDED_ASSET_RIGHTS_NOT_VERIFIED",
+      "design_review": "PENDING",
+      "content_review": "PENDING",
+      "reuse_approval": "PENDING",
+      "can_ship": false
+    },
+    {
+      "id": "LAY-ATTR-01",
+      "role": "ATTRIBUTE_SUMMARY",
+      "reference_pages": [
+        9,
+        10,
+        11
+      ],
+      "candidate_slides": [
+        "P12"
+      ],
+      "pattern": "원칙별 속성 후보 한 장",
+      "parameters": "선정 후보 전부 표시; 과밀 시 가독성 개선 및 검토; 삭제 금지",
+      "status": "CANDIDATE_ONLY",
+      "rights": "DESIGN_PATTERN_ONLY; EMBEDDED_ASSET_RIGHTS_NOT_VERIFIED",
+      "design_review": "PENDING",
+      "content_review": "PENDING",
+      "reuse_approval": "PENDING",
+      "can_ship": false
+    },
+    {
+      "id": "LAY-METRIC-01",
+      "role": "RADIATION_METRICS",
+      "reference_pages": [
+        12
+      ],
+      "candidate_slides": [
+        "P13"
+      ],
+      "pattern": "수치 카드와 조사기관 평가",
+      "parameters": "단위/기간/대상/기초·최종 구분, 누출량 하드코딩 제거",
+      "status": "CANDIDATE_ONLY",
+      "rights": "DESIGN_PATTERN_ONLY; EMBEDDED_ASSET_RIGHTS_NOT_VERIFIED",
+      "design_review": "PENDING",
+      "content_review": "PENDING",
+      "reuse_approval": "PENDING",
+      "can_ship": false
+    },
+    {
+      "id": "LAY-ACTION-01",
+      "role": "IMPROVEMENT_ACTION",
+      "reference_pages": [
+        13,
+        14,
+        15
+      ],
+      "candidate_slides": [
+        "P14",
+        "P15"
+      ],
+      "pattern": "발행 시점 대책 2트랙, 질문과 실천",
+      "parameters": "기한/분모/효과 확인; 1장 또는 2장 선택",
+      "status": "CANDIDATE_ONLY",
+      "rights": "DESIGN_PATTERN_ONLY; EMBEDDED_ASSET_RIGHTS_NOT_VERIFIED",
+      "design_review": "PENDING",
+      "content_review": "PENDING",
+      "reuse_approval": "PENDING",
+      "can_ship": false
+    },
+    {
+      "id": "LAY-END-01",
+      "role": "CONCLUSION",
+      "reference_pages": [
+        16
+      ],
+      "candidate_slides": [
+        "P16"
+      ],
+      "pattern": "핵심 교훈 및 실행 메시지 3개",
+      "parameters": "근거와 버전 명시; 하단 잘림 확인",
+      "status": "CANDIDATE_ONLY",
+      "rights": "DESIGN_PATTERN_ONLY; EMBEDDED_ASSET_RIGHTS_NOT_VERIFIED",
+      "design_review": "PENDING",
+      "content_review": "PENDING",
+      "reuse_approval": "PENDING",
+      "can_ship": false
+    }
+  ]
+}

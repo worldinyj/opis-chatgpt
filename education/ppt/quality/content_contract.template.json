@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "event_id": "REPLACE",
+  "edition": "REPLACE",
+  "slides": [
+    {
+      "page": 1,
+      "must_include": [
+        "REPLACE_WITH_VISIBLE_REQUIRED_TEXT"
+      ],
+      "notes": "REPLACE_WITH_EXACT_NOTES_OR_REMOVE_THIS_FIELD"
+    }
+  ]
+}

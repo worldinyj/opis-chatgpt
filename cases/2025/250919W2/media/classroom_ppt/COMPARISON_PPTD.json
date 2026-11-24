@@ -1,0 +1,326 @@
+{
+  "schema_version": "1.0",
+  "event_id": "250919W2",
+  "comparison_id": "PPTD-250919W2-001",
+  "status": "AUTHOR_COMPARISON_DRAFT",
+  "reference": {
+    "role": "REFERENCE",
+    "source": "USER_SUPPLIED_UNKNOWN",
+    "producer_verified": false,
+    "sha256": "6a7e82c66c8509f66c597b6c6acd23bf078baad014b2325d9347bd581dd0e32a",
+    "slides": 16,
+    "notes": 0,
+    "objects": 1081,
+    "bounds_flags": 11,
+    "pdf_text_flags": 2,
+    "pdf_text_flag_pages": [
+      16
+    ],
+    "content_contract": "NOT_APPLIED"
+  },
+  "candidate": {
+    "role": "CANDIDATE",
+    "source": "CHATGPT_LOCAL",
+    "producer_verified": false,
+    "sha256": "f4c76ce5da828299956d8a7671cf37cdfbc19814bcdda09ffb98734a79838bc7",
+    "slides": 16,
+    "notes": 16,
+    "objects": 388,
+    "bounds_flags": 0,
+    "pdf_text_flags": 0,
+    "contract_missing": 0,
+    "contract_note_mismatches": 0
+  },
+  "mapping": [
+    {
+      "slide_id": "P01",
+      "reference_pages": [
+        1
+      ],
+      "role": "COVER",
+      "explicit_color_jaccard": 0.1,
+      "reference_direct_text_run_median_pt": [
+        12
+      ],
+      "candidate_direct_text_run_median_pt": 18,
+      "author_observation_reference": "사진 배경과 정보띠가 전문적; 사진 사용권 별도 확인",
+      "author_observation_candidate": "네이비·파랑 위계는 유지, 사진 대신 추상 도형으로 단순화",
+      "reuse_candidate": "샘플 표지 패턴을 우선 후보, 배경 대체 옵션",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P02",
+      "reference_pages": [
+        2
+      ],
+      "role": "LEARNING_FLOW",
+      "explicit_color_jaccard": 0.241,
+      "reference_direct_text_run_median_pt": [
+        10.5
+      ],
+      "candidate_direct_text_run_median_pt": 17,
+      "author_observation_reference": "학습 흐름과 산출물 구조가 풍부함",
+      "author_observation_candidate": "세 목표를 큰 글자로 정리, 상세 노트 제공",
+      "reuse_candidate": "학습흐름+R1 핵심 메시지",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P03",
+      "reference_pages": [
+        3
+      ],
+      "role": "FACT_CARDS",
+      "explicit_color_jaccard": 0.25,
+      "reference_direct_text_run_median_pt": [
+        10.5
+      ],
+      "candidate_direct_text_run_median_pt": 15.5,
+      "author_observation_reference": "4개 사실 카드와 요약 패널의 좋은 정보 위계",
+      "author_observation_candidate": "동일 카드 위계, 명확한 사실 구분, 작은 정보 밀도",
+      "reuse_candidate": "R1 우선 후보",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P04",
+      "reference_pages": [
+        4
+      ],
+      "role": "TIMELINE",
+      "explicit_color_jaccard": 0.412,
+      "reference_direct_text_run_median_pt": [
+        10.8
+      ],
+      "candidate_direct_text_run_median_pt": 15,
+      "author_observation_reference": "시간 진행과 상태색의 전달력이 좋음; 세부 시간은 검토 필요",
+      "author_observation_candidate": "3단 흐름이 간결하나 시각적 사건 진행은 단순",
+      "reuse_candidate": "샘플 흐름 패턴 + R1 승인 전 경위",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P05",
+      "reference_pages": [
+        5
+      ],
+      "role": "CONCEPT_COLUMNS",
+      "explicit_color_jaccard": 0.318,
+      "reference_direct_text_run_median_pt": [
+        11.4
+      ],
+      "candidate_direct_text_run_median_pt": 15,
+      "author_observation_reference": "기능·작업 개념의 2열 설명이 풍부",
+      "author_observation_candidate": "기능 카드 중심으로 간결, 개념도 관계 표현은 약함",
+      "reuse_candidate": "기능 연결 도형 재구성 후보",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P06",
+      "reference_pages": [
+        6
+      ],
+      "role": "CAUSE_EFFECT",
+      "explicit_color_jaccard": 0.368,
+      "reference_direct_text_run_median_pt": [
+        11.04
+      ],
+      "candidate_direct_text_run_median_pt": 15,
+      "author_observation_reference": "원인-결과 시각 구조 유용; 관리 원인 혼합 주의",
+      "author_observation_candidate": "D1과 R2/R3 분리, 공간 활용 개선 여지",
+      "reuse_candidate": "R1의 분류 + 샘플의 원인-결과 디자인",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P07",
+      "reference_pages": [
+        7
+      ],
+      "role": "MANAGEMENT_CAUSE",
+      "explicit_color_jaccard": 0.35,
+      "reference_direct_text_run_median_pt": [
+        11.4
+      ],
+      "candidate_direct_text_run_median_pt": 15,
+      "author_observation_reference": "두 원인군 카드의 패턴 유용",
+      "author_observation_candidate": "R1~R4 4분면, 원인 재분류가 선명",
+      "reuse_candidate": "R1 4분면 후보",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P08",
+      "reference_pages": [
+        8
+      ],
+      "role": "CONTRIBUTION_COMPARE",
+      "explicit_color_jaccard": 0.333,
+      "reference_direct_text_run_median_pt": [
+        11.4
+      ],
+      "candidate_direct_text_run_median_pt": 15,
+      "author_observation_reference": "2열 기여원인 비교 구조",
+      "author_observation_candidate": "발생 기여와 인지 지연 명확",
+      "reuse_candidate": "R1 2열 후보",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P09",
+      "reference_pages": [
+        9
+      ],
+      "role": "PRINCIPLE_EVIDENCE",
+      "explicit_color_jaccard": 0.261,
+      "reference_direct_text_run_median_pt": [
+        10.95
+      ],
+      "candidate_direct_text_run_median_pt": 17,
+      "author_observation_reference": "원칙/속성/근거 3열 정보 풍부, 작은 글자",
+      "author_observation_candidate": "원칙/행동 2열과 노트로 교육용 축약",
+      "reuse_candidate": "R1 본문/샘플 상세 분석 패턴 별도",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P10",
+      "reference_pages": [
+        10
+      ],
+      "role": "PRINCIPLE_EVIDENCE",
+      "explicit_color_jaccard": 0.389,
+      "reference_direct_text_run_median_pt": [
+        10.530000000000001
+      ],
+      "candidate_direct_text_run_median_pt": 17,
+      "author_observation_reference": "동일 표 스타일과 색상 의미 유지",
+      "author_observation_candidate": "원칙과 행동 구분, LA 후보는 노트",
+      "reuse_candidate": "R1 2열 교육표",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P11",
+      "reference_pages": [
+        11
+      ],
+      "role": "PRINCIPLE_EVIDENCE",
+      "explicit_color_jaccard": 0.353,
+      "reference_direct_text_run_median_pt": [
+        10.65
+      ],
+      "candidate_direct_text_run_median_pt": 17,
+      "author_observation_reference": "원칙/근거 3열과 강조색",
+      "author_observation_candidate": "개선 순환 메시지, CAP 전체 판단 금지",
+      "reuse_candidate": "R1 2열과 샘플의 시각적 근거 패턴",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P12",
+      "reference_pages": [
+        9,
+        10,
+        11
+      ],
+      "role": "ATTRIBUTE_SUMMARY",
+      "explicit_color_jaccard": 0.233,
+      "reference_direct_text_run_median_pt": [
+        10.95,
+        10.530000000000001,
+        10.65
+      ],
+      "candidate_direct_text_run_median_pt": 15,
+      "author_observation_reference": "9~11장에 속성이 분산됨",
+      "author_observation_candidate": "12개 핵심 후보 한 장과 한계 표시",
+      "reuse_candidate": "R1 종합 장표 우선 후보",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P13",
+      "reference_pages": [
+        12
+      ],
+      "role": "RADIATION_METRICS",
+      "explicit_color_jaccard": 0.259,
+      "reference_direct_text_run_median_pt": [
+        10.5
+      ],
+      "candidate_direct_text_run_median_pt": 16.5,
+      "author_observation_reference": "수치 카드와 안전성 패널 표현이 풍부",
+      "author_observation_candidate": "수치·단위·대상 구분, 지수 E-4 표현",
+      "reuse_candidate": "샘플 수치 패턴 + R1 검토 내용",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P14",
+      "reference_pages": [
+        13
+      ],
+      "role": "IMPROVEMENT_TRACKS",
+      "explicit_color_jaccard": 0.375,
+      "reference_direct_text_run_median_pt": [
+        11.04
+      ],
+      "candidate_direct_text_run_median_pt": 15,
+      "author_observation_reference": "대책 3분류와 아이콘이 풍부",
+      "author_observation_candidate": "발행 당시 완료/예정의 구분이 선명",
+      "reuse_candidate": "R1 2트랙 우선 후보",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P15",
+      "reference_pages": [
+        14,
+        15
+      ],
+      "role": "DISCUSSION_ACTION",
+      "explicit_color_jaccard": 0.321,
+      "reference_direct_text_run_median_pt": [
+        11.4,
+        10.2
+      ],
+      "candidate_direct_text_run_median_pt": 17,
+      "author_observation_reference": "질문과 실천을 별도 장표에 상세 표시",
+      "author_observation_candidate": "3질문, 2시나리오·6실천을 노트로 통합",
+      "reuse_candidate": "대상별 1장/2장 선택",
+      "manual_score": null,
+      "review": "PENDING"
+    },
+    {
+      "slide_id": "P16",
+      "reference_pages": [
+        16
+      ],
+      "role": "CONCLUSION",
+      "explicit_color_jaccard": 0.308,
+      "reference_direct_text_run_median_pt": [
+        11.4
+      ],
+      "candidate_direct_text_run_median_pt": 17,
+      "author_observation_reference": "메시지·교훈·실천이 풍부; 하단 PDF 누락 후보",
+      "author_observation_candidate": "3행동 핵심 정리, 경계·PDF 대조 경고 없음",
+      "reuse_candidate": "R1 결론 우선 후보",
+      "manual_score": null,
+      "review": "PENDING"
+    }
+  ],
+  "design_score": null,
+  "content_score": null,
+  "can_ship": false,
+  "tests": {
+    "passed": 10,
+    "total": 10,
+    "code_blob": "85ff54b992ec47ef42df10da2d09e401882d48a4",
+    "test_blob": "180644b628601a00f3427aa0be449a4af5bcddce"
+  },
+  "render_provenance": "PPT-B/C에서 실제 생성한 LibreOffice PDF를 재사용하여 대조. PDF 자체에 PPTX 해시를 결속하지 않음.",
+  "paid_generation_calls": 0,
+  "external_submissions": 0
+}

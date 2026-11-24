@@ -43,3 +43,6 @@ node education/ppt/scripts/generate_professional.mjs cases/2025/250919W2/media/c
 ```
 
 현재 생성기는 첫 사건에 특화된 수치 카드와 출처/표지 문구를 포함한다. 다른 사건 재사용 전 매개변수화·확장 검증 필요. 기존 12장 생성기는 변경하지 않았다. 교육 승인 전 초안.
+
+## PPT-D 통합 품질검증 MVP
+[수입·비교검증 절차](quality/README.md) · [수동 평가표](quality/QUALITY_RUBRIC.md) · [레이아웃 후보 등록부](quality/REUSE_CATALOG.json). 실제 사용자 샘플 및 ChatGPT R1 파일 검사, 16개 매핑, 단위 테스트 10/10. 외부 AI 출처 확인/실제 외부 결과 검증은 미실시. 생성기 범용화 및 우수 장표 실제 재사용은 후속.

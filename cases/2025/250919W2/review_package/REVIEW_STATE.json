@@ -59,6 +59,16 @@
       "technical_qc": "PASS_LOCAL_RENDER",
       "expert_approval": "PENDING",
       "can_ship": false
+    },
+    "ppt_d": {
+      "status": "LOCAL_COMPARISON_MVP_COMPLETE",
+      "comparison_id": "PPTD-250919W2-001",
+      "external_provider_verified": false,
+      "actual_external_output_tested": false,
+      "manual_review": "PENDING",
+      "reuse_candidates": 9,
+      "reuse_approved": 0,
+      "can_ship": false
     }
   }
 }
