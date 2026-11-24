@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-30",
+  "status": "ready_for_new_case",
+  "active_project": null,
+  "production_revision": null,
+  "reason": null,
+  "next_step": "Read START_HERE.md and initialize a new report project.",
+  "paid_api_authorized_for_new_work": false
+}

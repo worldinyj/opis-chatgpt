@@ -1,0 +1,4 @@
+# Optional dependencies for media QA and ElevenLabs VO; not needed by production.py.
+Pillow>=10
+python-dotenv>=1
+elevenlabs>=2
