@@ -1,0 +1,194 @@
+{
+  "event_id": "250919W2",
+  "artifact_id": "PPT-250919W2-PROFESSIONAL",
+  "revision": 1,
+  "analysis_version": "0.1.1",
+  "status": "TECHNICALLY_RENDERED_DRAFT",
+  "can_ship": false,
+  "template_id": "WOLSONG_PROFESSIONAL_V1",
+  "template_sha256": "6a7e82c66c8509f66c597b6c6acd23bf078baad014b2325d9347bd581dd0e32a",
+  "source_sha256": "fb3348d2725396a03689556b717876d8d65c72a79dce6716ae1d8471fe6cec83",
+  "pptx_git_blob": "aea63447405abc0e3e7e0fcfd6541ae08e43243e",
+  "pptx_sha256": "f4c76ce5da828299956d8a7671cf37cdfbc19814bcdda09ffb98734a79838bc7",
+  "slides": 16,
+  "minutes": 52,
+  "notes": 16,
+  "native_objects": 388,
+  "source_blueprint": "STANDARD_16_BLUEPRINT.json",
+  "manifest": "professional_manifest.json",
+  "technical_qc": "PASS_LOCAL_RENDER",
+  "design_review": "AUTHOR_RECONSTRUCTION_REVIEW",
+  "independent_review": "PENDING",
+  "expert_approval": "PENDING",
+  "paid_generation_calls": 0,
+  "external_submissions": 0,
+  "source_mapping": [
+    {
+      "id": "P01",
+      "fact_ids": [],
+      "learning_ids": [],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P01"
+    },
+    {
+      "id": "P02",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P02"
+    },
+    {
+      "id": "P03",
+      "fact_ids": [
+        "F01",
+        "F10",
+        "F11"
+      ],
+      "learning_ids": [],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P03"
+    },
+    {
+      "id": "P04",
+      "fact_ids": [
+        "F01",
+        "F03",
+        "F06",
+        "F10",
+        "F12"
+      ],
+      "learning_ids": [],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P04"
+    },
+    {
+      "id": "P05",
+      "fact_ids": [
+        "F02",
+        "F06"
+      ],
+      "learning_ids": [],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P05"
+    },
+    {
+      "id": "P06",
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F06"
+      ],
+      "learning_ids": [],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P06"
+    },
+    {
+      "id": "P07",
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04"
+      ],
+      "learning_ids": [],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P07"
+    },
+    {
+      "id": "P08",
+      "fact_ids": [
+        "F02",
+        "F04",
+        "F07"
+      ],
+      "learning_ids": [],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P08"
+    },
+    {
+      "id": "P09",
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F12"
+      ],
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P09"
+    },
+    {
+      "id": "P10",
+      "fact_ids": [
+        "F02",
+        "F03"
+      ],
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P10"
+    },
+    {
+      "id": "P11",
+      "fact_ids": [
+        "F04"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P11"
+    },
+    {
+      "id": "P12",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P12"
+    },
+    {
+      "id": "P13",
+      "fact_ids": [
+        "F08",
+        "F11",
+        "F12"
+      ],
+      "learning_ids": [],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P13"
+    },
+    {
+      "id": "P14",
+      "fact_ids": [
+        "F09",
+        "F12"
+      ],
+      "learning_ids": [],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P14"
+    },
+    {
+      "id": "P15",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P15"
+    },
+    {
+      "id": "P16",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "sample_layout_id": "WOLSONG_PROFESSIONAL_V1_P16"
+    }
+  ],
+  "deviations": [
+    "표지 사진과 이미지 아이콘 대신 네이티브 도형",
+    "Noto Sans CJK KR 대체",
+    "마스터 복제 대신 장표별 디자인 재구성",
+    "속성표 및 수치 카드는 네이티브 도형"
+  ]
+}
