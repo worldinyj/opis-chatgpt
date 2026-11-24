@@ -1,0 +1,35 @@
+schema_version: "1.0"
+event_id: "250112W2"
+report_number: "2025-01"
+title: "월성2호기 액체폐기물계통 밸브 오배열에 의한 비계획적인 방사성물질 방출"
+event_date: "2025-01-12"
+report_date: "2025-04-21"
+plant:
+  site: 월성
+  unit: 2
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/accident/SearchAccidentFailPresent.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 35
+  sha256: 9a8fa2e68c80b7e7d6faa86e9988e2121fe2b673e7a24398bedbc0523fb007f4
+  portal_verification: user_supplied_drive_pdf
+  source_size_bytes: 1765325
+event_classification: 계획 또는 통제되지 않은 방사성물질 환경 방출
+operating_mode: "1 (출력운전 83.2%)"
+preliminary_ines: 0
+final_ines: null
+analysis:
+  version: "0.1.0"
+  prompt_version: "1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [PA1, QA2, QA3, QA4, CO1, DM2, WP1, WP2, WP3, WP4]
+  additional_review_attributes: [PA2, PA3, QA1, CO2, CO3, LA1, LA2, LA5, LA6, LA7, DM1, CL1, CL2, CL4, PI1, PI2, PI3, PI4, RC1, RC2]
+  insufficient_or_low_relevance_attributes: [CO4, LA3, LA4, LA8, DM3, WE1, WE2, WE3, WE4, CL3]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false

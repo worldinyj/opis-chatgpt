@@ -1,0 +1,26 @@
+{
+  "schema_version": "2.0",
+  "job_id": "SHORT-250112W2-BATCH01",
+  "event_id": "250112W2",
+  "artifact_id": "SHORT-250112W2",
+  "manifest_revision": 1,
+  "route": "GEMINI_TASKS_BATCH",
+  "aspect_ratio": "9:16",
+  "jobs": [
+    {
+      "id": "SHORT-250112W2-S04",
+      "scene_id": "S04",
+      "requested_kind": "IMAGE",
+      "prompt": "9:16, fictional 3D brick educational meeting room, two staff reviewing blank document cards; 공식 질문. Consistent characters and costume, no real facility, no technical diagrams, no text or logos. Approved references required.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S04_still_v01.png",
+      "attempt": 1
+    }
+  ],
+  "results": []
+}

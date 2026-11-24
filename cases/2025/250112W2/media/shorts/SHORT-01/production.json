@@ -1,0 +1,253 @@
+{
+  "schema_version": "2.0",
+  "event_id": "250112W2",
+  "artifact_id": "SHORT-250112W2",
+  "artifact_type": "KEY_MESSAGE_SHORT",
+  "title": "늘 하던 일이니까",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2025-01",
+    "report_date": "2025-04-21",
+    "sha256": "9a8fa2e68c80b7e7d6faa86e9988e2121fe2b673e7a24398bedbc0523fb007f4"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "9:16",
+    "width": 720,
+    "height": 1280,
+    "fps": 24,
+    "language": "ko",
+    "style": "controlled graphic + hypothetical 3D brick miniature"
+  },
+  "timing": {
+    "target_seconds": 30
+  },
+  "learning_objectives": [
+    "과거 경험과 확인된 현재 상태를 구분한다.",
+    "절차와 현장의 차이를 기록하고 공식 경로로 제기한다."
+  ],
+  "references": [
+    {
+      "id": "LOC-A",
+      "kind": "LOCATION",
+      "description": "가상 브릭 교육 회의실, 실제 원전 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-A",
+      "kind": "CHARACTER",
+      "description": "가상 담당자, 청회색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-B",
+      "kind": "CHARACTER",
+      "description": "가상 검토자, 짙은 청색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "OBJ-A",
+      "kind": "OTHER",
+      "description": "빈 문서 카드와 일반 기록철, 실제 계기·도면 없음.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "늘 하던 일이니까",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "늘 하던 일이라면 확인하지 않아도 될까요?",
+      "overlay": [
+        "늘 하던 일이니까",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "실제 조사",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F04",
+        "F05"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "절차와 다른 관행이 문제로 확인됐습니다.",
+      "overlay": [
+        "실제 조사",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "확인과 경험",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F06"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "PA",
+        "QA",
+        "DM",
+        "WP"
+      ],
+      "attribute_codes": [
+        "PA1",
+        "QA2",
+        "QA4",
+        "DM2",
+        "WP1",
+        "WP4"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "경험은 실제 확인을 대신하지 못합니다.",
+      "overlay": [
+        "확인과 경험",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "공식 질문",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "QA",
+        "CO"
+      ],
+      "attribute_codes": [
+        "QA3",
+        "CO1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 브릭 회의실에서 빈 기록 카드를 검토; 실제 인물·설비 재현 없음.",
+      "narration": "차이를 발견하면 기록하고 재검토를 요청합니다.",
+      "overlay": [
+        "공식 질문",
+        "교육용 가상 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "핵심 메시지",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "익숙함 대신 확인, 관행 대신 개선.",
+      "overlay": [
+        "핵심 메시지",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

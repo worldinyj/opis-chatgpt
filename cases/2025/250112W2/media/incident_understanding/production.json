@@ -1,0 +1,627 @@
+{
+  "schema_version": "2.0",
+  "event_id": "250112W2",
+  "artifact_id": "IU-250112W2",
+  "artifact_type": "INCIDENT_UNDERSTANDING",
+  "title": "계획과 실제 상태",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2025-01",
+    "report_date": "2025-04-21",
+    "sha256": "9a8fa2e68c80b7e7d6faa86e9988e2121fe2b673e7a24398bedbc0523fb007f4"
+  },
+  "provenance": {
+    "analysis_path": null,
+    "analysis_version": null,
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": null,
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "16:9",
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "language": "ko",
+    "style": "controlled graphic + hypothetical 3D brick miniature"
+  },
+  "timing": {
+    "target_seconds": 120
+  },
+  "learning_objectives": [
+    "사건 현상, 관리 원인, 감시 요건 및 방사선 영향의 구분"
+  ],
+  "references": [],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "계획과 실제 상태",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "계획한 상태와 실제 상태는 같을까요?",
+      "overlay": [
+        "계획과 실제 상태",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "사건 개요",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F01"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "출력운전 중 비계획 방출이 확인됐습니다.",
+      "overlay": [
+        "사건 개요",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "직전 업무",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F02"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "직전 방출 업무 후 계통 복귀가 진행됐습니다.",
+      "overlay": [
+        "직전 업무",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "실제 상태",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F02"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "잠금장치가 설치됐지만 실제 격리는 확보되지 않았습니다.",
+      "overlay": [
+        "실제 상태",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "확인 누락",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F03"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "후속 업무 전 필수 상태 확인이 누락됐습니다.",
+      "overlay": [
+        "확인 누락",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S06",
+      "title": "비계획 방출",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F01",
+        "F03"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "시료 평가 전 액체방사성물질이 방출됐습니다.",
+      "overlay": [
+        "비계획 방출",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S07",
+      "title": "필수 절차",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F04"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "필수사용 절차서가 사용되지 않았습니다.",
+      "overlay": [
+        "필수 절차",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S08",
+      "title": "현장 정보",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F04"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "현장부착물에 일부 필요한 정보가 없었습니다.",
+      "overlay": [
+        "현장 정보",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S09",
+      "title": "운전 관행",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F05"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "절차와 다른 운전편의 관행이 지속됐습니다.",
+      "overlay": [
+        "운전 관행",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S10",
+      "title": "문제제기",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F05"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "차이를 인지했으나 문제제기는 없었습니다.",
+      "overlay": [
+        "문제제기",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S11",
+      "title": "인적오류예방",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F06"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "인적오류예방기법 활용도 미흡했습니다.",
+      "overlay": [
+        "인적오류예방",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S12",
+      "title": "인수인계",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F07"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "공식 운전일지 기록이 이루어지지 않았습니다.",
+      "overlay": [
+        "인수인계",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S13",
+      "title": "설계 요구",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F08"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "감시기의 일부 설계 요구기능이 구현되지 않았습니다.",
+      "overlay": [
+        "설계 요구",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S14",
+      "title": "기능시험",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F08"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "시운전 단계에서 관련 기능시험이 누락됐습니다.",
+      "overlay": [
+        "기능시험",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S15",
+      "title": "변경정보",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F09"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "후행호기 설계변경이 반영되지 않았습니다.",
+      "overlay": [
+        "변경정보",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S16",
+      "title": "감시 요건",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F10"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "방출 당시 감시 요건을 충족하지 못했습니다.",
+      "overlay": [
+        "감시 요건",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S17",
+      "title": "방출량",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F11"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "최종 방출량은 약 이십구 점 오삼이 세제곱미터로 평가됐습니다.",
+      "overlay": [
+        "방출량",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S18",
+      "title": "주민 영향",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F12"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "주민 예상선량은 제한치 대비 미미했습니다.",
+      "overlay": [
+        "주민 영향",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S19",
+      "title": "후속조치",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F13"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "인지 후 보고와 대응은 적절하게 평가됐습니다.",
+      "overlay": [
+        "후속조치",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S20",
+      "title": "조사 결과",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [
+        "F15"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 기능 개념 카드, 원본 사실/교육 해석 명시. 실제 설비 배치와 조작 재현 없음.",
+      "narration": "단기조치 여섯 건과 중장기 세 건이 제시됐습니다.",
+      "overlay": [
+        "조사 결과",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

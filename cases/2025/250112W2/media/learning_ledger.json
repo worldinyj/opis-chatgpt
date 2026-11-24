@@ -1,0 +1,126 @@
+{
+  "schema_version": "2.0",
+  "event_id": "250112W2",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "PA1",
+    "QA2",
+    "QA3",
+    "QA4",
+    "CO1",
+    "DM2",
+    "WP1",
+    "WP2",
+    "WP3",
+    "WP4"
+  ],
+  "additional_attribute_codes": [
+    "PA2",
+    "PA3",
+    "QA1",
+    "CO2",
+    "CO3",
+    "LA1",
+    "LA2",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM1",
+    "CL1",
+    "CL2",
+    "CL4",
+    "PI1",
+    "PI2",
+    "PI3",
+    "PI4",
+    "RC1",
+    "RC2"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "익숙한 업무도 실제 상태와 승인된 절차로 확인한다",
+      "objective": "과거 경험과 확인된 현재 상태를 구분한다.",
+      "cause_ids": [
+        "R1",
+        "R3"
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F06",
+        "F07"
+      ],
+      "principle_codes": [
+        "PA",
+        "QA",
+        "DM",
+        "WP"
+      ],
+      "attribute_codes": [
+        "PA1",
+        "QA2",
+        "QA4",
+        "DM2",
+        "WP1",
+        "WP4"
+      ],
+      "report_section": "3.4",
+      "qualification": "PA1/WP4 및 QA2/DM2 중복 검토.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "불편한 관행은 공식적인 개선 질문으로 바꾼다",
+      "objective": "절차와 현장의 차이를 기록하고 공식 경로로 제기한다.",
+      "cause_ids": [
+        "R2",
+        "R3"
+      ],
+      "fact_ids": [
+        "F05",
+        "F07"
+      ],
+      "principle_codes": [
+        "QA",
+        "CO"
+      ],
+      "attribute_codes": [
+        "QA3",
+        "CO1"
+      ],
+      "report_section": "3.4",
+      "qualification": "문제제기 부재와 우려제기 제도 자체의 결함은 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "설계 요구와 현장 구현을 끝까지 일치시킨다",
+      "objective": "문서·시험·설계변경 전파의 확인 근거를 검토한다.",
+      "cause_ids": [
+        "R4"
+      ],
+      "fact_ids": [
+        "F08",
+        "F09",
+        "F10",
+        "F15"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP2",
+        "WP3"
+      ],
+      "report_section": "3.4",
+      "qualification": "설계 미구현과 비계획 방출의 직접원인을 구분.",
+      "review_status": "PENDING"
+    }
+  ]
+}

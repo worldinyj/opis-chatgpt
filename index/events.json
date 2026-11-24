@@ -48,5 +48,30 @@
       "PI2"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "250112W2",
+    "event_date": "2025-01-12",
+    "report_date": "2025-04-21",
+    "plant": "월성2호기",
+    "title": "월성2호기 액체폐기물계통 밸브 오배열에 의한 비계획적인 방사성물질 방출",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": 0,
+    "final_ines": null,
+    "path": "cases/2025/250112W2/report.md",
+    "candidate_attributes": [
+      "PA1",
+      "QA2",
+      "QA3",
+      "QA4",
+      "CO1",
+      "DM2",
+      "WP1",
+      "WP2",
+      "WP3",
+      "WP4"
+    ],
+    "approved_attributes": []
   }
 ]

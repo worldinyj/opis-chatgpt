@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.0",
+  "job_id": "SC-250112W2-BATCH01",
+  "event_id": "250112W2",
+  "artifact_id": "SC-250112W2",
+  "manifest_revision": 1,
+  "route": "GEMINI_TASKS_BATCH",
+  "aspect_ratio": "16:9",
+  "jobs": [
+    {
+      "id": "SC-250112W2-S07",
+      "scene_id": "S07",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick educational meeting room, two staff reviewing blank document cards; 확인의 근거. Consistent characters and costume, no real facility, no technical diagrams, no text or logos. Approved references required.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S07_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-250112W2-S15",
+      "scene_id": "S15",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick educational meeting room, two staff reviewing blank document cards; 개인 실천. Consistent characters and costume, no real facility, no technical diagrams, no text or logos. Approved references required.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S15_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-250112W2-S16",
+      "scene_id": "S16",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick educational meeting room, two staff reviewing blank document cards; 팀 실천. Consistent characters and costume, no real facility, no technical diagrams, no text or logos. Approved references required.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S16_still_v01.png",
+      "attempt": 1
+    }
+  ],
+  "results": []
+}

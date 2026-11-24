@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "event_id": "250112W2",
+  "artifact_id": "DA-250112W2",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "관행을 근거로 바꾸는 현장 토론",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2025-01",
+    "report_date": "2025-04-21",
+    "sha256": "9a8fa2e68c80b7e7d6faa86e9988e2121fe2b673e7a24398bedbc0523fb007f4"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "익숙한 작업에서 확인했다고 생각한 상태와 실제 상태를 어떻게 구분할 것인가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "절차와 현장 관행이 다를 때 불편함을 어떻게 공식 개선으로 연결할 것인가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "설계 요구기능과 현장 구현, 시험 및 후행호기 변경정보의 일치 여부를 어떤 근거로 확인할 것인가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상 산업시설에서 숙련된 담당자가 실제 상태를 확인하기 어렵고 기존 관행과 승인 절차가 다르다는 사실을 발견했다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 개인 생각 1분, 짝 토론 2분, 공유 2분. 가정과 확인을 분리하고 승인 절차 및 책임자에게 공식 질의하는 방법을 논의한다. 실제 조작 모의 금지."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상 설비의 문서에는 기능이 명시되어 있으나 현장 기능시험 기록이 불완전하고 유사 설비의 변경정보가 도착했다.",
+      "learning_ids": [
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 개인 기록 1분, 팀 논의 2분, 공유 2분. 요구사항, 구현, 시험, 변경정보 및 효과 확인의 담당·근거를 논의한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "숙련도와 관계없이 승인된 필수 절차를 사용하고 확인 결과를 기록한다.",
+      "verification": "업무 표본의 최신 절차 및 확인 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "불확실한 상태에서는 승인된 절차에 따라 작업 재평가를 요청한다.",
+      "verification": "질의·회신·판단 근거",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "절차와 관행의 차이를 공식 보고하고 인계 기록에 남긴다.",
+      "verification": "등록·인계·후속 확인",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "절차 현장성, 작업 접근성 및 인적오류예방기법의 실제 적용을 확인한다.",
+      "verification": "표본 업무 중 확인 기록의 적정성; 분모·기간 사전 정의",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "업무 인계와 기록의 완결성 및 문제제기 후속조치를 검토한다.",
+      "verification": "미해결 사항의 책임·기한·회신 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "설계요건·현장 구성·시험·변경 적용성의 연결 상태와 개선 효과를 점검한다.",
+      "verification": "변경 적용성 검토 및 기능 확인 기록; 단순 완료율과 구분",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}
