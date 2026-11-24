@@ -34,3 +34,12 @@ node education/ppt/scripts/generate.mjs cases/2025/250919W2/media/classroom_ppt/
 
 ## 등록된 사용자 선택 디자인
 [WOLSONG_PROFESSIONAL_V1](design_library/WOLSONG_PROFESSIONAL_V1/DESIGN_SPEC.md) · [16장 매핑](design_library/WOLSONG_PROFESSIONAL_V1/LAYOUT_MAP.md). 실제 샘플은 1개 빈 레이아웃에 개별 도형으로 구성되며 실측 패턴을 재사용해야 한다. 원본 내장 자산 사용권 확인 전 공개 바이너리 미등록.
+
+## PPT-C — 전문형 실제 제작
+[16장 전문형 PPTX](../../cases/2025/250919W2/media/classroom_ppt/OPIS_250919W2_Professional_16_R1.pptx) · [진행자 노트](../../cases/2025/250919W2/media/classroom_ppt/PROFESSIONAL_FACILITATOR_GUIDE.md) · [QC](../../cases/2025/250919W2/media/classroom_ppt/PROFESSIONAL_R1_QC.md). WOLSONG_PROFESSIONAL_V1 패턴 기반 재구성; 사진·아이콘 미복제, Noto Sans CJK KR 적용. 16장 52분, 편집 가능한 도형/텍스트. 동일 파일 재생성:
+
+```sh
+node education/ppt/scripts/generate_professional.mjs cases/2025/250919W2/media/classroom_ppt/professional_manifest.json /tmp/OPIS_250919W2_Professional_16_R1.pptx
+```
+
+현재 생성기는 첫 사건에 특화된 수치 카드와 출처/표지 문구를 포함한다. 다른 사건 재사용 전 매개변수화·확장 검증 필요. 기존 12장 생성기는 변경하지 않았다. 교육 승인 전 초안.

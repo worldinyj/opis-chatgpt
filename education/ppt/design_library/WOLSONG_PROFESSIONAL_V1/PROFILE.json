@@ -87,8 +87,10 @@
     ],
     "font_match": "Noto Sans (Noto Sans KR exact family not matched)",
     "visual_review": "RENDERED_CONTACT_SHEET_REVIEWED",
-    "design_fidelity_of_new_deck": "NOT_TESTED",
+    "design_fidelity_of_new_deck": "AUTHOR_RECONSTRUCTION_REVIEW_ONLY",
     "content_approval": "PENDING",
-    "external_submission_authorized": false
+    "external_submission_authorized": false,
+    "professional_r1": "TECHNICALLY_RENDERED_DRAFT",
+    "professional_r1_git_blob": "aea63447405abc0e3e7e0fcfd6541ae08e43243e"
   }
 }

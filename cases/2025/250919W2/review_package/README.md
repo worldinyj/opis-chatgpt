@@ -16,3 +16,6 @@
 
 ## PPT-B 샘플 등록
 실제 사용자 선택 16장 샘플의 구조·스타일 실측 및 렌더, 16장 디자인 매핑 완료. 신규 PPTX 실제 적용과 전문가 승인 대기. 기존 R3 유지.
+
+## PPT-C 전문형 R1
+[실제 16장 PPTX](../media/classroom_ppt/OPIS_250919W2_Professional_16_R1.pptx) · [QC](../media/classroom_ppt/PROFESSIONAL_R1_QC.md) · [진행자 노트](../media/classroom_ppt/PROFESSIONAL_FACILITATOR_GUIDE.md). 기존 12장 R3 별도 보존. 기술적 렌더 검증은 통과했으나 전문가 승인·교육 배포는 미실시.
