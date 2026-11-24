@@ -1,25 +1,38 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "created_date": "2026-11-25",
-  "scope": "USER_TABLE_ONLY",
-  "ordering": "LIST_DATE_DESC",
+  "updated_date": "2026-11-25",
+  "scope": "DRIVE_ROOT_ALL_PDF_ONLY",
+  "ordering": "FILENAME_DATE_DESC_THEN_SIZE_DESC_THEN_FILENAME",
   "source_folder_title": "1등급이상사건",
   "private_links_in_repo": false,
-  "table_rows": 27,
-  "distinct_list_dates": 26,
-  "matched_folder_pdf_count": 27,
-  "extra_folder_pdf_count": 10,
+  "root_pdf_count": 37,
+  "root_non_pdf_count": 1,
+  "distinct_list_dates": 36,
+  "previous_scope": {
+    "scope": "USER_TABLE_ONLY",
+    "table_rows": 27,
+    "matched_folder_pdf_count": 27,
+    "previous_commit": "9e276227a53cdcfa0876604c11ee0e8e1bbb509b"
+  },
   "registered_case_count_at_intake": 3,
   "existing_case_ids": [
     "250919W2",
     "250314SH2",
     "250112W2"
   ],
-  "pending_date_groups": 25,
+  "existing_root_pdf_count": 2,
+  "existing_cases_not_in_root": [
+    "250919W2"
+  ],
+  "pending_pdf_count": 35,
+  "pending_date_groups": 34,
   "next_list_date": "2024-12-27",
+  "next_queue_id": "ROOT-002",
   "items": [
     {
       "queue_order": 1,
+      "queue_id": "ROOT-001",
       "list_date": "2025-01-12",
       "source_files": [
         {
@@ -30,10 +43,12 @@
       "status": "ALREADY_REGISTERED",
       "event_id": "250112W2",
       "verified_event_date": "2025-01-12",
-      "notes": "기존 DRAFT; 중복 등록 금지. PPT 렌더 대기."
+      "from_prior_table": true,
+      "notes": "원본 헤더에서 2025-01호(250112W2) 재확인. 기존 DRAFT 유지; PPT 실제 렌더 대기."
     },
     {
       "queue_order": 2,
+      "queue_id": "ROOT-002",
       "list_date": "2024-12-27",
       "source_files": [
         {
@@ -44,10 +59,12 @@
       "status": "NEXT_SOURCE_TEXT_READ",
       "event_id": "240908HB6",
       "verified_event_date": "2024-09-08",
+      "from_prior_table": true,
       "notes": "원본 2024-13호(240908HB6), 2025-07-07 발행. 본문 사건발생 2024-09-08, 운영자 확인 2024-12-24, 표지 사건발견일/보고 2024-12-27. 목록 순서와 사건발생일 분리. 원본 텍스트 앞부분 확인; 전체 분석 및 원본 해시/렌더 아직 미수행."
     },
     {
       "queue_order": 3,
+      "queue_id": "ROOT-003",
       "list_date": "2024-06-01",
       "source_files": [
         {
@@ -58,10 +75,44 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
       "queue_order": 4,
+      "queue_id": "ROOT-004",
+      "list_date": "2024-03-19",
+      "source_files": [
+        {
+          "filename": "2024-03-19_월성 3호기 13.8kV  등급4전원 BUB  모선 화재 및  전원상실에 의한 원자로 정지.pdf",
+          "size_bytes": 11276268
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "from_prior_table": false,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+    },
+    {
+      "queue_order": 5,
+      "queue_id": "ROOT-005",
+      "list_date": "2024-03-14",
+      "source_files": [
+        {
+          "filename": "2024-03-14_신한울2호기 보조건물 관리구역 정상배기 공기정화기  입구 방사선감시기 겨.pdf",
+          "size_bytes": 997678
+        }
+      ],
+      "status": "ALREADY_REGISTERED",
+      "event_id": "250314SH2",
+      "verified_event_date": "2025-03-14",
+      "from_prior_table": false,
+      "notes": "원본 헤더·본문에서 2025-03호(250314SH2), 발견 2025-03-14 재확인. 파일명·표지 연도 불일치. 기존 사건과 ID 일치; 바이트 동일성은 별도 확인. 신규 사건 생성 금지."
+    },
+    {
+      "queue_order": 6,
+      "queue_id": "ROOT-006",
       "list_date": "2023-04-05",
       "source_files": [
         {
@@ -72,10 +123,60 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 5,
+      "queue_order": 7,
+      "queue_id": "ROOT-007",
+      "list_date": "2022-12-22",
+      "source_files": [
+        {
+          "filename": "2022-12-22_고리3호기_발전기_여자변압기_고압측_케이블_접속부_손상에_의한_터빈_발전ᄀ.pdf",
+          "size_bytes": 1348406
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "from_prior_table": false,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+    },
+    {
+      "queue_order": 8,
+      "queue_id": "ROOT-008",
+      "list_date": "2022-09-08",
+      "source_files": [
+        {
+          "filename": "2022-09-08_신월성2호기_제어봉구동전원계통_출력차단기_개방에_따른_원자로_자동정ᄌ.pdf",
+          "size_bytes": 879048
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "from_prior_table": false,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+    },
+    {
+      "queue_order": 9,
+      "queue_id": "ROOT-009",
+      "list_date": "2021-07-12",
+      "source_files": [
+        {
+          "filename": "2021-07-12_ 고리 3호기 증기발생기 ‘C’ 수위 저-저에 의한 원자.pdf",
+          "size_bytes": 1063844
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "from_prior_table": false,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+    },
+    {
+      "queue_order": 10,
+      "queue_id": "ROOT-010",
       "list_date": "2020-07-19",
       "source_files": [
         {
@@ -86,10 +187,28 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 6,
+      "queue_order": 11,
+      "queue_id": "ROOT-011",
+      "list_date": "2019-05-10",
+      "source_files": [
+        {
+          "filename": "2019-05-10_한빛 1호기 원자로특성시험 중 부주의한 제어봉 인출에 따른 보조급수계통 자.pdf",
+          "size_bytes": 4440881
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "from_prior_table": false,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+    },
+    {
+      "queue_order": 12,
+      "queue_id": "ROOT-012",
       "list_date": "2019-01-21",
       "source_files": [
         {
@@ -100,10 +219,28 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 7,
+      "queue_order": 13,
+      "queue_id": "ROOT-013",
+      "list_date": "2018-06-11",
+      "source_files": [
+        {
+          "filename": "2018-06-11_월성3호기_계획예방정비_중_가압기_배수밸브_오조작에_의한_원자로냉각재_ᄂ.pdf",
+          "size_bytes": 1105230
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "from_prior_table": false,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+    },
+    {
+      "queue_order": 14,
+      "queue_id": "ROOT-014",
       "list_date": "2017-03-28",
       "source_files": [
         {
@@ -114,10 +251,44 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 8,
+      "queue_order": 15,
+      "queue_id": "ROOT-015",
+      "list_date": "2016-12-20",
+      "source_files": [
+        {
+          "filename": "2016-12-20_한울 5호기 원자로 HJTC배기구 누설 정비를 위한.pdf",
+          "size_bytes": 463157
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "from_prior_table": false,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+    },
+    {
+      "queue_order": 16,
+      "queue_id": "ROOT-016",
+      "list_date": "2016-02-27",
+      "source_files": [
+        {
+          "filename": "2016-02-27_한빛 1호기 복수기 진공상실에 의한 터빈발전기 및 원자로 자동정지.pdf",
+          "size_bytes": 295319
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "from_prior_table": false,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+    },
+    {
+      "queue_order": 17,
+      "queue_id": "ROOT-017",
       "list_date": "2015-09-03",
       "source_files": [
         {
@@ -128,10 +299,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 9,
+      "queue_order": 18,
+      "queue_id": "ROOT-018",
       "list_date": "2014-10-17",
       "source_files": [
         {
@@ -142,10 +315,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 10,
+      "queue_order": 19,
+      "queue_id": "ROOT-019",
       "list_date": "2014-10-01",
       "source_files": [
         {
@@ -156,10 +331,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 11,
+      "queue_order": 20,
+      "queue_id": "ROOT-020",
       "list_date": "2014-06-17",
       "source_files": [
         {
@@ -170,10 +347,28 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 12,
+      "queue_order": 21,
+      "queue_id": "ROOT-021",
+      "list_date": "2014-02-28",
+      "source_files": [
+        {
+          "filename": "2014-02-28 _한빛 2호기 M-G set출력차단기의 부적절한 개방.pdf",
+          "size_bytes": 213167
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "from_prior_table": false,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+    },
+    {
+      "queue_order": 22,
+      "queue_id": "ROOT-022",
       "list_date": "2013-04-14",
       "source_files": [
         {
@@ -184,10 +379,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 13,
+      "queue_order": 23,
+      "queue_id": "ROOT-023",
       "list_date": "2013-01-17",
       "source_files": [
         {
@@ -198,16 +395,14 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 14,
+      "queue_order": 24,
+      "queue_id": "ROOT-024",
       "list_date": "2012-11-26",
       "source_files": [
-        {
-          "filename": "2012-11-26 _울진 6호기계획예방정비 중부적절한 안전주입.pdf",
-          "size_bytes": 504858
-        },
         {
           "filename": "2012-11-26_울진6호기_계획예방정비_중_부적절한_안전주입.pdf",
           "size_bytes": 7643152
@@ -216,10 +411,28 @@
       "status": "SOURCE_VARIANT_REVIEW_PENDING",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "동일 날짜·유사 제목 PDF 2개, 크기 상이. 본문·판본 및 해시 비교 후 사건 식별."
+      "from_prior_table": true,
+      "notes": "같은 날짜 유사 제목의 2 PDF 모두 검토. 크기 큰 판본 우선(완전성 단정 아님). 사건 ID·원문·해시 및 자료 관계 확인 후 동일 사건이면 출처만 추가."
     },
     {
-      "queue_order": 15,
+      "queue_order": 25,
+      "queue_id": "ROOT-025",
+      "list_date": "2012-11-26",
+      "source_files": [
+        {
+          "filename": "2012-11-26 _울진 6호기계획예방정비 중부적절한 안전주입.pdf",
+          "size_bytes": 504858
+        }
+      ],
+      "status": "SOURCE_VARIANT_REVIEW_PENDING",
+      "event_id": null,
+      "verified_event_date": null,
+      "from_prior_table": true,
+      "notes": "같은 날짜 유사 제목의 2 PDF 모두 검토. 크기 큰 판본 우선(완전성 단정 아님). 사건 ID·원문·해시 및 자료 관계 확인 후 동일 사건이면 출처만 추가."
+    },
+    {
+      "queue_order": 26,
+      "queue_id": "ROOT-026",
       "list_date": "2011-06-21",
       "source_files": [
         {
@@ -230,10 +443,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 16,
+      "queue_order": 27,
+      "queue_id": "ROOT-027",
       "list_date": "2011-04-19",
       "source_files": [
         {
@@ -244,10 +459,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 17,
+      "queue_order": 28,
+      "queue_id": "ROOT-028",
       "list_date": "2010-09-17",
       "source_files": [
         {
@@ -258,10 +475,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 18,
+      "queue_order": 29,
+      "queue_id": "ROOT-029",
       "list_date": "2009-09-03",
       "source_files": [
         {
@@ -272,10 +491,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 19,
+      "queue_order": 30,
+      "queue_id": "ROOT-030",
       "list_date": "2006-05-07",
       "source_files": [
         {
@@ -286,10 +507,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 20,
+      "queue_order": 31,
+      "queue_id": "ROOT-031",
       "list_date": "2005-11-06",
       "source_files": [
         {
@@ -300,10 +523,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 21,
+      "queue_order": 32,
+      "queue_id": "ROOT-032",
       "list_date": "2003-12-29",
       "source_files": [
         {
@@ -314,10 +539,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 22,
+      "queue_order": 33,
+      "queue_id": "ROOT-033",
       "list_date": "2002-04-05",
       "source_files": [
         {
@@ -328,10 +555,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 23,
+      "queue_order": 34,
+      "queue_id": "ROOT-034",
       "list_date": "2000-11-17",
       "source_files": [
         {
@@ -342,10 +571,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 24,
+      "queue_order": 35,
+      "queue_id": "ROOT-035",
       "list_date": "1999-03-23",
       "source_files": [
         {
@@ -353,13 +584,15 @@
           "size_bytes": 905688
         }
       ],
-      "status": "SOURCE_VARIANT_REVIEW_PENDING",
+      "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "표 3·4행: 본 보고서 및 인적오류 별도 자료. Drive 전체 검색에서 인적오류_증기덤프밸브 동작불량에 의한 증기발생기 수위제어 실패.pdf 동일 제목 후보 2개 확보(메타데이터만). 원본 관계 및 판본 검증 전 별도 사건 등록 금지."
+      "from_prior_table": true,
+      "notes": "루트 내 본 보고서만 대상. 이전 표의 루트 외 인적오류 보조자료는 이번 범위에서 제외."
     },
     {
-      "queue_order": 25,
+      "queue_order": 36,
+      "queue_id": "ROOT-036",
       "list_date": "1997-01-17",
       "source_files": [
         {
@@ -370,10 +603,12 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     },
     {
-      "queue_order": 26,
+      "queue_order": 37,
+      "queue_id": "ROOT-037",
       "list_date": "1994-10-20",
       "source_files": [
         {
@@ -384,49 +619,18 @@
       "status": "SOURCE_METADATA_MATCHED",
       "event_id": null,
       "verified_event_date": null,
-      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+      "from_prior_table": true,
+      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
     }
   ],
-  "excluded_extra_files": [
+  "excluded_non_root_or_non_pdf": [
     {
-      "filename": "2024-03-14_신한울2호기 보조건물 관리구역 정상배기 공기정화기  입구 방사선감시기 겨.pdf",
-      "reason": "파일명/표지 연도 불일치 가능: 기존 250314SH2와 원본 대조 필요; 신규 등록 금지"
+      "name": "등급평가위원회_문서",
+      "reason": "하위 폴더 제외"
     },
     {
-      "filename": "2024-03-19_월성 3호기 13.8kV  등급4전원 BUB  모선 화재 및  전원상실에 의한 원자로 정지.pdf",
-      "reason": "표 범위 외; 별도 요청 시 검토"
-    },
-    {
-      "filename": "2022-12-22_고리3호기_발전기_여자변압기_고압측_케이블_접속부_손상에_의한_터빈_발전ᄀ.pdf",
-      "reason": "표 범위 외; 별도 요청 시 검토"
-    },
-    {
-      "filename": "2022-09-08_신월성2호기_제어봉구동전원계통_출력차단기_개방에_따른_원자로_자동정ᄌ.pdf",
-      "reason": "표 범위 외; 별도 요청 시 검토"
-    },
-    {
-      "filename": "2021-07-12_ 고리 3호기 증기발생기 ‘C’ 수위 저-저에 의한 원자.pdf",
-      "reason": "표 범위 외; 별도 요청 시 검토"
-    },
-    {
-      "filename": "2018-06-11_월성3호기_계획예방정비_중_가압기_배수밸브_오조작에_의한_원자로냉각재_ᄂ.pdf",
-      "reason": "표 범위 외; 별도 요청 시 검토"
-    },
-    {
-      "filename": "2016-12-20_한울 5호기 원자로 HJTC배기구 누설 정비를 위한.pdf",
-      "reason": "표 범위 외; 별도 요청 시 검토"
-    },
-    {
-      "filename": "2016-02-27_한빛 1호기 복수기 진공상실에 의한 터빈발전기 및 원자로 자동정지.pdf",
-      "reason": "표 범위 외; 별도 요청 시 검토"
-    },
-    {
-      "filename": "2014-02-28 _한빛 2호기 M-G set출력차단기의 부적절한 개방.pdf",
-      "reason": "표 범위 외; 별도 요청 시 검토"
-    },
-    {
-      "filename": "2019-05-10_한빛 1호기 원자로특성시험 중 부주의한 제어봉 인출에 따른 보조급수계통 자.pdf",
-      "reason": "표 범위 외; 별도 요청 시 검토"
+      "name": "1999-03-23 인적오류 보조자료(루트 외)",
+      "reason": "이번 루트 전용 범위 제외"
     }
   ],
   "approval_policy": {
@@ -443,5 +647,14 @@
     "12~16장 편집형 PPTX 및 노트, 실제 렌더 및 기술 검사",
     "토론/실천자료, 전문가 검토 패키지, index 갱신",
     "GitHub 커밋 및 readback, 작업 대기열 상태 갱신"
-  ]
+  ],
+  "processing_policy": {
+    "unit": "ONE_PDF_PER_ITERATION",
+    "event_identity": "본문 사건 ID·발생일·호기·제목·판본 확인; 파일명 날짜만으로 병합 금지",
+    "duplicate_policy": "동일 사건 자료는 추가 출처로 통합; 사건 수와 파일 수 분리",
+    "completion": "보고서·원장·교육자료·검증·GitHub 저장 후 대기열 갱신; 미완료 검증은 별도 기록",
+    "blocking": "원본 접근 또는 사실 검증이 불가능하면 BLOCKED 기록; 다음 항목 진행 여부 명시",
+    "ordering_date": "파일명 앞 날짜 기준; 원본 발생·발견·보고·발행일을 별도로 저장",
+    "scope_refresh": "추후 루트 재조회 시 신규 PDF를 확인하고 기존 완료 기록 보존; 하위 폴더는 포함하지 않음"
+  }
 }
