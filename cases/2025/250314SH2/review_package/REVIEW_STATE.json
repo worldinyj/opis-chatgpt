@@ -8,7 +8,7 @@
   "independent_review": "PENDING",
   "can_ship": false,
   "media_status": "SCRIPT_DRAFT",
-  "ppt_status": "GENERATED_DRAFT_RENDER_PENDING",
+  "ppt_status": "TECHNICALLY_RENDERED_DRAFT",
   "source_issues": [
     "표지 날짜 불일치",
     "기초 INES 숫자 및 최종 미확인",
@@ -16,5 +16,16 @@
     "CAP 및 리더 행동 자료 미확인"
   ],
   "paid_generation_calls": 0,
-  "external_submissions": 0
+  "external_submissions": 0,
+  "ppt_qc": {
+    "slides": 16,
+    "notes": 16,
+    "native_objects": 379,
+    "bounds_flags": 0,
+    "pdf_text_flags": 0,
+    "sha256": "8b6841d6ad0e14d754e80252b3dcf3d7fc34d0135ae13a78900662e9c74fed10",
+    "git_blob": "54684b5b6f039df9bc7cafc6965755fafe0ab93b",
+    "render": "LIBREOFFICE_16_PAGES",
+    "approval": "PENDING"
+  }
 }
