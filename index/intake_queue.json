@@ -1,0 +1,447 @@
+{
+  "schema_version": "1.0",
+  "created_date": "2026-11-25",
+  "scope": "USER_TABLE_ONLY",
+  "ordering": "LIST_DATE_DESC",
+  "source_folder_title": "1등급이상사건",
+  "private_links_in_repo": false,
+  "table_rows": 27,
+  "distinct_list_dates": 26,
+  "matched_folder_pdf_count": 27,
+  "extra_folder_pdf_count": 10,
+  "registered_case_count_at_intake": 3,
+  "existing_case_ids": [
+    "250919W2",
+    "250314SH2",
+    "250112W2"
+  ],
+  "pending_date_groups": 25,
+  "next_list_date": "2024-12-27",
+  "items": [
+    {
+      "queue_order": 1,
+      "list_date": "2025-01-12",
+      "source_files": [
+        {
+          "filename": "2025-01-12_월성2호기_액체폐기물계통_밸브_오배열에_의한_비계획적인_방사성물질_방ᄎ.pdf",
+          "size_bytes": 1765325
+        }
+      ],
+      "status": "ALREADY_REGISTERED",
+      "event_id": "250112W2",
+      "verified_event_date": "2025-01-12",
+      "notes": "기존 DRAFT; 중복 등록 금지. PPT 렌더 대기."
+    },
+    {
+      "queue_order": 2,
+      "list_date": "2024-12-27",
+      "source_files": [
+        {
+          "filename": "2024-12-27_한빛 6호기 기체방사성물질 배출운전 중 격납건물.pdf",
+          "size_bytes": 3300962
+        }
+      ],
+      "status": "NEXT_SOURCE_TEXT_READ",
+      "event_id": "240908HB6",
+      "verified_event_date": "2024-09-08",
+      "notes": "원본 2024-13호(240908HB6), 2025-07-07 발행. 본문 사건발생 2024-09-08, 운영자 확인 2024-12-24, 표지 사건발견일/보고 2024-12-27. 목록 순서와 사건발생일 분리. 원본 텍스트 앞부분 확인; 전체 분석 및 원본 해시/렌더 아직 미수행."
+    },
+    {
+      "queue_order": 3,
+      "list_date": "2024-06-01",
+      "source_files": [
+        {
+          "filename": "2024-06-01_월성4호기_계획예방정비_중_등급3전원_모선_저전압에_의한_자동순차접ᄉ.pdf",
+          "size_bytes": 1924381
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 4,
+      "list_date": "2023-04-05",
+      "source_files": [
+        {
+          "filename": "2023-04-05_월성2호기 계획예방정비 중 등급4전원 모선 인입 차단기 개방에 의한 예비디.pdf",
+          "size_bytes": 763939
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 5,
+      "list_date": "2020-07-19",
+      "source_files": [
+        {
+          "filename": "2020-07-19_한울 6호기 원자로냉각재펌프 2대 정지로 인한 원자로 자동정지.pdf",
+          "size_bytes": 1597832
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 6,
+      "list_date": "2019-01-21",
+      "source_files": [
+        {
+          "filename": "2019-01-21_월성3호기 써지보호기 손상에 따른 원자력냉각재 펌프 1번 정지 및 이로 인한 .pdf",
+          "size_bytes": 1635578
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 7,
+      "list_date": "2017-03-28",
+      "source_files": [
+        {
+          "filename": "2017-03-28_고리4호기_증기발생기_A_수실_배수관_배수_밸브_용접부_누설부위_정비를_위한_원.pdf",
+          "size_bytes": 375547
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 8,
+      "list_date": "2015-09-03",
+      "source_files": [
+        {
+          "filename": "2015-09-03_고리 4호기 써지보호기 손상에 따른 원자로냉각재 펌프 B 정지로 인한 원자로 자도.pdf",
+          "size_bytes": 183781
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 9,
+      "list_date": "2014-10-17",
+      "source_files": [
+        {
+          "filename": "2014-10-17_한빛 호기 증기발생기 세관누설 정비를 위한 출력감.pdf",
+          "size_bytes": 2250865
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 10,
+      "list_date": "2014-10-01",
+      "source_files": [
+        {
+          "filename": "2014-10-01_저전압 및 비상디젤발전기 기동 (발생일 _2014. 10.1).pdf",
+          "size_bytes": 184823
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 11,
+      "list_date": "2014-06-17",
+      "source_files": [
+        {
+          "filename": "2014-06-17_월성4호기_계획예방정비_중_가압기_증기배출밸브_배관_연결부_관통결하.pdf",
+          "size_bytes": 253914
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 12,
+      "list_date": "2013-04-14",
+      "source_files": [
+        {
+          "filename": "2013-04-14_고리 4호기 증기발생기 이물질 신호 점검을 위한 수동 정지 및 냉각 중 부적.pdf",
+          "size_bytes": 505142
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 13,
+      "list_date": "2013-01-17",
+      "source_files": [
+        {
+          "filename": "2013-01-17_울진1호기_출력_고증가율_신호_발생에_의한_원자로_자동정지.pdf",
+          "size_bytes": 414786
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 14,
+      "list_date": "2012-11-26",
+      "source_files": [
+        {
+          "filename": "2012-11-26 _울진 6호기계획예방정비 중부적절한 안전주입.pdf",
+          "size_bytes": 504858
+        },
+        {
+          "filename": "2012-11-26_울진6호기_계획예방정비_중_부적절한_안전주입.pdf",
+          "size_bytes": 7643152
+        }
+      ],
+      "status": "SOURCE_VARIANT_REVIEW_PENDING",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "동일 날짜·유사 제목 PDF 2개, 크기 상이. 본문·판본 및 해시 비교 후 사건 식별."
+    },
+    {
+      "queue_order": 15,
+      "list_date": "2011-06-21",
+      "source_files": [
+        {
+          "filename": "2011-06-21_원자로냉각재펌프_정지로인한_원자로_자동정지.pdf",
+          "size_bytes": 364751
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 16,
+      "list_date": "2011-04-19",
+      "source_files": [
+        {
+          "filename": "2011-04-19_고리3호기_계획예방정비_중_인적오류로_인한_지락으로_고리3_4호기_안전모선_저저.pdf",
+          "size_bytes": 510723
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 17,
+      "list_date": "2010-09-17",
+      "source_files": [
+        {
+          "filename": "2010-09-17_신고리 1호기시운전중 살수격리밸브의 비정상.pdf",
+          "size_bytes": 901625
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 18,
+      "list_date": "2009-09-03",
+      "source_files": [
+        {
+          "filename": "2009-09-03_월성2호기_계획예방정비_기간중_역전력계전기_오작동에_의한_스위치야드ᄎ.pdf",
+          "size_bytes": 340760
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 19,
+      "list_date": "2006-05-07",
+      "source_files": [
+        {
+          "filename": "2006-05-07_울진1호기 원자로냉각재계통 가열 중 부적절한 안전주입 발생.pdf",
+          "size_bytes": 863091
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 20,
+      "list_date": "2005-11-06",
+      "source_files": [
+        {
+          "filename": "2005-11-06_월성1호기 비상발전기실 스프링클러 오작동에 의한 원자로격물 격리 신호 ᄇ.pdf",
+          "size_bytes": 1996480
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 21,
+      "list_date": "2003-12-29",
+      "source_files": [
+        {
+          "filename": "2003-12-29_영광5호기_탈염수_공급_모관_방사능_검출_원인_조사_위한_원자로_수동_정지.pdf",
+          "size_bytes": 287427
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 22,
+      "list_date": "2002-04-05",
+      "source_files": [
+        {
+          "filename": "2002-04-05_울진 4호기 증기발생기 세관 손상.pdf",
+          "size_bytes": 1017134
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 23,
+      "list_date": "2000-11-17",
+      "source_files": [
+        {
+          "filename": "2000-11-17_계획예방정비중 증기발생기 저저 수위 시험신호에 의한 원자로 정지.pdf",
+          "size_bytes": 924278
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 24,
+      "list_date": "1999-03-23",
+      "source_files": [
+        {
+          "filename": "1999-03-23_증기덤프밸브 동작불량에 의한 증기발생기 수위제어 실패로 원자로정지.pdf",
+          "size_bytes": 905688
+        }
+      ],
+      "status": "SOURCE_VARIANT_REVIEW_PENDING",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "표 3·4행: 본 보고서 및 인적오류 별도 자료. Drive 전체 검색에서 인적오류_증기덤프밸브 동작불량에 의한 증기발생기 수위제어 실패.pdf 동일 제목 후보 2개 확보(메타데이터만). 원본 관계 및 판본 검증 전 별도 사건 등록 금지."
+    },
+    {
+      "queue_order": 25,
+      "list_date": "1997-01-17",
+      "source_files": [
+        {
+          "filename": "1997-01-17_비상정지 논리시험중 Block Relay 접점불량에 의한 정지차단기 개방으로 원자로정ᄌ.pdf",
+          "size_bytes": 502360
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    },
+    {
+      "queue_order": 26,
+      "list_date": "1994-10-20",
+      "source_files": [
+        {
+          "filename": "1994-10-20_냉각재계통 과압보호밸브 구동장치 고장으로 밸브 개방 고착되어 가압기 수위ᄀ.pdf",
+          "size_bytes": 295684
+        }
+      ],
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": null,
+      "verified_event_date": null,
+      "notes": "파일명 날짜 매칭; 원본 본문 사건 ID/발생일/제목/판본 검증 대기."
+    }
+  ],
+  "excluded_extra_files": [
+    {
+      "filename": "2024-03-14_신한울2호기 보조건물 관리구역 정상배기 공기정화기  입구 방사선감시기 겨.pdf",
+      "reason": "파일명/표지 연도 불일치 가능: 기존 250314SH2와 원본 대조 필요; 신규 등록 금지"
+    },
+    {
+      "filename": "2024-03-19_월성 3호기 13.8kV  등급4전원 BUB  모선 화재 및  전원상실에 의한 원자로 정지.pdf",
+      "reason": "표 범위 외; 별도 요청 시 검토"
+    },
+    {
+      "filename": "2022-12-22_고리3호기_발전기_여자변압기_고압측_케이블_접속부_손상에_의한_터빈_발전ᄀ.pdf",
+      "reason": "표 범위 외; 별도 요청 시 검토"
+    },
+    {
+      "filename": "2022-09-08_신월성2호기_제어봉구동전원계통_출력차단기_개방에_따른_원자로_자동정ᄌ.pdf",
+      "reason": "표 범위 외; 별도 요청 시 검토"
+    },
+    {
+      "filename": "2021-07-12_ 고리 3호기 증기발생기 ‘C’ 수위 저-저에 의한 원자.pdf",
+      "reason": "표 범위 외; 별도 요청 시 검토"
+    },
+    {
+      "filename": "2018-06-11_월성3호기_계획예방정비_중_가압기_배수밸브_오조작에_의한_원자로냉각재_ᄂ.pdf",
+      "reason": "표 범위 외; 별도 요청 시 검토"
+    },
+    {
+      "filename": "2016-12-20_한울 5호기 원자로 HJTC배기구 누설 정비를 위한.pdf",
+      "reason": "표 범위 외; 별도 요청 시 검토"
+    },
+    {
+      "filename": "2016-02-27_한빛 1호기 복수기 진공상실에 의한 터빈발전기 및 원자로 자동정지.pdf",
+      "reason": "표 범위 외; 별도 요청 시 검토"
+    },
+    {
+      "filename": "2014-02-28 _한빛 2호기 M-G set출력차단기의 부적절한 개방.pdf",
+      "reason": "표 범위 외; 별도 요청 시 검토"
+    },
+    {
+      "filename": "2019-05-10_한빛 1호기 원자로특성시험 중 부주의한 제어봉 인출에 따른 보조급수계통 자.pdf",
+      "reason": "표 범위 외; 별도 요청 시 검토"
+    }
+  ],
+  "approval_policy": {
+    "expert_attributes": "USER_SEPARATE_REVIEW",
+    "can_ship": false,
+    "paid_generation": false,
+    "external_ai_submission": false
+  },
+  "workflow": [
+    "원본 파일 식별 및 전체 PDF 확인, 해시/페이지/발생일 확인",
+    "기존 사건 ID·제목·판본 중복 검사",
+    "6장 보고서, 사실/학습 원장, 40속성 후보 및 검토 쟁점",
+    "영상 120초 2종 및 숏폼 30초 제작 설계",
+    "12~16장 편집형 PPTX 및 노트, 실제 렌더 및 기술 검사",
+    "토론/실천자료, 전문가 검토 패키지, index 갱신",
+    "GitHub 커밋 및 readback, 작업 대기열 상태 갱신"
+  ]
+}
