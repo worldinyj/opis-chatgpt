@@ -16,5 +16,9 @@
   "report_page_count_verified": true,
   "ppt_local_git_blob_match": true,
   "ppt_rendered_pages": 16,
-  "author_technical_review": "PASS"
+  "author_technical_review": "PASS",
+  "resumption_check": "PASS_AUTHOR_TECHNICAL_RECHECK",
+  "resumption_record": "review_package/RESUMPTION_CHECK.md",
+  "supplemental_evidence_review": "AUTHOR_COUNTER_REVIEW_RECORDED",
+  "source_use": "USER_CONFIRMED_PUBLIC_SOURCE"
 }
