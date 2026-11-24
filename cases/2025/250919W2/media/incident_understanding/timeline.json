@@ -1,0 +1,122 @@
+[
+  {
+    "id": "S01",
+    "start": 0,
+    "end": 6,
+    "duration": 6
+  },
+  {
+    "id": "S02",
+    "start": 6,
+    "end": 12,
+    "duration": 6
+  },
+  {
+    "id": "S03",
+    "start": 12,
+    "end": 18,
+    "duration": 6
+  },
+  {
+    "id": "S04",
+    "start": 18,
+    "end": 24,
+    "duration": 6
+  },
+  {
+    "id": "S05",
+    "start": 24,
+    "end": 30,
+    "duration": 6
+  },
+  {
+    "id": "S06",
+    "start": 30,
+    "end": 36,
+    "duration": 6
+  },
+  {
+    "id": "S07",
+    "start": 36,
+    "end": 42,
+    "duration": 6
+  },
+  {
+    "id": "S08",
+    "start": 42,
+    "end": 48,
+    "duration": 6
+  },
+  {
+    "id": "S09",
+    "start": 48,
+    "end": 54,
+    "duration": 6
+  },
+  {
+    "id": "S10",
+    "start": 54,
+    "end": 60,
+    "duration": 6
+  },
+  {
+    "id": "S11",
+    "start": 60,
+    "end": 66,
+    "duration": 6
+  },
+  {
+    "id": "S12",
+    "start": 66,
+    "end": 72,
+    "duration": 6
+  },
+  {
+    "id": "S13",
+    "start": 72,
+    "end": 78,
+    "duration": 6
+  },
+  {
+    "id": "S14",
+    "start": 78,
+    "end": 84,
+    "duration": 6
+  },
+  {
+    "id": "S15",
+    "start": 84,
+    "end": 90,
+    "duration": 6
+  },
+  {
+    "id": "S16",
+    "start": 90,
+    "end": 96,
+    "duration": 6
+  },
+  {
+    "id": "S17",
+    "start": 96,
+    "end": 102,
+    "duration": 6
+  },
+  {
+    "id": "S18",
+    "start": 102,
+    "end": 108,
+    "duration": 6
+  },
+  {
+    "id": "S19",
+    "start": 108,
+    "end": 114,
+    "duration": 6
+  },
+  {
+    "id": "S20",
+    "start": 114,
+    "end": 120,
+    "duration": 6
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "schema_version": "2.0",
+  "job_id": "IU-250919W2-R2-DRAFT",
+  "event_id": "250919W2",
+  "artifact_id": "IU-250919W2",
+  "manifest_revision": 2,
+  "route": "GEMINI_TASKS_BATCH",
+  "aspect_ratio": "16:9",
+  "jobs": [
+    {
+      "id": "J01",
+      "scene_id": "S06",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9 landscape, 3D brick miniature educational concept illustration, soft neutral light, consistent scale and matte plastic. 가상의 검토실에서 자료를 함께 살펴보는 두 사람. Approved reference assets must be attached: LOC-B, CHAR-A, CHAR-B, OBJ-A. One location, one primary action, safe framing with lower caption area clear. No text, logo, actual plant layout, technical drawings, controls, or dramatized leak. Fictional characters only, no implication of actual individual conduct.",
+      "reference_ids": [
+        "LOC-B",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S06_take01.png",
+      "attempt": 1
+    },
+    {
+      "id": "J02",
+      "scene_id": "S08",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9 landscape, 3D brick miniature educational concept illustration, soft neutral light, consistent scale and matte plastic. 가상 교육 회의실에서 문서철을 확인하는 정지 이미지. Approved reference assets must be attached: LOC-A, CHAR-A, OBJ-A. One location, one primary action, safe framing with lower caption area clear. No text, logo, actual plant layout, technical drawings, controls, or dramatized leak. Fictional characters only, no implication of actual individual conduct.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "OBJ-A"
+      ],
+      "expected_filename": "S08_take01.png",
+      "attempt": 1
+    }
+  ],
+  "results": []
+}

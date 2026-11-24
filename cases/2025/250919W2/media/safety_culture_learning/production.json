@@ -4,8 +4,8 @@
   "artifact_id": "SC-250919W2",
   "artifact_type": "SAFETY_CULTURE_LEARNING",
   "title": "익숙함이 안전을 보장하지 않는다",
-  "revision": 1,
-  "status": "PLANNED",
+  "revision": 2,
+  "status": "SCRIPT_DRAFT",
   "source": {
     "document_path": "../source.md",
     "report_number": "2025-07",
@@ -36,11 +36,52 @@
     "불확실성을 인식하고 판단 근거를 재검토한다.",
     "문제를 공식 개선체계와 운전경험 학습에 연결한다."
   ],
-  "references": [],
+  "references": [
+    {
+      "id": "LOC-A",
+      "kind": "LOCATION",
+      "description": "가상 브릭 교육용 회의실, 무광 연회색 벽, 청회색 탁자, 불특정 산업시설, 실제 발전소 배치 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "LOC-B",
+      "kind": "LOCATION",
+      "description": "가상 교육자료 검토실, 책상과 정리된 파일, 간결한 배경, 실제 제어실이나 설비실 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-A",
+      "kind": "CHARACTER",
+      "description": "가상의 업무 담당자, 짧은 검은 머리, 청회색 상의, 중립적 표정, 얼굴·몸체·복장 일관. 실제 종사자 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-B",
+      "kind": "CHARACTER",
+      "description": "가상의 검토 담당자, 짧은 갈색 머리, 짙은 청색 상의, 차분한 자세. 실제 종사자 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "OBJ-A",
+      "kind": "OTHER",
+      "description": "일반 교육용 빈 문서철, 종이 및 체크리스트 모형, 글자·도면·수치 없음.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    }
+  ],
   "scenes": [
     {
       "id": "S01",
-      "title": "무엇을 다르게 할 수 있었는가?",
+      "title": "인트로",
       "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
       "scene_type": "TITLE",
@@ -52,10 +93,11 @@
       "generation_route": "LOCAL_EDIT",
       "location_id": null,
       "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 무엇을 다르게 할 수 있었는가?",
-      "narration": "",
+      "visual_brief": "간결한 제목과 질문",
+      "narration": "익숙함이 안전을 보장하지는 않습니다.",
       "overlay": [
-        "무엇을 다르게 할 수 있었는가?"
+        "익숙함이 안전을 보장하지 않는다",
+        "안전문화 교육용 초안"
       ],
       "input_mode": null,
       "motion_plan": null,
@@ -66,30 +108,153 @@
     },
     {
       "id": "S02",
-      "title": "사건 개요",
-      "duration_seconds": 18,
+      "title": "사건 소개",
+      "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
       "scene_type": "FACT",
       "fact_ids": [
-        "F01",
+        "F01"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "원본 사건 분류를 통제형 카드로 표시",
+      "narration": "계획예방정비 중 중수 누설 사건이 발생했습니다.",
+      "overlay": [
+        "사건 개요 · 조사 결과",
+        "계획예방정비 중 중수 누설"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "조사 결과",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F06",
         "F02"
       ],
       "learning_ids": [],
       "principle_codes": [],
       "attribute_codes": [],
-      "render_mode": "STILL_MOTION",
-      "generation_route": "GEMINI_TASKS_BATCH",
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
       "location_id": null,
       "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 사건 개요",
-      "narration": "",
+      "visual_brief": "단일 고리 아이콘과 문서 아이콘, 설비 구조 없음",
+      "narration": "조사팀은 밀봉 오링 손상과 관리 미흡을 확인했습니다.",
       "overlay": [
-        "사건 개요"
+        "조사 결과: 밀봉 손상 · 관리 미흡"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "학습으로 전환",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO",
+        "QA",
+        "DM",
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "CO1",
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2",
+        "PI1",
+        "PI2",
+        "PI3",
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "세 가지 주제를 순차적 텍스트로 소개",
+      "narration": "이제 안전문화 관점에서 세 가지 교훈을 살펴봅니다.",
+      "overlay": [
+        "AI 교육용 해석",
+        "3가지 학습 주제"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "작업관리",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F02"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "CO1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 회의실, 업무 담당자가 빈 문서철을 살펴봄",
+      "narration": "조건이 바뀌면 계획도 다시 검토해야 합니다.",
+      "overlay": [
+        "WP 작업 프로세스",
+        "변경된 조건, 변경되어야 할 계획"
       ],
       "input_mode": null,
       "motion_plan": {
         "start_scale": 1,
-        "end_scale": 1.08,
+        "end_scale": 1.06,
         "pan": "NONE"
       },
       "transition": "CUT",
@@ -98,9 +263,9 @@
       "review_status": "PENDING"
     },
     {
-      "id": "S03",
-      "title": "변경된 조건, 변경되어야 할 계획",
-      "duration_seconds": 18,
+      "id": "S06",
+      "title": "안전중심 소통",
+      "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
       "scene_type": "INTERPRETATION",
       "fact_ids": [
@@ -120,19 +285,105 @@
         "WP4",
         "CO1"
       ],
-      "render_mode": "STILL_MOTION",
+      "render_mode": "I2V",
       "generation_route": "INDIVIDUAL",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "동일 회의실, 두 가상 인물이 열린 자세로 문서를 함께 확인",
+      "narration": "논의한 내용이 공동의 이해로 이어져야 합니다.",
+      "overlay": [
+        "CO 안전중심 의사소통",
+        "공통 이해 확인"
+      ],
+      "input_mode": "single_start",
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S07",
+      "title": "계획의 일치",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "CO1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
       "location_id": null,
       "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 변경된 조건, 변경되어야 할 계획",
-      "narration": "",
+      "visual_brief": "통제형 세 단어 카드",
+      "narration": "변경사항은 승인된 절차에 따라 공유합니다.",
       "overlay": [
-        "변경된 조건, 변경되어야 할 계획"
+        "학습 행동",
+        "계획 · 승인 · 공유"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S08",
+      "title": "의문 제기",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F02"
+      ],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "QA",
+        "DM"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-B",
+      "reference_ids": [
+        "LOC-B",
+        "CHAR-A",
+        "CHAR-B"
+      ],
+      "visual_brief": "가상 검토실, 담당자가 질문하는 자세",
+      "narration": "확인되지 않은 사항은 질문으로 드러냅니다.",
+      "overlay": [
+        "QA 의문 제기",
+        "무엇이 확인되지 않았는가?"
       ],
       "input_mode": null,
       "motion_plan": {
         "start_scale": 1,
-        "end_scale": 1.08,
+        "end_scale": 1.06,
         "pan": "NONE"
       },
       "transition": "CUT",
@@ -141,9 +392,9 @@
       "review_status": "PENDING"
     },
     {
-      "id": "S04",
-      "title": "판단하기 전에 확인하라",
-      "duration_seconds": 18,
+      "id": "S09",
+      "title": "의사결정",
+      "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
       "scene_type": "INTERPRETATION",
       "fact_ids": [
@@ -165,17 +416,23 @@
       ],
       "render_mode": "STILL_MOTION",
       "generation_route": "INDIVIDUAL",
-      "location_id": null,
-      "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 판단하기 전에 확인하라",
-      "narration": "",
+      "location_id": "LOC-B",
+      "reference_ids": [
+        "LOC-B",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 검토실, 두 사람이 자료를 차분히 비교",
+      "narration": "판단은 충분한 근거를 바탕으로 해야 합니다.",
       "overlay": [
-        "판단하기 전에 확인하라"
+        "DM 의사결정",
+        "판단 근거 확인"
       ],
       "input_mode": null,
       "motion_plan": {
-        "start_scale": 1,
-        "end_scale": 1.08,
+        "start_scale": 1.08,
+        "end_scale": 1,
         "pan": "NONE"
       },
       "transition": "CUT",
@@ -184,9 +441,93 @@
       "review_status": "PENDING"
     },
     {
-      "id": "S05",
-      "title": "반복 문제는 학습의 신호",
-      "duration_seconds": 18,
+      "id": "S10",
+      "title": "불확실성",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "QA",
+        "DM"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "관찰과 검증을 구별하는 문구 카드",
+      "narration": "이상이 보이지 않아도 확인은 필요합니다.",
+      "overlay": [
+        "학습 행동",
+        "관찰과 안전 상태의 입증은 다르다"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S11",
+      "title": "문제 해결",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F04"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "PI1",
+        "PI2",
+        "PI3",
+        "CL1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-B",
+      "reference_ids": [
+        "LOC-B",
+        "CHAR-A",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 기록 검토실, 업무 담당자가 빈 기록을 정리",
+      "narration": "반복되는 이상은 공식 개선체계로 연결합니다.",
+      "overlay": [
+        "PI 문제 파악 및 해결",
+        "반복 문제의 등록과 추적"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S12",
+      "title": "지속적 학습",
+      "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
       "scene_type": "INTERPRETATION",
       "fact_ids": [
@@ -207,17 +548,23 @@
       ],
       "render_mode": "STILL_MOTION",
       "generation_route": "INDIVIDUAL",
-      "location_id": null,
-      "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 반복 문제는 학습의 신호",
-      "narration": "",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 회의실에서 두 인물이 자료를 공유",
+      "narration": "운전경험은 수집에서 현장 적용으로 이어져야 합니다.",
       "overlay": [
-        "반복 문제는 학습의 신호"
+        "CL 지속적 학습",
+        "경험을 현장 개선으로"
       ],
       "input_mode": null,
       "motion_plan": {
         "start_scale": 1,
-        "end_scale": 1.08,
+        "end_scale": 1.06,
         "pan": "NONE"
       },
       "transition": "CUT",
@@ -226,8 +573,45 @@
       "review_status": "PENDING"
     },
     {
-      "id": "S06",
-      "title": "6원칙 12속성 종합",
+      "id": "S13",
+      "title": "후속관리",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "PI1",
+        "PI2",
+        "PI3",
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "세 개의 텍스트 및 확인 아이콘",
+      "narration": "조치가 실제로 효과가 있었는지도 확인합니다.",
+      "overlay": [
+        "학습 행동",
+        "평가 · 조치 · 효과 확인"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S14",
+      "title": "속성 종합",
       "duration_seconds": 18,
       "overlap_to_next_seconds": 0,
       "scene_type": "ATTRIBUTE_SUMMARY",
@@ -263,10 +647,12 @@
       "generation_route": "LOCAL_EDIT",
       "location_id": null,
       "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 6원칙 12속성 종합",
-      "narration": "",
+      "visual_brief": "6그룹 12속성 통제형 카드 한 장; 18초 유지, 실제 글자 가독성 검수",
+      "narration": "이 분석은 여섯 원칙과 열두 속성을 학습 후보로 제시합니다. 공식 평가 결과는 아닙니다.",
       "overlay": [
-        "6원칙 12속성 종합"
+        "원칙별 미진속성 후보",
+        "6개 관련 원칙 · 12개 핵심 후보",
+        "AI 교육용 분석 초안"
       ],
       "input_mode": null,
       "motion_plan": null,
@@ -276,11 +662,106 @@
       "review_status": "PENDING"
     },
     {
-      "id": "S07",
-      "title": "가상 대안과 현장 실천",
-      "duration_seconds": 18,
+      "id": "S15",
+      "title": "가상 대안 A",
+      "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
       "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO",
+        "QA",
+        "DM"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "CO1",
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2"
+      ],
+      "render_mode": "I2V",
+      "generation_route": "INDIVIDUAL",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 회의실, 담당자가 문서 확인을 요청하는 모습",
+      "narration": "조건이 다르면 먼저 확인하고 재검토를 요청합니다.",
+      "overlay": [
+        "교육용 가상 상황",
+        "변경 발견 → 재검토 요청"
+      ],
+      "input_mode": "single_start",
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S16",
+      "title": "가상 대안 B",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "PI1",
+        "PI2",
+        "PI3",
+        "CL1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-B",
+      "reference_ids": [
+        "LOC-B",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 검토실에서 두 사람이 자료를 정리",
+      "narration": "반복 문제는 보고하고 후속조치를 함께 확인합니다.",
+      "overlay": [
+        "교육용 가상 상황",
+        "문제 보고 · 후속관리"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S17",
+      "title": "성찰 질문",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "REFLECTION",
       "fact_ids": [],
       "learning_ids": [
         "L01",
@@ -309,14 +790,15 @@
         "PI3",
         "CL1"
       ],
-      "render_mode": "HYBRID",
+      "render_mode": "CONTROLLED_GRAPHIC",
       "generation_route": "LOCAL_EDIT",
       "location_id": null,
       "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 가상 대안과 현장 실천",
-      "narration": "",
+      "visual_brief": "한 문장 질문, 6초 읽기",
+      "narration": "우리 팀은 확인되지 않은 문제를 어떻게 다룹니까?",
       "overlay": [
-        "가상 대안과 현장 실천"
+        "현장 성찰",
+        "우리 팀의 확인과 후속관리는?"
       ],
       "input_mode": null,
       "motion_plan": null,
@@ -326,8 +808,8 @@
       "review_status": "PENDING"
     },
     {
-      "id": "S08",
-      "title": "핵심 메시지",
+      "id": "S18",
+      "title": "아웃트로",
       "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
       "scene_type": "OUTRO",
@@ -337,16 +819,37 @@
         "L02",
         "L03"
       ],
-      "principle_codes": [],
-      "attribute_codes": [],
+      "principle_codes": [
+        "WP",
+        "CO",
+        "QA",
+        "DM",
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "CO1",
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2",
+        "PI1",
+        "PI2",
+        "PI3",
+        "CL1"
+      ],
       "render_mode": "CONTROLLED_GRAPHIC",
       "generation_route": "LOCAL_EDIT",
       "location_id": null,
       "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 핵심 메시지",
-      "narration": "",
+      "visual_brief": "3개 행동 키워드 및 출처",
+      "narration": "확인하고, 소통하고, 경험에서 배웁시다.",
       "overlay": [
-        "핵심 메시지"
+        "확인 · 소통 · 학습",
+        "KINS 2025-07호 / AI 교육용 해석"
       ],
       "input_mode": null,
       "motion_plan": null,

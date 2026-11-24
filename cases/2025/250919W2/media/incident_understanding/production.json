@@ -4,8 +4,8 @@
   "artifact_id": "IU-250919W2",
   "artifact_type": "INCIDENT_UNDERSTANDING",
   "title": "월성2호기 사건 이해",
-  "revision": 1,
-  "status": "PLANNED",
+  "revision": 2,
+  "status": "SCRIPT_DRAFT",
   "source": {
     "document_path": "../source.md",
     "report_number": "2025-07",
@@ -32,7 +32,48 @@
     "target_seconds": 120
   },
   "learning_objectives": [],
-  "references": [],
+  "references": [
+    {
+      "id": "LOC-A",
+      "kind": "LOCATION",
+      "description": "가상 브릭 교육용 회의실, 무광 연회색 벽, 청회색 탁자, 불특정 산업시설, 실제 발전소 배치 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "LOC-B",
+      "kind": "LOCATION",
+      "description": "가상 교육자료 검토실, 책상과 정리된 파일, 간결한 배경, 실제 제어실이나 설비실 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-A",
+      "kind": "CHARACTER",
+      "description": "가상의 업무 담당자, 짧은 검은 머리, 청회색 상의, 중립적 표정, 얼굴·몸체·복장 일관. 실제 종사자 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-B",
+      "kind": "CHARACTER",
+      "description": "가상의 검토 담당자, 짧은 갈색 머리, 짙은 청색 상의, 차분한 자세. 실제 종사자 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "OBJ-A",
+      "kind": "OTHER",
+      "description": "일반 교육용 빈 문서철, 종이 및 체크리스트 모형, 글자·도면·수치 없음.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    }
+  ],
   "scenes": [
     {
       "id": "S01",
@@ -48,10 +89,11 @@
       "generation_route": "LOCAL_EDIT",
       "location_id": null,
       "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 사건 이해",
-      "narration": "",
+      "visual_brief": "단순한 타이틀, 청회색 배경, 후반 텍스트",
+      "narration": "한 건의 중수 누설 사건을 살펴봅니다.",
       "overlay": [
-        "사건 이해"
+        "사건 이해",
+        "공개 조사보고서 기반"
       ],
       "input_mode": null,
       "motion_plan": null,
@@ -62,78 +104,13 @@
     },
     {
       "id": "S02",
-      "title": "사건 배경",
-      "duration_seconds": 24,
+      "title": "사건 발생",
+      "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
       "scene_type": "FACT",
       "fact_ids": [
-        "F01"
-      ],
-      "learning_ids": [],
-      "principle_codes": [],
-      "attribute_codes": [],
-      "render_mode": "STILL_MOTION",
-      "generation_route": "GEMINI_TASKS_BATCH",
-      "location_id": null,
-      "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 사건 배경",
-      "narration": "",
-      "overlay": [
-        "사건 배경"
-      ],
-      "input_mode": null,
-      "motion_plan": {
-        "start_scale": 1,
-        "end_scale": 1.08,
-        "pan": "NONE"
-      },
-      "transition": "CUT",
-      "attempts": [],
-      "accepted_take": null,
-      "review_status": "PENDING"
-    },
-    {
-      "id": "S03",
-      "title": "조사 결과",
-      "duration_seconds": 36,
-      "overlap_to_next_seconds": 0,
-      "scene_type": "FACT",
-      "fact_ids": [
-        "F02",
-        "F03",
-        "F04"
-      ],
-      "learning_ids": [],
-      "principle_codes": [],
-      "attribute_codes": [],
-      "render_mode": "STILL_MOTION",
-      "generation_route": "INDIVIDUAL",
-      "location_id": null,
-      "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 조사 결과",
-      "narration": "",
-      "overlay": [
-        "조사 결과"
-      ],
-      "input_mode": null,
-      "motion_plan": {
-        "start_scale": 1,
-        "end_scale": 1.08,
-        "pan": "NONE"
-      },
-      "transition": "CUT",
-      "attempts": [],
-      "accepted_take": null,
-      "review_status": "PENDING"
-    },
-    {
-      "id": "S04",
-      "title": "영향과 대응",
-      "duration_seconds": 24,
-      "overlap_to_next_seconds": 0,
-      "scene_type": "FACT",
-      "fact_ids": [
-        "F05"
+        "F01",
+        "F10"
       ],
       "learning_ids": [],
       "principle_codes": [],
@@ -142,10 +119,69 @@
       "generation_route": "LOCAL_EDIT",
       "location_id": null,
       "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 영향과 대응",
-      "narration": "",
+      "visual_brief": "날짜와 정비 상태를 담은 타이포그래피",
+      "narration": "이 사건은 이천이십오년 구월에 발생했습니다.",
       "overlay": [
-        "영향과 대응"
+        "2025.09.19",
+        "계획예방정비 중"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "운전 상태",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F11"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "정지 상태를 나타내는 일반적인 텍스트 카드",
+      "narration": "당시 원자로는 보증정지 상태였습니다.",
+      "overlay": [
+        "보증정지 상태",
+        "조사보고서 기록"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "누설 확인",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F10"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "추상적인 관찰과 확인 아이콘, 실제 화면·계통 없음",
+      "narration": "운전변수의 이상을 확인하고 현장을 점검했습니다.",
+      "overlay": [
+        "운전변수 이상 인지",
+        "현장점검으로 누설 확인"
       ],
       "input_mode": null,
       "motion_plan": null,
@@ -156,12 +192,13 @@
     },
     {
       "id": "S05",
-      "title": "공식 대책 및 출처",
-      "duration_seconds": 24,
+      "title": "보고대상 사건",
+      "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
       "scene_type": "FACT",
       "fact_ids": [
-        "F05"
+        "F01",
+        "F10"
       ],
       "learning_ids": [],
       "principle_codes": [],
@@ -170,10 +207,11 @@
       "generation_route": "LOCAL_EDIT",
       "location_id": null,
       "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 공식 대책 및 출처",
-      "narration": "",
+      "visual_brief": "문서 아이콘과 사건 분류, 통제형 편집",
+      "narration": "중수 누설이 보고대상 사건으로 보고됐습니다.",
       "overlay": [
-        "공식 대책 및 출처"
+        "시설 내부 중수 누설",
+        "보고대상 사건"
       ],
       "input_mode": null,
       "motion_plan": null,
@@ -184,11 +222,52 @@
     },
     {
       "id": "S06",
-      "title": "원문 참조",
+      "title": "조사 결과",
       "duration_seconds": 6,
       "overlap_to_next_seconds": 0,
-      "scene_type": "OUTRO",
-      "fact_ids": [],
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F02",
+        "F06"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-B",
+      "reference_ids": [
+        "LOC-B",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 검토실에서 자료를 함께 살펴보는 두 사람",
+      "narration": "조사팀은 물리적 원인과 관리 문제를 살폈습니다.",
+      "overlay": [
+        "조사 결과",
+        "물리적 원인 · 관리 과정"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S07",
+      "title": "밀봉 기능 상실",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F06"
+      ],
       "learning_ids": [],
       "principle_codes": [],
       "attribute_codes": [],
@@ -196,10 +275,401 @@
       "generation_route": "LOCAL_EDIT",
       "location_id": null,
       "reference_ids": [],
-      "visual_brief": "기획용 개념 장면: 원문 참조",
-      "narration": "",
+      "visual_brief": "독립된 고리 모양 아이콘, 실제 부품 구조나 작업법 없음",
+      "narration": "조사 결과 밀봉 오링의 손상이 확인됐습니다.",
       "overlay": [
-        "원문 참조"
+        "직접원인: 밀봉 오링 손상"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S08",
+      "title": "작업계획 관리",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F02"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 교육 회의실에서 문서철을 확인하는 정지 이미지",
+      "narration": "작업계획 변경사항의 반영과 승인이 미흡했습니다.",
+      "overlay": [
+        "작업계획 변경 · 승인 관리"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S09",
+      "title": "판단 근거",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F02"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "서류와 물음표를 통제형 그래픽으로 표현",
+      "narration": "작업조건을 확인하는 방법의 검토도 부족했습니다.",
+      "overlay": [
+        "작업조건 확인 근거"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S10",
+      "title": "이상상황 대응",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F03"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "검토되지 않은 문서 아이콘, 구체적인 작업 방법 없음",
+      "narration": "이상상황 대응계획의 공유와 이행도 미흡했습니다.",
+      "overlay": [
+        "대응계획 공유 · 이행"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S11",
+      "title": "기존 문제 관리",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F04"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "INDIVIDUAL",
+      "location_id": "LOC-B",
+      "reference_ids": [
+        "LOC-B",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "자료 검토실에서 여러 빈 문서철을 비교하는 인물",
+      "narration": "과거 설비 이상에 대한 후속관리도 지적됐습니다.",
+      "overlay": [
+        "기존 설비 이상",
+        "시정조치 및 후속관리"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1.08,
+        "end_scale": 1,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S12",
+      "title": "운전경험 활용",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F04"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "빈 기록 카드 여러 장, 국가나 실제 설비 표시 없음",
+      "narration": "해외 유사 운전경험의 활용에도 미흡함이 있었습니다.",
+      "overlay": [
+        "운전경험 수집과 활용의 차이"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S13",
+      "title": "감시 설비 확인",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F07"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "두 개의 추상 문서 아이콘 비교, 위치·배치도 없음",
+      "narration": "감시설비의 설치 불일치로 인지가 지연됐습니다.",
+      "overlay": [
+        "설계와 현장 설치 상태 불일치",
+        "조기 인지 지연"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S14",
+      "title": "누설량 평가",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F08"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "수치 카드; 총량과 회수량을 텍스트로 정확히 표시",
+      "narration": "총 누설량과 회수량은 별도로 평가됐습니다.",
+      "overlay": [
+        "평가기간 9.18~9.24",
+        "총 누설 1,311.15 kg",
+        "회수 1,306.01 kg"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S15",
+      "title": "외부 배출 평가",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F08"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "수치만 표시, 실제 방출 경로 시각화 없음",
+      "narration": "외부로 배출된 중수량도 평가했습니다.",
+      "overlay": [
+        "외부 배출 평가 5.14 kg",
+        "동일 평가기간"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S16",
+      "title": "안전성 영향",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F11"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "중립적 결과 카드; 안전등급 확정 표현 금지",
+      "narration": "조사팀은 발전소 안전기능 영향이 없다고 평가했습니다.",
+      "overlay": [
+        "보증정지 유지",
+        "안전기능 영향 없음 (조사 평가)"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S17",
+      "title": "환경 영향 및 등급",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F11"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "평가와 잠정 등급 표기, 녹색 합격 도장 사용 금지",
+      "narration": "환경 영향은 미미했고 기초등급은 영이었습니다.",
+      "overlay": [
+        "환경·주민 영향 미미 (조사 평가)",
+        "INES 기초등급 0 · 최종 미확정"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S18",
+      "title": "단기조치",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F09"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "체크 목록; 발행 시점 명시",
+      "narration": "보고서에는 단기조치 완료가 기록됐습니다.",
+      "overlay": [
+        "발행 당시 단기조치 완료",
+        "점검 · 절차 개선 · 교육"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S19",
+      "title": "중장기대책",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F09"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "예정 목록, 완료 아이콘 없음",
+      "narration": "중장기 대책은 예정으로 제시됐습니다.",
+      "overlay": [
+        "발행 당시 중장기조치 예정",
+        "현재 이행 여부 미확인"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S20",
+      "title": "원본 출처",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [
+        "F09"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "출처와 교육용 초안 표시",
+      "narration": "자세한 내용은 공개 조사보고서를 참고하십시오.",
+      "overlay": [
+        "KINS 2025-07호 · 250919W2",
+        "2026.03.23 · OPIS",
+        "교육용 설명 초안"
       ],
       "input_mode": null,
       "motion_plan": null,
