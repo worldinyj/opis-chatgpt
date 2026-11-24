@@ -20,7 +20,9 @@
       "design_review": "PENDING",
       "content_review": "PENDING",
       "reuse_approval": "PENDING",
-      "can_ship": false
+      "can_ship": false,
+      "implementation": "OFFLINE_MVP",
+      "renderer": "education/ppt/generic/generic.mjs"
     },
     {
       "id": "LAY-FACT-01",
@@ -38,7 +40,9 @@
       "design_review": "PENDING",
       "content_review": "PENDING",
       "reuse_approval": "PENDING",
-      "can_ship": false
+      "can_ship": false,
+      "implementation": "OFFLINE_MVP",
+      "renderer": "education/ppt/generic/generic.mjs"
     },
     {
       "id": "LAY-TIME-01",
@@ -56,7 +60,9 @@
       "design_review": "PENDING",
       "content_review": "PENDING",
       "reuse_approval": "PENDING",
-      "can_ship": false
+      "can_ship": false,
+      "implementation": "OFFLINE_MVP",
+      "renderer": "education/ppt/generic/generic.mjs"
     },
     {
       "id": "LAY-CAUSE-01",
@@ -78,7 +84,9 @@
       "design_review": "PENDING",
       "content_review": "PENDING",
       "reuse_approval": "PENDING",
-      "can_ship": false
+      "can_ship": false,
+      "implementation": "OFFLINE_MVP",
+      "renderer": "education/ppt/generic/generic.mjs"
     },
     {
       "id": "LAY-PRINC-01",
@@ -100,7 +108,9 @@
       "design_review": "PENDING",
       "content_review": "PENDING",
       "reuse_approval": "PENDING",
-      "can_ship": false
+      "can_ship": false,
+      "implementation": "OFFLINE_MVP",
+      "renderer": "education/ppt/generic/generic.mjs"
     },
     {
       "id": "LAY-ATTR-01",
@@ -120,7 +130,9 @@
       "design_review": "PENDING",
       "content_review": "PENDING",
       "reuse_approval": "PENDING",
-      "can_ship": false
+      "can_ship": false,
+      "implementation": "OFFLINE_MVP",
+      "renderer": "education/ppt/generic/generic.mjs"
     },
     {
       "id": "LAY-METRIC-01",
@@ -138,7 +150,9 @@
       "design_review": "PENDING",
       "content_review": "PENDING",
       "reuse_approval": "PENDING",
-      "can_ship": false
+      "can_ship": false,
+      "implementation": "OFFLINE_MVP",
+      "renderer": "education/ppt/generic/generic.mjs"
     },
     {
       "id": "LAY-ACTION-01",
@@ -159,7 +173,9 @@
       "design_review": "PENDING",
       "content_review": "PENDING",
       "reuse_approval": "PENDING",
-      "can_ship": false
+      "can_ship": false,
+      "implementation": "OFFLINE_MVP",
+      "renderer": "education/ppt/generic/generic.mjs"
     },
     {
       "id": "LAY-END-01",
@@ -177,7 +193,9 @@
       "design_review": "PENDING",
       "content_review": "PENDING",
       "reuse_approval": "PENDING",
-      "can_ship": false
+      "can_ship": false,
+      "implementation": "OFFLINE_MVP",
+      "renderer": "education/ppt/generic/generic.mjs"
     }
   ]
 }

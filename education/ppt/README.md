@@ -46,3 +46,6 @@ node education/ppt/scripts/generate_professional.mjs cases/2025/250919W2/media/c
 
 ## PPT-D 통합 품질검증 MVP
 [수입·비교검증 절차](quality/README.md) · [수동 평가표](quality/QUALITY_RUBRIC.md) · [레이아웃 후보 등록부](quality/REUSE_CATALOG.json). 실제 사용자 샘플 및 ChatGPT R1 파일 검사, 16개 매핑, 단위 테스트 10/10. 외부 AI 출처 확인/실제 외부 결과 검증은 미실시. 생성기 범용화 및 우수 장표 실제 재사용은 후속.
+
+## PPT-E 범용 전문형 생성기
+[입력 계약 및 사용법](generic/README.md) · [검증](generic/VALIDATION.md). 기존 R1/R3 별도 보존. 입력 명세 12~16장, 9개 패턴, 표준 속성 후보 자동 구성. 실제 사례 16장+가상 12장, 총 28장 렌더. 20/20 단위 테스트. Markdown에서 슬라이드 자동 분석/축약 미구현; 신규 실제 사건 실증과 디자인 승인 별도.

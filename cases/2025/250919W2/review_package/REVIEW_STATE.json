@@ -69,6 +69,16 @@
       "reuse_candidates": 9,
       "reuse_approved": 0,
       "can_ship": false
+    },
+    "ppt_e": {
+      "status": "OFFLINE_MVP_RENDERED",
+      "artifact": "../media/classroom_ppt/OPIS_250919W2_Generic_16_Draft.pptx",
+      "git_blob": "eb5bc16e01d701256f41fd692673354c7bceca81",
+      "synthetic_test": true,
+      "actual_second_case_tested": false,
+      "unit_tests": "20/20",
+      "can_ship": false,
+      "expert_approval": "PENDING"
     }
   }
 }

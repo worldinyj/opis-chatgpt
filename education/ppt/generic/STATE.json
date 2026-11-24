@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "status": "OFFLINE_MVP_RENDERED",
+  "design_template": "WOLSONG_PROFESSIONAL_V1",
+  "patterns_implemented": 9,
+  "approved_reuse": 0,
+  "slide_range": [
+    12,
+    16
+  ],
+  "unit_tests": {
+    "passed": 20,
+    "total": 20
+  },
+  "rendered": [
+    {
+      "case": "250919W2",
+      "slides": 16,
+      "notes": 16,
+      "objects": 389,
+      "bounds": 0,
+      "pdf_text_flags": 0,
+      "blob": "eb5bc16e01d701256f41fd692673354c7bceca81"
+    },
+    {
+      "case": "SYNTHETIC-X",
+      "slides": 12,
+      "notes": 12,
+      "objects": 239,
+      "bounds": 0,
+      "pdf_text_flags": 0,
+      "blob": "6e39d9a975c8f08f7f080edf4a705e49e9ad3edb"
+    }
+  ],
+  "dense_40": "BLOCKED_BY_CAPACITY",
+  "real_second_case": "NOT_TESTED",
+  "independent_review": "PENDING",
+  "expert_approval": "PENDING",
+  "can_ship": false,
+  "paid_generation_calls": 0,
+  "external_submissions": 0
+}
