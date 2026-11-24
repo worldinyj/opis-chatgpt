@@ -1,0 +1,43 @@
+{
+  "event_id": "250919W2",
+  "source_sha256": "fb3348d2725396a03689556b717876d8d65c72a79dce6716ae1d8471fe6cec83",
+  "analysis_version": "0.1.1",
+  "content_commit": "7b67de2a1545cd8b3d263b2c9c8e7912b536117e",
+  "author_cross_review": "COMPLETE",
+  "independent_review": "PENDING",
+  "expert_content_review": "PENDING",
+  "final_media_qc": "PENDING",
+  "education_release": "NOT_AUTHORIZED",
+  "can_ship": false,
+  "qc_score": null,
+  "approved_attributes": [],
+  "artifacts": [
+    {
+      "id": "IU-250919W2",
+      "revision": 3
+    },
+    {
+      "id": "SC-250919W2",
+      "revision": 3
+    },
+    {
+      "id": "SM-250919W2-01",
+      "revision": 3
+    },
+    {
+      "id": "PPT-250919W2",
+      "revision": 3,
+      "pptx_git_blob": "4c42896f4fe0cb781a4083b9f4d5394cf83049ec"
+    },
+    {
+      "id": "DA-250919W2",
+      "revision": 2
+    }
+  ],
+  "open_questions": [
+    "원본의 승인 일자 및 인지 시점 표기 확인",
+    "QA4 별도 핵심 후보 및 PI1 판단 범위",
+    "최종 INES 및 발행 후 대책 이행(별도 최신 자료 확인 필요)",
+    "실제 자산 및 음성 QC, A4 보고서 분량 및 PowerPoint 현장 가독성"
+  ]
+}

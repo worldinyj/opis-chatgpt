@@ -74,3 +74,6 @@ KINS 원본 중심: 사건 배경과 계획정비 상황 → 누설 확인과 �
 
 ## MEDIA-007 숏폼 및 집합교육 PPT
 [30초 숏폼 상세 대본](shorts/SHORT-01/SCRIPT.md) · [실제 12장 PPTX](classroom_ppt/OPIS_250919W2_Classroom_R2.pptx) · [진행자 안내](classroom_ppt/FACILITATOR_GUIDE.md) · [검증 기록](MEDIA007_VALIDATION.md). PPT 파일은 로컬 실제 렌더링본과 동일한 바이트를 GitHub에 저장. 교육용 초안이며 승인 대기.
+
+## MEDIA-008 통합검토 개정
+분석 v0.1.1, 영상 및 PPT R3, 토론 R2. [전문가 검토 패키지](../review_package/README.md) · [PPTX R3](classroom_ppt/OPIS_250919W2_Classroom_R3.pptx). 기존 R2는 이력 보존. 승인 전 교육용 초안.
