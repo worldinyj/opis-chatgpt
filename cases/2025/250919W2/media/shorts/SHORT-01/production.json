@@ -1,0 +1,215 @@
+{
+  "schema_version": "2.0",
+  "event_id": "250919W2",
+  "artifact_id": "SM-250919W2-01",
+  "artifact_type": "KEY_MESSAGE_SHORT",
+  "title": "변경된 조건, 변경되어야 할 계획",
+  "revision": 1,
+  "status": "PLANNED",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2025-07",
+    "report_date": "2026-03-23",
+    "sha256": "fb3348d2725396a03689556b717876d8d65c72a79dce6716ae1d8471fe6cec83"
+  },
+  "provenance": {
+    "analysis_path": "../../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../../fact_ledger.json",
+    "learning_ledger": "../../learning_ledger.json",
+    "upstream_artifact_id": "SC-250919W2"
+  },
+  "profile": {
+    "aspect_ratio": "9:16",
+    "width": 720,
+    "height": 1280,
+    "fps": 24,
+    "language": "ko",
+    "style": "3D brick miniature + controlled graphic"
+  },
+  "timing": {
+    "target_seconds": 30
+  },
+  "learning_objectives": [
+    "변경을 승인 문서와 공통 이해에 연결한다."
+  ],
+  "references": [],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "변경을 발견했나요?",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 변경을 발견했나요?",
+      "narration": "",
+      "overlay": [
+        "변경을 발견했나요?"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "작업계획과 소통",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 작업계획과 소통",
+      "narration": "",
+      "overlay": [
+        "작업계획과 소통"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.08,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "가상 상황",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "INDIVIDUAL",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 가상 상황",
+      "narration": "",
+      "overlay": [
+        "가상 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.08,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "가상 안전 행동",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "INDIVIDUAL",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 가상 안전 행동",
+      "narration": "",
+      "overlay": [
+        "가상 안전 행동"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.08,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "변경 시 승인된 절차로 재검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 변경 시 승인된 절차로 재검토",
+      "narration": "",
+      "overlay": [
+        "변경 시 승인된 절차로 재검토"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Learning ledger v2",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+    },
+    "analysis_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "standard_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "core_attribute_codes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "PA1",
+          "PA2",
+          "PA3",
+          "QA1",
+          "QA2",
+          "QA3",
+          "QA4",
+          "CO1",
+          "CO2",
+          "CO3",
+          "CO4",
+          "LA1",
+          "LA2",
+          "LA3",
+          "LA4",
+          "LA5",
+          "LA6",
+          "LA7",
+          "LA8",
+          "DM1",
+          "DM2",
+          "DM3",
+          "WE1",
+          "WE2",
+          "WE3",
+          "WE4",
+          "CL1",
+          "CL2",
+          "CL3",
+          "CL4",
+          "PI1",
+          "PI2",
+          "PI3",
+          "PI4",
+          "RC1",
+          "RC2",
+          "WP1",
+          "WP2",
+          "WP3",
+          "WP4"
+        ]
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "additional_attribute_codes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "PA1",
+          "PA2",
+          "PA3",
+          "QA1",
+          "QA2",
+          "QA3",
+          "QA4",
+          "CO1",
+          "CO2",
+          "CO3",
+          "CO4",
+          "LA1",
+          "LA2",
+          "LA3",
+          "LA4",
+          "LA5",
+          "LA6",
+          "LA7",
+          "LA8",
+          "DM1",
+          "DM2",
+          "DM3",
+          "WE1",
+          "WE2",
+          "WE3",
+          "WE4",
+          "CL1",
+          "CL2",
+          "CL3",
+          "CL4",
+          "PI1",
+          "PI2",
+          "PI3",
+          "PI4",
+          "RC1",
+          "RC2",
+          "WP1",
+          "WP2",
+          "WP3",
+          "WP4"
+        ]
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^L[0-9]{2,}$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "EDUCATIONAL_INTERPRETATION",
+              "HYPOTHETICAL_ACTION",
+              "REFLECTION"
+            ]
+          },
+          "message": {
+            "type": "string",
+            "minLength": 1
+          },
+          "objective": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cause_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+            },
+            "minItems": 0,
+            "uniqueItems": true
+          },
+          "fact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^F[0-9]{2,}$"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "principle_codes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "PA",
+                "QA",
+                "CO",
+                "LA",
+                "DM",
+                "WE",
+                "CL",
+                "PI",
+                "RC",
+                "WP"
+              ]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "attribute_codes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "PA1",
+                "PA2",
+                "PA3",
+                "QA1",
+                "QA2",
+                "QA3",
+                "QA4",
+                "CO1",
+                "CO2",
+                "CO3",
+                "CO4",
+                "LA1",
+                "LA2",
+                "LA3",
+                "LA4",
+                "LA5",
+                "LA6",
+                "LA7",
+                "LA8",
+                "DM1",
+                "DM2",
+                "DM3",
+                "WE1",
+                "WE2",
+                "WE3",
+                "WE4",
+                "CL1",
+                "CL2",
+                "CL3",
+                "CL4",
+                "PI1",
+                "PI2",
+                "PI3",
+                "PI4",
+                "RC1",
+                "RC2",
+                "WP1",
+                "WP2",
+                "WP3",
+                "WP4"
+              ]
+            },
+            "minItems": 0,
+            "uniqueItems": true
+          },
+          "report_section": {
+            "type": "string",
+            "minLength": 1
+          },
+          "qualification": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "review_status": {
+            "type": "string",
+            "enum": [
+              "PENDING",
+              "PASS",
+              "FAIL"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "message",
+          "objective",
+          "cause_ids",
+          "fact_ids",
+          "principle_codes",
+          "attribute_codes",
+          "report_section",
+          "qualification",
+          "review_status"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "event_id",
+    "analysis_version",
+    "standard_version",
+    "core_attribute_codes",
+    "additional_attribute_codes",
+    "entries"
+  ]
+}

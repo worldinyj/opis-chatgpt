@@ -24,3 +24,6 @@
 
 ## manifest 설계 필드
 event_id, artifact_id, type, source_version, analysis_version, revision, profile(width,height,aspect_ratio,fps), timing(target_seconds,overlap), scenes(id, duration_seconds, scene_type, fact_ids, learning_ids, principle_codes, attribute_codes, render_mode, generation_route, refs, narration, overlay, transition, actual_seconds, review_status), approvals, attempts. 가변 구간은 절대 타임라인으로 계산하고 겹침 전환 반영. 상세 JSON Schema와 검증 구현은 MEDIA-003~004에서 수행.
+
+## 구현 계약
+[JSON Schema 및 교차검증 계약](CONTRACT.md)으로 확정. 실제 미디어 생성/합성은 MEDIA-004 이후. 예제의 scene은 학습 구간으로 6초 I2V 클립 분할은 제작 설계 단계에서 수행한다.

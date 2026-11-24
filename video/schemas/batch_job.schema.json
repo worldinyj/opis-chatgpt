@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "External batch job contract",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "job_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+    },
+    "artifact_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+    },
+    "manifest_revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "route": {
+      "const": "GEMINI_TASKS_BATCH"
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "enum": [
+        "9:16",
+        "16:9"
+      ]
+    },
+    "jobs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+          },
+          "scene_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+          },
+          "requested_kind": {
+            "type": "string",
+            "enum": [
+              "IMAGE",
+              "VIDEO"
+            ]
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reference_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+            },
+            "minItems": 0,
+            "uniqueItems": true
+          },
+          "expected_filename": {
+            "type": "string",
+            "minLength": 1
+          },
+          "attempt": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "id",
+          "scene_id",
+          "requested_kind",
+          "prompt",
+          "reference_ids",
+          "expected_filename",
+          "attempt"
+        ]
+      }
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "job_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+          },
+          "attempt": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "result": {
+            "type": "string",
+            "enum": [
+              "PENDING",
+              "ACCEPTED",
+              "REJECTED",
+              "FAILED"
+            ]
+          },
+          "path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "tool": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "review_status": {
+            "type": "string",
+            "enum": [
+              "PENDING",
+              "PASS",
+              "FAIL"
+            ]
+          }
+        },
+        "required": [
+          "job_id",
+          "attempt",
+          "result",
+          "path",
+          "sha256",
+          "tool",
+          "notes",
+          "review_status"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "job_id",
+    "event_id",
+    "artifact_id",
+    "manifest_revision",
+    "route",
+    "aspect_ratio",
+    "jobs",
+    "results"
+  ]
+}

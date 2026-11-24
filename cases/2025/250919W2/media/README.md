@@ -65,3 +65,6 @@ KINS 원본 중심: 사건 배경과 계획정비 상황 → 누설 확인과 �
 
 ## 9. 제작 순서
 공통 manifest/원장 계약 → 교육영상·이해영상 대본과 스토리보드 → 숏폼·PPT 설계 → 보고서와 콘텐츠 교차검토 → 소규모 개별/Gemini 배치 및 통제 편집 실증 → 실제 생성/검수 및 승인. 현재 문서만 작성했으며 미디어, PPTX, 유료 작업, 전문가 승인 없음.
+
+## 10. MEDIA-003 공통 계약 시범 적용 (PLANNED)
+[사실 원장](fact_ledger.json) · [학습 원장](learning_ledger.json) · [이해영상](incident_understanding/production.json) · [안전문화 교육영상](safety_culture_learning/production.json) · [숏폼](shorts/SHORT-01/production.json) · [PPT](classroom_ppt/slide_manifest.json) · [토론·실천](discussion_action/manifest.json). [Gemini 배치 예제](safety_culture_learning/batch_job.example.json)는 실행되지 않았다. 장면은 기획 구간이며 상세 대본·스토리보드 및 실제 자산 제작은 후속.

@@ -1,0 +1,367 @@
+{
+  "schema_version": "2.0",
+  "event_id": "250919W2",
+  "artifact_id": "SC-250919W2",
+  "artifact_type": "SAFETY_CULTURE_LEARNING",
+  "title": "익숙함이 안전을 보장하지 않는다",
+  "revision": 1,
+  "status": "PLANNED",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2025-07",
+    "report_date": "2026-03-23",
+    "sha256": "fb3348d2725396a03689556b717876d8d65c72a79dce6716ae1d8471fe6cec83"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "16:9",
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "language": "ko",
+    "style": "3D brick miniature + controlled graphic"
+  },
+  "timing": {
+    "target_seconds": 120
+  },
+  "learning_objectives": [
+    "변경을 승인 문서와 공통 이해에 연결한다.",
+    "불확실성을 인식하고 판단 근거를 재검토한다.",
+    "문제를 공식 개선체계와 운전경험 학습에 연결한다."
+  ],
+  "references": [],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "무엇을 다르게 할 수 있었는가?",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 무엇을 다르게 할 수 있었는가?",
+      "narration": "",
+      "overlay": [
+        "무엇을 다르게 할 수 있었는가?"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "사건 개요",
+      "duration_seconds": 18,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F01",
+        "F02"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 사건 개요",
+      "narration": "",
+      "overlay": [
+        "사건 개요"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.08,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "변경된 조건, 변경되어야 할 계획",
+      "duration_seconds": 18,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F02",
+        "F03"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "CO1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "INDIVIDUAL",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 변경된 조건, 변경되어야 할 계획",
+      "narration": "",
+      "overlay": [
+        "변경된 조건, 변경되어야 할 계획"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.08,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "판단하기 전에 확인하라",
+      "duration_seconds": 18,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F02",
+        "F03"
+      ],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "QA",
+        "DM"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "INDIVIDUAL",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 판단하기 전에 확인하라",
+      "narration": "",
+      "overlay": [
+        "판단하기 전에 확인하라"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.08,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "반복 문제는 학습의 신호",
+      "duration_seconds": 18,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F04"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "PI1",
+        "PI2",
+        "PI3",
+        "CL1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "INDIVIDUAL",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 반복 문제는 학습의 신호",
+      "narration": "",
+      "overlay": [
+        "반복 문제는 학습의 신호"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.08,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S06",
+      "title": "6원칙 12속성 종합",
+      "duration_seconds": 18,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "ATTRIBUTE_SUMMARY",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO",
+        "QA",
+        "DM",
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "CO1",
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2",
+        "PI1",
+        "PI2",
+        "PI3",
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 6원칙 12속성 종합",
+      "narration": "",
+      "overlay": [
+        "6원칙 12속성 종합"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S07",
+      "title": "가상 대안과 현장 실천",
+      "duration_seconds": 18,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO",
+        "QA",
+        "DM",
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "CO1",
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2",
+        "PI1",
+        "PI2",
+        "PI3",
+        "CL1"
+      ],
+      "render_mode": "HYBRID",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 가상 대안과 현장 실천",
+      "narration": "",
+      "overlay": [
+        "가상 대안과 현장 실천"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S08",
+      "title": "핵심 메시지",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 핵심 메시지",
+      "narration": "",
+      "overlay": [
+        "핵심 메시지"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

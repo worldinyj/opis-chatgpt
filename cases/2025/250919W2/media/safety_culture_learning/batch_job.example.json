@@ -1,0 +1,21 @@
+{
+  "schema_version": "2.0",
+  "job_id": "BATCH-EXAMPLE-01",
+  "event_id": "250919W2",
+  "artifact_id": "SC-250919W2",
+  "manifest_revision": 1,
+  "route": "GEMINI_TASKS_BATCH",
+  "aspect_ratio": "16:9",
+  "jobs": [
+    {
+      "id": "J01",
+      "scene_id": "S02",
+      "requested_kind": "IMAGE",
+      "prompt": "교육용 개념 일러스트 기획: 중립적 3D 브릭 작업환경, 정확한 텍스트는 편집에서 삽입. 참조 승인 후 구체화.",
+      "reference_ids": [],
+      "expected_filename": "S02_image_v01.png",
+      "attempt": 1
+    }
+  ],
+  "results": []
+}

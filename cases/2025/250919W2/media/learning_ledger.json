@@ -1,0 +1,116 @@
+{
+  "schema_version": "2.0",
+  "event_id": "250919W2",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "WP1",
+    "WP3",
+    "WP4",
+    "CO1",
+    "QA2",
+    "QA4",
+    "DM1",
+    "DM2",
+    "PI1",
+    "PI2",
+    "PI3",
+    "CL1"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA3",
+    "CO2",
+    "LA5",
+    "LA6",
+    "LA7",
+    "CL2",
+    "PI4",
+    "WP2"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "변경된 조건, 변경되어야 할 계획",
+      "objective": "변경을 승인 문서와 공통 이해에 연결한다.",
+      "cause_ids": [
+        "R1",
+        "R3"
+      ],
+      "fact_ids": [
+        "F02",
+        "F03"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "CO1"
+      ],
+      "report_section": "3.4",
+      "qualification": "AI 교육용 후보; 공식 평가 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "판단하기 전에 확인하라",
+      "objective": "불확실성을 인식하고 판단 근거를 재검토한다.",
+      "cause_ids": [
+        "R2",
+        "R3"
+      ],
+      "fact_ids": [
+        "F02",
+        "F03"
+      ],
+      "principle_codes": [
+        "QA",
+        "DM"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2"
+      ],
+      "report_section": "3.4",
+      "qualification": "AI 교육용 후보; 공식 평가 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "반복 문제는 학습의 신호",
+      "objective": "문제를 공식 개선체계와 운전경험 학습에 연결한다.",
+      "cause_ids": [
+        "R4",
+        "C1"
+      ],
+      "fact_ids": [
+        "F04"
+      ],
+      "principle_codes": [
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "PI1",
+        "PI2",
+        "PI3",
+        "CL1"
+      ],
+      "report_section": "3.4",
+      "qualification": "AI 교육용 후보; 공식 평가 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

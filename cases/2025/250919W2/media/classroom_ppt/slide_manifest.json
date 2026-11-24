@@ -1,0 +1,319 @@
+{
+  "schema_version": "2.0",
+  "event_id": "250919W2",
+  "artifact_id": "PPT-250919W2",
+  "artifact_type": "CLASSROOM_PPT",
+  "title": "원전 운전경험 기반 안전문화 교육",
+  "revision": 1,
+  "status": "PLANNED",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2025-07",
+    "report_date": "2026-03-23",
+    "sha256": "fb3348d2725396a03689556b717876d8d65c72a79dce6716ae1d8471fe6cec83"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "16:9",
+    "editable_native_elements": true,
+    "language": "ko"
+  },
+  "learning_objectives": [
+    "변경을 승인 문서와 공통 이해에 연결한다.",
+    "불확실성을 인식하고 판단 근거를 재검토한다.",
+    "문제를 공식 개선체계와 운전경험 학습에 연결한다."
+  ],
+  "references": [],
+  "slides": [
+    {
+      "id": "P01",
+      "title": "학습목표",
+      "layout": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "변경을 승인 문서와 공통 이해에 연결한다.",
+        "불확실성을 인식하고 판단 근거를 재검토한다.",
+        "문제를 공식 개선체계와 운전경험 학습에 연결한다."
+      ],
+      "speaker_notes": "기획 초안: 원본과 분석 근거 확인 후 진행자 설명을 구체화.",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P02",
+      "title": "사건 개요",
+      "layout": "FACT",
+      "fact_ids": [
+        "F01",
+        "F05"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "공개 조사보고서 기반 사건 이해"
+      ],
+      "speaker_notes": "기획 초안: 원본과 분석 근거 확인 후 진행자 설명을 구체화.",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P03",
+      "title": "조사 결과",
+      "layout": "CAUSE",
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "작업관리 및 기존 문제 관리"
+      ],
+      "speaker_notes": "기획 초안: 원본과 분석 근거 확인 후 진행자 설명을 구체화.",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P04",
+      "title": "변경된 조건, 변경되어야 할 계획",
+      "layout": "PRINCIPLE",
+      "fact_ids": [
+        "F02",
+        "F03"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "CO1"
+      ],
+      "body": [
+        "변경을 승인 문서와 공통 이해에 연결한다."
+      ],
+      "speaker_notes": "기획 초안: 원본과 분석 근거 확인 후 진행자 설명을 구체화.",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P05",
+      "title": "판단하기 전에 확인하라",
+      "layout": "PRINCIPLE",
+      "fact_ids": [
+        "F02",
+        "F03"
+      ],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "QA",
+        "DM"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2"
+      ],
+      "body": [
+        "불확실성을 인식하고 판단 근거를 재검토한다."
+      ],
+      "speaker_notes": "기획 초안: 원본과 분석 근거 확인 후 진행자 설명을 구체화.",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P06",
+      "title": "반복 문제는 학습의 신호",
+      "layout": "PRINCIPLE",
+      "fact_ids": [
+        "F04"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "PI1",
+        "PI2",
+        "PI3",
+        "CL1"
+      ],
+      "body": [
+        "문제를 공식 개선체계와 운전경험 학습에 연결한다."
+      ],
+      "speaker_notes": "기획 초안: 원본과 분석 근거 확인 후 진행자 설명을 구체화.",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P07",
+      "title": "원칙별 미진속성 후보",
+      "layout": "ATTRIBUTE_SUMMARY",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO",
+        "QA",
+        "DM",
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "CO1",
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2",
+        "PI1",
+        "PI2",
+        "PI3",
+        "CL1"
+      ],
+      "body": [
+        "WP: WP1 작업 관리 · WP3 문서화 · WP4 절차 준수",
+        "CO: CO1 업무 소통",
+        "QA: QA2 불확실성 확인 · QA4 자만 방지",
+        "DM: DM1 일관적 프로세스 · DM2 보수적 성향",
+        "PI: PI1 문제 파악 · PI2 문제 평가 · PI3 문제 해결",
+        "CL: CL1 운전 경험"
+      ],
+      "speaker_notes": "기획 초안: 원본과 분석 근거 확인 후 진행자 설명을 구체화.",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P08",
+      "title": "팀 토론 A",
+      "layout": "DISCUSSION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "교육용 가상 상황: 변경된 조건과 승인본"
+      ],
+      "speaker_notes": "기획 초안: 원본과 분석 근거 확인 후 진행자 설명을 구체화.",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P09",
+      "title": "팀 토론 B",
+      "layout": "DISCUSSION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "교육용 가상 상황: 반복 문제와 운전경험"
+      ],
+      "speaker_notes": "기획 초안: 원본과 분석 근거 확인 후 진행자 설명을 구체화.",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P10",
+      "title": "현장 질문과 개인 실천",
+      "layout": "ACTION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "확인·질문·문제 등록"
+      ],
+      "speaker_notes": "기획 초안: 원본과 분석 근거 확인 후 진행자 설명을 구체화.",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P11",
+      "title": "팀 개선과 효과 확인",
+      "layout": "ACTION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "공통 이해와 후속조치 추적"
+      ],
+      "speaker_notes": "기획 초안: 원본과 분석 근거 확인 후 진행자 설명을 구체화.",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    },
+    {
+      "id": "P12",
+      "title": "핵심 메시지와 출처",
+      "layout": "OUTRO",
+      "fact_ids": [
+        "F01"
+      ],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "body": [
+        "KINS 2025-07호 · AI 교육용 분석 초안"
+      ],
+      "speaker_notes": "기획 초안: 원본과 분석 근거 확인 후 진행자 설명을 구체화.",
+      "asset_ids": [],
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

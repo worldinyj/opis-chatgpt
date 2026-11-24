@@ -1,0 +1,220 @@
+{
+  "schema_version": "2.0",
+  "event_id": "250919W2",
+  "artifact_id": "IU-250919W2",
+  "artifact_type": "INCIDENT_UNDERSTANDING",
+  "title": "월성2호기 사건 이해",
+  "revision": 1,
+  "status": "PLANNED",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2025-07",
+    "report_date": "2026-03-23",
+    "sha256": "fb3348d2725396a03689556b717876d8d65c72a79dce6716ae1d8471fe6cec83"
+  },
+  "provenance": {
+    "analysis_path": null,
+    "analysis_version": null,
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": null,
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "16:9",
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "language": "ko",
+    "style": "3D brick miniature + controlled graphic"
+  },
+  "timing": {
+    "target_seconds": 120
+  },
+  "learning_objectives": [],
+  "references": [],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "사건 이해",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 사건 이해",
+      "narration": "",
+      "overlay": [
+        "사건 이해"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "사건 배경",
+      "duration_seconds": 24,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F01"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 사건 배경",
+      "narration": "",
+      "overlay": [
+        "사건 배경"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.08,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "조사 결과",
+      "duration_seconds": 36,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "INDIVIDUAL",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 조사 결과",
+      "narration": "",
+      "overlay": [
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.08,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "영향과 대응",
+      "duration_seconds": 24,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F05"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 영향과 대응",
+      "narration": "",
+      "overlay": [
+        "영향과 대응"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "공식 대책 및 출처",
+      "duration_seconds": 24,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F05"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 공식 대책 및 출처",
+      "narration": "",
+      "overlay": [
+        "공식 대책 및 출처"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S06",
+      "title": "원문 참조",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "기획용 개념 장면: 원문 참조",
+      "narration": "",
+      "overlay": [
+        "원문 참조"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

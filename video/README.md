@@ -7,3 +7,8 @@
 - [10원칙 중심 교육 설계](LEARNING_DESIGN.md)
 - [종합계획](../docs/MULTIMEDIA_PRODUCTION_PLAN.md)
 - [우선순위](../docs/IMPLEMENTATION_ROADMAP.md)
+
+- [공통 제작 계약 v2](CONTRACT.md)
+- [V02 이식 매핑](MIGRATION_MAP.md)
+- [원본 보존 경로 및 이식 명령](upstream/README.md)
+- [제작 템플릿](templates/README.md)
