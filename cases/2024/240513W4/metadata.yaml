@@ -1,0 +1,35 @@
+schema_version: "1.0"
+event_id: "240513W4"
+report_number: "2024-7"
+title: "월성4호기 계획예방정비 중 등급3전원 모선 저전압에 의한 자동순차접속신호 미발생"
+event_date: "2024-05-13"
+discovery_date: "2024-06-01"
+reported_date: "2024-06-01"
+report_date: "2024-08-19"
+plant:
+  site: 월성
+  unit: 4
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 77
+  sha256: 697459378f08da7fde030ed8521f9e95e31698704b12ce39b2e593cf6591b7a0
+  source_size_bytes: 1924381
+  portal_verification: mobile_fetch_failed
+operating_mode: "5 (보증정지), 0%"
+preliminary_ines: 0
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [QA4, CO1, CO3, DM1, DM2, CL4, PI2, WP1, WP3, WP4]
+  additional_review_attributes: [PA1, PA2, PA3, QA1, QA2, QA3, CO2, LA1, LA2, LA3, LA4, LA5, LA6, LA7, LA8, DM3, WE2, WE3, CL1, CL2, PI1, PI3, PI4, RC1, RC2, WP2]
+  insufficient_or_low_relevance_attributes: [CO4, WE1, WE4, CL3]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false

@@ -73,11 +73,12 @@
           "size_bytes": 1924381
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
+      "event_id": "240513W4",
+      "verified_event_date": "2024-05-13",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "분석·원장·토론 등록; 미디어·PPT 검증 대기.",
+      "source_sha256": "697459378f08da7fde030ed8521f9e95e31698704b12ce39b2e593cf6591b7a0"
     },
     {
       "queue_order": 4,

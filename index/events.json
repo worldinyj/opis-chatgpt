@@ -95,5 +95,30 @@
       "PI2"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "240513W4",
+    "event_date": "2024-05-13",
+    "report_date": "2024-08-19",
+    "plant": "월성4호기",
+    "title": "월성4호기 계획예방정비 중 등급3전원 모선 저전압에 의한 자동순차접속신호 미발생",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": 0,
+    "final_ines": null,
+    "path": "cases/2024/240513W4/report.md",
+    "candidate_attributes": [
+      "QA4",
+      "CO1",
+      "CO3",
+      "DM1",
+      "DM2",
+      "CL4",
+      "PI2",
+      "WP1",
+      "WP3",
+      "WP4"
+    ],
+    "approved_attributes": []
   }
 ]

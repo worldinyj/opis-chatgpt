@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "event_id": "240513W4",
+  "artifact_id": "DA-240513W4",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "복구 이후 확인과 투명한 기록",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2024-7",
+    "report_date": "2024-08-19",
+    "sha256": "697459378f08da7fde030ed8521f9e95e31698704b12ce39b2e593cf6591b7a0"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "일상적 정비로 보이는 작업의 특수 조건과 동시작업 영향을 어떻게 확인하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "설비 복구 후 실제 요구기능이 수행되었는지 어떻게 공동 확인하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "자발 보고자 보호와 정확한 운전기록을 어떻게 함께 지키는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상 산업시설에서 익숙한 작업과 다른 설비 특성이 확인되고 다른 시험이 예정되어 있다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 개인1·팀2·공유2분. 작업 특수성, 동시작업 영향, 승인 근거와 검토 책임을 토론. 실제 조작 모의 없음."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상 업무에서 오류를 자발 보고했고 설비는 복구됐지만 중요 경보 및 일지 기록이 불완전하다.",
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 개인1·팀2·공유2분. 확인 사실, 미확인 기능, 객관적 기록과 공정한 보호를 논의."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "작업 특수 조건과 승인 절차를 확인한다.",
+      "verification": "작업 전 확인 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "복구 후 미확인 기능 및 중요 경보의 검토를 요청한다.",
+      "verification": "확인 요청·회신 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "오류를 보고하고 사실·조치를 기록한다.",
+      "verification": "운전기록과 인계 근거",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "동시작업 위험·작업전회의 범위·교육의 적절성을 표본 검토한다.",
+      "verification": "영향 검토 및 교육 증빙",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "사후 상황평가·시험 유효성·보고 판단 근거를 독립 검토한다.",
+      "verification": "평가 및 판단 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "보고자 보호와 기록 완전성을 동시에 확인한다.",
+      "verification": "기록 시정·후속 확인 및 보호정책",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}
