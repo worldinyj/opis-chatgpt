@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "190121W3",
+  "artifact_id": "DA-190121W3",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "운전경험에서 실질적 개선까지",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2019-02",
+    "report_date": "2019-02-25",
+    "sha256": "5f44465de1f6b7de4f5e26303e0d1fa3bec9bcb0d31f774ef82095d7ef8c79ee"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "유사사례의 설비 차이와 조치 기한을 어떻게 검토하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "절차서와 기술자료가 불일치할 때 무엇을 확인하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "본사와 현장이 각각 무엇을 책임지고 효과를 어떻게 확인하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상의 일반 산업시설에서 타 사업장 고장 경험이 전달되었으나 장비 공급사가 달라 적용 검토가 지연되고 있다.",
+      "learning_ids": [
+        "L01",
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 적용성 검토, 기한 및 책임, 지연 시 안전성 평가를 논의한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상의 산업시설에서 기존 절차와 제작사 기술자료의 설명이 서로 다르다는 사실을 발견했다.",
+      "learning_ids": [
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 공식 검토와 절차 품질 확보의 증거를 논의한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "유사사례 적용성 검토의 근거와 미확인 사항을 기록한다.",
+      "verification": "적용성 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "절차서와 기술자료 불일치를 공식 검토 요청한다.",
+      "verification": "검토 요청 및 응답",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "미해결 개선조치와 책임자를 확인한다.",
+      "verification": "미결 현황",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "조치 지연의 안전성 검토 및 책임을 표본 확인한다.",
+      "verification": "기한 및 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "개정 절차의 기술근거와 검증 이력을 확인한다.",
+      "verification": "절차 검증 이력",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "본사·현장 후속조치 효과를 함께 검토한다.",
+      "verification": "효과평가 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

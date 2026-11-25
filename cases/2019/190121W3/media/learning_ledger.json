@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "event_id": "190121W3",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "DM1",
+    "LA6",
+    "CL1",
+    "PI3",
+    "WP3"
+  ],
+  "additional_attribute_codes": [
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "CO3",
+    "LA5",
+    "CL2",
+    "CL4",
+    "PI2",
+    "WP1",
+    "WP2"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "운전경험은 기술적 차이를 검토하고 적기에 조치하여 종결한다.",
+      "objective": "유사사례 후속조치의 적용성·기한·효과를 확인한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F05",
+        "F06",
+        "F07",
+        "F15",
+        "F17"
+      ],
+      "principle_codes": [
+        "CL",
+        "PI"
+      ],
+      "attribute_codes": [
+        "CL1",
+        "PI3"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 안전문화 결여 판정 또는 개인 과실 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "절차서의 판단 근거를 설계 및 기술자료와 대조한다.",
+      "objective": "절차 신설·개정 시 기술적 검증과 체계적 판단을 확인한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F09",
+        "F10",
+        "F16"
+      ],
+      "principle_codes": [
+        "DM",
+        "WP"
+      ],
+      "attribute_codes": [
+        "DM1",
+        "WP3"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 안전문화 결여 판정 또는 개인 과실 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "조직 간 재발방지 책임을 명확히 하고 실질적인 완료를 확인한다.",
+      "objective": "본사와 현장의 책임·검토·효과 확인을 구분한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F14",
+        "F15",
+        "F17",
+        "F18"
+      ],
+      "principle_codes": [
+        "LA"
+      ],
+      "attribute_codes": [
+        "LA6"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 안전문화 결여 판정 또는 개인 과실 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

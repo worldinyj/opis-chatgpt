@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "190121W3"
+report_number: "2019-02"
+title: "월성 3호기 써지보호기 손상에 따른 원자로냉각재펌프 1번 정지 및 이로 인한 원자로 자동정지"
+event_date: "2019-01-21"
+report_date: "2019-02-25"
+plant:
+  site: 월성
+  unit: 3
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 55
+  sha256: 5f44465de1f6b7de4f5e26303e0d1fa3bec9bcb0d31f774ef82095d7ef8c79ee
+  source_size_bytes: 1635578
+operating_mode: "출력운전"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [DM1, LA6, CL1, PI3, WP3]
+  additional_review_attributes: [PA2, PA3, QA1, QA3, QA4, CO1, CO2, CO3, LA5, CL2, CL4, PI2, WP1, WP2]
+  insufficient_or_low_relevance_attributes: [PA1, QA2, CO4, LA1, LA2, LA3, LA4, LA7, LA8, DM2, DM3, WE1, WE2, WE3, WE4, CL3, PI1, PI4, RC1, RC2, WP4]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false
