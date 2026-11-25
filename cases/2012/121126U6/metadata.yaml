@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "121126U6"
+report_number: "2012-17"
+title: "울진6호기 계획예방정비 중 부적절한 안전주입"
+event_date: "2012-11-26"
+report_date: "2012-12-03"
+plant:
+  site: 울진
+  unit: 6
+source:
+  organization: KINS
+  system: OPIS
+  opis_popup_id: null
+  document_url: null
+  page_count: 12
+  sha256: 25c453c50ef696f2e0a0500376c6de63080d7d21c320ee945576dafc2bffab27
+  source_size_bytes: 504858
+operating_mode: "고온정지(계획예방정비 중)"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP3, CL4, WP1, CO3, PA3, QA4, WP4, DM1]
+  additional_review_attributes: [PA1, PA2, QA1, QA2, QA3, CO1, CO2, LA1, LA2, LA4, LA5, LA6, LA7, LA8, DM2, DM3, CL1, CL2, PI1, PI2, PI3, WP2]
+  insufficient_or_low_relevance_attributes: [CO4, LA3, WE1, WE2, WE3, WE4, CL3, PI4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null

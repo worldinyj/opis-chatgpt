@@ -539,5 +539,28 @@
       "PI2"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "121126U6",
+    "event_date": "2012-11-26",
+    "report_date": "2012-12-03",
+    "plant": "울진6호기",
+    "title": "울진6호기 계획예방정비 중 부적절한 안전주입",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2012/121126U6/report.md",
+    "candidate_attributes": [
+      "WP3",
+      "CL4",
+      "WP1",
+      "CO3",
+      "PA3",
+      "QA4",
+      "WP4",
+      "DM1"
+    ],
+    "approved_attributes": []
   }
 ]

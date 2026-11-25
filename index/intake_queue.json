@@ -26,9 +26,9 @@
     "250919W2"
   ],
   "pending_pdf_count": 14,
-  "pending_date_groups": 14,
-  "next_list_date": "2013-01-17",
-  "next_queue_id": "ROOT-024",
+  "pending_date_groups": 13,
+  "next_list_date": "2012-11-26",
+  "next_queue_id": "ROOT-025",
   "items": [
     {
       "queue_order": 1,
@@ -422,11 +422,12 @@
           "size_bytes": 7643152
         }
       ],
-      "status": "SOURCE_VARIANT_REVIEW_PENDING",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "SOURCE_METADATA_MATCHED",
+      "event_id": "061011U2",
+      "verified_event_date": "2006-10-11",
       "from_prior_table": true,
-      "notes": "같은 날짜 유사 제목의 2 PDF 모두 검토. 크기 큰 판본 우선(완전성 단정 아님). 사건 ID·원문·해시 및 자료 관계 확인 후 동일 사건이면 출처만 추가."
+      "notes": "파일명 불일치: 실제 2006-10-11 울진2호기 KINS 2006-16호(061011U2), 29쪽. 표지·요약 식별 확인, 별도 사건. 분석·전쪽 시각검토 대기. ROOT-025 최종 기술검증 후 ROOT-024 복귀. 비교 docs/SOURCE_VARIANT_ROOT_024_025.md.",
+      "source_sha256": "e5e57384290be5122ad9d9fde395ac38c57061deeaacc941ca274f07caef917c"
     },
     {
       "queue_order": 25,
@@ -438,11 +439,12 @@
           "size_bytes": 504858
         }
       ],
-      "status": "SOURCE_VARIANT_REVIEW_PENDING",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "event_id": "121126U6",
+      "verified_event_date": "2012-11-26",
       "from_prior_table": true,
-      "notes": "같은 날짜 유사 제목의 2 PDF 모두 검토. 크기 큰 판본 우선(완전성 단정 아님). 사건 ID·원문·해시 및 자료 관계 확인 후 동일 사건이면 출처만 추가."
+      "notes": "ROOT-024와 별도 사건. 원본 12쪽 확인·렌더, 24 사실·3 학습·40속성(8/22/10)·토론 및 전문가 초안 등록. 영상/PPT/A4/정식 계약 검증 대기. ROOT-025 유지; 종료 후 ROOT-024 복귀.",
+      "source_sha256": "25c453c50ef696f2e0a0500376c6de63080d7d21c320ee945576dafc2bffab27"
     },
     {
       "queue_order": 26,

@@ -1,0 +1,137 @@
+{
+  "schema_version": "2.0",
+  "event_id": "121126U6",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "WP3",
+    "CL4",
+    "WP1",
+    "CO3",
+    "PA3",
+    "QA4",
+    "WP4",
+    "DM1"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "QA1",
+    "QA2",
+    "QA3",
+    "CO1",
+    "CO2",
+    "LA1",
+    "LA2",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA7",
+    "LA8",
+    "DM2",
+    "DM3",
+    "CL1",
+    "CL2",
+    "PI1",
+    "PI2",
+    "PI3",
+    "WP2"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "message": "작업 완료는 종료 확인과 업무 수행 역량이 뒷받침되어야 한다.",
+      "objective": "불완전한 문서, 경험과 교육의 부족, 복합 작업부담 및 일정 압박과 완료 확인의 관계를 구분한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F20",
+        "F21",
+        "F22",
+        "F23"
+      ],
+      "attribute_codes": [
+        "WP3",
+        "CL4",
+        "WP1"
+      ],
+      "principle_codes": [
+        "WP",
+        "CL"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육용 후보. 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "message": "다른 사람이 확인했을 것이라는 가정은 확인의 증거가 아니다.",
+      "objective": "정비·운전 정보 공유, 팀 간 인수인계와 명확한 확인 책임, 자기확인 및 잠재 실수 대비를 학습한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F04",
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F21",
+        "F23"
+      ],
+      "attribute_codes": [
+        "CO3",
+        "PA3",
+        "QA4"
+      ],
+      "principle_codes": [
+        "CO",
+        "PA",
+        "QA"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육용 후보. 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "message": "신속한 대응과 승인된 절차에 따른 체계적 판단은 함께 확보해야 한다.",
+      "objective": "적절한 진단·신속 대응과 별도의 절차 미준수 판단, 당시 안전성 평가 및 개선대책을 구분한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F14",
+        "F15",
+        "F16",
+        "F17",
+        "F18",
+        "F19",
+        "F23",
+        "F24"
+      ],
+      "attribute_codes": [
+        "WP4",
+        "DM1"
+      ],
+      "principle_codes": [
+        "WP",
+        "DM"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육용 후보. 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}
