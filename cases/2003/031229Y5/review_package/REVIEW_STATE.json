@@ -1,0 +1,25 @@
+{
+  "event_id": "031229Y5",
+  "analysis_version": "0.1.0",
+  "source_sha256": "52201ea999e1c9f61b2b3130056ded81162abb492f839b00227024d689035a0c",
+  "source_pages": 14,
+  "source_render": "PASS_LOCAL_CONTACT_SHEETS",
+  "source_queue_id": "ROOT-032",
+  "source_edition": "FIRST_REPORT",
+  "report_status": "DRAFT",
+  "expert_content_review": "PENDING",
+  "expert_attribute_review": "USER_SEPARATE_REVIEW_PENDING",
+  "independent_review": "PENDING",
+  "can_ship": false,
+  "media_status": "PRODUCTION_DESIGN_DRAFT",
+  "ppt_status": "PENDING",
+  "paid_generation_calls": 0,
+  "external_submissions": 0,
+  "report_a4_pages": null,
+  "author_technical_qc": "PENDING",
+  "contract_checks": {
+    "passed": 0,
+    "total": 14
+  },
+  "next_step": "CLASSROOM_PPT_AND_OUTPUT_QC"
+}

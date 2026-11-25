@@ -558,11 +558,12 @@
           "size_bytes": 287427
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED",
+      "event_id": "031229Y5",
+      "verified_event_date": "2003-12-29",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "1차 조사보고서 14쪽, 24 사실, 3 학습, 40속성 8/18/14(긍정 DM2 포함), 토론·실천 및 영상 43장면/270초 설계 등록. 최종판·PPT/A4/정식 계약·전문가 검토 대기.",
+      "source_sha256": "52201ea999e1c9f61b2b3130056ded81162abb492f839b00227024d689035a0c"
     },
     {
       "queue_order": 33,

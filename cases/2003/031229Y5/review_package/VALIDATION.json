@@ -1,0 +1,42 @@
+{
+  "event_id": "031229Y5",
+  "source_report_sha256": "52201ea999e1c9f61b2b3130056ded81162abb492f839b00227024d689035a0c",
+  "source_pages": 14,
+  "source_render": "PASS_LOCAL_CONTACT_SHEETS",
+  "preliminary_checks": {
+    "attributes": 40,
+    "partition": [
+      8,
+      18,
+      14
+    ],
+    "facts": 24,
+    "learning": 3,
+    "scenes": [
+      20,
+      18,
+      5
+    ],
+    "durations": [
+      120,
+      120,
+      30
+    ],
+    "fact_coverage": 24,
+    "core_coverage": 8,
+    "refs": true
+  },
+  "contract_checks": {
+    "passed": 0,
+    "total": 14,
+    "status": "PENDING"
+  },
+  "report": {
+    "status": "DRAFT",
+    "a4_render": "PENDING"
+  },
+  "ppt": {
+    "status": "PENDING"
+  },
+  "can_ship": false
+}

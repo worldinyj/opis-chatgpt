@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "event_id": "031229Y5",
+  "artifact_id": "DA-031229Y5",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "불확실성·영향평가·보수적 판단",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2003-21",
+    "report_date": "2003-12",
+    "sha256": "52201ea999e1c9f61b2b3130056ded81162abb492f839b00227024d689035a0c"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "원인 가설과 확인된 사실을 어떻게 구분하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "부분 영향평가와 전체 영향평가를 어떻게 구분하고 미확인 사항을 추적하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "불확실성이 남은 상황에서 안전 중심 판단의 증거는 무엇인가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상 일반 제조업체에서 품질 이상이 발견되었다. 팀은 가설과 확인 결과를 분리하고 조사 미완료 항목을 검토한다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 관찰, 가설, 검증, 미확인 범위와 후속 책임을 토론한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상 일반 제조업체에서 일부 품질검사 결과만 확보됐다. 팀은 안전 중심 판단과 추가 확인의 근거를 논의한다.",
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 부분 평가의 한계, 보수적 결정의 근거, 개선 효과를 검토한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "가설과 확인 결과를 구분해 기록한다.",
+      "verification": "가설 검증 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "영향평가 대상과 미확인 범위를 검토한다.",
+      "verification": "범위 검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "안전 중심 판단의 근거를 확인한다.",
+      "verification": "판단 검토 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "미해결 가설의 후속 검증을 추적한다.",
+      "verification": "후속 검증 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "개선 이행 및 효과를 검토한다.",
+      "verification": "효과 확인 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "보수적 판단의 학습 사례를 공유한다.",
+      "verification": "학습·의사결정 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

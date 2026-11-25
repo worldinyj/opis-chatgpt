@@ -734,5 +734,28 @@
       "CL1"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "031229Y5",
+    "event_date": "2003-12-29",
+    "report_date": "2003-12",
+    "plant": "영광5호기",
+    "title": "영광5호기 탈염수 공급 모관 방사능 검출 원인 조사를 위한 원자로 수동정지",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2003/031229Y5/report.md",
+    "candidate_attributes": [
+      "QA2",
+      "QA3",
+      "PI1",
+      "PI2",
+      "PI3",
+      "WP2",
+      "WP1",
+      "DM2"
+    ],
+    "approved_attributes": []
   }
 ]

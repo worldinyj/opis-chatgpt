@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "031229Y5"
+report_number: "2003-21"
+title: "영광5호기 탈염수 공급 모관 방사능 검출 원인 조사를 위한 원자로 수동정지"
+event_date: "2003-12-29"
+report_date: "2003-12"
+plant:
+  site: 영광
+  unit: 5
+source:
+  organization: KINS
+  system: OPIS
+  opis_popup_id: null
+  document_url: null
+  page_count: 14
+  sha256: 52201ea999e1c9f61b2b3130056ded81162abb492f839b00227024d689035a0c
+  source_size_bytes: 287427
+operating_mode: "정상 출력운전 후 수동정지"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [QA2, QA3, PI1, PI2, PI3, WP2, WP1, DM2]
+  additional_review_attributes: [PA2, PA3, QA1, QA4, CO1, CO2, CO3, LA1, LA4, LA5, LA6, LA7, DM1, DM3, CL1, CL2, WP3, WP4]
+  insufficient_or_low_relevance_attributes: [PA1, CO4, LA2, LA3, LA8, WE1, WE2, WE3, WE4, CL3, CL4, PI4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null
