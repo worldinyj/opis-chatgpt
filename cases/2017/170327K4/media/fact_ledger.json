@@ -1,0 +1,300 @@
+{
+  "schema_version": "2.0",
+  "event_id": "170327K4",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2017-2",
+    "report_date": "2018-04-05",
+    "sha256": "28bf6cf2a650b8281d56edc2a49c968e36fa8a3887d7077042c1f37806eb23c2"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "요약; 1; 6",
+      "printed_pages": [
+        1,
+        3,
+        16
+      ],
+      "pdf_pages": [
+        2,
+        4,
+        17
+      ],
+      "statement": "정상운전 중 원자로냉각재 압력경계 용접부 누설이 확인되어 정비를 위해 2017년 3월 28일 원자로를 수동정지하였다.",
+      "qualification": "누설 확인일과 공식 사건발생일을 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.1.1",
+      "printed_pages": [
+        5,
+        6,
+        7
+      ],
+      "pdf_pages": [
+        6,
+        7,
+        8
+      ],
+      "statement": "운전원이 이상징후를 인지하여 비정상절차에 따라 확인하고 운영기술지침서에 따른 수동정지 및 냉각·감압을 수행한 조치를 조사팀이 적절하다고 평가했다.",
+      "qualification": "조사 당시의 긍정적 안전행동. 실제 운전 조건·절차 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.1.2",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "사업자의 누설량 평가방법은 타당하다고 검토되었고 조사팀도 별도 자료를 활용하여 자체평가했다.",
+      "qualification": "두 평가값을 동일한 값으로 혼용하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.1.3 가",
+      "printed_pages": [
+        7,
+        8
+      ],
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "statement": "조사팀은 소내·외 방사선 준위가 평상시 변동범위에서 유지되어 사건의 방사선 영향이 미미하다고 판단했다.",
+      "qualification": "방출이나 피폭이 전혀 없었다는 의미가 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.1.3 나",
+      "printed_pages": [
+        8
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "statement": "조사팀은 관련 작업의 방사선작업허가와 출입통제 및 당시 작업자 피폭관리가 적절하다고 평가했다.",
+      "qualification": "개인별 피폭 기록 및 현행 법령 적용 판단 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "OBSERVED_FACT",
+      "section": "3.1.2.1 가",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "statement": "비파괴검사와 파면분석에서 소켓용접부의 관통 균열이 확인되었다.",
+      "qualification": "상세 치수, 위치 및 사진의 가림 부분 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 3.1.2.1 나; 6",
+      "printed_pages": [
+        1,
+        9,
+        10,
+        15,
+        16
+      ],
+      "pdf_pages": [
+        2,
+        10,
+        11,
+        16,
+        17
+      ],
+      "statement": "설계·형상변경의 영향과 운전 중 진동에 따른 피로 누적으로 용접부 결함이 성장했다는 원인평가가 타당하다고 조사팀은 판단했다.",
+      "qualification": "기술적 직접원인과 조직적 기여요인을 구별한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "OBSERVED_FACT",
+      "section": "3.1.2.1 나",
+      "printed_pages": [
+        10
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "statement": "사업자는 해외 원전 운전경험을 반영하여 설비 재질을 변경한 이력이 있었다.",
+      "qualification": "경험반영 활동 자체의 부재로 단정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2.1 나; 4 단기대책 6",
+      "printed_pages": [
+        9,
+        10,
+        14
+      ],
+      "pdf_pages": [
+        10,
+        11,
+        15
+      ],
+      "statement": "설계·형상변경 과정의 진동 저감 기술평가가 미흡했으며 설계문서 변경 검토 없이 이루어진 변경 사례가 후속대책의 근거로 제시되었다.",
+      "qualification": "요약과 상세 절의 변경 시기 표현 및 §4의 설비 표기 차이는 원문 그대로 구분한다. 개별 리더 책임 위반은 확인되지 않았다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2.1 나",
+      "printed_pages": [
+        10
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "statement": "변경 후 수행한 진동 측정에서 이상이 확인되었으나 진동제어 관련 후속조치가 이루어지지 않았고 이후 피로가 누적되었다는 평가가 타당하다고 조사팀이 판단했다.",
+      "qualification": "구체 진동수치, 운전 조건 및 재현 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2.2; 4 단기대책 4",
+      "printed_pages": [
+        10,
+        11,
+        14
+      ],
+      "pdf_pages": [
+        11,
+        12,
+        15
+      ],
+      "statement": "조사팀 요구에 따라 유사 용접부 확대점검을 수행했으며 발견된 지시 부위는 보수·교체 후 건전성을 확인하였다.",
+      "qualification": "확대점검은 사건 이후의 긍정적 대응이다. 검사방법별 집계는 §4 표와 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2.2; 3.1.2.3 가",
+      "printed_pages": [
+        11,
+        12
+      ],
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "statement": "확대점검 중 파면검사 대상의 결함은 진동피로가 아닌 용입불량으로 확인되었으며 2008년 고리3호기 유사사건과 이번 사건의 원인에도 차이가 있었다.",
+      "qualification": "유사한 결과가 반드시 같은 원인을 뜻하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "OBSERVED_FACT",
+      "section": "3.1.2.3 가",
+      "printed_pages": [
+        12,
+        13
+      ],
+      "pdf_pages": [
+        13,
+        14
+      ],
+      "statement": "2008년 유사사건 후속조치로 경수로형 원전의 소켓용접부 관리방안을 수립하여 비파괴검사를 수행해 왔음이 확인되었다.",
+      "qualification": "기존 후속조치가 전부 미이행이었다는 해석 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2.3 나",
+      "printed_pages": [
+        13
+      ],
+      "pdf_pages": [
+        14
+      ],
+      "statement": "고리3·4호기 최근 10년간 사건 14건의 세부 이행항목 158건을 점검한 결과 추가 보완요구사항 13건이 도출되었다.",
+      "qualification": "과거 조치에 대한 점검 대상 수이며 사건 심각도나 안전문화 점수가 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2.3 나",
+      "printed_pages": [
+        13
+      ],
+      "pdf_pages": [
+        14
+      ],
+      "statement": "근본원인분석 절차 이행 및 운전경험활용보고서 작성 미흡 등 10건을 보완하고 운전경험 반영체계 관련 3건을 표준지침에 반영하여 개정했음을 확인하였다.",
+      "qualification": "보고서 발행 시점의 조치 확인이며 이후 장기 효과는 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 4 단기대책",
+      "printed_pages": [
+        2,
+        13,
+        14
+      ],
+      "pdf_pages": [
+        3,
+        14,
+        15
+      ],
+      "statement": "누설 점검·평가절차, 재발방지 프로세스, 유사부위 점검, 설계·형상변경 시 재평가 절차 등 단기대책을 완료한 것으로 보고하였다.",
+      "qualification": "실제 설비 개조 및 운전 절차를 교육자료에 재현하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4 장기대책",
+      "printed_pages": [
+        15
+      ],
+      "pdf_pages": [
+        16
+      ],
+      "statement": "동일 노형 설계개선, 관리 표준지침 개발, 검사대상 확대 및 기술평가 등 장기대책을 마련하였다.",
+      "qualification": "장기계획의 현재 이행 및 효과는 확인되지 않았다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "5; 6",
+      "printed_pages": [
+        15,
+        16
+      ],
+      "pdf_pages": [
+        16,
+        17
+      ],
+      "statement": "별도 유사사건 재발방지 대책 항목은 없음으로 기재되었고 조사팀은 사업자의 원인분석 및 재발방지대책이 적절하여 당시 기술적 재가동에 문제가 없다고 판단했다.",
+      "qualification": "§4 사업자 대책이 없었다는 의미가 아니며 현재 상태 또는 안전문화 승인과 별개이다.",
+      "review_status": "PENDING"
+    }
+  ]
+}

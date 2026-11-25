@@ -258,11 +258,11 @@
           "size_bytes": 375547
         }
       ],
-      "status": "SOURCE_RAW_QC_VERIFIED_DETAIL_PENDING",
+      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
       "event_id": "170327K4",
       "verified_event_date": "2017-03-28",
       "from_prior_table": true,
-      "notes": "원본 375547 bytes, SHA-256 28bf6cf2a650b8281d56edc2a49c968e36fa8a3887d7077042c1f37806eb23c2, 17쪽 전체 텍스트 및 렌더 확인. 표지 170327K4, 본문 번호 170328. 발생일 2017-03-28. 분석 원장 대기."
+      "notes": "17쪽 전체 텍스트 및 렌더, 18 사실·3 학습·40속성 후보(5/14/21)·토론 초안 등록. 영상/PPT/A4 출력 및 전문가 검토 대기."
     },
     {
       "queue_order": 15,

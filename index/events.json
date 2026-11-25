@@ -334,5 +334,25 @@
       "PI3"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "170327K4",
+    "event_date": "2017-03-28",
+    "report_date": "2018-04-05",
+    "plant": "고리4호기",
+    "title": "고리 4호기 증기발생기 ‘A’ 수실 배수관의 배수밸브 용접부 누설부위 정비를 위한 원자로 수동정지",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2017/170327K4/report.md",
+    "candidate_attributes": [
+      "LA5",
+      "WP2",
+      "WP3",
+      "PI3",
+      "CL1"
+    ],
+    "approved_attributes": []
   }
 ]

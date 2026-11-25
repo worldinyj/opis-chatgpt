@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "170327K4"
+report_number: "2017-2"
+title: "고리 4호기 증기발생기 ‘A’ 수실 배수관의 배수밸브 용접부 누설부위 정비를 위한 원자로 수동정지"
+event_date: "2017-03-28"
+report_date: "2018-04-05"
+plant:
+  site: 고리
+  unit: 4
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 17
+  sha256: 28bf6cf2a650b8281d56edc2a49c968e36fa8a3887d7077042c1f37806eb23c2
+  source_size_bytes: 375547
+operating_mode: "출력운전"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [LA5, WP2, WP3, PI3, CL1]
+  additional_review_attributes: [PA2, PA3, QA4, CO1, CO3, LA6, LA7, DM1, CL2, PI1, PI2, PI4, WP1, WP4]
+  insufficient_or_low_relevance_attributes: [PA1, QA1, QA2, QA3, CO2, CO4, LA1, LA2, LA3, LA4, LA8, DM2, DM3, WE1, WE2, WE3, WE4, CL3, CL4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false

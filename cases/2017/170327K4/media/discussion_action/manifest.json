@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "event_id": "170327K4",
+  "artifact_id": "DA-170327K4",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "변경·이상징후·경험의 실효성",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2017-2",
+    "report_date": "2018-04-05",
+    "sha256": "28bf6cf2a650b8281d56edc2a49c968e36fa8a3887d7077042c1f37806eb23c2"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "변경 검토를 완료했다고 판단하려면 어떤 기술적 근거와 문서가 필요한가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "이상징후가 발견되었을 때 조치의 책임·기한·효과 검증을 어떻게 관리하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "과거 유사사례의 조치가 다른 업무에도 실효성이 있는지 어떻게 확인하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 설비 변경 검토서와 검증 결과의 기록이 일치하지 않는다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 승인 근거, 미결 사항, 공식 검토 책임과 확인 기록을 토론한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 과거 유사 불량에 대한 개선을 시행했지만 다른 부서의 적용 범위와 효과 확인이 불명확하다.",
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 유사성과 차이, 적용 범위, 책임·기한 및 효과 검증을 논의한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "변경 검토에 필요한 기술적 근거를 확인한다.",
+      "verification": "변경 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "확인된 이상징후를 공식 기록하고 후속조치 상태를 확인한다.",
+      "verification": "문제 및 조치 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "유사 경험의 적용성과 차이를 기록한다.",
+      "verification": "운전경험 검토 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "변경 문서와 검증 근거의 완결성을 표본 검토한다.",
+      "verification": "변경 검토 표본",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "조치 책임·기한·효과 확인 여부를 검토한다.",
+      "verification": "효과 평가 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "과거 조치의 적용 범위 및 유효성을 재검토한다.",
+      "verification": "경험반영 평가 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

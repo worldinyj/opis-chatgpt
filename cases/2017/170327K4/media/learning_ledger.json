@@ -1,0 +1,108 @@
+{
+  "schema_version": "2.0",
+  "event_id": "170327K4",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "LA5",
+    "WP2",
+    "WP3",
+    "PI3",
+    "CL1"
+  ],
+  "additional_attribute_codes": [
+    "PA2",
+    "PA3",
+    "QA4",
+    "CO1",
+    "CO3",
+    "LA6",
+    "LA7",
+    "DM1",
+    "CL2",
+    "PI1",
+    "PI2",
+    "PI4",
+    "WP1",
+    "WP4"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "설계·형상변경은 기술평가와 문서 검토로 검증한다.",
+      "objective": "변경의 영향을 체계적으로 평가하고 변경 근거를 관리하는 이유를 설명한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F07",
+        "F09",
+        "F10",
+        "F16"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP2",
+        "WP3"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 핵심 후보; 공식 미진속성이나 개인 책임의 확정이 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "확인된 이상징후는 실질적 조치와 효과 확인으로 종결한다.",
+      "objective": "측정·문제 인지와 조치·효과 검증의 차이를 구별한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F09",
+        "F10",
+        "F16",
+        "F17"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "attribute_codes": [
+        "PI3"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 핵심 후보; 공식 미진속성이나 개인 책임의 확정이 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "운전경험을 유사사례 적용성 및 조치 효과의 재검토로 연결한다.",
+      "objective": "유사사례 간 원인 차이와 기존 조치 이행·보완 근거를 함께 검토한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F08",
+        "F12",
+        "F13",
+        "F14",
+        "F15",
+        "F16"
+      ],
+      "principle_codes": [
+        "CL"
+      ],
+      "attribute_codes": [
+        "CL1"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 핵심 후보; 공식 미진속성이나 개인 책임의 확정이 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}
