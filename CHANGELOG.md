@@ -207,3 +207,6 @@
 
 ## 2026-11-25 / PILOT-26 출력·관계 QC
 - 기존 원고 및 PPTX Git blob 일치, 전체 A4 4쪽 및 LibreOffice 16장 실제 렌더·시각검토. 관계·배치 6/6, 스키마 부분집합 8/8 통과, 정식 Python jsonschema 8개 대기. ROOT-024 유지, can_ship=false.
+
+## 2026-11-25 / PILOT-26 최종 기술검증
+- 061011U2 원본 29쪽·26 사실·3 학습·40속성(9/22/9)·영상 3종·토론·16장/52분 PPTX, A4 4쪽·PPT 16장 실제 렌더. 원본 JSON/스키마 13개 Git blob 일치, Python jsonschema 8/8 및 관계·배치 6/6 PASS. ROOT-026 전환, 12 PDF 대기. 전문가 미승인, can_ship=false.

@@ -36,7 +36,7 @@
     "sha256": "61098459a72e5e16e55ff20fabcffd89563209883a004087f13f90ee2f028ab4",
     "a4_pages": 4,
     "pdf_sha256": "1e9966d28a0fa3b549c9988519e82551ad75d51736b26932dff8543551e03a53",
-    "pdf_bytes": 336120,
+    "pdf_bytes": 367999,
     "local_git_blob_match": true,
     "render_engine": "Mistune 3.2.1 + WeasyPrint 68.0",
     "fact_ids_present": 26,
@@ -80,49 +80,41 @@
     "zip_crc": "PASS"
   },
   "contract_checks": {
-    "passed": 6,
+    "passed": 14,
     "total": 14,
-    "status": "PARTIAL_PASS_PYTHON_JSONSCHEMA_PENDING",
+    "status": "PASS",
     "results": [
       {
         "test": "schema fact_ledger.json",
-        "result": "PENDING_PYTHON_JSONSCHEMA",
-        "repository_subset": "PASS"
+        "result": "PASS"
       },
       {
         "test": "schema learning_ledger.json",
-        "result": "PENDING_PYTHON_JSONSCHEMA",
-        "repository_subset": "PASS"
+        "result": "PASS"
       },
       {
         "test": "schema discussion_action/manifest.json",
-        "result": "PENDING_PYTHON_JSONSCHEMA",
-        "repository_subset": "PASS"
+        "result": "PASS"
       },
       {
         "test": "schema incident_understanding/production.json",
-        "result": "PENDING_PYTHON_JSONSCHEMA",
-        "repository_subset": "PASS"
+        "result": "PASS"
       },
       {
         "test": "schema safety_culture_learning/production.json",
-        "result": "PENDING_PYTHON_JSONSCHEMA",
-        "repository_subset": "PASS"
+        "result": "PASS"
       },
       {
         "test": "schema shorts/SHORT-01/production.json",
-        "result": "PENDING_PYTHON_JSONSCHEMA",
-        "repository_subset": "PASS"
+        "result": "PASS"
       },
       {
         "test": "schema safety_culture_learning/batch_job.example.json",
-        "result": "PENDING_PYTHON_JSONSCHEMA",
-        "repository_subset": "PASS"
+        "result": "PASS"
       },
       {
         "test": "schema shorts/SHORT-01/batch_job.example.json",
-        "result": "PENDING_PYTHON_JSONSCHEMA",
-        "repository_subset": "PASS"
+        "result": "PASS"
       },
       {
         "test": "relations discussion_action/manifest.json",
@@ -168,7 +160,16 @@
       "1f3399a6c476f9cb09202a73beb29b670cacb904",
       "8d9c26261df7f572829a79f1b35136079937ed2d",
       "c163a72c7be0f5edac9ecb04d1d9c1e1c79330fd"
-    ]
+    ],
+    "schema_engine": "Python jsonschema 4.26.0 Draft202012Validator; check_schema 5/5 and iter_errors 8/8; all 13 original input/schema Git blob SHA-1 hashes matched",
+    "input_local_blob_matches": 8,
+    "schema_local_blob_matches": 5,
+    "schema_meta_checks": {
+      "passed": 5,
+      "total": 5
+    },
+    "errors": 0,
+    "method": "Connector-read originals losslessly reconstructed locally; canonical UTF-8 bytes verified against Git blob SHA-1 before validation. Repository relation/batch results 6/6 carried forward from addec42, whose recorded input/schema hashes match the same 13 files."
   },
   "preliminary_checks": {
     "attribute_partition": "PASS",
@@ -219,7 +220,7 @@
     "source.document_path는 사건 media 공통 기준 ../source.md; provenance는 각 산출물 폴더 기준. 18초 9속성 카드 실제 영상 가독성 및 발화 길이 미검증. 월 정밀도 발행일 보존.",
     "기존 생성기 및 입력 JSON을 복원하여 원본 PPTX Git blob과 정확히 일치. LibreOffice 16장 렌더 및 전장 시각검토 완료. Microsoft PowerPoint 및 현장 투사 미시험.",
     "분석보고서 전체 원고 Git blob 일치, A4 4쪽 렌더 및 전쪽 시각검토. 사실 ID 26개 존재, 페이지 범위 이탈 및 대체 문자 0. 모든 개별 원고 텍스트 블록 대조는 미수행. A4 PDF는 로컬 검증용이며 저장소에는 원고와 해시 보존.",
-    "저장소 관계·배치 6개 및 스키마 부분집합 8개 통과. Python jsonschema Draft202012Validator 8개는 실제 원본 입력/스키마의 로컬 전송 제약으로 미수행. 정식 계약검사 14/14로 승격하지 않음. ROOT-024 유지."
+    "Python jsonschema 4.26.0 Draft202012Validator로 5개 스키마 자체검사 및 8개 인스턴스 검사 완료, 기존 관계·배치 6개와 합계 14/14. 직접 GitHub DNS 실패로 커넥터 원문을 로컬 무손실 복원하여 13개 Git blob 일치 확인. 이전 A4 PDF 크기 기록 336120을 실제 367999 bytes로 정정(기존 SHA256 동일). report_date_precision.application_regression은 전체 앱 회귀시험 미수행으로 PENDING 유지. 기술검증은 전문가 승인 아님."
   ],
   "can_ship": false,
   "video_preliminary_checks": {

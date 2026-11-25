@@ -29,3 +29,9 @@ ROOT-024 원본 29쪽 추출·렌더·5개 축소시트 시각검토, SHA256 e5e
 - 기존 생성기·입력 복원 후 PPTX Git blob 11658269ae822b4891b71cd9beae42441e3ed5f5 일치. ZIP CRC 75개 통과, LibreOffice 16장 실제 렌더·전체 시각검토, 418 도형, 224개 비어있지 않은 텍스트 도형 누락 0, 페이지 범위 이탈·대체 문자 0. PPTX SHA256 9af897138660fc2191f74e3b26d0bd9a73bfa111eaced095c4488849419b3fd4, 렌더 PDF SHA256 d3aed0886005fbd417bca7e24beac340d912dcdcd929381a5283d5c90c34ad2f. PowerPoint·현장 투사 미시험.
 - 실제 저장소 JSON 8개·스키마 5개 재조회, 기존 모듈로 관계·배치 6/6 및 스키마 부분집합 8/8 PASS. Python jsonschema 8개 미실행. 정식 6/14, 다음 Python 검사. [상세 JSON](VALIDATION.json).
 - PDF 바이너리는 대화 첨부·로컬 검증용; 저장소 원고/PPTX/해시 보존. 이전 축약본과 별개. ROOT-024·13 PDF 대기 유지, can_ship=false. 전문가 검토·실제 영상 생성 대기.
+
+## 최종 기술검증 종결 (2026-11-25)
+
+- Python jsonschema 4.26.0 Draft202012Validator 실행: 실제 스키마 5/5 check_schema PASS, 실제 인스턴스 8/8 iter_errors PASS. 입력 및 스키마 13개를 커넥터 원문에서 무손실 복원 후 Git blob 해시 모두 일치 확인. DNS 직접 다운로드 실패는 이 방식으로 해결했다.
+- 기존 저장소 관계·배치 검사 6/6과 합계 정식 계약 14/14 PASS. 원고·PPTX·입력·스키마 변경 없음. A4 전문 PDF 실제 크기 367999 bytes로 정정(이전 기록 336120, SHA256 동일). A4 4쪽·PPT 16장 기존 출력 증거 유지.
+- ROOT-024 기술검증 종결, ROOT-026(파일명 기준 2011-06-21) 전환. 신규 처리 대기 12 PDF. ROOT-002/003 별도 후속 과제 및 앱 전체 회귀시험 PENDING 유지. 전문가 승인 0, 실제 영상·음성 생성 없음, can_ship=false.
