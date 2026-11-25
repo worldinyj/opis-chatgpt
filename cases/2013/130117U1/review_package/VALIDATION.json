@@ -6,7 +6,18 @@
   "source_detail": "전체 텍스트·12쪽 렌더 및 축소시트 2개 시각 검토; 기술수치 전수검산 미수행",
   "report": {
     "status": "DRAFT",
-    "a4_render": "PENDING"
+    "git_blob": "bbdd59038a8ab5b71fff7c49a0d7178d14ae322a",
+    "bytes": 14184,
+    "sha256": "bc9af371d4e4de6f3aebbfe0c60275cf015f78612e903de0cb694fe43d1582b9",
+    "a4_pages": 4,
+    "pdf_sha256": "7f58116fc26e5d498b69f065d658bd9ccbb05704d040bea67916c9706e9c7c84",
+    "text_blocks": 127,
+    "missing_text_blocks": 0,
+    "out_of_bounds": 0,
+    "replacement_glyphs": 0,
+    "a4_render": "PASS_LOCAL_CONTACT_SHEET",
+    "render_engine": "WeasyPrint",
+    "local_git_blob_match": true
   },
   "ppt": {
     "git_blob": "a7a7a3760ff33a127987df148474ab7114d893fd",
@@ -20,8 +31,8 @@
     "deterministic_build": "PASS",
     "zip_member_crc": "PASS",
     "zip_members_checked": 75,
-    "local_git_blob_match": null,
-    "actual_render": "PENDING",
+    "local_git_blob_match": true,
+    "actual_render": "PASS_LIBREOFFICE_CONTACT_SHEET",
     "fact_coverage": 22,
     "learning_coverage": 3,
     "attribute_coverage": 6,
@@ -29,18 +40,103 @@
       "questions": 3,
       "scenarios": 2,
       "actions": 6
-    }
+    },
+    "sha256": "51b399d46aec46cef7fa2c5a783283739b5882a69d1f3785e98587239421dd0e",
+    "render_pdf_sha256": "7232b19ca7691072d95a4ef10c9ea03470a026fbf6f787fdc57d6d714d04f93f",
+    "zip_crc": "PASS",
+    "rendered_pages": 16,
+    "out_of_bounds": 0,
+    "missing_text_shapes": 0,
+    "replacement_glyphs": 0
   },
   "contract_checks": {
-    "passed": 0,
+    "passed": 14,
     "total": 14,
-    "status": "PENDING"
+    "status": "PASS",
+    "results": [
+      {
+        "test": "schema fact_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema learning_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      }
+    ],
+    "schema_engine": "Python jsonschema Draft202012Validator; 13 original input/schema Git blobs verified",
+    "relation_engine": "repository validate_contract.mjs",
+    "relation_validator_blob": "08ad964d1e8c2e63d1a1c540bc6ce76562afe1f8",
+    "input_blobs": [
+      "e75125c6f381d7f2c4b2c1d534122343676b5f7e",
+      "34c86bbff8bd4c9db78a49332e91559a0f5663c8",
+      "6692a881695ebaccd0ae9eb4b1897dfa16eeac90",
+      "65f26b3f4bb7e11ddf40b3948231e5fe46abbaff",
+      "f93f11e557eb20482c87a90f384c023298890292",
+      "64195ef26e1957bafb157fae465ba5e4e1c3b415",
+      "4928c802537d0e564692b618bc2e576645384b0e",
+      "74fe27ed7174b0f51efe83ce4359b102ba775bbf"
+    ],
+    "schema_blobs": [
+      "4ddf42eb65aaa56130374f46a66340bb5d05ca6c",
+      "6ccc8e0e68d8666c5065e15a74717533453777c3",
+      "639fcddad57cad3e547f2feaea748dc2f5d1428c",
+      "586ade769e7fcfd32dd4d2117682a59e8ccbfa04",
+      "c163a72c7be0f5edac9ecb04d1d9c1e1c79330fd"
+    ]
   },
   "preliminary_checks": {
-    "attribute_partition": "PASS",
+    "attribute_partition": "PASS_6_21_13_UNIQUE_40",
     "learning_fact_reference": "PASS",
     "discussion_learning_reference": "PASS",
-    "index_duplicate": "PASS",
+    "index_duplicate": "PASS_JSON_CSV_SINGLE_EVENT",
     "schema_subset_3": "PASS",
     "repository_discussion_relations": "PASS"
   },
@@ -81,9 +177,11 @@
     "실제 계측 구성·기기 수량별 보호 논리·부품 오류 형태·설계도면·구체 조건 및 조작·시험 방법은 교육자료에서 제외. 정량 분석 전수 검산 미수행.",
     "단기조치 완료와 감시 운영 예정, 장기조치 예정 구분. 당시 평가가 현재 안전성 보증을 의미하지 않는다.",
     "40속성은 AI 교육적 후보. 미선정은 양호 판정 아님. 독립·전문가 내용 및 속성 검토 대기.",
-    "영상 3종 제작 설계만 등록. 실제 음성·영상·이미지 및 발화시간 실측 미수행. A4/정식 Python jsonschema 및 관계 계약 14개 대기.",
-    "source.document_path는 계약의 사건 media 공통 기준 ../source.md; provenance는 각 산출물 폴더 기준. 18초 속성 카드의 실제 가독성과 발화 길이 검증 대기. AI 해석은 L 원장에 연결하고 L을 통해 공식 사실 F를 참조한다.",
-    "PPTX는 기존 범용 생성기 실행·ZIP 로컬 멤버 CRC·결정적 출력 및 슬라이드/노트 수 확인까지 완료. 실제 LibreOffice 렌더, 로컬 SHA256 및 Git blob 일치, 글자 누락·범위 검사, 6속성 종합장 가독성, Microsoft PowerPoint 투사 미수행. 영상 링크는 제작 명세 활용 후보."
+    "영상 3종은 제작 설계만 등록. 실제 영상·음성·이미지 미생성, 발화시간 실측 및 에셋 QC 미수행. 유료 호출·외부 제출 0.",
+    "source.document_path는 사건 media 공통 기준 ../source.md; provenance는 각 산출물 폴더 기준. 18초 속성 카드의 실제 영상 가독성 및 발화 길이 검증 대기.",
+    "LibreOffice 16장 및 WeasyPrint A4 4쪽 전체 실제 출력·시각검토 완료. A4의 3.2 및 3.4 절 개쪽을 조정하였으며 원고·PPTX 바이너리는 변경하지 않았다. Microsoft PowerPoint 및 현장 투사 미시험.",
+    "원고 v0.1.0의 최초 분석 시점 검증 대기 문구 보존. 현재 상태는 REVIEW_STATE/VALIDATION 우선. PDF는 로컬 검증용, 저장소에 원고·PPTX·검증 해시 보존.",
+    "직접 다운로드 DNS 실패로 기존 검증본을 기준으로 무손실 차분 복원하고 Git blob 일치를 확인했다. 독립·전문가 검토는 대기. 기술검증은 교육 배포 승인이 아님."
   ],
   "can_ship": false,
   "video_preliminary_checks": {
