@@ -5,7 +5,14 @@
   "source_render": "PASS_LOCAL_CONTACT_SHEET",
   "report": {
     "status": "DRAFT",
-    "a4_render": "PENDING"
+    "git_blob": "a9ec77c10c2ce8193813d8f1f830eb83cabf49a8",
+    "bytes": 11519,
+    "sha256": "35afa8e751dd8bfde2d69aad2e40499e2d0f82d16ae767d22493fa84c8424029",
+    "a4_pages": 4,
+    "pdf_sha256": "558b6fb9485b8d8ef28caa1bd6b6410440acf5c24417f603a88c6560edbd9555",
+    "missing_text_blocks": 0,
+    "a4_render": "PASS_LOCAL_CONTACT_SHEET",
+    "render": "PASS_LOCAL_CONTACT_SHEET"
   },
   "ppt": {
     "git_blob": "71970f135ee48a6189ba8d7b7edf286ab7643fbc",
@@ -15,7 +22,14 @@
     "editable_shapes": 398,
     "zip_crc": "PASS",
     "deterministic_regeneration_byte_match": true,
-    "actual_render": "PENDING"
+    "actual_render": "PASS_LIBREOFFICE_CONTACT_SHEET",
+    "sha256": "407355fb2cfd3daa00282bd55b1467f90450e46aa989c6e687a69c71da91c33c",
+    "render_pdf_sha256": "c369142b50e4898f6d89a147bbe4fe44347cc143e5361a028cb4bac5e01eff43",
+    "rendered_pages": 16,
+    "out_of_bounds": 0,
+    "missing_text_shapes": 0,
+    "replacement_glyphs": 0,
+    "render": "PASS_LIBREOFFICE_CONTACT_SHEET"
   },
   "contract_checks": {
     "passed": 14,
@@ -23,10 +37,13 @@
     "scope": "repository JS schema subset and relation checks; fact, learning, discussion, three video designs and two batches"
   },
   "limitations": [
-    "PDF 원본 전체 축소 렌더 확인; 첨부 도표 세부 전수 판독 미수행",
-    "원고 A4 및 PPT 실제 렌더 미완료; GitHub 바이너리는 재조회 및 결정적 재생성 일치",
+    "원본 PDF 전체 축소 렌더 확인; 첨부 도표 세부 전수 판독 미수행",
+    "보고서 4쪽 출력; 표 분할 및 소제목 분리 방지 위해 출력 CSS/페이지 분기만 조정, 원고 blob 불변; 마지막 쪽 여백 큼",
+    "PPT 실제 PowerPoint 및 현장 투사 미시험",
     "OPIS 상세 ID, 기초/최종 INES, 현재 개선효과 미확인",
-    "독립·전문가 검토 대기; 실제 영상·음성 미생성"
+    "독립·전문가 내용 및 속성 검토 대기; 공식 보고서 §3.1.3.1 및 붙임1 안전문화-5의 회의체 운영 관련 세부 근거는 별도 내용 검토에서 보완 여부 판단",
+    "실제 영상·음성 미생성",
+    "렌더 PDF는 로컬 검증 산출물; GitHub에는 MD/PPTX 및 검증 해시 보존"
   ],
   "can_ship": false
 }
