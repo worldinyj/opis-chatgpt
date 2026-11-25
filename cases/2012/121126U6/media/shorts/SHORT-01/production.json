@@ -1,0 +1,248 @@
+{
+  "schema_version": "2.0",
+  "event_id": "121126U6",
+  "artifact_id": "SHORT-121126U6",
+  "artifact_type": "KEY_MESSAGE_SHORT",
+  "title": "누군가 확인했겠지?",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2012-17",
+    "report_date": "2012-12-03",
+    "sha256": "25c453c50ef696f2e0a0500376c6de63080d7d21c320ee945576dafc2bffab27"
+  },
+  "provenance": {
+    "analysis_path": "../../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../../fact_ledger.json",
+    "learning_ledger": "../../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "9:16",
+    "width": 720,
+    "height": 1280,
+    "fps": 24,
+    "language": "ko",
+    "style": "controlled graphic + hypothetical 3D brick miniature"
+  },
+  "timing": {
+    "target_seconds": 30
+  },
+  "learning_objectives": [
+    "정비·운전 정보 공유, 팀 간 인수인계와 명확한 확인 책임, 자기확인 및 잠재 실수 대비를 학습한다."
+  ],
+  "references": [
+    {
+      "id": "LOC-A",
+      "kind": "LOCATION",
+      "description": "가상 브릭 교육 회의실; 실제 원전 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-A",
+      "kind": "CHARACTER",
+      "description": "가상 담당자, 청회색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-B",
+      "kind": "CHARACTER",
+      "description": "가상 검토자, 짙은 청색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "OBJ-A",
+      "kind": "OTHER",
+      "description": "빈 문서 카드와 일반 기록철; 실제 계기·도면 없음.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "누군가 확인했겠지?",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 세로 화면의 물음표와 빈 기록 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 재현 없음.",
+      "narration": "누군가 확인했겠지, 정말 그럴까요?",
+      "overlay": [
+        "누군가 확인했겠지?",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "조사팀의 확인 책임 평가",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F12",
+        "F13"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 공식 조사 문서 카드, 실제 사건 재현 없음. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 재현 없음.",
+      "narration": "조사팀은 상대 조의 확인에 대한 가정을 지적했습니다.",
+      "overlay": [
+        "조사팀의 확인 책임 평가",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "확인과 가정의 차이",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "CO",
+        "PA",
+        "QA"
+      ],
+      "attribute_codes": [
+        "CO3",
+        "PA3",
+        "QA4"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 확인 증거 및 책임 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 재현 없음.",
+      "narration": "확인했다는 가정은 확인의 증거가 아닙니다.",
+      "overlay": [
+        "확인과 가정의 차이",
+        "AI 교육적 해석 · 후보"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "가상의 인수인계",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "CO",
+        "PA",
+        "QA"
+      ],
+      "attribute_codes": [
+        "CO3",
+        "PA3",
+        "QA4"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 일반 제조시설 3D 브릭 교육회의실: 세로 중앙 두 가상 직원과 빈 기록철. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 재현 없음.",
+      "narration": "가상 팀은 확인한 사실과 남은 일을 공유합니다.",
+      "overlay": [
+        "가상의 인수인계",
+        "가상 교육 상황 · 실제 사건 아님"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CONTEXT_SHIFT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "확인했다는 가정 대신 확인의 증거를 남긴다",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 공통 메시지 및 보고서 출처. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 재현 없음.",
+      "narration": "확인했다는 가정 대신 확인의 증거를 남깁시다.",
+      "overlay": [
+        "확인했다는 가정 대신 확인의 증거를 남긴다",
+        "KINS 2012-17 · 교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}
