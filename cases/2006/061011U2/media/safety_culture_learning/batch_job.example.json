@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0",
+  "job_id": "SC-061011U2-BATCH01",
+  "event_id": "061011U2",
+  "artifact_id": "SC-061011U2",
+  "manifest_revision": 1,
+  "route": "GEMINI_TASKS_BATCH",
+  "aspect_ratio": "16:9",
+  "jobs": [
+    {
+      "id": "SC-061011U2-S05",
+      "scene_id": "S05",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional generic training meeting room, two neutral 3D brick staff, blank documents. 가상의 일반 제조시설 3D 브릭 교육회의실: 가상 직원 두 명이 빈 품질 기록철을 검토. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 재현 없음. Approved references only; no real facility, equipment, diagrams, instruments, logos or text. Generous caption safe area.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S05_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-061011U2-S09",
+      "scene_id": "S09",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional generic training meeting room, two neutral 3D brick staff, blank documents. 가상의 일반 제조시설 3D 브릭 교육회의실: 가상 직원 두 명이 빈 승인 기록을 검토. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 재현 없음. Approved references only; no real facility, equipment, diagrams, instruments, logos or text. Generous caption safe area.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S09_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-061011U2-S13",
+      "scene_id": "S13",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional generic training meeting room, two neutral 3D brick staff, blank documents. 가상의 일반 제조시설 3D 브릭 교육회의실: 가상 직원 두 명이 빈 교육 기록을 검토. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 재현 없음. Approved references only; no real facility, equipment, diagrams, instruments, logos or text. Generous caption safe area.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S13_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-061011U2-S15",
+      "scene_id": "S15",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional generic training meeting room, two neutral 3D brick staff, blank documents. 가상의 일반 제조시설 3D 브릭 교육회의실: 가상 직원 두 명이 빈 검토 기록을 함께 살펴봄. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 재현 없음. Approved references only; no real facility, equipment, diagrams, instruments, logos or text. Generous caption safe area.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S15_still_v01.png",
+      "attempt": 1
+    }
+  ],
+  "results": []
+}
