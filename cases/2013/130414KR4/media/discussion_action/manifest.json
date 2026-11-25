@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "130414KR4",
+  "artifact_id": "DA-130414KR4",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "확인 없는 완료는 안전을 보증하지 않는다",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2013-03/04",
+    "report_date": "2013-04-30",
+    "sha256": "c5a6c0d26079b71cc81f850eba75c884d00fc601b7cf245d7ff0ddb125af4f77"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "작업 종료 확인에서 발견 물체의 유입원과 관련 미회수 문제를 어떻게 평가하고 추적하며, 누가 완료 근거를 검토하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "교육에서 습득한 역량이 실제 업무에 전이됐음을 어떻게 확인하고 업무 중복 및 감독 책임을 어떻게 평가하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "예상하지 못한 상황에서 신속한 대응과 승인된 절차·정확한 진단을 모두 확보할 수 있는지 무엇으로 확인하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설 정비 종료 후 작은 물품 하나가 발견됐지만 유입원과 관련 물품의 회수 여부가 불명확하다. 원인 평가 및 후속 확인 증거를 논의한다.",
+      "learning_ids": [
+        "L01"
+      ],
+      "facilitator_prompt": "5분: 완료 근거와 미해결 사항의 추적 책임, 위험성 평가 기록을 정한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 신규 업무를 맡은 팀원이 여러 업무를 동시에 수행하고, 예상하지 못한 상황에 팀이 대응한다. 역할·감독·승인된 절차의 확인을 논의한다.",
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 역량 확인, 업무 조율, 절차와 판단의 검증 증거를 논의한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "작업 종료 시 잔류 문제와 미해결 사항의 확인 기록을 요청한다.",
+      "verification": "작업 종료·문제평가 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "교육 이후 실무 수행 역량과 역할 확인에 필요한 질문을 기록한다.",
+      "verification": "교육 평가·역할 확인 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "예상하지 못한 상황에서 승인 절차와 진단 근거를 공식적으로 확인한다.",
+      "verification": "절차 검토·상황 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "정비 종료 확인과 관련 미해결 문제 추적성을 표본 점검한다.",
+      "verification": "작업관리·시정조치 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "교육 효과와 업무 중복, 협업 및 감독 책임의 이행 근거를 평가한다.",
+      "verification": "역량 평가·팀 검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "비상상황 대응 훈련의 절차 준수·진단·팀 검증 증거를 평가한다.",
+      "verification": "훈련 평가·절차 검토 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

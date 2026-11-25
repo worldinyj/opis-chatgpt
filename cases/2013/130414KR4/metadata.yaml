@@ -1,0 +1,33 @@
+schema_version: "1.0"
+event_id: "130414KR4"
+report_number: "2013-03/04"
+title: "고리 4호기 증기발생기 이물질 신호 점검을 위한 수동 정지 및 냉각 중 부적절한 안전주입"
+event_date: "2013-04-14"
+report_date: "2013-04-30"
+plant:
+  site: 고리
+  unit: 4
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 21
+  sha256: c5a6c0d26079b71cc81f850eba75c884d00fc601b7cf245d7ff0ddb125af4f77
+  source_size_bytes: 505142
+operating_mode: "수동정지: 운전모드 1; 안전주입: 운전모드 3"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP1, PI2, CL4, PA3, LA6, WP4, DM1]
+  additional_review_attributes: [PA1, PA2, QA1, QA2, QA3, QA4, CO1, CO2, CO3, LA1, LA4, LA7, LA8, DM2, DM3, CL1, CL2, CL3, PI1, PI3, WP2, WP3]
+  insufficient_or_low_relevance_attributes: [CO4, LA2, LA3, LA5, WE1, WE2, WE3, WE4, PI4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null

@@ -388,11 +388,12 @@
           "size_bytes": 505142
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "event_id": "130414KR4",
+      "verified_event_date": "2013-04-14",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "원본 21쪽 확인·렌더, 26 사실·3 학습·40속성(7/22/11)·토론 및 전문가 초안 등록. 결합 보고서 1건(두 보고사항). 영상/PPT/A4/정식 계약 검증 대기. ROOT-022 유지.",
+      "source_sha256": "c5a6c0d26079b71cc81f850eba75c884d00fc601b7cf245d7ff0ddb125af4f77"
     },
     {
       "queue_order": 23,

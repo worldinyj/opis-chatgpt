@@ -1,0 +1,39 @@
+{
+  "event_id": "130414KR4",
+  "source_report_sha256": "c5a6c0d26079b71cc81f850eba75c884d00fc601b7cf245d7ff0ddb125af4f77",
+  "source_pages": 21,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_detail": "전체 텍스트·21쪽 렌더 및 축소시트 4개 시각 검토; 기술수치 전수검산 미수행",
+  "report": {
+    "status": "DRAFT",
+    "a4_render": "PENDING"
+  },
+  "ppt": {
+    "actual_render": "PENDING"
+  },
+  "contract_checks": {
+    "passed": 0,
+    "total": 14,
+    "status": "PENDING"
+  },
+  "preliminary_checks": {
+    "attribute_partition": "PASS",
+    "learning_fact_reference": "PASS",
+    "discussion_learning_reference": "PASS",
+    "index_duplicate": "PASS",
+    "schema_subset_3": "PASS",
+    "repository_discussion_relations": "PASS"
+  },
+  "video_design": [],
+  "limitations": [
+    "표지·요약의 사건 ID와 보고서 번호 일치. PDF 1–2쪽 인쇄면 번호 없음, PDF 3–21쪽 인쇄면 2–20쪽. 결합 보고서 1건(두 보고사항), 별도 4월 4일 불시정지 사건은 본 사례에 추가 등록하지 않음.",
+    "PDF p.5의 경보 발생 시 출력 표기가 본문 앞부분과 3.1.1에서 다르고, p.4와 p.12의 일부 기록 시각 표기에도 차이가 있다. 해당 수치·시각은 분석 및 교육물에 사용하지 않고 원문 차이로만 기록.",
+    "요약은 소내 방사선 영향 미미, 본문 3.3.2.2는 소내·외 방사선 영향 없음으로 표현. 내부 냉각재 방출 사실과 환경 방출·작업자 피폭 평가를 구분한다. 결론 p.20의 파열판 관련 명칭은 3.2.3 및 요약과 차이가 있어 해당 절의 압력방출탱크 표현을 채택하고 원문 차이를 보존한다.",
+    "3.4.2 단기 완료 분류 내 절차 개정은 재기동 전까지 표기가 함께 있으므로 실제 완료일은 미확인. 재기동 예정·장기 예정과 현재 효과는 구분.",
+    "OPIS 상세 팝업 ID, 초기/최종 INES, 실제 재가동 승인 및 현재 장기대책 이행효과 미확인. 루트 외 동일 이름·크기 사본의 바이트 동일성 미확인.",
+    "구체적 설비 위치·유입경로·물체 제원·운전변수·기준치·조작 순서·경보 논리·시험/정비 방법은 제외. 수치 전수검산과 이전 사건 원본의 독립 검토 미수행.",
+    "표준 후보는 교육적 해석. 공식 미진속성·개인 책임·전사 문화 판정 아님. 독립·전문가 검토 대기.",
+    "영상 설계, PPTX, A4 실제 출력 및 정식 14개 계약 검사 대기."
+  ],
+  "can_ship": false
+}

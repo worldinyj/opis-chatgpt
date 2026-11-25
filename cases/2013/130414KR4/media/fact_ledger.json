@@ -1,0 +1,422 @@
+{
+  "schema_version": "2.0",
+  "event_id": "130414KR4",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2013-03/04",
+    "report_date": "2013-04-30",
+    "sha256": "c5a6c0d26079b71cc81f850eba75c884d00fc601b7cf245d7ff0ddb125af4f77"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "표지; 요약; 1",
+      "pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "printed_pages": [
+        2
+      ],
+      "statement": "2013년 4월 14일 고리4호기에서 이물질 신호 점검을 위한 수동정지와 냉각 중 부적절한 안전주입이 발생했다.",
+      "qualification": "한 보고서에 두 보고사항이 포함된다. 실제 운전 전개 순서와 조건의 상세는 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "OBSERVED_FACT",
+      "section": "1",
+      "pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        2
+      ],
+      "statement": "수동정지와 안전주입은 각각 원자로정지 및 비상노심계통 작동 관련 보고사항이며 재가동 사전안전성 확인 및 승인 대상이었다.",
+      "qualification": "보고규정상 구분이며 INES 등급 또는 실제 승인 결과를 뜻하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "2.2; 3.1.1",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "printed_pages": [
+        3,
+        4
+      ],
+      "statement": "이물질 경보 이후 운영자는 관련 절차에 따른 대응, 이물질 분석과 안전성 검토를 수행했다.",
+      "qualification": "경보·감시계통의 상세 구조 및 실제 운전 조건은 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.1",
+      "pdf_pages": [
+        5
+      ],
+      "printed_pages": [
+        4
+      ],
+      "statement": "운영자는 세관 건전성에 영향을 줄 가능성이 있다는 평가에 따라 이물질 확인과 제거를 위해 수동정지를 결정했다.",
+      "qualification": "예방적이고 보수적인 판단의 긍정 학습 근거. 이후 안전주입 발생과 별도로 평가한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2–3.1.3",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "printed_pages": [
+        5,
+        6
+      ],
+      "statement": "이물질을 발견·회수했고 정비이력과 물체 비교를 통해 과거 정비 작업에서 사용된 고정구로 평가했다.",
+      "qualification": "유입원은 조사 평가로 표현한다. 물체의 위치·치수·유입 경로·회수 방법 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3",
+      "pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "앞선 계획예방정비에서 관련성이 있는 것으로 평가된 별도 물체를 회수하고 주변 건전성을 확인했으나 당시 유입원은 알 수 없었다.",
+      "qualification": "사전 검사의 존재를 인정한다. 당시에 전체 원인을 알 수 있었다고 단정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "printed_pages": [
+        5,
+        6
+      ],
+      "statement": "조사팀은 과거 작업에서 이물질 유입방지절차서가 준수되지 않았고 작업 후 잔류 여부 확인이 미흡했음을 확인했다.",
+      "qualification": "구체적인 물품·설비별 방호 방법과 경로는 제외. 절차 위반의 공식 판단을 보존.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        6
+      ],
+      "statement": "조사팀은 유입원 및 유입경로 평가가 적절하다고 판단했고 검사지적사항을 발급하여 건전성 확인과 유사 사례 점검을 요구했다.",
+      "qualification": "과거 평가와 시정조치 요구에 한정. 기술적 유입 경로 미표시.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3.1.1",
+      "pdf_pages": [
+        13
+      ],
+      "printed_pages": [
+        12
+      ],
+      "statement": "회수된 이물질 관련 세관 검사에서 허용기준 이내의 마모지시가 확인됐고 추가 검사에서 별도 마모지시는 발견되지 않았다.",
+      "qualification": "마모가 전혀 없었다는 의미가 아니며 검사 범위와 당시 평가로 한정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3.1.2",
+      "pdf_pages": [
+        13,
+        14
+      ],
+      "printed_pages": [
+        12,
+        13
+      ],
+      "statement": "별도의 이물질은 미회수 상태였으며 추가 검사 및 성분 분석을 실시하고 일부 성분의 검출에 근거해 슬러지화 가능성을 추정했다.",
+      "qualification": "추정과 회수 확인을 구분한다. 미회수 물질이 모두 제거됐다는 판단은 하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3.1.2",
+      "pdf_pages": [
+        14
+      ],
+      "printed_pages": [
+        13
+      ],
+      "statement": "사업자는 승인된 평가방법론에 따라 미회수 이물질의 세관 건전성 영향을 평가했고 당시 평가에서 허용기준을 충족한다고 판단했다.",
+      "qualification": "평가에 사용한 기간·조건·한계는 재현하지 않는다. 현재 건전성 보증 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.1–3.2.1.2",
+      "pdf_pages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "printed_pages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "statement": "조사팀은 냉각 중 과도한 증기방출과 함께 운전미숙, 절차 단계 미준수 및 이행상태 확인 미흡이 부적절한 안전주입에 기여했다고 판단했다.",
+      "qualification": "정량 조건, 계통 논리, 시간 순서, 조작 또는 재현 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.2",
+      "pdf_pages": [
+        8
+      ],
+      "printed_pages": [
+        7
+      ],
+      "statement": "면담에서 해당 운전원이 관련 교육훈련 경험은 있었으나 실제 해당 운전 경험이 없었던 것으로 확인됐다.",
+      "qualification": "교육훈련이 전혀 없었다는 뜻이 아니며 자격 미충족 여부는 별도 근거 필요.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.2",
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "printed_pages": [
+        7,
+        8
+      ],
+      "statement": "조사팀은 절차서상 기준을 초과한 운전 상태와 주요 운전변수 감시 미흡을 확인했고 사전 경보의 한계도 지적했다.",
+      "qualification": "기준 종류별 적용 범위가 다르며 기술수치 및 경보 논리·구체적 감시 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.2",
+      "pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        8
+      ],
+      "statement": "조사팀은 업무 중복으로 운전원 간 적절한 감시·조정이 어려웠던 점을 확인했다.",
+      "qualification": "업무 중복과 팀 협력의 문제로 제한하며 인력 부족이나 개인 동기를 단정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.2",
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "printed_pages": [
+        8,
+        9
+      ],
+      "statement": "조사팀은 발전팀장이 행정업무를 우선 수행하면서 주요 운전 상태 및 절차 이행 확인·감독이 미흡했음을 확인했다.",
+      "qualification": "확인된 당시 행위에 한정. 전사 리더십·책임체계 실패로 확대하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.2",
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "printed_pages": [
+        9,
+        10
+      ],
+      "statement": "운전조는 안전주입을 인지한 후 신속히 비상운전절차에 착수했으며 조사팀은 이상사태에 신속히 대응한 측면을 인정했다.",
+      "qualification": "긍정적 대응과 비상절차 적절성을 별도 평가한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.2",
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "printed_pages": [
+        9,
+        10
+      ],
+      "statement": "조사팀은 비상운전절차에 명시되지 않은 자의적 조치, 필수안전기능 확인 누락 및 정확한 사고진단 부족을 부적절한 행위로 판단했다.",
+      "qualification": "실제 조작 대상·순서·방법을 제외하고 절차와 판단의 원칙만 학습한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.3–3.2.4",
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "printed_pages": [
+        11,
+        12
+      ],
+      "statement": "안전주입 관련 과도상태에서 압력방출탱크 파열판 파열로 냉각재 일부가 격납건물 내부로 방출됐으며 조사팀은 유입 및 방출량 평가를 타당하다고 판단했다.",
+      "qualification": "실제 유입 경로, 압력조건 및 방출량 상세 제외. 격납건물 내부 방출과 환경 방출을 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3.2.1",
+      "pdf_pages": [
+        14,
+        15
+      ],
+      "printed_pages": [
+        13,
+        14
+      ],
+      "statement": "조사팀은 과도이력, 열응력, 피로 및 추가 건전성 평가를 검토해 당시 주요기기 구조 건전성에 특이한 영향이 없다고 판단했다.",
+      "qualification": "정량 분석 전수 검산 미수행. 당시 평가에 한정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F21",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3.2.2",
+      "pdf_pages": [
+        15,
+        16
+      ],
+      "printed_pages": [
+        14,
+        15
+      ],
+      "statement": "당시 감시·시료·출입 기록 검토 결과 비정상적 환경 방출과 작업자 피폭은 발생하지 않은 것으로 확인됐다.",
+      "qualification": "내부 냉각재 방출 사실을 부정하지 않는다. 요약과 본문 방사선 표현의 차이는 별도 기록.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F22",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3.2.3",
+      "pdf_pages": [
+        16,
+        17
+      ],
+      "printed_pages": [
+        15,
+        16
+      ],
+      "statement": "주요 계통·기기는 설계된 바대로 작동했고 필수안전기능이 적절히 유지됐다고 조사팀은 판단했다.",
+      "qualification": "당시 안전기능 평가이며 비상절차 준수 적절성과 동일하지 않다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F23",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4.1",
+      "pdf_pages": [
+        17,
+        18,
+        19
+      ],
+      "printed_pages": [
+        16,
+        17,
+        18
+      ],
+      "statement": "이물질 관련 건전성 검사와 추가 점검을 완료했고 계약 요건, 관리책임자, 절차, 물품관리 기록, 교육 및 검사 강화를 장기조치로 계획했다.",
+      "qualification": "보고서 작성 당시 완료와 예정 구분. 후속 실제 이행효과 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F24",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4.2",
+      "pdf_pages": [
+        18,
+        19
+      ],
+      "printed_pages": [
+        17,
+        18
+      ],
+      "statement": "안전주입 관련 구조 건전성 평가, 파열판 교체, 운전원 교육훈련 및 절차 보완이 단기 완료로 기록됐다.",
+      "qualification": "2013년 보고서의 완료 분류를 보존. 재기동 전까지라는 표기와 구체 완료일 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F25",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4.2",
+      "pdf_pages": [
+        18,
+        19,
+        21
+      ],
+      "printed_pages": [
+        17,
+        18,
+        20
+      ],
+      "statement": "재기동시 사전 도상훈련과 지원팀 운영을 예정했고 장기적으로 절차 검토·개선, 모의제어반 교육평가 및 예비경보 개선을 계획했다.",
+      "qualification": "계획을 현재 이행 완료로 표현하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F26",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4–5",
+      "pdf_pages": [
+        19,
+        20,
+        21
+      ],
+      "printed_pages": [
+        18,
+        19,
+        20
+      ],
+      "statement": "조사팀은 재발방지대책을 타당하다고 평가했고 별도 보완요구사항이 없으며 당시 기술적 측면에서 재가동에 문제가 없다고 판단했다.",
+      "qualification": "실제 재가동 승인 및 현재 이행효과·안전문화 판정과 구분한다.",
+      "review_status": "PENDING"
+    }
+  ]
+}
