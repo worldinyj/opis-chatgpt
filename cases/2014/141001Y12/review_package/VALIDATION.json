@@ -1,0 +1,125 @@
+{
+  "event_id": "141001Y12",
+  "source_report_sha256": "3845ad254c76c6b2d6d83ea4bf3731af175c8b177f40b3b903468b2ba59277c3",
+  "source_pages": 10,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_detail": "전쪽 렌더 및 텍스트 검토, 세부 기술수치 전수 검산 미수행",
+  "report": {
+    "status": "DRAFT",
+    "git_blob": "48caa38fda390d5acb5f808389eebc1d95ccbaf9",
+    "bytes": 11569,
+    "sha256": "3410c580037fa3888269869a1c59139c8249883e72e21ae8586ca97402ebf2c9",
+    "a4_pages": 4,
+    "pdf_sha256": "8778abaafcb0436c18ea2c758a19f76ef66c526b6baf54941a9651b22379fc56",
+    "text_blocks": 118,
+    "missing_text_blocks": 0,
+    "replacement_glyphs": 0,
+    "a4_render": "PASS_LOCAL_CONTACT_SHEET"
+  },
+  "ppt": {
+    "git_blob": "65a5633df9eddd873aa2fe79d1ffda2b94b7b8fc",
+    "bytes": 318881,
+    "sha256": "a699da1f6c936bc9c881796303a9dedd684ea6e75ec0d1d5a901e683b8f3f07a",
+    "render_pdf_sha256": "2f5acd5d68bd272ae351d654c8a083f191a5f48f71e434746b0d978795823439",
+    "slides": 16,
+    "nonempty_notes": 16,
+    "editable_shapes": 380,
+    "zip_crc": "PASS",
+    "local_git_blob_match": true,
+    "rendered_pages": 16,
+    "out_of_bounds": 0,
+    "missing_text_shapes": 0,
+    "replacement_glyphs": 0,
+    "actual_render": "PASS_LIBREOFFICE_CONTACT_SHEET"
+  },
+  "contract_checks": {
+    "passed": 14,
+    "total": 14,
+    "results": [
+      {
+        "test": "schema fact_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema learning_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      }
+    ]
+  },
+  "video_design": [
+    {
+      "id": "IU-141001Y12",
+      "seconds": 120,
+      "scenes": 20,
+      "fact_coverage": 17
+    },
+    {
+      "id": "SC-141001Y12",
+      "seconds": 120,
+      "scenes": 18
+    },
+    {
+      "id": "SHORT-141001Y12",
+      "seconds": 30,
+      "scenes": 5
+    }
+  ],
+  "limitations": [
+    "한빛1·2호기 공동 사건은 단일 ID로 계상. 기존 metadata.unit=2는 작업 발생 대표 호기, 인덱스에는 공동 호기 명시. 호기별 집계 규칙 별도 검토 필요.",
+    "시험원 오류와 사업자의 사전 작업검토 미흡 구분. 회의와 승인 절차 존재 및 감독 여건을 보존. QA4·CL1·LA5·LA6 등의 교육 후보는 개인 심리·전사 체계·리더 책임의 확정 판정 아님.",
+    "세부 기술수치 전수 검산 미수행. 실제 설비·취약점·조작 재현 대신 안전관리 교육용 자료.",
+    "PPT 실제 PowerPoint 및 현장 투사 미시험. A4는 표 분할 방지 위해 일부 하단 여백 유지, PPT 기존 표준 레이아웃 일부 빈 공간 유지.",
+    "OPIS 상세 ID, 기초/최종 INES, 현재 중장기조치 이행효과 미확인.",
+    "실제 영상·음성 미생성, 나레이션 시간 실측 및 시각 에셋 QC 미수행. 유료 호출·외부 제출 0.",
+    "독립·전문가 내용 및 속성 검토 대기. 렌더 PDF는 로컬 검증용, 저장소에는 원고·PPTX 및 검증 해시 기록."
+  ],
+  "can_ship": false
+}

@@ -25,10 +25,10 @@
   "existing_cases_not_in_root": [
     "250919W2"
   ],
-  "pending_pdf_count": 19,
-  "pending_date_groups": 18,
-  "next_list_date": "2014-10-01",
-  "next_queue_id": "ROOT-019",
+  "pending_pdf_count": 18,
+  "pending_date_groups": 17,
+  "next_list_date": "2014-06-17",
+  "next_queue_id": "ROOT-020",
   "items": [
     {
       "queue_order": 1,
@@ -338,11 +338,11 @@
           "size_bytes": 184823
         }
       ],
-      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
       "event_id": "141001Y12",
       "verified_event_date": "2014-10-01",
       "from_prior_table": true,
-      "notes": "10쪽 전체 텍스트 및 렌더. 한빛1·2호기 공동 사건 단일 ID. 17 사실·3 학습·40속성 후보(7/17/16)·토론 초안 등록. 영상/PPT/A4 출력 및 전문가 검토 대기."
+      "notes": "원본 10쪽·17 사실·3 학습·40속성 후보, 공동 사건 단일 계상, 영상 3종·토론·PPTX 등록, A4 4쪽 및 16장 실제 렌더, 계약 14/14, 전문가 검토 및 실제 영상 생성 대기."
     },
     {
       "queue_order": 20,
