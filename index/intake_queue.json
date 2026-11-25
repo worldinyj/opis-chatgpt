@@ -322,11 +322,11 @@
           "size_bytes": 2250865
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "SOURCE_RAW_QC_VERIFIED_DETAIL_PENDING",
+      "event_id": "141017Y3",
+      "verified_event_date": "2014-10-17",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "원본 2250865 bytes, SHA-256 97685ba3c52fa3cbc1335b5b2c1a79248c63a291c0433808bdf50a143ec9e050, 25쪽 전쪽 렌더 확인. 텍스트층 숫자·기호 일부 누락, 표지·본문 시각 확인. 분석 대기."
     },
     {
       "queue_order": 19,
