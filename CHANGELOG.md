@@ -219,3 +219,6 @@
 
 ## 2026-11-25 / PILOT-27 PPT 제작 체크포인트
 - ROOT-026 / PILOT-27 110621K2 16장/52분 편집형 PPTX·진행자 가이드 등록, 418개 도형, ZIP 75개 CRC PASS, Git blob 3a8ee893cf542fd9b6117a6a7da3fb74754511b7. 실제 렌더·A4·정식 14개 계약 대기. ROOT-026 유지, 12 PDF 대기, can_ship=false.
+
+## 2026-11-25 / PILOT-27 최종 기술검증
+- ROOT-026 / PILOT-27 110621K2 원본 11쪽·20 사실·3 학습·40속성(7/22/11), 영상 3종·토론·16장/52분 PPTX. A4 3쪽·PPT 16장 실제 렌더 및 Git blob 일치, 정식 Python jsonschema 8/8·관계/배치 6/6 PASS. 다음 ROOT-027, 신규 처리 대기 11 PDF. 전문가 미승인, can_ship=false.

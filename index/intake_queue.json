@@ -25,10 +25,10 @@
   "existing_cases_not_in_root": [
     "250919W2"
   ],
-  "pending_pdf_count": 12,
-  "pending_date_groups": 12,
-  "next_list_date": "2011-06-21",
-  "next_queue_id": "ROOT-026",
+  "pending_pdf_count": 11,
+  "pending_date_groups": 11,
+  "next_list_date": "2011-04-19",
+  "next_queue_id": "ROOT-027",
   "items": [
     {
       "queue_order": 1,
@@ -456,11 +456,11 @@
           "size_bytes": 364751
         }
       ],
-      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
       "event_id": "110621K2",
       "verified_event_date": "2011-06-21",
       "from_prior_table": true,
-      "notes": "원본 11쪽·20 사실·3 학습·40속성(7/22/11), 토론 및 전문가 검토 초안. 영상/PPT/A4/정식 14개 계약검사 대기. ROOT-026 유지, 종료 후 ROOT-027. 영상 3종 설계 43장면/270초 및 중간검사 10/10 등록. PPT/A4/정식 계약 대기. 집합교육 16장/52분 PPTX 및 진행자 가이드 등록. 실제 PPT/A4 렌더·정식 계약 대기.",
+      "notes": "원본 11쪽·20 사실·3 학습·40속성(7/22/11), 영상 3종 43장면/270초·16장/52분 PPTX·토론. A4 3쪽 및 PPT 16장 실제 렌더, 계약 14/14 PASS. 전문가 검토 및 실제 영상 생성 대기. 다음 ROOT-027.",
       "source_sha256": "e8bedf1d68e47eed941e90e950f30e971de1a1014664d3096801337f4d1d7355"
     },
     {

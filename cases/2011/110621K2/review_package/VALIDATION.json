@@ -6,10 +6,23 @@
   "source_detail": "전쪽 텍스트 추출 및 축소시트 2개 시각검토",
   "report": {
     "status": "DRAFT",
-    "a4_render": "PENDING"
+    "a4_render": "PASS_LOCAL_CONTACT_SHEET",
+    "git_blob": "12ad5a57550925fac4365e90d8e22de0e10a3c2b",
+    "bytes": 11874,
+    "sha256": "2cccdee31dd6f12c3dab38363e2b15ad5a4fea02a802132665beb15648841b78",
+    "a4_pages": 3,
+    "pdf_sha256": "0a5222cc7c71ea93709ff98198bd7ab76187f1be92cc6fe07349ef5fef3f8982",
+    "pdf_bytes": 367602,
+    "local_git_blob_match": true,
+    "render_engine": "Mistune 3.2.1 + WeasyPrint 68.0",
+    "fact_ids_present": 20,
+    "missing_fact_ids": 0,
+    "out_of_bounds": 0,
+    "replacement_glyphs": 0,
+    "embedded_fonts": true
   },
   "ppt": {
-    "status": "DRAFT_REGISTERED",
+    "status": "PASS_LOCAL_RENDER_DRAFT",
     "slides": 16,
     "notes": 16,
     "minutes": 52,
@@ -18,17 +31,122 @@
     "zip_members": 75,
     "deterministic": true,
     "git_blob": "3a8ee893cf542fd9b6117a6a7da3fb74754511b7",
-    "actual_render": "PENDING",
+    "actual_render": "PASS_LIBREOFFICE_CONTACT_SHEET",
     "generator_blob": "ff621c6377862e3f6ac30e1f2d3b7f70f970a795",
     "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
     "fact_coverage": 20,
     "learning_coverage": 3,
-    "approved": false
+    "approved": false,
+    "local_git_blob_match": true,
+    "sha256": "799e051e71f19e2a18f0f75bfaed3c7d0fd4c3a5f25afb68e051bbdf5ecc7427",
+    "render_pdf_sha256": "99156480177567a25f617e2b4e0a71de2441a31d5179f2902e1fec01d38b0e8d",
+    "input_blob": "600e2b4b13dea61af5acffdad9fba5c2352d252f",
+    "rendered_pages": 16,
+    "text_shapes_checked": 224,
+    "missing_text_shapes": 0,
+    "out_of_bounds": 0,
+    "replacement_glyphs": 0,
+    "zip_crc": "PASS",
+    "zip_members_checked": 75,
+    "attribute_coverage": 7,
+    "discussion_coverage": {
+      "questions": 3,
+      "scenarios": 2,
+      "actions": 6
+    },
+    "local_restore_method": "Existing verified PPTX template plus exact connector-read slide and note XML differences; full reconstructed ZIP Git blob SHA1 match."
   },
   "contract_checks": {
-    "passed": 0,
+    "passed": 14,
     "total": 14,
-    "status": "PENDING"
+    "status": "PASS",
+    "results": [
+      {
+        "test": "schema fact_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema learning_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      }
+    ],
+    "repository_schema_subset_passed": 8,
+    "relation_engine": "repository validate_contract.mjs",
+    "relation_validator_blob": "08ad964d1e8c2e63d1a1c540bc6ce76562afe1f8",
+    "input_blobs": [
+      "8728a52aaf71babf2e34c768f1e6ad8ac151f9d2",
+      "def230a01a158df29055c58d1add1e9f1798b933",
+      "5d4b4f89215b0357fc7f4125a6c7f72c48beba5b",
+      "777e7317410de6c5d6c7233500523a44939052ee",
+      "0e92172aa32d13ae49af8ec66964c36520b5d77d",
+      "f0e58980471446a7e7a50fb7ce37f40b3b3eced5",
+      "9edaa9464aa812d2bea8d9392884413848b96076",
+      "267bb65e0b3df146e628de6d09cbb329cf9c417c"
+    ],
+    "schema_blobs": [
+      "fa01cf02838812104fb795d7adc316f4d7571290",
+      "6ccc8e0e68d8666c5065e15a74717533453777c3",
+      "1f3399a6c476f9cb09202a73beb29b670cacb904",
+      "8d9c26261df7f572829a79f1b35136079937ed2d",
+      "c163a72c7be0f5edac9ecb04d1d9c1e1c79330fd"
+    ],
+    "schema_engine": "Python jsonschema 4.26.0 Draft202012Validator; check_schema 5/5 and validate 8/8; all 13 Git blob SHA1 hashes matched",
+    "input_local_blob_matches": 8,
+    "schema_local_blob_matches": 5,
+    "schema_meta_checks": {
+      "passed": 5,
+      "total": 5
+    },
+    "errors": 0,
+    "method": "Connector-read originals losslessly reconstructed locally; canonical UTF-8 bytes verified against Git blob SHA1 before validation. Repository relation/batch 6/6 from same input blobs."
   },
   "preliminary_checks": {
     "attribute_partition": "PASS_7_22_11_UNIQUE_40",
@@ -59,7 +177,9 @@
   "schema_blobs": [
     "fa01cf02838812104fb795d7adc316f4d7571290",
     "6ccc8e0e68d8666c5065e15a74717533453777c3",
-    "1f3399a6c476f9cb09202a73beb29b670cacb904"
+    "1f3399a6c476f9cb09202a73beb29b670cacb904",
+    "8d9c26261df7f572829a79f1b35136079937ed2d",
+    "c163a72c7be0f5edac9ecb04d1d9c1e1c79330fd"
   ],
   "relation_validator_blob": "08ad964d1e8c2e63d1a1c540bc6ce76562afe1f8",
   "limitations": [
@@ -67,9 +187,10 @@
     "2008년 고리1호기 유사사례는 본 보고서의 인용과 평가에 근거하며 별도 원문 비교 미수행.",
     "OPIS 상세 팝업 ID, INES 초기·최종 등급, 실제 재가동 승인문서, 중장기 대책 완료 및 현재 효과 미확인. 보완요구 없음은 보고서 기재 사실.",
     "구체적 설비 구성, 보호기능 설정치, 위치, 동작조건, 시각별 사건 전개 및 운전·정비·시험 방법은 교육자료에서 제외한다.",
-    "AI 안전문화 후보는 공식 조사팀의 개별 속성 평가가 아니다. 독립·전문가 검토 대기. 실제 영상 및 음성 생성 없음. PPTX/A4/정식 14개 계약검사 대기.",
+    "AI 안전문화 후보는 공식 조사팀의 개별 속성 평가가 아니다. 독립·전문가 검토 대기. 실제 영상 및 음성 생성 없음.",
     "영상은 제작 설계만 등록. 한국어 발화시간 실측 및 18초 7속성 카드 가독성, 에셋·음성·영상 QC 미수행. 실제 생성·외부 제출 0.",
-    "PPTX 기존 생성기 결정성·ZIP 로컬 멤버 CRC 및 장수·노트·근거 검사만 완료. 실제 렌더링·화면 가독성·PowerPoint 호환 및 현장 투사는 미검증. A4 및 정식 14개 계약 검사 대기."
+    "PPTX LibreOffice 실제 렌더 통과. Microsoft PowerPoint 및 현장 투사 미시험. A4 PDF는 로컬 출력본 제공, 저장소는 원고와 출력 검증기록 유지. 직접 GitHub 다운로드 DNS 장애를 정확한 바이트 복원으로 우회했으며 원고·PPTX 내용 변경 없음.",
+    "PPT 발표자 노트 P02의 마침표 중복(..) 및 분석보고서 본문의 작성 당시 검증대기 문구는 원본 동일성 보존을 위해 그대로 유지. 최종 상태는 이 검증기록을 기준으로 판단. 전체 앱 회귀시험과 전문가 검토·영상 발화 및 실제 에셋 QC 별도."
   ],
   "can_ship": false,
   "video_design": [

@@ -19,3 +19,12 @@ ROOT-026 / PILOT-27 고리2호기 110621K2 원본 11쪽, 20 사실·3 학습·40
 ## 집합교육 PPT 제작 중간검사
 
 ROOT-026 / PILOT-27 110621K2 16장/52분 편집형 PPTX·진행자 가이드 등록, 418개 도형, ZIP 75개 CRC PASS, Git blob 3a8ee893cf542fd9b6117a6a7da3fb74754511b7. 실제 렌더·A4·정식 14개 계약 대기. ROOT-026 유지, 12 PDF 대기, can_ship=false.
+
+## 최종 기술검증 — 2026-11-25
+
+ROOT-026 / PILOT-27 110621K2 원본 11쪽·20 사실·3 학습·40속성(7/22/11), 영상 3종·토론·16장/52분 PPTX. A4 3쪽·PPT 16장 실제 렌더 및 Git blob 일치, 정식 Python jsonschema 8/8·관계/배치 6/6 PASS. 다음 ROOT-027, 신규 처리 대기 11 PDF. 전문가 미승인, can_ship=false.
+
+- A4: 원고 Git blob 12ad5a57550925fac4365e90d8e22de0e10a3c2b; PDF 367602 bytes, SHA256 0a5222cc7c71ea93709ff98198bd7ab76187f1be92cc6fe07349ef5fef3f8982; 20/20 F, 글꼴 내장, 범위 이탈·대체문자 0.
+- PPTX: Git blob 3a8ee893cf542fd9b6117a6a7da3fb74754511b7; 348839 bytes, SHA256 799e051e71f19e2a18f0f75bfaed3c7d0fd4c3a5f25afb68e051bbdf5ecc7427; LibreOffice 16장, 텍스트 224/224, 범위 이탈·대체 문자 0, ZIP 75/75, 전장 시각검토.
+- 원본 JSON 8개·스키마 5개 해시 일치. Python jsonschema 4.26.0 Draft202012Validator check_schema 5/5, validate 8/8; 저장소 관계·배치 6/6, 합계 14/14.
+- 분석보고서·PPTX 원본 변경 없음. 출력 PDF는 로컬 제공. P02 노트 마침표 중복 및 원고 작성 당시 대기 문구 유지. 전문가 검토·실제 영상/음성·PowerPoint/현장 투사·앱 회귀시험 대기.
