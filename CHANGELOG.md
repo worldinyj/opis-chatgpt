@@ -156,3 +156,6 @@
 
 ## 2026-11-25 / PILOT-22 PPT 제작 체크포인트
 - 140228Y2 16장/52분 편집형 PPTX·진행자 가이드, Git blob f1efbf7e245613befb3da857350a2a399dfe6139. 생성기 결정성 및 ZIP 로컬 멤버 CRC 확인. 실제 렌더·A4·정식 14개 계약 검증 대기, can_ship=false.
+
+## 2026-11-25 / PILOT-22 최종 기술검증
+- 한빛2호기 140228Y2 원본 11쪽·사실 20·학습 3·40속성 후보 5/22/13·영상 3종·토론·16장/52분 PPTX. A4 4쪽 및 PPT 16장 실제 렌더, Git blob 동일성, Python jsonschema·저장소 관계 14/14. 영상 source.document_path 3개 계약 기준 정정. 전문가 미승인, can_ship=false. 다음 ROOT-022.

@@ -6,7 +6,18 @@
   "source_detail": "전체 텍스트·11쪽 렌더 및 축소시트 시각 검토; 기술수치 전수검산 미수행",
   "report": {
     "status": "DRAFT",
-    "a4_render": "PENDING"
+    "git_blob": "28cb1f5ace184046c5cdfba88746b36e9a203abb",
+    "bytes": 13493,
+    "sha256": "c431e6cc2ebaab317f4ad22ee237608b7b24a686442707f5a42d37582529bf79",
+    "a4_pages": 4,
+    "pdf_sha256": "0a04f06a71ac227e60c7d0e84686cc9647f14fd78e4e8e800481091e1071f030",
+    "text_blocks": 120,
+    "missing_text_blocks": 0,
+    "out_of_bounds": 0,
+    "replacement_glyphs": 0,
+    "a4_render": "PASS_LOCAL_CONTACT_SHEET",
+    "render_engine": "WeasyPrint",
+    "local_git_blob_match": true
   },
   "ppt": {
     "git_blob": "f1efbf7e245613befb3da857350a2a399dfe6139",
@@ -20,26 +31,99 @@
     "deterministic_build": "PASS",
     "zip_member_crc": "PASS",
     "zip_members_checked": 75,
-    "local_git_blob_match": null,
-    "actual_render": "PENDING",
+    "local_git_blob_match": true,
+    "actual_render": "PASS_LIBREOFFICE_CONTACT_SHEET",
     "fact_coverage": 20,
     "learning_coverage": 3,
     "discussion_coverage": {
       "questions": 3,
       "scenarios": 2,
       "actions": 6
-    }
+    },
+    "sha256": "19d918e2a8c70437eb737116099441300b87b90fccf8674a67047249a1d3baf5",
+    "render_pdf_sha256": "3f8bce3d3498626b0037a69d0f57419045f2f62a97762d634727431bfed4a1e7",
+    "zip_crc": "PASS",
+    "rendered_pages": 16,
+    "out_of_bounds": 0,
+    "missing_text_shapes": 0,
+    "replacement_glyphs": 0
   },
   "contract_checks": {
-    "passed": 0,
+    "passed": 14,
     "total": 14,
-    "status": "PENDING"
+    "status": "PASS",
+    "results": [
+      {
+        "test": "schema fact_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema learning_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      }
+    ],
+    "schema_engine": "Python jsonschema Draft202012Validator; 13 original input/schema Git blobs verified; corrected 3 source paths revalidated locally",
+    "relation_engine": "repository validate_contract.mjs",
+    "relation_validator_blob": "08ad964d1e8c2e63d1a1c540bc6ce76562afe1f8",
+    "corrected_production_blobs": [
+      "3e5c58883cc019aa1604c6a43dc9c63323bd0c95",
+      "aba6e70d14123535e0b0ce74aa0bf1e3b61493c5",
+      "becd40bb37ab7f562fadb7065853080c2750ae9f"
+    ]
   },
   "preliminary_checks": {
-    "attribute_partition": "PASS",
+    "attribute_partition": "PASS_5_22_13_UNIQUE_40",
     "learning_fact_reference": "PASS",
     "discussion_learning_reference": "PASS",
-    "index_duplicate": "PASS",
+    "index_duplicate": "PASS_JSON_CSV_SINGLE_EVENT",
     "schema_subset_3": "PASS"
   },
   "video_design": [
@@ -77,9 +161,12 @@
     "OPIS 상세 팝업 ID, 초기/최종 INES, 실제 재가동 승인 및 현재 장기대책 이행효과 미확인.",
     "구체적 회로·시험 조건·경보 논리·취약점·운전·정비 방법 및 세부 수치는 교육자료에서 제외. 수치 전수 검산 미수행.",
     "표준 후보는 교육적 해석으로 실제 미진속성·개인 책임·전사 체계 실패 확정 아님. 독립·전문가 검토 대기.",
-    "영상 3종 제작 설계만 등록. 실제 음성·영상·이미지 및 발화시간 실측 미수행. A4/정식 Python jsonschema 및 관계 계약 14개 대기.",
-    "영상 production.json의 source 및 provenance 경로는 각 파일의 실제 디렉터리 기준 상대경로로 설정. 기존 사례 및 discussion_action 원본 경로는 변경하지 않음.",
-    "PPTX는 기존 범용 생성기 실행·ZIP 로컬 멤버 CRC·결정적 출력 및 슬라이드/노트 수 확인까지 완료. 실제 LibreOffice 렌더, 로컬 SHA256 및 Git blob 일치, 글자 누락·범위 검사, Microsoft PowerPoint 투사 미수행. 영상 링크는 제작 명세의 활용 후보이며 재생 가능한 영상 아님."
+    "실제 영상·음성·이미지 미생성, 발화 길이 실측 및 에셋 QC 미수행. 유료 호출·외부 제출 0.",
+    "실제 Microsoft PowerPoint 및 현장 투사 미시험. PPT 표준 레이아웃 여백 유지. A4 표·학습 메시지 단위 분할 방지를 위한 출력 레이아웃 조정만 수행.",
+    "원고 v0.1.0의 최초 분석 시점 검증 대기 문구 보존. 현재 상태는 REVIEW_STATE/VALIDATION 우선. PDF는 로컬 검증용, 저장소에 원고·PPTX·검증 해시 보존.",
+    "원격 직접 다운로드 DNS 실패: 기존 로컬 검증본과 GitHub 원본 바이너리 및 JSON의 무손실 차분 복원 후 Git blob 일치 확인.",
+    "video/CONTRACT.md의 source.document_path는 사건 media 공통 기준이며 provenance는 산출물 폴더 기준이다. 영상 3종의 source.document_path만 ../source.md로 정정하고 스키마·관계 재검증. 나레이션/장면/배치 ID 및 revision 변경 없음.",
+    "독립·전문가 내용 및 속성 검토 대기. 기술검증은 교육 배포 승인 아님."
   ],
   "can_ship": false,
   "video_preliminary_checks": {
