@@ -541,11 +541,11 @@
           "size_bytes": 1996480
         }
       ],
-      "status": "DRAFT_REGISTERED",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
       "event_id": "051106W1",
       "verified_event_date": "2005-11-06",
       "from_prior_table": true,
-      "notes": "원본 17쪽, 24 사실, 3 학습, 40속성 10/19/11, 토론·실천 및 영상 43장면/270초 설계 등록. PPT/A4/정식 계약 및 전문가 검토 대기.",
+      "notes": "원본 17쪽, 24 사실, 3 학습, 40속성 10/19/11, 토론·실천 및 영상 43장면/270초 설계 등록. PPT/A4/정식 계약 및 전문가 검토 대기. PPTX 16장/52분 및 진행자 가이드 등록; ZIP CRC 검사 완료. 화면 렌더·정식 계약 대기.",
       "source_sha256": "32cd0b8a3ba57f7c9ee4c73c4bd7a71d2b61240dbca3eb5ab173dcab033440cb"
     },
     {

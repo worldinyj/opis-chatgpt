@@ -1,0 +1,17 @@
+{
+  "event_id": "051106W1",
+  "slides": 16,
+  "notes": 16,
+  "total_minutes": 52,
+  "editable_shapes": 277,
+  "zip_members": 75,
+  "zip_crc": "PASS",
+  "shape_bounds": "PASS_BY_CONSTRUCTION",
+  "provenance": "PILOT-31 OOXML skeleton; replaced all slide and notes XML, simplified editable card design; not execution of generic.mjs.",
+  "actual_render": "PENDING",
+  "generic_generator_execution": "NOT_RUN",
+  "expert_approved": false,
+  "can_ship": false,
+  "pptx_blob": "2309550a4870966d15a0e71c6d984e6f8f58d055",
+  "pptx_bytes": 251421
+}
