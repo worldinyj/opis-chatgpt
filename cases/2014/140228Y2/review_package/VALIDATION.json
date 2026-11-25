@@ -9,7 +9,26 @@
     "a4_render": "PENDING"
   },
   "ppt": {
-    "actual_render": "PENDING"
+    "git_blob": "f1efbf7e245613befb3da857350a2a399dfe6139",
+    "bytes": 339524,
+    "slides": 16,
+    "nonempty_notes": 16,
+    "editable_shapes": 402,
+    "minutes": 52,
+    "generator_blob": "ff621c6377862e3f6ac30e1f2d3b7f70f970a795",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "deterministic_build": "PASS",
+    "zip_member_crc": "PASS",
+    "zip_members_checked": 75,
+    "local_git_blob_match": null,
+    "actual_render": "PENDING",
+    "fact_coverage": 20,
+    "learning_coverage": 3,
+    "discussion_coverage": {
+      "questions": 3,
+      "scenarios": 2,
+      "actions": 6
+    }
   },
   "contract_checks": {
     "passed": 0,
@@ -58,8 +77,9 @@
     "OPIS 상세 팝업 ID, 초기/최종 INES, 실제 재가동 승인 및 현재 장기대책 이행효과 미확인.",
     "구체적 회로·시험 조건·경보 논리·취약점·운전·정비 방법 및 세부 수치는 교육자료에서 제외. 수치 전수 검산 미수행.",
     "표준 후보는 교육적 해석으로 실제 미진속성·개인 책임·전사 체계 실패 확정 아님. 독립·전문가 검토 대기.",
-    "영상 3종 제작 설계만 등록. 실제 음성·영상·이미지 및 발화시간 실측 미수행. PPTX/A4/정식 Python jsonschema 및 관계 계약 14개 대기.",
-    "영상 production.json의 source 및 provenance 경로는 각 파일의 실제 디렉터리 기준 상대경로로 설정. 기존 사례 및 discussion_action 원본 경로는 변경하지 않음."
+    "영상 3종 제작 설계만 등록. 실제 음성·영상·이미지 및 발화시간 실측 미수행. A4/정식 Python jsonschema 및 관계 계약 14개 대기.",
+    "영상 production.json의 source 및 provenance 경로는 각 파일의 실제 디렉터리 기준 상대경로로 설정. 기존 사례 및 discussion_action 원본 경로는 변경하지 않음.",
+    "PPTX는 기존 범용 생성기 실행·ZIP 로컬 멤버 CRC·결정적 출력 및 슬라이드/노트 수 확인까지 완료. 실제 LibreOffice 렌더, 로컬 SHA256 및 Git blob 일치, 글자 누락·범위 검사, Microsoft PowerPoint 투사 미수행. 영상 링크는 제작 명세의 활용 후보이며 재생 가능한 영상 아님."
   ],
   "can_ship": false,
   "video_preliminary_checks": {
