@@ -1,0 +1,596 @@
+{
+  "schema_version": "1.0",
+  "event_id": "141001Y12",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "case_type": "REAL_DRAFT",
+  "status": "DESIGN_DRAFT",
+  "can_ship": false,
+  "source": {
+    "issuer": "KINS",
+    "report_number": "2014-14",
+    "report_date": "2014-10-29",
+    "sha256": "3845ad254c76c6b2d6d83ea4bf3731af175c8b177f40b3b903468b2ba59277c3"
+  },
+  "fact_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17"
+  ],
+  "learning": [
+    {
+      "id": "L01",
+      "attribute_codes": [
+        "WP1",
+        "QA4",
+        "CL1"
+      ]
+    },
+    {
+      "id": "L02",
+      "attribute_codes": [
+        "WP3",
+        "LA5"
+      ]
+    },
+    {
+      "id": "L03",
+      "attribute_codes": [
+        "CO1",
+        "LA6"
+      ]
+    }
+  ],
+  "core_attribute_codes": [
+    "WP1",
+    "WP3",
+    "QA4",
+    "CL1",
+    "CO1",
+    "LA6",
+    "LA5"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA2",
+    "QA3",
+    "LA1",
+    "LA2",
+    "LA7",
+    "DM1",
+    "DM2",
+    "DM3",
+    "CL2",
+    "CL4",
+    "PI2",
+    "PI3",
+    "WP2",
+    "WP4"
+  ],
+  "target_slides": 16,
+  "slides": [
+    {
+      "id": "P01",
+      "pattern": "COVER",
+      "section": "표지",
+      "label": "CASE STUDY",
+      "title": "한빛1·2호기 공동 사건\n안전문화 관점 분석",
+      "lead": "같은 작업, 같은 위험인가?",
+      "cards": [
+        [
+          "교육 목적",
+          "원전 종사자·관리자 사례 학습"
+        ]
+      ],
+      "minutes": 2,
+      "fact_ids": [],
+      "learning_ids": [],
+      "speaker_notes": "2분 | KINS 2014-14호. 두 호기 관련 단일 보고대상사건. 원자로 자동정지 사건 아님.",
+      "accent": "2563EB"
+    },
+    {
+      "id": "P02",
+      "pattern": "ACTION",
+      "section": "교육목표",
+      "label": "OBJECTIVES",
+      "title": "경험·검증·관리감독",
+      "lead": "공식 사실과 교육 해석의 구분",
+      "cards": [
+        [
+          "사건 이해",
+          "직접원인과 기여요인"
+        ],
+        [
+          "안전문화",
+          "사전검토와 절차 품질"
+        ],
+        [
+          "실천",
+          "소통과 감독 이행"
+        ]
+      ],
+      "minutes": 2,
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "speaker_notes": "2분 | 개인 오류와 조직적 기여요인 및 긍정적 대응을 구별한다.",
+      "accent": "0D9488",
+      "variant": "panel"
+    },
+    {
+      "id": "P03",
+      "pattern": "FACT",
+      "section": "사건 개요",
+      "label": "FACT",
+      "title": "2014년 10월 1일 한빛1·2호기",
+      "lead": "계획예방정비 관련 공동 사건",
+      "cards": [
+        [
+          "상황",
+          "정비 관련 시험"
+        ],
+        [
+          "사건",
+          "비상전원 자동기동"
+        ],
+        [
+          "조사",
+          "작업관리 평가"
+        ],
+        [
+          "평가",
+          "안전기능 유지"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F01",
+        "F02",
+        "F10",
+        "F11"
+      ],
+      "learning_ids": [],
+      "speaker_notes": "3분 | 한빛1·2호기 단일 사건 ID. 원자로 자동정지로 분류하지 않는다.",
+      "accent": "6366F1",
+      "detail": "2014년 발행 조사보고서 평가"
+    },
+    {
+      "id": "P04",
+      "pattern": "TIME",
+      "section": "조사 범위",
+      "label": "TIMELINE",
+      "title": "사건과 조사 결과",
+      "lead": "직접원인과 조직적 요인 구분",
+      "cards": [
+        [
+          "조사",
+          "기록 및 면담 검토"
+        ],
+        [
+          "평가",
+          "사전검토와 작업관리"
+        ],
+        [
+          "확인",
+          "안전기능 유지"
+        ],
+        [
+          "개선",
+          "조직적 방어 강화"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F10",
+        "F11",
+        "F14"
+      ],
+      "learning_ids": [],
+      "speaker_notes": "3분 | 개략 조사 범위. 실제 설비 및 조작 재현 제외.",
+      "accent": "D97706"
+    },
+    {
+      "id": "P05",
+      "pattern": "CAUSE",
+      "section": "작업관리",
+      "label": "EVIDENCE",
+      "title": "선행경험과 현재 조건",
+      "lead": "작업조건의 차이 재검토",
+      "cards": [
+        [
+          "경험",
+          "선행 유사작업"
+        ],
+        [
+          "검토",
+          "위험분류 적정성"
+        ],
+        [
+          "개선",
+          "사전검토 강화"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F03",
+        "F05",
+        "F10",
+        "F14"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "speaker_notes": "3분 | 선행 경험을 현재 조건에 적용할 수 있는지 검토한다. 개인 심리 확정 아님.",
+      "accent": "2563EB"
+    },
+    {
+      "id": "P06",
+      "pattern": "CAUSE",
+      "section": "절차 품질",
+      "label": "EVIDENCE",
+      "title": "승인과 적용성 검증",
+      "lead": "절차의 구체성과 변경 검토",
+      "cards": [
+        [
+          "문서",
+          "승인된 시험절차"
+        ],
+        [
+          "검토",
+          "정보의 충분성"
+        ],
+        [
+          "개선",
+          "오류 예방 검증"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F06",
+        "F07",
+        "F10",
+        "F14",
+        "F16"
+      ],
+      "learning_ids": [
+        "L02"
+      ],
+      "speaker_notes": "3분 | 승인절차 자체가 없었다는 의미가 아니다. 구체 시험 방법 제외.",
+      "accent": "0D9488"
+    },
+    {
+      "id": "P07",
+      "pattern": "CAUSE",
+      "section": "긍정적 대응",
+      "label": "EVIDENCE",
+      "title": "안전기능 및 운전원 대응",
+      "lead": "조사 당시 긍정 근거",
+      "cards": [
+        [
+          "기능",
+          "안전계통 적절 작동"
+        ],
+        [
+          "대응",
+          "운전원 조치 적절"
+        ],
+        [
+          "평가",
+          "방사선 특이사항 없음"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F11",
+        "F12",
+        "F13"
+      ],
+      "learning_ids": [],
+      "speaker_notes": "3분 | 사건 당시 평가이며 현재 안전성으로 확대하지 않는다.",
+      "accent": "6366F1"
+    },
+    {
+      "id": "P08",
+      "pattern": "CAUSE",
+      "section": "관리감독",
+      "label": "EVIDENCE",
+      "title": "회의와 역할의 실질적 이행",
+      "lead": "위험정보 공유와 감독 여건",
+      "cards": [
+        [
+          "회의",
+          "위험정보 전달 미흡"
+        ],
+        [
+          "감독",
+          "업무 수행 여건"
+        ],
+        [
+          "개선",
+          "감독 및 교육 강화"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F04",
+        "F08",
+        "F09",
+        "F15"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "speaker_notes": "3분 | 업무중복과 조직 전체 인력 부족을 구별한다.",
+      "accent": "D97706"
+    },
+    {
+      "id": "P09",
+      "pattern": "PRINC",
+      "section": "학습 1",
+      "label": "LEARNING",
+      "title": "이전 성공은 현재 안전을 보장하지 않는다",
+      "lead": "경험의 적용성과 위험검토",
+      "cards": [
+        [
+          "WP1",
+          "작업 관리"
+        ],
+        [
+          "QA4 · CL1",
+          "자만 방지·운전 경험"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F03",
+        "F05",
+        "F10",
+        "F14",
+        "F16"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "speaker_notes": "3분 | 개인 심리 및 전사 경험반영 체계의 실패 확정 아님.",
+      "accent": "2563EB"
+    },
+    {
+      "id": "P10",
+      "pattern": "PRINC",
+      "section": "학습 2",
+      "label": "LEARNING",
+      "title": "승인된 절차도 검증이 필요하다",
+      "lead": "절차와 변경의 영향",
+      "cards": [
+        [
+          "WP3",
+          "문서화"
+        ],
+        [
+          "LA5",
+          "변화 관리"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F06",
+        "F07",
+        "F10",
+        "F14",
+        "F16"
+      ],
+      "learning_ids": [
+        "L02"
+      ],
+      "speaker_notes": "3분 | 특정 리더 또는 승인자의 책임을 확정하지 않는다.",
+      "accent": "0D9488"
+    },
+    {
+      "id": "P11",
+      "pattern": "PRINC",
+      "section": "학습 3",
+      "label": "LEARNING",
+      "title": "감독계획은 실제 이행으로 이어져야 한다",
+      "lead": "회의·역할·소통",
+      "cards": [
+        [
+          "CO1",
+          "업무 소통"
+        ],
+        [
+          "LA6",
+          "역할, 책임 및 권한"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F04",
+        "F08",
+        "F09",
+        "F10",
+        "F12",
+        "F15"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "speaker_notes": "3분 | 회의 실시와 위험정보 전달의 충분성, 감독계획과 역할 이행을 구분한다.",
+      "accent": "6366F1"
+    },
+    {
+      "id": "P12",
+      "pattern": "ATTR",
+      "section": "후보 속성 종합",
+      "label": "CANDIDATES",
+      "title": "후보 속성",
+      "lead": "교육용 후보",
+      "cards": [],
+      "minutes": 3,
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "speaker_notes": "3분 | 7개 후보 분류의 한계. 승인 속성 0개.",
+      "accent": "D97706"
+    },
+    {
+      "id": "P13",
+      "pattern": "METRIC",
+      "section": "조사 및 개선",
+      "label": "REVIEW",
+      "title": "조사와 개선의 검토 범위",
+      "lead": "분석 및 교육 자료 구성",
+      "cards": [
+        [
+          "사실 근거",
+          "17개"
+        ],
+        [
+          "핵심 학습",
+          "3개"
+        ],
+        [
+          "핵심 후보",
+          "7개"
+        ],
+        [
+          "승인 속성",
+          "0개"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F14",
+        "F15",
+        "F16",
+        "F17"
+      ],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "speaker_notes": "3분 | 단기 완료와 장기 계획 구분. 현재 이행효과 미확인.",
+      "accent": "2563EB",
+      "detail": "현재 이행효과는 미확인"
+    },
+    {
+      "id": "P14",
+      "pattern": "ACTION",
+      "section": "현장 실천",
+      "label": "ACTION",
+      "title": "경험을 활용하되 다시 검토하자",
+      "lead": "개인·팀·조직의 실천",
+      "cards": [
+        [
+          "개인",
+          "작업계획 검토"
+        ],
+        [
+          "팀",
+          "절차 적용성 검증"
+        ],
+        [
+          "조직",
+          "감독·소통 평가"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "speaker_notes": "3분 | 현행 승인 절차 우선. 교육용 제안.",
+      "accent": "0D9488"
+    },
+    {
+      "id": "P15",
+      "pattern": "ACTION",
+      "section": "토론",
+      "label": "DISCUSSION",
+      "title": "익숙한 업무도 충분히 검토하는가",
+      "lead": "10분 팀 토론",
+      "cards": [
+        [
+          "질문 1",
+          "경험의 적용성 근거는?"
+        ],
+        [
+          "질문 2",
+          "절차 검증의 근거는?"
+        ],
+        [
+          "질문 3",
+          "감독계획은 실행 가능한가?"
+        ]
+      ],
+      "minutes": 10,
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "speaker_notes": "10분 | 가상 일반 제조시설의 유사업무·문서·감독 여건 검토.",
+      "accent": "6366F1",
+      "variant": "panel",
+      "detail": "가상 상황 · 실제 원전 아님"
+    },
+    {
+      "id": "P16",
+      "pattern": "END",
+      "section": "정리",
+      "label": "TAKEAWAY",
+      "title": "같은 작업, 같은 위험인가?",
+      "lead": "경험을 활용하되, 조건을 다시 검토하라",
+      "cards": [
+        [
+          "검토",
+          "경험의 적용성"
+        ],
+        [
+          "검증",
+          "절차와 변경"
+        ],
+        [
+          "이행",
+          "감독과 소통"
+        ]
+      ],
+      "minutes": 2,
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "speaker_notes": "2분 | 전문가 검토 전 배포 금지.",
+      "accent": "D97706"
+    }
+  ]
+}
