@@ -1,0 +1,26 @@
+{
+  "schema_version": "2.0",
+  "job_id": "SHORT-110419K34-BATCH01",
+  "event_id": "110419K34",
+  "artifact_id": "SHORT-110419K34",
+  "manifest_revision": 1,
+  "route": "GEMINI_TASKS_BATCH",
+  "aspect_ratio": "9:16",
+  "jobs": [
+    {
+      "id": "SHORT-110419K34-S04",
+      "scene_id": "S04",
+      "requested_kind": "IMAGE",
+      "prompt": "9:16, fictional generic training meeting room, two neutral 3D brick staff, blank documents. 가상의 일반 제조시설 3D 브릭 교육회의실: 세로 중앙 두 가상 직원과 빈 일정 및 업무 기록. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음. Approved references only; no real facility, equipment, diagrams, instruments, logos or text. Generous caption safe area.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S04_still_v01.png",
+      "attempt": 1
+    }
+  ],
+  "results": []
+}

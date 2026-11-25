@@ -1,0 +1,630 @@
+{
+  "schema_version": "2.0",
+  "event_id": "110419K34",
+  "artifact_id": "IU-110419K34",
+  "artifact_type": "INCIDENT_UNDERSTANDING",
+  "title": "2011년 고리3·4호기 사건 이해",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2011-07",
+    "report_date": "2011-11-03",
+    "sha256": "4086f8961a4e8cf00819db5df9d69d4cb6283d46452d4f5d099719a605018fa3"
+  },
+  "provenance": {
+    "analysis_path": null,
+    "analysis_version": null,
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": null,
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "16:9",
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "language": "ko",
+    "style": "controlled graphic + hypothetical 3D brick miniature"
+  },
+  "timing": {
+    "target_seconds": 120
+  },
+  "learning_objectives": [
+    "공식 조사에서 지적한 작업관리·감독·절차·역량과 잠재 위험 평가, 사건 후 긍정 대응 및 대책의 평가 범위를 구분한다."
+  ],
+  "references": [],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "고리3·4호기 사건 이해",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 출처 문서 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "2011년 고리 삼·사호기 조사보고서를 살펴봅니다.",
+      "overlay": [
+        "고리3·4호기 사건 이해",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "사건 개요",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F01"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 사건번호와 발생일 문서 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "2011년 4월 19일, 두 호기 관련 사건이 발생했습니다.",
+      "overlay": [
+        "사건 개요",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "작업관리·감독",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F02"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 공식 원인평가 문서. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "작업 판단 오류와 관리·감독 미흡이 지적됐습니다.",
+      "overlay": [
+        "작업관리·감독",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "일정 부담",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F03"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 일정 부담이라는 조사 주제 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "정해진 일정에 따른 심리적 압박도 지적됐습니다.",
+      "overlay": [
+        "일정 부담",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "이전 작업 관리",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F04"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 일반 문서 관리평가 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "이전 작업의 관리 미흡도 기여요소로 평가됐습니다.",
+      "overlay": [
+        "이전 작업 관리",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S06",
+      "title": "판단 및 감독",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F05"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 검토·감독 평가 기록 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "단독 판단과 양 조직의 감독 미흡이 지적됐습니다.",
+      "overlay": [
+        "판단 및 감독",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S07",
+      "title": "업무 소통",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F06"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 업무 보고 평가 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "감독자는 실제 작업수행 내용을 보고받지 못했습니다.",
+      "overlay": [
+        "업무 소통",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S08",
+      "title": "기기 친숙화",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F07"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 역량 관련 조사 문서. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "작업자의 기기 친숙화 미흡이 지적됐습니다.",
+      "overlay": [
+        "기기 친숙화",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S09",
+      "title": "절차 문서와 이행",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F08"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 문서 오류·준수 평가 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "절차서 오류와 절차 준수 미흡이 함께 지적됐습니다.",
+      "overlay": [
+        "절차 문서와 이행",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S10",
+      "title": "확인 및 계획 변경",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F09",
+        "F10"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 일반 계획·확인 기록 평가 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "사전 확인 미수행과 계획변경 미반영이 지적됐습니다.",
+      "overlay": [
+        "확인 및 계획 변경",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S11",
+      "title": "별도 공급 지연 조사",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F11"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 별도 조사 주제 문서 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "별도의 비상전원 공급 지연도 조사됐습니다.",
+      "overlay": [
+        "별도 공급 지연 조사",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S12",
+      "title": "사전 영향평가",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F12"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 안전성 영향평가 문서. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "조사팀은 잠재 위험의 사전 인지 미흡을 지적했습니다.",
+      "overlay": [
+        "사전 영향평가",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S13",
+      "title": "조치 확인과 교훈",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F13",
+        "F14"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 시험 평가와 교훈 공유 문서 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "조치는 적절했고 다른 원전의 교훈 반영도 요구됐습니다.",
+      "overlay": [
+        "조치 확인과 교훈",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S14",
+      "title": "협력업체 관리",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F15",
+        "F16"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 관리·교육 개선계획 문서. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "운영자는 교육과 작업관리 강화 대책을 수립했습니다.",
+      "overlay": [
+        "협력업체 관리",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S15",
+      "title": "절차와 장기대책",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F17",
+        "F18"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 절차 보완 및 장기계획 문서. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "절차 보완과 장기적인 개선대책이 제시됐습니다.",
+      "overlay": [
+        "절차와 장기대책",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S16",
+      "title": "재발방지 평가",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F19"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 대책 적절성 평가 문서. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "조사팀은 제시된 재발방지 조치를 적절하다고 평가했습니다.",
+      "overlay": [
+        "재발방지 평가",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S17",
+      "title": "당시 대응과 영향",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F20",
+        "F21"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 당시 적절 평가와 방사선 환경영향 없음 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "운전 대응은 전반적으로 적절했고 방사선 환경영향은 없었습니다.",
+      "overlay": [
+        "당시 대응과 영향",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S18",
+      "title": "교훈 확대",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F22",
+        "F23"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 다른 원전 교훈 및 과거 관련 사례 문서 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "조사팀은 타 원전 교훈 반영의 필요성을 강조했습니다.",
+      "overlay": [
+        "교훈 확대",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S19",
+      "title": "결론과 평가 범위",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F24"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 관리적 원인 및 조치 적절성 구분 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "결론은 작업 판단 오류와 조치의 적절성을 함께 기록합니다.",
+      "overlay": [
+        "결론과 평가 범위",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S20",
+      "title": "당시 평가와 현재 효과",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 출처 및 한계 카드. 실제 원전·설비·인물·위치·회로·보호논리·취약점·설정치·운전/정비/시험 방법 및 기술적 사건 전개 재현 없음.",
+      "narration": "장기대책의 완료와 현재 효과는 별도 확인이 필요합니다.",
+      "overlay": [
+        "당시 평가와 현재 효과",
+        "KINS 2011-07 · 교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}
