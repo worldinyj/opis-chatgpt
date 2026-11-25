@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "190510HB1",
+  "artifact_id": "DA-190510HB1",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "판단·교대·조직학습의 방어",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2019-07",
+    "report_date": "2019-10-28",
+    "sha256": "cc223c44b90fcc24a627cc267604575c5c852762cad40b40c507fc80666e9195"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "업무 범위 변경과 불확실성이 생겼을 때 무엇을 검토하고 기록해야 하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "교대와 긴급 판단의 책임 공백을 어떻게 예방할 수 있는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "이전 진단이 실질적 개선으로 이어졌다는 증거는 무엇인가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상의 일반 산업시설에서 시험 중 예상치 못한 이상이 발견되고 기존 계획의 범위를 벗어난 요청이 제기된다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 사실·가정·권한·공식 검토를 구분한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상의 산업시설에서 과거 자체진단 지적사항에 대한 교육이 완료됐지만 유사 문제가 다시 발견된다.",
+      "learning_ids": [
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 종결과 효과성의 차이, 증거 및 책임을 논의한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "불확실성과 작업범위 변화를 공식적으로 제기한다.",
+      "verification": "검토·기록 근거",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "교대 시 판단 근거와 미해결 현안을 확인한다.",
+      "verification": "인수인계 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "피로 및 일정 압박 관련 우려를 제기한다.",
+      "verification": "업무지원 요청 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "계획 변경과 독립 검토의 적절성을 표본 확인한다.",
+      "verification": "검토 표본",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "교대·권한의 책임 경계를 검토한다.",
+      "verification": "역할 및 교대 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "CAP 종결 후 실제 효과를 평가한다.",
+      "verification": "효과평가 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

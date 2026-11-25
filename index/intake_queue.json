@@ -208,11 +208,12 @@
           "size_bytes": 4440881
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
+      "event_id": "190510HB1",
+      "verified_event_date": "2019-05-10",
       "from_prior_table": false,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "원본 122쪽 렌더·해시 확인; 분석 원장·토론 초안 등록, 영상/PPT/렌더 및 전문가 검토 대기.",
+      "source_sha256": "cc223c44b90fcc24a627cc267604575c5c852762cad40b40c507fc80666e9195"
     },
     {
       "queue_order": 12,

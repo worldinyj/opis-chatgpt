@@ -1,0 +1,18 @@
+{
+  "event_id": "190510HB1",
+  "analysis_version": "0.1.0",
+  "source_sha256": "cc223c44b90fcc24a627cc267604575c5c852762cad40b40c507fc80666e9195",
+  "source_pages": 122,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "report_status": "DRAFT",
+  "expert_content_review": "PENDING",
+  "expert_attribute_review": "USER_SEPARATE_REVIEW_PENDING",
+  "independent_review": "PENDING",
+  "can_ship": false,
+  "media_status": "PENDING",
+  "ppt_status": "PENDING",
+  "paid_generation_calls": 0,
+  "external_submissions": 0,
+  "report_a4_pages": null,
+  "author_technical_qc": "PENDING"
+}

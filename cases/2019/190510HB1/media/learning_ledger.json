@@ -1,0 +1,143 @@
+{
+  "schema_version": "2.0",
+  "event_id": "190510HB1",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "PA1",
+    "PA2",
+    "QA2",
+    "QA3",
+    "CO1",
+    "LA1",
+    "LA3",
+    "LA5",
+    "LA6",
+    "DM1",
+    "DM2",
+    "DM3",
+    "CL1",
+    "CL2",
+    "PI1",
+    "PI3",
+    "WP1",
+    "WP4"
+  ],
+  "additional_attribute_codes": [
+    "PA3",
+    "QA1",
+    "QA4",
+    "CO2",
+    "CO3",
+    "CO4",
+    "LA2",
+    "LA4",
+    "LA7",
+    "LA8",
+    "CL4",
+    "PI2",
+    "PI4",
+    "WP3"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "비정상 상황에서는 작업 범위와 위험을 다시 평가한다",
+      "objective": "작업 범위 이탈·반론·검증 근거를 확인한다",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F03",
+        "F05",
+        "F06",
+        "F07"
+      ],
+      "principle_codes": [
+        "PA",
+        "QA",
+        "DM",
+        "WP"
+      ],
+      "attribute_codes": [
+        "PA1",
+        "PA2",
+        "QA2",
+        "QA3",
+        "DM1",
+        "DM2",
+        "WP1",
+        "WP4"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 해석, 전문가 검토 전 확정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "교대와 긴급 의사결정의 책임은 공백 없이 이어져야 한다",
+      "objective": "인수인계와 권한·책임의 명확성을 평가한다",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F04",
+        "F12",
+        "F13",
+        "F16"
+      ],
+      "principle_codes": [
+        "CO",
+        "LA",
+        "DM"
+      ],
+      "attribute_codes": [
+        "CO1",
+        "LA6",
+        "DM3"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 해석, 전문가 검토 전 확정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "조직은 일정과 피로 위험을 관리하고 경험을 실제 개선으로 연결한다",
+      "objective": "자원·평가·변화관리 및 시정조치 효과를 검증한다",
+      "cause_ids": [
+        "R3",
+        "R4"
+      ],
+      "fact_ids": [
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12",
+        "F14",
+        "F15",
+        "F18"
+      ],
+      "principle_codes": [
+        "LA",
+        "CL",
+        "PI"
+      ],
+      "attribute_codes": [
+        "LA1",
+        "LA3",
+        "LA5",
+        "CL1",
+        "CL2",
+        "PI1",
+        "PI3"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 해석, 전문가 검토 전 확정 금지.",
+      "review_status": "PENDING"
+    }
+  ]
+}

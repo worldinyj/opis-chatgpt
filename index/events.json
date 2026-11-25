@@ -258,5 +258,38 @@
       "WP4"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "190510HB1",
+    "event_date": "2019-05-10",
+    "report_date": "2019-10-28",
+    "plant": "한빛1호기",
+    "title": "한빛 1호기 원자로특성시험 중 부주의한 제어봉 인출에 따른 보조급수계통 작동 및 원자로 수동정지",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2019/190510HB1/report.md",
+    "candidate_attributes": [
+      "PA1",
+      "PA2",
+      "QA2",
+      "QA3",
+      "CO1",
+      "LA1",
+      "LA3",
+      "LA5",
+      "LA6",
+      "DM1",
+      "DM2",
+      "DM3",
+      "CL1",
+      "CL2",
+      "PI1",
+      "PI3",
+      "WP1",
+      "WP4"
+    ],
+    "approved_attributes": []
   }
 ]

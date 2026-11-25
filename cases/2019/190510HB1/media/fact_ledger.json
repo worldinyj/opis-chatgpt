@@ -1,0 +1,320 @@
+{
+  "schema_version": "2.0",
+  "event_id": "190510HB1",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2019-07",
+    "report_date": "2019-10-28",
+    "sha256": "cc223c44b90fcc24a627cc267604575c5c852762cad40b40c507fc80666e9195"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "statement": "원자로특성시험 중 출력 과도와 보조급수계통 작동이 발생하였고 이후 원자로 수동정지가 실시되었다.",
+      "section": "요약; 1",
+      "printed_pages": [
+        1,
+        3
+      ],
+      "pdf_pages": [
+        2,
+        4
+      ],
+      "qualification": "두 사건의 선후와 당시 규정 위반 평가를 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "최초 시험의 판정기준 불만족 이후 승인된 다른 시험방법으로 변경하였다.",
+      "section": "2.3.1; 3.2.1.1",
+      "printed_pages": [
+        9,
+        10,
+        26,
+        32
+      ],
+      "pdf_pages": [
+        10,
+        11,
+        27,
+        33
+      ],
+      "qualification": "시험방법 변경 자체는 적절하다고 평가.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "운전원이 아닌 직원의 조작 및 이전 유사 관행을 조사팀이 확인했다.",
+      "section": "3.1.1.1",
+      "printed_pages": [
+        15,
+        16
+      ],
+      "pdf_pages": [
+        16,
+        17
+      ],
+      "qualification": "개인 의도 및 법적 결론 단정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "중요작업전회의가 교대 시 재수행되지 않았다.",
+      "section": "3.1.1.1",
+      "printed_pages": [
+        15,
+        16
+      ],
+      "pdf_pages": [
+        16,
+        17
+      ],
+      "qualification": "초기 회의 및 일부 정보 전달은 이루어짐.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "최근 6회 시험 기록에서 회의 주관자 지정 및 반론자 운영에 미흡사항이 확인되었다.",
+      "section": "3.1.1.1",
+      "printed_pages": [
+        16
+      ],
+      "pdf_pages": [
+        17
+      ],
+      "qualification": "반론자 미지정과 보복·침묵 문화 단정은 다름.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "비정상 상황에서 당초 범위를 벗어난 업무에 필요한 정비 작업계획이 수립되지 않았다.",
+      "section": "3.1.1.2",
+      "printed_pages": [
+        16
+      ],
+      "pdf_pages": [
+        17
+      ],
+      "qualification": "기존 시험 계획 자체의 부재 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "중요 판단에 사용된 계산 오류와 교차검증 미흡이 확인되었다.",
+      "section": "3.1.1.2; 6",
+      "printed_pages": [
+        16,
+        57
+      ],
+      "pdf_pages": [
+        17,
+        58
+      ],
+      "qualification": "교육자료는 계산법이나 조작 절차를 재현하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "과거 안전문화 결여 사건에 대한 체계적 조직 원인분석·경험반영 및 후속조치 효과성 평가가 미흡했다.",
+      "section": "3.1.2.1",
+      "printed_pages": [
+        16,
+        17,
+        18
+      ],
+      "pdf_pages": [
+        17,
+        18,
+        19
+      ],
+      "qualification": "해외 사례 검토 및 기존 연구 교육자료 발간은 인정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "이상상황의 구두 전달, 통지·작업오더 누락, CAP 등록·후속조치 미흡이 확인되었다.",
+      "section": "3.1.2.2",
+      "printed_pages": [
+        18,
+        19,
+        20
+      ],
+      "pdf_pages": [
+        19,
+        20,
+        21
+      ],
+      "qualification": "일부 사후 통지 발행 및 원인분석 진행 인정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "이전 규제기관 특별점검에서 유사한 업무관행을 개선하도록 요구했으나 효과적 해결이 미흡했다.",
+      "section": "3.1.2.2",
+      "printed_pages": [
+        19,
+        20
+      ],
+      "pdf_pages": [
+        20,
+        21
+      ],
+      "qualification": "교육 실시 및 행정적 종결과 실제 효과 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "자체진단에서 교차확인 및 불확실한 상황의 판단 등 취약점이 사건 전에 식별되었다.",
+      "section": "3.1.2.3",
+      "printed_pages": [
+        20,
+        21
+      ],
+      "pdf_pages": [
+        21,
+        22
+      ],
+      "qualification": "교육·개선 계획을 추진 중이었음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "운전 경험과 보직 충원, 역할·책임 명확성 및 교육훈련 자원에 대한 문제가 확인되었다.",
+      "section": "3.1.3.1",
+      "printed_pages": [
+        21,
+        22
+      ],
+      "pdf_pages": [
+        22,
+        23
+      ],
+      "qualification": "개별 직원의 역량 전체를 단정하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "긴급 의사결정 권한 구조와 직무 이해 수준에 대한 개선 필요 및 정지 판단 지연이 확인되었다.",
+      "section": "3.1.3.2",
+      "printed_pages": [
+        23
+      ],
+      "pdf_pages": [
+        24
+      ],
+      "qualification": "당시 조사결과이며 현재 권한 구조 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "발전량 손실 평가와 공정 준수 부담이 보수적 판단을 저해할 우려가 제시되었다.",
+      "section": "3.1.3.3",
+      "printed_pages": [
+        23,
+        24
+      ],
+      "pdf_pages": [
+        24,
+        25
+      ],
+      "qualification": "평가지표가 개별 행동의 직접 동기였다는 단정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "장시간 연속근무와 초과근무 기록·인력지원·근로환경 변화관리 문제가 확인되었다.",
+      "section": "3.1.3.4",
+      "printed_pages": [
+        24,
+        25,
+        26
+      ],
+      "pdf_pages": [
+        25,
+        26,
+        27
+      ],
+      "qualification": "피로와 개별 오류의 정량적 인과는 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "운영기술지침서상 요구된 즉시조치가 이행되지 않았으며 교대 회의 및 기준 이해 부족 등이 복합적으로 작용했다.",
+      "section": "2.3.2; 6",
+      "printed_pages": [
+        14,
+        15,
+        57
+      ],
+      "pdf_pages": [
+        15,
+        16,
+        58
+      ],
+      "qualification": "당시 법적 책임은 별도 절차.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "조사팀은 보호·안전기능 유지와 방사선 영향 특이사항 없음, 기술적 안전성 확보를 확인했다.",
+      "section": "4.1; 4.2; 6",
+      "printed_pages": [
+        49,
+        50,
+        51,
+        52,
+        57
+      ],
+      "pdf_pages": [
+        50,
+        51,
+        52,
+        53,
+        58
+      ],
+      "qualification": "안전성 평가와 안전문화 미흡은 양립.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "안전문화 7개 등 조사 지적사항에 대해 운영자가 3대 분야 16개 개선대책을 제시했다.",
+      "section": "5; 6",
+      "printed_pages": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "pdf_pages": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "qualification": "보고서 당시 제시·검토와 현재 완료·효과는 구분.",
+      "review_status": "PENDING"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "190510HB1"
+report_number: "2019-07"
+title: "한빛 1호기 원자로특성시험 중 부주의한 제어봉 인출에 따른 보조급수계통 작동 및 원자로 수동정지"
+event_date: "2019-05-10"
+report_date: "2019-10-28"
+plant:
+  site: 한빛
+  unit: 1
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 122
+  sha256: cc223c44b90fcc24a627cc267604575c5c852762cad40b40c507fc80666e9195
+  source_size_bytes: 4440881
+operating_mode: "원자로특성시험 중; 요약 표기 운전모드 3, 사건 전 경위 운전모드 2"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [PA1, PA2, QA2, QA3, CO1, LA1, LA3, LA5, LA6, DM1, DM2, DM3, CL1, CL2, PI1, PI3, WP1, WP4]
+  additional_review_attributes: [PA3, QA1, QA4, CO2, CO3, CO4, LA2, LA4, LA7, LA8, CL4, PI2, PI4, WP3]
+  insufficient_or_low_relevance_attributes: [WE1, WE2, WE3, WE4, CL3, RC1, RC2, WP2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false
