@@ -15,3 +15,7 @@ ROOT-026 / PILOT-27 고리2호기 110621K2 원본 11쪽, 20 사실·3 학습·40
 - SHORT-110621K2: 30초/5장면, F 2, L 1, 로컬 4, 가상 정지 이미지 1.
 
 기존 스키마 부분집합·관계·배치 10/10 PASS. 정식 Python jsonschema·PPTX·A4·실제 영상 생성 및 발화 검증 대기. can_ship=false.
+
+## 집합교육 PPT 제작 중간검사
+
+ROOT-026 / PILOT-27 110621K2 16장/52분 편집형 PPTX·진행자 가이드 등록, 418개 도형, ZIP 75개 CRC PASS, Git blob 3a8ee893cf542fd9b6117a6a7da3fb74754511b7. 실제 렌더·A4·정식 14개 계약 대기. ROOT-026 유지, 12 PDF 대기, can_ship=false.

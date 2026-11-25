@@ -11,7 +11,7 @@
   "independent_review": "PENDING",
   "can_ship": false,
   "media_status": "SCRIPT_DRAFT",
-  "ppt_status": "PENDING",
+  "ppt_status": "DRAFT_REGISTERED",
   "paid_generation_calls": 0,
   "external_submissions": 0,
   "report_a4_pages": null,
@@ -20,11 +20,13 @@
     "passed": 0,
     "total": 14
   },
-  "next_step": "CLASSROOM_PPT_DRAFT",
+  "next_step": "FINAL_RENDER_AND_CONTRACT_QC",
   "video_design": {
     "status": "DRAFT_REGISTERED",
     "seconds": 270,
     "scenes": 43,
     "preliminary_checks": 10
-  }
+  },
+  "ppt_git_blob": "3a8ee893cf542fd9b6117a6a7da3fb74754511b7",
+  "ppt_structural_qc": "PASS_DETERMINISTIC_ZIP_CRC"
 }

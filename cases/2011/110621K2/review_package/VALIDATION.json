@@ -9,7 +9,21 @@
     "a4_render": "PENDING"
   },
   "ppt": {
-    "actual_render": "PENDING"
+    "status": "DRAFT_REGISTERED",
+    "slides": 16,
+    "notes": 16,
+    "minutes": 52,
+    "shapes": 418,
+    "bytes": 348839,
+    "zip_members": 75,
+    "deterministic": true,
+    "git_blob": "3a8ee893cf542fd9b6117a6a7da3fb74754511b7",
+    "actual_render": "PENDING",
+    "generator_blob": "ff621c6377862e3f6ac30e1f2d3b7f70f970a795",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "fact_coverage": 20,
+    "learning_coverage": 3,
+    "approved": false
   },
   "contract_checks": {
     "passed": 0,
@@ -54,7 +68,8 @@
     "OPIS 상세 팝업 ID, INES 초기·최종 등급, 실제 재가동 승인문서, 중장기 대책 완료 및 현재 효과 미확인. 보완요구 없음은 보고서 기재 사실.",
     "구체적 설비 구성, 보호기능 설정치, 위치, 동작조건, 시각별 사건 전개 및 운전·정비·시험 방법은 교육자료에서 제외한다.",
     "AI 안전문화 후보는 공식 조사팀의 개별 속성 평가가 아니다. 독립·전문가 검토 대기. 실제 영상 및 음성 생성 없음. PPTX/A4/정식 14개 계약검사 대기.",
-    "영상은 제작 설계만 등록. 한국어 발화시간 실측 및 18초 7속성 카드 가독성, 에셋·음성·영상 QC 미수행. 실제 생성·외부 제출 0."
+    "영상은 제작 설계만 등록. 한국어 발화시간 실측 및 18초 7속성 카드 가독성, 에셋·음성·영상 QC 미수행. 실제 생성·외부 제출 0.",
+    "PPTX 기존 생성기 결정성·ZIP 로컬 멤버 CRC 및 장수·노트·근거 검사만 완료. 실제 렌더링·화면 가독성·PowerPoint 호환 및 현장 투사는 미검증. A4 및 정식 14개 계약 검사 대기."
   ],
   "can_ship": false,
   "video_design": [
