@@ -16,7 +16,7 @@
   "external_submissions": 0,
   "report_a4_pages": null,
   "author_technical_qc": "PASS_CONTRACT_RENDER_PENDING",
-  "ppt_git_blob": "95d1ffe56e2114056c4ba6d6a0714297197716a0",
+  "ppt_git_blob": "908f3646ac274c2cefd9a37398bf21bc4abba86f",
   "contract_checks": {
     "passed": 14,
     "total": 14

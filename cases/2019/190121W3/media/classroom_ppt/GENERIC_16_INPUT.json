@@ -205,7 +205,7 @@
     {
       "id": "P05",
       "pattern": "CAUSE",
-      "section": "작업관행",
+      "section": "운전경험",
       "label": "EVIDENCE",
       "title": "운전경험의 적기 적용",
       "lead": "이전 조치와 남은 조치의 구분",
@@ -238,7 +238,7 @@
     {
       "id": "P06",
       "pattern": "CAUSE",
-      "section": "교대 및 책임",
+      "section": "절차 품질",
       "label": "EVIDENCE",
       "title": "절차서 기술근거",
       "lead": "설계·운전자료의 체계적 검토",
@@ -270,7 +270,7 @@
     {
       "id": "P07",
       "pattern": "CAUSE",
-      "section": "조직환경",
+      "section": "화재감시 및 대응",
       "label": "EVIDENCE",
       "title": "화재감시 및 대응",
       "lead": "감시 보완과 긍정적 대응",
@@ -302,7 +302,7 @@
     {
       "id": "P08",
       "pattern": "CAUSE",
-      "section": "조직학습",
+      "section": "재발방지",
       "label": "EVIDENCE",
       "title": "재발방지 책임과 검토",
       "lead": "단기 완료와 장기 계획 구분",
