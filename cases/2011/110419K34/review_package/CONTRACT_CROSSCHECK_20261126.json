@@ -1,0 +1,85 @@
+{
+  "event_id": "110419K34",
+  "date": "2026-11-26",
+  "source_commit": "8506acf5d65473e235712b6c5b9b64c104cf75b6",
+  "method": "Independent JavaScript reimplementation of repository schema subset and relation/batch checks; connector JSON originals. Not Python jsonschema or local execution of repository validator. Render not run.",
+  "input_blobs": [
+    "d3e1e536cae877671dc10955c28c89c5d6d5a4a5",
+    "7c3def0ac53e445703a6fc3c9eff37126c5fe531",
+    "a22082cde4b966a3f8a4fed494d17184495433c0",
+    "20fc1fee43e97aabf08babe4bb3a71c784bac61f",
+    "855c98e9a26b071f03e1658f43396c4d9213bb7e",
+    "ca9b10e4ff6da4615e58487fe8a549eb21bc3880",
+    "ed5acab5daa3424809244cc9f13836284651f2c7",
+    "daa02dfa8c39fe64c603c0842cd27dfe0e1c5df5"
+  ],
+  "schema_blobs": [
+    "fa01cf02838812104fb795d7adc316f4d7571290",
+    "6ccc8e0e68d8666c5065e15a74717533453777c3",
+    "1f3399a6c476f9cb09202a73beb29b670cacb904",
+    "8d9c26261df7f572829a79f1b35136079937ed2d",
+    "c163a72c7be0f5edac9ecb04d1d9c1e1c79330fd"
+  ],
+  "passed": 14,
+  "total": 14,
+  "results": [
+    {
+      "test": "schema fact_ledger.json",
+      "errors": []
+    },
+    {
+      "test": "schema learning_ledger.json",
+      "errors": []
+    },
+    {
+      "test": "schema discussion_action/manifest.json",
+      "errors": []
+    },
+    {
+      "test": "schema incident_understanding/production.json",
+      "errors": []
+    },
+    {
+      "test": "schema safety_culture_learning/production.json",
+      "errors": []
+    },
+    {
+      "test": "schema shorts/SHORT-01/production.json",
+      "errors": []
+    },
+    {
+      "test": "schema safety_culture_learning/batch_job.example.json",
+      "errors": []
+    },
+    {
+      "test": "schema shorts/SHORT-01/batch_job.example.json",
+      "errors": []
+    },
+    {
+      "test": "relations discussion_action/manifest.json",
+      "errors": []
+    },
+    {
+      "test": "relations incident_understanding/production.json",
+      "errors": []
+    },
+    {
+      "test": "relations safety_culture_learning/production.json",
+      "errors": []
+    },
+    {
+      "test": "relations shorts/SHORT-01/production.json",
+      "errors": []
+    },
+    {
+      "test": "batch safety_culture_learning/batch_job.example.json",
+      "errors": []
+    },
+    {
+      "test": "batch shorts/SHORT-01/batch_job.example.json",
+      "errors": []
+    }
+  ],
+  "formal_contract_status": "PENDING",
+  "can_ship": false
+}
