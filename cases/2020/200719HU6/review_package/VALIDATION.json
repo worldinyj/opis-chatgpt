@@ -1,0 +1,42 @@
+{
+  "event_id": "200719HU6",
+  "source_report_sha256": "ea3b42066aaf35d3e9d9fc8ebb61aad118afb20954f2dab8d3901e045237cabc",
+  "source_pages": 54,
+  "report": {
+    "git_blob": "4f57cea4c027c6edec0cfd3611225b0099c775d3",
+    "bytes": 16175,
+    "a4_pages": 6,
+    "pdf_sha256": "b5c41f112d750a2b7db5fb2a2f65f31c8651158d02c6e117c8a59a3b965b2917",
+    "render": "PASS_LOCAL_CONTACT_SHEET"
+  },
+  "ppt": {
+    "git_blob": "e299842f4e2b49e233989995d3eb29c014d25fa0",
+    "bytes": 320700,
+    "sha256": "1ee820d77485589af3f7b41ff93298fb3b072761534ea873b9fd9bdc79ed91fc",
+    "render_pdf_sha256": "2bb3661e1cfa4730677584f7a37ce1048cbc5a288676969cd3c43bb06bb5a0cf",
+    "slides": 16,
+    "rendered_pages": 16,
+    "editable_shapes": 381,
+    "out_of_bounds": 0,
+    "nonempty_notes": 16,
+    "missing_text_shapes": 0,
+    "zip_crc": "PASS",
+    "render": "PASS_LIBREOFFICE_CONTACT_SHEET"
+  },
+  "contract_checks": {
+    "passed": 14,
+    "total": 14,
+    "scope": "JS schema subset/relations for fact, learning, discussion, three video plans and two batches"
+  },
+  "limitations": [
+    "보고서 첫 출력 제목 인코딩 오류 발견, HTML 제목·헤더 수정 후 원고 blob 불변 및 PDF 재렌더 확인",
+    "보고서 마지막 쪽 여백이 큼",
+    "실제 PowerPoint 및 현장 투사 미시험",
+    "첨부 도면·사진 전수 세부판독 미수행, 비공개 부분 복원 없음",
+    "OPIS 상세 ID·기초/최종 INES·현재 조치 효과 미확인",
+    "독립/전문가 내용 및 속성 검토 대기",
+    "영상·음성 실제 생성 미수행",
+    "렌더 PDF는 로컬 검증 산출물, 저장소에는 MD/PPTX와 검증 해시 기록"
+  ],
+  "can_ship": false
+}
