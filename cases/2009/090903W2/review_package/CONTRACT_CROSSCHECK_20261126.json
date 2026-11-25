@@ -1,0 +1,69 @@
+{
+  "event_id": "090903W2",
+  "source_commit": "8e80af67049919e731c009dc6f41f102e91dbfd1",
+  "date": "2026-11-26",
+  "method": "Independent transcription of repository validate_contract.mjs functions in JS execution environment, against pinned 5 schemas and 8 input documents. Not actual repository module execution or Python Draft202012Validator.",
+  "passed": 14,
+  "total": 14,
+  "results": [
+    {
+      "test": "schema fact_ledger.json",
+      "errors": []
+    },
+    {
+      "test": "schema learning_ledger.json",
+      "errors": []
+    },
+    {
+      "test": "schema discussion_action/manifest.json",
+      "errors": []
+    },
+    {
+      "test": "schema incident_understanding/production.json",
+      "errors": []
+    },
+    {
+      "test": "schema safety_culture_learning/production.json",
+      "errors": []
+    },
+    {
+      "test": "schema shorts/SHORT-01/production.json",
+      "errors": []
+    },
+    {
+      "test": "schema safety_culture_learning/batch_job.example.json",
+      "errors": []
+    },
+    {
+      "test": "schema shorts/SHORT-01/batch_job.example.json",
+      "errors": []
+    },
+    {
+      "test": "relations discussion_action/manifest.json",
+      "errors": []
+    },
+    {
+      "test": "relations incident_understanding/production.json",
+      "errors": []
+    },
+    {
+      "test": "relations safety_culture_learning/production.json",
+      "errors": []
+    },
+    {
+      "test": "relations shorts/SHORT-01/production.json",
+      "errors": []
+    },
+    {
+      "test": "batch safety_culture_learning/batch_job.example.json",
+      "errors": []
+    },
+    {
+      "test": "batch shorts/SHORT-01/batch_job.example.json",
+      "errors": []
+    }
+  ],
+  "formal_contract_status": "PENDING",
+  "source_contact_sheet": "VISUALLY_REVIEWED_9_PAGES",
+  "can_ship": false
+}

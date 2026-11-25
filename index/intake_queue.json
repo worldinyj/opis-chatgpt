@@ -27,8 +27,8 @@
   ],
   "pending_pdf_count": 11,
   "pending_date_groups": 11,
-  "next_list_date": "2009-09-03",
-  "next_queue_id": "ROOT-029",
+  "next_list_date": "2006-05-07",
+  "next_queue_id": "ROOT-030",
   "items": [
     {
       "queue_order": 1,
@@ -507,11 +507,11 @@
           "size_bytes": 340760
         }
       ],
-      "status": "DRAFT_REGISTERED",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
       "event_id": "090903W2",
       "verified_event_date": "2009-09-03",
       "from_prior_table": true,
-      "notes": "원본 9쪽, 24 사실, 3 학습, 40속성 10/19/11, 토론·실천 및 영상 43장면/270초 설계 등록. PPT/A4/정식 계약 및 전문가 검토 대기.",
+      "notes": "원본 9쪽, 24 사실, 3 학습, 40속성 10/19/11, 토론·실천 및 영상 43장면/270초 설계 등록. PPT/A4/정식 계약 및 전문가 검토 대기. PPTX 16장/52분 및 진행자 가이드 등록, 75 ZIP CRC PASS, 계약 교차검사 14/14. 원본 축소시트 9쪽 검토. A4·PPT 화면 렌더 및 정식 계약 대기.",
       "source_sha256": "67e06071f2af223e884c59f1671e0724c893413bdd1319844706b73ad8a95cd8"
     },
     {
@@ -698,6 +698,12 @@
     {
       "queue_id": "ROOT-028",
       "event_id": "100917SK1",
+      "task": "PPT_A4_FORMAL_CONTRACT_QC",
+      "status": "PENDING"
+    },
+    {
+      "queue_id": "ROOT-029",
+      "event_id": "090903W2",
       "task": "PPT_A4_FORMAL_CONTRACT_QC",
       "status": "PENDING"
     }
