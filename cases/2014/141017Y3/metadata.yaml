@@ -29,5 +29,6 @@ analysis:
   insufficient_or_low_relevance_attributes: [CO2, CO4, LA1, LA2, LA3, LA4, LA8, DM3, WE1, WE2, WE3, WE4, CL3, PI1, RC1, RC2]
   approved_attributes: []
   qc_score: null
-  page_count_verified: false
+  page_count_verified: true
+  a4_pages: 5
 # 텍스트층 숫자·영문·기호 일부 누락; source.md 참조.

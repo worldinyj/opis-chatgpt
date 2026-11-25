@@ -1,0 +1,125 @@
+{
+  "event_id": "141017Y3",
+  "source_report_sha256": "97685ba3c52fa3cbc1335b5b2c1a79248c63a291c0433808bdf50a143ec9e050",
+  "source_pages": 25,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_detail": "전쪽 렌더 및 추출 텍스트 검토, 텍스트층 숫자·영문·기호 일부 누락; 표지 및 본문 식별정보 시각 대조, 세부 시험 수치 전수 대조·검산 미수행",
+  "report": {
+    "status": "DRAFT",
+    "git_blob": "5542906b4d645192453fe4e677fddfca7a286b3a",
+    "bytes": 14401,
+    "sha256": "d15c1d136f4f0b6cf72877e173589a931c206f53cf6944df4f0ac8d250530621",
+    "a4_pages": 5,
+    "pdf_sha256": "cc8f46105569428599d247df4e05082625be725255bf3df4f6f3643cfc1cf4b3",
+    "text_blocks": 122,
+    "missing_text_blocks": 0,
+    "replacement_glyphs": 0,
+    "a4_render": "PASS_LOCAL_CONTACT_SHEET"
+  },
+  "ppt": {
+    "git_blob": "d387d179dd297eaab6c30b8971a21603c10b6914",
+    "bytes": 318969,
+    "sha256": "d57f077f4a0a0782c4821d7ab7407478a69837f26536c6d53abbdad7dddb6bcc",
+    "render_pdf_sha256": "b21404c333a0071f8ceb8735b876a2a809b49c34c1010ea251acd6709e2be7bf",
+    "slides": 16,
+    "nonempty_notes": 16,
+    "editable_shapes": 380,
+    "zip_crc": "PASS",
+    "local_git_blob_match": true,
+    "rendered_pages": 16,
+    "out_of_bounds": 0,
+    "missing_text_shapes": 0,
+    "replacement_glyphs": 0,
+    "actual_render": "PASS_LIBREOFFICE_CONTACT_SHEET"
+  },
+  "contract_checks": {
+    "passed": 14,
+    "total": 14,
+    "results": [
+      {
+        "test": "schema fact_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema learning_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      }
+    ]
+  },
+  "video_design": [
+    {
+      "id": "IU-141017Y3",
+      "seconds": 120,
+      "scenes": 20,
+      "fact_coverage": 23
+    },
+    {
+      "id": "SC-141017Y3",
+      "seconds": 120,
+      "scenes": 18
+    },
+    {
+      "id": "SHORT-141017Y3",
+      "seconds": 30,
+      "scenes": 5
+    }
+  ],
+  "limitations": [
+    "최초 누설과 자동정지 원인, 감시 및 대응 개선요인 구분. 정확한 이물질 유입원 및 시기 미확인.",
+    "소외 방사성물질 배출 사실과 당시 영향 미미 판단을 함께 기록. 최초 평가와 보수적 재평가 및 예상 선량과 실측 개인선량 구분.",
+    "원본 텍스트층 일부 숫자·영문·기호 누락. 세부 시험수치 전수 대조·검산 미수행. 현행 운전절차나 실제 설비·취약점 재현이 아닌 교육용 자료.",
+    "PPT 실제 PowerPoint 및 현장 투사 미시험. A4는 가독성과 표 분할 방지를 위해 5쪽으로 구성, 일부 하단 여백 유지. PPT 기존 표준 레이아웃 일부 빈 공간 유지.",
+    "OPIS 상세 ID, 기초/최종 INES, 현재 중장기조치 이행효과 미확인.",
+    "실제 영상·음성 미생성, 나레이션 시간 실측 및 시각 에셋 QC 미수행. 유료 호출·외부 제출 0.",
+    "독립·전문가 내용 및 속성 검토 대기. 렌더 PDF는 로컬 검증용, 저장소에는 원고·PPTX 및 검증 해시 기록."
+  ],
+  "can_ship": false
+}

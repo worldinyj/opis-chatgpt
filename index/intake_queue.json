@@ -25,10 +25,10 @@
   "existing_cases_not_in_root": [
     "250919W2"
   ],
-  "pending_pdf_count": 20,
-  "pending_date_groups": 19,
-  "next_list_date": "2014-10-17",
-  "next_queue_id": "ROOT-018",
+  "pending_pdf_count": 19,
+  "pending_date_groups": 18,
+  "next_list_date": "2014-10-01",
+  "next_queue_id": "ROOT-019",
   "items": [
     {
       "queue_order": 1,
@@ -322,11 +322,11 @@
           "size_bytes": 2250865
         }
       ],
-      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
       "event_id": "141017Y3",
       "verified_event_date": "2014-10-17",
       "from_prior_table": true,
-      "notes": "25쪽 전체 렌더 및 추출 텍스트 검토, 숫자·영문 일부 누락 한계 기록. 23 사실·3 학습·40속성 후보(6/18/16)·토론 초안 등록. 영상/PPT/A4 출력 및 전문가 검토 대기."
+      "notes": "원본 25쪽·23 사실·3 학습·40속성 후보, 텍스트층 일부 누락 한계 기록, 영상 3종·토론·PPTX 등록, A4 5쪽 및 16장 실제 렌더, 계약 14/14, 전문가 검토 및 실제 영상 생성 대기."
     },
     {
       "queue_order": 19,

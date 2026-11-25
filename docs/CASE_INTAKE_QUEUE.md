@@ -23,7 +23,7 @@
 | 15 | 2016-12-20 | 2016-12-20_한울 5호기 원자로 HJTC배기구 누설 정비를 위한.pdf | DRAFT_REGISTERED_TECHNICALLY_VERIFIED · 161220HU5 |
 | 16 | 2016-02-27 | 2016-02-27_한빛 1호기 복수기 진공상실에 의한 터빈발전기 및 원자로 자동정지.pdf | DRAFT_REGISTERED_TECHNICALLY_VERIFIED · 160227HB1 |
 | 17 | 2015-09-03 | 2015-09-03_고리 4호기 써지보호기 손상에 따른 원자로냉각재 펌프 B 정지로 인한 원자로 자도.pdf | DRAFT_REGISTERED_TECHNICALLY_VERIFIED · 150903K4 |
-| 18 | 2014-10-17 | 2014-10-17_한빛 호기 증기발생기 세관누설 정비를 위한 출력감.pdf | SOURCE_METADATA_MATCHED |
+| 18 | 2014-10-17 | 2014-10-17_한빛 호기 증기발생기 세관누설 정비를 위한 출력감.pdf | DRAFT_REGISTERED_TECHNICALLY_VERIFIED · 141017Y3 |
 | 19 | 2014-10-01 | 2014-10-01_저전압 및 비상디젤발전기 기동 (발생일 _2014. 10.1).pdf | SOURCE_METADATA_MATCHED |
 | 20 | 2014-06-17 | 2014-06-17_월성4호기_계획예방정비_중_가압기_증기배출밸브_배관_연결부_관통결하.pdf | SOURCE_METADATA_MATCHED |
 | 21 | 2014-02-28 | 2014-02-28 _한빛 2호기 M-G set출력차단기의 부적절한 개방.pdf | SOURCE_METADATA_MATCHED |
@@ -87,3 +87,5 @@ ROOT-002 / PILOT-04 초안 및 PPTX 등록 완료, 로컬 렌더·A4 출력 검�
 2026-11-25: ROOT-016 초안 등록 및 기술검증 완료. 신규 처리 대기 21 PDF. 다음 ROOT-017(2015-09-03). JSON 기준.
 
 2026-11-25: ROOT-017 초안 등록 및 기술검증 완료. 신규 처리 대기 20 PDF. 다음 ROOT-018(2014-10-17). JSON 기준.
+
+2026-11-25: ROOT-018 초안 등록 및 기술검증 완료. 신규 처리 대기 19 PDF. 다음 ROOT-019(2014-10-01). JSON 기준.
