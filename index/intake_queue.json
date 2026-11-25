@@ -27,8 +27,8 @@
   ],
   "pending_pdf_count": 11,
   "pending_date_groups": 11,
-  "next_list_date": "2002-04-05",
-  "next_queue_id": "ROOT-033",
+  "next_list_date": "2000-11-17",
+  "next_queue_id": "ROOT-034",
   "items": [
     {
       "queue_order": 1,
@@ -579,7 +579,7 @@
       "event_id": "020405U4",
       "verified_event_date": "2002-04-05",
       "from_prior_table": true,
-      "notes": "스캔 원본 6쪽 직접 판독, 20 사실, 3 학습, 40속성 4 검토/2 긍정/14 추가/20 근거부족, 토론·실천 및 영상 43장면/270초 설계. 후속 조사·발행일·PPT/A4/정식 계약·전문가 검토 대기. PPTX 16장/52분 및 진행자 가이드 등록, ZIP CRC 검사 완료. 실제 화면 렌더·정식 계약 대기.",
+      "notes": "스캔 원본 6쪽 직접 판독, 20 사실, 3 학습, 40속성 4 검토/2 긍정/14 추가/20 근거부족, 토론·실천 및 영상 43장면/270초 설계. 후속 조사·발행일·PPT/A4/정식 계약·전문가 검토 대기. PPTX 16장/52분 및 진행자 가이드 등록, ZIP CRC 검사 완료. 실제 화면 렌더·정식 계약 대기. 계약 교차검사 14/14 및 6쪽 스캔 이미지 판독. 후속 원인규명·제염·환경 평가 자료 및 발행일 확인, A4·PPT 실제 화면 렌더·정식 계약 대기.",
       "source_sha256": "a3dff667158b6c61f576f87221b4e458afd25e66ba3d31c712f3ea5aa4fc13cf"
     },
     {
@@ -727,6 +727,12 @@
       "queue_id": "ROOT-032",
       "event_id": "031229Y5",
       "task": "FINAL_REPORT_ACQUISITION_PPT_A4_FORMAL_CONTRACT_QC",
+      "status": "PENDING"
+    },
+    {
+      "queue_id": "ROOT-033",
+      "event_id": "020405U4",
+      "task": "FOLLOWUP_SOURCE_ACQUISITION_PPT_A4_FORMAL_CONTRACT_QC",
       "status": "PENDING"
     }
   ]
