@@ -27,8 +27,8 @@
   ],
   "pending_pdf_count": 11,
   "pending_date_groups": 11,
-  "next_list_date": "1994-10-20",
-  "next_queue_id": "ROOT-037",
+  "next_list_date": null,
+  "next_queue_id": null,
   "items": [
     {
       "queue_order": 1,
@@ -643,11 +643,11 @@
           "size_bytes": 295684
         }
       ],
-      "status": "DRAFT_REGISTERED",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
       "event_id": "941020-1301",
       "verified_event_date": "1994-10-20",
       "from_prior_table": true,
-      "notes": "1쪽 요약 직접 판독, 호기 및 ID 잠정. 원문 INES 2 심층 방어(최종판 미확인), 14 사실, 3 학습, 40속성 5/19/16, 토론 및 영상 43장면/270초 설계. PPT·A4·정식 계약·상세 조사·전문가 검토 대기.",
+      "notes": "1쪽 요약 직접 판독, 호기 및 ID 잠정. 원문 INES 2 심층 방어(최종판 미확인), 14 사실, 3 학습, 40속성 5/19/16, 토론 및 영상 43장면/270초 설계. PPT·A4·정식 계약·상세 조사·전문가 검토 대기. PPTX 16장/52분·진행자 가이드 등록, ZIP CRC PASS, 계약 교차검사 14/14. 호기·상세 조사·작성기관·INES 최종판·공식 ID·후속 효과·A4·화면 렌더·정식 계약 대기.",
       "source_sha256": "6a20318b90cbc8e50836467dd741a9f8d56ad710fb8f1bf301e8d4af5922b23f"
     }
   ],
@@ -755,6 +755,12 @@
       "queue_id": "ROOT-036",
       "event_id": "970117-1502",
       "task": "PLANT_OFFICIAL_ID_FULL_SOURCE_GRADE_SCHEME_PPT_A4_FORMAL_CONTRACT_QC",
+      "status": "PENDING"
+    },
+    {
+      "queue_id": "ROOT-037",
+      "event_id": "941020-1301",
+      "task": "PLANT_OFFICIAL_ID_FULL_SOURCE_INES_FINALITY_PPT_A4_FORMAL_CONTRACT_QC",
       "status": "PENDING"
     }
   ]

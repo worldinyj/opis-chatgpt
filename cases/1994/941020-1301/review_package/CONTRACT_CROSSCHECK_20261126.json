@@ -1,0 +1,71 @@
+{
+  "event_id": "941020-1301",
+  "source_commit": "d4d03875f06c4f19db90950237c1ed9323917937",
+  "date": "2026-11-26",
+  "method": "Independent JS transcription of repository contract rules against five schemas and eight pinned inputs; not actual Node module or Python Draft202012Validator execution.",
+  "passed": 14,
+  "total": 14,
+  "results": [
+    {
+      "test": "schema fact_ledger.json",
+      "errors": []
+    },
+    {
+      "test": "schema learning_ledger.json",
+      "errors": []
+    },
+    {
+      "test": "schema discussion_action/manifest.json",
+      "errors": []
+    },
+    {
+      "test": "schema incident_understanding/production.json",
+      "errors": []
+    },
+    {
+      "test": "schema safety_culture_learning/production.json",
+      "errors": []
+    },
+    {
+      "test": "schema shorts/SHORT-01/production.json",
+      "errors": []
+    },
+    {
+      "test": "schema safety_culture_learning/batch_job.example.json",
+      "errors": []
+    },
+    {
+      "test": "schema shorts/SHORT-01/batch_job.example.json",
+      "errors": []
+    },
+    {
+      "test": "relations discussion_action/manifest.json",
+      "errors": []
+    },
+    {
+      "test": "relations incident_understanding/production.json",
+      "errors": []
+    },
+    {
+      "test": "relations safety_culture_learning/production.json",
+      "errors": []
+    },
+    {
+      "test": "relations shorts/SHORT-01/production.json",
+      "errors": []
+    },
+    {
+      "test": "batch safety_culture_learning/batch_job.example.json",
+      "errors": []
+    },
+    {
+      "test": "batch shorts/SHORT-01/batch_job.example.json",
+      "errors": []
+    }
+  ],
+  "formal_contract_status": "PENDING",
+  "source_review": "VISUALLY_REVIEWED_ONE_SCANNED_PAGE",
+  "source_type": "ONE_PAGE_SUMMARY",
+  "event_id_status": "PROVISIONAL",
+  "can_ship": false
+}

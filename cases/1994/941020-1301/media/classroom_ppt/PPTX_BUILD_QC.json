@@ -1,0 +1,16 @@
+{
+  "event_id": "941020-1301",
+  "slides": 16,
+  "notes": 16,
+  "total_minutes": 52,
+  "editable_shapes": 277,
+  "zip_members": 75,
+  "zip_crc": "PASS",
+  "provenance": "PILOT-37 editable OOXML template; all nonempty slide text and notes replaced, layout retained; not generic.mjs execution.",
+  "actual_render": "PENDING",
+  "generic_generator_execution": "NOT_RUN",
+  "expert_approved": false,
+  "can_ship": false,
+  "pptx_blob": "4b57274e8a352343b7baecd7f1b4cc4fe0a632b2",
+  "pptx_bytes": 250697
+}
