@@ -1,0 +1,26 @@
+{
+  "event_id": "110419K34",
+  "date": "2026-11-26",
+  "source_commit": "8506acf5d65473e235712b6c5b9b64c104cf75b6",
+  "report_git_blob": "ec70645bbbb67a4115ff4b25f0b41c01100e048b",
+  "local_git_blob_match": true,
+  "report_bytes": 13415,
+  "report_sha256": "b22e4eef5840868a083afed2201fcf29bdc150b5f0bc0c83bf66dc40a6f34ab4",
+  "render_engine": "Mistune 3.2.1 + WeasyPrint 68.0",
+  "pdf_bytes": 333069,
+  "pdf_sha256": "163281fc0b81f408d812ef6552af685acdc505d7f6e29a9190ac2fcc60309206",
+  "a4_pages": 3,
+  "actual_render": "PASS_LOCAL_ALL_PAGES_VISUAL",
+  "fact_ids_present": 24,
+  "missing_fact_ids": [],
+  "out_of_bounds": 0,
+  "replacement_glyphs": 0,
+  "embedded_fonts": true,
+  "limitations": [
+    "Original report restored by connector text and verified with Git blob hash; direct GitHub network DNS unavailable.",
+    "PDF uses locally chosen A4 CSS; original Markdown unchanged. Body 9pt, table 8.2pt; physical print readability not tested.",
+    "PDF supplied in chat, not committed. Original Markdown retains historical pending statement.",
+    "PPTX render and Python formal contracts remain pending; no queue advancement or expert approval."
+  ],
+  "can_ship": false
+}
