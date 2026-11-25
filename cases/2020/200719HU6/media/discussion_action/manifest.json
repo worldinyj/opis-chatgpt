@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "200719HU6",
+  "artifact_id": "DA-200719HU6",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "식별·검토·검증의 방어",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2020-02",
+    "report_date": "2020-10-07",
+    "sha256": "ea3b42066aaf35d3e9d9fc8ebb61aad118afb20954f2dab8d3901e045237cabc"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "포장 표기와 실물 식별이 일치한다는 증거를 역할별로 어떻게 확인하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "작업등급을 결정할 때 요구되는 검토와 확인활동이 계획에 포함됐는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "변경된 설비의 상태정보와 실제 기능이 일치한다는 근거를 어떻게 평가하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상 일반 산업시설의 자재 포장에 여러 이름이 적혀 있다. 작업계획은 일련번호만 요구한다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 실물 식별, 계획의 누락, 확인 책임과 공식 검토를 논의한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상 설비의 표시와 독립적인 상태정보가 일치하지 않는다. 최근 변경검증 자료를 찾을 필요가 있다.",
+      "learning_ids": [
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 확인된 사실·가정·독립적 근거·공식 문제관리 및 변경검증을 구분한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "실물 식별정보와 승인된 자재정보의 일치 근거를 확인한다.",
+      "verification": "식별 확인 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "작업등급과 계획의 확인 요건을 검토한다.",
+      "verification": "승인된 계획·질의 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "표시와 실제 상태의 확인 근거를 구분한다.",
+      "verification": "상태 확인 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "자재의 입출고·식별·확인 기록을 표본 점검한다.",
+      "verification": "표본별 증거",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "작업등급과 역할별 확인의 적합성을 검토한다.",
+      "verification": "계획·검토·실행 대조",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "변경 후 검증과 상태정보 불일치에 대한 후속 확인을 평가한다.",
+      "verification": "변경검증·효과평가 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

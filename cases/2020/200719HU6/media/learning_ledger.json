@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "200719HU6",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "PA2",
+    "QA4",
+    "LA5",
+    "DM1",
+    "DM2",
+    "WP1",
+    "WP2",
+    "WP3",
+    "WP4"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "CO1",
+    "CO2",
+    "CO3",
+    "LA1",
+    "LA2",
+    "LA4",
+    "LA6",
+    "LA7",
+    "DM3",
+    "CL1",
+    "CL2",
+    "CL4",
+    "PI1",
+    "PI2",
+    "PI3",
+    "PI4"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "자재 표기와 실물 확인은 별개의 방어다",
+      "objective": "식별 관리와 역할별 확인의 증거를 대조한다.",
+      "cause_ids": [
+        "R1",
+        "R3"
+      ],
+      "fact_ids": [
+        "F03",
+        "F04",
+        "F09",
+        "F10",
+        "F11"
+      ],
+      "principle_codes": [
+        "PA",
+        "QA",
+        "WP"
+      ],
+      "attribute_codes": [
+        "PA2",
+        "QA4",
+        "WP3",
+        "WP4"
+      ],
+      "report_section": "3.4",
+      "qualification": "개인 비난이 아닌 업무 조건과 확인 책임.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "작업등급과 계획은 위험에 맞게 검토한다",
+      "objective": "작업등급의 근거와 요구된 관리활동 및 확인기법을 검토한다.",
+      "cause_ids": [
+        "R2",
+        "R3"
+      ],
+      "fact_ids": [
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F11"
+      ],
+      "principle_codes": [
+        "DM",
+        "WP"
+      ],
+      "attribute_codes": [
+        "DM1",
+        "WP1"
+      ],
+      "report_section": "3.4",
+      "qualification": "작업전회의 시행 인정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "변경 검증과 실제 상태 확인을 연결한다",
+      "objective": "변경 결과와 상태정보의 신뢰성, 추가 확인 근거를 평가한다.",
+      "cause_ids": [
+        "R4",
+        "R5"
+      ],
+      "fact_ids": [
+        "F12",
+        "F13",
+        "F14",
+        "F15",
+        "F16"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP",
+        "DM"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP2",
+        "DM2"
+      ],
+      "report_section": "3.4",
+      "qualification": "후속 대응의 문제와 적절한 안정화 조치 구분.",
+      "review_status": "PENDING"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "event_id": "200719HU6",
+  "analysis_version": "0.1.0",
+  "source_sha256": "ea3b42066aaf35d3e9d9fc8ebb61aad118afb20954f2dab8d3901e045237cabc",
+  "report_status": "DRAFT",
+  "expert_content_review": "PENDING",
+  "expert_attribute_review": "USER_SEPARATE_REVIEW_PENDING",
+  "independent_review": "PENDING",
+  "can_ship": false,
+  "media_status": "PLANNED",
+  "ppt_status": "PLANNED",
+  "paid_generation_calls": 0,
+  "external_submissions": 0
+}

@@ -1,0 +1,356 @@
+{
+  "schema_version": "2.0",
+  "event_id": "200719HU6",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2020-02",
+    "report_date": "2020-10-07",
+    "sha256": "ea3b42066aaf35d3e9d9fc8ebb61aad118afb20954f2dab8d3901e045237cabc"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "statement": "2020.07.19 한울6호기 출력운전(100%) 중 원자로냉각재펌프 2대 정지에 따른 원자로 자동정지.",
+      "section": "요약,1",
+      "printed_pages": [
+        1,
+        3
+      ],
+      "pdf_pages": [
+        2,
+        4
+      ],
+      "qualification": "보고대상 3.1 및 3.2.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "발전소제어계통(PCS) 정비 중 교체 대상과 다른 종류의 전자카드가 삽입되었고 비안전 전원계통의 과도로 원자로냉각재펌프 2대가 정지했다.",
+      "section": "3.2.1~2",
+      "printed_pages": [
+        7,
+        8,
+        9
+      ],
+      "pdf_pages": [
+        8,
+        9,
+        10
+      ],
+      "qualification": "조사팀은 공급사 분석 및 검증시험을 확인; 상세 회로 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "현장보관상자 외부에 여러 종류의 카드 표기가 있었으며 작업자는 수기 표식만 확인했다.",
+      "section": "3.2.3.1,붙임11",
+      "printed_pages": [
+        10,
+        42,
+        43
+      ],
+      "pdf_pages": [
+        11,
+        43,
+        44
+      ],
+      "qualification": "실물 모델 확인과 포장 표시 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "현장보관자재의 전산 등록, 식별꼬리표·전자태그, 주기검사, 출고·반출입 및 폐기 관리가 관련 지침대로 이행되지 않았다.",
+      "section": "3.2.3.1,붙임12",
+      "printed_pages": [
+        10,
+        44
+      ],
+      "pdf_pages": [
+        11,
+        45
+      ],
+      "qualification": "현장보관자재 전반 점검 요구.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "작업계획서에는 일련번호 기록은 있었으나 모델번호 등 식별정보와 육안점검 기록이 누락되었다.",
+      "section": "3.2.3.2",
+      "printed_pages": [
+        11
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "qualification": "계획서 전체 부재 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "감독자는 정비절차의 점검표를 참조할 수 있었으나 동일한 누락이 있는 이전 작업계획서를 참조했다.",
+      "section": "3.2.3.2",
+      "printed_pages": [
+        11
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "qualification": "이전 작업에서 실제 오삽입 발생 단정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "일반 고장통지에서 긴급 작업오더가 발행되었고 해당 등급의 안전운전 영향 검토서와 관리자 관찰자 지정 이행이 미흡했다.",
+      "section": "3.2.3.2",
+      "printed_pages": [
+        11,
+        12
+      ],
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "qualification": "부서 협의 존재 인정; 긴급성 자체의 필요 여부는 단정하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "OBSERVED_FACT",
+      "statement": "작업오더·작업계획서 작성과 계측제어부·전기부·발전부의 일반작업전회의가 수행되었다.",
+      "section": "2.2",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        5
+      ],
+      "qualification": "회의 수행과 검토의 충분성 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "정비 수행자의 준비·수행 과정에서 자기진단 기법 적용이 미흡했다.",
+      "section": "3.2.3.3",
+      "printed_pages": [
+        12
+      ],
+      "pdf_pages": [
+        13
+      ],
+      "qualification": "협력사 수행자와 감독자의 책임 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "감독자의 사전점검과 자기진단이 미흡했으며 실물 모델정보의 확인이 부족했다.",
+      "section": "3.2.3.3",
+      "printed_pages": [
+        12,
+        13
+      ],
+      "pdf_pages": [
+        13,
+        14
+      ],
+      "qualification": "확인기법의 실제 적용에 대한 평가.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "확인자는 계획서에 규정된 작업 후 독립확인을 수행하는 역할이었으며 조사팀은 예방에 적합한 확인기법 및 확인 대상 강조를 개선할 필요가 있다고 평가했다.",
+      "section": "3.2.3.3",
+      "printed_pages": [
+        13
+      ],
+      "pdf_pages": [
+        14
+      ],
+      "qualification": "독립확인 자체가 무용하다는 뜻 아님; 실제 수행 시점과 역할 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "과거 설계변경과 임시변경의 시공 오류로 일부 상태정보가 실제 운전 상태와 불일치했다.",
+      "section": "3.2.4.2",
+      "printed_pages": [
+        15,
+        16
+      ],
+      "pdf_pages": [
+        16,
+        17
+      ],
+      "qualification": "원자로 최초 정지 원인이 아니라 후속 급수 대응의 배경.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "운전원은 상태지시등과 정지경보 부재에 근거하여 급수설비 상태를 판단했다. 다른 운전변수로 추가 확인할 수 있었다.",
+      "section": "3.3.2",
+      "printed_pages": [
+        17
+      ],
+      "pdf_pages": [
+        18
+      ],
+      "qualification": "오지시와 운전 판단의 복합 기여; 개인 의도 단정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "원자로 정지 이후 운전원 급수 조치 과정에서 주급수유량이 상실되어 보조급수계통과 비상디젤발전기가 자동 기동했다.",
+      "section": "3.2.4.1,3.3.2",
+      "printed_pages": [
+        13,
+        14,
+        17,
+        18
+      ],
+      "pdf_pages": [
+        14,
+        15,
+        18,
+        19
+      ],
+      "qualification": "최초 정지와 별개 후속 사건; 보호설비 작동 인정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "운전원은 수위 감소를 정지 직후 수축현상으로 판단했고 조사팀은 기동용급수펌프 기동 지연과 정해진 정지방법과 다른 조치를 확인했다.",
+      "section": "3.3.2",
+      "printed_pages": [
+        18
+      ],
+      "pdf_pages": [
+        19
+      ],
+      "qualification": "구체 조작 절차 대신 상태판단 및 우선순위의 교훈.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "비상운전절차 수행, 수위 복구 및 안전설비 정상 대기상태 복귀는 적절하다고 평가했다.",
+      "section": "3.3.2",
+      "printed_pages": [
+        18
+      ],
+      "pdf_pages": [
+        19
+      ],
+      "qualification": "이전 판단 미흡과 이후 대응 적절성 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "필요한 반응도제어 및 열제거 안전기능 유지, 안전모선 운전가능, 비상디젤발전기 무부하 운전, 방사선 관련 특이사항 없음.",
+      "section": "3.3.1",
+      "printed_pages": [
+        16,
+        17
+      ],
+      "pdf_pages": [
+        17,
+        18
+      ],
+      "qualification": "자동기동을 소외전원 상실과 혼동하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "단기 3건 완료: 운전경험 전파, 교체이력 점검, 표준작업계획서 개발.",
+      "section": "3.4",
+      "printed_pages": [
+        19
+      ],
+      "pdf_pages": [
+        20
+      ],
+      "qualification": "발행 당시.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "중기 5건 재가동 전 완료 예정: 자재관리, 자격관리, 변경 시공오류 점검·프로세스, 운전 대응, 작업관리 절차 개선.",
+      "section": "3.4",
+      "printed_pages": [
+        19,
+        20,
+        21
+      ],
+      "pdf_pages": [
+        20,
+        21,
+        22
+      ],
+      "qualification": "완료 여부 현재 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "장기 4건 계획: 전 원전 자재관리, 정비원 기본수칙, 자격현황 보완, 직무교육 개선.",
+      "section": "3.4",
+      "printed_pages": [
+        21,
+        22
+      ],
+      "pdf_pages": [
+        22,
+        23
+      ],
+      "qualification": "관리자 자격 추가 취득 계획은 당시 모든 작업자 무자격의 증거 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F21",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "KINS는 원인 조치 및 대책의 적절성에 근거하여 기술적 재가동에 문제가 없다고 판단했다. 보완요구사항 없음으로 기재되었다.",
+      "section": "4,5",
+      "printed_pages": [
+        22,
+        23
+      ],
+      "pdf_pages": [
+        23,
+        24
+      ],
+      "qualification": "현재 실제 재가동 또는 개선 효과에 관한 확인 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F22",
+      "kind": "SOURCE_LIMITATION",
+      "statement": "공개 보고서 본문에는 INES 기초·최종 등급의 명시적 수치를 확인하지 못했다. 비공개 부분 및 상세 회로·설정은 복원하지 않았다.",
+      "section": "원본 전체,5",
+      "printed_pages": [
+        22,
+        23
+      ],
+      "pdf_pages": [
+        23,
+        24
+      ],
+      "qualification": "원본 54쪽; 인쇄 p.1=PDF p.2. 등급 null 유지.",
+      "review_status": "PENDING"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "200719HU6"
+report_number: "2020-02"
+title: "한울6호기 원자로냉각재펌프 2대 정지로 인한 원자로 자동정지"
+event_date: "2020-07-19"
+report_date: "2020-10-07"
+plant:
+  site: 한울
+  unit: 6
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 54
+  sha256: ea3b42066aaf35d3e9d9fc8ebb61aad118afb20954f2dab8d3901e045237cabc
+  source_size_bytes: 1597832
+operating_mode: "1 (출력운전), 100%"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [PA2, QA4, LA5, DM1, DM2, WP1, WP2, WP3, WP4]
+  additional_review_attributes: [PA1, PA3, QA1, QA2, QA3, CO1, CO2, CO3, LA1, LA2, LA4, LA6, LA7, DM3, CL1, CL2, CL4, PI1, PI2, PI3, PI4]
+  insufficient_or_low_relevance_attributes: [CO4, LA3, LA8, WE1, WE2, WE3, WE4, CL3, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false

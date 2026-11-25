@@ -234,5 +234,29 @@
       "WP3"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "200719HU6",
+    "event_date": "2020-07-19",
+    "report_date": "2020-10-07",
+    "plant": "한울6호기",
+    "title": "한울6호기 원자로냉각재펌프 2대 정지로 인한 원자로 자동정지",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2020/200719HU6/report.md",
+    "candidate_attributes": [
+      "PA2",
+      "QA4",
+      "LA5",
+      "DM1",
+      "DM2",
+      "WP1",
+      "WP2",
+      "WP3",
+      "WP4"
+    ],
+    "approved_attributes": []
   }
 ]
