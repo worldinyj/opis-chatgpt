@@ -1,0 +1,772 @@
+{
+  "schema_version": "2.0",
+  "event_id": "230405W2",
+  "artifact_id": "SC-230405W2",
+  "artifact_type": "SAFETY_CULTURE_LEARNING",
+  "title": "관행과 승인 기준",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2023-3",
+    "report_date": "2023-04-25",
+    "sha256": "5d5db17b70d50fea89bebc950f05b767d75a5560f1c46471f5746065ad4d9e91"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "16:9",
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "language": "ko",
+    "style": "controlled graphic + hypothetical 3D brick miniature"
+  },
+  "timing": {
+    "target_seconds": 120
+  },
+  "learning_objectives": [
+    "장기 분류 변화와 적용 제외 근거를 표준지침에 비추어 검토한다.",
+    "위험 평가, 독립 검토, 변경 검토 및 착수 정보의 연계를 확인한다.",
+    "반복 경험에 의존하지 않고 요구된 확인의 충분성을 검토한다."
+  ],
+  "references": [
+    {
+      "id": "LOC-A",
+      "kind": "LOCATION",
+      "description": "가상 브릭 교육 회의실, 실제 원전 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-A",
+      "kind": "CHARACTER",
+      "description": "가상 담당자, 청회색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-B",
+      "kind": "CHARACTER",
+      "description": "가상 검토자, 짙은 청색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "OBJ-A",
+      "kind": "OTHER",
+      "description": "빈 문서 카드와 일반 기록철, 실제 계기·도면 없음.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "관행과 승인 기준",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "익숙하다는 이유로 확인을 생략하고 있지는 않나요?",
+      "overlay": [
+        "관행과 승인 기준",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "사건 개요",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F01"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "계획예방정비 중 예비디젤발전기가 자동기동했습니다.",
+      "overlay": [
+        "사건 개요",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "관리 변화",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F04",
+        "F05"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "중점관리 비율이 장기간 감소했습니다.",
+      "overlay": [
+        "관리 변화",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "긍정 대응",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F14"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "자동기능과 운전조치로 필요한 안전기능을 유지했습니다.",
+      "overlay": [
+        "긍정 대응",
+        "조사 결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "변화 관리",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F04",
+        "F06"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP1",
+        "WP3"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "관리 기준이 바뀌면 안전 영향과 근거를 확인합니다.",
+      "overlay": [
+        "변화 관리",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S06",
+      "title": "관리 근거",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F06",
+        "F07"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP1",
+        "WP3"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "관리 분류와 승인 문서의 일치를 검토합니다.",
+      "overlay": [
+        "관리 근거",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S07",
+      "title": "가상 분류 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP1",
+        "WP3"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 브릭 회의실, 일반 문서 카드 검토. 실제 시설·인물·회로 없음.",
+      "narration": "가상의 팀이 분류 변경 근거를 검토합니다.",
+      "overlay": [
+        "가상 분류 검토",
+        "교육용 가상 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S08",
+      "title": "독립검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F07",
+        "F08"
+      ],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "CO",
+        "DM"
+      ],
+      "attribute_codes": [
+        "CO1",
+        "DM1",
+        "DM2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "검토 완료보다 판단 근거의 충분성이 중요합니다.",
+      "overlay": [
+        "독립검토",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S09",
+      "title": "조건 변경",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F09",
+        "F10"
+      ],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "CO",
+        "DM"
+      ],
+      "attribute_codes": [
+        "CO1",
+        "DM1",
+        "DM2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "조건 변경과 위험 평가를 공식적으로 연결합니다.",
+      "overlay": [
+        "조건 변경",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S10",
+      "title": "가상 일정 변경",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "CO",
+        "DM"
+      ],
+      "attribute_codes": [
+        "CO1",
+        "DM1",
+        "DM2"
+      ],
+      "render_mode": "I2V",
+      "generation_route": "INDIVIDUAL",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 브릭 회의실, 일반 문서 카드 검토. 실제 시설·인물·회로 없음.",
+      "narration": "가상의 팀은 일정 변경의 검토 근거를 확인합니다.",
+      "overlay": [
+        "가상 일정 변경",
+        "교육용 가상 상황"
+      ],
+      "input_mode": "single_start",
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S11",
+      "title": "착수 정보",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F11"
+      ],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "CO",
+        "DM"
+      ],
+      "attribute_codes": [
+        "CO1",
+        "DM1",
+        "DM2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "승인 내용과 실제 작업 정보를 함께 확인합니다.",
+      "overlay": [
+        "착수 정보",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S12",
+      "title": "반복 경험",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F13"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "QA",
+        "WP"
+      ],
+      "attribute_codes": [
+        "QA4",
+        "WP4"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "유사 경험이 실제 상태를 입증하지는 않습니다.",
+      "overlay": [
+        "반복 경험",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S13",
+      "title": "독립 확인",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F12",
+        "F18"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "QA",
+        "WP"
+      ],
+      "attribute_codes": [
+        "QA4",
+        "WP4"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "승인된 확인 절차와 증빙을 검토합니다.",
+      "overlay": [
+        "독립 확인",
+        "교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S14",
+      "title": "5원칙·8개 핵심 후보",
+      "duration_seconds": 18,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "ATTRIBUTE_SUMMARY",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP",
+        "CO",
+        "DM",
+        "QA"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP1",
+        "WP3",
+        "CO1",
+        "DM1",
+        "DM2",
+        "QA4",
+        "WP4"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "다섯 원칙의 여덟 후보입니다. 전문가 검토 전입니다.",
+      "overlay": [
+        "5원칙·8개 핵심 후보",
+        "QA · QA4 자만 방지",
+        "CO · CO1 업무 소통",
+        "LA · LA5 변화 관리",
+        "DM · DM1 일관적 프로세스 / DM2 보수적 성향",
+        "WP · WP1 작업 관리 / WP3 문서화 / WP4 절차 준수",
+        "교육용 후보 · 미확정 · 미선정은 양호 아님"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S15",
+      "title": "개인 실천",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP",
+        "CO",
+        "DM"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP1",
+        "WP3",
+        "CO1",
+        "DM1",
+        "DM2"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 브릭 회의실, 일반 문서 카드 검토. 실제 시설·인물·회로 없음.",
+      "narration": "분류와 조건 변경 근거를 확인합니다.",
+      "overlay": [
+        "개인 실천",
+        "교육용 가상 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S16",
+      "title": "팀 실천",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "QA",
+        "WP"
+      ],
+      "attribute_codes": [
+        "QA4",
+        "WP4"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 브릭 회의실, 일반 문서 카드 검토. 실제 시설·인물·회로 없음.",
+      "narration": "독립 검토와 확인의 실제 효과를 검토합니다.",
+      "overlay": [
+        "팀 실천",
+        "교육용 가상 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S17",
+      "title": "현장 질문",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "REFLECTION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP",
+        "CO",
+        "DM",
+        "QA"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP1",
+        "WP3",
+        "CO1",
+        "DM1",
+        "DM2",
+        "QA4",
+        "WP4"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "우리 팀의 익숙한 관행은 승인 기준과 일치합니까?",
+      "overlay": [
+        "현장 질문",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S18",
+      "title": "핵심 교훈",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 사실·해석 구분. 실제 설비 및 조작 재현 없음.",
+      "narration": "관행보다 승인된 기준과 실제 확인입니다.",
+      "overlay": [
+        "핵심 교훈",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}
