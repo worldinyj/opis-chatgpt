@@ -6,7 +6,16 @@
   "source_detail": "PDF 1–24 본문 전쪽 및 25–55 첨부 13종 관련 근거 시각 검토; 도면·그래프 세부 계측값 전수 검산 미수행",
   "report": {
     "status": "DRAFT",
-    "a4_render": "PENDING"
+    "git_blob": "bc4216c51a92b0ad2ab8eed1158e863d29d06200",
+    "bytes": 11219,
+    "sha256": "a20e42424bfc4bc15b112f2dd78965464610f9b53857c063d47e74164b3036e2",
+    "a4_pages": 4,
+    "pdf_sha256": "768b592c259eb910701b422db3ce053a311cd0b408818c8654cfb26be0544445",
+    "text_blocks": 113,
+    "missing_text_blocks": 0,
+    "replacement_glyphs": 0,
+    "a4_render": "PASS_LOCAL_CONTACT_SHEET",
+    "render": "PASS_LOCAL_CONTACT_SHEET"
   },
   "ppt": {
     "git_blob": "908f3646ac274c2cefd9a37398bf21bc4abba86f",
@@ -16,12 +25,19 @@
     "editable_shapes": 380,
     "zip_crc": "PASS",
     "deterministic_regeneration_byte_match": true,
-    "actual_render": "PENDING"
+    "actual_render": "PASS_LIBREOFFICE_CONTACT_SHEET",
+    "sha256": "59db92656c3956dedc4609f65002ded6d0b03ce00871c98421b4797d62e3b230",
+    "render_pdf_sha256": "3fb8c34f85778bdc4998b6ea64a7eca52c84b83330627cf88461379fc583728b",
+    "rendered_pages": 16,
+    "out_of_bounds": 0,
+    "missing_text_shapes": 0,
+    "replacement_glyphs": 0,
+    "render": "PASS_LIBREOFFICE_CONTACT_SHEET"
   },
   "contract_checks": {
     "passed": 14,
     "total": 14,
-    "scope": "repository schema subset and relationship checks; re-read from committed files",
+    "scope": "기존 커밋 재조회 14/14 PASS; 개정 사실 원장 스키마 및 관련 토론·영상 관계 5개 재검사 PASS, 나머지 입력 불변.",
     "results": [
       {
         "test": "cases/2019/190121W3/media/fact_ledger.json",
@@ -82,11 +98,13 @@
     ]
   },
   "limitations": [
-    "글꼴 인코딩 오류: 자동 추출 신뢰 불가; 본문·첨부 관련 근거 시각 검토 완료, 세부 계측값 전수 검산 미수행.",
-    "PPT 생성 시 이전 사례에서 남은 일부 슬라이드 구분명 발견하여 수정 후 새 blob 검증.",
-    "A4/PPT 실제 출력, 실제 PowerPoint 및 현장 투사 검증 대기.",
+    "PDF 내장 글꼴 인코딩 오류로 자동 텍스트 추출을 신뢰하지 않음. 본문 전쪽 및 붙임 13종 관련 근거 시각 검토; 도면·그래프의 세부 계측값 전수 검산 미수행.",
+    "F02/03/05/08/09 등 근거와 절 번호 보완; 핵심 후보 5개 유지, 미진속성 확정 아님.",
+    "PPT 이전 사례의 일부 구분명 수정 후 검증; 실제 PowerPoint 및 현장 투사 미시험.",
+    "보고서 표 분할 방지 위해 페이지 분기 조정; 일부 페이지 하단 여백이 큼. 마지막 문단 출력상태 문구 갱신.",
     "OPIS 상세 ID·기초/최종 INES·현재 조치 이행 및 효과 미확인.",
-    "독립·전문가 검토 대기; 실제 영상·음성 생성 미수행."
+    "독립·전문가 내용 및 속성 검토 대기; 실제 영상·음성 생성 미수행.",
+    "렌더 PDF는 로컬 검증용; 저장소에는 원고/PPTX 및 검증 해시 기록."
   ],
   "can_ship": false
 }
