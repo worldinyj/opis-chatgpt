@@ -36,7 +36,91 @@
     "a4_render": "PENDING"
   },
   "ppt": {
-    "status": "PENDING"
+    "event_id": "990323Y2",
+    "slides": 16,
+    "notes": 16,
+    "total_minutes": 52,
+    "editable_shapes": 277,
+    "zip_members": 75,
+    "zip_crc": "PASS",
+    "provenance": "PILOT-35 editable OOXML template; all nonempty slide text and notes replaced, layout retained; not generic.mjs execution.",
+    "actual_render": "PENDING",
+    "generic_generator_execution": "NOT_RUN",
+    "expert_approved": false,
+    "can_ship": false,
+    "pptx_blob": "691c056488ec2beb5d85ccb22d7d9a9029781b00",
+    "pptx_bytes": 250596
   },
-  "can_ship": false
+  "can_ship": false,
+  "contract_crosscheck": {
+    "event_id": "990323Y2",
+    "source_commit": "4c0a90385b0bfffd85cf429308d7e75ba964c39e",
+    "date": "2026-11-26",
+    "method": "Independent JS transcription of repository contract rules against five schemas and eight pinned inputs; not actual Node module or Python Draft202012Validator execution.",
+    "passed": 14,
+    "total": 14,
+    "results": [
+      {
+        "test": "schema fact_ledger.json",
+        "errors": []
+      },
+      {
+        "test": "schema learning_ledger.json",
+        "errors": []
+      },
+      {
+        "test": "schema discussion_action/manifest.json",
+        "errors": []
+      },
+      {
+        "test": "schema incident_understanding/production.json",
+        "errors": []
+      },
+      {
+        "test": "schema safety_culture_learning/production.json",
+        "errors": []
+      },
+      {
+        "test": "schema shorts/SHORT-01/production.json",
+        "errors": []
+      },
+      {
+        "test": "schema safety_culture_learning/batch_job.example.json",
+        "errors": []
+      },
+      {
+        "test": "schema shorts/SHORT-01/batch_job.example.json",
+        "errors": []
+      },
+      {
+        "test": "relations discussion_action/manifest.json",
+        "errors": []
+      },
+      {
+        "test": "relations incident_understanding/production.json",
+        "errors": []
+      },
+      {
+        "test": "relations safety_culture_learning/production.json",
+        "errors": []
+      },
+      {
+        "test": "relations shorts/SHORT-01/production.json",
+        "errors": []
+      },
+      {
+        "test": "batch safety_culture_learning/batch_job.example.json",
+        "errors": []
+      },
+      {
+        "test": "batch shorts/SHORT-01/batch_job.example.json",
+        "errors": []
+      }
+    ],
+    "formal_contract_status": "PENDING",
+    "source_review": "VISUALLY_REVIEWED_ONE_SCANNED_PAGE",
+    "source_type": "ONE_PAGE_SUMMARY",
+    "event_id_status": "PROVISIONAL",
+    "can_ship": false
+  }
 }

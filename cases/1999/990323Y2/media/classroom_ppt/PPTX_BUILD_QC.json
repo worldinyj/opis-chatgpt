@@ -1,0 +1,16 @@
+{
+  "event_id": "990323Y2",
+  "slides": 16,
+  "notes": 16,
+  "total_minutes": 52,
+  "editable_shapes": 277,
+  "zip_members": 75,
+  "zip_crc": "PASS",
+  "provenance": "PILOT-35 editable OOXML template; all nonempty slide text and notes replaced, layout retained; not generic.mjs execution.",
+  "actual_render": "PENDING",
+  "generic_generator_execution": "NOT_RUN",
+  "expert_approved": false,
+  "can_ship": false,
+  "pptx_blob": "691c056488ec2beb5d85ccb22d7d9a9029781b00",
+  "pptx_bytes": 250596
+}
