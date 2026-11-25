@@ -15,10 +15,11 @@
   "paid_generation_calls": 0,
   "external_submissions": 0,
   "report_a4_pages": null,
-  "author_technical_qc": "PASS_CONTRACT_RENDER_PENDING",
+  "author_technical_qc": "PASS_CONTRACT_AND_PPTX_STRUCTURE_RENDER_PENDING",
   "ppt_git_blob": "908f3646ac274c2cefd9a37398bf21bc4abba86f",
   "contract_checks": {
     "passed": 14,
     "total": 14
-  }
+  },
+  "ppt_structural_qc": "PASS_BYTE_MATCH_ZIP_CRC"
 }
