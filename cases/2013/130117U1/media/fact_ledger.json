@@ -1,0 +1,341 @@
+{
+  "schema_version": "2.0",
+  "event_id": "130117U1",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2013-1",
+    "report_date": "2013-01-25",
+    "sha256": "b7d1693b6d9e22b589f2f5efcd0389ce09901b8a4278c9e5a789f07e9882b20d"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "표지; 요약; 1",
+      "pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "printed_pages": [
+        1,
+        2
+      ],
+      "statement": "2013년 1월 17일 울진1호기에서 계측계통의 비정상 신호에 의해 원자로 자동정지가 발생했다.",
+      "qualification": "사건명·발생일·결과 확인. 실제 출력 급증을 입증한 사건은 아니다. 상세 운전 조건과 작동 논리는 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "OBSERVED_FACT",
+      "section": "1",
+      "pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        2
+      ],
+      "statement": "원자로정지 보고사항이며 규제기관의 재가동 사전안전성 확인 및 승인 대상 사건이었다.",
+      "qualification": "보고규정상 분류이며 INES 등급이나 실제 승인 결과를 뜻하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "OBSERVED_FACT",
+      "section": "3.1.2",
+      "pdf_pages": [
+        5
+      ],
+      "printed_pages": [
+        4
+      ],
+      "statement": "앞선 계획예방정비에서 계측설비를 새로운 설비로 교체했다.",
+      "qualification": "설비 교체 사실에 한정. 구성·규격·설치 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "OBSERVED_FACT",
+      "section": "3.1.2",
+      "pdf_pages": [
+        5
+      ],
+      "printed_pages": [
+        4
+      ],
+      "statement": "운영자는 앞선 비정상 신호 발생을 계기로 공급사와 협의하여 신호 품질 개선 목적의 설계변경을 추진하고 변경품을 공급받았다.",
+      "qualification": "개선 목적 및 협의의 존재를 인정한다. 상세 기술방식과 적용 범위 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "OBSERVED_FACT",
+      "section": "3.1.1–3.1.2",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "printed_pages": [
+        3,
+        4
+      ],
+      "statement": "추가 비정상 신호가 발생했고 변경품 적용 후에도 비정상 상태가 관찰돼 운영자가 공급사에 원인을 문의했다.",
+      "qualification": "신호별 시간·채널·정량값 및 실제 작업 순서는 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "printed_pages": [
+        4,
+        5
+      ],
+      "statement": "공급사는 운영자 문의 후 설계도면을 검토하여 오류를 확인하고 수정도면을 송부했다.",
+      "qualification": "공급사의 사후 확인 조치를 인정한다. 도면·부품 배치·정정 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.1–3.1.2",
+      "pdf_pages": [
+        4,
+        6
+      ],
+      "printed_pages": [
+        3,
+        5
+      ],
+      "statement": "조사팀은 교체 관련 작업 중 발생한 비정상 계측신호에 의해 원자로가 자동정지된 사실을 확인했다.",
+      "qualification": "사건 결과를 일반화해 기술한다. 보호논리 및 설비별 상태·작업 순서 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2",
+      "pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "정지 후 확인에서 공급품의 제작상 오류가 확인됐다.",
+      "qualification": "실물 확인 사실에 한정. 부품 제원·오류 재현 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2",
+      "pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "재현시험은 일부 이상현상을 확인했으나 다른 이상현상은 동일하게 재현하지 못했다.",
+      "qualification": "전부 재현 성공이라고 표현하지 않는다. 시험 방법 및 현상별 세부 구성은 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "printed_pages": [
+        5,
+        6
+      ],
+      "statement": "조사팀은 재현되지 않은 현상에 대한 추가 분석을 요구했고 운영자가 제출한 분석자료를 검토했다.",
+      "qualification": "직접 재현 근거와 분석적 설명 가능성을 구분한다. 실제 회로 동작은 재현하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        6
+      ],
+      "statement": "조사팀은 다른 원인 가능성에 대한 추가 점검도 요구했으며 해당 점검에서 사건을 설명할 직접적인 특이사항은 확인되지 않았다.",
+      "qualification": "점검 범위 내 결과이지 모든 다른 가능성의 절대적 배제는 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2; 6",
+      "pdf_pages": [
+        7,
+        11
+      ],
+      "printed_pages": [
+        6,
+        10
+      ],
+      "statement": "조사팀은 설계도면 오류로 인한 제작 결함의 영향을 사건 원인으로 평가한 운영자의 분석이 적절하다고 판단했다.",
+      "qualification": "조사팀의 공식 결론과 일부 현상의 직접 재현 실패를 함께 보존한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        6
+      ],
+      "statement": "공급사의 설계도면 수정 과정에서 오류가 발생했고 설계 확인·검토 과정에서 식별되지 않았다.",
+      "qualification": "설계 확인·검토가 전혀 없었다는 의미가 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        6
+      ],
+      "statement": "공급사는 기존 절차에 따른 성능시험을 수행했으나 설계변경으로 추가된 기능에 대한 시험항목을 반영하지 않아 제작 오류가 발견되지 않았다.",
+      "qualification": "시험 부재가 아니라 변경사항에 대한 검증 범위 미흡. 기술시험 방법은 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2",
+      "pdf_pages": [
+        8
+      ],
+      "printed_pages": [
+        7
+      ],
+      "statement": "운영자의 수리 후 품질활동에서 요구된 재검사 및 재시험이 누락되어 품질보증계획서 요건을 충족하지 못했고 검사지적사항이 발급됐다.",
+      "qualification": "운영자 품질보증의 독립적인 지적사항. 이 누락 자체를 자동정지의 직접 기술원인으로 단정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3",
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "printed_pages": [
+        7,
+        8
+      ],
+      "statement": "정지 후 계통·기기는 설계된 바에 따라 작동했고 발전소는 안정 상태를 유지했다고 평가됐다.",
+      "qualification": "당시 과도상태의 평가 범위. 현재 안전성 보증이 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3",
+      "pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        8
+      ],
+      "statement": "운전원은 절차에 따른 진단 및 대응을 적절하게 수행한 것으로 평가됐다.",
+      "qualification": "긍정 대응을 별도 보존한다. 실제 운전 절차·조작방법은 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3",
+      "pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        8
+      ],
+      "statement": "정지 이후 비정상 방사선 증가나 관련 경보 및 환경으로의 부적절한 방출은 없었다고 확인됐다.",
+      "qualification": "조사 당시 측정·기록 검토에 한정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4",
+      "pdf_pages": [
+        11
+      ],
+      "printed_pages": [
+        10
+      ],
+      "statement": "조사팀은 설계·제작 결함에 따른 복수 기기의 동시 기능 저하를 공통원인고장(CCF) 사건 범주로 분류했다.",
+      "qualification": "공식 범주를 보존하되 실제 구성, 수량별 보호 논리 및 고장 유발 방법은 제외. INES 등급과 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4",
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "printed_pages": [
+        8,
+        9
+      ],
+      "statement": "운영자는 기능시험 및 관련 점검을 단기조치로 완료했고 건전성 확인을 위한 감시 설비를 설치했다.",
+      "qualification": "감시 설비 설치 완료와 향후 운영 예정 구분. 시험 방법·설비 구성 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F21",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4",
+      "pdf_pages": [
+        10
+      ],
+      "printed_pages": [
+        9
+      ],
+      "statement": "제작사 정밀점검, 종합 정밀점검, 예비품 확보, 제작사 품질보증 점검 및 관련 추가 검토가 장기조치로 계획됐다.",
+      "qualification": "보고서 발행 당시 예정이며 실제 이행·효과는 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F22",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4; 4–6",
+      "pdf_pages": [
+        10,
+        11,
+        12
+      ],
+      "printed_pages": [
+        9,
+        10,
+        11
+      ],
+      "statement": "조사팀은 당시 필수안전기능이 유지됐으며 재발방지대책이 타당하고 별도 보완요구사항이 없으며 기술적 측면에서 재가동에 문제가 없다고 판단했다.",
+      "qualification": "조사 당시 평가와 실제 재가동 승인·현재 이행효과·안전문화 판정을 구분한다.",
+      "review_status": "PENDING"
+    }
+  ]
+}

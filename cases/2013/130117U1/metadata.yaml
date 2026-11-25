@@ -1,0 +1,33 @@
+schema_version: "1.0"
+event_id: "130117U1"
+report_number: "2013-1"
+title: "울진1호기 출력 고증가율 신호 발생에 의한 원자로 자동정지"
+event_date: "2013-01-17"
+report_date: "2013-01-25"
+plant:
+  site: 울진
+  unit: 1
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 12
+  sha256: b7d1693b6d9e22b589f2f5efcd0389ce09901b8a4278c9e5a789f07e9882b20d
+  source_size_bytes: 414786
+operating_mode: "출력운전"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [LA5, WP2, WP3, WP1, WP4, PI2]
+  additional_review_attributes: [PA1, PA2, PA3, QA1, QA2, QA3, QA4, CO1, CO2, CO3, LA1, LA6, LA7, DM1, DM2, CL1, CL2, CL4, PI1, PI3, PI4]
+  insufficient_or_low_relevance_attributes: [CO4, LA2, LA3, LA4, LA8, DM3, WE1, WE2, WE3, WE4, CL3, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null

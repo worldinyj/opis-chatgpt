@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "130117U1",
+  "artifact_id": "DA-130117U1",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "변경의 완료는 검증 근거로 증명된다",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2013-1",
+    "report_date": "2013-01-25",
+    "sha256": "b7d1693b6d9e22b589f2f5efcd0389ce09901b8a4278c9e5a789f07e9882b20d"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "변경된 문서의 정확성과 검토 근거를 누가 확인하며, 같은 변경이 여러 품목에 적용되는 경우 어떤 관리 증거가 필요한가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "기존 시험과 변경된 기능의 검증을 어떻게 구분하며, 공급사와 운영자의 품질보증 책임을 어떤 기록으로 확인하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "일부 현상이 재현되지 않는 경우 확인된 사실, 분석적 설명, 남은 불확실성을 어떻게 기록하고 검토하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 공급사가 변경된 문서와 제품을 전달했다. 기존 시험 기록은 있지만 변경사항의 검증 근거가 명확하지 않다. 문서 검토와 인수 확인 책임을 토론한다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 변경 검토, 품질요건 확인 및 종료 근거의 책임을 정한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 조사 중 일부 현상은 재현됐지만 다른 현상은 재현되지 않았다. 팀은 사실과 추정, 추가 근거의 필요성을 구분한다.",
+      "learning_ids": [
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 확인된 근거와 남은 불확실성, 후속 평가 책임을 기록한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "변경된 문서의 검토·승인 근거와 적용 범위 확인 기록을 요청한다.",
+      "verification": "변경 검토·승인 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "변경된 기능과 승인된 품질요건의 검증 근거를 질문한다.",
+      "verification": "검증 계획·승인 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "확인 사실과 추정, 미확인 사항을 구분해 공식 검토 기록에 남긴다.",
+      "verification": "문제평가 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "변경 문서 및 적용 대상의 검토·승인 추적성을 표본 점검한다.",
+      "verification": "변경관리·문서 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "공급사 검증과 운영자 품질확인 기록의 충족 근거를 표본 평가한다.",
+      "verification": "품질보증·검증 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "원인평가와 미확인 사항의 후속 검토 및 조치 효과를 추적한다.",
+      "verification": "원인평가·시정조치 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}
