@@ -1,0 +1,326 @@
+{
+  "schema_version": "2.0",
+  "event_id": "160227HB1",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2016-04",
+    "report_date": "2016-03-29",
+    "sha256": "fea42f164f8751a6a640ec8b1027f5ea3d64b02a316e924f9154b1f98d684f18"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "요약; 1; 3.1",
+      "printed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "statement": "2016년 2월 27일 정상운전 중 복수기 진공상실로 터빈발전기 및 원자로가 자동정지했고 사건 과도 중 별도의 안전설비 작동불능이 발생했다.",
+      "qualification": "보고규정상 연속된 두 사건을 한 보고서 안에서 구분한다. 상세 계통 및 조작 순서 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "OBSERVED_FACT",
+      "section": "3.1",
+      "printed_pages": [
+        3,
+        4
+      ],
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "statement": "운전원과 정비원이 이상을 확인하여 긴급조치를 수행했으나 자동정지가 발생하였다.",
+      "qualification": "긴급조치 효과의 한계와 대응 노력은 구별한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1; 3.3.1; 5",
+      "printed_pages": [
+        4,
+        5,
+        8,
+        14
+      ],
+      "pdf_pages": [
+        5,
+        6,
+        9,
+        15
+      ],
+      "statement": "일부 설비의 이상에도 정상 작동한 다른 설비로 원자로 냉각이 유지되었으며 필수안전기능은 허용범위 안에서 유지되었다.",
+      "qualification": "안전설비 이상이 없었다거나 모든 설비가 정상 작동했다는 뜻은 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "사업자는 장기간 사용에 따른 신축이음매 경년열화 및 파손을 직접원인으로 평가했고 조사팀은 재료 손상 메커니즘 평가를 타당하다고 판단했다.",
+      "qualification": "재료·형상·손상 상세 및 실제 취약점 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "해당 부품은 상업운전 이후 교체되지 않았고 제작사 매뉴얼에 사용수명이 명시되지 않았다. 점검·교체주기 미설정이 관리상의 원인으로 제시되었다.",
+      "qualification": "제작사 매뉴얼의 정보 부족과 자체 관리 책임을 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "기존 점검 방식의 유효성 검토가 미흡했고 확인된 손상 메커니즘을 탐지할 적절한 점검이 시행되지 않았다고 확인하였다.",
+      "qualification": "모든 점검이 없었다고 일반화하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        6,
+        7
+      ],
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "statement": "설비 상태의 이상을 사전에 파악할 감시수단이 충분하지 않았다는 관리상 원인이 확인되었다.",
+      "qualification": "구체 감시 구성·설정치 및 설비별 비교 상세 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        6,
+        7
+      ],
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "statement": "유사 호기의 운전경험은 해당 프로세스에서 별도 시정조치계획 없이 종결되었고 사업자는 별도의 자체계획으로 교체계획을 수립하였다.",
+      "qualification": "교체계획 자체가 없었다거나 경험을 완전히 무시했다고 단정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "조사팀은 사업자가 기여원인으로 분류한 관리상의 사항을 근본원인으로 평가하는 것이 타당하다고 명시하였다.",
+      "qualification": "사업자의 최초 원인 분류와 조사팀의 판단을 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "조사팀은 향후 운영개선프로그램의 원인분석에 운전경험 관련 설비개선 전까지의 감시·대응계획 등을 포함하여 더 체계적으로 분석할 필요가 있다고 판단했다.",
+      "qualification": "교육적 교훈은 개선 전 기간의 위험관리와 추적에 한정하며 실제 운전 절차를 제시하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.2",
+      "printed_pages": [
+        7,
+        8
+      ],
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "statement": "별도 안전설비의 정지원인은 관련 기기의 비정상 작동으로 평가되었으며 조사팀은 사건 후 시험 및 분해점검에 근거한 평가를 타당하다고 판단하였다.",
+      "qualification": "구체 작동 조건·시험 수치 및 정지 메커니즘 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "SOURCE_LIMITATION",
+      "section": "3.2.2",
+      "printed_pages": [
+        7,
+        8
+      ],
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "statement": "기록계 부재로 사건 당시 관련 기기의 세부 작동 정도는 확인할 수 없었고, 제어유 품질관리는 해외사례에 근거한 신뢰성 향상 필요로 검토되었다.",
+      "qualification": "사후 시험을 당시 직접 측정값으로 취급하지 않으며 실제 제어유 오염을 원인으로 확정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3.1",
+      "printed_pages": [
+        8
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "statement": "별도 비안전 전원 계통의 일부 절체 실패가 있었으나 복구되었고 나머지 전원절체와 주요 안전기능 유지가 확인되었다.",
+      "qualification": "설비 식별자·고장 세부·복구방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3.2",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "statement": "조사팀은 비정상 조건에서의 운전절차 수행을 대체로 적절하게 평가했으나 일부 이상상태 미인지와 별도 필수안전기능 상태추적절차 미수행을 확인했다.",
+      "qualification": "다른 수단을 통한 안전기능 확인은 이루어졌다. 전체 절차 불이행이나 안전기능 상실로 확대하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3.2",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "statement": "안정상태 진입 후 지원조가 주요 계통의 상태를 확인하는 과정에서 설비 이상을 인지한 것은 적절하다고 평가되었다.",
+      "qualification": "긍정적인 조직 지원 행동으로 기록한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3.2",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "statement": "조사팀은 정상화 판단 개념과 지원조의 역할·책임·권한·보고체계·의사소통 방법 등의 명확성 부족, 이에 따른 별도 확인조치 미수행을 확인했다.",
+      "qualification": "개인 책임 또는 고의적 정보 누락을 단정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4.1",
+      "printed_pages": [
+        9,
+        10
+      ],
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "statement": "사업자는 관련 설비의 교체, 예방정비프로그램 반영과 감시수단 확보 등 단기조치를 완료하고 전사 점검방안 및 장기 CAP 추적관리 개선 등을 계획했다.",
+      "qualification": "완료와 계획을 분리하며 타 호기 교체 완료로 확대하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4.2",
+      "printed_pages": [
+        10,
+        11,
+        12
+      ],
+      "pdf_pages": [
+        11,
+        12,
+        13
+      ],
+      "statement": "별도 안전설비에 대한 정비·운전가능성 시험과 성능기준 마련 등 단기조치 및 장기 신뢰성 향상 대책을 제시했다.",
+      "qualification": "상세 정비·시험 조건, 설계 및 수치 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "OBSERVED_FACT",
+      "section": "3.4.3",
+      "printed_pages": [
+        12,
+        13
+      ],
+      "pdf_pages": [
+        13,
+        14
+      ],
+      "statement": "사건대응 능력 관련 대책으로 정지 후 상태진단 지침과 경보 개선 계획이 제시되었다.",
+      "qualification": "계획의 수립과 현재 이행효과를 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4; 5",
+      "printed_pages": [
+        13,
+        14
+      ],
+      "pdf_pages": [
+        14,
+        15
+      ],
+      "statement": "보완요구사항은 없었으며 조사팀은 주요 운전변수 안정 유지, 방사성물질 누출 등 안전 관련 사항이 없었음을 확인하고 당시 재발방지대책과 기술적 재가동을 적절하다고 판단했다.",
+      "qualification": "현재 발전소 안전성 또는 안전문화 전문가 판정으로 일반화하지 않는다.",
+      "review_status": "PENDING"
+    }
+  ]
+}

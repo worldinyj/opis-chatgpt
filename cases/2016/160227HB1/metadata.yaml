@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "160227HB1"
+report_number: "2016-04"
+title: "한빛 1호기 복수기 진공상실에 의한 터빈발전기 및 원자로 자동정지"
+event_date: "2016-02-27"
+report_date: "2016-03-29"
+plant:
+  site: 한빛
+  unit: 1
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 15
+  sha256: fea42f164f8751a6a640ec8b1027f5ea3d64b02a316e924f9154b1f98d684f18
+  source_size_bytes: 295319
+operating_mode: "출력운전"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP1, CL1, PI2, PI3, WP4, LA6, CO1]
+  additional_review_attributes: [PA1, PA2, PA3, QA4, CO3, LA7, DM1, DM2, DM3, CL2, CL4, PI1, PI4, WP3]
+  insufficient_or_low_relevance_attributes: [QA1, QA2, QA3, CO2, CO4, LA1, LA2, LA3, LA4, LA5, LA8, WE1, WE2, WE3, WE4, CL3, RC1, RC2, WP2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false

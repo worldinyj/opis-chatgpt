@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "160227HB1",
+  "artifact_id": "DA-160227HB1",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "예방정비·운전경험·팀 대응의 실효성",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2016-04",
+    "report_date": "2016-03-29",
+    "sha256": "fea42f164f8751a6a640ec8b1027f5ea3d64b02a316e924f9154b1f98d684f18"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "제작사 정보가 충분하지 않을 때 예방정비 계획과 점검의 유효성을 어떤 근거로 확인하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "장기 개선계획이 있을 때 운전경험 반영의 종결과 효과 검증은 어떻게 구분하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "비정상 상황에서 운전조와 지원조의 역할·보고·확인 책임은 어떻게 명확히 하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 오래 사용한 설비의 교체계획이 수립되었으나 점검의 유효성과 과제 종결 근거가 불명확하다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 승인된 기준, 적용성 검토, 과제 추적 및 효과 확인 근거를 논의한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 비정상 상황이 안정화된 뒤 지원팀이 별도 품질 이상을 발견한다.",
+      "learning_ids": [
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 역할과 권한, 확인 책임 및 공식 보고체계의 명확성을 논의한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "승인된 예방정비 계획의 검토 근거를 확인하고 불명확한 사항을 공식적으로 제기한다.",
+      "verification": "계획 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "운전경험의 적용성 및 조치 추적 상태를 확인한다.",
+      "verification": "경험 검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "자신의 역할과 승인 절차에 따른 확인·보고 책임을 확인한다.",
+      "verification": "역할 및 확인 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "정비기준과 점검의 유효성을 표본 검토한다.",
+      "verification": "승인된 기준 기반 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "장기 개선과제의 책임·기한·효과 검증 상태를 검토한다.",
+      "verification": "CAP 및 효과 검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "가상 훈련을 통해 역할·보고·소통 및 상태 확인의 적정성을 평가한다.",
+      "verification": "훈련·평가 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}
