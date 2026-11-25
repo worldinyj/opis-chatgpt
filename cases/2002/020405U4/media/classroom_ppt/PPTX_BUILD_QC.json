@@ -1,0 +1,16 @@
+{
+  "event_id": "020405U4",
+  "slides": 16,
+  "notes": 16,
+  "total_minutes": 52,
+  "editable_shapes": 277,
+  "zip_members": 75,
+  "zip_crc": "PASS",
+  "provenance": "PILOT-33 editable OOXML template; all nonempty slide text and notes replaced, layout retained; not generic.mjs execution.",
+  "actual_render": "PENDING",
+  "generic_generator_execution": "NOT_RUN",
+  "expert_approved": false,
+  "can_ship": false,
+  "pptx_blob": "e645f76c5de553677022460c2a5b18f7b06975ae",
+  "pptx_bytes": 250728
+}
