@@ -21,5 +21,11 @@
     "passed": 0,
     "total": 14
   },
-  "next_step": "OUTPUT_AND_FORMAL_CONTRACT_QC"
+  "next_step": "BATCH_OUTPUT_AND_FORMAL_QC",
+  "contract_crosscheck": {
+    "passed": 14,
+    "total": 14,
+    "formal_status": "PENDING"
+  },
+  "final_report_acquisition": "PENDING"
 }

@@ -27,8 +27,8 @@
   ],
   "pending_pdf_count": 11,
   "pending_date_groups": 11,
-  "next_list_date": "2003-12-29",
-  "next_queue_id": "ROOT-032",
+  "next_list_date": "2002-04-05",
+  "next_queue_id": "ROOT-033",
   "items": [
     {
       "queue_order": 1,
@@ -562,7 +562,7 @@
       "event_id": "031229Y5",
       "verified_event_date": "2003-12-29",
       "from_prior_table": true,
-      "notes": "1차 조사보고서 14쪽, 24 사실, 3 학습, 40속성 8/18/14(긍정 DM2 포함), 토론·실천 및 영상 43장면/270초 설계 등록. 최종판·PPT/A4/정식 계약·전문가 검토 대기. PPTX 16장/52분 및 진행자 가이드 등록, ZIP CRC 검사 완료. 실제 화면 렌더·정식 계약 대기.",
+      "notes": "1차 조사보고서 14쪽, 24 사실, 3 학습, 40속성 8/18/14(긍정 DM2 포함), 토론·실천 및 영상 43장면/270초 설계 등록. 최종판·PPT/A4/정식 계약·전문가 검토 대기. PPTX 16장/52분 및 진행자 가이드 등록, ZIP CRC 검사 완료. 실제 화면 렌더·정식 계약 대기. 계약 교차검사 14/14 및 원본 14쪽 축소 이미지 검토. 최종 조사보고서 확보, A4·PPT 실제 화면 렌더·정식 계약 대기.",
       "source_sha256": "52201ea999e1c9f61b2b3130056ded81162abb492f839b00227024d689035a0c"
     },
     {
@@ -720,6 +720,12 @@
       "queue_id": "ROOT-031",
       "event_id": "051106W1",
       "task": "PPT_A4_FORMAL_CONTRACT_QC",
+      "status": "PENDING"
+    },
+    {
+      "queue_id": "ROOT-032",
+      "event_id": "031229Y5",
+      "task": "FINAL_REPORT_ACQUISITION_PPT_A4_FORMAL_CONTRACT_QC",
       "status": "PENDING"
     }
   ]
