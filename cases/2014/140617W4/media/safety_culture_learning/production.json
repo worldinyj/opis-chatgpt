@@ -1,0 +1,734 @@
+{
+  "schema_version": "2.0",
+  "event_id": "140617W4",
+  "artifact_id": "SC-140617W4",
+  "artifact_type": "SAFETY_CULTURE_LEARNING",
+  "title": "보수 완료는 문제 해결의 끝이 아니다",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2014-8",
+    "report_date": "2014-07-11",
+    "sha256": "f578b6d2433e71b59b1fc03ad0abb4548737ee1a050c3496f1d1a351f5f7777f"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "16:9",
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "language": "ko",
+    "style": "controlled graphic + hypothetical 3D brick miniature"
+  },
+  "timing": {
+    "target_seconds": 120
+  },
+  "learning_objectives": [
+    "종합 원인평가와 유사 경험 활용을 구분하여 반증 및 대안 가설을 확인한다.",
+    "조치 이행과 재발방지 효과를 구분하고 위험에 맞는 후속 점검을 검토한다.",
+    "설계 검토, 현장 검증, 조치 후 확인의 의미를 구분하고 긍정 대응을 인정한다."
+  ],
+  "references": [
+    {
+      "id": "LOC-A",
+      "kind": "LOCATION",
+      "description": "가상 브릭 교육 회의실; 실제 원전 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-A",
+      "kind": "CHARACTER",
+      "description": "가상 담당자, 청회색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-B",
+      "kind": "CHARACTER",
+      "description": "가상 검토자, 짙은 청색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "OBJ-A",
+      "kind": "OTHER",
+      "description": "빈 문서 카드와 일반 기록철; 실제 계기·도면 없음.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "보수 완료는 끝이 아니다",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 두 문서 카드 사이에 물음표. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "보수를 마쳤다면, 문제가 해결된 것일까요?",
+      "overlay": [
+        "보수 완료는 끝이 아니다",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "같은 문제의 재발",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F04",
+        "F01"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 2011·2012·2014 연도 카드. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "보고서에는 선행 결함 이후 재발한 사건이 기록돼 있습니다.",
+      "overlay": [
+        "같은 문제의 재발",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "재발원인 평가",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F09",
+        "F10"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 두 가지 조사 판단 카드. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "최초 원인분석과 후속 검사주기의 미흡이 지적됐습니다.",
+      "overlay": [
+        "재발원인 평가",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "적절한 대응도 있었다",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F11",
+        "F13"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 초기 대응과 정비 확인 체크 카드. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "초기 이상 대응과 정비 후 확인도 적절하게 평가됐습니다.",
+      "overlay": [
+        "적절한 대응도 있었다",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "원인평가의 범위",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "PI2",
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 가설 카드 옆에 반증 카드. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "첫 원인가설이 최종 원인이라고 단정하지 않습니다.",
+      "overlay": [
+        "원인평가의 범위",
+        "AI 교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S06",
+      "title": "운전 경험의 활용",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "PI2",
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 과거 기록과 현재 검토의 연결. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "선행 경험은 새로운 판단을 위한 증거로 활용합니다.",
+      "overlay": [
+        "운전 경험의 활용",
+        "AI 교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S07",
+      "title": "가상 원인 재검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "PI2",
+        "CL1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 일반 제조시설 교육회의실, 3D 브릭 인물: 두 브릭 인물이 책상 위 빈 기록 카드를 각각 가리킴. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "가상 팀이 이전 검토 기록과 새 증거를 비교합니다.",
+      "overlay": [
+        "가상 원인 재검토",
+        "가상 교육 상황 · 실제 사건 아님"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CONTEXT_SHIFT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S08",
+      "title": "조치와 효과 구분",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "PI",
+        "WP"
+      ],
+      "attribute_codes": [
+        "PI3",
+        "WP1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 완료 체크와 효과 확인을 나란히 표시. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "조치 완료와 재발 방지 효과는 별도의 증거가 필요합니다.",
+      "overlay": [
+        "조치와 효과 구분",
+        "AI 교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S09",
+      "title": "후속 점검 계획",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "PI",
+        "WP"
+      ],
+      "attribute_codes": [
+        "PI3",
+        "WP1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 위험 평가·점검계획·확인 기록의 추상 카드. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "후속 점검의 적절성은 위험과 근거로 검토합니다.",
+      "overlay": [
+        "후속 점검 계획",
+        "AI 교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S10",
+      "title": "가상 효과 확인",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "PI",
+        "WP"
+      ],
+      "attribute_codes": [
+        "PI3",
+        "WP1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 일반 제조시설 교육회의실, 3D 브릭 인물: 두 인물이 서로 다른 빈 기록철을 비교; 장비 없음. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "가상 팀이 완료 기록과 효과 확인 기록을 분리합니다.",
+      "overlay": [
+        "가상 효과 확인",
+        "가상 교육 상황 · 실제 사건 아님"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CONTEXT_SHIFT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S11",
+      "title": "문서와 현장",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 문서 검토와 현장 확인 카드; 설비 도면 없음. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "설계 적합성과 현장 적합성을 각각 확인해야 합니다.",
+      "overlay": [
+        "문서와 현장",
+        "AI 교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S12",
+      "title": "현장 검증의 가치",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 확인·보고·검증 문서 아이콘. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "현장 상태 확인과 조치 후 검증을 연결합니다.",
+      "overlay": [
+        "현장 검증의 가치",
+        "AI 교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S13",
+      "title": "긍정적 대응 학습",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 긍정 대응 체크 카드. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "잘 이루어진 초기 대응과 검증도 함께 학습합니다.",
+      "overlay": [
+        "긍정적 대응 학습",
+        "AI 교육적 해석"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S14",
+      "title": "핵심 후보 5개",
+      "duration_seconds": 18,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "ATTRIBUTE_SUMMARY",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "PI",
+        "CL",
+        "WP"
+      ],
+      "attribute_codes": [
+        "PI2",
+        "CL1",
+        "PI3",
+        "WP1",
+        "WP2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: PI2·PI3·CL1·WP1·WP2 5개를 3원칙별 3열 카드로 18초 유지. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "문제 평가, 문제 해결, 운전 경험, 작업 관리, 설계 여유도. 다섯 속성은 교육용 후보이며 공식 판정이 아닙니다.",
+      "overlay": [
+        "핵심 후보 5개 · 공식 평가 아님",
+        "PI2 문제 평가",
+        "PI3 문제 해결",
+        "CL1 운전 경험",
+        "WP1 작업 관리",
+        "WP2 설계 여유도"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S15",
+      "title": "가상 현장 확인",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP2"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 일반 제조시설 교육회의실, 3D 브릭 인물: 동일한 브릭 인물들이 빈 확인 문서 두 장을 비교. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "가상 팀이 문서와 현장 확인 기록을 함께 검토합니다.",
+      "overlay": [
+        "가상 현장 확인",
+        "가상 교육 상황 · 실제 사건 아님"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CONTEXT_SHIFT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S16",
+      "title": "가상 학습 공유",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "PI",
+        "CL",
+        "WP"
+      ],
+      "attribute_codes": [
+        "PI2",
+        "CL1",
+        "PI3",
+        "WP1",
+        "WP2"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 일반 제조시설 교육회의실, 3D 브릭 인물: 두 인물이 세 개의 빈 카드와 기록철을 함께 바라봄. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "가상 팀이 원인과 조치, 효과 확인 근거를 공유합니다.",
+      "overlay": [
+        "가상 학습 공유",
+        "가상 교육 상황 · 실제 사건 아님"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CONTEXT_SHIFT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S17",
+      "title": "우리 업무 돌아보기",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "REFLECTION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "PI",
+        "CL",
+        "WP"
+      ],
+      "attribute_codes": [
+        "PI2",
+        "CL1",
+        "PI3",
+        "WP1",
+        "WP2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 한 문장 질문 카드. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "우리 업무는 완료와 효과를 구분해 확인하고 있습니까?",
+      "overlay": [
+        "우리 업무 돌아보기",
+        "교육용 성찰"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S18",
+      "title": "보수 이후의 책임",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 공통 메시지와 미승인 교육 초안 표기. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음.",
+      "narration": "보수 완료를 넘어 재발 방지 효과까지 확인합시다.",
+      "overlay": [
+        "보수 이후의 책임",
+        "KINS 2014-8 · 교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

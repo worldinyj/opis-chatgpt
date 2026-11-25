@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0",
+  "job_id": "SC-140617W4-BATCH01",
+  "event_id": "140617W4",
+  "artifact_id": "SC-140617W4",
+  "manifest_revision": 1,
+  "route": "GEMINI_TASKS_BATCH",
+  "aspect_ratio": "16:9",
+  "jobs": [
+    {
+      "id": "SC-140617W4-S07",
+      "scene_id": "S07",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick training meeting room, neutral two staff, blank evidence cards. 가상의 일반 제조시설 교육회의실, 3D 브릭 인물: 두 브릭 인물이 책상 위 빈 기록 카드를 각각 가리킴. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음. Approved references only, no real facility, equipment, diagrams, instruments, logo or text, generous caption safe area.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S07_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-140617W4-S10",
+      "scene_id": "S10",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick training meeting room, neutral two staff, blank evidence cards. 가상의 일반 제조시설 교육회의실, 3D 브릭 인물: 두 인물이 서로 다른 빈 기록철을 비교; 장비 없음. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음. Approved references only, no real facility, equipment, diagrams, instruments, logo or text, generous caption safe area.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S10_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-140617W4-S15",
+      "scene_id": "S15",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick training meeting room, neutral two staff, blank evidence cards. 가상의 일반 제조시설 교육회의실, 3D 브릭 인물: 동일한 브릭 인물들이 빈 확인 문서 두 장을 비교. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음. Approved references only, no real facility, equipment, diagrams, instruments, logo or text, generous caption safe area.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S15_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-140617W4-S16",
+      "scene_id": "S16",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick training meeting room, neutral two staff, blank evidence cards. 가상의 일반 제조시설 교육회의실, 3D 브릭 인물: 두 인물이 세 개의 빈 카드와 기록철을 함께 바라봄. 실제 원전·설비·인물·구조·취약점·운전·정비·조작 방법 및 구체 수치 재현 없음. Approved references only, no real facility, equipment, diagrams, instruments, logo or text, generous caption safe area.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S16_still_v01.png",
+      "attempt": 1
+    }
+  ],
+  "results": []
+}
