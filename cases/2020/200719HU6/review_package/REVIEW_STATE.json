@@ -7,7 +7,7 @@
   "expert_attribute_review": "USER_SEPARATE_REVIEW_PENDING",
   "independent_review": "PENDING",
   "can_ship": false,
-  "media_status": "PLANNED",
+  "media_status": "SCRIPT_DRAFT",
   "ppt_status": "PLANNED",
   "paid_generation_calls": 0,
   "external_submissions": 0
