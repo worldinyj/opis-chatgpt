@@ -1,0 +1,314 @@
+{
+  "schema_version": "2.0",
+  "event_id": "140228Y2",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2014-3",
+    "report_date": "2014-03-07",
+    "sha256": "4eb7c17d9d60fb5c15f3a986d30c543d4d34e0262cefdc49c3bebdf58fc1f9e7"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "요약; 1–2",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        1
+      ],
+      "statement": "2014년 2월 28일 한빛2호기 정상출력운전 중 지진발생시 원자로 자동정지 시스템 기능시험 과정에서 원자로 정지 및 안전주입이 발생했다.",
+      "qualification": "발생일 및 사건 범주 확인. 시험 순서, 설정치, 설비 조작 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "OBSERVED_FACT",
+      "section": "1",
+      "pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        1
+      ],
+      "statement": "원자로정지 및 비상노심냉각계통 작동에 해당하는 보고사항이며 재가동 사전안전성 확인 및 승인 대상 사건이었다.",
+      "qualification": "보고규정상 분류이며 INES 등급을 뜻하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 3.1.1–3.1.2",
+      "pdf_pages": [
+        2,
+        4,
+        5
+      ],
+      "printed_pages": [
+        2,
+        3
+      ],
+      "statement": "조사팀은 전원 관련 회로의 설계오류를 사건의 직접 기술적 원인으로 확인했다.",
+      "qualification": "회로 접속 구조·구체적 상태·시험 조건·재현 방법은 제외한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.1",
+      "pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        2
+      ],
+      "statement": "조사팀은 원자로 정지 이후 과도상태와 안전주입 신호의 원인평가가 타당하다고 판단하고 관련 설계개념의 타당성 평가를 요구했다.",
+      "qualification": "공식 평가와 추가 검토 요구를 구분한다. 신호 논리·설정치·시간 순서 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3 회로 설치",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "printed_pages": [
+        3,
+        4
+      ],
+      "statement": "조사팀은 설치 후 기존 인수시험 및 기능시험 이력을 검토했고 해당 오류가 사전에 식별되지 못한 이유를 확인했다.",
+      "qualification": "시험이 없었다는 뜻은 아니다. 시험별 상세 조건과 오류 노출 방식 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3 설계변경 관리",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "printed_pages": [
+        3,
+        4
+      ],
+      "statement": "기본설계와 상세설계가 서로 다른 조직에 의해 이루어졌으며 공급사의 설계 확인 과정에서 오류가 식별되지 않았다.",
+      "qualification": "조사 당시 확인된 설계 확인 및 관리 범위에 한정한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3 설계변경 관리",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "printed_pages": [
+        3,
+        4
+      ],
+      "statement": "타 발전소에서 시공 중 확인된 개선사항이 이미 시공된 발전소에 반영되지 않았고 공급사의 수정내용 미통보가 확인됐다.",
+      "qualification": "호기별 취약점 현황이나 설비 설치 시점·세부 변경내용은 제외한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3 설계변경 관리",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "사업자의 설계변경관리 절차에는 초기 승인 이후 추가 개정내용의 다른 원전 전파 절차가 미비했다.",
+      "qualification": "설계변경관리 체계 전체의 실패 또는 개별 리더 책임을 확정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3 시험관리 및 절차",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "조사팀은 해당 기능시험이 중요시험으로 분류되지 않았음을 확인했다.",
+      "qualification": "원자력안전 영향에 맞는 시험 분류의 문제이며 구체 시험수행 방식은 제외한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3 시험관리 및 절차",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "작업전회의에서 원자로정지 유발 가능성 등 중요 사항이 사전에 검토되지 않았다.",
+      "qualification": "작업전회의 자체가 없었다는 뜻은 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3 시험관리 및 절차",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "조사팀은 시험 절차에 관련 설비 상태 확인 단계가 충분히 반영되지 않았다고 확인했다.",
+      "qualification": "개인의 절차 미준수와 절차서 품질 문제를 구분한다. 확인 대상·방법의 상세는 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3 시험관리 및 절차",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "시험원과 운전원이 활용하던 표시 및 경보 설계에 상태 인지를 어렵게 하는 미흡한 점이 확인됐다.",
+      "qualification": "경보 명칭·동작 조건·지속시간·조작 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3 시험관리 및 절차",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "경보절차서의 설명과 실제 경보논리 사이의 차이가 확인됐으며 면담에서 운전원의 상태 인지 어려움이 확인됐다.",
+      "qualification": "특정 개인의 주의력이나 동기를 단정하지 않는다. 실제 경보논리의 상세 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2",
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "printed_pages": [
+        5,
+        6
+      ],
+      "statement": "안전주입 이후 안전관련 계통·기기가 설계된 바대로 작동한 것으로 조사팀은 확인했다.",
+      "qualification": "당시 조사 범위에 한정하며 설비별 거동·작동순서 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2",
+      "pdf_pages": [
+        8
+      ],
+      "printed_pages": [
+        6
+      ],
+      "statement": "조사팀은 상황진단, 비상운전절차서에 따른 대응 및 운전제한조건 회복 등 운전원 조치를 적절하다고 평가했다.",
+      "qualification": "절차상 조작·정량기준·시각은 제외한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2",
+      "pdf_pages": [
+        8
+      ],
+      "printed_pages": [
+        6
+      ],
+      "statement": "조사팀은 당시 방사선 감시 결과에서 사건 전 수준이 유지되어 소내·외 방사선 영향이 없다고 판단했다.",
+      "qualification": "당시 감시 범위에 한정하며 모든 시점의 안전을 입증하는 것은 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3",
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "printed_pages": [
+        6,
+        7
+      ],
+      "statement": "압력·온도 과도이력과 열응력·피로 평가 결과, 조사팀은 안전주입이 주요기기 구조 건전성에 영향을 미치지 않는다고 판단했다.",
+      "qualification": "평가 결론만 반영하고 기술 수치 전수 검산 및 상세 계산은 하지 않았다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4; 5",
+      "pdf_pages": [
+        9,
+        11
+      ],
+      "printed_pages": [
+        7,
+        9
+      ],
+      "statement": "사업자는 오류 수정, 경보 개선, 중요시험 분류 및 절차 개정, 종사자 교육과 기능 검증 등 단기조치를 완료했다.",
+      "qualification": "2014년 보고서의 완료 기록이며 구체 조치 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4; 5",
+      "pdf_pages": [
+        9,
+        10,
+        11
+      ],
+      "printed_pages": [
+        7,
+        8,
+        9
+      ],
+      "statement": "사업자는 설계변경 반영체계와 구매관리 개선, 공급사 품질관리, 시험 표시 개선, 설계 타당성 평가 및 유사 설비 대책을 중장기계획으로 수립했다.",
+      "qualification": "현재 이행 여부 및 효과 미확인. 유사 호기별 상세 조건이나 조치 일정 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4–5",
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "printed_pages": [
+        8,
+        9
+      ],
+      "statement": "조사팀은 사건원인과 연계한 재발방지대책이 적절하며 별도 보완요구사항이 없고 당시 기술적 측면에서 재가동에 문제가 없다고 판단했다.",
+      "qualification": "실제 재가동 승인 여부나 현재 안전성 및 안전문화 속성 판정으로 확대하지 않는다.",
+      "review_status": "PENDING"
+    }
+  ]
+}

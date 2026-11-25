@@ -1,0 +1,36 @@
+{
+  "event_id": "140228Y2",
+  "source_report_sha256": "4eb7c17d9d60fb5c15f3a986d30c543d4d34e0262cefdc49c3bebdf58fc1f9e7",
+  "source_pages": 11,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_detail": "전체 텍스트·11쪽 렌더 및 축소시트 시각 검토; 기술수치 전수검산 미수행",
+  "report": {
+    "status": "DRAFT",
+    "a4_render": "PENDING"
+  },
+  "ppt": {
+    "actual_render": "PENDING"
+  },
+  "contract_checks": {
+    "passed": 0,
+    "total": 14,
+    "status": "PENDING"
+  },
+  "preliminary_checks": {
+    "attribute_partition": "PASS",
+    "learning_fact_reference": "PASS",
+    "discussion_learning_reference": "PASS",
+    "index_duplicate": "PASS",
+    "schema_subset_3": "PASS"
+  },
+  "video_design": [],
+  "limitations": [
+    "표지 보고서 번호 2014-03호, 본문 2014-3호: 선행 0 표기 차이, 사건 ID 및 날짜 일치. PDF 1–2쪽은 인쇄면 번호 없음, PDF 3–11쪽은 인쇄면 1–9쪽.",
+    "파일명은 사건명 일부만 포함하며 정식 사건명은 표지 기준. 동일 이름·크기의 루트 외 사본은 처리 범위 밖, 바이트 동일성 미확인.",
+    "OPIS 상세 팝업 ID, 초기/최종 INES, 실제 재가동 승인 및 현재 장기대책 이행효과 미확인.",
+    "구체적 회로·시험 조건·경보 논리·취약점·운전·정비 방법 및 세부 수치는 교육자료에서 제외. 수치 전수 검산 미수행.",
+    "표준 후보는 교육적 해석으로 실제 미진속성·개인 책임·전사 체계 실패 확정 아님. 독립·전문가 검토 대기.",
+    "영상 설계, PPTX, A4 실제 출력 및 정식 14개 계약 검사 대기."
+  ],
+  "can_ship": false
+}

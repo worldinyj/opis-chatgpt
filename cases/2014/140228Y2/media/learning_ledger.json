@@ -1,0 +1,121 @@
+{
+  "schema_version": "2.0",
+  "event_id": "140228Y2",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "LA5",
+    "WP2",
+    "CO3",
+    "WP1",
+    "WP3"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "LA1",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM2",
+    "CL1",
+    "CL2",
+    "CL3",
+    "CL4",
+    "PI1",
+    "PI2",
+    "PI3",
+    "WP4"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "message": "설계변경은 통보가 아니라 적용 확인까지 이어져야 한다.",
+      "objective": "공급사·사업자·현장 간 변경사항의 식별, 적용성 검토, 전파 및 반영 확인을 구분한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F19"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP2",
+        "CO3"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP",
+        "CO"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육용 후보. 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "message": "시험의 중요도는 안전영향으로 판단하고 검증 범위를 확인한다.",
+      "objective": "시험분류, 위험성 검토, 작업전회의 및 시험 적합성 확인을 연결한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F04",
+        "F05",
+        "F09",
+        "F10",
+        "F11",
+        "F18"
+      ],
+      "attribute_codes": [
+        "WP1"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육용 후보. 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "message": "문서와 실제 상태 정보가 일치해야 올바른 판단이 가능하다.",
+      "objective": "절차서와 상태표시의 일치 및 정확한 확인정보 확보를 검토하고 긍정적 대응을 학습한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F15",
+        "F18",
+        "F19"
+      ],
+      "attribute_codes": [
+        "WP3"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육용 후보. 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

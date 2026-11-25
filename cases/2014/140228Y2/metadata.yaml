@@ -1,0 +1,33 @@
+schema_version: "1.0"
+event_id: "140228Y2"
+report_number: "2014-3"
+title: "한빛 2호기 M-G set 출력차단기의 부적절한 개방에 의한 원자로 정지 및 안전주입"
+event_date: "2014-02-28"
+report_date: "2014-03-07"
+plant:
+  site: 한빛
+  unit: 2
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 11
+  sha256: 4eb7c17d9d60fb5c15f3a986d30c543d4d34e0262cefdc49c3bebdf58fc1f9e7
+  source_size_bytes: 213167
+operating_mode: "운전모드 1 (출력운전)"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [LA5, WP2, CO3, WP1, WP3]
+  additional_review_attributes: [PA1, PA2, PA3, QA1, QA2, QA3, QA4, CO1, CO2, LA1, LA6, LA7, DM1, DM2, CL1, CL2, CL3, CL4, PI1, PI2, PI3, WP4]
+  insufficient_or_low_relevance_attributes: [CO4, LA2, LA3, LA4, LA8, DM3, WE1, WE2, WE3, WE4, PI4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null

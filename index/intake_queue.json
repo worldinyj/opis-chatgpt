@@ -371,11 +371,12 @@
           "size_bytes": 213167
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "event_id": "140228Y2",
+      "verified_event_date": "2014-02-28",
       "from_prior_table": false,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "원본 11쪽 확인·렌더, 20 사실·3 학습·40속성(5/22/13)·토론 및 전문가 초안 등록. 영상/PPT/A4/정식 14개 계약 검증 대기. ROOT-021 유지.",
+      "source_sha256": "4eb7c17d9d60fb5c15f3a986d30c543d4d34e0262cefdc49c3bebdf58fc1f9e7"
     },
     {
       "queue_order": 22,

@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "event_id": "140228Y2",
+  "artifact_id": "DA-140228Y2",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "변경은 적용 확인으로 완성된다",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2014-3",
+    "report_date": "2014-03-07",
+    "sha256": "4eb7c17d9d60fb5c15f3a986d30c543d4d34e0262cefdc49c3bebdf58fc1f9e7"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "공급사나 다른 사업장의 개선사항을 우리 설비에 적용해야 하는지 누가 검토하고, 반영 완료의 증거는 어떻게 남기는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "시험의 안전영향과 검증 범위를 어떤 증거로 평가하며 작업전회의에서 무엇을 확인해야 하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "문서와 실제 상태 정보가 다를 때 어떻게 공식적으로 확인하고 보고하며, 올바른 판단을 지원하는 정보가 확보되었음을 어떻게 검증하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 공급사가 다른 사업장의 제품 개선사항을 통보했지만 적용 여부가 불분명하다. 변경 검토·전파·반영 증거를 논의한다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 변경 적용성 검토 책임과 완료 증거, 독립 검증 질문을 정한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 문서상의 상태 설명과 화면에 나타나는 정보가 일치하지 않는다. 팀이 위험성 검토와 정보 품질을 확인한다.",
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 불확실성의 공식 확인·보고, 문서 검증 및 재개 판단의 책임을 논의한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "변경 통보를 받으면 적용성 검토 및 반영 확인 기록을 요청한다.",
+      "verification": "변경 검토·반영 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "시험계획 검토 시 안전영향과 검증 범위에 대한 질문을 기록한다.",
+      "verification": "작업전회의·위험성 검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "문서와 상태정보의 차이를 공식적으로 보고하고 확인한다.",
+      "verification": "문제 보고·확인 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "공급사 및 관련 조직 변경사항의 전파·반영 추적성을 표본 점검한다.",
+      "verification": "변경관리·품질관리 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "중요시험 분류와 시험 적합성 검토 근거를 표본 평가한다.",
+      "verification": "시험 분류·검토 승인 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "절차와 상태정보의 일치 여부 및 조치 효과의 검증 증거를 추적한다.",
+      "verification": "문서 검토·효과 확인 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}
