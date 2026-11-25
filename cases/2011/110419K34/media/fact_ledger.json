@@ -1,0 +1,373 @@
+{
+  "schema_version": "2.0",
+  "event_id": "110419K34",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2011-07",
+    "report_date": "2011-11-03",
+    "sha256": "4086f8961a4e8cf00819db5df9d69d4cb6283d46452d4f5d099719a605018fa3"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "표지; 요약; 1",
+      "pdf_pages": [
+        1,
+        3,
+        4
+      ],
+      "printed_pages": [
+        1,
+        2
+      ],
+      "statement": "2011년 4월 19일 고리3·4호기에서 안전모선 저전압 및 비상디젤발전기 기동 사건이 발생했다.",
+      "qualification": "공식 번호 110419K3,4; 내부 식별자 110419K34. 2011-11-03 발행.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "printed_pages": [
+        4,
+        5
+      ],
+      "statement": "조사팀은 정비 작업지시 및 작업대상 판단 오류와 작업관리·감독 및 절차 준수 미흡을 원인으로 평가했다.",
+      "qualification": "구체적 설비 식별 및 작업 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "정해진 시각까지 작업을 마쳐야 한다는 심리적 압박이 작업관리·감독 미흡의 기여요소로 평가됐다.",
+      "qualification": "개인의 심리상태 전반 또는 경영진의 의도는 단정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "이전 작업의 가설물 관리 미흡이 기여요소로 평가됐다.",
+      "qualification": "가설물 위치 및 구체적 작업 조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "printed_pages": [
+        4,
+        5
+      ],
+      "statement": "작업대상 선택에서 단독 판단과 양 조직의 작업 감독 미흡이 지적됐다.",
+      "qualification": "감독의 정기 순시 빈도나 공식 권한 정의는 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        4
+      ],
+      "statement": "발주 조직 감독자는 실제 작업수행 내용을 보고받지 못했다고 기록됐다.",
+      "qualification": "정보 은폐 의도 및 조직 전반의 소통문화는 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "조사팀은 작업자의 기기 친숙화 미흡을 기여요소로 평가했다.",
+      "qualification": "개인별 교육·자격 기록 및 능력 전반은 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "가설물 설치·철거 승인 관련 절차 준수 미흡과 해당 절차서 내용 오류가 함께 지적됐다.",
+      "qualification": "문서의 오류와 절차 이행 미흡을 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "정비절차서에 규정된 사전 확인항목 미수행이 지적됐다.",
+      "qualification": "구체적 확인 및 조작 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "정비절차서의 점검대상 목록에 따르지 않은 작업 및 계획변경 미반영이 지적됐다.",
+      "qualification": "승인된 계획 변경과 임의 수행을 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나",
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "printed_pages": [
+        5,
+        6
+      ],
+      "statement": "별도의 비상전원 공급 지연이 조사됐다.",
+      "qualification": "구체적 기능 조건, 지연시간, 설비 식별 및 조치 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나",
+      "pdf_pages": [
+        8
+      ],
+      "printed_pages": [
+        6
+      ],
+      "statement": "조사팀은 정비 관련 상태의 안전성 영향을 운영자가 사전에 인지하지 못했으며 잠재적인 리스크가 존재했다고 판단했다.",
+      "qualification": "당시 운영기술지침서 관련 불만족과 잠재 위험 평가이며 수치·조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나",
+      "pdf_pages": [
+        8
+      ],
+      "printed_pages": [
+        6
+      ],
+      "statement": "운영자의 재발방지 조치는 실증시험을 통해 적절하다고 확인됐다.",
+      "qualification": "시험 방법 및 현재 유효성은 다루지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나; 5",
+      "pdf_pages": [
+        8,
+        10
+      ],
+      "printed_pages": [
+        6,
+        8
+      ],
+      "statement": "조사팀은 유사한 여건의 다른 발전소에도 교훈을 반영할 필요가 있다고 평가했다.",
+      "qualification": "과거 교훈의 사전 미반영 사실을 직접 확정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4",
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "printed_pages": [
+        6,
+        7
+      ],
+      "statement": "운영자는 인적오류 예방을 위한 협력업체 관리체계 개선 및 교육 강화 대책을 수립했다.",
+      "qualification": "계획 수립과 완료·효과를 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4",
+      "pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        7
+      ],
+      "statement": "운영자는 작업대상 식별 및 감독 강화, 정비작업 관리 개선 대책을 수립했다.",
+      "qualification": "구체적인 설비 및 현장 적용 방법은 제외한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4",
+      "pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        7
+      ],
+      "statement": "운영자는 비정상절차의 미흡한 부분을 보완 개정할 계획을 제시했다.",
+      "qualification": "개정 완료·현재 효과 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4",
+      "pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        7
+      ],
+      "statement": "운영자는 장기적인 설비 독립성 강화 대책을 제시했다.",
+      "qualification": "구체적 설비 구조, 위치 및 일정 제외; 완료 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4",
+      "pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        7
+      ],
+      "statement": "조사팀은 운영자가 제시한 재발방지 조치를 적절하다고 평가했다.",
+      "qualification": "계획의 적절성 평가와 장기 이행 효과는 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 5; 7",
+      "pdf_pages": [
+        3,
+        9,
+        11
+      ],
+      "printed_pages": [
+        1,
+        7,
+        9
+      ],
+      "statement": "발전소 상태와 운전원 대응은 전반적으로 적절하였으며 사전안전성 확인의 다섯 평가영역은 모두 적합하다고 평가됐다.",
+      "qualification": "실제 재가동 승인 문서는 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F21",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 5; 7",
+      "pdf_pages": [
+        3,
+        9,
+        11
+      ],
+      "printed_pages": [
+        1,
+        7,
+        9
+      ],
+      "statement": "보고서는 사건 전후 방사성물질 외부 방출 및 방사선 환경영향이 없었음을 확인했다.",
+      "qualification": "당시 평가이며 현재 안전성 보증이 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F22",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "5",
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "printed_pages": [
+        7,
+        8
+      ],
+      "statement": "조사팀은 호기간 독립성의 중요성과 유사한 상황의 예방 및 다른 원전의 교훈 반영 필요성을 지적했다.",
+      "qualification": "실제 취약 구성 및 사건 전개를 교육자료에 재현하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F23",
+      "kind": "OBSERVED_FACT",
+      "section": "5; 6",
+      "pdf_pages": [
+        10
+      ],
+      "printed_pages": [
+        8
+      ],
+      "statement": "보고서에는 과거 관련 사건 6건이 열거돼 있으며 제6절 유사사건 재발방지 대책은 없음으로 기재됐다.",
+      "qualification": "열거 사례의 원문 독립 대조 미수행. 제4절 개선대책이 없다는 의미가 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F24",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "7",
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "printed_pages": [
+        8,
+        9
+      ],
+      "statement": "결론은 작업대상 판단 오류에 따른 사건과 별도의 공급 지연, 운영자의 원인분석·재발방지 조치 적절성을 함께 기록한다.",
+      "qualification": "공식 조사결과와 개별 속성 교육 후보를 구분한다.",
+      "review_status": "PENDING"
+    }
+  ]
+}

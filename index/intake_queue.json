@@ -473,11 +473,12 @@
           "size_bytes": 510723
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "event_id": "110419K34",
+      "verified_event_date": "2011-04-19",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "원문 110419K3,4, 내부 110419K34. 원본 12쪽·24 사실·3 학습·40속성(10/18/12), 토론·전문가 초안. 영상/PPT/A4/정식 14개 계약 대기. ROOT-027 유지, 종료 후 ROOT-028.",
+      "source_sha256": "4086f8961a4e8cf00819db5df9d69d4cb6283d46452d4f5d099719a605018fa3"
     },
     {
       "queue_order": 28,

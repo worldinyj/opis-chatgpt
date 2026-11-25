@@ -1,0 +1,60 @@
+{
+  "event_id": "110419K34",
+  "source_report_sha256": "4086f8961a4e8cf00819db5df9d69d4cb6283d46452d4f5d099719a605018fa3",
+  "source_pages": 12,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_detail": "전쪽 텍스트 추출 및 축소시트 2개 시각검토; 붙임1 도식 세부 전사 없음",
+  "report": {
+    "status": "DRAFT",
+    "a4_render": "PENDING"
+  },
+  "ppt": {
+    "status": "PENDING",
+    "actual_render": "PENDING"
+  },
+  "contract_checks": {
+    "passed": 0,
+    "total": 14,
+    "status": "PENDING"
+  },
+  "preliminary_checks": {
+    "attribute_partition": "PASS_10_18_12_UNIQUE_40",
+    "learning_fact_reference": "PASS",
+    "discussion_learning_reference": "PASS",
+    "index_duplicate": "PASS",
+    "schema_subset_3": "PASS",
+    "repository_discussion_relations": "PASS"
+  },
+  "preliminary_results": [
+    {
+      "test": "fact_ledger",
+      "result": "PASS"
+    },
+    {
+      "test": "learning_ledger",
+      "result": "PASS"
+    },
+    {
+      "test": "discussion_action",
+      "result": "PASS"
+    },
+    {
+      "test": "discussion relations",
+      "result": "PASS"
+    }
+  ],
+  "schema_blobs": [
+    "fa01cf02838812104fb795d7adc316f4d7571290",
+    "6ccc8e0e68d8666c5065e15a74717533453777c3",
+    "1f3399a6c476f9cb09202a73beb29b670cacb904"
+  ],
+  "relation_validator_blob": "08ad964d1e8c2e63d1a1c540bc6ce76562afe1f8",
+  "limitations": [
+    "원본 12쪽 전쪽 텍스트 추출 및 렌더, 축소시트 2개 시각검토. PDF 1–2쪽 무번호, 3–12쪽 인쇄면 1–10쪽. 붙임1 도식은 존재·배치만 확인, 세부 기술내용 전사·검산 없음.",
+    "원문 사건번호 110419K3,4를 보존하고 기존 다호기 사건 ID 규칙 및 스키마 허용문자에 따라 내부 ID 110419K34 사용. plant.unit=3은 정비작업 대표 호기이며 영향 호기는 3·4호기.",
+    "보고서의 관련 6개 사건 원문 별도 대조 미수행. OPIS 팝업 ID·INES 등급·실제 재가동 승인문서·장기대책 완료 및 현재 효과 미확인.",
+    "구체적 설비 구성·보호논리·설정치·운전 상태의 조합·위치·시간대별 사건 전개·운전/정비/시험 방법 및 기술 도식 제외. 공식 조사 사실과 교육적 해석을 구분한다.",
+    "개별 속성은 AI 교육용 후보이며 공식 규제기관 속성 판정 또는 개인 책임 확정 아님. 전문가 별도 검토 및 독립 검토 대기. 영상/PPTX/A4/정식 계약 14개 대기."
+  ],
+  "can_ship": false
+}

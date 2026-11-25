@@ -1,0 +1,138 @@
+{
+  "schema_version": "2.0",
+  "event_id": "110419K34",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "WP1",
+    "WP4",
+    "PA1",
+    "CL4",
+    "CO1",
+    "WP3",
+    "DM1",
+    "QA4",
+    "WP2",
+    "DM2"
+  ],
+  "additional_attribute_codes": [
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "CO2",
+    "CO3",
+    "LA1",
+    "LA2",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM3",
+    "CL1",
+    "CL2",
+    "PI2",
+    "PI3"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "message": "작업계획과 실제 수행은 정확한 확인과 책임 있는 감독으로 연결되어야 한다.",
+      "objective": "일정 부담, 작업관리·감독, 의사결정 및 업무 소통의 근거를 검토한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F10",
+        "F15",
+        "F16"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "CO1",
+        "DM1",
+        "DM2"
+      ],
+      "principle_codes": [
+        "WP",
+        "CO",
+        "DM"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육용 후보. 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "message": "절차의 정확성과 준수, 업무 적합 역량은 별도로 확인해야 한다.",
+      "objective": "절차 문서의 적합성, 실제 이행, 기기 친숙화 및 교육의 검증 증거를 구분한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F15",
+        "F16",
+        "F17"
+      ],
+      "attribute_codes": [
+        "WP4",
+        "PA1",
+        "CL4",
+        "WP3"
+      ],
+      "principle_codes": [
+        "WP",
+        "PA",
+        "CL"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육용 후보. 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "message": "변경된 업무 환경의 잠재적 안전성 영향은 사전에 평가하고 교훈을 공유해야 한다.",
+      "objective": "사전 위험 인식과 엄격한 변경 검토, 긍정적 대응 및 시정조치 효과 확인을 구분한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F18",
+        "F19",
+        "F20",
+        "F21",
+        "F22",
+        "F23",
+        "F24"
+      ],
+      "attribute_codes": [
+        "QA4",
+        "WP2"
+      ],
+      "principle_codes": [
+        "QA",
+        "WP"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육용 후보. 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "110419K34",
+  "artifact_id": "DA-110419K34",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "일정 속에서도 확인과 감독을 지키는 업무",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2011-07",
+    "report_date": "2011-11-03",
+    "sha256": "4086f8961a4e8cf00819db5df9d69d4cb6283d46452d4f5d099719a605018fa3"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "일정 부담 속에서도 승인된 계획과 작업 확인 및 감독이 실질적으로 이루어졌음을 무엇으로 입증하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "절차서의 정확성, 실제 준수 및 업무 적합 역량을 각각 어떤 기록으로 확인하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "업무 환경 변화의 안전성 영향 평가와 관련 조직의 교훈 반영 및 효과를 어떤 증거로 확인하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조업체에서 일정이 촉박하고 새로 배치된 팀원이 업무 문서의 의미를 충분히 이해하지 못했다. 감독자는 업무 착수의 확인 근거를 검토한다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 일정 부담, 감독 책임, 문서의 정확성과 역량 확인 증거를 토론한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 한 팀의 업무 변경이 다른 팀의 업무에 영향을 줄 수 있다는 의견이 나왔다. 팀은 변경 검토 기록과 교훈 공유를 검토한다.",
+      "learning_ids": [
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 영향평가의 책임과 확인 근거, 교훈 공유 및 효과 확인을 토론한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "승인된 업무계획과 감독·확인 기록을 검토한다.",
+      "verification": "업무계획·검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "절차 문서의 불일치와 업무 이해의 불확실성을 공식 검토 대상으로 제기한다.",
+      "verification": "문서 검토·교육 확인 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "업무 환경 변화의 영향 검토와 관련 팀의 확인 근거를 기록한다.",
+      "verification": "영향 검토·업무 소통 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "일정 부담과 감독 및 계획변경 검토 증거를 표본 평가한다.",
+      "verification": "감독·계획 검토 및 조치 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "절차 정확성·준수 및 업무 적합 역량의 확인 기록을 평가한다.",
+      "verification": "절차·역량 검증 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "변경 영향평가 및 교훈 공유·개선 효과를 추적한다.",
+      "verification": "영향평가·교훈 반영·효과 확인 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

@@ -608,5 +608,30 @@
       "CL1"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "110419K34",
+    "event_date": "2011-04-19",
+    "report_date": "2011-11-03",
+    "plant": "고리3·4호기",
+    "title": "고리3호기 계획예방정비 중 인적오류로 인한 지락으로 고리3,4호기 안전모선 저전압 및 비상디젤발전기 기동",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2011/110419K34/report.md",
+    "candidate_attributes": [
+      "WP1",
+      "WP4",
+      "PA1",
+      "CL4",
+      "CO1",
+      "WP3",
+      "DM1",
+      "QA4",
+      "WP2",
+      "DM2"
+    ],
+    "approved_attributes": []
   }
 ]

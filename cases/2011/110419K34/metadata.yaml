@@ -1,0 +1,33 @@
+schema_version: "1.0"
+event_id: "110419K34"
+report_number: "2011-07"
+title: "고리3호기 계획예방정비 중 인적오류로 인한 지락으로 고리3,4호기 안전모선 저전압 및 비상디젤발전기 기동"
+event_date: "2011-04-19"
+report_date: "2011-11-03"
+plant:
+  site: 고리
+  unit: 3
+  # 정비 작업 대표 호기; 공동 영향 호기 3, 4. 원문 사건번호 110419K3,4.
+source:
+  organization: KINS
+  system: OPIS
+  opis_popup_id: null
+  document_url: null
+  page_count: 12
+  sha256: 4086f8961a4e8cf00819db5df9d69d4cb6283d46452d4f5d099719a605018fa3
+  source_size_bytes: 510723
+operating_mode: "3호기 계획예방정비 / 4호기 출력운전"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP1, WP4, PA1, CL4, CO1, WP3, DM1, QA4, WP2, DM2]
+  additional_review_attributes: [PA2, PA3, QA1, QA2, QA3, CO2, CO3, LA1, LA2, LA4, LA5, LA6, LA7, DM3, CL1, CL2, PI2, PI3]
+  insufficient_or_low_relevance_attributes: [CO4, LA3, LA8, WE1, WE2, WE3, WE4, CL3, PI1, PI4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null
