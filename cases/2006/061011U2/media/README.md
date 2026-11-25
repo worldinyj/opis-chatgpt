@@ -8,3 +8,4 @@
 - [훈련했다면, 검증했습니까?](shorts/SHORT-01/production.json) · [스토리보드](shorts/SHORT-01/STORYBOARD.md) · [한국어 나레이션](shorts/SHORT-01/NARRATION_KO.md) · [편집 지시](shorts/SHORT-01/EDIT_AND_PROMPTS.md)
 
 실제 에셋·음성·영상 미생성. PPTX/A4/최종 검증 대기.
+- [집합교육 16장 PPTX 및 진행자 가이드](classroom_ppt/README.md) · 52분 초안, 실제 렌더 대기.
