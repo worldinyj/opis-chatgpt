@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "event_id": "941020-1301",
+  "artifact_id": "DA-941020-1301",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "관리 기준·비상대응 준비·개선 효과",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "1301-1994-02",
+    "report_date": "1994-10",
+    "sha256": "6a20318b90cbc8e50836467dd741a9f8d56ad710fb8f1bf301e8d4af5922b23f"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "관리 기준의 충분성을 어떤 근거로 검토하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "비상대응 준비도를 문서·역량·자원 관점에서 어떻게 확인하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "개선 기록과 실제 효과를 어떻게 구분하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상 사무팀이 오래된 업무도구의 관리 기준을 검토한다. 팀은 기준 재검토와 교육·자원의 증거를 논의한다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 기준의 적합성과 준비도 확인에 필요한 증거를 토론한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상 사무팀에서 비상연락 안내문과 교육계획을 개선했다. 팀은 이행과 효과의 확인을 논의한다.",
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 문서, 역량, 자원 및 효과의 증거를 토론한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "관리 기준의 검토 근거를 확인한다.",
+      "verification": "기준 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "문서·역량·자원 준비도를 검토한다.",
+      "verification": "준비도 확인 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "개선 이행과 효과 증거를 구분한다.",
+      "verification": "효과 확인 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "관리 기준 적합성을 표본 평가한다.",
+      "verification": "표본 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "교육 및 자원 준비도 증거를 확인한다.",
+      "verification": "역량·자원 검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "개선조치의 효과를 추적한다.",
+      "verification": "효과 추적 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

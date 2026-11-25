@@ -643,11 +643,12 @@
           "size_bytes": 295684
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED",
+      "event_id": "941020-1301",
+      "verified_event_date": "1994-10-20",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "1쪽 요약 직접 판독, 호기 및 ID 잠정. 원문 INES 2 심층 방어(최종판 미확인), 14 사실, 3 학습, 40속성 5/19/16, 토론 및 영상 43장면/270초 설계. PPT·A4·정식 계약·상세 조사·전문가 검토 대기.",
+      "source_sha256": "6a20318b90cbc8e50836467dd741a9f8d56ad710fb8f1bf301e8d4af5922b23f"
     }
   ],
   "excluded_non_root_or_non_pdf": [

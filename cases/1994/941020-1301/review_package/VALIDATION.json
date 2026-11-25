@@ -1,0 +1,42 @@
+{
+  "event_id": "941020-1301",
+  "source_report_sha256": "6a20318b90cbc8e50836467dd741a9f8d56ad710fb8f1bf301e8d4af5922b23f",
+  "source_pages": 1,
+  "source_render": "PASS_LOCAL_FULL_PAGE_VISUAL_REVIEW",
+  "preliminary_checks": {
+    "attributes": 40,
+    "partition": [
+      5,
+      19,
+      16
+    ],
+    "facts": 14,
+    "learning": 3,
+    "scenes": [
+      20,
+      18,
+      5
+    ],
+    "durations": [
+      120,
+      120,
+      30
+    ],
+    "fact_coverage": 14,
+    "core_coverage": 5,
+    "refs": true
+  },
+  "contract_checks": {
+    "passed": 0,
+    "total": 14,
+    "status": "PENDING"
+  },
+  "report": {
+    "status": "DRAFT",
+    "a4_render": "PENDING"
+  },
+  "ppt": {
+    "status": "PENDING"
+  },
+  "can_ship": false
+}

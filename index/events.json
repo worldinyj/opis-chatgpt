@@ -842,5 +842,25 @@
       "PA2"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "941020-1301",
+    "event_date": "1994-10-20",
+    "report_date": null,
+    "plant": "호기 미확인",
+    "title": "냉각재계통 과압보호밸브 고장에 의한 원자로 정지 및 중수누설",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/1994/941020-1301/report.md",
+    "candidate_attributes": [
+      "WP1",
+      "WP3",
+      "CL4",
+      "LA1",
+      "PI3"
+    ],
+    "approved_attributes": []
   }
 ]

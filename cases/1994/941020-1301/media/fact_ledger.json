@@ -1,0 +1,208 @@
+{
+  "schema_version": "2.0",
+  "event_id": "941020-1301",
+  "source": {
+    "document_path": "source.md",
+    "report_number": "1301-1994-02",
+    "report_date": "1994-10",
+    "sha256": "6a20318b90cbc8e50836467dd741a9f8d56ad710fb8f1bf301e8d4af5922b23f"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "사건 요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "전출력 운전 중 설비 고장과 관련한 비계획 자동정지가 발생했다.",
+      "qualification": "발생일 1994-10-20. 상세 조건 및 사건 전개 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "사건 요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "원문은 기계적 구동장치 고장을 사건의 기술적 원인으로 기록했다.",
+      "qualification": "구체 부품 구조·고장 메커니즘·연계 경로 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "OBSERVED_FACT",
+      "section": "사건 요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "원자로 정지 기능이 작동했다고 기록되어 있다.",
+      "qualification": "기술적 구성·작동순서 제외. 조직의 안전문화 양호 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "OBSERVED_FACT",
+      "section": "사건 요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "중수 누설이 발생했다고 기록되어 있다.",
+      "qualification": "양·위치·경로·발생 시각 제외. 방사선 영향 평가 원문 미기재.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "사건 요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "원문은 중수 누설에 관한 설비의 기술적 원인을 별도로 설명한다.",
+      "qualification": "세부 설비의 취약점·경로·작동조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "표제부; INES 등급",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "원문에 INES 2등급 및 등급 기준 심층 방어가 명시되어 있다.",
+      "qualification": "원문 기재값이며 최종판 여부 및 독립 확인은 미확보.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "OBSERVED_FACT",
+      "section": "사건 요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "부품 교체주기 재정립을 후속조치로 기록했다.",
+      "qualification": "기존 주기의 부적절성 또는 미준수 확정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "OBSERVED_FACT",
+      "section": "사건 요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "비상운전절차서 보완 및 재정비를 후속조치로 기록했다.",
+      "qualification": "기존 문서 결함이나 운전원 위반 확정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "OBSERVED_FACT",
+      "section": "사건 요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "운전원의 비상대응 조치 향상 방안 강구를 후속조치로 기록했다.",
+      "qualification": "기존 역량 부족 확정 아님. 교육·훈련 및 평가자료 미확보.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "OBSERVED_FACT",
+      "section": "사건 요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "비상자원 추가 확보를 후속조치로 기록했다.",
+      "qualification": "기존 자원 부족 확정 아님. 세부 자원·수량 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "OBSERVED_FACT",
+      "section": "사건 요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "관련 설비의 점검과 정비를 수행했다고 기록했다.",
+      "qualification": "점검 방법·설비 상세 제외. 효과 검증 자료 미확보.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "OBSERVED_FACT",
+      "section": "사건 요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "복구 및 계통 복귀가 기록되어 있다.",
+      "qualification": "정확한 시각·운전 단계 제외. 규제기관 승인 자료 미확보.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "SOURCE_LIMITATION",
+      "section": "Coded Watchlist",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "원본 하단에 Coded Watchlist 분류가 수록되어 있다.",
+      "qualification": "분류체계의 코드 정의 자료 미확보. 40속성으로 자동 변환하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "SOURCE_LIMITATION",
+      "section": "전체",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "원본은 1쪽 요약자료이며 작성기관·발행일·호기명·상세 조사 및 후속 효과는 확인되지 않는다.",
+      "qualification": "1301-1994-02 원문 번호; 941020-1301 잠정 ID. 계약 날짜는 사건월 대체값.",
+      "review_status": "PENDING"
+    }
+  ]
+}

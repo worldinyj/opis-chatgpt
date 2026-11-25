@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "941020-1301"
+report_number: "1301-1994-02"
+title: "냉각재계통 과압보호밸브 고장에 의한 원자로 정지 및 중수누설"
+event_date: "1994-10-20"
+report_date: null
+plant:
+  site: null
+  unit: null
+source:
+  organization: null
+  system: OPIS
+  opis_popup_id: null
+  document_url: null
+  page_count: 1
+  sha256: 6a20318b90cbc8e50836467dd741a9f8d56ad710fb8f1bf301e8d4af5922b23f
+  source_size_bytes: 295684
+operating_mode: "전출력 운전"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP1, WP3, CL4, LA1, PI3]
+  additional_review_attributes: [PA1, PA2, PA3, QA1, QA2, QA3, CO1, CO2, LA2, LA4, LA5, LA6, LA7, DM1, DM2, CL1, PI1, PI2, WP2]
+  insufficient_or_low_relevance_attributes: [QA4, CO3, CO4, WE1, WE2, WE3, WE4, CL2, CL3, PI4, WP4, LA3, LA8, DM3, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null
