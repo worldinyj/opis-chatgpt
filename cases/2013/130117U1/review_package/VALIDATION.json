@@ -9,7 +9,27 @@
     "a4_render": "PENDING"
   },
   "ppt": {
-    "actual_render": "PENDING"
+    "git_blob": "a7a7a3760ff33a127987df148474ab7114d893fd",
+    "bytes": 345266,
+    "slides": 16,
+    "nonempty_notes": 16,
+    "editable_shapes": 410,
+    "minutes": 52,
+    "generator_blob": "ff621c6377862e3f6ac30e1f2d3b7f70f970a795",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "deterministic_build": "PASS",
+    "zip_member_crc": "PASS",
+    "zip_members_checked": 75,
+    "local_git_blob_match": null,
+    "actual_render": "PENDING",
+    "fact_coverage": 22,
+    "learning_coverage": 3,
+    "attribute_coverage": 6,
+    "discussion_coverage": {
+      "questions": 3,
+      "scenarios": 2,
+      "actions": 6
+    }
   },
   "contract_checks": {
     "passed": 0,
@@ -61,8 +81,9 @@
     "실제 계측 구성·기기 수량별 보호 논리·부품 오류 형태·설계도면·구체 조건 및 조작·시험 방법은 교육자료에서 제외. 정량 분석 전수 검산 미수행.",
     "단기조치 완료와 감시 운영 예정, 장기조치 예정 구분. 당시 평가가 현재 안전성 보증을 의미하지 않는다.",
     "40속성은 AI 교육적 후보. 미선정은 양호 판정 아님. 독립·전문가 내용 및 속성 검토 대기.",
-    "영상 3종 제작 설계만 등록. 실제 음성·영상·이미지 및 발화시간 실측 미수행. PPTX/A4/정식 Python jsonschema 및 관계 계약 14개 대기.",
-    "source.document_path는 계약의 사건 media 공통 기준 ../source.md; provenance는 각 산출물 폴더 기준. 18초 속성 카드의 실제 가독성과 발화 길이 검증 대기. AI 해석은 L 원장에 연결하고 L을 통해 공식 사실 F를 참조한다."
+    "영상 3종 제작 설계만 등록. 실제 음성·영상·이미지 및 발화시간 실측 미수행. A4/정식 Python jsonschema 및 관계 계약 14개 대기.",
+    "source.document_path는 계약의 사건 media 공통 기준 ../source.md; provenance는 각 산출물 폴더 기준. 18초 속성 카드의 실제 가독성과 발화 길이 검증 대기. AI 해석은 L 원장에 연결하고 L을 통해 공식 사실 F를 참조한다.",
+    "PPTX는 기존 범용 생성기 실행·ZIP 로컬 멤버 CRC·결정적 출력 및 슬라이드/노트 수 확인까지 완료. 실제 LibreOffice 렌더, 로컬 SHA256 및 Git blob 일치, 글자 누락·범위 검사, 6속성 종합장 가독성, Microsoft PowerPoint 투사 미수행. 영상 링크는 제작 명세 활용 후보."
   ],
   "can_ship": false,
   "video_preliminary_checks": {
