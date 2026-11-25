@@ -25,10 +25,10 @@
   "existing_cases_not_in_root": [
     "250919W2"
   ],
-  "pending_pdf_count": 25,
-  "pending_date_groups": 24,
-  "next_list_date": "2018-06-11",
-  "next_queue_id": "ROOT-013",
+  "pending_pdf_count": 24,
+  "pending_date_groups": 23,
+  "next_list_date": "2017-03-28",
+  "next_queue_id": "ROOT-014",
   "items": [
     {
       "queue_order": 1,
@@ -242,11 +242,11 @@
           "size_bytes": 1105230
         }
       ],
-      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
       "event_id": "180611W3",
       "verified_event_date": "2018-06-11",
       "from_prior_table": false,
-      "notes": "원본 45쪽 렌더 및 선정 근거 텍스트 확인, 18 사실·3 학습·40속성 후보·토론 초안 등록. 영상/PPT/A4 실제 출력 및 전문가 검토 대기."
+      "notes": "원본 45쪽 확인 및 관련 근거 검토, 18 사실·3 학습·40속성 후보, 영상 3종·토론·PPTX 등록, A4 4쪽 및 16장 렌더, 계약 14/14, 전문가 검토 및 실제 영상 생성 대기."
     },
     {
       "queue_order": 14,
