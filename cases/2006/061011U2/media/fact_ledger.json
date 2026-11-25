@@ -1,0 +1,431 @@
+{
+  "schema_version": "2.0",
+  "event_id": "061011U2",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2006-16",
+    "report_date": "2006-11",
+    "sha256": "e5e57384290be5122ad9d9fde395ac38c57061deeaacc941ca274f07caef917c"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "표지; 요약; 1",
+      "pdf_pages": [
+        1,
+        3,
+        5
+      ],
+      "printed_pages": [
+        1,
+        3
+      ],
+      "statement": "2006년 10월 11일 울진2호기에서 기기 고장과 관련하여 원자로 미임계 진입 및 부적절한 안전주입 우회 사건이 발생했다.",
+      "qualification": "표지의 사건명을 기준으로 한다. 실제 조건·설비 구성·조작 순서 미재현.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "OBSERVED_FACT",
+      "section": "표지; 요약; 1",
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "printed_pages": [
+        1,
+        3
+      ],
+      "statement": "KINS 2006-16호 보고서는 2006년 11월 발행으로 표기되며 당시 보고규정 대상 사건을 현장 조사한 결과이다.",
+      "qualification": "발행 일자는 미표기. 보고대상 분류를 INES 등급으로 해석하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 3.나; 3.다; 6",
+      "pdf_pages": [
+        3,
+        7,
+        8,
+        14
+      ],
+      "printed_pages": [
+        1,
+        5,
+        6,
+        12
+      ],
+      "statement": "조사팀은 기기 고장이 비정상적인 발전소 상태의 직접 기술 원인이라고 판단했다.",
+      "qualification": "상세 고장 메커니즘 및 설비별 취약점 미재현.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.다",
+      "pdf_pages": [
+        8
+      ],
+      "printed_pages": [
+        6
+      ],
+      "statement": "현장 조사에서 해당 기기의 일부 구성품에 이상이 확인됐으며 다른 구성품에서는 특이사항이 없었다.",
+      "qualification": "발견 사실과 원인 추정을 구분한다. 부품 식별·구조·고장 유발 방식 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.다; 6",
+      "pdf_pages": [
+        8,
+        14
+      ],
+      "printed_pages": [
+        6,
+        12
+      ],
+      "statement": "정비이력을 검토한 조사팀은 과거 부품 교체 작업의 정비 품질 미흡이 고장에 기여했다고 판단했다.",
+      "qualification": "조사팀의 원인판단으로서 전체 정비조직의 품질 실패를 단정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.다",
+      "pdf_pages": [
+        8
+      ],
+      "printed_pages": [
+        6
+      ],
+      "statement": "조사팀은 주요 부품과 기기의 정비품질 향상이 필요하다고 지적했다.",
+      "qualification": "교육적 개선 방향에 한정하며 실제 정비 방법은 제시하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.라; 4",
+      "pdf_pages": [
+        9,
+        13
+      ],
+      "printed_pages": [
+        7,
+        11
+      ],
+      "statement": "운전원 대응에 관하여 조사팀은 초기 대응, 판단, 보호조치 준수 및 운전 지식 관련 복수의 문제를 도출했다.",
+      "qualification": "5개 조사 항목을 관리 관점에서 요약하며 세부 조작·순서 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.라.1",
+      "pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        7
+      ],
+      "statement": "조사팀은 해당 비정상상황에 대응하는 절차가 마련되지 않았고 관련 교육훈련도 적절하지 않았다고 판단했다.",
+      "qualification": "당시 특정 상황에 대한 평가이며 모든 비정상절차 부재를 의미하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.라.2",
+      "pdf_pages": [
+        10
+      ],
+      "printed_pages": [
+        8
+      ],
+      "statement": "조사팀은 운전원의 안전 우선 및 보수적 판단에 문제가 있었다고 평가했다.",
+      "qualification": "보고서의 안전문화 지적을 보존하되 개별 속성 판정은 AI 후보이다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 3.라.3; 3.라.4; 붙임3",
+      "pdf_pages": [
+        4,
+        10,
+        11,
+        23,
+        24
+      ],
+      "printed_pages": [
+        2,
+        8,
+        9,
+        21,
+        22
+      ],
+      "statement": "조사팀은 두 가지 보호조치 관련 운전원 대응이 당시 운영기술지침서를 위반했다고 판단했다.",
+      "qualification": "공식 지적 2건을 보존하며 규정 번호·적용 조건·우회 수단 및 절차는 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.라.5",
+      "pdf_pages": [
+        11,
+        12
+      ],
+      "printed_pages": [
+        9,
+        10
+      ],
+      "statement": "조사팀은 호기별 설계 차이가 있었으나 이를 명확히 구분하는 절차와 훈련이 실시되지 않았다고 평가했다.",
+      "qualification": "실제 차이의 구성·배치·기능은 제시하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.라.5; 붙임4",
+      "pdf_pages": [
+        11,
+        12,
+        25,
+        27
+      ],
+      "printed_pages": [
+        9,
+        10,
+        23,
+        25
+      ],
+      "statement": "훈련용 모의제어반의 모의시험에서 실제 발전소 거동과 상당한 차이가 확인됐다.",
+      "qualification": "검증된 불일치의 존재에 한정. 시험 조건·그래프·운전 방법은 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "붙임2.1",
+      "pdf_pages": [
+        20
+      ],
+      "printed_pages": [
+        18
+      ],
+      "statement": "인간공학적 검토는 실제와 모의훈련의 차이가 잘못된 진단 및 판단에 기여한 원인 중 하나라고 평가했다.",
+      "qualification": "복수 원인 중 하나이며 개인의 악의 또는 단일 원인으로 해석하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "붙임2.2",
+      "pdf_pages": [
+        20,
+        21
+      ],
+      "printed_pages": [
+        18,
+        19
+      ],
+      "statement": "인간공학적 검토는 호기별 차이에 대한 이해와 운전 경험의 영향을 가능한 기여요인으로 제시했다.",
+      "qualification": "가능성 평가이며 개인 경력 상세 및 식별정보는 제외한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "붙임2.1–3",
+      "pdf_pages": [
+        20,
+        21
+      ],
+      "printed_pages": [
+        18,
+        19
+      ],
+      "statement": "인간공학적 검토는 잘못된 진단·판단에 따른 오류(mistake)와 안전을 위한 운전전략 위반(violation)을 구분했다.",
+      "qualification": "조사보고서의 분류이며 별도의 징계·법적 책임 판단은 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 4",
+      "pdf_pages": [
+        4,
+        13
+      ],
+      "printed_pages": [
+        2,
+        11
+      ],
+      "statement": "보고서는 안전 우선의 안전문화 결여, 비정상대응절차 미수립, 교육 부적절, 모의제어반 기능 미흡을 복합요인으로 평가했다.",
+      "qualification": "공식 안전문화 관련 지적과 교육용 40속성 분류를 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4",
+      "pdf_pages": [
+        13
+      ],
+      "printed_pages": [
+        11
+      ],
+      "statement": "조사팀은 대응 오류와 판단 오류로 인한 대응 지연 및 안전성에 대한 잠재적 영향이 있었다고 판단했다.",
+      "qualification": "실제 손상이나 방사선 피해가 발생했다는 뜻은 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 4",
+      "pdf_pages": [
+        4,
+        13
+      ],
+      "printed_pages": [
+        2,
+        11
+      ],
+      "statement": "보고서에 따르면 발전소는 안정 상태를 유지했고 해당 사건으로 종사자 방사선 피폭이나 방사성물질 누출은 없었다.",
+      "qualification": "당시 보고서 범위에 한정. 잠재 영향이 없다는 뜻은 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.마",
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "printed_pages": [
+        10,
+        11
+      ],
+      "statement": "운영자는 기기 정비와 동일 유형 기기의 상태 점검을 수행했으며 조사팀은 이를 적절하다고 평가했다.",
+      "qualification": "실제 기기 수량·정비 방법은 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.마",
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "printed_pages": [
+        10,
+        11
+      ],
+      "statement": "운영자의 단기대책은 절차 개발 및 정비 절차 개선이었고 조사팀은 단기대책을 적절히 수행했다고 판단했다.",
+      "qualification": "보고서 당시 평가이며 이후 효과의 확인은 별도.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F21",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.마",
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "printed_pages": [
+        10,
+        11
+      ],
+      "statement": "운영자는 관련 운전기준의 적정성 검토와 기기 개선 연구를 장기대책으로 수립했다.",
+      "qualification": "장기 계획과 실제 완료·효과를 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F22",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "5",
+      "pdf_pages": [
+        14
+      ],
+      "printed_pages": [
+        12
+      ],
+      "statement": "조사팀은 국내 전체 원전을 대상으로 관련 절차의 수립 또는 타당성 평가와 위험도 평가를 보완요구했다.",
+      "qualification": "공식 요구사항의 관리 범위만 요약하고 기술 조건·평가 입력은 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F23",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "5",
+      "pdf_pages": [
+        14
+      ],
+      "printed_pages": [
+        12
+      ],
+      "statement": "조사팀은 관련 절차와 기술배경, 운전경험, 위험 인식 및 운영기술지침서 준수에 대한 교육을 요구했다.",
+      "qualification": "실제 교육 수행 여부는 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F24",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "5; 붙임4",
+      "pdf_pages": [
+        14,
+        27
+      ],
+      "printed_pages": [
+        12,
+        25
+      ],
+      "statement": "조사팀은 모의제어반의 구현성 확인 및 필요 시 개선과 호기 차이 교육훈련 방안 수립을 요구했다.",
+      "qualification": "당시 요구이며 현재 모의훈련 환경의 상태를 단정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F25",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "5; 6",
+      "pdf_pages": [
+        14,
+        15
+      ],
+      "printed_pages": [
+        12,
+        13
+      ],
+      "statement": "보완요구 이행계획 제출기한은 2006년 12월 30일이며 운영자에게 적절한 조치를 요구했다.",
+      "qualification": "제출 및 실제 이행 여부는 확인되지 않았다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F26",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4; 붙임5",
+      "pdf_pages": [
+        13,
+        28,
+        29
+      ],
+      "printed_pages": [
+        11,
+        26,
+        27
+      ],
+      "statement": "보고서는 국내외 유사사례와 해외 규제기관의 운전경험 정보를 인용해 재발방지 및 절차 준수의 중요성을 제시했다.",
+      "qualification": "붙임5 서두의 국내 호기 표기와 상세 항목 사이 불일치가 있어 별도 검증 필요. 사례별 기술 상세 및 사건 전개는 제외.",
+      "review_status": "PENDING"
+    }
+  ]
+}

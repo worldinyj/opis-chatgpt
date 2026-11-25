@@ -1,0 +1,26 @@
+{
+  "event_id": "061011U2",
+  "analysis_version": "0.1.0",
+  "source_sha256": "e5e57384290be5122ad9d9fde395ac38c57061deeaacc941ca274f07caef917c",
+  "source_pages": 29,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_detail": "ALL_PAGE_TEXT_EXTRACTION_AND_VISUAL_REVIEW_IMAGE_ALARM_TABLE_NOT_TRANSCRIBED",
+  "source_queue_id": "ROOT-024",
+  "source_variant_review": "DISTINCT_EVENT_FILENAME_MISMATCH_ROOT_025",
+  "report_status": "DRAFT",
+  "expert_content_review": "PENDING",
+  "expert_attribute_review": "USER_SEPARATE_REVIEW_PENDING",
+  "independent_review": "PENDING",
+  "can_ship": false,
+  "media_status": "PENDING",
+  "ppt_status": "PENDING",
+  "paid_generation_calls": 0,
+  "external_submissions": 0,
+  "report_a4_pages": null,
+  "author_technical_qc": "PENDING",
+  "contract_checks": {
+    "passed": 0,
+    "total": 14
+  },
+  "next_step": "VIDEO_DESIGN"
+}

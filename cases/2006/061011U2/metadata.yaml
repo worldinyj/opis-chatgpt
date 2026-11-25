@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "061011U2"
+report_number: "2006-16"
+title: "울진 2호기 가압기 살수밸브 고장개방에 따른 원자로 미임계 진입 및 부적절한 안전주입 우회"
+event_date: "2006-10-11"
+report_date: "2006-11"
+plant:
+  site: 울진
+  unit: 2
+source:
+  organization: KINS
+  system: OPIS
+  opis_popup_id: null
+  document_url: null
+  page_count: 29
+  sha256: e5e57384290be5122ad9d9fde395ac38c57061deeaacc941ca274f07caef917c
+  source_size_bytes: 7643152
+operating_mode: "고온대기"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP1, DM1, DM2, WP4, PA1, WP3, CL4, QA2, CL1]
+  additional_review_attributes: [PA2, PA3, QA1, QA3, QA4, CO1, CO2, CO3, LA1, LA2, LA4, LA5, LA6, LA7, LA8, DM3, CL2, CL3, PI1, PI2, PI3, WP2]
+  insufficient_or_low_relevance_attributes: [CO4, LA3, WE1, WE2, WE3, WE4, PI4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null

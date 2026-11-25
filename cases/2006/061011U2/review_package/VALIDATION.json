@@ -1,0 +1,63 @@
+{
+  "event_id": "061011U2",
+  "source_report_sha256": "e5e57384290be5122ad9d9fde395ac38c57061deeaacc941ca274f07caef917c",
+  "source_pages": 29,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_detail": "ROOT-024 29쪽 추출·렌더 및 5개 축소시트 전체 시각검토; 이미지형 경보표 행별 전사·수치검산 미수행",
+  "source_variant_review": {
+    "status": "DISTINCT_EVENTS",
+    "primary_queue_id": "ROOT-024",
+    "other_queue_id": "ROOT-025",
+    "other_event_id": "121126U6",
+    "other_analysis": "TECHNICALLY_VERIFIED"
+  },
+  "report_date_precision": {
+    "value": "2006-11",
+    "precision": "MONTH",
+    "schema_paths": [
+      "video/schemas/fact_ledger.schema.json",
+      "video/schemas/discussion_action.schema.json",
+      "video/schemas/production.schema.json"
+    ],
+    "prior_schema_blobs": [
+      "4ddf42eb65aaa56130374f46a66340bb5d05ca6c",
+      "639fcddad57cad3e547f2feaea748dc2f5d1428c",
+      "586ade769e7fcfd32dd4d2117682a59e8ccbfa04"
+    ],
+    "date_pattern_tests": "PASS_2_POSITIVE_5_NEGATIVE_PER_SCHEMA",
+    "prior_index_dates_checked": 25,
+    "application_regression": "PENDING"
+  },
+  "report": {
+    "status": "DRAFT",
+    "a4_render": "PENDING"
+  },
+  "ppt": {
+    "actual_render": "PENDING"
+  },
+  "contract_checks": {
+    "passed": 0,
+    "total": 14,
+    "status": "PENDING"
+  },
+  "preliminary_checks": {
+    "attribute_partition": "PASS",
+    "learning_fact_reference": "PASS",
+    "discussion_learning_reference": "PASS",
+    "index_duplicate": "PASS",
+    "schema_subset_3": "PASS",
+    "repository_discussion_relations": "PASS"
+  },
+  "video_design": [],
+  "limitations": [
+    "ROOT-024 원래 파일명은 2012년 울진6호기 사건이지만 표지·본문 실제 061011U2, 2006-10-11 울진2호기 KINS 2006-16호이다. ROOT-025와 별도 사건. 원본 변경·이동 없음.",
+    "표지 긴 제목을 기준으로 등록. 본문 제목은 축약 표기와 오기가 존재한다. 발행일은 2006.11.로 일 미표기. report_date=2006-11(월 정밀도), 임의 일자 보충 없음.",
+    "PDF 1–2쪽 인쇄면 무번호, PDF 3–29쪽 인쇄면 1–27쪽. 29쪽 전부 텍스트 추출 및 렌더 시각 확인. 붙임1의 경보목록은 이미지 표로 존재; 행별 전사·시간·수치 검산 미수행.",
+    "붙임5 국내 1995년 유사사례의 서두 호기 표기와 상세 항목 및 본문 §4 사이 불일치. 원문 표기를 임의 정정하지 않고 해당 사례 식별은 별도 확인 대상으로 둔다. 외부 사례 원문은 이번 범위에서 미확인.",
+    "OPIS 상세 팝업 ID, 초기/최종 INES 등급, 실제 보완요구 이행·현재 효과 미확인.",
+    "정비품질과 운전 대응·절차·훈련의 관리적 평가에 한정. 실제 기기 구조, 조건, 설정치, 연결관계, 안전기능 우회 방법, 사건 조작 순서 및 모의시험 조건·그래프는 재현하지 않는다.",
+    "공식 안전문화 지적·규정 위반 평가와 AI 40속성 교육 후보를 분리. 개인 악의·징계·현재 조직 상태를 단정하지 않는다. 실제 방사선 피해 없음과 잠재적 영향은 별도.",
+    "독립·전문가 내용·속성 검토, 영상 설계, PPTX, A4 출력, 정식 14개 계약 검사 대기."
+  ],
+  "can_ship": false
+}

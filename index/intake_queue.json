@@ -422,11 +422,11 @@
           "size_bytes": 7643152
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
       "event_id": "061011U2",
       "verified_event_date": "2006-10-11",
       "from_prior_table": true,
-      "notes": "파일명 불일치: 실제 2006-10-11 울진2호기 KINS 2006-16호(061011U2), 29쪽. 표지·요약 식별 확인, 별도 사건. 분석·전쪽 시각검토 대기. ROOT-025 최종 기술검증 후 ROOT-024 복귀. 비교 docs/SOURCE_VARIANT_ROOT_024_025.md.",
+      "notes": "파일명 오류 유지, 실제 061011U2 원본 29쪽 전체 추출·렌더·시각검토, 26 사실·3 학습·40속성(9/22/9)·토론 및 전문가 초안 등록. 발행일 월 정밀도 2006-11. 영상/PPT/A4/정식 계약 대기. ROOT-024 완료 후 ROOT-026.",
       "source_sha256": "e5e57384290be5122ad9d9fde395ac38c57061deeaacc941ca274f07caef917c"
     },
     {

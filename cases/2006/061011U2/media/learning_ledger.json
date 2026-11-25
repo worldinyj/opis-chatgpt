@@ -1,0 +1,141 @@
+{
+  "schema_version": "2.0",
+  "event_id": "061011U2",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "WP1",
+    "DM1",
+    "DM2",
+    "WP4",
+    "PA1",
+    "WP3",
+    "CL4",
+    "QA2",
+    "CL1"
+  ],
+  "additional_attribute_codes": [
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "CO3",
+    "LA1",
+    "LA2",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA7",
+    "LA8",
+    "DM3",
+    "CL2",
+    "CL3",
+    "PI1",
+    "PI2",
+    "PI3",
+    "WP2"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "message": "정비의 완료는 품질을 확인할 수 있는 객관적 근거로 뒷받침되어야 한다.",
+      "objective": "작업 완료와 정비품질의 객관적 확인, 개선대책의 효과평가를 구분한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F19",
+        "F20",
+        "F21"
+      ],
+      "attribute_codes": [
+        "WP1"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육용 후보. 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "message": "안전 우선의 판단은 승인된 기준과 보수적 의사결정에서 드러난다.",
+      "objective": "공식 안전문화 지적과 규정 준수, 보수적 판단, 판단 오류와 위반의 차이, 실제 결과와 잠재적 영향을 구분한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F07",
+        "F09",
+        "F10",
+        "F15",
+        "F16",
+        "F17",
+        "F18",
+        "F22",
+        "F23"
+      ],
+      "attribute_codes": [
+        "DM1",
+        "DM2",
+        "WP4",
+        "PA1"
+      ],
+      "principle_codes": [
+        "DM",
+        "WP",
+        "PA"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육용 후보. 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "message": "훈련의 신뢰는 실제 업무와의 적합성을 검증하고 운전경험을 반영할 때 확보된다.",
+      "objective": "절차 완결성, 업무별 교육훈련, 훈련 환경의 적합성 검증 및 유사사례 학습을 연결한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F08",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F16",
+        "F20",
+        "F22",
+        "F23",
+        "F24",
+        "F25",
+        "F26"
+      ],
+      "attribute_codes": [
+        "WP3",
+        "CL4",
+        "QA2",
+        "CL1"
+      ],
+      "principle_codes": [
+        "WP",
+        "CL",
+        "QA"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육용 후보. 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

@@ -562,5 +562,29 @@
       "DM1"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "061011U2",
+    "event_date": "2006-10-11",
+    "report_date": "2006-11",
+    "plant": "울진2호기",
+    "title": "울진 2호기 가압기 살수밸브 고장개방에 따른 원자로 미임계 진입 및 부적절한 안전주입 우회",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2006/061011U2/report.md",
+    "candidate_attributes": [
+      "WP1",
+      "DM1",
+      "DM2",
+      "WP4",
+      "PA1",
+      "WP3",
+      "CL4",
+      "QA2",
+      "CL1"
+    ],
+    "approved_attributes": []
   }
 ]
