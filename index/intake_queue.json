@@ -25,10 +25,10 @@
   "existing_cases_not_in_root": [
     "250919W2"
   ],
-  "pending_pdf_count": 31,
-  "pending_date_groups": 30,
-  "next_list_date": "2022-12-22",
-  "next_queue_id": "ROOT-007",
+  "pending_pdf_count": 30,
+  "pending_date_groups": 29,
+  "next_list_date": "2022-09-08",
+  "next_queue_id": "ROOT-008",
   "items": [
     {
       "queue_order": 1,
@@ -140,11 +140,11 @@
           "size_bytes": 1348406
         }
       ],
-      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
       "event_id": "221222K3",
       "verified_event_date": "2022-12-22",
       "from_prior_table": false,
-      "notes": "분석·원장·토론 등록, 영상/PPT 진행 중.",
+      "notes": "보고서·원장·영상 3종 설계·토론·PPTX 등록 및 A4 6쪽·16장 렌더 검증. 전문가 검토·최종 INES·OPIS 상세 ID 및 현재 조치 효과 대기.",
       "source_sha256": "f3826f42d33c26606b000ff208cf319cd6e8bd99a2b6b502d6930ebf8ffda2de"
     },
     {
