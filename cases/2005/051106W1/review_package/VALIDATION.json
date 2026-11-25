@@ -52,5 +52,74 @@
     "pptx_blob": "2309550a4870966d15a0e71c6d984e6f8f58d055",
     "pptx_bytes": 251421
   },
-  "can_ship": false
+  "can_ship": false,
+  "contract_crosscheck": {
+    "event_id": "051106W1",
+    "source_commit": "f72260adf9c507a9612e46437c1b029567545815",
+    "date": "2026-11-26",
+    "method": "Independent JS transcription of repository contract rules against pinned five schemas and eight input documents. Not actual repository Node module or Python Draft202012Validator execution.",
+    "passed": 14,
+    "total": 14,
+    "results": [
+      {
+        "test": "schema fact_ledger.json",
+        "errors": []
+      },
+      {
+        "test": "schema learning_ledger.json",
+        "errors": []
+      },
+      {
+        "test": "schema discussion_action/manifest.json",
+        "errors": []
+      },
+      {
+        "test": "schema incident_understanding/production.json",
+        "errors": []
+      },
+      {
+        "test": "schema safety_culture_learning/production.json",
+        "errors": []
+      },
+      {
+        "test": "schema shorts/SHORT-01/production.json",
+        "errors": []
+      },
+      {
+        "test": "schema safety_culture_learning/batch_job.example.json",
+        "errors": []
+      },
+      {
+        "test": "schema shorts/SHORT-01/batch_job.example.json",
+        "errors": []
+      },
+      {
+        "test": "relations discussion_action/manifest.json",
+        "errors": []
+      },
+      {
+        "test": "relations incident_understanding/production.json",
+        "errors": []
+      },
+      {
+        "test": "relations safety_culture_learning/production.json",
+        "errors": []
+      },
+      {
+        "test": "relations shorts/SHORT-01/production.json",
+        "errors": []
+      },
+      {
+        "test": "batch safety_culture_learning/batch_job.example.json",
+        "errors": []
+      },
+      {
+        "test": "batch shorts/SHORT-01/batch_job.example.json",
+        "errors": []
+      }
+    ],
+    "formal_contract_status": "PENDING",
+    "source_contact_sheets": "VISUALLY_REVIEWED_17_PAGES",
+    "can_ship": false
+  }
 }
