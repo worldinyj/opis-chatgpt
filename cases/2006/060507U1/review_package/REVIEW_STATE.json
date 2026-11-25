@@ -3,7 +3,7 @@
   "analysis_version": "0.1.0",
   "source_sha256": "b4a68f422f2e90d7c84e8d9cd6d8255c353bbd83a84c6e7459ec8d52fe0d0e2e",
   "source_pages": 20,
-  "source_render": "GENERATED_CONTACT_SHEETS",
+  "source_render": "PASS_LOCAL_CONTACT_SHEETS",
   "source_queue_id": "ROOT-030",
   "report_status": "DRAFT",
   "expert_content_review": "PENDING",
@@ -20,5 +20,10 @@
     "passed": 0,
     "total": 14
   },
-  "next_step": "OUTPUT_AND_FORMAL_CONTRACT_QC"
+  "next_step": "BATCH_OUTPUT_AND_FORMAL_QC",
+  "contract_crosscheck": {
+    "passed": 14,
+    "total": 14,
+    "formal_status": "PENDING"
+  }
 }
