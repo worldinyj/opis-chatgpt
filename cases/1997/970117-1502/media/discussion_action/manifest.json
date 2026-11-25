@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "event_id": "970117-1502",
+  "artifact_id": "DA-970117-1502",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "안전 우선·문제 확인·절차 완전성",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "1502-97-02",
+    "report_date": "1997-01",
+    "sha256": "77c64ecd353163f6ae8b8ee108588eb850dd1ac38a9aff0bd913b2b53788ecee"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "생산 일정과 안전상의 불확실성이 충돌할 때 어떤 판단 근거를 남기는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "인지한 이상과 실제 조치의 연결을 어떻게 확인하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "문서 완전성과 이행 및 개선 효과를 어떤 증거로 구분하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상 일반 제조업체 사무팀에서 업무기록의 이상이 발견됐다. 마감 일정과 확인 필요성 사이에서 팀은 판단 근거를 논의한다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 일정과 안전 우선순위, 확인 책임 및 문제 해결 증거를 토론한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상 사무팀에서 안내문 누락을 발견하여 개정했다. 팀은 이행과 효과를 확인하는 증거를 논의한다.",
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 문서 검토, 실제 이행 및 개선 효과를 토론한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "안전 중심 판단 근거를 기록한다.",
+      "verification": "판단 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "이상 발견과 후속 조치 기록을 확인한다.",
+      "verification": "문제·조치 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "문서 완전성과 확인 증거를 검토한다.",
+      "verification": "문서 검토 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "안전 우선 판단의 사례를 검토한다.",
+      "verification": "팀 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "업무 확인과 점검 관리 증거를 표본 검토한다.",
+      "verification": "표본 평가 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "개선 이행 및 효과를 추적한다.",
+      "verification": "효과 검증 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

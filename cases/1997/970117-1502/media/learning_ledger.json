@@ -1,0 +1,128 @@
+{
+  "schema_version": "2.0",
+  "event_id": "970117-1502",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "PI1",
+    "PI3",
+    "DM2",
+    "WP1",
+    "WP3",
+    "WP4",
+    "QA2",
+    "PA2"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA3",
+    "QA1",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "CO3",
+    "LA1",
+    "LA2",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM3",
+    "CL1",
+    "CL2",
+    "CL4",
+    "PI2",
+    "WP2"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "message": "안전 중심 판단을 생산 우려보다 우선한다",
+      "objective": "발전정지 우려와 문제 조치, 불확실성 및 책임의 증거를 구분한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F10",
+        "F14"
+      ],
+      "attribute_codes": [
+        "DM2",
+        "PI3",
+        "PA2",
+        "QA2"
+      ],
+      "principle_codes": [
+        "DM",
+        "PI",
+        "PA",
+        "QA"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "요약 원문 기반 검토 후보, 공식 40속성 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "message": "이상상태의 인지와 확인을 업무관리로 연결한다",
+      "objective": "기록된 이상과 실제 확인, 점검 계획 및 업무관리의 충분성을 검토한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F03",
+        "F04",
+        "F06",
+        "F08",
+        "F09",
+        "F10"
+      ],
+      "attribute_codes": [
+        "PI1",
+        "WP1"
+      ],
+      "principle_codes": [
+        "PI",
+        "WP"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "요약 원문 기반 검토 후보, 공식 40속성 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "message": "절차의 완전성과 이행 증거를 확인한다",
+      "objective": "문서 누락과 확인 미흡, 절차 개정 및 효과를 구분한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F06",
+        "F07",
+        "F08",
+        "F11",
+        "F12",
+        "F14"
+      ],
+      "attribute_codes": [
+        "WP3",
+        "WP4"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "요약 원문 기반 검토 후보, 공식 40속성 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

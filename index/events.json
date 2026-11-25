@@ -819,5 +819,28 @@
       "WP1"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "970117-1502",
+    "event_date": "1997-01-17",
+    "report_date": null,
+    "plant": "호기 미확인",
+    "title": "비상정지 논리시험 중 원자로 정지",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/1997/970117-1502/report.md",
+    "candidate_attributes": [
+      "PI1",
+      "PI3",
+      "DM2",
+      "WP1",
+      "WP3",
+      "WP4",
+      "QA2",
+      "PA2"
+    ],
+    "approved_attributes": []
   }
 ]

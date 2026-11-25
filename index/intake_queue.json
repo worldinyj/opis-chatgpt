@@ -626,11 +626,12 @@
           "size_bytes": 502360
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED",
+      "event_id": "970117-1502",
+      "verified_event_date": "1997-01-17",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "2쪽 동일 스캔 직접 판독, 유효 원문 1건, 호기 및 ID 잠정. 원문 등급 1(체계명 미확인), 14 사실, 3 학습, 40속성 8/21/11, 토론 및 영상 43장면/270초 설계. PPT·A4·정식 계약·상세 조사·전문가 검토 대기.",
+      "source_sha256": "77c64ecd353163f6ae8b8ee108588eb850dd1ac38a9aff0bd913b2b53788ecee"
     },
     {
       "queue_order": 37,

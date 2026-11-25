@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "970117-1502"
+report_number: "1502-97-02"
+title: "비상정지 논리시험 중 원자로 정지"
+event_date: "1997-01-17"
+report_date: null
+plant:
+  site: null
+  unit: null
+source:
+  organization: null
+  system: OPIS
+  opis_popup_id: null
+  document_url: null
+  page_count: 2
+  sha256: 77c64ecd353163f6ae8b8ee108588eb850dd1ac38a9aff0bd913b2b53788ecee
+  source_size_bytes: 502360
+operating_mode: "정상 출력운전"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [PI1, PI3, DM2, WP1, WP3, WP4, QA2, PA2]
+  additional_review_attributes: [PA1, PA3, QA1, QA3, QA4, CO1, CO2, CO3, LA1, LA2, LA4, LA5, LA6, LA7, DM1, DM3, CL1, CL2, CL4, PI2, WP2]
+  insufficient_or_low_relevance_attributes: [CO4, WE1, WE2, WE3, WE4, CL3, PI4, LA3, LA8, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null

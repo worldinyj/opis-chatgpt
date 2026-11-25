@@ -1,0 +1,236 @@
+{
+  "schema_version": "2.0",
+  "event_id": "970117-1502",
+  "source": {
+    "document_path": "source.md",
+    "report_number": "1502-97-02",
+    "report_date": "1997-01",
+    "sha256": "77c64ecd353163f6ae8b8ee108588eb850dd1ac38a9aff0bd913b2b53788ecee"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "요약",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "1997년 1월 17일 정상 출력운전 중 시험 관련 원자로 자동정지가 발생했다.",
+      "qualification": "기술적 사건 전개와 구체 조건 제외. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "원문은 시험 관련 부품의 동작불량을 기술적 원인으로 기록했다.",
+      "qualification": "부품의 신호 논리·작동 방법·구체 취약점 제외. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "이상상태가 전산기록에 나타났으나 적시에 인지하지 못했다고 기록했다.",
+      "qualification": "구체 시각·경과시간 제외. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "상태 확인에 필요한 표시 기능의 고장이 있었다고 기록했다.",
+      "qualification": "장치 식별 및 위치 제외. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "발전정지 우려로 문제를 방치했다고 기록했다.",
+      "qualification": "원문 지적 범위. 생산압박 정책이나 개인 동기 전체를 확정하지 않음. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "시험 종료 후 관련 현장 상태를 확인하지 않았다고 기록했다.",
+      "qualification": "현장 위치와 조작 방법 제외. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "시험절차서에 필요한 복구 절차가 누락되어 있었다고 기록했다.",
+      "qualification": "구체 복구 절차는 제외. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "정·주기 시험관리가 부적절하다고 평가했다.",
+      "qualification": "구체 기술적 상태나 시간 제외. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "관련 부품의 점검이 이루어지지 않았다고 기록했다.",
+      "qualification": "대상 부품 및 점검 방식 생략. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "OBSERVED_FACT",
+      "section": "요약",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "재발방지를 위해 관련 부품 점검을 강화했다고 기록했다.",
+      "qualification": "실제 이행 증거·효과 별도 확인 필요. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "OBSERVED_FACT",
+      "section": "요약",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "시험절차서를 보완했다고 기록했다.",
+      "qualification": "개정본 및 효과 미확보. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "OBSERVED_FACT",
+      "section": "요약",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "관련 운전절차서를 작성하고 주요 기기 운전조작 절차를 개선했다고 기록했다.",
+      "qualification": "문서 원문 및 구체 지시 제외. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "OBSERVED_FACT",
+      "section": "표제부",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "원문은 복구 일시를 기록하고 등급을 1로 표시했다.",
+      "qualification": "정확한 시각 제외. 등급 체계 및 독립 검증 미확인. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "SOURCE_LIMITATION",
+      "section": "전체; 관리번호",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "statement": "두 스캔 페이지는 동일 내용을 반복한다. 작성기관·발행일·호기 명칭·상세 조사·후속 효과는 미확인이다.",
+      "qualification": "관리번호 1502-97-02. 잠정 코드 970117-1502. report_date는 사건월 대체값; INES 확정 아님. 동일 내용의 중복 스캔이며 독립 증거 2건 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}
