@@ -1,0 +1,308 @@
+{
+  "schema_version": "2.0",
+  "event_id": "220908SW2",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2022-09",
+    "report_date": "2022-09-20",
+    "sha256": "827d36bc3a702a9e171ec267d2dea16c881a6a4023818a96bcfdca5ca345a1c7"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "statement": "2022.09.08 신월성2호기 정상운전(출력100%) 중 제어봉구동전원계통 출력차단기 개방에 따른 원자로 자동정지.",
+      "section": "요약,1",
+      "printed_pages": [
+        1,
+        2
+      ],
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "qualification": "사건 당시 운전상태.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "사건 초기 정비 준비 중 이상 운전변수를 확인하여 운전부서에 조정을 요청하였다.",
+      "section": "3.1,붙임5",
+      "printed_pages": [
+        3,
+        25
+      ],
+      "pdf_pages": [
+        5,
+        27
+      ],
+      "qualification": "부서 간 요청 및 사전점검 수행 인정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "전압조정스위치 가변저항기 성능저하가 확인되었고 조사팀은 이에 따른 최초 보호기능 동작의 원인분석을 적절하다고 평가했다.",
+      "section": "3.2.2",
+      "printed_pages": [
+        5,
+        6,
+        7
+      ],
+      "pdf_pages": [
+        7,
+        8,
+        9
+      ],
+      "qualification": "설비 성능저하와 후속 판단 문제 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "OBSERVED_FACT",
+      "statement": "최초 출력차단기 개방 이후 관련 경보를 해제하고 정상 운전변수를 확인하였다.",
+      "section": "3.1,붙임5",
+      "printed_pages": [
+        4,
+        25
+      ],
+      "pdf_pages": [
+        6,
+        27
+      ],
+      "qualification": "경보 소거와 원인 해소는 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "발전부와 전기부는 복구를 위한 사전검토와 설계자료 검토를 수행하였다.",
+      "section": "3.2.4,붙임5",
+      "printed_pages": [
+        10,
+        25,
+        26
+      ],
+      "pdf_pages": [
+        12,
+        27,
+        28
+      ],
+      "qualification": "검토 미실시로 표현하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "비정상 조건에 적합한 절차가 마련되지 않아 초기 기동용 계통절차를 적용하였으며 조사팀은 적용이 부적절하다고 평가했다.",
+      "section": "3.2.4",
+      "printed_pages": [
+        9,
+        10
+      ],
+      "pdf_pages": [
+        11,
+        12
+      ],
+      "qualification": "절차 부재와 명시적 절차 위반 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "표시등의 지시 의미를 실제 요구조건이 충족되었다는 의미로 오인하였다. 설비특성에 대한 이해 및 검토가 부족했다.",
+      "section": "3.2.3,3.2.4",
+      "printed_pages": [
+        7,
+        10
+      ],
+      "pdf_pages": [
+        9,
+        12
+      ],
+      "qualification": "개인 숙련도 전체 또는 의도 단정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "관련 경보가 해제되고 운전변수가 정상 범위라는 이유로 순간적인 운전변수 변동으로 판단하였다.",
+      "section": "붙임5",
+      "printed_pages": [
+        25,
+        26
+      ],
+      "pdf_pages": [
+        27,
+        28
+      ],
+      "qualification": "당시 판단과 실제 조사 결과 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "일상 운전업무로 판단하여 정비작업 및 운영개선프로그램 조치를 적용하지 않았다.",
+      "section": "3.2.4,붙임5",
+      "printed_pages": [
+        10,
+        26
+      ],
+      "pdf_pages": [
+        12,
+        28
+      ],
+      "qualification": "CAP 전반의 운영 부실로 일반화하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "최초 비정상 현상의 원인과 복구 조치 적절성에 대한 상세 검토가 부족했다. 조사팀은 정식 작업관리 활용이 예방에 기여할 수 있었다고 평가했다.",
+      "section": "3.2.4",
+      "printed_pages": [
+        10
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "qualification": "실제 사전검토와 정식 프로세스의 차이.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "조사팀은 복구 과정의 전기적 조건 불일치에 따른 보호기능 작동 및 전원상실로 원자로가 정지한 것으로 평가했다.",
+      "section": "3.2.1,3.2.3",
+      "printed_pages": [
+        4,
+        5,
+        7,
+        9
+      ],
+      "pdf_pages": [
+        6,
+        7,
+        9,
+        11
+      ],
+      "qualification": "기능 수준 요약. 실제 설비 조작·고장 재현 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "원자로 정지 후 비상운전절차에 따른 안정화가 수행되었고 운전제한조건 적용 및 해제가 이루어졌다.",
+      "section": "3.3",
+      "printed_pages": [
+        10,
+        11
+      ],
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "qualification": "운전원 긍정 대응 인정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "필수안전기능과 열제거가 적절히 유지되었고 소내·외 방사선량 특이사항 없음.",
+      "section": "3.4",
+      "printed_pages": [
+        11,
+        12
+      ],
+      "pdf_pages": [
+        13,
+        14
+      ],
+      "qualification": "안전기능 결과와 사건 원인 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "사건 후 관련 설비 건전성 점검 결과 특이사항 없음.",
+      "section": "붙임6",
+      "printed_pages": [
+        27,
+        28
+      ],
+      "pdf_pages": [
+        29,
+        30
+      ],
+      "qualification": "점검 범위의 결과에 한정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "발행 당시 기초 INES 0, 최종 등급은 위원회 평가 예정.",
+      "section": "3.5",
+      "printed_pages": [
+        12
+      ],
+      "pdf_pages": [
+        14
+      ],
+      "qualification": "최종 등급 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "단기조치 4건 완료: 가변저항기 교체, 건전성 점검, 정비 프로세스 개선, 관련 부서 및 협력사 교육.",
+      "section": "3.6",
+      "printed_pages": [
+        13,
+        14
+      ],
+      "pdf_pages": [
+        15,
+        16
+      ],
+      "qualification": "보고서 발행 당시.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "중장기조치 5건 예정: 절차 개발·개정, SPV 등록 및 작업관리 강화, 설비개선 검토, 관리기준 수립, 전문교육과정 개설.",
+      "section": "3.6",
+      "printed_pages": [
+        13,
+        14
+      ],
+      "pdf_pages": [
+        15,
+        16
+      ],
+      "qualification": "실제 후속 이행·효과 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "SOURCE_LIMITATION",
+      "statement": "공개 판본의 비공개 처리된 설정값·도면·운전기록은 복원하지 않았다. 계산 및 모의해석은 조사팀 평가의 근거이며 사건 당시 실측과 구분한다.",
+      "section": "3.2.3,붙임3,비공개 처리 사유서",
+      "printed_pages": [
+        8,
+        9,
+        20,
+        23
+      ],
+      "pdf_pages": [
+        10,
+        11,
+        22,
+        25
+      ],
+      "qualification": "원본 PDF 33쪽, 본문 인쇄 p.1=PDF p.3; 마지막 사유서는 PDF p.33.",
+      "review_status": "PENDING"
+    }
+  ]
+}

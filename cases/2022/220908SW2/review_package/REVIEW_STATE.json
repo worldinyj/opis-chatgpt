@@ -1,0 +1,14 @@
+{
+  "event_id": "220908SW2",
+  "analysis_version": "0.1.0",
+  "source_sha256": "827d36bc3a702a9e171ec267d2dea16c881a6a4023818a96bcfdca5ca345a1c7",
+  "report_status": "DRAFT",
+  "expert_content_review": "PENDING",
+  "expert_attribute_review": "USER_SEPARATE_REVIEW_PENDING",
+  "independent_review": "PENDING",
+  "can_ship": false,
+  "media_status": "PLANNED",
+  "ppt_status": "PLANNED",
+  "paid_generation_calls": 0,
+  "external_submissions": 0
+}

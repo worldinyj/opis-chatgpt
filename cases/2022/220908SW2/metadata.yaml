@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "220908SW2"
+report_number: "2022-09"
+title: "신월성2호기 제어봉구동전원계통 출력차단기 개방에 따른 원자로 자동정지"
+event_date: "2022-09-08"
+report_date: "2022-09-20"
+plant:
+  site: 신월성
+  unit: 2
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 33
+  sha256: 827d36bc3a702a9e171ec267d2dea16c881a6a4023818a96bcfdca5ca345a1c7
+  source_size_bytes: 879048
+operating_mode: "1 (출력운전), 100%"
+preliminary_ines: 0
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [QA2, QA4, DM1, DM2, PI1, PI2, WP1, WP3]
+  additional_review_attributes: [PA1, PA2, PA3, QA1, QA3, CO1, CO2, LA4, LA5, LA6, LA7, DM3, CL1, CL2, CL4, PI3, PI4, WP2, WP4, LA1]
+  insufficient_or_low_relevance_attributes: [CO3, CO4, LA2, LA3, LA8, WE1, WE2, WE3, WE4, CL3, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false

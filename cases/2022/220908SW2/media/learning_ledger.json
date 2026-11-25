@@ -1,0 +1,118 @@
+{
+  "schema_version": "2.0",
+  "event_id": "220908SW2",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "QA2",
+    "QA4",
+    "DM1",
+    "DM2",
+    "PI1",
+    "PI2",
+    "WP1",
+    "WP3"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA3",
+    "CO1",
+    "CO2",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM3",
+    "CL1",
+    "CL2",
+    "CL4",
+    "PI3",
+    "PI4",
+    "WP2",
+    "WP4",
+    "LA1"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "표시와 실제 상태는 구분한다",
+      "objective": "경보 소거와 원인 해소의 차이 및 가정의 검증 근거를 확인한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F03",
+        "F04",
+        "F07",
+        "F08"
+      ],
+      "principle_codes": [
+        "QA"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "QA4"
+      ],
+      "report_section": "3.4",
+      "qualification": "실제 설비 조작 지시 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "비정상 상황에 맞는 검토와 절차가 필요하다",
+      "objective": "적용 가능한 절차와 신중한 의사결정의 근거를 확인한다.",
+      "cause_ids": [
+        "R1",
+        "R3"
+      ],
+      "fact_ids": [
+        "F05",
+        "F06",
+        "F10"
+      ],
+      "principle_codes": [
+        "DM",
+        "WP"
+      ],
+      "attribute_codes": [
+        "DM1",
+        "DM2",
+        "WP3"
+      ],
+      "report_section": "3.4",
+      "qualification": "합동 사전검토 인정; 명시적 절차 위반 단정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "예상하지 못한 고장은 정식 문제관리로 연결한다",
+      "objective": "공식 문제등록·중요도 평가·작업관리 및 후속 확인을 검토한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F09",
+        "F10",
+        "F17"
+      ],
+      "principle_codes": [
+        "PI",
+        "WP"
+      ],
+      "attribute_codes": [
+        "PI1",
+        "PI2",
+        "WP1"
+      ],
+      "report_section": "3.4",
+      "qualification": "CAP 전체의 접근성 부실로 일반화하지 않음.",
+      "review_status": "PENDING"
+    }
+  ]
+}
