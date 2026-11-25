@@ -192,3 +192,6 @@
 
 ## 2026-11-25 / PILOT-25 PPT 제작 체크포인트
 - 121126U6 16장/52분 편집형 PPTX·진행자 가이드, Git blob e7dbaf386b63ec5aee2c5cdf4f59a30e0d14424f. 생성기 결정성 및 ZIP 로컬 멤버 CRC 확인. 실제 렌더·A4·정식 14개 계약 검증 대기, can_ship=false.
+
+## 2026-11-25 / PILOT-25 최종 기술검증
+- 울진6호기 121126U6 원본 12쪽·사실 24·학습 3·40속성 후보 8/22/10·영상 3종·토론·16장/52분 PPTX. A4 4쪽 및 PPT 16장 실제 렌더, Git blob 동일성, Python jsonschema·저장소 관계 14/14 완료. 전문가 미승인, can_ship=false. ROOT-024 복귀.
