@@ -1,0 +1,126 @@
+{
+  "schema_version": "2.0",
+  "event_id": "141017Y3",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "WP1",
+    "WP3",
+    "LA5",
+    "CO1",
+    "DM2",
+    "PI2"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "QA4",
+    "CO3",
+    "LA6",
+    "LA7",
+    "DM1",
+    "CL1",
+    "CL2",
+    "CL4",
+    "PI3",
+    "PI4",
+    "WP2",
+    "WP4"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "작업계획과 예방정비는 이물질 유입방지 및 설비의 실제 기능 확인까지 포함한다.",
+      "objective": "작업관리와 예방정비의 실효성, 확인된 원인과 추정된 유입원의 차이를 설명한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F06",
+        "F07",
+        "F08",
+        "F10",
+        "F11",
+        "F12",
+        "F21"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP1"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 미진속성 확정 또는 개인 책임·심리 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "기술정보의 정확한 반영과 절차 변경의 영향을 체계적으로 검증한다.",
+      "objective": "정보 정의·교정절차의 정확성과 변경 검토 및 실증 확인을 구분한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F03",
+        "F04",
+        "F05",
+        "F09",
+        "F10",
+        "F11",
+        "F21"
+      ],
+      "principle_codes": [
+        "WP",
+        "LA"
+      ],
+      "attribute_codes": [
+        "WP3",
+        "LA5"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 미진속성 확정 또는 개인 책임·심리 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "이상 정보는 조직 간 공유하고 불확실한 평가는 보수적으로 검증한다.",
+      "objective": "통보·절차 적용의 개선 필요, 긍정적 대응과 소외 영향의 보수적 재평가를 구분한다.",
+      "cause_ids": [
+        "R3",
+        "R4"
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F13",
+        "F14",
+        "F15",
+        "F16",
+        "F17",
+        "F18",
+        "F19"
+      ],
+      "principle_codes": [
+        "CO",
+        "DM",
+        "PI"
+      ],
+      "attribute_codes": [
+        "CO1",
+        "DM2",
+        "PI2"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 미진속성 확정 또는 개인 책임·심리 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

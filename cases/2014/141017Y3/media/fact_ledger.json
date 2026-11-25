@@ -1,0 +1,376 @@
+{
+  "schema_version": "2.0",
+  "event_id": "141017Y3",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2014-16",
+    "report_date": "2015-03-20",
+    "sha256": "97685ba3c52fa3cbc1335b5b2c1a79248c63a291c0433808bdf50a143ec9e050"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "요약; 1",
+      "printed_pages": [
+        1,
+        3
+      ],
+      "pdf_pages": [
+        2,
+        4
+      ],
+      "statement": "2014년 10월 16일 누설징후가 확인되어 정비를 위해 출력을 감발하던 중 10월 17일 원자로 자동정지가 발생했다.",
+      "qualification": "누설징후 확인일과 공식 사건발생일을 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.1",
+      "printed_pages": [
+        6,
+        8
+      ],
+      "pdf_pages": [
+        7,
+        9
+      ],
+      "statement": "방사선안전팀은 비정상 지시치 증가와 시료분석 결과를 확인했으나 추가 확인 과정에서 발전팀 통보 및 비정상절차 진입이 지연되었다.",
+      "qualification": "당시 절차의 경보 관련 통보요건과 실제 비정상절차 진입조건을 구분하며 개인의 고의 지연을 추정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.1",
+      "printed_pages": [
+        8,
+        9
+      ],
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "statement": "조사팀은 누설률 평가 및 대응단계 선정 과정에서 절차상 연속감시 불능의 정의가 불명확했다고 확인했다.",
+      "qualification": "절차 정의의 개선 필요이며 종사자의 규정 위반을 단정하지 않는다. 실제 대응조건 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2",
+      "printed_pages": [
+        9,
+        10
+      ],
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "statement": "자동정지 원인 평가에서 보호계통과 운전원에게 제공된 정보의 기준 정의 차이가 확인되었다. 조사팀은 사업자의 원인평가를 인정했다.",
+      "qualification": "최초 누설의 직접원인과 자동정지 원인을 구분한다. 상세 논리·설정값 및 조작조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2",
+      "printed_pages": [
+        10
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "statement": "사업자는 관련 기준 정의 및 확인 절차를 명확히 하는 단기 절차 개선과 중장기 설계변경 검토를 제시했고 조사팀은 재발방지에 적절하다고 판단했다.",
+      "qualification": "당시 절차 개정 완료와 설계변경 검토 계획을 분리한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3",
+      "printed_pages": [
+        10,
+        11
+      ],
+      "pdf_pages": [
+        11,
+        12
+      ],
+      "statement": "회수 이물질과 손상 부위의 전문기관 분석 결과 가공 과정에서 발생한 금속칩의 반복 접촉에 따른 마모가 세관누설 원인으로 평가되었다.",
+      "qualification": "이물질 종류와 마모라는 일반적 원인 수준에 한정하며 위치·유입 경로·재현 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "SOURCE_LIMITATION",
+      "section": "3.1.3",
+      "printed_pages": [
+        10,
+        11
+      ],
+      "pdf_pages": [
+        11,
+        12
+      ],
+      "statement": "검사 이력, 정비기록 및 이물질 분석을 바탕으로 유입시기와 유입원을 평가했으나 정확한 유입시기 및 유입원은 명확히 확인되지 않았다.",
+      "qualification": "특정 정비 작업, 작업자, 유입 경로를 확정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3; 3.5",
+      "printed_pages": [
+        11,
+        22
+      ],
+      "pdf_pages": [
+        12,
+        23
+      ],
+      "statement": "이물질 제거 및 이물질 유입방지 프로그램의 강화, 관련 절차 개선이 이루어졌으며 조사팀은 확인된 근거에 비추어 조치를 적절하다고 판단했다.",
+      "qualification": "사건 당시 프로그램의 개선 필요와 개인의 절차 불이행은 별개이다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        12,
+        13,
+        14
+      ],
+      "statement": "누설감시기의 미감지 원인 검토 결과 제작사 권고와 다르게 개정된 교정절차에 의한 오교정이 확인되었다.",
+      "qualification": "교정 방법·설정·감시범위 수치 및 설비별 취약점 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        12,
+        13
+      ],
+      "pdf_pages": [
+        13,
+        14
+      ],
+      "statement": "교정 확인에 사용하는 자재의 권장 사용기간과 유효성에 관한 제작사 검토 및 재평가·대체 계획이 제시되었다.",
+      "qualification": "사용기간 초과가 단독 직접원인이라거나 제작사가 기존 사용 불가로 판단했다고 단정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        13,
+        14
+      ],
+      "pdf_pages": [
+        14,
+        15
+      ],
+      "statement": "조사팀의 추가 실증시험 요구에 따라 교정절차의 적합성 검증이 이루어졌고 제작사 점검·정비 및 재개정 이후 관련 성능이 적합하다고 확인되었다.",
+      "qualification": "사후 실증시험은 사건 당시 상태와 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        14
+      ],
+      "pdf_pages": [
+        15
+      ],
+      "statement": "다른 감시기 문제에 대해서는 분해점검·이물질 분석에 근거하여 시료계통의 기능 저하 원인을 평가하고 점검 및 정비 개선대책을 마련했다.",
+      "qualification": "구체 설비 위치·고장 조건·조작 방법 제외. 원인 일부는 사업자의 추정 평가이다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.2",
+      "printed_pages": [
+        15
+      ],
+      "pdf_pages": [
+        16
+      ],
+      "statement": "감시 관련 정보의 불일치로 누설 확인 및 격리에 혼선과 지연이 발생했으며 추가 확인을 통해 누설 대상을 최종 확인하였다.",
+      "qualification": "실제 격리 절차나 계통별 상태를 재현하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3",
+      "printed_pages": [
+        15,
+        16
+      ],
+      "pdf_pages": [
+        16,
+        17
+      ],
+      "statement": "조사팀은 감발 및 자동정지 후 비상운전절차에 따른 대응, 주요 계통 거동 및 정지상태 유지 등 안전기능을 적절하다고 평가하였다.",
+      "qualification": "초기 통보 및 대응단계 개선 필요와 정지 후 긍정적 대응을 함께 보존한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4.1",
+      "printed_pages": [
+        16,
+        17
+      ],
+      "pdf_pages": [
+        17,
+        18
+      ],
+      "statement": "조사팀은 과도상태의 초기 누설량 평가방법이 비보수적이라고 판단하여 보수적인 방법으로 재평가할 것을 요구하였다.",
+      "qualification": "평가값은 계산된 추정치이며 세부 수치·계산법은 재현하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4.2",
+      "printed_pages": [
+        17,
+        18
+      ],
+      "pdf_pages": [
+        18,
+        19
+      ],
+      "statement": "최초 소외 방사성물질 배출량 평가에서 평가 범위와 일부 핵종이 누락된 점을 조사팀이 확인하여 보수적 재평가를 요구하였다.",
+      "qualification": "초기 평가 당시 관련 절차의 시료분석 적용조건과 개선 필요를 구분한다. 실제 배출경로 세부 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4.2",
+      "printed_pages": [
+        18,
+        19
+      ],
+      "pdf_pages": [
+        19,
+        20
+      ],
+      "statement": "재평가된 소외 배출량과 예상주민피폭선량은 초기 평가보다 증가했으나 당시 기준과 비교해 영향은 미미하다고 판단되었다.",
+      "qualification": "방사성물질 소외 배출은 실제 발생했으며 무배출로 표현하지 않는다. 예상 선량은 실측 개인선량이 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4.2",
+      "printed_pages": [
+        18,
+        19
+      ],
+      "pdf_pages": [
+        19,
+        20
+      ],
+      "statement": "사업자는 누설징후가 있을 때 시료채취 및 분석요건을 명확히 하는 절차 개정을 완료했고 전 원전 적용을 추진했다.",
+      "qualification": "해당 호기의 개정 완료와 전사 적용 진행을 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4.3",
+      "printed_pages": [
+        19
+      ],
+      "pdf_pages": [
+        20
+      ],
+      "statement": "사건 전후 환경감시 및 토양·해수 시료 분석에서 특이한 변화가 없었으며 KINS의 독립 계측·분석 결과도 불확도 범위 내에서 일치하였다.",
+      "qualification": "당시 조사 범위에 한정한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4.4",
+      "printed_pages": [
+        20,
+        21
+      ],
+      "pdf_pages": [
+        21,
+        22
+      ],
+      "statement": "사업자의 오염된 계통수 정화계획 및 정화 완료와 소내 방사선안전관리의 적절성이 확인되었다.",
+      "qualification": "정화방법·수치 및 세부 운전 조건 제외. 추가 피폭 작업자가 없었다는 사업자 판단과 조사팀의 관리 적절성 판단을 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F21",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.5",
+      "printed_pages": [
+        21,
+        22,
+        23
+      ],
+      "pdf_pages": [
+        22,
+        23,
+        24
+      ],
+      "statement": "절차 개정, 감시기 성능 확인, 예방정비 및 이물질 유입방지 강화 등 단기조치를 완료하고 전 원전 확대점검을 수행했다.",
+      "qualification": "당시 점검 범위에 한정하며 향후 유효성 확인 계획까지 완료된 것으로 표현하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F22",
+      "kind": "OBSERVED_FACT",
+      "section": "3.5",
+      "printed_pages": [
+        22,
+        23
+      ],
+      "pdf_pages": [
+        23,
+        24
+      ],
+      "statement": "사업자는 설계변경 검토와 관련 자재의 유효성 확인 및 개선 등을 중장기대책으로 제시하였다.",
+      "qualification": "계획과 현재 완료 및 효과를 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F23",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4; 5",
+      "printed_pages": [
+        23,
+        24
+      ],
+      "pdf_pages": [
+        24,
+        25
+      ],
+      "statement": "조사팀은 원인과 대응조치의 연계성 및 재발방지대책을 적절하다고 판단했으며 보완요구사항은 없고 당시 기술적 재가동에는 문제가 없다고 평가했다.",
+      "qualification": "현재 발전소 상태 또는 전문가 안전문화 판정으로 확대하지 않는다.",
+      "review_status": "PENDING"
+    }
+  ]
+}

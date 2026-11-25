@@ -413,5 +413,26 @@
       "DM2"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "141017Y3",
+    "event_date": "2014-10-17",
+    "report_date": "2015-03-20",
+    "plant": "한빛3호기",
+    "title": "한빛 3호기 증기발생기 세관누설 정비를 위한 출력감발 중 원자로 자동정지",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2014/141017Y3/report.md",
+    "candidate_attributes": [
+      "WP1",
+      "WP3",
+      "LA5",
+      "CO1",
+      "DM2",
+      "PI2"
+    ],
+    "approved_attributes": []
   }
 ]

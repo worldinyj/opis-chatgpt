@@ -1,0 +1,33 @@
+schema_version: "1.0"
+event_id: "141017Y3"
+report_number: "2014-16"
+title: "한빛 3호기 증기발생기 세관누설 정비를 위한 출력감발 중 원자로 자동정지"
+event_date: "2014-10-17"
+report_date: "2015-03-20"
+plant:
+  site: 한빛
+  unit: 3
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 25
+  sha256: 97685ba3c52fa3cbc1335b5b2c1a79248c63a291c0433808bdf50a143ec9e050
+  source_size_bytes: 2250865
+operating_mode: "출력운전"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP1, WP3, LA5, CO1, DM2, PI2]
+  additional_review_attributes: [PA1, PA2, PA3, QA1, QA2, QA3, QA4, CO3, LA6, LA7, DM1, CL1, CL2, CL4, PI3, PI4, WP2, WP4]
+  insufficient_or_low_relevance_attributes: [CO2, CO4, LA1, LA2, LA3, LA4, LA8, DM3, WE1, WE2, WE3, WE4, CL3, PI1, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false
+# 텍스트층 숫자·영문·기호 일부 누락; source.md 참조.
