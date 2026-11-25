@@ -225,11 +225,12 @@
           "size_bytes": 1635578
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "SOURCE_RAW_QC_VERIFIED_DETAIL_PENDING",
+      "event_id": "190121W3",
+      "verified_event_date": "2019-01-21",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "루트 원본 1,635,578 bytes·55쪽·SHA-256 및 전체 축소 렌더 확인. 표지·요약·결론 시각 판독. PDF 글꼴 인코딩으로 자동 텍스트 추출 오류; 본문·첨부 상세 시각 검토 및 분석 대기. 등록 인덱스에 동일 ID/발생일 없음.",
+      "source_sha256": "5f44465de1f6b7de4f5e26303e0d1fa3bec9bcb0d31f774ef82095d7ef8c79ee"
     },
     {
       "queue_order": 13,
