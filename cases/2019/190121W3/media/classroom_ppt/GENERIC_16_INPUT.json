@@ -1,0 +1,577 @@
+{
+  "schema_version": "1.0",
+  "event_id": "190121W3",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "case_type": "REAL_DRAFT",
+  "status": "DESIGN_DRAFT",
+  "can_ship": false,
+  "source": {
+    "issuer": "KINS",
+    "report_number": "2019-02",
+    "report_date": "2019-02-25",
+    "sha256": "5f44465de1f6b7de4f5e26303e0d1fa3bec9bcb0d31f774ef82095d7ef8c79ee"
+  },
+  "fact_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18"
+  ],
+  "learning": [
+    {
+      "id": "L01",
+      "attribute_codes": [
+        "CL1",
+        "PI3"
+      ]
+    },
+    {
+      "id": "L02",
+      "attribute_codes": [
+        "DM1",
+        "WP3"
+      ]
+    },
+    {
+      "id": "L03",
+      "attribute_codes": [
+        "LA6"
+      ]
+    }
+  ],
+  "core_attribute_codes": [
+    "DM1",
+    "LA6",
+    "CL1",
+    "PI3",
+    "WP3"
+  ],
+  "additional_attribute_codes": [
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "CO3",
+    "LA5",
+    "CL2",
+    "CL4",
+    "PI2",
+    "WP1",
+    "WP2"
+  ],
+  "target_slides": 16,
+  "slides": [
+    {
+      "id": "P01",
+      "pattern": "COVER",
+      "section": "표지",
+      "label": "CASE STUDY",
+      "title": "월성3호기 원자로 자동정지\n안전문화 관점 분석",
+      "lead": "운전경험에서 실질적 개선까지",
+      "cards": [
+        [
+          "교육 목적",
+          "원전 종사자·관리자 사례 학습"
+        ]
+      ],
+      "minutes": 2,
+      "fact_ids": [],
+      "learning_ids": [],
+      "speaker_notes": "2분 | 공식 조사보고서 2019-02호. AI 교육용 초안.",
+      "accent": "2563EB"
+    },
+    {
+      "id": "P02",
+      "pattern": "ACTION",
+      "section": "교육목표",
+      "label": "OBJECTIVES",
+      "title": "경험·기술근거·책임",
+      "lead": "공식 사실과 교육 해석 구분",
+      "cards": [
+        [
+          "사건 이해",
+          "최초 고장과 후속 화재"
+        ],
+        [
+          "안전문화",
+          "경험반영과 절차 품질"
+        ],
+        [
+          "실천",
+          "기한·책임·효과 확인"
+        ]
+      ],
+      "minutes": 2,
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "speaker_notes": "2분 | 최초 제작 결함 추정과 조직적 학습을 분리한다.",
+      "accent": "0D9488",
+      "variant": "panel"
+    },
+    {
+      "id": "P03",
+      "pattern": "FACT",
+      "section": "사건 개요",
+      "label": "FACT",
+      "title": "2019년 1월 21일 월성3호기",
+      "lead": "최초 고장과 후속 사건의 구분",
+      "cards": [
+        [
+          "상황",
+          "정상운전"
+        ],
+        [
+          "사건",
+          "냉각재펌프 정지"
+        ],
+        [
+          "보호 기능",
+          "원자로 자동정지"
+        ],
+        [
+          "후속",
+          "제동장치 화재"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F01",
+        "F02",
+        "F13"
+      ],
+      "learning_ids": [],
+      "speaker_notes": "3분 | 조사 당시 안전기능 유지 및 부적절한 방출 없음.",
+      "accent": "6366F1",
+      "detail": "조사보고서 시점의 안전성 평가"
+    },
+    {
+      "id": "P04",
+      "pattern": "TIME",
+      "section": "조사 경위",
+      "label": "TIMELINE",
+      "title": "사건과 후속 조사",
+      "lead": "직접 원인과 조사 판단",
+      "cards": [
+        [
+          "설비",
+          "써지보호기 손상"
+        ],
+        [
+          "정지",
+          "원자로 자동정지"
+        ],
+        [
+          "후속",
+          "제동장치 화재"
+        ],
+        [
+          "조사",
+          "원인 분석·시정조치"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ],
+      "learning_ids": [],
+      "speaker_notes": "3분 | 개략 흐름만 제시. 조작 절차는 재현하지 않는다.",
+      "accent": "D97706"
+    },
+    {
+      "id": "P05",
+      "pattern": "CAUSE",
+      "section": "작업관행",
+      "label": "EVIDENCE",
+      "title": "운전경험의 적기 적용",
+      "lead": "이전 조치와 남은 조치의 구분",
+      "cards": [
+        [
+          "경험",
+          "2015년 유사사건"
+        ],
+        [
+          "검토",
+          "제작사 차이 검토"
+        ],
+        [
+          "조치",
+          "일부 이미 반영"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F05",
+        "F06",
+        "F07"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "speaker_notes": "3분 | §3.2.4. 경험반영 활동 부재로 단정하지 않는다.",
+      "accent": "2563EB"
+    },
+    {
+      "id": "P06",
+      "pattern": "CAUSE",
+      "section": "교대 및 책임",
+      "label": "EVIDENCE",
+      "title": "절차서 기술근거",
+      "lead": "설계·운전자료의 체계적 검토",
+      "cards": [
+        [
+          "기술",
+          "설계 및 운전지침"
+        ],
+        [
+          "문서",
+          "신규 절차 작성"
+        ],
+        [
+          "검증",
+          "기술근거 이해 미흡"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F09",
+        "F10"
+      ],
+      "learning_ids": [
+        "L02"
+      ],
+      "speaker_notes": "3분 | §3.3 관련 검토. 절차 자체의 미흡과 개인 위반 구분.",
+      "accent": "0D9488"
+    },
+    {
+      "id": "P07",
+      "pattern": "CAUSE",
+      "section": "조직환경",
+      "label": "EVIDENCE",
+      "title": "화재감시 및 대응",
+      "lead": "감시 보완과 긍정적 대응",
+      "cards": [
+        [
+          "감시",
+          "이상 시점 인지 어려움"
+        ],
+        [
+          "대응",
+          "소방대 진압"
+        ],
+        [
+          "운전",
+          "비상운전 적절"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F02",
+        "F08",
+        "F12",
+        "F13"
+      ],
+      "learning_ids": [],
+      "speaker_notes": "3분 | 정확한 고장 시점 미확인. 당시 비상 대응은 적절하다고 평가.",
+      "accent": "6366F1"
+    },
+    {
+      "id": "P08",
+      "pattern": "CAUSE",
+      "section": "조직학습",
+      "label": "EVIDENCE",
+      "title": "재발방지 책임과 검토",
+      "lead": "단기 완료와 장기 계획 구분",
+      "cards": [
+        [
+          "단기",
+          "점검·개정·감시 보완"
+        ],
+        [
+          "책임",
+          "본사 책임 명확화"
+        ],
+        [
+          "장기",
+          "품질·경험 활용 개선"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F14",
+        "F15",
+        "F16",
+        "F17"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "speaker_notes": "3분 | §3.5. 책임 위반이 입증됐다는 의미 아님.",
+      "accent": "D97706"
+    },
+    {
+      "id": "P09",
+      "pattern": "PRINC",
+      "section": "학습 1",
+      "label": "LEARNING",
+      "title": "운전경험을 실제 조치로",
+      "lead": "적용성·기한·효과의 연결",
+      "cards": [
+        [
+          "CL1",
+          "운전경험의 체계적 활용"
+        ],
+        [
+          "PI3",
+          "적기 및 효과적 문제 해결"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F05",
+        "F06",
+        "F15",
+        "F17"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "speaker_notes": "3분 | 일부 조치 시행과 미결 검토를 균형 있게 설명.",
+      "accent": "2563EB"
+    },
+    {
+      "id": "P10",
+      "pattern": "PRINC",
+      "section": "학습 2",
+      "label": "LEARNING",
+      "title": "절차서의 기술적 타당성",
+      "lead": "기술자료와 문서의 일치성",
+      "cards": [
+        [
+          "DM1",
+          "체계적인 판단 과정"
+        ],
+        [
+          "WP3",
+          "정확한 최신 문서"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F09",
+        "F10",
+        "F16"
+      ],
+      "learning_ids": [
+        "L02"
+      ],
+      "speaker_notes": "3분 | 비상운전절차 수행 적절성은 별도로 인정.",
+      "accent": "0D9488"
+    },
+    {
+      "id": "P11",
+      "pattern": "PRINC",
+      "section": "학습 3",
+      "label": "LEARNING",
+      "title": "책임 경계와 실질적인 완료",
+      "lead": "조직 간 협력의 검토 근거",
+      "cards": [
+        [
+          "LA6",
+          "역할·책임·권한 명확화"
+        ],
+        [
+          "효과",
+          "검토·종결 및 효과 확인"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F14",
+        "F15",
+        "F17",
+        "F18"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "speaker_notes": "3분 | 개선계획에서 도출한 교육 후보이며 책임 위반 단정 금지.",
+      "accent": "6366F1"
+    },
+    {
+      "id": "P12",
+      "pattern": "ATTR",
+      "section": "후보 속성 종합",
+      "label": "CANDIDATES",
+      "title": "후보 속성",
+      "lead": "교육용 후보",
+      "cards": [],
+      "minutes": 3,
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "speaker_notes": "3분 | 5개 후보 분류의 한계. 승인 속성 0개.",
+      "accent": "D97706"
+    },
+    {
+      "id": "P13",
+      "pattern": "METRIC",
+      "section": "조사 및 개선",
+      "label": "REVIEW",
+      "title": "조사결과와 개선대책",
+      "lead": "보고서 시점의 판단",
+      "cards": [
+        [
+          "사실 근거",
+          "18개"
+        ],
+        [
+          "핵심 학습",
+          "3개"
+        ],
+        [
+          "핵심 후보",
+          "5개"
+        ],
+        [
+          "승인 속성",
+          "0개"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [
+        "F14",
+        "F15",
+        "F18"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "speaker_notes": "3분 | 수치는 교육용 분석 기준. 심각도 점수 아님.",
+      "accent": "2563EB",
+      "detail": "현재 이행 효과는 미확인"
+    },
+    {
+      "id": "P14",
+      "pattern": "ACTION",
+      "section": "현장 실천",
+      "label": "ACTION",
+      "title": "검토 근거를 남기고 효과 확인",
+      "lead": "적용성·기술근거·책임",
+      "cards": [
+        [
+          "개인",
+          "유사사례 적용성 기록"
+        ],
+        [
+          "팀",
+          "기술자료 대조"
+        ],
+        [
+          "조직",
+          "책임·기한·효과 검토"
+        ]
+      ],
+      "minutes": 3,
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "speaker_notes": "3분 | 실천 제안은 현행 승인 절차를 우선한다.",
+      "accent": "0D9488"
+    },
+    {
+      "id": "P15",
+      "pattern": "ACTION",
+      "section": "토론",
+      "label": "DISCUSSION",
+      "title": "우리 업무의 경험반영은 충분한가",
+      "lead": "10분 팀 토론",
+      "cards": [
+        [
+          "질문 1",
+          "설비 차이와 조치 기한은?"
+        ],
+        [
+          "질문 2",
+          "기술자료 불일치는?"
+        ],
+        [
+          "질문 3",
+          "책임과 효과 확인은?"
+        ]
+      ],
+      "minutes": 10,
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "speaker_notes": "10분 | 가상 산업시설 사례 2개로 토론한다.",
+      "accent": "6366F1",
+      "variant": "panel",
+      "detail": "가상 상황 · 실제 원전 아님"
+    },
+    {
+      "id": "P16",
+      "pattern": "END",
+      "section": "정리",
+      "label": "TAKEAWAY",
+      "title": "경험은 실제 개선으로 이어져야 한다",
+      "lead": "안전 우선",
+      "cards": [
+        [
+          "경험",
+          "적용성·적기 조치"
+        ],
+        [
+          "근거",
+          "절차의 기술 검토"
+        ],
+        [
+          "책임",
+          "실질적 효과 확인"
+        ]
+      ],
+      "minutes": 2,
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "speaker_notes": "2분 | 전문가 검토 전 배포 금지.",
+      "accent": "D97706"
+    }
+  ]
+}
