@@ -684,5 +684,30 @@
       "PA1"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "060507U1",
+    "event_date": "2006-05-07",
+    "report_date": "2006-05-22",
+    "plant": "울진1호기",
+    "title": "울진1호기 원자로냉각재계통 가열 중 부적절한 안전주입신호 발생",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2006/060507U1/report.md",
+    "candidate_attributes": [
+      "WP1",
+      "WP3",
+      "WP4",
+      "PA1",
+      "CO1",
+      "QA2",
+      "QA4",
+      "DM1",
+      "CL4",
+      "PI2"
+    ],
+    "approved_attributes": []
   }
 ]

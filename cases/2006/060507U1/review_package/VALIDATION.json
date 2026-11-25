@@ -1,0 +1,41 @@
+{
+  "event_id": "060507U1",
+  "source_report_sha256": "b4a68f422f2e90d7c84e8d9cd6d8255c353bbd83a84c6e7459ec8d52fe0d0e2e",
+  "source_pages": 20,
+  "preliminary_checks": {
+    "attributes": 40,
+    "partition": [
+      10,
+      19,
+      11
+    ],
+    "facts": 24,
+    "learning": 3,
+    "scenes": [
+      20,
+      18,
+      5
+    ],
+    "durations": [
+      120,
+      120,
+      30
+    ],
+    "fact_coverage": 24,
+    "core_coverage": 10,
+    "refs": true
+  },
+  "contract_checks": {
+    "passed": 0,
+    "total": 14,
+    "status": "PENDING"
+  },
+  "report": {
+    "status": "DRAFT",
+    "a4_render": "PENDING"
+  },
+  "ppt": {
+    "status": "PENDING"
+  },
+  "can_ship": false
+}

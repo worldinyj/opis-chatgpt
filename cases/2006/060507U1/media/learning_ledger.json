@@ -1,0 +1,133 @@
+{
+  "schema_version": "2.0",
+  "event_id": "060507U1",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "WP1",
+    "WP3",
+    "WP4",
+    "PA1",
+    "CO1",
+    "QA2",
+    "QA4",
+    "DM1",
+    "CL4",
+    "PI2"
+  ],
+  "additional_attribute_codes": [
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA3",
+    "CO2",
+    "CO3",
+    "LA1",
+    "LA2",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM2",
+    "DM3",
+    "CL1",
+    "CL2",
+    "PI1",
+    "PI3",
+    "WP2"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "message": "작업 완료와 확인 완료를 구분한다",
+      "objective": "추가 업무의 공식 관리, 문서화, 완료 확인 및 소통 증거를 검토한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F16",
+        "F17"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "PA1",
+        "CO1"
+      ],
+      "principle_codes": [
+        "WP",
+        "PA",
+        "CO"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육적 후보; 공식 속성 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "message": "이상징후는 가정이 아니라 확인된 근거로 판단한다",
+      "objective": "이상징후 인지와 상황 판단, 불확실성 확인, 업무 적합 역량을 구분한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F18",
+        "F19"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "QA4",
+        "DM1",
+        "CL4"
+      ],
+      "principle_codes": [
+        "QA",
+        "DM",
+        "CL"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육적 후보; 공식 속성 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "message": "문서 간 정합성과 개선 효과를 검증한다",
+      "objective": "문서 적용범위의 정합성 및 문제평가와 후속조치 효과를 확인한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F14",
+        "F15",
+        "F17",
+        "F20",
+        "F22",
+        "F23",
+        "F24"
+      ],
+      "attribute_codes": [
+        "PI2"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육적 후보; 공식 속성 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

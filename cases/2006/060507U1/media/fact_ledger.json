@@ -1,0 +1,354 @@
+{
+  "schema_version": "2.0",
+  "event_id": "060507U1",
+  "source": {
+    "document_path": "source.md",
+    "report_number": "2006-8",
+    "report_date": "2006-05-22",
+    "sha256": "b4a68f422f2e90d7c84e8d9cd6d8255c353bbd83a84c6e7459ec8d52fe0d0e2e"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        3
+      ],
+      "statement": "2006년 5월 7일 울진1호기 계획예방정비 종료 준비 중 부적절한 안전주입신호가 발생했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "2.다; 3.가",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "최초 계기교정 작업은 작업지시서와 교정결과보고서상 절차에 따라 적절히 수행되었다.",
+      "qualification": "최초 교정과 추가 작업을 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "최초 작업 이후 감독부서장이 추가 보강작업을 구두로 지시했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "추가 작업에 필요한 도구가 준비되지 않아 작업이 다음 날 수행되었다.",
+      "qualification": "일정압박이나 자원관리 결함 전체를 단정하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "추가 작업은 공식 작업지시서가 아닌 구두지시에 따라 수행되었다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "추가 작업 완료 후 관련 설비의 정상화 확인이 미흡했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "조사팀은 구두지시 상황에서 작업자가 정상화 절차에 충분한 주의를 기울이지 못했다고 판단했다.",
+      "qualification": "조사팀 판단이며 고의성 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "OBSERVED_FACT",
+      "section": "2.다; 3.나",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "운전원은 계측 이상징후를 발견하고 관련 부서에 확인 및 조치를 의뢰했다.",
+      "qualification": "긍정적 보고 사실; 후속 판단의 적절성과 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "운전원은 관련 안전기능에 대한 상황을 잘못 인식했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "이상징후 인지 후 적절한 운전조치가 이루어지지 않았다고 평가되었다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "조사팀은 정확한 상황 인식이 있었다면 사건을 예방할 수도 있었다고 판단했다.",
+      "qualification": "반사실적 조사 평가; 확정적 예방 보장 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.다",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "사건 이후 관련 안전기기의 거동은 적절한 것으로 평가되었다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.라",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "운전원은 비상운전절차를 적용하여 발전소를 안정 상태로 유지했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.라",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "statement": "운영기술지침서와 비상운전절차서 간 적용범위 불일치가 확인되었다.",
+      "qualification": "적용범위 차이의 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.라",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "statement": "조사팀은 관련 문서의 충분한 검토와 후속 조치를 요구했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "OBSERVED_FACT",
+      "section": "4",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "statement": "사업자는 사건 이후 관련 안전설비의 상태 점검을 완료했다.",
+      "qualification": "당시 완료 보고 범위.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "OBSERVED_FACT",
+      "section": "4",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "statement": "사업자는 종합운전절차와 관련 정비절차의 개정을 계획했다.",
+      "qualification": "실제 개정 완료 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "OBSERVED_FACT",
+      "section": "4",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "statement": "사업자는 확인 절차의 작성·운영과 운전원·정비원 교육 강화를 계획했다.",
+      "qualification": "계획과 이행 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "statement": "조사팀은 교육 강화가 인적실수 재발방지에 필요한 조치라고 평가했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "statement": "관련 절차의 개정은 유사사건 예방에 적절한 조치라고 평가되었다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F21",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "5",
+      "printed_pages": [
+        8
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "statement": "사건 당시 보호·안전기능과 미임계 상태가 유지되었고 방사성물질 방출은 없었다.",
+      "qualification": "당시 평가이며 현재 안전 보증 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F22",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "6",
+      "printed_pages": [
+        8
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "statement": "규제기관은 울진1·2호기 관련 보완사항 검토 및 이행계획 제출을 요구했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F23",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "7",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "statement": "사업자의 원인분석과 조치사항은 적절하다고 평가되었으나 보완 요구의 상세검토 및 반영이 필요했다.",
+      "qualification": "당시 평가이며 후속 효과 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F24",
+      "kind": "SOURCE_LIMITATION",
+      "section": "요약; 3.가; 6; 7",
+      "printed_pages": [
+        1,
+        4,
+        8,
+        9
+      ],
+      "pdf_pages": [
+        3,
+        6,
+        10,
+        11
+      ],
+      "statement": "요약과 상세조사의 작업 시점 표현은 구분해야 하며 후속 이행·효과, 최종 INES는 미확인이다.",
+      "qualification": "요약의 최초 교정 관련 표현과 상세 3.가의 추가 작업 구분을 보존. 붙임 기술 내용 전사·검산 제외.",
+      "review_status": "PENDING"
+    }
+  ]
+}

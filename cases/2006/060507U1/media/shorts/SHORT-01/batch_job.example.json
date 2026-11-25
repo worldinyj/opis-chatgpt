@@ -1,0 +1,26 @@
+{
+  "schema_version": "2.0",
+  "job_id": "SHORT-060507U1-BATCH01",
+  "event_id": "060507U1",
+  "artifact_id": "SHORT-060507U1",
+  "manifest_revision": 1,
+  "route": "GEMINI_TASKS_BATCH",
+  "aspect_ratio": "9:16",
+  "jobs": [
+    {
+      "id": "SHORT-060507U1-S04",
+      "scene_id": "S04",
+      "requested_kind": "IMAGE",
+      "prompt": "9:16, generic fictional training meeting room, neutral brick staff and blank documents. 가상 일반 제조업체 교육회의실, 중립적 3D 브릭 직원과 빈 문서. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S04_still_v01.png",
+      "attempt": 1
+    }
+  ],
+  "results": []
+}
