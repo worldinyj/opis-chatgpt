@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0",
+  "job_id": "SC-100917SK1-BATCH01",
+  "event_id": "100917SK1",
+  "artifact_id": "SC-100917SK1",
+  "manifest_revision": 1,
+  "route": "GEMINI_TASKS_BATCH",
+  "aspect_ratio": "16:9",
+  "jobs": [
+    {
+      "id": "SC-100917SK1-S05",
+      "scene_id": "S05",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional generic training room, two neutral 3D brick staff, blank documents. 가상의 일반 제조업체 교육회의실, 중립적인 3D 브릭 직원 두 명과 빈 문서 카드. 실제 원전, 설비, 기술 도식, 조작 방법 및 기술적 사건 전개를 재현하지 않음. Approved references only; no real facility or equipment. Caption safe area.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S05_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-100917SK1-S09",
+      "scene_id": "S09",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional generic training room, two neutral 3D brick staff, blank documents. 가상의 일반 제조업체 교육회의실, 중립적인 3D 브릭 직원 두 명과 빈 문서 카드. 실제 원전, 설비, 기술 도식, 조작 방법 및 기술적 사건 전개를 재현하지 않음. Approved references only; no real facility or equipment. Caption safe area.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S09_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-100917SK1-S13",
+      "scene_id": "S13",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional generic training room, two neutral 3D brick staff, blank documents. 가상의 일반 제조업체 교육회의실, 중립적인 3D 브릭 직원 두 명과 빈 문서 카드. 실제 원전, 설비, 기술 도식, 조작 방법 및 기술적 사건 전개를 재현하지 않음. Approved references only; no real facility or equipment. Caption safe area.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S13_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-100917SK1-S15",
+      "scene_id": "S15",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional generic training room, two neutral 3D brick staff, blank documents. 가상의 일반 제조업체 교육회의실, 중립적인 3D 브릭 직원 두 명과 빈 문서 카드. 실제 원전, 설비, 기술 도식, 조작 방법 및 기술적 사건 전개를 재현하지 않음. Approved references only; no real facility or equipment. Caption safe area.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S15_still_v01.png",
+      "attempt": 1
+    }
+  ],
+  "results": []
+}

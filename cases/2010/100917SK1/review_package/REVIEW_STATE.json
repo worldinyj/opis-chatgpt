@@ -10,7 +10,7 @@
   "expert_attribute_review": "USER_SEPARATE_REVIEW_PENDING",
   "independent_review": "PENDING",
   "can_ship": false,
-  "media_status": "LEDGERS_DRAFT",
+  "media_status": "PRODUCTION_DESIGN_DRAFT",
   "ppt_status": "PENDING",
   "paid_generation_calls": 0,
   "external_submissions": 0,
@@ -20,5 +20,5 @@
     "passed": 0,
     "total": 14
   },
-  "next_step": "DISCUSSION_AND_VIDEO_DESIGN"
+  "next_step": "CLASSROOM_PPT_DESIGN"
 }

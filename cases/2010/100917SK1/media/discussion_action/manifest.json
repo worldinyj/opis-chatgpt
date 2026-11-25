@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "100917SK1",
+  "artifact_id": "DA-100917SK1",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "조직 준비·변경관리·업무통제 토론과 실천",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2010-11",
+    "report_date": "2010-10-15",
+    "sha256": "f80140a0395ac3332c13a9b6a5de254f97475cfd1de124b9cbf8a4b74afe73e4"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "신규 조직의 준비도를 어떤 역량 증거로 확인할 것인가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "변경정보가 관련 문서에 반영됐음을 어떻게 확인할 것인가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "업무계획과 실제 수행, 이상사항 공유를 어떤 증거로 확인할 것인가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조업체에서 새 팀이 구성되었다. 팀은 경험과 역량 및 문서 개정 여부를 검토한다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 인력 숫자와 역량 증거 및 문서 정합성을 구분한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조업체에서 승인 업무와 실제 업무 기록의 차이가 발견됐다. 팀은 보고와 완료 확인 근거를 검토한다.",
+      "learning_ids": [
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 업무 범위와 보고 및 완료 확인 증거를 논의한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "업무 적합 역량과 경험 전수 근거를 확인한다.",
+      "verification": "교육·역량 확인 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "변경정보와 업무 문서의 정합성을 확인한다.",
+      "verification": "변경·문서 검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "승인 범위와 완료 확인 및 업무 소통 근거를 확인한다.",
+      "verification": "업무계획·보고 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "조직 구성과 교육의 적합성을 표본 평가한다.",
+      "verification": "인력·역량 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "변경관리 및 문서 반영의 검토 증거를 평가한다.",
+      "verification": "변경관리·문서 검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "업무통제 개선의 이행과 효과를 추적한다.",
+      "verification": "업무통제·효과 확인 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

@@ -5,7 +5,26 @@
   "source_render": "PASS_LOCAL_CONTACT_SHEET",
   "preliminary_checks": {
     "attribute_partition": "PASS_11_19_10_UNIQUE_40",
-    "learning_fact_reference": "PASS"
+    "learning_fact_reference": "PASS",
+    "media_design": {
+      "counts": [
+        20,
+        18,
+        5
+      ],
+      "durations": [
+        120,
+        120,
+        30
+      ],
+      "fact_coverage": 24,
+      "attribute_coverage": 11,
+      "refs": true,
+      "batch": [
+        4,
+        1
+      ]
+    }
   },
   "contract_checks": {
     "passed": 0,
@@ -19,5 +38,11 @@
   "ppt": {
     "status": "PENDING"
   },
-  "can_ship": false
+  "can_ship": false,
+  "media": {
+    "status": "DESIGN_DRAFT",
+    "actual_generation": "NOT_STARTED",
+    "paid_generation_calls": 0,
+    "external_submissions": 0
+  }
 }
