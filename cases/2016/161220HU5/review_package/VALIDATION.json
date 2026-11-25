@@ -1,0 +1,124 @@
+{
+  "event_id": "161220HU5",
+  "source_report_sha256": "34e2ac6c379e64c4e05a23a68ea85382c809cbbe2b75db2d519968a6cc37eb4c",
+  "source_pages": 17,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_detail": "전쪽 텍스트 검토 및 원문 근거 대조, 도면·그래프 세부 수치 전수 검산 미수행",
+  "report": {
+    "status": "DRAFT",
+    "git_blob": "edf1e3f3d64fee3c2c9ee628ce612e44adbfdaee",
+    "bytes": 12368,
+    "sha256": "688863cf6321f66c31cbd84efcb14ff16ef84910b34b3e13534c993a3d641e68",
+    "a4_pages": 4,
+    "pdf_sha256": "0cdf6d9325e5900217fa03274b70e181f3e5dd86f208187ce6bffeee34d4a6d2",
+    "text_blocks": 107,
+    "missing_text_blocks": 0,
+    "replacement_glyphs": 0,
+    "a4_render": "PASS_LOCAL_CONTACT_SHEET"
+  },
+  "ppt": {
+    "git_blob": "73270c8f7be60b83820b3a429625587eb1622922",
+    "bytes": 313590,
+    "sha256": "e057a289820b6279e7970bc03d6e700afd954c9cbc24d7b662c4b50157332bcb",
+    "render_pdf_sha256": "ae80a4e3f856b8c7530de45a063ed35d369d1cbd682295db06a99937ae16f5f9",
+    "slides": 16,
+    "nonempty_notes": 16,
+    "editable_shapes": 372,
+    "zip_crc": "PASS",
+    "local_git_blob_match": true,
+    "rendered_pages": 16,
+    "out_of_bounds": 0,
+    "missing_text_shapes": 0,
+    "replacement_glyphs": 0,
+    "actual_render": "PASS_LIBREOFFICE_CONTACT_SHEET"
+  },
+  "contract_checks": {
+    "passed": 14,
+    "total": 14,
+    "results": [
+      {
+        "test": "schema fact_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema learning_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      }
+    ]
+  },
+  "video_design": [
+    {
+      "id": "IU-161220HU5",
+      "seconds": 120,
+      "scenes": 20
+    },
+    {
+      "id": "SC-161220HU5",
+      "seconds": 120,
+      "scenes": 18
+    },
+    {
+      "id": "SHORT-161220HU5",
+      "seconds": 30,
+      "scenes": 5
+    }
+  ],
+  "limitations": [
+    "혼입의 정확한 단계·책임자 미확인. Q등급 미분류는 당시 요건 위반이 아니라는 조사 판단 유지. QA4는 교육 후보, 개인 심리 판정 아님.",
+    "두 누설량 추정치 구분, 도면·그래프 세부 계측값 전수 검산 미수행.",
+    "현행 운전절차나 실제 설비·공급망 재현이 아닌 교육용 자료. 전문가 미승인.",
+    "PPT 실제 PowerPoint 및 현장 투사 미시험. A4 표 분할 방지로 하단 여백이 큼. PPT 기존 표준 레이아웃의 일부 빈 공간 유지.",
+    "OPIS 상세 ID, 기초/최종 INES, 현재 중장기 조치 이행효과 미확인.",
+    "실제 영상·음성 미생성, 나레이션 시간 실측 및 시각 에셋 QC 미수행. 유료 호출·외부 제출 0.",
+    "독립·전문가 내용 및 속성 검토 대기. 렌더 PDF는 로컬 검증용, 저장소에는 원고·PPTX 및 검증 해시 기록."
+  ],
+  "can_ship": false
+}
