@@ -53,7 +53,85 @@
     "2008년 고리1호기 유사사례는 본 보고서의 인용과 평가에 근거하며 별도 원문 비교 미수행.",
     "OPIS 상세 팝업 ID, INES 초기·최종 등급, 실제 재가동 승인문서, 중장기 대책 완료 및 현재 효과 미확인. 보완요구 없음은 보고서 기재 사실.",
     "구체적 설비 구성, 보호기능 설정치, 위치, 동작조건, 시각별 사건 전개 및 운전·정비·시험 방법은 교육자료에서 제외한다.",
-    "AI 안전문화 후보는 공식 조사팀의 개별 속성 평가가 아니다. 독립·전문가 검토 대기. 실제 영상 및 음성 생성 없음. PPTX/A4/정식 14개 계약검사 대기."
+    "AI 안전문화 후보는 공식 조사팀의 개별 속성 평가가 아니다. 독립·전문가 검토 대기. 실제 영상 및 음성 생성 없음. PPTX/A4/정식 14개 계약검사 대기.",
+    "영상은 제작 설계만 등록. 한국어 발화시간 실측 및 18초 7속성 카드 가독성, 에셋·음성·영상 QC 미수행. 실제 생성·외부 제출 0."
   ],
-  "can_ship": false
+  "can_ship": false,
+  "video_design": [
+    {
+      "id": "IU-110621K2",
+      "seconds": 120,
+      "scenes": 20,
+      "fact_coverage": 20,
+      "learning_coverage": 0,
+      "local_graphic": 20,
+      "batch_still": 0
+    },
+    {
+      "id": "SC-110621K2",
+      "seconds": 120,
+      "scenes": 18,
+      "fact_coverage": 10,
+      "learning_coverage": 3,
+      "local_graphic": 14,
+      "batch_still": 4
+    },
+    {
+      "id": "SHORT-110621K2",
+      "seconds": 30,
+      "scenes": 5,
+      "fact_coverage": 2,
+      "learning_coverage": 1,
+      "local_graphic": 4,
+      "batch_still": 1
+    }
+  ],
+  "video_preliminary_checks": {
+    "method": "repository schema subset and relation/batch validator plus explicit coverage/timing assertions; full Python jsonschema pending",
+    "validator_blob": "08ad964d1e8c2e63d1a1c540bc6ce76562afe1f8",
+    "passed": 10,
+    "total": 10,
+    "results": [
+      {
+        "test": "schema incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      }
+    ]
+  }
 }
