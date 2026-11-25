@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "051106W1"
+report_number: "2005-14"
+title: "월성1호기 비상발전기실 스프링클러 오작동에 의한 원자로건물 격리신호 발생"
+event_date: "2005-11-06"
+report_date: "2005-11-10"
+plant:
+  site: 월성
+  unit: 1
+source:
+  organization: KINS
+  system: OPIS
+  opis_popup_id: null
+  document_url: null
+  page_count: 17
+  sha256: 32cd0b8a3ba57f7c9ee4c73c4bd7a71d2b61240dbca3eb5ab173dcab033440cb
+  source_size_bytes: 1996480
+operating_mode: "정상 출력운전"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP1, WP2, WP3, QA2, QA4, LA7, PI1, PI2, PI3, CL1]
+  additional_review_attributes: [PA1, PA2, PA3, QA1, QA3, CO1, CO2, CO3, LA1, LA2, LA4, LA5, LA6, DM1, DM2, DM3, CL2, CL4, WP4]
+  insufficient_or_low_relevance_attributes: [CO4, LA3, LA8, WE1, WE2, WE3, WE4, CL3, PI4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null

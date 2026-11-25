@@ -1,0 +1,372 @@
+{
+  "schema_version": "2.0",
+  "event_id": "051106W1",
+  "source": {
+    "document_path": "source.md",
+    "report_number": "2005-14",
+    "report_date": "2005-11-10",
+    "sha256": "32cd0b8a3ba57f7c9ee4c73c4bd7a71d2b61240dbca3eb5ab173dcab033440cb"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "요약; 1",
+      "printed_pages": [
+        3,
+        4
+      ],
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "statement": "2005년 11월 6일 월성1호기 정상 출력운전 중 원자로건물 격리신호가 발생했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·설정치·연계 경로 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가",
+      "printed_pages": [
+        5,
+        6
+      ],
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "statement": "조사팀은 소화설비 고장과 인접 설비에 대한 연계 영향을 사건 원인으로 확인했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·설정치·연계 경로 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나.1",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "스프링클러 노즐의 고장이 확인되었다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·설정치·연계 경로 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.나.1",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "설치 후 장기간 경과에 따른 노후화가 고장 원인으로 추정되었다.",
+      "qualification": "추정 원인으로 확정하지 않음. 상세 손상원인 분석 별도 요구.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.나.1",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "현장 조사 결과 외부 충격 가능성은 없는 것으로 판단되었다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·설정치·연계 경로 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "OBSERVED_FACT",
+      "section": "3.나.2",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "정기 외관점검은 당시 정해진 절차에 따라 시행되었다.",
+      "qualification": "점검 준수의 긍정적 근거; 점검체계의 충분성은 별도 판단.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "OBSERVED_FACT",
+      "section": "3.나.2",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "정기 기능점검도 당시 정해진 절차에 따라 시행되었다.",
+      "qualification": "당시 기록 평가.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.나.2",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "검토한 정기 점검 결과는 모두 판정기준을 만족했다.",
+      "qualification": "판정기준 충족과 모든 고장 예방의 충분성을 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.다",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "화재경보의 이상으로 현장 대응이 지연되었다고 조사팀은 평가했다.",
+      "qualification": "구체적인 경보 구성·작동 조건 및 대응 시간 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "OBSERVED_FACT",
+      "section": "2.나",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        5
+      ],
+      "statement": "관련 호기에서 현장 점검 및 비정상 상태 통보가 이루어졌다.",
+      "qualification": "협업의 긍정 근거이며 전체 소통의 적정성 보증 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.다.2",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "경보기능의 고장이 확인되었고 정비 후 기능이 복구되었다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·설정치·연계 경로 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.다.2",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "조사팀은 경보기능에 대한 검토와 보완이 필요하다고 판단했다.",
+      "qualification": "구체 경보 기술 구성 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.라",
+      "printed_pages": [
+        8
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "영향받은 감시 설비의 교체 및 시험으로 정상 작동을 확인했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·설정치·연계 경로 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.라",
+      "printed_pages": [
+        8
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "관련 안전기능이 정상적으로 유지되었음을 점검으로 확인했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·설정치·연계 경로 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.라",
+      "printed_pages": [
+        8
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "영향받은 설비에 대해 점검과 성능시험으로 운전가능 상태를 확인했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·설정치·연계 경로 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "OBSERVED_FACT",
+      "section": "3. 운전원 조치사항 평가",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "statement": "운전원은 관련 절차에 따라 복구 조치를 수행했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·설정치·연계 경로 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3. 운전원 조치사항 평가",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "statement": "두 운전절차에 복구 내용이 중복 기술되어 혼동 가능성이 지적되었다.",
+      "qualification": "혼동 가능성이지 실제 혼동 확인은 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3. 운전원 조치사항 평가",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "statement": "관련 절차의 적용범위가 불명확하여 개선이 필요하다고 판단했다.",
+      "qualification": "구체 적용조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3. 운전원 조치사항 평가; 4",
+      "printed_pages": [
+        9,
+        10
+      ],
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "statement": "운영기술지침서에 따른 추가 건전성 확인 조치는 적절하다고 평가했다.",
+      "qualification": "당시 조치에 한정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "OBSERVED_FACT",
+      "section": "3.마; 6",
+      "printed_pages": [
+        9,
+        11
+      ],
+      "pdf_pages": [
+        9,
+        11
+      ],
+      "statement": "사업자는 인접 설비 영향 방지를 위한 초기 개선조치를 수행했다.",
+      "qualification": "기술적 구조 및 개선 방식 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F21",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.마; 5",
+      "printed_pages": [
+        9,
+        10
+      ],
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "statement": "조사팀은 초기 조치 외 근본적인 연계 영향 방지대책 수립을 요구했다.",
+      "qualification": "관리적 근거 요약; 기술적 구성·조작·설정치·연계 경로 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F22",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4; 6",
+      "printed_pages": [
+        4,
+        9,
+        10,
+        11
+      ],
+      "pdf_pages": [
+        4,
+        9,
+        10,
+        11
+      ],
+      "statement": "당시 필수 안전기능과 정상 출력운전은 유지되었고 방사성물질 유출과 피폭은 없었다.",
+      "qualification": "현재 상태를 보증하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F23",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "5",
+      "printed_pages": [
+        10,
+        11
+      ],
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "statement": "노후 설비 점검·정비 강화, 상세 손상원인 분석, 경보기능 및 운전절차 개선과 타 호기·전 원전 확대 검토를 요구했다.",
+      "qualification": "요구와 실제 이행 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F24",
+      "kind": "SOURCE_LIMITATION",
+      "section": "요약; 2.나; 5; 6",
+      "printed_pages": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "pdf_pages": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "statement": "요약과 경위의 복구 시점 표현은 일치하지 않으며 후속 이행·효과 및 최종 INES는 미확인이다.",
+      "qualification": "요약과 경위의 복구 시점 차이 원인 미확인; 임의 정정하지 않음. 붙임 기술자료 세부 전사·검산 제외.",
+      "review_status": "PENDING"
+    }
+  ]
+}

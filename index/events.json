@@ -709,5 +709,30 @@
       "PI2"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "051106W1",
+    "event_date": "2005-11-06",
+    "report_date": "2005-11-10",
+    "plant": "월성1호기",
+    "title": "월성1호기 비상발전기실 스프링클러 오작동에 의한 원자로건물 격리신호 발생",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2005/051106W1/report.md",
+    "candidate_attributes": [
+      "WP1",
+      "WP2",
+      "WP3",
+      "QA2",
+      "QA4",
+      "LA7",
+      "PI1",
+      "PI2",
+      "PI3",
+      "CL1"
+    ],
+    "approved_attributes": []
   }
 ]

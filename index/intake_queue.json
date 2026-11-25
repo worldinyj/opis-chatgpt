@@ -541,11 +541,12 @@
           "size_bytes": 1996480
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED",
+      "event_id": "051106W1",
+      "verified_event_date": "2005-11-06",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "원본 17쪽, 24 사실, 3 학습, 40속성 10/19/11, 토론·실천 및 영상 43장면/270초 설계 등록. PPT/A4/정식 계약 및 전문가 검토 대기.",
+      "source_sha256": "32cd0b8a3ba57f7c9ee4c73c4bd7a71d2b61240dbca3eb5ab173dcab033440cb"
     },
     {
       "queue_order": 32,
