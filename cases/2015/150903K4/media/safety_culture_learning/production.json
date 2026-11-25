@@ -1,0 +1,716 @@
+{
+  "schema_version": "2.0",
+  "event_id": "150903K4",
+  "artifact_id": "SC-150903K4",
+  "artifact_type": "SAFETY_CULTURE_LEARNING",
+  "title": "기술정보·정비기준·신중한 판단",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2015-05",
+    "report_date": "2015-09-14",
+    "sha256": "e84f694b3a279a4bbd801bc85a227fad9aa3f38d7021b9477bf13038e37e0901"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "16:9",
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "language": "ko",
+    "style": "controlled graphic + hypothetical 3D brick miniature"
+  },
+  "timing": {
+    "target_seconds": 120
+  },
+  "learning_objectives": [
+    "기술정보의 해석과 문서화, 반영 확인의 중요성을 설명한다.",
+    "점검 기록과 실제 건전성 판단을 구별하고 경향 검토 및 예방정비 관리의 의미를 설명한다.",
+    "긍정적인 안전기능 확보와 일부 대응 개선 필요를 구분하고 교육훈련의 중요성을 설명한다."
+  ],
+  "references": [
+    {
+      "id": "LOC-A",
+      "kind": "LOCATION",
+      "description": "가상 브릭 교육 회의실; 실제 원전 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-A",
+      "kind": "CHARACTER",
+      "description": "가상 담당자, 청회색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-B",
+      "kind": "CHARACTER",
+      "description": "가상 검토자, 짙은 청색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "OBJ-A",
+      "kind": "OTHER",
+      "description": "빈 문서 카드와 일반 기록철; 실제 계기·도면 없음.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "점검과 판단",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 점검과 판단. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "점검의 기록과 판단의 근거를 살펴봅니다.",
+      "overlay": [
+        "점검과 판단",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "기술정보",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F04"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 기술정보. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "제작사 기술지침의 해석에 오류가 있었습니다.",
+      "overlay": [
+        "기술정보",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "기록 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F05"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 기록 검토. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "사건 후 과거 점검기록의 경향을 검토했습니다.",
+      "overlay": [
+        "기록 검토",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "긍정적 대응",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F08"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 긍정적 대응. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "주요 안전기능은 적절히 확보됐습니다.",
+      "overlay": [
+        "긍정적 대응",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "정확한 해석",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP3",
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 정확한 해석. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "제작사 권고의 의미를 정확히 확인합니다.",
+      "overlay": [
+        "정확한 해석",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S06",
+      "title": "문서 반영",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP3",
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 문서 반영. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "승인된 절차의 검토 근거를 확인합니다.",
+      "overlay": [
+        "문서 반영",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S07",
+      "title": "가상 문서 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP3",
+        "CL1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 일반 제조시설 교육회의실의 3D 브릭 인물과 추상 기록 카드. 가상 문서 검토. 실제 원전·설비·인물·조작·취약점 재현 없음.",
+      "narration": "가상 팀이 기술문서와 내부 지침을 비교합니다.",
+      "overlay": [
+        "가상 문서 검토",
+        "가상 교육 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S08",
+      "title": "점검 유효성",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 점검 유효성. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "점검 완료와 판정의 적정성은 다릅니다.",
+      "overlay": [
+        "점검 유효성",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S09",
+      "title": "판정 근거",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 판정 근거. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "승인된 기준의 유효성을 함께 검토합니다.",
+      "overlay": [
+        "판정 근거",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S10",
+      "title": "가상 점검 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 일반 제조시설 교육회의실의 3D 브릭 인물과 추상 기록 카드. 가상 점검 검토. 실제 원전·설비·인물·조작·취약점 재현 없음.",
+      "narration": "가상 팀이 점검기록의 검토 근거를 확인합니다.",
+      "overlay": [
+        "가상 점검 검토",
+        "가상 교육 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S11",
+      "title": "신중한 판단",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "DM"
+      ],
+      "attribute_codes": [
+        "DM2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 신중한 판단. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "비정상 상황의 판단에는 충분한 근거가 필요합니다.",
+      "overlay": [
+        "신중한 판단",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S12",
+      "title": "절차와 판단",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "DM"
+      ],
+      "attribute_codes": [
+        "DM2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 절차와 판단. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "승인 절차와 안전 우선 판단을 함께 학습합니다.",
+      "overlay": [
+        "절차와 판단",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S13",
+      "title": "교육의 효과",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "DM"
+      ],
+      "attribute_codes": [
+        "DM2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 교육의 효과. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "교육의 실시와 이해도 확인을 구분합니다.",
+      "overlay": [
+        "교육의 효과",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S14",
+      "title": "핵심 학습 후보",
+      "duration_seconds": 18,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "ATTRIBUTE_SUMMARY",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "WP",
+        "CL",
+        "DM"
+      ],
+      "attribute_codes": [
+        "WP3",
+        "CL1",
+        "WP1",
+        "DM2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 핵심 학습 후보. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "문서화, 운전 경험, 작업 관리, 보수적 성향. 네 후보는 공식 판정이 아닙니다.",
+      "overlay": [
+        "핵심 후보 4개 · 공식 평가 아님",
+        "WP3",
+        "CL1",
+        "WP1",
+        "DM2"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S15",
+      "title": "가상 판단 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "DM"
+      ],
+      "attribute_codes": [
+        "DM2"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 일반 제조시설 교육회의실의 3D 브릭 인물과 추상 기록 카드. 가상 판단 검토. 실제 원전·설비·인물·조작·취약점 재현 없음.",
+      "narration": "가상 팀이 업무 판단의 근거를 확인합니다.",
+      "overlay": [
+        "가상 판단 검토",
+        "가상 교육 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S16",
+      "title": "가상 효과 확인",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "principle_codes": [
+        "WP",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP3",
+        "CL1",
+        "WP1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 일반 제조시설 교육회의실의 3D 브릭 인물과 추상 기록 카드. 가상 효과 확인. 실제 원전·설비·인물·조작·취약점 재현 없음.",
+      "narration": "가상 팀이 문서와 점검의 개선 근거를 공유합니다.",
+      "overlay": [
+        "가상 효과 확인",
+        "가상 교육 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S17",
+      "title": "우리 업무 돌아보기",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "REFLECTION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "WP",
+        "CL",
+        "DM"
+      ],
+      "attribute_codes": [
+        "WP3",
+        "CL1",
+        "WP1",
+        "DM2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 우리 업무 돌아보기. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "점검의 판정 근거를 충분히 검토하고 있습니까?",
+      "overlay": [
+        "우리 업무 돌아보기",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S18",
+      "title": "안전의 실천",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 안전의 실천. 추상 아이콘과 근거 카드. 실제 원전·설비·조작·취약점 재현 없음.",
+      "narration": "점검 완료보다 판단의 근거가 중요합니다.",
+      "overlay": [
+        "안전의 실천",
+        "KINS 표지 2015-05 / 본문 2015-4"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

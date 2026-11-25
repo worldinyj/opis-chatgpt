@@ -1,0 +1,26 @@
+{
+  "schema_version": "2.0",
+  "job_id": "SHORT-150903K4-BATCH01",
+  "event_id": "150903K4",
+  "artifact_id": "SHORT-150903K4",
+  "manifest_revision": 1,
+  "route": "GEMINI_TASKS_BATCH",
+  "aspect_ratio": "9:16",
+  "jobs": [
+    {
+      "id": "SHORT-150903K4-S04",
+      "scene_id": "S04",
+      "requested_kind": "IMAGE",
+      "prompt": "9:16, fictional 3D brick training meeting room, neutral staff reviewing blank evidence cards, 가상 점검 검토. Approved references only; no real facility, equipment, diagrams, logo or text.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S04_still_v01.png",
+      "attempt": 1
+    }
+  ],
+  "results": []
+}
