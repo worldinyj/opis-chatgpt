@@ -25,10 +25,10 @@
   "existing_cases_not_in_root": [
     "250919W2"
   ],
-  "pending_pdf_count": 22,
-  "pending_date_groups": 21,
-  "next_list_date": "2016-02-27",
-  "next_queue_id": "ROOT-016",
+  "pending_pdf_count": 21,
+  "pending_date_groups": 20,
+  "next_list_date": "2015-09-03",
+  "next_queue_id": "ROOT-017",
   "items": [
     {
       "queue_order": 1,
@@ -290,11 +290,11 @@
           "size_bytes": 295319
         }
       ],
-      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
       "event_id": "160227HB1",
       "verified_event_date": "2016-02-27",
       "from_prior_table": false,
-      "notes": "15쪽 전체 텍스트 및 렌더, 20 사실·3 학습·40속성 후보(7/14/19)·토론 초안 등록. 영상/PPT/A4 출력 및 전문가 검토 대기."
+      "notes": "원본 15쪽·20 사실·3 학습·40속성 후보, 영상 3종·토론·PPTX 등록, A4 4쪽 및 16장 실제 렌더, 계약 14/14, 전문가 검토 및 실제 영상 생성 대기."
     },
     {
       "queue_order": 17,

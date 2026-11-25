@@ -1,0 +1,125 @@
+{
+  "event_id": "160227HB1",
+  "source_report_sha256": "fea42f164f8751a6a640ec8b1027f5ea3d64b02a316e924f9154b1f98d684f18",
+  "source_pages": 15,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_detail": "전쪽 텍스트 검토 및 원문 근거 대조, 도면·시험 수치 전수 검산 미수행",
+  "report": {
+    "status": "DRAFT",
+    "git_blob": "feb0b0f422d77d754fe28abdc2c72f2c06e710ad",
+    "bytes": 13127,
+    "sha256": "e632b889f5760a5f1965ec57576f0f93166c52f9c26c540718149d714de8f733",
+    "a4_pages": 4,
+    "pdf_sha256": "916b0a220c59a552bf491ca2505097d66a538446cf1f65d623f90ae3810fbabf",
+    "text_blocks": 121,
+    "missing_text_blocks": 0,
+    "replacement_glyphs": 0,
+    "a4_render": "PASS_LOCAL_CONTACT_SHEET"
+  },
+  "ppt": {
+    "git_blob": "ca698eda05aef56318c7c97d49cb93c85bf531d0",
+    "bytes": 318964,
+    "sha256": "19c320fe206de0d65ea60d201e5a9482f0ca4fe4744826e9e9e2e4d9f690cdde",
+    "render_pdf_sha256": "b3abfa6c919ff8e6c4d6890a98e4e125b8b94a4f2f6e987eaa25f4b93815a044",
+    "slides": 16,
+    "nonempty_notes": 16,
+    "editable_shapes": 380,
+    "zip_crc": "PASS",
+    "local_git_blob_match": true,
+    "rendered_pages": 16,
+    "out_of_bounds": 0,
+    "missing_text_shapes": 0,
+    "replacement_glyphs": 0,
+    "actual_render": "PASS_LIBREOFFICE_CONTACT_SHEET"
+  },
+  "contract_checks": {
+    "passed": 14,
+    "total": 14,
+    "results": [
+      {
+        "test": "schema fact_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema learning_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      }
+    ]
+  },
+  "video_design": [
+    {
+      "id": "IU-160227HB1",
+      "seconds": 120,
+      "scenes": 20,
+      "fact_coverage": 20
+    },
+    {
+      "id": "SC-160227HB1",
+      "seconds": 120,
+      "scenes": 18
+    },
+    {
+      "id": "SHORT-160227HB1",
+      "seconds": 30,
+      "scenes": 5
+    }
+  ],
+  "limitations": [
+    "연속 두 사건을 단일 사건 ID 내에서 구분. 조사팀의 근본원인 평가와 사업자의 기여원인 분류 구분. 사건대응 개선요인은 최초 정지 원인과 구별.",
+    "사건 당시 직접 기록과 사후 시험을 구분. 제어유 오염 확정 금지. 도면·시험 수치 전수 검산 미수행.",
+    "현행 운전절차나 실제 설비·취약점 재현이 아닌 교육용 자료. 전문가 미승인.",
+    "PPT 실제 PowerPoint 및 현장 투사 미시험. A4 표 분할 방지로 하단 여백이 큼. PPT 기존 표준 레이아웃의 일부 빈 공간 유지.",
+    "OPIS 상세 ID, 기초/최종 INES, 현재 장기조치 이행효과 미확인.",
+    "실제 영상·음성 미생성, 나레이션 시간 실측 및 시각 에셋 QC 미수행. 유료 호출·외부 제출 0.",
+    "독립·전문가 내용 및 속성 검토 대기. 렌더 PDF는 로컬 검증용, 저장소에는 원고·PPTX 및 검증 해시 기록."
+  ],
+  "can_ship": false
+}
