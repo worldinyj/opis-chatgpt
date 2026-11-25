@@ -23,14 +23,90 @@
     "index_duplicate": "PASS",
     "schema_subset_3": "PASS"
   },
-  "video_design": [],
+  "video_design": [
+    {
+      "id": "IU-140228Y2",
+      "seconds": 120,
+      "scenes": 20,
+      "fact_coverage": 20,
+      "learning_coverage": 0,
+      "local_graphic": 20,
+      "batch_still": 0
+    },
+    {
+      "id": "SC-140228Y2",
+      "seconds": 120,
+      "scenes": 18,
+      "fact_coverage": 14,
+      "learning_coverage": 3,
+      "local_graphic": 14,
+      "batch_still": 4
+    },
+    {
+      "id": "SHORT-140228Y2",
+      "seconds": 30,
+      "scenes": 5,
+      "fact_coverage": 3,
+      "learning_coverage": 1,
+      "local_graphic": 4,
+      "batch_still": 1
+    }
+  ],
   "limitations": [
     "표지 보고서 번호 2014-03호, 본문 2014-3호: 선행 0 표기 차이, 사건 ID 및 날짜 일치. PDF 1–2쪽은 인쇄면 번호 없음, PDF 3–11쪽은 인쇄면 1–9쪽.",
     "파일명은 사건명 일부만 포함하며 정식 사건명은 표지 기준. 동일 이름·크기의 루트 외 사본은 처리 범위 밖, 바이트 동일성 미확인.",
     "OPIS 상세 팝업 ID, 초기/최종 INES, 실제 재가동 승인 및 현재 장기대책 이행효과 미확인.",
     "구체적 회로·시험 조건·경보 논리·취약점·운전·정비 방법 및 세부 수치는 교육자료에서 제외. 수치 전수 검산 미수행.",
     "표준 후보는 교육적 해석으로 실제 미진속성·개인 책임·전사 체계 실패 확정 아님. 독립·전문가 검토 대기.",
-    "영상 설계, PPTX, A4 실제 출력 및 정식 14개 계약 검사 대기."
+    "영상 3종 제작 설계만 등록. 실제 음성·영상·이미지 및 발화시간 실측 미수행. PPTX/A4/정식 Python jsonschema 및 관계 계약 14개 대기.",
+    "영상 production.json의 source 및 provenance 경로는 각 파일의 실제 디렉터리 기준 상대경로로 설정. 기존 사례 및 discussion_action 원본 경로는 변경하지 않음."
   ],
-  "can_ship": false
+  "can_ship": false,
+  "video_preliminary_checks": {
+    "method": "JS validator for all keywords used by current schemas plus explicit references/timing/batch assertions; full Python jsonschema pending",
+    "passed": 10,
+    "total": 10,
+    "results": [
+      {
+        "test": "schema incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      }
+    ]
+  }
 }
