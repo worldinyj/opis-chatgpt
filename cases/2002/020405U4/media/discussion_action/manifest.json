@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "event_id": "020405U4",
+  "artifact_id": "DA-020405U4",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "긍정적 대응·원인평가·후속관리",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2002-02",
+    "report_date": "2002-04",
+    "sha256": "a3dff667158b6c61f576f87221b4e458afd25e66ba3d31c712f3ea5aa4fc13cf"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "적절한 비상대응의 근거와 원인규명 완료의 근거는 어떻게 다른가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "추가 검토가 필요한 원인이나 평가의 불확실성을 어떻게 기록하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "후속조치의 계획·완료·효과를 어떤 증거로 구분하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상 일반 제조업체에서 품질 이상이 발견되어 승인된 대응에 따라 업무를 안정화했다. 원인 분석은 진행 중이다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 긍정 대응과 원인규명 완료의 증거 차이를 토론한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상 일반 제조업체에서 개선 계획과 일부 검토 결과만 확보됐다. 팀은 후속 확인과 효과 증거를 논의한다.",
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 미확인 사항, 담당·기한·효과 증거를 토론한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "적절한 대응 근거를 확인한다.",
+      "verification": "승인된 대응 평가 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "확인 사실과 원인 가설을 구분한다.",
+      "verification": "원인 검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "후속 확인 항목과 완료 증거를 기록한다.",
+      "verification": "후속조치 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "긍정 대응의 학습 근거를 공유한다.",
+      "verification": "학습 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "추가 원인 및 평가 검토를 추적한다.",
+      "verification": "독립 검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "조치 완료와 효과 검증을 구분한다.",
+      "verification": "효과 확인 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

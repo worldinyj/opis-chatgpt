@@ -1,0 +1,43 @@
+{
+  "event_id": "020405U4",
+  "source_report_sha256": "a3dff667158b6c61f576f87221b4e458afd25e66ba3d31c712f3ea5aa4fc13cf",
+  "source_pages": 6,
+  "source_render": "PASS_LOCAL_FULL_PAGE_VISUAL_REVIEW",
+  "preliminary_checks": {
+    "attributes": 40,
+    "partition": [
+      4,
+      2,
+      14,
+      20
+    ],
+    "facts": 20,
+    "learning": 3,
+    "scenes": [
+      20,
+      18,
+      5
+    ],
+    "durations": [
+      120,
+      120,
+      30
+    ],
+    "fact_coverage": 20,
+    "core_coverage": 6,
+    "refs": true
+  },
+  "contract_checks": {
+    "passed": 0,
+    "total": 14,
+    "status": "PENDING"
+  },
+  "report": {
+    "status": "DRAFT",
+    "a4_render": "PENDING"
+  },
+  "ppt": {
+    "status": "PENDING"
+  },
+  "can_ship": false
+}

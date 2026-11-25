@@ -1,0 +1,304 @@
+{
+  "schema_version": "2.0",
+  "event_id": "020405U4",
+  "source": {
+    "document_path": "source.md",
+    "report_number": "2002-02",
+    "report_date": "2002-04",
+    "sha256": "a3dff667158b6c61f576f87221b4e458afd25e66ba3d31c712f3ea5aa4fc13cf"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "사건 요약; 1",
+      "printed_pages": [
+        2,
+        3
+      ],
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "statement": "2002년 4월 5일 울진4호기가 제3차 계획예방정비를 위해 정지 후 냉각운전 중 증기발생기 세관 손상 사건이 발생했다.",
+      "qualification": "기술적 사건 전개 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "OBSERVED_FACT",
+      "section": "사건 요약; 2",
+      "printed_pages": [
+        2,
+        3
+      ],
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "statement": "운전원은 운전 상태의 비정상 징후를 인지했다.",
+      "qualification": "구체 변수·조건·시각 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "OBSERVED_FACT",
+      "section": "1; 3.가",
+      "printed_pages": [
+        3,
+        4
+      ],
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "statement": "필수안전기능 확보를 위한 대응조치가 수행되었다.",
+      "qualification": "조작 순서와 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.가.1",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "statement": "정지 후 냉각운전은 관련 절차에 따라 정상적으로 수행되고 있었다.",
+      "qualification": "사건 전 준수의 긍정 근거.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.가.1",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "statement": "당시 요구되는 기술지침서 관련 운전제한조건과 정기점검 요건이 충족되었다.",
+      "qualification": "구체 조건·설정 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.가.1",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "statement": "이상징후 발견 후 필수안전기능 확보 조치가 적절하다고 평가되었다.",
+      "qualification": "당시 대응 평가.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.가.1~2",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "statement": "누설된 냉각재의 보유 및 확산 방지 조치는 적절하다고 평가되었다.",
+      "qualification": "설비 구성과 경로·수량 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.가.2",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "statement": "조사팀은 계측 및 운전 자료를 활용해 누설 규모와 불확실성을 검토했다.",
+      "qualification": "정량 수치 및 계산 절차 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.가.3",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        5
+      ],
+      "statement": "사건 발생 후 비상운전절차에 따른 운전원 조치는 적절하다고 판단되었다.",
+      "qualification": "실제 조작 및 순서 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.가.3",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        5
+      ],
+      "statement": "조사팀은 발전소가 안정된 정지 상태로 적절히 유도되었다고 평가했다.",
+      "qualification": "상세 운전조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.가.4",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        5
+      ],
+      "statement": "사고 진행 중 정지여유도가 적절히 유지되었다고 평가되었다.",
+      "qualification": "정량 기준 및 값 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.가.5; 4",
+      "printed_pages": [
+        5,
+        6
+      ],
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "statement": "세관 손상의 부위와 근본원인 규명은 추후 확인이 필요한 사항이었다.",
+      "qualification": "물리적 손상 원인 및 사전 관리 결함 확정 불가.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.나.1",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        5
+      ],
+      "statement": "관련 방사선 감시 결과를 토대로 환경으로의 방출은 없었다고 평가했다.",
+      "qualification": "당시 보고서의 확인 범위에 한정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "OBSERVED_FACT",
+      "section": "3.나.2",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "일부 2차 계통수의 방사능 오염이 확인되었다.",
+      "qualification": "구체 설비 번호·측정값 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "OBSERVED_FACT",
+      "section": "3.나.3",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "오염 계통수 처리와 제염방법 검토가 계획되었다.",
+      "qualification": "계획과 완료 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.다.1",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "주변 3곳의 공간감마선량률 변화는 평상 변동폭 범위에 있었다.",
+      "qualification": "당시 측정 대상·시점에 한정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "OBSERVED_FACT",
+      "section": "3.다.2",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "토양·빗물·해수 등 환경 시료를 채취했으며 핵종분석을 계획했다.",
+      "qualification": "분석 결과 미확보.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "일부 감시기의 경보기준 적절성은 추후 검토할 필요가 있다고 조사팀은 판단했다.",
+      "qualification": "기기 식별·설정값 및 기술적 취약점 제외; 부적절하다고 확정한 것은 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "사건 요약; 4",
+      "printed_pages": [
+        2,
+        6
+      ],
+      "pdf_pages": [
+        2,
+        6
+      ],
+      "statement": "계통과도·방사선 및 환경방사능 영향을 검토한 결과 비상대응 조치는 전반적으로 적절했다고 평가되었다.",
+      "qualification": "후속 원인규명 완료와 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "SOURCE_LIMITATION",
+      "section": "1쪽 조사기간; 4",
+      "printed_pages": [
+        1,
+        6
+      ],
+      "pdf_pages": [
+        1,
+        6
+      ],
+      "statement": "원본은 조사기간만 표시하며 발행일은 확인되지 않는다. 근본원인·제염·경보기준 검토 및 환경시료 분석 후속결과와 최종 INES는 미확인이다.",
+      "qualification": "계약의 report_date=2002-04는 조사월 대체값이며 발행월 확정이 아님. 인쇄면 미표기: PDF 페이지 번호 사용.",
+      "review_status": "PENDING"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "event_id": "020405U4",
+  "review_candidates": [
+    "QA2",
+    "PI1",
+    "PI2",
+    "PI3"
+  ],
+  "positive_learning": [
+    "WP4",
+    "DM2"
+  ],
+  "additional_review": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "LA2",
+    "LA7",
+    "DM1",
+    "CL1",
+    "WP1",
+    "WP2"
+  ],
+  "insufficient_or_low_relevance": [
+    "CO3",
+    "CO4",
+    "WE1",
+    "WE2",
+    "WE3",
+    "WE4",
+    "CL2",
+    "CL3",
+    "CL4",
+    "PI4",
+    "WP3",
+    "LA1",
+    "LA3",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA8",
+    "DM3",
+    "RC1",
+    "RC2"
+  ],
+  "publication_date": null,
+  "contract_date_surrogate": "2002-04",
+  "contract_date_basis": "investigation month only",
+  "approved_attributes": []
+}

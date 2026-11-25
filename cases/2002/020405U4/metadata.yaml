@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "020405U4"
+report_number: "2002-02"
+title: "울진4호기 증기발생기 세관 손상"
+event_date: "2002-04-05"
+report_date: null
+plant:
+  site: 울진
+  unit: 4
+source:
+  organization: KINS
+  system: OPIS
+  opis_popup_id: null
+  document_url: null
+  page_count: 6
+  sha256: a3dff667158b6c61f576f87221b4e458afd25e66ba3d31c712f3ea5aa4fc13cf
+  source_size_bytes: 1017134
+operating_mode: "계획예방정비를 위한 정지 후 냉각운전"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [QA2, PI1, PI2, PI3]
+  additional_review_attributes: [PA1, PA2, PA3, QA1, QA3, QA4, CO1, CO2, LA2, LA7, DM1, CL1, WP1, WP2]
+  insufficient_or_low_relevance_attributes: [CO3, CO4, WE1, WE2, WE3, WE4, CL2, CL3, CL4, PI4, WP3, LA1, LA3, LA4, LA5, LA6, LA8, DM3, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null

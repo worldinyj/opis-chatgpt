@@ -575,11 +575,12 @@
           "size_bytes": 1017134
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED",
+      "event_id": "020405U4",
+      "verified_event_date": "2002-04-05",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "스캔 원본 6쪽 직접 판독, 20 사실, 3 학습, 40속성 4 검토/2 긍정/14 추가/20 근거부족, 토론·실천 및 영상 43장면/270초 설계. 후속 조사·발행일·PPT/A4/정식 계약·전문가 검토 대기.",
+      "source_sha256": "a3dff667158b6c61f576f87221b4e458afd25e66ba3d31c712f3ea5aa4fc13cf"
     },
     {
       "queue_order": 34,

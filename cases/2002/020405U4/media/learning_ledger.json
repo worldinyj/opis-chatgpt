@@ -1,0 +1,120 @@
+{
+  "schema_version": "2.0",
+  "event_id": "020405U4",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "WP4",
+    "DM2",
+    "QA2",
+    "PI1",
+    "PI2",
+    "PI3"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "LA2",
+    "LA7",
+    "DM1",
+    "CL1",
+    "WP1",
+    "WP2"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "message": "적절한 비상대응과 절차 준수를 학습한다",
+      "objective": "당시 대응 평가를 긍정적 사례로 검토하며 원인규명 완료와 구분한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F09",
+        "F10",
+        "F11",
+        "F19"
+      ],
+      "attribute_codes": [
+        "WP4",
+        "DM2"
+      ],
+      "principle_codes": [
+        "WP",
+        "DM"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "긍정적 학습, 미진속성 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "message": "문제의 발견과 근본원인 규명을 구분한다",
+      "objective": "이상 발견, 평가의 불확실성, 추가 원인 및 감시기 검토를 구분한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F02",
+        "F08",
+        "F12",
+        "F18",
+        "F20"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "PI1",
+        "PI2"
+      ],
+      "principle_codes": [
+        "QA",
+        "PI"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "후속 검토 후보이며 미진 확정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "message": "후속조치의 이행 및 효과를 확인한다",
+      "objective": "제염 계획과 환경 조사 결과의 확보, 후속조치 완료 증거를 추적한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F12",
+        "F13",
+        "F14",
+        "F15",
+        "F16",
+        "F17",
+        "F18",
+        "F20"
+      ],
+      "attribute_codes": [
+        "PI3"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "후속 검토 후보이며 미진 확정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}
