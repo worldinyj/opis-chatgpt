@@ -11,13 +11,14 @@
   "independent_review": "PENDING",
   "can_ship": false,
   "media_status": "SCRIPT_DRAFT",
-  "ppt_status": "PENDING",
+  "ppt_status": "GENERATED_DRAFT_RENDER_PENDING",
   "paid_generation_calls": 0,
   "external_submissions": 0,
   "report_a4_pages": null,
-  "author_technical_qc": "PENDING",
+  "author_technical_qc": "PASS_CONTRACT_RENDER_PENDING",
   "contract_checks": {
     "passed": 14,
     "total": 14
-  }
+  },
+  "ppt_git_blob": "d387d179dd297eaab6c30b8971a21603c10b6914"
 }
