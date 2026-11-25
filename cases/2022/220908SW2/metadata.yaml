@@ -29,4 +29,5 @@ analysis:
   insufficient_or_low_relevance_attributes: [CO3, CO4, LA2, LA3, LA8, WE1, WE2, WE3, WE4, CL3, RC1, RC2]
   approved_attributes: []
   qc_score: null
-  page_count_verified: false
+  page_count_verified: true
+  a4_pages: 6

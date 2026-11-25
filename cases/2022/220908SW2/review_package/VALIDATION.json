@@ -1,0 +1,41 @@
+{
+  "event_id": "220908SW2",
+  "source_report_sha256": "827d36bc3a702a9e171ec267d2dea16c881a6a4023818a96bcfdca5ca345a1c7",
+  "source_pages": 33,
+  "report": {
+    "git_blob": "b88d2df869f2ca775a6862198506327e802b7c79",
+    "bytes": 16799,
+    "a4_pages": 6,
+    "pdf_sha256": "a54fbb4c270d41a93e749279f3559163cd52e250ddc49a95ee0acab0bca4e38c",
+    "render": "PASS_LOCAL_CONTACT_SHEET"
+  },
+  "ppt": {
+    "git_blob": "514ae3a1b7a297a58667cfeb08548648adb6cccb",
+    "bytes": 314436,
+    "sha256": "43ddb32f4da9cf12688eee2c7be0b3f3f051b151372423b51bf2cad61d9189c8",
+    "render_pdf_sha256": "eee594c7878e3a8989b5a50680ed1fb87aa18c5084bbe73ac6d915c31a15138b",
+    "slides": 16,
+    "rendered_pages": 16,
+    "editable_shapes": 372,
+    "out_of_bounds": 0,
+    "nonempty_notes": 16,
+    "missing_text_shapes": 0,
+    "zip_crc": "PASS",
+    "render": "PASS_LIBREOFFICE_CONTACT_SHEET"
+  },
+  "contract_checks": {
+    "passed": 14,
+    "total": 14,
+    "scope": "JS schema subset/relations for fact, learning, discussion, three video plans and two batches"
+  },
+  "limitations": [
+    "실제 PowerPoint 및 현장 투사 미시험",
+    "보고서 마지막 쪽 여백이 큼",
+    "첨부 도면·계산·사진 전수 세부판독 미수행, 비공개 부분 복원 없음",
+    "OPIS 상세 ID·최종 INES·현재 조치 효과 미확인",
+    "독립/전문가 내용 및 속성 검토 대기",
+    "영상·음성 실제 생성 미수행",
+    "렌더 PDF는 로컬 검증 산출물, 저장소에는 MD/PPTX 및 검증 해시 기록"
+  ],
+  "can_ship": false
+}
