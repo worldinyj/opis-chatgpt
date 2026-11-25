@@ -9,3 +9,5 @@
 
 실제 에셋·음성·영상 미생성. PPTX/A4/최종 검증 대기.
 - [집합교육 16장 PPTX 및 진행자 가이드](classroom_ppt/README.md) · 52분 초안, 실제 렌더 대기.
+
+2026-11-25 A4 전문 4쪽 및 PPTX 16장 실제 렌더·시각검토 완료, 관계·배치 6/6 및 스키마 부분집합 8/8 PASS. Python jsonschema 8개 대기. [검증](../review_package/VALIDATION.md).

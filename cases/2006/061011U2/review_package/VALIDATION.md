@@ -22,3 +22,10 @@ ROOT-024 원본 29쪽 추출·렌더·5개 축소시트 시각검토, SHA256 e5e
 ## PPTX 제작 체크포인트
 
 기존 생성기 변경 없이 16장·52분·노트 16장, 350404 bytes, Git blob 11658269ae822b4891b71cd9beae42441e3ed5f5. 동일 입력 두 번 출력 동일, ZIP 로컬 멤버 CRC 75개 PASS. 사실 26개·학습 3개·핵심 후보 9개 포함. 월 정밀도 발행일 2006-11 유지. 실제 렌더/저장소-로컬 동일성 및 A4·정식 계약 14개 검증은 PENDING. can_ship=false.
+
+## A4/PPTX 실제 출력 및 계약 재검사 (2026-11-25)
+
+- 분석보고서 전문 Git blob b4f8e4d4324ac3ca9fdb0154afe98961acf99981 일치. 15352 bytes. Mistune/WeasyPrint A4 4쪽, 한글 폰트 내장, 전쪽 렌더·시각검토, F01–F26 존재, 페이지 범위 이탈 및 대체 문자 0. 모든 개별 원고 텍스트 블록 대조는 미수행. PDF SHA256 1e9966d28a0fa3b549c9988519e82551ad75d51736b26932dff8543551e03a53.
+- 기존 생성기·입력 복원 후 PPTX Git blob 11658269ae822b4891b71cd9beae42441e3ed5f5 일치. ZIP CRC 75개 통과, LibreOffice 16장 실제 렌더·전체 시각검토, 418 도형, 224개 비어있지 않은 텍스트 도형 누락 0, 페이지 범위 이탈·대체 문자 0. PPTX SHA256 9af897138660fc2191f74e3b26d0bd9a73bfa111eaced095c4488849419b3fd4, 렌더 PDF SHA256 d3aed0886005fbd417bca7e24beac340d912dcdcd929381a5283d5c90c34ad2f. PowerPoint·현장 투사 미시험.
+- 실제 저장소 JSON 8개·스키마 5개 재조회, 기존 모듈로 관계·배치 6/6 및 스키마 부분집합 8/8 PASS. Python jsonschema 8개 미실행. 정식 6/14, 다음 Python 검사. [상세 JSON](VALIDATION.json).
+- PDF 바이너리는 대화 첨부·로컬 검증용; 저장소 원고/PPTX/해시 보존. 이전 축약본과 별개. ROOT-024·13 PDF 대기 유지, can_ship=false. 전문가 검토·실제 영상 생성 대기.

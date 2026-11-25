@@ -204,3 +204,6 @@
 
 ## 2026-11-25 / PILOT-26 PPT 제작 체크포인트
 - 061011U2 16장/52분 편집형 PPTX·진행자 가이드, Git blob 11658269ae822b4891b71cd9beae42441e3ed5f5. 생성기 결정성 및 ZIP 로컬 멤버 CRC 확인. 월 정밀도 발행일 유지. 실제 렌더·A4·정식 14개 계약 검증 대기, can_ship=false.
+
+## 2026-11-25 / PILOT-26 출력·관계 QC
+- 기존 원고 및 PPTX Git blob 일치, 전체 A4 4쪽 및 LibreOffice 16장 실제 렌더·시각검토. 관계·배치 6/6, 스키마 부분집합 8/8 통과, 정식 Python jsonschema 8개 대기. ROOT-024 유지, can_ship=false.

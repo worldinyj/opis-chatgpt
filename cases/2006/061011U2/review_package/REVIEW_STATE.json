@@ -13,16 +13,18 @@
   "independent_review": "PENDING",
   "can_ship": false,
   "media_status": "SCRIPT_DRAFT",
-  "ppt_status": "DRAFT_GENERATED",
+  "ppt_status": "PASS_LOCAL_RENDER_DRAFT",
   "paid_generation_calls": 0,
   "external_submissions": 0,
-  "report_a4_pages": null,
-  "author_technical_qc": "PENDING",
+  "report_a4_pages": 4,
+  "author_technical_qc": "PARTIAL_PASS_RENDER_AND_RELATIONS",
   "contract_checks": {
-    "passed": 0,
-    "total": 14
+    "passed": 6,
+    "total": 14,
+    "python_jsonschema_pending": 8,
+    "repository_schema_subset_passed": 8
   },
-  "next_step": "FINAL_RENDER_AND_CONTRACT_QC",
+  "next_step": "FINAL_PYTHON_JSONSCHEMA_8_CHECKS",
   "video_design": {
     "status": "DRAFT_REGISTERED",
     "seconds": 270,
@@ -30,5 +32,5 @@
     "preliminary_checks": 10
   },
   "ppt_git_blob": "11658269ae822b4891b71cd9beae42441e3ed5f5",
-  "ppt_structural_qc": "PASS_GENERATOR_ZIP_MEMBER_CRC"
+  "ppt_structural_qc": "PASS_BYTE_MATCH_ZIP_CRC"
 }
