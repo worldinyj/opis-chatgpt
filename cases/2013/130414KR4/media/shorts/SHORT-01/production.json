@@ -1,0 +1,249 @@
+{
+  "schema_version": "2.0",
+  "event_id": "130414KR4",
+  "artifact_id": "SHORT-130414KR4",
+  "artifact_type": "KEY_MESSAGE_SHORT",
+  "title": "완료했다면 충분할까?",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2013-03/04",
+    "report_date": "2013-04-30",
+    "sha256": "c5a6c0d26079b71cc81f850eba75c884d00fc601b7cf245d7ff0ddb125af4f77"
+  },
+  "provenance": {
+    "analysis_path": "../../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../../fact_ledger.json",
+    "learning_ledger": "../../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "9:16",
+    "width": 720,
+    "height": 1280,
+    "fps": 24,
+    "language": "ko",
+    "style": "controlled graphic + hypothetical 3D brick miniature"
+  },
+  "timing": {
+    "target_seconds": 30
+  },
+  "learning_objectives": [
+    "이물질 예방관리·작업 종료 확인·선행 발견 물체의 원인평가와 미회수 위험의 추적을 구분하고 보수적 정지 결정을 인정한다."
+  ],
+  "references": [
+    {
+      "id": "LOC-A",
+      "kind": "LOCATION",
+      "description": "가상 브릭 교육 회의실; 실제 원전 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-A",
+      "kind": "CHARACTER",
+      "description": "가상 담당자, 청회색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-B",
+      "kind": "CHARACTER",
+      "description": "가상 검토자, 짙은 청색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "OBJ-A",
+      "kind": "OTHER",
+      "description": "빈 문서 카드와 일반 기록철; 실제 계기·도면 없음.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "완료했다면 충분할까?",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 세로 완료 카드와 물음표. 실제 원전·설비·인물·위치·회로·경보논리·취약점·운전/정비 방법·구체 기술수치 재현 없음.",
+      "narration": "완료 표시만으로 충분할까요?",
+      "overlay": [
+        "완료했다면 충분할까?",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "종료 확인의 미흡",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F06",
+        "F07",
+        "F10"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 공식 조사 문서 카드, 물체 모습 없음. 실제 원전·설비·인물·위치·회로·경보논리·취약점·운전/정비 방법·구체 기술수치 재현 없음.",
+      "narration": "조사에서는 종료 확인 미흡과 미회수 문제가 확인됐습니다.",
+      "overlay": [
+        "종료 확인의 미흡",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "완료에는 확인이 필요하다",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [
+        "F07",
+        "F10",
+        "F11"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "PI"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "PI2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 확인 증거와 미해결 기록 카드. 실제 원전·설비·인물·위치·회로·경보논리·취약점·운전/정비 방법·구체 기술수치 재현 없음.",
+      "narration": "완료는 남은 문제의 확인까지 포함합니다.",
+      "overlay": [
+        "완료에는 확인이 필요하다",
+        "AI 교육적 해석 · 후보"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "가상의 검토 회의",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "PI"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "PI2"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 일반 제조시설 3D 브릭 교육회의실: 세로 중앙 두 가상 직원과 빈 기록철. 실제 원전·설비·인물·위치·회로·경보논리·취약점·운전/정비 방법·구체 기술수치 재현 없음.",
+      "narration": "가상 팀은 완료 근거와 남은 문제를 확인합니다.",
+      "overlay": [
+        "가상의 검토 회의",
+        "가상 교육 상황 · 실제 사건 아님"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CONTEXT_SHIFT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "확인 없는 완료는 안전을 보증하지 않는다",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽: 공통 메시지와 보고서 출처. 실제 원전·설비·인물·위치·회로·경보논리·취약점·운전/정비 방법·구체 기술수치 재현 없음.",
+      "narration": "확인 없는 완료는 안전을 보증하지 않습니다.",
+      "overlay": [
+        "확인 없는 완료는 안전을 보증하지 않는다",
+        "KINS 2013-03/04 · 교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}
