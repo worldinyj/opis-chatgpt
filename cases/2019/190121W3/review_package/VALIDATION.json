@@ -3,7 +3,7 @@
   "source_report_sha256": "5f44465de1f6b7de4f5e26303e0d1fa3bec9bcb0d31f774ef82095d7ef8c79ee",
   "source_pages": 55,
   "source_render": "PASS_LOCAL_CONTACT_SHEET",
-  "source_detail": "PDF 1–3, 9–10, 14, 17–24 enlarged visual review; remaining detail pending",
+  "source_detail": "PDF 1–24 본문 전쪽 및 25–55 첨부 13종 관련 근거 시각 검토; 도면·그래프 세부 계측값 전수 검산 미수행",
   "report": {
     "status": "DRAFT",
     "a4_render": "PENDING"
@@ -82,7 +82,7 @@
     ]
   },
   "limitations": [
-    "글꼴 인코딩 오류로 원본 자동 텍스트 추출 신뢰 불가. 선정 근거는 확대 육안 판독; 잔여 본문/첨부 상세 검토 대기.",
+    "글꼴 인코딩 오류: 자동 추출 신뢰 불가; 본문·첨부 관련 근거 시각 검토 완료, 세부 계측값 전수 검산 미수행.",
     "PPT 생성 시 이전 사례에서 남은 일부 슬라이드 구분명 발견하여 수정 후 새 blob 검증.",
     "A4/PPT 실제 출력, 실제 PowerPoint 및 현장 투사 검증 대기.",
     "OPIS 상세 ID·기초/최종 INES·현재 조치 이행 및 효과 미확인.",
