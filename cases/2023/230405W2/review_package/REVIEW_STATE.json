@@ -7,8 +7,9 @@
   "expert_attribute_review": "USER_SEPARATE_REVIEW_PENDING",
   "independent_review": "PENDING",
   "can_ship": false,
-  "media_status": "PLANNED",
-  "ppt_status": "PLANNED",
+  "media_status": "SCRIPT_DRAFT",
+  "ppt_status": "GENERATED_DRAFT_RENDER_PENDING",
   "paid_generation_calls": 0,
-  "external_submissions": 0
+  "external_submissions": 0,
+  "ppt_git_blob": "f85852e547d4a2694c7f06b42bd016fbfaadd2f3"
 }
