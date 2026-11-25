@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "110621K2",
+  "artifact_id": "DA-110621K2",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "검토의 근거와 운전경험의 실천",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2011-08",
+    "report_date": "2011-08-30",
+    "sha256": "e8bedf1d68e47eed941e90e950f30e971de1a1014664d3096801337f4d1d7355"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "설계변경에서 기준 검토와 독립검토가 실제로 수행됐음을 어떤 기록으로 확인하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "여러 조직의 문서와 검토 결과가 서로 일치하는지 어떤 근거로 확인하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "과거 유사사례의 교훈이 실제 업무에 반영되었고 효과가 있었음을 어떻게 확인하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조업체에서 업무 변경 관련 기록이 작성되었으나 독립검토와 부서 간 확인 기록이 충분하지 않다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 검토 책임, 확인 증거, 기록 미비 시 공식 검토 절차를 토론한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 과거 유사 문제의 교훈이 교육자료에는 있지만 현재 업무문서에 반영됐는지 확인되지 않는다.",
+      "learning_ids": [
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 검색, 적용 여부, 책임자 및 효과 확인 기록을 토론한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "변경업무에 적용된 기준과 독립검토 기록을 확인한다.",
+      "verification": "변경 검토 및 승인 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "문서 및 조직 간 확인사항의 불일치를 공식적으로 제기한다.",
+      "verification": "문서 검토·문제 제기 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "유사사례 검색과 적용 여부를 기록한다.",
+      "verification": "운전경험 검토 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "변경 검토와 독립검토의 객관적 증거를 표본 확인한다.",
+      "verification": "품질검토 및 효과평가 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "부서 간 문서 인계와 검토 책임의 이행 근거를 평가한다.",
+      "verification": "인계·검토 책임 및 시정 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "운전경험 적용과 시정조치 효과를 추적한다.",
+      "verification": "운전경험 반영·효과평가 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

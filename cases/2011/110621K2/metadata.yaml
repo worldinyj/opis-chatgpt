@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "110621K2"
+report_number: "2011-08"
+title: "원자로냉각재펌프 정지로 인한 원자로 자동정지"
+event_date: "2011-06-21"
+report_date: "2011-08-30"
+plant:
+  site: 고리
+  unit: 2
+source:
+  organization: KINS
+  system: OPIS
+  opis_popup_id: null
+  document_url: null
+  page_count: 11
+  sha256: e8bedf1d68e47eed941e90e950f30e971de1a1014664d3096801337f4d1d7355
+  source_size_bytes: 364751
+operating_mode: "출력운전"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [LA5, WP2, WP1, DM1, CO1, WP3, CL1]
+  additional_review_attributes: [PA1, PA2, PA3, QA1, QA2, QA3, QA4, CO2, CO3, LA1, LA4, LA6, LA7, DM2, DM3, CL2, CL3, CL4, PI1, PI2, PI3, WP4]
+  insufficient_or_low_relevance_attributes: [CO4, LA2, LA3, LA8, WE1, WE2, WE3, WE4, PI4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null

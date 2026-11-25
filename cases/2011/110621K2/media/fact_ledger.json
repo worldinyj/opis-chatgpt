@@ -1,0 +1,327 @@
+{
+  "schema_version": "2.0",
+  "event_id": "110621K2",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2011-08",
+    "report_date": "2011-08-30",
+    "sha256": "e8bedf1d68e47eed941e90e950f30e971de1a1014664d3096801337f4d1d7355"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "표지; 요약; 1",
+      "pdf_pages": [
+        1,
+        3,
+        4
+      ],
+      "printed_pages": [
+        1,
+        2
+      ],
+      "statement": "2011년 6월 21일 고리2호기에서 원자로냉각재펌프 정지와 관련한 원자로 자동정지 사건이 발생했다.",
+      "qualification": "보고서 번호 2011-08, 사건 110621K2, 2011-08-30 발행. 상세 사건 전개는 생략.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 1; 3.나",
+      "pdf_pages": [
+        3,
+        4,
+        5
+      ],
+      "printed_pages": [
+        1,
+        2,
+        3
+      ],
+      "statement": "조사팀은 외부 송전선로의 일시적인 이상을 사건의 유발요인으로 평가했다.",
+      "qualification": "외부 유발요인과 관리적 기여원인을 구분한다. 구체적 위치와 고장 조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 3.나; 7",
+      "pdf_pages": [
+        3,
+        5,
+        6,
+        10,
+        11
+      ],
+      "printed_pages": [
+        1,
+        3,
+        4,
+        8,
+        9
+      ],
+      "statement": "조사팀은 보호기기 설계변경의 부적절성을 사건의 직접적인 기술적 원인으로 평가했다.",
+      "qualification": "설계값, 구성 및 동작 조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "printed_pages": [
+        3,
+        4
+      ],
+      "statement": "산업계 요건 및 제작사 권고와 설계 내용 사이 불일치가 조사에서 확인됐다.",
+      "qualification": "구체적 권고값 및 기술 내용은 재현하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나",
+      "pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        4
+      ],
+      "statement": "조사팀은 설계자의 제3자 검토 미흡을 설계변경 오류의 기여원인으로 평가했다.",
+      "qualification": "독립검토 과정 평가이며 특정 개인의 책임 확정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나",
+      "pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        4
+      ],
+      "statement": "원전운영자의 설계변경서 검토능력 미흡과 프로세스 표준화 관리 미흡이 지적됐다.",
+      "qualification": "개별 직원의 교육 이력이나 능력 수준은 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나",
+      "pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        4
+      ],
+      "statement": "설계 및 운영 조직의 운전경험 반영 미흡과 조직 간 소통 미흡이 기여원인으로 평가됐다.",
+      "qualification": "소통 방식·고의적 정보 은폐 여부는 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나; 3.바",
+      "pdf_pages": [
+        6,
+        9
+      ],
+      "printed_pages": [
+        4,
+        7
+      ],
+      "statement": "2008년 고리1호기 유사사건의 교훈 반영이 미흡하였다고 조사팀이 평가했다.",
+      "qualification": "유사사건의 원문 독립 대조는 미수행.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나",
+      "pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        4
+      ],
+      "statement": "운영자의 설계변경사항 60건 전수검사에서 도면표기 오류 1건이 확인됐으며, 설계자와 운영자 간 도면 검토 미흡으로 평가됐다.",
+      "qualification": "당시 검사 범위 한정, 다른 결함 전반의 존재나 부재는 단정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나",
+      "pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        4
+      ],
+      "statement": "조사팀은 중요 기기 관리와 설계변경·정비품질·원인분석·운전경험반영 프로그램의 연계 미흡을 원인으로 평가했다.",
+      "qualification": "실제 기기의 취약점, 식별정보 및 설비별 조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3.다",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "printed_pages": [
+        4,
+        5
+      ],
+      "statement": "운영자는 별도의 자동동작 불일치를 설계 계산상의 오류로 평가했고, 재검토 및 성능시험을 수행했다.",
+      "qualification": "운영자의 판단으로 구분하며 구체적 기술 조치 방법은 제외한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.다; 4",
+      "pdf_pages": [
+        7,
+        9
+      ],
+      "printed_pages": [
+        5,
+        7
+      ],
+      "statement": "조사팀은 필요한 열제거 기능이 유지되었고 주요 운전변수가 허용 범위 내에서 유지됐음을 확인했다.",
+      "qualification": "당시 상태 평가이며 현재 안전성 보증이 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.다; 3.라",
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "운전원의 비상운전절차 수행과 운전제한조건 적용 조치는 적절한 것으로 평가됐다.",
+      "qualification": "실제 운전조작 및 적용 조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.라; 5",
+      "pdf_pages": [
+        7,
+        8,
+        9
+      ],
+      "printed_pages": [
+        5,
+        6,
+        7
+      ],
+      "statement": "운영자는 관련 기기의 재검토·점검·성능 확인과 설계변경사항 전수검사를 재가동 전 수행했고 조사팀은 조치를 적절하다고 평가했다.",
+      "qualification": "전수검사는 보고서 당시 범위, 장기 효과는 별도.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.마; 표 1",
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "printed_pages": [
+        6,
+        7
+      ],
+      "statement": "안전기술원은 원인평가, 계통 및 기기 거동, 과도상태 대응, 재발방지 조치의 네 영역을 독립평가하여 재가동에 문제가 없다고 판단했다.",
+      "qualification": "실제 승인 문서 및 재가동 시각은 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4; 요약; 7",
+      "pdf_pages": [
+        3,
+        9,
+        11
+      ],
+      "printed_pages": [
+        1,
+        7,
+        9
+      ],
+      "statement": "필수 안전기능은 충족되었으며 방사성물질 누설·방출 및 종사자 피폭이 없었다고 보고됐다.",
+      "qualification": "당시 평가를 관리적 원인 부재로 해석하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "5",
+      "pdf_pages": [
+        10
+      ],
+      "printed_pages": [
+        8
+      ],
+      "statement": "운영자는 설계변경 관련 전 원전 재검토, 제3자 검토 의무화 및 품질보증 절차 개선을 중장기 대책으로 수립했다.",
+      "qualification": "계획 및 당시 진행 상태를 실제 완료와 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "5",
+      "pdf_pages": [
+        10
+      ],
+      "printed_pages": [
+        8
+      ],
+      "statement": "운영자는 운전경험자료 분류·검색·반영 체계를 구축하는 중장기 대책을 수립했다.",
+      "qualification": "실제 운영 성과와 지속 효과는 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "5",
+      "pdf_pages": [
+        10
+      ],
+      "printed_pages": [
+        8
+      ],
+      "statement": "조사팀은 중장기 대책이 적절하며 상세계획에 따라 후속대책을 이행 중이라고 평가했다.",
+      "qualification": "당시 평가이며 후속 완료·현재 효과는 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "OBSERVED_FACT",
+      "section": "6; 7",
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "printed_pages": [
+        8,
+        9
+      ],
+      "statement": "보고서의 보완요구 사항은 없음으로 기재되어 있으며 결론은 설계변경관리와 운전경험반영 미흡을 원인으로 평가한다.",
+      "qualification": "보완요구 없음은 개선 필요성이나 장기대책의 부재를 의미하지 않는다.",
+      "review_status": "PENDING"
+    }
+  ]
+}

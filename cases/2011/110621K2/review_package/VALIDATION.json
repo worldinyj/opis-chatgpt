@@ -1,0 +1,59 @@
+{
+  "event_id": "110621K2",
+  "source_report_sha256": "e8bedf1d68e47eed941e90e950f30e971de1a1014664d3096801337f4d1d7355",
+  "source_pages": 11,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_detail": "전쪽 텍스트 추출 및 축소시트 2개 시각검토",
+  "report": {
+    "status": "DRAFT",
+    "a4_render": "PENDING"
+  },
+  "ppt": {
+    "actual_render": "PENDING"
+  },
+  "contract_checks": {
+    "passed": 0,
+    "total": 14,
+    "status": "PENDING"
+  },
+  "preliminary_checks": {
+    "attribute_partition": "PASS_7_22_11_UNIQUE_40",
+    "learning_fact_reference": "PASS",
+    "discussion_learning_reference": "PASS",
+    "index_duplicate": "PASS",
+    "schema_subset_3": "PASS",
+    "repository_discussion_relations": "PASS"
+  },
+  "preliminary_results": [
+    {
+      "test": "fact_ledger",
+      "result": "PASS"
+    },
+    {
+      "test": "learning_ledger",
+      "result": "PASS"
+    },
+    {
+      "test": "discussion_action",
+      "result": "PASS"
+    },
+    {
+      "test": "discussion relations",
+      "result": "PASS"
+    }
+  ],
+  "schema_blobs": [
+    "fa01cf02838812104fb795d7adc316f4d7571290",
+    "6ccc8e0e68d8666c5065e15a74717533453777c3",
+    "1f3399a6c476f9cb09202a73beb29b670cacb904"
+  ],
+  "relation_validator_blob": "08ad964d1e8c2e63d1a1c540bc6ce76562afe1f8",
+  "limitations": [
+    "원본 PDF 11쪽 전쪽 텍스트 추출·렌더 및 축소시트 2개 시각검토. PDF 1–2쪽 무번호, PDF 3–11쪽 인쇄면 1–9쪽. 기술 수치 및 사건 시각별 상세는 전수 검산하지 않았다.",
+    "2008년 고리1호기 유사사례는 본 보고서의 인용과 평가에 근거하며 별도 원문 비교 미수행.",
+    "OPIS 상세 팝업 ID, INES 초기·최종 등급, 실제 재가동 승인문서, 중장기 대책 완료 및 현재 효과 미확인. 보완요구 없음은 보고서 기재 사실.",
+    "구체적 설비 구성, 보호기능 설정치, 위치, 동작조건, 시각별 사건 전개 및 운전·정비·시험 방법은 교육자료에서 제외한다.",
+    "AI 안전문화 후보는 공식 조사팀의 개별 속성 평가가 아니다. 독립·전문가 검토 대기. 실제 영상 및 음성 생성 없음. PPTX/A4/정식 14개 계약검사 대기."
+  ],
+  "can_ship": false
+}

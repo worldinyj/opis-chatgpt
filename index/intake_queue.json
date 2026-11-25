@@ -456,11 +456,12 @@
           "size_bytes": 364751
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "event_id": "110621K2",
+      "verified_event_date": "2011-06-21",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "원본 11쪽·20 사실·3 학습·40속성(7/22/11), 토론 및 전문가 검토 초안. 영상/PPT/A4/정식 14개 계약검사 대기. ROOT-026 유지, 종료 후 ROOT-027.",
+      "source_sha256": "e8bedf1d68e47eed941e90e950f30e971de1a1014664d3096801337f4d1d7355"
     },
     {
       "queue_order": 27,
