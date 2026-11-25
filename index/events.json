@@ -145,5 +145,28 @@
       "WP4"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "230405W2",
+    "event_date": "2023-04-05",
+    "report_date": "2023-04-25",
+    "plant": "월성2호기",
+    "title": "월성2호기 계획예방정비 중 등급4전원 모선 인입차단기 개방에 의한 예비디젤발전기 #2 자동기동",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": 0,
+    "final_ines": null,
+    "path": "cases/2023/230405W2/report.md",
+    "candidate_attributes": [
+      "QA4",
+      "CO1",
+      "LA5",
+      "DM1",
+      "DM2",
+      "WP1",
+      "WP3",
+      "WP4"
+    ],
+    "approved_attributes": []
   }
 ]

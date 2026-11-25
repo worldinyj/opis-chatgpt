@@ -123,11 +123,12 @@
           "size_bytes": 763939
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
+      "event_id": "230405W2",
+      "verified_event_date": "2023-04-05",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "분석·원장·토론 등록; 미디어·PPT 진행 중.",
+      "source_sha256": "5d5db17b70d50fea89bebc950f05b767d75a5560f1c46471f5746065ad4d9e91"
     },
     {
       "queue_order": 7,

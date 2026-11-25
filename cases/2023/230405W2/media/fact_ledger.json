@@ -1,0 +1,314 @@
+{
+  "schema_version": "2.0",
+  "event_id": "230405W2",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2023-3",
+    "report_date": "2023-04-25",
+    "sha256": "5d5db17b70d50fea89bebc950f05b767d75a5560f1c46471f5746065ad4d9e91"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "statement": "2023.04.05 월성2호기 제21차 계획예방정비 중 모드5 보증정지, 출력0%에서 등급4전원 인입차단기 개방에 따른 등급3전원 저전압 및 예비디젤발전기 #2 자동기동 발생.",
+      "section": "1~2",
+      "printed_pages": [
+        1,
+        2,
+        3
+      ],
+      "pdf_pages": [
+        3,
+        4,
+        5
+      ],
+      "qualification": "사건 당시 상태.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "시험 착수조건이 충족되지 않은 상태에서 보호계전기 시험을 실시하여 보호기능이 설계대로 작동하고 모선전원 상실로 이어졌다.",
+      "section": "3.2.1~2",
+      "printed_pages": [
+        4,
+        5,
+        6
+      ],
+      "pdf_pages": [
+        6,
+        7,
+        8
+      ],
+      "qualification": "보호계전기 자체 고장으로 단정하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "2011년 LOV 유발기기 작업관리 절차를 마련하여 별도 중점관리 체계를 운영했다.",
+      "section": "3.2.3",
+      "printed_pages": [
+        6,
+        18
+      ],
+      "pdf_pages": [
+        8,
+        20
+      ],
+      "qualification": "제도 존재와 실제 이행 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "2013년부터 중점/별도(하부)관리로 자체 차등 분류하여 별도관리에는 강화된 관리절차를 적용하지 않았다. 사건 작업도 별도관리였다.",
+      "section": "3.2.3",
+      "printed_pages": [
+        6,
+        7,
+        19
+      ],
+      "pdf_pages": [
+        8,
+        9,
+        21
+      ],
+      "qualification": "표준지침과 다른 운영.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "OBSERVED_FACT",
+      "statement": "중점관리 비율은 2013년 36/80(45.0%), 2023년 3/69(4.3%). 2019년 일시 증가가 있다.",
+      "section": "붙임4",
+      "printed_pages": [
+        19
+      ],
+      "pdf_pages": [
+        21
+      ],
+      "qualification": "중점관리 비율이지 안전문화 점수 또는 사고확률이 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "사건 유형 작업은 2015년까지 중점관리, 2016년부터 별도관리였고 2018년부터 별도관리의 시험조건 정보가 명시되지 않았다.",
+      "section": "3.2.3",
+      "printed_pages": [
+        6,
+        7
+      ],
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "qualification": "분류 및 문서정보 변화.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "요구된 부서 내 제3자 검토와 엔지니어링부 검토가 누락되고 소그룹회의는 최초 의견만 반영하여 목록 검토가 미흡했다.",
+      "section": "3.2.3",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "qualification": "회의 자체 미실시 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "작업오더 설계에서 위험 분류, 일정 및 작업전회의 수준 설정이 부적절했고 발행·승인 검토에서 이를 충분히 발견하지 못했다.",
+      "section": "3.2.4",
+      "printed_pages": [
+        8
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "qualification": "다단계 방어의 실패.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "작업리스크가 가장 낮은 D로 평가되었고 발전운영부와 리스크검토회의의 계통영향 검토가 미흡했다.",
+      "section": "3.2.4",
+      "printed_pages": [
+        8
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "qualification": "회의 개최 사실 인정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "작업허가 시 감독자 요청에 따라 작업조건이 변경되었으나 기술검토 없이 허가되었다.",
+      "section": "3.2.4",
+      "printed_pages": [
+        8
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "qualification": "변경관리와 기술검토 근거.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "작업 일정 연기 후 일일작업계획 미등록 및 요구 리스크검토서 누락, 착수 통보 누락으로 발전부의 작업현황 파악 불가.",
+      "section": "3.2.4",
+      "printed_pages": [
+        8,
+        9
+      ],
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "qualification": "허가와 실제 착수 사이의 정보 단절.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "일반작업전회의는 수행되었으나 계통영향과 LOV 유발가능성 검토가 부족했고 시험 전 작업조건 확인이 미흡했다.",
+      "section": "3.2.4",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "qualification": "PJB 전부 미실시 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "statement": "붙임2는 이전 유사 반복시험의 경험에 따른 작업조건 오인과 일부 확인절차 미수행을 기록한다.",
+      "section": "붙임2",
+      "printed_pages": [
+        16,
+        17
+      ],
+      "pdf_pages": [
+        18,
+        19
+      ],
+      "qualification": "진술·수행경위 기반; 개인 심리 단정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "예비디젤발전기 자동기동 및 중요 부하 자동기동, 비정상절차에 따른 운전조치와 전원복구가 수행되었다. 필요한 잔열제거 및 사용후핵연료저장조 열제거 안전기능 유지.",
+      "section": "3.3",
+      "printed_pages": [
+        9,
+        10,
+        11
+      ],
+      "pdf_pages": [
+        11,
+        12,
+        13
+      ],
+      "qualification": "긍정적 방어와 원인 분석 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "냉방기 #2 자동기동 실패, 대기 냉방기 #1 자동기동. 후속시험에서 부품 고장 확인 및 교체 후 정상기동 확인; 순간 저유량 가능성도 검토.",
+      "section": "3.3,붙임5",
+      "printed_pages": [
+        9,
+        20
+      ],
+      "pdf_pages": [
+        11,
+        22
+      ],
+      "qualification": "사건 당시 고장 원인 확정과 후속시험 확인 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "사용후핵연료저장조 온도 0.5℃ 증가, 소내 삼중수소 농도 0.3→0.8 DAC로 일시 상승 후 정상복구. 농도경보 없음, 소외 방사선량 평소 수준.",
+      "section": "3.3",
+      "printed_pages": [
+        10,
+        11
+      ],
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "qualification": "소내 변수 변화와 소외 영향 구별. 비공개 수치 복원 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "기초 INES 0, 최종 등급은 위원회 평가 예정.",
+      "section": "3.4",
+      "printed_pages": [
+        11
+      ],
+      "pdf_pages": [
+        13
+      ],
+      "qualification": "최종 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "REPORTED_ASSESSMENT",
+      "statement": "단기대책 3건 완료: 차등관리 폐지, 리스크 검토·절차준수 교육, 시험 초기조건 독립확인 절차 추가. 중장기 5건 계획.",
+      "section": "3.5,4",
+      "printed_pages": [
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        13,
+        14,
+        15
+      ],
+      "qualification": "발행 시점 상태; 현재 이행과 효과 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "SOURCE_LIMITATION",
+      "statement": "§3.4의 '자동정지' 표기는 제목·요약·본문의 자동기동과 불일치. §3.2.3의 매 정비마다 감소라는 표현은 붙임4의 2019년 증가와 차이.",
+      "section": "3.4,3.2.3,붙임4",
+      "printed_pages": [
+        6,
+        11,
+        19
+      ],
+      "pdf_pages": [
+        8,
+        13,
+        21
+      ],
+      "qualification": "일관된 본문 및 표 기준, 정오표 미확인.",
+      "review_status": "PENDING"
+    }
+  ]
+}
