@@ -1,0 +1,32 @@
+{
+  "event_id": "190510HB1",
+  "source_report_sha256": "cc223c44b90fcc24a627cc267604575c5c852762cad40b40c507fc80666e9195",
+  "source_pages": 122,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "report": {
+    "status": "DRAFT",
+    "a4_render": "PENDING"
+  },
+  "ppt": {
+    "git_blob": "71970f135ee48a6189ba8d7b7edf286ab7643fbc",
+    "bytes": 331172,
+    "slides": 16,
+    "nonempty_notes": 16,
+    "editable_shapes": 398,
+    "zip_crc": "PASS",
+    "deterministic_regeneration_byte_match": true,
+    "actual_render": "PENDING"
+  },
+  "contract_checks": {
+    "passed": 14,
+    "total": 14,
+    "scope": "repository JS schema subset and relation checks; fact, learning, discussion, three video designs and two batches"
+  },
+  "limitations": [
+    "PDF 원본 전체 축소 렌더 확인; 첨부 도표 세부 전수 판독 미수행",
+    "원고 A4 및 PPT 실제 렌더 미완료; GitHub 바이너리는 재조회 및 결정적 재생성 일치",
+    "OPIS 상세 ID, 기초/최종 INES, 현재 개선효과 미확인",
+    "독립·전문가 검토 대기; 실제 영상·음성 미생성"
+  ],
+  "can_ship": false
+}
