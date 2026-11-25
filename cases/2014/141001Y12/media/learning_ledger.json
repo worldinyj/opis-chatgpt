@@ -1,0 +1,120 @@
+{
+  "schema_version": "2.0",
+  "event_id": "141001Y12",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "WP1",
+    "WP3",
+    "QA4",
+    "CL1",
+    "CO1",
+    "LA6",
+    "LA5"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA2",
+    "QA3",
+    "LA1",
+    "LA2",
+    "LA7",
+    "DM1",
+    "DM2",
+    "DM3",
+    "CL2",
+    "CL4",
+    "PI2",
+    "PI3",
+    "WP2",
+    "WP4"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "선행작업의 경험은 후속 작업조건의 검토를 대신할 수 없다.",
+      "objective": "작업조건의 차이와 위험 분류 및 잠재 오류 예방을 검토한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F03",
+        "F05",
+        "F10",
+        "F14",
+        "F16"
+      ],
+      "principle_codes": [
+        "WP",
+        "QA",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "QA4",
+        "CL1"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 미진속성 확정 또는 개인 책임·심리 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "승인된 절차도 현장 적용성과 오류 방지 효과를 검증해야 한다.",
+      "objective": "절차의 구체성, 변경 영향 및 인간-기계 연계의 방어능력을 함께 학습한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F06",
+        "F07",
+        "F10",
+        "F14",
+        "F16"
+      ],
+      "principle_codes": [
+        "WP",
+        "LA"
+      ],
+      "attribute_codes": [
+        "WP3",
+        "LA5"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 미진속성 확정 또는 개인 책임·심리 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "작업전회의와 감독은 실제 역할 이행 및 위험정보 공유로 이어져야 한다.",
+      "objective": "작업자·감독자·사업자·협력업체의 소통과 감독 여건을 구분하고 긍정적 대응을 인정한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F04",
+        "F08",
+        "F09",
+        "F10",
+        "F12",
+        "F15"
+      ],
+      "principle_codes": [
+        "CO",
+        "LA"
+      ],
+      "attribute_codes": [
+        "CO1",
+        "LA6"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 미진속성 확정 또는 개인 책임·심리 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

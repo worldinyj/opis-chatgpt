@@ -434,5 +434,27 @@
       "PI2"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "141001Y12",
+    "event_date": "2014-10-01",
+    "report_date": "2014-10-29",
+    "plant": "한빛1·2호기",
+    "title": "한빛 2호기 계획예방정비 중 교체 고압차단기반의 부적절한 작업관리에 기인한 한빛 1,2호기 안전모선 저전압 및 비상디젤발전기 기동",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2014/141001Y12/report.md",
+    "candidate_attributes": [
+      "WP1",
+      "WP3",
+      "QA4",
+      "CL1",
+      "CO1",
+      "LA6",
+      "LA5"
+    ],
+    "approved_attributes": []
   }
 ]

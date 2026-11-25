@@ -1,0 +1,280 @@
+{
+  "schema_version": "2.0",
+  "event_id": "141001Y12",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2014-14",
+    "report_date": "2014-10-29",
+    "sha256": "3845ad254c76c6b2d6d83ea4bf3731af175c8b177f40b3b903468b2ba59277c3"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "요약; 1–2",
+      "printed_pages": [
+        1,
+        2,
+        3
+      ],
+      "pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "statement": "2014년 10월 1일 한빛2호기 계획예방정비 관련 시험 중 한빛1·2호기에 저전압이 발생하여 비상디젤발전기가 자동기동했다.",
+      "qualification": "두 호기에 관련된 단일 보고대상사건이다. 원자로 자동정지 사건으로 분류하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.1",
+      "printed_pages": [
+        3,
+        4
+      ],
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "statement": "조사팀은 면담진술, 사건기록 및 사건 후 검증을 근거로 시험대상 선택 오류에 관한 사업자의 직접원인 평가를 적절하다고 판단했다.",
+      "qualification": "인적오류를 확인하되 상세 시험대상·시험 조건 및 재현 방법은 제외한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2",
+      "printed_pages": [
+        4,
+        5
+      ],
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "statement": "사업자는 해당 시험을 위험 유발 중점관리작업으로 분류하지 않았으며 조사팀은 일반 작업으로 분류·수행한 것을 주요 원인으로 평가했다.",
+      "qualification": "당시 다른 단계의 작업에는 중점관리 분류가 존재했다. 전사 위험관리 체계 부재로 확대하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2",
+      "printed_pages": [
+        4,
+        5
+      ],
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "statement": "작업전회의는 실시되었으나 해당 위험과 관련된 주의사항 전달이 없었다.",
+      "qualification": "회의 자체가 없었던 것이 아니다. 당시 확인된 회의 내용에 한정한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2",
+      "printed_pages": [
+        4,
+        5
+      ],
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "statement": "선행호기에서 동일 절차서와 시험인력이 유사 작업을 수행한 경험이 있었으나 후속 작업조건의 차이에 대한 사전검토가 미흡했다.",
+      "qualification": "선행사례 전체가 잘못되었다거나 후속 사건의 동일성이 보장된다고 단정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2–3.1.3",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "공급사가 작성하고 사업자가 검토·승인한 시험절차서와 점검기록에 시험대상 구분 및 작업대상별 차이점이 충분히 반영되지 않았다.",
+      "qualification": "승인절차가 없었다는 의미가 아니며 개별 승인자 책임은 확정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3",
+      "printed_pages": [
+        5,
+        6
+      ],
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "statement": "조사팀은 인간-기계 연계 측면에서 선택착오를 방지할 물리적 방어수단이 충분하지 않았던 점을 기여요인으로 평가했다.",
+      "qualification": "실제 설비 위치, 식별체계 및 취약점 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3",
+      "printed_pages": [
+        5,
+        6
+      ],
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "statement": "조사팀은 주의사항 전달이 부족한 상황에서 시험원의 작업대상 차이점에 대한 주의가 충분하지 않았다고 평가했다.",
+      "qualification": "개인 심리·고의 또는 일반적 능력 부족을 추정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "조사팀은 시험감독자가 중복된 다른 업무 때문에 감독업무를 수행할 수 없었던 점을 기여요인으로 평가했다.",
+      "qualification": "개별 감독 여건과 전사 인력 부족·징계 필요를 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3; 5",
+      "printed_pages": [
+        6,
+        8,
+        9
+      ],
+      "pdf_pages": [
+        7,
+        9,
+        10
+      ],
+      "statement": "조사팀은 관리·조직 요인으로 작업환경 영향, 시험대상 명시 및 작업방식에 대한 사전검토 미흡을 평가했고 결론에서 사업자의 사전 작업검토 미흡을 주요 기여원인으로 판단했다.",
+      "qualification": "직접원인과 주요 기여원인을 구분하며 안전문화 속성은 AI 교육 후보이다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2",
+      "printed_pages": [
+        6,
+        7
+      ],
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "statement": "비상전원과 안전계통 기기는 설계된 바에 따라 작동했다고 확인되었다.",
+      "qualification": "사건 당시 안전기능의 긍정적 평가이다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2",
+      "printed_pages": [
+        6,
+        7
+      ],
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "statement": "운전원은 관련 운전제한조건과 절차를 적용하고 안전기능 확인 및 전력계통 복구에 적절하게 대응한 것으로 평가되었다.",
+      "qualification": "세부 운전 및 복구 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "조사팀은 주요 운전변수가 안정적으로 유지되었고 소내외 방사선 관련 특이사항이 없었음을 확인했다.",
+      "qualification": "당시 조사 범위에 한정하며 현재 안전성을 일반화하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3",
+      "printed_pages": [
+        7,
+        8
+      ],
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "statement": "사업자는 작업일정과 위험관리 재검토, 위험 유발작업 재분류, 오류 방지수단 및 시험절차 보완 등의 단기조치를 완료했다.",
+      "qualification": "구체 설비 변경·작업조건·시험방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "OBSERVED_FACT",
+      "section": "3.3",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "사업자는 전문인력 지원 등 관리감독 강화 및 관련 종사자·협력업체 특별 안전교육을 단기조치로 제시했다.",
+      "qualification": "보고서상 단기조치 완료 범주이다. 교육의 현재 효과 및 전사 인력 부족은 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "OBSERVED_FACT",
+      "section": "3.3",
+      "printed_pages": [
+        7,
+        8
+      ],
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "statement": "사업자는 설계변경 검토 및 작업관리 강화, 두 호기에 대한 영향 방지대책과 관련 절차 개선을 중장기대책으로 수립했다.",
+      "qualification": "계획 수립과 현재 완료·효과를 구분한다. 설계 및 변경 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3; 4–5",
+      "printed_pages": [
+        8,
+        9
+      ],
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "statement": "조사팀은 원인과 조치의 연계성을 고려하여 재발방지대책이 적절하다고 판단했고 별도 보완요구사항은 없었으며 당시 기술적 안전성에 문제가 없다고 평가했다.",
+      "qualification": "당시 공식 평가를 현재 안전성이나 안전문화 승인으로 확대하지 않는다.",
+      "review_status": "PENDING"
+    }
+  ]
+}

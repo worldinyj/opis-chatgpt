@@ -338,11 +338,11 @@
           "size_bytes": 184823
         }
       ],
-      "status": "SOURCE_RAW_QC_VERIFIED_DETAIL_PENDING",
+      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
       "event_id": "141001Y12",
       "verified_event_date": "2014-10-01",
       "from_prior_table": true,
-      "notes": "원본 184823 bytes, SHA-256 3845ad254c76c6b2d6d83ea4bf3731af175c8b177f40b3b903468b2ba59277c3, 10쪽 전쪽 텍스트 및 렌더 확인. 한빛1·2호기 공동 사건, 2014-14호, 2014-10-29 발행. 분석 대기."
+      "notes": "10쪽 전체 텍스트 및 렌더. 한빛1·2호기 공동 사건 단일 ID. 17 사실·3 학습·40속성 후보(7/17/16)·토론 초안 등록. 영상/PPT/A4 출력 및 전문가 검토 대기."
     },
     {
       "queue_order": 20,
