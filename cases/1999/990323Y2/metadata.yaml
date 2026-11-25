@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "990323Y2"
+report_number: "1402-99-02"
+title: "영광2호기 증기덤프밸브 동작불량에 의한 증기발생기 수위제어 실패로 원자로정지"
+event_date: "1999-03-23"
+report_date: null
+plant:
+  site: 영광
+  unit: 2
+source:
+  organization: null
+  system: OPIS
+  opis_popup_id: null
+  document_url: null
+  page_count: 1
+  sha256: 13d80baa4e31bb0bea57852824c684ae244783e43b5176dac64feba698f95407
+  source_size_bytes: 905688
+operating_mode: "기동 과정"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP4, PI1, PI3, QA2, CL4, CL1, WP1]
+  additional_review_attributes: [PA1, PA2, QA1, QA3, QA4, CO1, LA1, LA2, LA4, LA5, LA6, LA7, DM1, DM2, DM3, CL2, PI2, WP2, WP3]
+  insufficient_or_low_relevance_attributes: [PA3, CO2, CO3, CO4, WE1, WE2, WE3, WE4, CL3, PI4, LA3, LA8, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null

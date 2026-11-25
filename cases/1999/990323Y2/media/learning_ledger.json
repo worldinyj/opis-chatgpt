@@ -1,0 +1,117 @@
+{
+  "schema_version": "2.0",
+  "event_id": "990323Y2",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "WP4",
+    "PI1",
+    "PI3",
+    "QA2",
+    "CL4",
+    "CL1",
+    "WP1"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "QA1",
+    "QA3",
+    "QA4",
+    "CO1",
+    "LA1",
+    "LA2",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM2",
+    "DM3",
+    "CL2",
+    "PI2",
+    "WP2",
+    "WP3"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "message": "인지한 문제를 적절한 조치로 연결한다",
+      "objective": "문제 식별, 업무계획 및 해결의 증거를 구분하고 조치 완결성을 검토한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F02",
+        "F06",
+        "F08",
+        "F10",
+        "F13"
+      ],
+      "attribute_codes": [
+        "PI1",
+        "PI3",
+        "WP1"
+      ],
+      "principle_codes": [
+        "PI",
+        "WP"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "요약자료 기반 교육 후보; 공식 40속성 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "message": "상황 예측과 운전경험을 업무에 반영한다",
+      "objective": "불확실성 확인, 업무 적합 역량, 이전 경험의 반영 증거를 검토한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F04",
+        "F05",
+        "F07",
+        "F09",
+        "F13"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "CL4",
+        "CL1"
+      ],
+      "principle_codes": [
+        "QA",
+        "CL"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "요약자료 기반 교육 후보; 공식 40속성 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "message": "절차 준수와 개선 효과를 확인한다",
+      "objective": "원문 등급판정의 이유와 실제 절차 이행 및 후속 효과의 증거를 구분한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F09",
+        "F12",
+        "F13"
+      ],
+      "attribute_codes": [
+        "WP4"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "요약자료 기반 교육 후보; 공식 40속성 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

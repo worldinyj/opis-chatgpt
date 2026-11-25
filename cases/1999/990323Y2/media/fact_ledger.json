@@ -1,0 +1,194 @@
+{
+  "schema_version": "2.0",
+  "event_id": "990323Y2",
+  "source": {
+    "document_path": "source.md",
+    "report_number": "1402-99-02",
+    "report_date": "1999-03",
+    "sha256": "13d80baa4e31bb0bea57852824c684ae244783e43b5176dac64feba698f95407"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "관리번호; 제목; 요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "1999년 3월 23일 발전소 기동 과정에서 설비 동작불량과 관련하여 원자로 자동정지가 발생했다.",
+      "qualification": "호기는 수기 표기 영광2호기. 기술적 사건 전개 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "원문은 설비 동작불량을 사건의 기술적 요인으로 설명한다.",
+      "qualification": "설비 구성·동작 조건·상호작용의 기술적 상세 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "주요 안전변수는 정상범위 내였으며 원자로 안전성에 문제가 없었다고 기록한다.",
+      "qualification": "당시 요약 평가에 한정. 독립적 검증과 현재 상태 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "운전원의 상황 예측 미흡이 문제점으로 기록되었다.",
+      "qualification": "개인 심리나 고의성 단정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "설비의 특성과 기능에 대한 이해 부족이 문제점으로 기록되었다.",
+      "qualification": "구체적인 설비 작동특성 및 운전방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "사전에 인지된 설비 이상에 대한 조치가 충분하지 않았다고 평가되었다.",
+      "qualification": "구체 이상 설비의 취약점과 조치 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "운전경험을 적절하게 반영하지 못했다고 기록되었다.",
+      "qualification": "구체 운전조건 및 설정값 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "OBSERVED_FACT",
+      "section": "요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "설비 점검을 수행했다고 기록되어 있다.",
+      "qualification": "점검의 기술적 방법과 결과 상세 미확보.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "OBSERVED_FACT",
+      "section": "요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "기동운전절차서를 개정했다고 기록되어 있다.",
+      "qualification": "개정 문서 원문 및 효과 미확보.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "OBSERVED_FACT",
+      "section": "요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "관련 제어계통 개선이 이루어졌다고 기록되어 있다.",
+      "qualification": "구체 기술 설계 변경 내용 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "OBSERVED_FACT",
+      "section": "요약",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "발전소의 운전 복귀가 기록되어 있다.",
+      "qualification": "시각·운전 단계 제외. 승인 근거 미확보.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약; 등급평가",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "종사자의 절차서 준수 불이행에 따른 안전문화 결여를 적용하여 등급을 상향 조정하고 최종 1등급으로 판정했다고 기록한다.",
+      "qualification": "원문 표현에 한정. 등급 체계 명칭 미기재. 40속성 공식 판정과 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "SOURCE_LIMITATION",
+      "section": "전체",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "statement": "원본은 관리번호 1402-99-02의 1쪽 요약자료이며 작성기관·발행일·상세 조사보고서·후속 개선 효과는 확인되지 않는다.",
+      "qualification": "990323Y2는 저장소용 잠정 코드. 계약 report_date는 사건월 1999-03 대체값. INES 체계 명시 미확인.",
+      "review_status": "PENDING"
+    }
+  ]
+}

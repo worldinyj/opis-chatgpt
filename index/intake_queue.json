@@ -609,11 +609,12 @@
           "size_bytes": 905688
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED",
+      "event_id": "990323Y2",
+      "verified_event_date": "1999-03-23",
       "from_prior_table": true,
-      "notes": "루트 내 본 보고서만 대상. 이전 표의 루트 외 인적오류 보조자료는 이번 범위에서 제외."
+      "notes": "1쪽 요약 직접 판독, ID 잠정. 원문 최종 등급 1(체계명 미확인), 13 사실, 3 학습, 40속성 7/19/14, 토론·실천 및 영상 43장면/270초 설계. 상세 조사·PPT/A4/정식 계약·전문가 검토 대기.",
+      "source_sha256": "13d80baa4e31bb0bea57852824c684ae244783e43b5176dac64feba698f95407"
     },
     {
       "queue_order": 36,
