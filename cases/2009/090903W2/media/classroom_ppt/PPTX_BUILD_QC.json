@@ -1,0 +1,17 @@
+{
+  "event_id": "090903W2",
+  "slides": 16,
+  "notes": 16,
+  "total_minutes": 52,
+  "editable_shapes": 283,
+  "zip_members": 75,
+  "zip_crc": "PASS",
+  "shape_bounds": "PASS_BY_CONSTRUCTION",
+  "provenance": "Reused PILOT-28 OOXML package skeleton; replaced all slide and notes XML. Independent simplified card layout, not execution of generic.mjs.",
+  "actual_render": "PENDING",
+  "generic_generator_execution": "NOT_RUN",
+  "expert_approved": false,
+  "can_ship": false,
+  "pptx_blob": "eb027a8b5f28632e0bdc412e331f209254c91eb4",
+  "pptx_bytes": 256143
+}

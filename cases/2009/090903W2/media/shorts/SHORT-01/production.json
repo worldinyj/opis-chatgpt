@@ -1,13 +1,13 @@
 {
   "schema_version": "2.0",
   "event_id": "090903W2",
-  "artifact_id": "SHORT-01-090903W2",
-  "artifact_type": "SHORT",
+  "artifact_id": "SHORT-090903W2",
+  "artifact_type": "KEY_MESSAGE_SHORT",
   "title": "일정만으로 충분한가?",
   "revision": 1,
   "status": "SCRIPT_DRAFT",
   "source": {
-    "document_path": "../../source.md",
+    "document_path": "../source.md",
     "report_number": "2009-9",
     "report_date": "2009-12-28",
     "sha256": "67e06071f2af223e884c59f1671e0724c893413bdd1319844706b73ad8a95cd8"
