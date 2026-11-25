@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.0",
+  "job_id": "SC-221222K3-BATCH01",
+  "event_id": "221222K3",
+  "artifact_id": "SC-221222K3",
+  "manifest_revision": 1,
+  "route": "GEMINI_TASKS_BATCH",
+  "aspect_ratio": "16:9",
+  "jobs": [
+    {
+      "id": "SC-221222K3-S07",
+      "scene_id": "S07",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick training room, staff reviewing blank quality record cards; 가상 품질 검토. Approved references only, no real facility, instruments, diagrams, logos, text.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S07_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-221222K3-S15",
+      "scene_id": "S15",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick training room, staff reviewing blank quality record cards; 개인 실천. Approved references only, no real facility, instruments, diagrams, logos, text.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S15_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-221222K3-S16",
+      "scene_id": "S16",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick training room, staff reviewing blank quality record cards; 팀 실천. Approved references only, no real facility, instruments, diagrams, logos, text.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S16_still_v01.png",
+      "attempt": 1
+    }
+  ],
+  "results": []
+}
