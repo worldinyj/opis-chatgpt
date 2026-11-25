@@ -25,10 +25,10 @@
   "existing_cases_not_in_root": [
     "250919W2"
   ],
-  "pending_pdf_count": 18,
-  "pending_date_groups": 17,
-  "next_list_date": "2014-06-17",
-  "next_queue_id": "ROOT-020",
+  "pending_pdf_count": 17,
+  "pending_date_groups": 16,
+  "next_list_date": "2014-02-28",
+  "next_queue_id": "ROOT-021",
   "items": [
     {
       "queue_order": 1,
@@ -354,11 +354,11 @@
           "size_bytes": 253914
         }
       ],
-      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
       "event_id": "140617W4",
       "verified_event_date": "2014-06-17",
       "from_prior_table": true,
-      "notes": "원본 17쪽 확인, 사실·학습·40속성 분석, 영상 3종 설계, 16장/52분 PPTX 및 진행자 가이드 등록. 실제 PPT/A4 렌더 및 정식 14개 계약 검증 대기. ROOT-020 유지.",
+      "notes": "원본 17쪽, 17 사실·3 학습·40속성 후보(5/20/15), 영상 3종 설계 43장면/270초·토론·16장/52분 PPTX 등록, A4 4쪽 및 PPT 16장 실제 렌더, Python jsonschema 및 관계 계약 14/14, 전문가 검토 및 실제 영상 생성 대기.",
       "source_sha256": "f578b6d2433e71b59b1fc03ad0abb4548737ee1a050c3496f1d1a351f5f7777f"
     },
     {
