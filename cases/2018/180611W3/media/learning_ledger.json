@@ -1,0 +1,118 @@
+{
+  "schema_version": "2.0",
+  "event_id": "180611W3",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "QA2",
+    "QA3",
+    "CO1",
+    "WP1",
+    "WP4",
+    "CL4",
+    "CL1",
+    "PI3"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA4",
+    "CO3",
+    "LA1",
+    "LA2",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM2",
+    "CL2",
+    "PI1",
+    "PI2",
+    "WP3"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "불확실할 때 멈추고 의문과 확인 결과를 공유한다.",
+      "objective": "불확실성에서 공식 확인·소통·절차 준수를 구분한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F02",
+        "F06",
+        "F09"
+      ],
+      "principle_codes": [
+        "QA",
+        "CO",
+        "WP"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "QA3",
+        "CO1",
+        "WP4"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 안전문화 결여 판정 및 개인 과실 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "작업의 방어수단을 계획하고 현장 역량을 실습으로 검증한다.",
+      "objective": "동료 확인의 범위, 교육의 실효성 및 작업 전 검토 근거를 확인한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F03",
+        "F04",
+        "F05",
+        "F07",
+        "F09",
+        "F16",
+        "F17"
+      ],
+      "principle_codes": [
+        "WP",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "CL4"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 안전문화 결여 판정 및 개인 과실 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "운전경험을 전파하는 데 그치지 않고 조치의 효과를 확인한다.",
+      "objective": "유사사례 적용성 및 재발방지대책의 실제 효과를 검토한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F10",
+        "F11",
+        "F16",
+        "F17"
+      ],
+      "principle_codes": [
+        "CL",
+        "PI"
+      ],
+      "attribute_codes": [
+        "CL1",
+        "PI3"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 안전문화 결여 판정 및 개인 과실 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

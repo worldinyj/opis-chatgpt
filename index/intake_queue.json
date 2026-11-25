@@ -242,11 +242,11 @@
           "size_bytes": 1105230
         }
       ],
-      "status": "SOURCE_RAW_QC_VERIFIED_DETAIL_PENDING",
+      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
       "event_id": "180611W3",
       "verified_event_date": "2018-06-11",
       "from_prior_table": false,
-      "notes": "지정 루트의 파일명/크기 일치, 원본 SHA-256 f2186ad481a70b208c90b6538a61fdb92b131069729910149ddb3d3ba32c35fb, 45쪽 렌더 및 전체 축소 시각 검토, 본문 선정 절 텍스트 판독, 첨부 8종. 분석 초안 대기."
+      "notes": "원본 45쪽 렌더 및 선정 근거 텍스트 확인, 18 사실·3 학습·40속성 후보·토론 초안 등록. 영상/PPT/A4 실제 출력 및 전문가 검토 대기."
     },
     {
       "queue_order": 14,

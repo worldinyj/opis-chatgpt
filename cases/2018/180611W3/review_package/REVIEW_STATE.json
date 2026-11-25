@@ -1,0 +1,19 @@
+{
+  "event_id": "180611W3",
+  "analysis_version": "0.1.0",
+  "source_sha256": "f2186ad481a70b208c90b6538a61fdb92b131069729910149ddb3d3ba32c35fb",
+  "source_pages": 45,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_detail": "SELECTED_SECTIONS_TEXT_REVIEW_ALL_PAGE_RENDER",
+  "report_status": "DRAFT",
+  "expert_content_review": "PENDING",
+  "expert_attribute_review": "USER_SEPARATE_REVIEW_PENDING",
+  "independent_review": "PENDING",
+  "can_ship": false,
+  "media_status": "PENDING",
+  "ppt_status": "PENDING",
+  "paid_generation_calls": 0,
+  "external_submissions": 0,
+  "report_a4_pages": null,
+  "author_technical_qc": "PENDING"
+}

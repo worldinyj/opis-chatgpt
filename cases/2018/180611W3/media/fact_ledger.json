@@ -1,0 +1,304 @@
+{
+  "schema_version": "2.0",
+  "event_id": "180611W3",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2018-6",
+    "report_date": "2018-08-27",
+    "sha256": "f2186ad481a70b208c90b6538a61fdb92b131069729910149ddb3d3ba32c35fb"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "요약; 5",
+      "printed_pages": [
+        1,
+        25
+      ],
+      "pdf_pages": [
+        2,
+        26
+      ],
+      "statement": "계획예방정비를 위한 원자로 정지 상태에서 현장운전원의 기기 오인 조작으로 원자로냉각재가 누설되었다.",
+      "qualification": "실제 조작 순서와 설비 배치 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.1",
+      "printed_pages": [
+        8,
+        9
+      ],
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "statement": "사전점검·자기진단, 의문을 갖는 태도, 불확실시 중지 등 인적오류예방기법 적용이 미흡했다.",
+      "qualification": "조사팀의 판단이며 인격 평가가 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.1",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "statement": "현장운전원 재교육의 현장 실습 및 관리자 관찰이 부족했고 관련 정지절차 도상훈련이 시행되지 않았다.",
+      "qualification": "주제어실의 시뮬레이터 및 관찰 제도는 존재했다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.1",
+      "printed_pages": [
+        9,
+        10
+      ],
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "statement": "동시확인 적용 단계와 현장운전원 포함 여부가 절차에 명확하지 않았으며 해당 작업에 2인 1조 기법 적용이 필요했다고 판단했다.",
+      "qualification": "현행 승인 절차 또는 구체 조작법을 제시하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.2",
+      "printed_pages": [
+        10
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "statement": "기기 명패 관리가 지침에 따라 이루어지지 않았고 기존 점검에서 명패 부재가 확인되지 않았다.",
+      "qualification": "세부 설비 위치와 식별번호 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.3",
+      "printed_pages": [
+        10,
+        11
+      ],
+      "pdf_pages": [
+        11,
+        12
+      ],
+      "statement": "운전조직 내 상태 확인 및 조작 결과가 발전팀장에게 보고되지 않았고 관련 운전행위 표준지침이 준수되지 않았다.",
+      "qualification": "의사소통 및 절차준수의 확인된 문제.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.4",
+      "printed_pages": [
+        11
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "statement": "작업환경과 기기관리의 미흡을 확인하고 관리대상 선정기준 수립 필요성을 제시했다.",
+      "qualification": "현장 취약점의 세부 위치·조건·수치는 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.4; 붙임2",
+      "printed_pages": [
+        11,
+        12,
+        30
+      ],
+      "pdf_pages": [
+        12,
+        13,
+        31
+      ],
+      "statement": "운전인력 공석 및 대근지원이 확인되었으나 조사팀은 대근을 사건 직접 원인으로 판단하기 어렵고 정원 유지가 바람직하다고 밝혔다.",
+      "qualification": "인력관리 개선의 검토 근거이며 직접 인과관계 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.5",
+      "printed_pages": [
+        12
+      ],
+      "pdf_pages": [
+        13
+      ],
+      "statement": "기저 원인으로 기본수칙 체화 활동, 현장 실습 및 인적오류예방기법 적용 관련 절차의 미흡이 제시되었다.",
+      "qualification": "개인 실수와 조직적 방어체계를 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.2; 붙임3",
+      "printed_pages": [
+        12,
+        13,
+        32,
+        33
+      ],
+      "pdf_pages": [
+        13,
+        14,
+        33,
+        34
+      ],
+      "statement": "과거 인적오류 사건 22건 중 오조작 관련 6건의 재발방지대책 28건을 검토했고 관련 없는 12건을 제외했다.",
+      "qualification": "대책 검토 대상 수이며 사건의 피해 순위나 안전문화 점수가 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.2; 붙임3",
+      "printed_pages": [
+        13,
+        32,
+        33
+      ],
+      "pdf_pages": [
+        14,
+        33,
+        34
+      ],
+      "statement": "사례전파·예방기법 교육이 이론강의와 개인학습 위주여서 실효성 확보가 어려웠고 기본수칙 내재화 정도의 차이 및 개선대책 적용 범위의 한계가 지적됐다.",
+      "qualification": "교육 시행 자체는 확인됨. 효과와 이행을 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.3",
+      "printed_pages": [
+        14,
+        15
+      ],
+      "pdf_pages": [
+        15,
+        16
+      ],
+      "statement": "조사팀은 회수 관련 설비의 이물질 영향 분석이 적절하다고 평가했고 최초 발생 원인과 누설량 기여를 구분했다.",
+      "qualification": "설비 상세 구성 및 기술적 작동 조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3.1",
+      "printed_pages": [
+        16,
+        17
+      ],
+      "pdf_pages": [
+        17,
+        18
+      ],
+      "statement": "조사팀은 냉각재계통 운전에 미친 영향이 미미했다고 판단하고 방사선 감시 주기 단축을 적절하다고 평가했다.",
+      "qualification": "전체 대응의 무조건적 적절성으로 확대하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3.2",
+      "printed_pages": [
+        18
+      ],
+      "pdf_pages": [
+        19
+      ],
+      "statement": "방사선안전관리 작업허가, 방호조치 및 감독하에 누설 냉각재 회수작업이 이루어졌고 조사팀이 적절하다고 판단했다.",
+      "qualification": "사건 후 대응의 긍정 근거.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 3.4; 5",
+      "printed_pages": [
+        1,
+        2,
+        19,
+        20,
+        21,
+        25
+      ],
+      "pdf_pages": [
+        2,
+        3,
+        20,
+        21,
+        22,
+        26
+      ],
+      "statement": "원자로냉각재 누설 및 삼중수소의 소외 배출이 있었으나 조사팀은 작업자 피폭 및 환경영향이 관련 기준 이내이고 방사선 영향이 적었다고 판단했다.",
+      "qualification": "방출 없음으로 표현 금지. 상세 개인 기록 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.5.1",
+      "printed_pages": [
+        21,
+        22
+      ],
+      "pdf_pages": [
+        22,
+        23
+      ],
+      "statement": "기기식별 관리, 예방기법과 작업관리, 현장운전원 교육·코칭 관련 단기대책의 완료가 보고됐다.",
+      "qualification": "다른 호기의 일부 후속조치는 차기 정비 예정이라고 명시됨.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.5.2",
+      "printed_pages": [
+        23,
+        24
+      ],
+      "pdf_pages": [
+        24,
+        25
+      ],
+      "statement": "장기대책으로 절차의 동시확인 범위 명확화, 교육훈련 강화, 외부 전문가 기술지원 및 운전조직·인적요소 관리 유효성 검토를 계획했다.",
+      "qualification": "현재 실제 이행 및 효과는 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4; 5",
+      "printed_pages": [
+        25
+      ],
+      "pdf_pages": [
+        26
+      ],
+      "statement": "보완 요구사항은 없었으며 조사팀은 원인과 시정조치가 적절하고 당시 재가동에 문제가 없다고 판단했다.",
+      "qualification": "현재 발전소 상태 및 전문가 안전문화 평가와는 별개.",
+      "review_status": "PENDING"
+    }
+  ]
+}
