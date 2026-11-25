@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "event_id": "140617W4",
+  "artifact_id": "DA-140617W4",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "보수 완료와 문제 해결은 다르다",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2014-8",
+    "report_date": "2014-07-11",
+    "sha256": "f578b6d2433e71b59b1fc03ad0abb4548737ee1a050c3496f1d1a351f5f7777f"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "최초 원인가설을 검증할 때 어떤 증거와 반증이 필요한가? 유사 경험은 어떻게 활용하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "보수 완료와 재발방지 효과 확인을 어떻게 분리하고 후속 검사계획의 적정성을 평가하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "문서상 설계 적합성과 실제 현장 적합성을 어떻게 구분하고 확인 책임을 연결하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 품질 이상이 보수 후 다시 발견된다. 이전 원인평가와 유사 설비 기록을 재검토한다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 가설과 반증, 조치 효과의 판단 증거를 각각 제시한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 문서 승인과 현장 상태 확인 결과가 일치하지 않는다.",
+      "learning_ids": [
+        "L03",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 공식 확인·보고, 기록 및 후속 검증의 책임과 증거를 토론한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "원인 검토 시 대안 가설과 반증 자료를 기록한다.",
+      "verification": "검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "조치 완료 증거와 효과 확인 증거를 따로 확인한다.",
+      "verification": "조치·효과 확인 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "문서와 현장 상태 차이를 공식적으로 보고한다.",
+      "verification": "공식 확인 및 보고 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "선행·유사 사건의 적용성과 원인검토 범위를 표본 점검한다.",
+      "verification": "운전경험·원인평가 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "후속 검사·효과 확인 계획의 위험 적합성을 표본 평가한다.",
+      "verification": "조치 효과 및 검사계획 검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "현장 적합성 확인과 시정조치 후 검증 증거를 추적한다.",
+      "verification": "현장 확인·종결 근거",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

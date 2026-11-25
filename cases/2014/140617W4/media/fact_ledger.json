@@ -1,0 +1,288 @@
+{
+  "schema_version": "2.0",
+  "event_id": "140617W4",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2014-8",
+    "report_date": "2014-07-11",
+    "sha256": "f578b6d2433e71b59b1fc03ad0abb4548737ee1a050c3496f1d1a351f5f7777f"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "요약; 1–2",
+      "pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "printed_pages": [
+        1,
+        2,
+        3
+      ],
+      "statement": "2014년 6월 17일 월성4호기 계획예방정비 중 압력경계 연결부의 관통결함에 따른 냉각재 누설이 확인되었다.",
+      "qualification": "발견일 기준. 원자로 자동정지 사건으로 분류하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "OBSERVED_FACT",
+      "section": "2.2; 3.3.1",
+      "pdf_pages": [
+        3,
+        4,
+        13
+      ],
+      "printed_pages": [
+        2,
+        3,
+        12
+      ],
+      "statement": "발견 전날 삼중수소 감시에서 증가 추세를 포착하여 현장점검 및 예방적 조치를 실시하였다.",
+      "qualification": "감시기의 추세와 시료분석의 정량평가를 구분한다. 상세 감시 및 조작 기준 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 3.3.1; 5",
+      "pdf_pages": [
+        2,
+        13,
+        16
+      ],
+      "printed_pages": [
+        1,
+        12,
+        15
+      ],
+      "statement": "조사팀은 예방적 조치로 누설 냉각재 대부분이 회수되었으며 당시 환경에 유의한 방사선 영향이 없었다고 판단했다.",
+      "qualification": "누설 자체가 없었다거나 현재 안전성이 입증되었다는 뜻은 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "OBSERVED_FACT",
+      "section": "3.1",
+      "pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        3
+      ],
+      "statement": "2011년 월성4호기에서 동일 부위 사건이 있었고 2012년 월성3호기에서도 유사 결함이 확인되어 보수되었다.",
+      "qualification": "선행 사건은 이번 보고서의 인용 사실이며 별도 원본은 검증하지 않았다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.1.1; 5",
+      "pdf_pages": [
+        5,
+        16
+      ],
+      "printed_pages": [
+        4,
+        15
+      ],
+      "statement": "전문기관 파단면 분석 및 조사팀 검토 결과 직접 손상기구는 부식피로균열로 평가되었다.",
+      "qualification": "구체적인 설비 식별·수치·재현 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2.1",
+      "pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        5
+      ],
+      "statement": "조사팀은 당초 배관설계가 적용 설계기준에 적합하다고 확인했으며 지속적인 감시의 필요성을 지적했다.",
+      "qualification": "당초 설계 적합성과 실제 설치 및 장기 건전성은 별도 판단이다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.2.2; 5",
+      "pdf_pages": [
+        7,
+        16
+      ],
+      "printed_pages": [
+        6,
+        15
+      ],
+      "statement": "현장 확인 결과 일부 설치 상태가 설계와 달랐으며 조사팀은 시공불량을 기여 원인으로 판단했다.",
+      "qualification": "설비별 취약점 및 설치 허용치 제외. 특정 개인 또는 시공 조직 전체의 책임을 확정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3–3.1.4",
+      "pdf_pages": [
+        7,
+        8,
+        9
+      ],
+      "printed_pages": [
+        6,
+        7,
+        8
+      ],
+      "statement": "현장 설치 상태와 운전이력을 함께 반영한 평가를 조사팀은 타당하다고 판단했다.",
+      "qualification": "설계조건과 실제 조건의 차이 및 복합적 원인을 구분한다. 기술 수치·운전 조건 및 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.5",
+      "pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        8
+      ],
+      "statement": "최초 사건의 원인분석은 용접결함 중심이었으며 설계·시공 적합성 및 현장검증을 포함한 종합 검토가 미흡했다고 조사팀은 판단했다.",
+      "qualification": "최초 분석의 범위 한계이지 당시 아무런 분석이나 시정조치가 없었다는 뜻은 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.5",
+      "pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        8
+      ],
+      "statement": "최초 사건 후 확대검사와 검사계획 반영은 있었지만 재발 방지를 위한 후속 검사주기가 적절하지 않았다고 조사팀은 판단했다.",
+      "qualification": "계획의 존재와 효과성을 구분한다. 상세 검사 일정과 검사 공백의 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1.1–3.2.1.2",
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "printed_pages": [
+        9,
+        10
+      ],
+      "statement": "조사팀은 최초 보수의 관련 절차 요건 적합성을 확인했으며 이번 보수에 대해서도 제3기관 검토와 개선 권고 반영을 확인했다.",
+      "qualification": "보수 절차의 적합성은 최초 원인분석과 재발방지 효과의 적절성을 보장하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.1.2; 3.2.1",
+      "pdf_pages": [
+        5,
+        11
+      ],
+      "printed_pages": [
+        4,
+        10
+      ],
+      "statement": "정비 중 추가로 확인된 표면 지시는 별도로 분석·조치되었다.",
+      "qualification": "관통결함 원인과 추가 지시를 동일 원인으로 단정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1–3.2.2; 5",
+      "pdf_pages": [
+        11,
+        12,
+        16
+      ],
+      "printed_pages": [
+        10,
+        11,
+        15
+      ],
+      "statement": "조사팀은 보수와 정비 후 건전성 확인 및 현장 설치 적합성의 회복을 확인했다.",
+      "qualification": "당시 평가이며 구체적 정비·검사 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.3",
+      "pdf_pages": [
+        12
+      ],
+      "printed_pages": [
+        11
+      ],
+      "statement": "관련 설비 및 유사 부위 확대점검이 수행되었고 조사팀은 점검과 후속 검사 강화 계획이 적절하다고 판단했다.",
+      "qualification": "점검 표본의 결과와 전사 건전성을 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3.2; 3.4 계통·기기",
+      "pdf_pages": [
+        13,
+        14
+      ],
+      "printed_pages": [
+        12,
+        13
+      ],
+      "statement": "조사팀은 점검·정비 작업자 누적선량이 연간 한도 이내로 관리되었으며 당시 계통운전에 영향이 없었다고 평가했다.",
+      "qualification": "피폭이 없었다는 뜻은 아니다. 조사 범위와 당시 상태에 한정한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.4 재발방지; 5",
+      "pdf_pages": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "printed_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "statement": "사업자는 결함 보수, 관련 설비 점검 및 검사·절차 개선 등 단기대책을 완료하고 후속 감시·검사 강화와 유사 호기 대책을 수립했다.",
+      "qualification": "단기 완료와 중장기 계획 및 현재 이행효과를 구분한다. 세부 운전·정비 기준 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4–5",
+      "pdf_pages": [
+        16,
+        17
+      ],
+      "printed_pages": [
+        15,
+        16
+      ],
+      "statement": "조사팀은 원인파악과 재발방지대책을 적절하다고 판단했으며 별도 보완요구사항은 없었다.",
+      "qualification": "당시 공식 평가이며 안전문화 속성 승인 또는 현재 효과성 확정은 아니다.",
+      "review_status": "PENDING"
+    }
+  ]
+}

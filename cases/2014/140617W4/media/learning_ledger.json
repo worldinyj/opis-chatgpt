@@ -1,0 +1,119 @@
+{
+  "schema_version": "2.0",
+  "event_id": "140617W4",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "PI2",
+    "PI3",
+    "CL1",
+    "WP1",
+    "WP2"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO3",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM2",
+    "CL2",
+    "CL3",
+    "PI1",
+    "PI4",
+    "WP3",
+    "WP4"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "message": "최초의 원인가설을 검증하고 선행 경험을 새로운 판단의 근거로 전환한다.",
+      "objective": "종합 원인평가와 유사 경험 활용을 구분하여 반증 및 대안 가설을 확인한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F04",
+        "F05",
+        "F07",
+        "F08",
+        "F09"
+      ],
+      "attribute_codes": [
+        "PI2",
+        "CL1"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "principle_codes": [
+        "PI",
+        "CL"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "message": "보수 완료는 문제 해결의 끝이 아니다.",
+      "objective": "조치 이행과 재발방지 효과를 구분하고 위험에 맞는 후속 점검을 검토한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F09",
+        "F10",
+        "F11",
+        "F14",
+        "F16",
+        "F17"
+      ],
+      "attribute_codes": [
+        "PI3",
+        "WP1"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "principle_codes": [
+        "PI",
+        "WP"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "message": "설계의 적합성은 현장의 일치 확인과 함께 확보된다.",
+      "objective": "설계 검토, 현장 검증, 조치 후 확인의 의미를 구분하고 긍정 대응을 인정한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F06",
+        "F07",
+        "F08",
+        "F13",
+        "F15"
+      ],
+      "attribute_codes": [
+        "WP2"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "principle_codes": [
+        "WP"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 미진속성 확정 또는 개인 책임 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

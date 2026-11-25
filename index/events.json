@@ -456,5 +456,25 @@
       "LA5"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "140617W4",
+    "event_date": "2014-06-17",
+    "report_date": "2014-07-11",
+    "plant": "월성4호기",
+    "title": "월성 4호기 계획예방정비 중 가압기 증기배출밸브 배관연결부 관통결함 발견",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2014/140617W4/report.md",
+    "candidate_attributes": [
+      "PI2",
+      "PI3",
+      "CL1",
+      "WP1",
+      "WP2"
+    ],
+    "approved_attributes": []
   }
 ]

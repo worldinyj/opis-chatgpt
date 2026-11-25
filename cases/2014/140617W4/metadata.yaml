@@ -1,0 +1,33 @@
+schema_version: "1.0"
+event_id: "140617W4"
+report_number: "2014-8"
+title: "월성 4호기 계획예방정비 중 가압기 증기배출밸브 배관연결부 관통결함 발견"
+event_date: "2014-06-17"
+report_date: "2014-07-11"
+plant:
+  site: 월성
+  unit: 4
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 17
+  sha256: f578b6d2433e71b59b1fc03ad0abb4548737ee1a050c3496f1d1a351f5f7777f
+  source_size_bytes: 253914
+operating_mode: "계획예방정비 중 보증정지"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [PI2, PI3, CL1, WP1, WP2]
+  additional_review_attributes: [PA1, PA2, PA3, QA1, QA2, QA3, QA4, CO1, CO3, LA5, LA6, LA7, DM1, DM2, CL2, CL3, PI1, PI4, WP3, WP4]
+  insufficient_or_low_relevance_attributes: [CO2, CO4, LA1, LA2, LA3, LA4, LA8, DM3, WE1, WE2, WE3, WE4, CL4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null

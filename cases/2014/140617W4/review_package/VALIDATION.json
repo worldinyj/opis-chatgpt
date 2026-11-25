@@ -1,0 +1,34 @@
+{
+  "event_id": "140617W4",
+  "source_report_sha256": "f578b6d2433e71b59b1fc03ad0abb4548737ee1a050c3496f1d1a351f5f7777f",
+  "source_pages": 17,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_detail": "전체 텍스트 및 17쪽 축소 시트 확인; 수치 전수 검산 미수행",
+  "report": {
+    "status": "DRAFT",
+    "a4_render": "PENDING"
+  },
+  "ppt": {
+    "actual_render": "PENDING"
+  },
+  "contract_checks": {
+    "passed": 0,
+    "total": 14,
+    "status": "PENDING"
+  },
+  "preliminary_checks": {
+    "attribute_partition": "PASS",
+    "learning_fact_reference": "PASS",
+    "index_duplicate": "PASS"
+  },
+  "video_design": [],
+  "limitations": [
+    "원본 발행일 2014-07-11이나 PDF p.11 본문에 2014-07-12 입회 기록이 있어 원문 내 날짜 불일치로 보존. 수정 판본·실제 입회일 미확인.",
+    "PDF p.14에 3.4 절 번호가 중복되고 p.11에도 3.2.1.2가 중복되어 쪽과 절 제목을 함께 표시.",
+    "기존 인덱스 및 대기열 SHA/ID 중복 없음. 루트 외 동일 크기 파일은 범위 밖이며 바이트 동일성 미확인.",
+    "OPIS 상세 ID, 기초·최종 INES, 선행 사건 원본, 현재 중장기대책 이행효과 미확인.",
+    "세부 기술수치 전수 검산 미수행. 실제 설비 상세·취약점·운전·정비 조건 및 방법은 교육자료에서 제외.",
+    "영상 설계, PPTX, A4 출력, 데이터 계약 14개 및 독립·전문가 검토 대기."
+  ],
+  "can_ship": false
+}

@@ -354,11 +354,12 @@
           "size_bytes": 253914
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "event_id": "140617W4",
+      "verified_event_date": "2014-06-17",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "원본 17쪽 추출·렌더, 분석 17 사실·3 학습·40속성·토론 및 전문가 검토 초안 등록. 영상/PPT/A4/14개 계약 검증 대기. 완료 전 ROOT-020 유지.",
+      "source_sha256": "f578b6d2433e71b59b1fc03ad0abb4548737ee1a050c3496f1d1a351f5f7777f"
     },
     {
       "queue_order": 21,
