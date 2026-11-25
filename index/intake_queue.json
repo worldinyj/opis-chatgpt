@@ -592,11 +592,12 @@
           "size_bytes": 924278
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED",
+      "event_id": "001117K1",
+      "verified_event_date": "2000-11-17",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "사업자 보고서 스캔 8쪽 직접 판독, ID 잠정. 18 사실, 3 학습, 40속성 6 검토/1 긍정/20 추가/13 근거부족, 토론·실천 및 영상 43장면/270초 설계. 독립 조사·PPT/A4/정식 계약·전문가 검토 대기.",
+      "source_sha256": "cf7f06887e0bcd6ec8fba8b3f7c3502513db866bff518a05bb16de330e1016a0"
     },
     {
       "queue_order": 35,

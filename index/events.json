@@ -776,5 +776,26 @@
       "PI3"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "001117K1",
+    "event_date": "2000-11-17",
+    "report_date": "2000-12-12",
+    "plant": "고리1호기",
+    "title": "고리1호기 계획예방정비중 증기발생기 저저 수위 시험신호에 의한 원자로 정지",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2000/001117K1/report.md",
+    "candidate_attributes": [
+      "WP3",
+      "WP1",
+      "QA2",
+      "QA3",
+      "CL4",
+      "PI2"
+    ],
+    "approved_attributes": []
   }
 ]

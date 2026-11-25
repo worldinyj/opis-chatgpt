@@ -1,0 +1,125 @@
+{
+  "schema_version": "2.0",
+  "event_id": "001117K1",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "WP3",
+    "WP1",
+    "QA2",
+    "QA3",
+    "CL4",
+    "PI2",
+    "WP4"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA4",
+    "CO1",
+    "CO2",
+    "CO3",
+    "LA1",
+    "LA2",
+    "LA4",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM2",
+    "DM3",
+    "CL1",
+    "PI1",
+    "PI3",
+    "WP2"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "message": "절차의 명확성이 인적오류를 방어한다",
+      "objective": "업무 문서의 명확성, 사전검토와 공식 업무관리를 검토한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F04",
+        "F13",
+        "F14",
+        "F15",
+        "F16"
+      ],
+      "attribute_codes": [
+        "WP3",
+        "WP1"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "사업자 보고 기반 검토 후보; 미진 확정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "message": "가정과 연계 영향을 사전에 확인한다",
+      "objective": "시험의 영향에 대한 이해와 불확실성 검토, 사전교육 및 이중확인 증거를 구분한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F05",
+        "F15",
+        "F17"
+      ],
+      "attribute_codes": [
+        "QA2",
+        "QA3",
+        "CL4"
+      ],
+      "principle_codes": [
+        "QA",
+        "CL"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "사업자 보고 기반 검토 후보; 미진 확정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "message": "대응·원인평가·개선 효과를 구분한다",
+      "objective": "정지 후 절차 수행의 긍정 근거와 독립 평가·개선효과 확인을 별도로 다룬다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F18"
+      ],
+      "attribute_codes": [
+        "PI2",
+        "WP4"
+      ],
+      "principle_codes": [
+        "PI",
+        "WP"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "WP4 긍정 학습, PI2 후속 검토 후보.",
+      "review_status": "PENDING"
+    }
+  ]
+}

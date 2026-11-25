@@ -1,0 +1,132 @@
+{
+  "schema_version": "2.0",
+  "event_id": "001117K1",
+  "artifact_id": "DA-001117K1",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "절차 명확성·영향 인식·사전검토",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "00-001-00",
+    "report_date": "2000-12-12",
+    "sha256": "cf7f06887e0bcd6ec8fba8b3f7c3502513db866bff518a05bb16de330e1016a0"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "명확한 절차와 충분한 검토의 증거는 무엇인가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "업무 영향에 관한 가정과 교육의 충분성을 어떻게 확인하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "대응의 긍정 근거와 원인·개선 효과를 어떻게 구분하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상 일반 제조업체 사무팀에서 업무 안내문의 표현이 모호하다. 팀은 문서 검토와 명확성 확인의 근거를 토론한다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 문서 명확성, 사전검토 및 교육 증거를 논의한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상 일반 제조업체에서 품질 문제가 발생했고 적절한 초기 대응을 했다. 팀은 원인평가 및 개선 효과 확인을 논의한다.",
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 가정과 영향 검토, 대응 근거, 효과 검증을 토론한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "업무 문서의 명확성을 검토한다.",
+      "verification": "문서 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "업무 영향 이해와 사전교육 증거를 확인한다.",
+      "verification": "교육·사전검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "대응 기록과 개선 효과를 구분한다.",
+      "verification": "대응·효과 확인 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "문서 정합성 및 명확성을 표본 평가한다.",
+      "verification": "표본 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "사전교육 이해도와 확인 기록을 검토한다.",
+      "verification": "역량 확인 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "원인평가 및 후속조치 효과를 추적한다.",
+      "verification": "독립 검토·효과 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

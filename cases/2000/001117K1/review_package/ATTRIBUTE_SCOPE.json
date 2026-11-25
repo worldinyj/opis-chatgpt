@@ -1,0 +1,54 @@
+{
+  "event_id": "001117K1",
+  "source_type": "OPERATOR_REPORT",
+  "event_id_status": "PROVISIONAL",
+  "review_candidates": [
+    "WP3",
+    "WP1",
+    "QA2",
+    "QA3",
+    "CL4",
+    "PI2"
+  ],
+  "positive_learning": [
+    "WP4"
+  ],
+  "additional_review": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA4",
+    "CO1",
+    "CO2",
+    "CO3",
+    "LA1",
+    "LA2",
+    "LA4",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM2",
+    "DM3",
+    "CL1",
+    "PI1",
+    "PI3",
+    "WP2"
+  ],
+  "insufficient_or_low_relevance": [
+    "CO4",
+    "WE1",
+    "WE2",
+    "WE3",
+    "WE4",
+    "CL2",
+    "CL3",
+    "PI4",
+    "LA3",
+    "LA5",
+    "LA8",
+    "RC1",
+    "RC2"
+  ],
+  "approved_attributes": []
+}
