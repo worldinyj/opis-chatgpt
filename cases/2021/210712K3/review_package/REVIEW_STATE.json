@@ -8,7 +8,8 @@
   "independent_review": "PENDING",
   "can_ship": false,
   "media_status": "SCRIPT_DRAFT",
-  "ppt_status": "PLANNED",
+  "ppt_status": "GENERATED_DRAFT_RENDER_PENDING",
   "paid_generation_calls": 0,
-  "external_submissions": 0
+  "external_submissions": 0,
+  "ppt_git_blob": "1af689016367126dfd97688c8e9a0ffef09778bf"
 }

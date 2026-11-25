@@ -1,0 +1,569 @@
+{
+  "schema_version": "1.0",
+  "event_id": "210712K3",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "case_type": "REAL_DRAFT",
+  "status": "DESIGN_DRAFT",
+  "can_ship": false,
+  "source": {
+    "issuer": "KINS",
+    "report_number": "2021-10",
+    "report_date": "2021-11-17",
+    "sha256": "b675b726c7d6fd8136aff5757beae3148d00aedd59a49416156a0e6fe7360b7b"
+  },
+  "fact_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20"
+  ],
+  "learning": [
+    {
+      "id": "L01",
+      "attribute_codes": [
+        "PI3",
+        "WP1",
+        "WP3"
+      ]
+    },
+    {
+      "id": "L02",
+      "attribute_codes": [
+        "LA5",
+        "CL1"
+      ]
+    },
+    {
+      "id": "L03",
+      "attribute_codes": [
+        "PI2"
+      ]
+    }
+  ],
+  "core_attribute_codes": [
+    "LA5",
+    "CL1",
+    "PI2",
+    "PI3",
+    "WP1",
+    "WP3"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "LA1",
+    "LA4",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM2",
+    "CL2",
+    "CL4",
+    "PI1",
+    "PI4",
+    "WP2",
+    "WP4"
+  ],
+  "target_slides": 16,
+  "slides": [
+    {
+      "id": "P01",
+      "pattern": "COVER",
+      "section": "표지",
+      "label": "CASE STUDY",
+      "title": "고리3호기 원자로 자동정지\n안전문화 관점 분석",
+      "lead": "교훈은 반복되는 업무에 남아야 한다",
+      "cards": [
+        [
+          "교육 목적",
+          "원전 종사자·관리자 사례 학습"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | KINS 2021-10호, 2021.11.17. 210712K3. 전문가 검토 전.",
+      "fact_ids": [],
+      "learning_ids": [],
+      "accent": "2563EB"
+    },
+    {
+      "id": "P02",
+      "pattern": "ACTION",
+      "section": "교육목표",
+      "label": "OBJECTIVES",
+      "title": "대책의 결정과 지속적 이행",
+      "lead": "문서 · 변경 · 효과",
+      "cards": [
+        [
+          "사건 이해",
+          "기계적 손상과 조사 평가"
+        ],
+        [
+          "안전문화",
+          "과거 대책과 현행 업무"
+        ],
+        [
+          "실천",
+          "증거와 장기 효과 확인"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | 사실과 해석 구분. 조작 재현 없음.",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "accent": "2563EB",
+      "variant": "panel"
+    },
+    {
+      "id": "P03",
+      "pattern": "FACT",
+      "section": "사건 개요",
+      "label": "KEY FACTS",
+      "title": "계획예방정비 대비 출력감소 운전",
+      "lead": "원본 조사보고서 기준",
+      "cards": [
+        [
+          "발생",
+          "2021.07.12."
+        ],
+        [
+          "운전모드",
+          "1 · 출력운전"
+        ],
+        [
+          "출력",
+          "93.2%"
+        ],
+        [
+          "보고서",
+          "KINS 2021-10호"
+        ]
+      ],
+      "minutes": 3,
+      "speaker_notes": "3분 | 요약 및 §1~2. 출력 93.2%.",
+      "fact_ids": [
+        "F01"
+      ],
+      "learning_ids": [],
+      "accent": "2563EB",
+      "detail": "증기발생기 C 수위 저-저에 의한 원자로 자동정지."
+    },
+    {
+      "id": "P04",
+      "pattern": "TIME",
+      "section": "사건 경위",
+      "label": "TIMELINE",
+      "title": "과거 경험과 대책의 지속성",
+      "lead": "조사보고서 정비·경험 이력",
+      "cards": [
+        [
+          "1993년",
+          "고리4호기 유사 경험*"
+        ],
+        [
+          "2009년",
+          "고리2호기 유사 경험"
+        ],
+        [
+          "2014년 이후",
+          "정기 교체 이력 미확인"
+        ],
+        [
+          "2021년",
+          "고리3호기 사건"
+        ]
+      ],
+      "minutes": 3,
+      "speaker_notes": "3분 | §3.2.3.2. *본문 p16~17 1993.4.22, p18/p20 1994 표기 혼재. 미해결.",
+      "fact_ids": [
+        "F10",
+        "F12",
+        "F01"
+      ],
+      "learning_ids": [],
+      "accent": "2563EB"
+    },
+    {
+      "id": "P05",
+      "pattern": "CAUSE",
+      "section": "계통 기능 개념",
+      "label": "CONCEPT",
+      "title": "검사와 장기 건전성",
+      "lead": "기능 수준 개념 설명",
+      "cards": [
+        [
+          "재료 시험",
+          "요구기준 만족"
+        ],
+        [
+          "정기 검사",
+          "검사 범위의 증거"
+        ],
+        [
+          "장기 관리",
+          "누적 영향과 대책의 지속성"
+        ]
+      ],
+      "minutes": 3,
+      "speaker_notes": "3분 | §3.2.3.1. 재료시험 만족 및 피로손상 확인 구분.",
+      "fact_ids": [
+        "F05",
+        "F06",
+        "F09"
+      ],
+      "learning_ids": [],
+      "accent": "2563EB"
+    },
+    {
+      "id": "P06",
+      "pattern": "CAUSE",
+      "section": "직접원인",
+      "label": "DIRECT CAUSE",
+      "title": "밸브 내부 손상과 보호기능",
+      "lead": "조사팀 원인 평가",
+      "cards": [
+        [
+          "D1",
+          "고주기 진동피로 손상"
+        ],
+        [
+          "결과",
+          "계통과도 및 보호기능 작동"
+        ]
+      ],
+      "minutes": 3,
+      "speaker_notes": "3분 | §3.2.1~3. 조사팀 평가. 구체적 손상 재현 조건 제외.",
+      "fact_ids": [
+        "F02",
+        "F06"
+      ],
+      "learning_ids": [],
+      "accent": "DC2626"
+    },
+    {
+      "id": "P07",
+      "pattern": "CAUSE",
+      "section": "근본원인 후보",
+      "label": "ROOT CAUSES",
+      "title": "과거 교훈의 지속적 반영",
+      "lead": "교육용 관리 원인 후보",
+      "cards": [
+        [
+          "R1",
+          "교체 대책의 문서 반영·이행"
+        ],
+        [
+          "R2",
+          "기준 변경과 경험 환류"
+        ],
+        [
+          "R3",
+          "개선 범위 및 장기 유효성"
+        ]
+      ],
+      "minutes": 3,
+      "speaker_notes": "3분 | §3.2.3.2. D/R/C는 교육용 분류.",
+      "fact_ids": [
+        "F11",
+        "F12",
+        "F13"
+      ],
+      "learning_ids": [],
+      "accent": "6366F1"
+    },
+    {
+      "id": "P08",
+      "pattern": "CAUSE",
+      "section": "기여 조건",
+      "label": "MAINTENANCE HISTORY",
+      "title": "검사 수행과 대책 이행은 별개",
+      "lead": "정비이력과 조사 결과",
+      "cards": [
+        [
+          "2009년",
+          "대상 부품 교체"
+        ],
+        [
+          "2014·2019년",
+          "비파괴검사 수행"
+        ],
+        [
+          "2021년",
+          "약 12년 사용 후 손상 확인"
+        ]
+      ],
+      "minutes": 3,
+      "speaker_notes": "3분 | §3.2.3.2. 2009년 최종교체, 검사 수행 인정. 이력표와 서술 일부 차이.",
+      "fact_ids": [
+        "F08",
+        "F09",
+        "F12"
+      ],
+      "learning_ids": [],
+      "accent": "2563EB"
+    },
+    {
+      "id": "P09",
+      "pattern": "PRINC",
+      "section": "안전문화 분석 1",
+      "label": "PI / WP",
+      "title": "결정 사항을 업무에 반영",
+      "lead": "문서와 반복 실행의 증거",
+      "cards": [
+        [
+          "PI3 문제 해결",
+          "조치의 지속적 실행"
+        ],
+        [
+          "WP1 작업 관리",
+          "계획·이행 연결"
+        ],
+        [
+          "WP3 문서화",
+          "정비문서·업무목록 반영"
+        ]
+      ],
+      "minutes": 3,
+      "speaker_notes": "3분 | §3.2.3.2. 결정 대책 미반영과 명시 절차 위반 구분.",
+      "fact_ids": [
+        "F08",
+        "F09",
+        "F12"
+      ],
+      "learning_ids": [
+        "L01"
+      ],
+      "accent": "6366F1"
+    },
+    {
+      "id": "P10",
+      "pattern": "PRINC",
+      "section": "안전문화 분석 2",
+      "label": "LA / CL",
+      "title": "기준 변경 시 과거 교훈 확인",
+      "lead": "적용성 및 변경 영향 검토",
+      "cards": [
+        [
+          "LA5 변화 관리",
+          "기존 대책의 정합성"
+        ],
+        [
+          "CL1 운전 경험",
+          "과거 경험의 환류"
+        ]
+      ],
+      "minutes": 3,
+      "speaker_notes": "3분 | §3.2.3.2. 기준 변경 경위 확인. 현행 전산관리 인정.",
+      "fact_ids": [
+        "F10",
+        "F11",
+        "F14"
+      ],
+      "learning_ids": [
+        "L02"
+      ],
+      "accent": "2563EB"
+    },
+    {
+      "id": "P11",
+      "pattern": "PRINC",
+      "section": "안전문화 분석 3",
+      "label": "PI",
+      "title": "점검 만족과 장기 유효성",
+      "lead": "검사 범위 및 해석의 한계",
+      "cards": [
+        [
+          "PI2 문제 평가",
+          "장기 효과 및 적용성 검토"
+        ],
+        [
+          "증거 구분",
+          "측정 결과와 공학적 추정"
+        ]
+      ],
+      "minutes": 3,
+      "speaker_notes": "3분 | §3.2.3.1~2. 제한된 진동자료·해석 가정과 실제 측정 구분.",
+      "fact_ids": [
+        "F05",
+        "F07",
+        "F09",
+        "F13"
+      ],
+      "learning_ids": [
+        "L03"
+      ],
+      "accent": "0D9488"
+    },
+    {
+      "id": "P12",
+      "pattern": "ATTR",
+      "section": "원칙별 후보 종합",
+      "label": "MAPPING",
+      "title": "자동 생성",
+      "lead": "자동 생성",
+      "cards": [],
+      "minutes": 3,
+      "speaker_notes": "3분 | 핵심 6, 추가21, 기타13. 전문가 검토 전. 미선정 양호 아님.",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "accent": "2563EB"
+    },
+    {
+      "id": "P13",
+      "pattern": "METRIC",
+      "section": "방사선 영향",
+      "label": "SAFETY IMPACT",
+      "title": "안전기능 유지와 INES 검토",
+      "lead": "발행 당시 평가",
+      "cards": [
+        [
+          "안전기능",
+          "필요 기능 유지"
+        ],
+        [
+          "방사선",
+          "특이사항 없음"
+        ],
+        [
+          "INES 기초",
+          "0 · 추가요인 고려 가능"
+        ],
+        [
+          "최종 등급",
+          "미확인"
+        ]
+      ],
+      "minutes": 3,
+      "speaker_notes": "3분 | §3.3. 필요 안전기능 유지. 과거 조치 미이행은 등급상향 추가요인으로 고려 가능; 최종 미확인.",
+      "fact_ids": [
+        "F15",
+        "F16",
+        "F17"
+      ],
+      "learning_ids": [],
+      "accent": "2563EB",
+      "detail": "기초등급과 최종등급을 구분"
+    },
+    {
+      "id": "P14",
+      "pattern": "ACTION",
+      "section": "재발방지",
+      "label": "IMPROVEMENT",
+      "title": "단기 5건 완료 · 중장기 3건 제시",
+      "lead": "발행 당시 기준",
+      "cards": [
+        [
+          "단기",
+          "설계·검사·점검·관리 개선"
+        ],
+        [
+          "중장기",
+          "자료 확보·과거 대책 점검·측정"
+        ]
+      ],
+      "minutes": 3,
+      "speaker_notes": "3분 | §3.4. 발행 당시 단기 완료와 중장기 계획. 현재 효과 미확인.",
+      "fact_ids": [
+        "F18",
+        "F19"
+      ],
+      "learning_ids": [],
+      "accent": "0D9488"
+    },
+    {
+      "id": "P15",
+      "pattern": "ACTION",
+      "section": "토론 및 실천",
+      "label": "DISCUSSION",
+      "title": "우리 팀의 과거 교훈은 현재도 적용되는가?",
+      "lead": "토론에서 실천으로",
+      "cards": [
+        [
+          "Q01 문서",
+          "대책 반영 근거?"
+        ],
+        [
+          "Q02 변경",
+          "경험 재검토?"
+        ],
+        [
+          "Q03 효과",
+          "장기 유효성 증거?"
+        ]
+      ],
+      "minutes": 10,
+      "speaker_notes": "10분 | T01 대책-문서, T02 변경-효과, 각 5분. A01 대책과 최신 업무문서의 연결을 확인한다. / A02 변경 검토 시 관련 운전경험을 조회한다. / A03 검사 결과의 적용 범위와 한계를 기록한다. / A04 반복 업무의 지속 이행 증거를 표본 검토한다. / A05 변경 영향 및 과거 교훈의 재평가를 확인한다. / A06 완료 조치의 장기 효과를 검토한다.",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "accent": "2563EB",
+      "variant": "panel",
+      "detail": "개인: 문서·경험·검사\n팀: 이행·변경·효과"
+    },
+    {
+      "id": "P16",
+      "pattern": "END",
+      "section": "마무리",
+      "label": "KEY MESSAGE",
+      "title": "교훈은 반복되는 업무에 남아야 한다",
+      "lead": "결정 · 문서 · 실천",
+      "cards": [
+        [
+          "01 문서",
+          "최신 기준 반영"
+        ],
+        [
+          "02 변경",
+          "과거 교훈 확인"
+        ],
+        [
+          "03 효과",
+          "반복 이행과 재평가"
+        ]
+      ],
+      "minutes": 2,
+      "speaker_notes": "2분 | 원본 KINS 2021-10호. 전문가 승인 전 배포 금지.",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "accent": "2563EB"
+    }
+  ]
+}
