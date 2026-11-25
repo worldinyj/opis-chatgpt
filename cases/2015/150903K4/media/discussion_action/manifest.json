@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "150903K4",
+  "artifact_id": "DA-150903K4",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "점검 완료보다 판정의 근거",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2015-05",
+    "report_date": "2015-09-14",
+    "sha256": "e84f694b3a279a4bbd801bc85a227fad9aa3f38d7021b9477bf13038e37e0901"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "제작사 권고를 내부 절차서에 반영할 때 해석의 정확성을 어떻게 검증하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "정기점검이 완료됐다는 기록과 점검기준의 유효성을 어떻게 구분하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "비정상 상황에서 승인된 절차와 보수적 판단의 근거를 어떻게 검토하고 학습하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 공급자 기술문서와 내부 점검 지침의 의미가 일치하는지 검토할 필요가 생긴다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분: 문서 검토의 책임, 승인 근거 및 점검 유효성을 논의한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상의 일반 제조시설에서 상황이 안정된 뒤 추가 확인 업무의 판단 근거가 불명확해진다.",
+      "learning_ids": [
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 승인된 절차, 보수적 판단과 교육훈련의 평가 근거를 논의한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "승인된 기술정보와 절차서의 해석 근거를 확인하고 의문을 공식 제기한다.",
+      "verification": "공식 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "점검결과의 판정 근거 및 경향 검토 기록을 확인한다.",
+      "verification": "점검 검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "승인 절차와 안전 우선 판단에 관한 교육에 참여한다.",
+      "verification": "교육 및 이해도 확인 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "제작사 정보와 내부 절차 반영의 일치 여부를 표본 검토한다.",
+      "verification": "문서 검토 및 승인 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "예방정비 기준과 점검 유효성을 표본 평가한다.",
+      "verification": "검증 기록 및 개선과제",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "가상 상황 훈련에서 판단 근거와 승인 절차의 적용을 평가한다.",
+      "verification": "훈련 평가 및 개선 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

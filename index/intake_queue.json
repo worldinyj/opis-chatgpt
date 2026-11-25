@@ -306,11 +306,11 @@
           "size_bytes": 183781
         }
       ],
-      "status": "SOURCE_RAW_QC_VERIFIED_DETAIL_PENDING",
+      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
       "event_id": "150903K4",
       "verified_event_date": "2015-09-03",
       "from_prior_table": true,
-      "notes": "원본 183781 bytes, SHA-256 e84f694b3a279a4bbd801bc85a227fad9aa3f38d7021b9477bf13038e37e0901, 10쪽 전쪽 텍스트 및 렌더 확인. 표지 2015-05호/본문 2015-4호 불일치, 사건 ID 일치. 분석 대기."
+      "notes": "10쪽 전체 텍스트 및 렌더, 표지/본문 보고서 번호 불일치 기록. 16 사실·3 학습·40속성 후보(4/17/19)·토론 초안 등록. 영상/PPT/A4 출력 및 전문가 검토 대기."
     },
     {
       "queue_order": 18,

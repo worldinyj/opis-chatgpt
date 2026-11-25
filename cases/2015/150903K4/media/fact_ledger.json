@@ -1,0 +1,268 @@
+{
+  "schema_version": "2.0",
+  "event_id": "150903K4",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2015-05",
+    "report_date": "2015-09-14",
+    "sha256": "e84f694b3a279a4bbd801bc85a227fad9aa3f38d7021b9477bf13038e37e0901"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "요약; 1; 3.1.1",
+      "printed_pages": [
+        1,
+        2,
+        3
+      ],
+      "pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "statement": "2015년 9월 3일 정상운전 중 전기설비 손상에 따른 원자로 자동정지가 발생했다.",
+      "qualification": "공식 사건명은 원본 표지 및 본문 참조. 상세 회로 및 사건전개 조건 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.1–3.1.2",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "statement": "조사팀은 사건기록 등을 검토하여 사업자의 직접원인 평가 및 보호기능 작동이 적절하다고 판단했다.",
+      "qualification": "보호기능 작동의 적절성과 설비 건전성 저하를 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3",
+      "printed_pages": [
+        3,
+        4,
+        5
+      ],
+      "pdf_pages": [
+        4,
+        5,
+        6
+      ],
+      "statement": "현장점검과 분해점검에서 전기부품의 내부 손상이 확인되었고 장기 절연저하에 의한 손상 평가가 타당하다고 판단했다.",
+      "qualification": "시험 수치, 구체 손상 위치 및 고장 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3",
+      "printed_pages": [
+        4,
+        5
+      ],
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "statement": "제작사 기술지침을 정비절차서에 반영하는 과정에서 해석상 오류가 있어 시험절차와 건전성 판정기준이 제작사 권고와 다르게 운영되었다.",
+      "qualification": "실제 판정값 및 시험 방법 재현 제외. 오류의 작성자·승인자 및 개인 책임 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3",
+      "printed_pages": [
+        4,
+        5
+      ],
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "statement": "사건 후 조사팀 요청에 따라 과거 점검결과 경향을 검토한 결과 제작사 기준으로는 다수 부품을 교체할 필요가 있었음을 확인했다.",
+      "qualification": "사건 전 정기점검 기록의 존재와 사건 후 경향분석을 구별한다. 사건 전 CAP 경향분석의 전체 실적은 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.3",
+      "printed_pages": [
+        4,
+        5
+      ],
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "statement": "조사팀은 부적절한 정비절차서 기준으로 부품이 장기 사용되고 경년열화가 진행되었다는 사업자의 원인평가를 적절하다고 판단했다.",
+      "qualification": "정비원 개인의 절차 위반 또는 고의가 입증된 것은 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.1.4",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "사업자는 사건 후 설비 변경방안을 기술적으로 평가했고 조사팀은 해당 영향평가의 범위와 내용이 적절하다고 확인했다.",
+      "qualification": "당시 해당 변경에 대한 판단으로 일반화하지 않으며 변경 방법은 재현하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "운전원이 비상운전절차서를 수행하였고 원자로 냉각 등 안전기능이 적절히 확보되었다고 평가되었다.",
+      "qualification": "긍정적 대응. 모든 개별 운전조치가 적절했다는 의미는 아니다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        6,
+        7
+      ],
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "statement": "조사팀은 비상운전절차서 수행 중 상태 판단과 관련된 일부 운전조치가 미흡하다고 평가하였다.",
+      "qualification": "최초 자동정지 원인과 구분. 구체 운전조건 및 조작 방법 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        6,
+        7
+      ],
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "statement": "운전원이 안정된 상태에서 별도 설비 이상 여부를 확인하는 과정에 추가 과도가 발생하였다. 사업자는 재발방지를 위한 운전권고서를 발행했다.",
+      "qualification": "최초 사건 원인과 별개이며 구체 확인·조작 방법 제외. 원문 일부 요일 표기와 날짜는 임의 정정하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.2.1",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "원자로 정지 이후 비정상적인 방사선 증가나 경보 및 환경으로의 부적절한 방출이 없었다고 확인하였다.",
+      "qualification": "당시 조사결과로 현재 상태나 개인 피폭을 일반화하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "OBSERVED_FACT",
+      "section": "3.2.1; 3.3",
+      "printed_pages": [
+        7,
+        8
+      ],
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "statement": "사업자는 운전원 재교육 과정의 관련 교육·훈련 강화 대책을 수립하였다.",
+      "qualification": "교육 강화 계획이 과거 교육훈련 전체의 미진을 직접 입증하지는 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3",
+      "printed_pages": [
+        7,
+        8
+      ],
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "statement": "사업자는 관련 설비의 건전성 점검 및 사건 후 기술적으로 검토된 단기조치를 완료했다. 다른 설비에 대한 영향이 없다는 평가를 제시했다.",
+      "qualification": "사건 당시 확인 범위에 한정하며 구체 설비 변경 사항 재현 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3",
+      "printed_pages": [
+        7,
+        8
+      ],
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "statement": "정비 점검기준 수립, 전기설비 정비절차서 판정기준 적합성 재검토, 제작사 기술정보 처리 프로세스 개선 등을 장기대책으로 제시했다.",
+      "qualification": "당시 계획 수립과 현재 이행 및 효과를 구분한다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.3; 4; 5",
+      "printed_pages": [
+        8,
+        9
+      ],
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "statement": "조사팀은 단기조치와 장기대책이 유사사건 재발방지에 타당하다고 평가했고 별도 보완요구사항은 없었으며 당시 기술적 재가동에 문제가 없다고 판단했다.",
+      "qualification": "현재 안전성이나 전문가 안전문화 평가로 확대하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "SOURCE_LIMITATION",
+      "section": "요약; 3.1.3; 5",
+      "printed_pages": [
+        1,
+        4,
+        5,
+        9
+      ],
+      "pdf_pages": [
+        2,
+        5,
+        6,
+        10
+      ],
+      "statement": "사건번호는 동일하지만 표지는 2015-05호, 본문은 2015-4호로 기재되어 있다. 조사보고서는 원인과 당시 개선대책을 제시한다.",
+      "qualification": "번호 차이의 원인 및 정정판, 현재 장기대책의 효과는 미확인. 표지 번호를 대표 표기로 사용한다.",
+      "review_status": "PENDING"
+    }
+  ]
+}

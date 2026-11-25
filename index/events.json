@@ -394,5 +394,24 @@
       "CO1"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "150903K4",
+    "event_date": "2015-09-03",
+    "report_date": "2015-09-14",
+    "plant": "고리4호기",
+    "title": "고리 4호기 써지보호기 손상에 따른 원자로냉각재펌프 ‘B’ 정지로 인한 원자로 자동정지",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2015/150903K4/report.md",
+    "candidate_attributes": [
+      "WP3",
+      "CL1",
+      "WP1",
+      "DM2"
+    ],
+    "approved_attributes": []
   }
 ]

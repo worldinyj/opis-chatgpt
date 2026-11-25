@@ -1,0 +1,33 @@
+schema_version: "1.0"
+event_id: "150903K4"
+report_number: "2015-05"
+title: "고리 4호기 써지보호기 손상에 따른 원자로냉각재펌프 ‘B’ 정지로 인한 원자로 자동정지"
+event_date: "2015-09-03"
+report_date: "2015-09-14"
+plant:
+  site: 고리
+  unit: 4
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 10
+  sha256: e84f694b3a279a4bbd801bc85a227fad9aa3f38d7021b9477bf13038e37e0901
+  source_size_bytes: 183781
+operating_mode: "출력운전"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP3, CL1, WP1, DM2]
+  additional_review_attributes: [PA1, PA2, PA3, QA3, QA4, CO1, CO3, LA5, LA6, LA7, DM1, CL2, CL4, PI2, PI3, PI4, WP4]
+  insufficient_or_low_relevance_attributes: [QA1, QA2, CO2, CO4, LA1, LA2, LA3, LA4, LA8, DM3, WE1, WE2, WE3, WE4, CL3, PI1, RC1, RC2, WP2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false
+# 표지 2015-05호, 본문 2015-4호: 불일치 원인 미확인. source.md 참조.
