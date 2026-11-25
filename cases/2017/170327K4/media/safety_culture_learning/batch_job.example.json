@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0",
+  "job_id": "SC-170327K4-BATCH01",
+  "event_id": "170327K4",
+  "artifact_id": "SC-170327K4",
+  "manifest_revision": 1,
+  "route": "GEMINI_TASKS_BATCH",
+  "aspect_ratio": "16:9",
+  "jobs": [
+    {
+      "id": "SC-170327K4-S07",
+      "scene_id": "S07",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick training meeting room, neutral staff reviewing blank evidence cards, 가상 변경 검토. Approved references only; no real facility, equipment, diagrams, logo or text.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S07_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-170327K4-S10",
+      "scene_id": "S10",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick training meeting room, neutral staff reviewing blank evidence cards, 가상 조치 검토. Approved references only; no real facility, equipment, diagrams, logo or text.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S10_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-170327K4-S15",
+      "scene_id": "S15",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick training meeting room, neutral staff reviewing blank evidence cards, 가상 적용 검토. Approved references only; no real facility, equipment, diagrams, logo or text.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S15_still_v01.png",
+      "attempt": 1
+    },
+    {
+      "id": "SC-170327K4-S16",
+      "scene_id": "S16",
+      "requested_kind": "IMAGE",
+      "prompt": "16:9, fictional 3D brick training meeting room, neutral staff reviewing blank evidence cards, 가상 효과 확인. Approved references only; no real facility, equipment, diagrams, logo or text.",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "expected_filename": "S16_still_v01.png",
+      "attempt": 1
+    }
+  ],
+  "results": []
+}

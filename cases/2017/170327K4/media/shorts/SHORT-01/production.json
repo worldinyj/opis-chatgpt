@@ -1,0 +1,239 @@
+{
+  "schema_version": "2.0",
+  "event_id": "170327K4",
+  "artifact_id": "SHORT-170327K4",
+  "artifact_type": "KEY_MESSAGE_SHORT",
+  "title": "발견은 해결이 아니다",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2017-2",
+    "report_date": "2018-04-05",
+    "sha256": "28bf6cf2a650b8281d56edc2a49c968e36fa8a3887d7077042c1f37806eb23c2"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "9:16",
+    "width": 720,
+    "height": 1280,
+    "fps": 24,
+    "language": "ko",
+    "style": "controlled graphic + hypothetical 3D brick miniature"
+  },
+  "timing": {
+    "target_seconds": 30
+  },
+  "learning_objectives": [
+    "측정·문제 인지와 조치·효과 검증의 차이를 구별한다."
+  ],
+  "references": [
+    {
+      "id": "LOC-A",
+      "kind": "LOCATION",
+      "description": "가상 브릭 교육 회의실; 실제 원전 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-A",
+      "kind": "CHARACTER",
+      "description": "가상 담당자, 청회색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-B",
+      "kind": "CHARACTER",
+      "description": "가상 검토자, 짙은 청색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "OBJ-A",
+      "kind": "OTHER",
+      "description": "빈 문서 카드와 일반 기록철; 실제 계기·도면 없음.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "발견은 해결이 아니다",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 발견은 해결이 아니다, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "문제를 발견했다면, 해결까지 확인했습니까?",
+      "overlay": [
+        "발견은 해결이 아니다",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "조사 사실",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F10"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 조사 사실, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "조사팀은 확인된 이상징후의 후속조치 미흡을 지적했습니다.",
+      "overlay": [
+        "조사 사실",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "해결의 근거",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "attribute_codes": [
+        "PI3"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 해결의 근거, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "책임과 기한, 조치의 효과를 확인합니다.",
+      "overlay": [
+        "해결의 근거",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "가상 효과 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "attribute_codes": [
+        "PI3"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 일반 제조시설 교육회의실, 3D 브릭 인물과 추상 기록 카드. 가상 효과 검토. 실제 설비·원전·인물·조작 재현 없음.",
+      "narration": "가상 팀이 조치의 효과 확인 기록을 검토합니다.",
+      "overlay": [
+        "가상 효과 검토",
+        "가상 교육 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "발견에서 해결로",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 발견에서 해결로, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "발견은 해결이 아닙니다. 효과까지 확인합시다.",
+      "overlay": [
+        "발견에서 해결로",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

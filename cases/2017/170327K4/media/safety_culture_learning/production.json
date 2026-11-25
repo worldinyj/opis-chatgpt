@@ -1,0 +1,724 @@
+{
+  "schema_version": "2.0",
+  "event_id": "170327K4",
+  "artifact_id": "SC-170327K4",
+  "artifact_type": "SAFETY_CULTURE_LEARNING",
+  "title": "변경·발견·학습의 실효성",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2017-2",
+    "report_date": "2018-04-05",
+    "sha256": "28bf6cf2a650b8281d56edc2a49c968e36fa8a3887d7077042c1f37806eb23c2"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "16:9",
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "language": "ko",
+    "style": "controlled graphic + hypothetical 3D brick miniature"
+  },
+  "timing": {
+    "target_seconds": 120
+  },
+  "learning_objectives": [
+    "변경의 영향을 체계적으로 평가하고 변경 근거를 관리하는 이유를 설명한다.",
+    "측정·문제 인지와 조치·효과 검증의 차이를 구별한다.",
+    "유사사례 간 원인 차이와 기존 조치 이행·보완 근거를 함께 검토한다."
+  ],
+  "references": [
+    {
+      "id": "LOC-A",
+      "kind": "LOCATION",
+      "description": "가상 브릭 교육 회의실; 실제 원전 아님.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-A",
+      "kind": "CHARACTER",
+      "description": "가상 담당자, 청회색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-B",
+      "kind": "CHARACTER",
+      "description": "가상 검토자, 짙은 청색 복장, 중립 표정.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "OBJ-A",
+      "kind": "OTHER",
+      "description": "빈 문서 카드와 일반 기록철; 실제 계기·도면 없음.",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "변경·발견·학습",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 변경·발견·학습, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "기술 검증과 문제 해결의 실효성을 살펴봅니다.",
+      "overlay": [
+        "변경·발견·학습",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "변경 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F09"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 변경 검토, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "조사팀은 변경 과정의 기술평가 미흡을 확인했습니다.",
+      "overlay": [
+        "변경 검토",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "후속조치",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F10"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 후속조치, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "확인된 이상징후의 후속조치가 미흡했습니다.",
+      "overlay": [
+        "후속조치",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "과거 경험",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F14",
+        "F15"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 과거 경험, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "기존 조치의 점검에서 추가 보완사항이 도출됐습니다.",
+      "overlay": [
+        "과거 경험",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "변경 영향",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP2",
+        "WP3"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 변경 영향, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "변경의 영향과 검증 근거를 체계적으로 검토합니다.",
+      "overlay": [
+        "변경 영향",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S06",
+      "title": "문서 근거",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP2",
+        "WP3"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 문서 근거, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "변경 검토 문서와 검증 기록의 완결성을 확인합니다.",
+      "overlay": [
+        "문서 근거",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S07",
+      "title": "가상 변경 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP2",
+        "WP3"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 일반 제조시설 교육회의실, 3D 브릭 인물과 추상 기록 카드. 가상 변경 검토. 실제 설비·원전·인물·조작 재현 없음.",
+      "narration": "가상 팀이 변경 검토서와 검증 기록을 대조합니다.",
+      "overlay": [
+        "가상 변경 검토",
+        "가상 교육 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S08",
+      "title": "발견과 해결",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "attribute_codes": [
+        "PI3"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 발견과 해결, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "발견과 실질적 해결은 다릅니다.",
+      "overlay": [
+        "발견과 해결",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S09",
+      "title": "조치의 효과",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "attribute_codes": [
+        "PI3"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 조치의 효과, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "조치의 책임, 기한, 효과 확인을 함께 관리합니다.",
+      "overlay": [
+        "조치의 효과",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S10",
+      "title": "가상 조치 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "attribute_codes": [
+        "PI3"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 일반 제조시설 교육회의실, 3D 브릭 인물과 추상 기록 카드. 가상 조치 검토. 실제 설비·원전·인물·조작 재현 없음.",
+      "narration": "가상 팀이 열린 개선조치의 확인 근거를 검토합니다.",
+      "overlay": [
+        "가상 조치 검토",
+        "가상 교육 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S11",
+      "title": "적용성 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "CL"
+      ],
+      "attribute_codes": [
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 적용성 검토, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "유사사례의 공통점과 차이를 구분합니다.",
+      "overlay": [
+        "적용성 검토",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S12",
+      "title": "경험의 효과",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "CL"
+      ],
+      "attribute_codes": [
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 경험의 효과, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "기존 조치의 이행과 실제 효과를 구분합니다.",
+      "overlay": [
+        "경험의 효과",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S13",
+      "title": "균형 있는 학습",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "CL"
+      ],
+      "attribute_codes": [
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 균형 있는 학습, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "기존 경험반영 실적과 보완 필요를 함께 검토합니다.",
+      "overlay": [
+        "균형 있는 학습",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S14",
+      "title": "핵심 학습 후보",
+      "duration_seconds": 18,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "ATTRIBUTE_SUMMARY",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP",
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP2",
+        "WP3",
+        "PI3",
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 핵심 학습 후보, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "다섯 가지 후보 속성입니다. 공식 평가가 아닌 교육용 해석입니다.",
+      "overlay": [
+        "핵심 후보 5개 · 공식 평가 아님",
+        "LA5",
+        "WP2",
+        "WP3",
+        "PI3",
+        "CL1"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S15",
+      "title": "가상 적용 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "CL"
+      ],
+      "attribute_codes": [
+        "CL1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 일반 제조시설 교육회의실, 3D 브릭 인물과 추상 기록 카드. 가상 적용 검토. 실제 설비·원전·인물·조작 재현 없음.",
+      "narration": "가상 팀이 과거 개선의 적용 범위를 검토합니다.",
+      "overlay": [
+        "가상 적용 검토",
+        "가상 교육 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S16",
+      "title": "가상 효과 확인",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "PI3",
+        "CL1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상의 일반 제조시설 교육회의실, 3D 브릭 인물과 추상 기록 카드. 가상 효과 확인. 실제 설비·원전·인물·조작 재현 없음.",
+      "narration": "가상 팀이 조치의 효과 확인 근거를 공유합니다.",
+      "overlay": [
+        "가상 효과 확인",
+        "가상 교육 상황"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S17",
+      "title": "우리 업무 돌아보기",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "REFLECTION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP",
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP2",
+        "WP3",
+        "PI3",
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 우리 업무 돌아보기, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "변경 검증과 후속조치, 경험반영은 충분합니까?",
+      "overlay": [
+        "우리 업무 돌아보기",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S18",
+      "title": "안전의 실천",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 안전의 실천, 추상 아이콘 및 근거 카드. 실제 설비·조작 재현 없음.",
+      "narration": "변경은 검증하고, 발견은 해결로 이어갑시다.",
+      "overlay": [
+        "안전의 실천",
+        "교육용 초안"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}
