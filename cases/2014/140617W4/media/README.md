@@ -5,3 +5,4 @@ F/L 원장·토론/실천 및 영상 3종 제작 설계 초안 등록. 사실/AI
 - [사건 이해 120초/20장면](incident_understanding/STORYBOARD.md)
 - [안전문화 학습 120초/18장면](safety_culture_learning/STORYBOARD.md)
 - [숏폼 30초/5장면](shorts/SHORT-01/STORYBOARD.md)
+- [집합교육 16장 PPTX 및 진행자 가이드](classroom_ppt/README.md) · 52분 초안, 실제 렌더 대기.
