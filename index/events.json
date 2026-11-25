@@ -633,5 +633,31 @@
       "DM2"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "100917SK1",
+    "event_date": "2010-09-17",
+    "report_date": "2010-10-15",
+    "plant": "신고리1호기",
+    "title": "신고리1호기 시운전 중 살수격리밸브의 비정상 개방에 의한 원자로냉각재의 원자로건물 살수",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2010/100917SK1/report.md",
+    "candidate_attributes": [
+      "LA1",
+      "CL1",
+      "CL4",
+      "LA5",
+      "WP3",
+      "PA1",
+      "CO1",
+      "LA6",
+      "WP1",
+      "WP4",
+      "QA4"
+    ],
+    "approved_attributes": []
   }
 ]

@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "100917SK1"
+report_number: "2010-11"
+title: "신고리1호기 시운전 중 살수격리밸브의 비정상 개방에 의한 원자로냉각재의 원자로건물 살수"
+event_date: "2010-09-17"
+report_date: "2010-10-15"
+plant:
+  site: 신고리
+  unit: 1
+source:
+  organization: KINS
+  system: OPIS
+  opis_popup_id: null
+  document_url: null
+  page_count: 25
+  sha256: f80140a0395ac3332c13a9b6a5de254f97475cfd1de124b9cbf8a4b74afe73e4
+  source_size_bytes: 901625
+operating_mode: "시운전 중 재가동 준비"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [LA1, CL1, CL4, LA5, WP3, PA1, CO1, LA6, WP1, WP4, QA4]
+  additional_review_attributes: [PA2, PA3, QA1, QA2, QA3, CO2, CO3, LA2, LA4, LA7, DM1, DM2, DM3, WE1, CL2, PI1, PI2, PI3, WP2]
+  insufficient_or_low_relevance_attributes: [CO4, LA3, LA8, WE2, WE3, WE4, CL3, PI4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null

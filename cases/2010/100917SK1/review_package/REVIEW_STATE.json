@@ -1,0 +1,24 @@
+{
+  "event_id": "100917SK1",
+  "analysis_version": "0.1.0",
+  "source_sha256": "f80140a0395ac3332c13a9b6a5de254f97475cfd1de124b9cbf8a4b74afe73e4",
+  "source_pages": 25,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_queue_id": "ROOT-028",
+  "report_status": "DRAFT",
+  "expert_content_review": "PENDING",
+  "expert_attribute_review": "USER_SEPARATE_REVIEW_PENDING",
+  "independent_review": "PENDING",
+  "can_ship": false,
+  "media_status": "LEDGERS_DRAFT",
+  "ppt_status": "PENDING",
+  "paid_generation_calls": 0,
+  "external_submissions": 0,
+  "report_a4_pages": null,
+  "author_technical_qc": "PENDING",
+  "contract_checks": {
+    "passed": 0,
+    "total": 14
+  },
+  "next_step": "DISCUSSION_AND_VIDEO_DESIGN"
+}

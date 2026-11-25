@@ -1,0 +1,23 @@
+{
+  "event_id": "100917SK1",
+  "source_report_sha256": "f80140a0395ac3332c13a9b6a5de254f97475cfd1de124b9cbf8a4b74afe73e4",
+  "source_pages": 25,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "preliminary_checks": {
+    "attribute_partition": "PASS_11_19_10_UNIQUE_40",
+    "learning_fact_reference": "PASS"
+  },
+  "contract_checks": {
+    "passed": 0,
+    "total": 14,
+    "status": "PENDING"
+  },
+  "report": {
+    "status": "DRAFT",
+    "a4_render": "PENDING"
+  },
+  "ppt": {
+    "status": "PENDING"
+  },
+  "can_ship": false
+}

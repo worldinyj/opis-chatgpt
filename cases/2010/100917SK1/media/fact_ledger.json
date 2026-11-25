@@ -1,0 +1,402 @@
+{
+  "schema_version": "2.0",
+  "event_id": "100917SK1",
+  "source": {
+    "document_path": "source.md",
+    "report_number": "2010-11",
+    "report_date": "2010-10-15",
+    "sha256": "f80140a0395ac3332c13a9b6a5de254f97475cfd1de124b9cbf8a4b74afe73e4"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "요약; 1",
+      "printed_pages": [
+        1,
+        3
+      ],
+      "pdf_pages": [
+        3,
+        5
+      ],
+      "statement": "2010년 9월 17일 신고리1호기 시운전 중 원자로건물 내부로 냉각재가 살수되는 사건이 발생했다.",
+      "qualification": "구체적인 설비 상태와 전개 순서는 교육자료에서 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4.나; 붙임3",
+      "printed_pages": [
+        6,
+        7,
+        8,
+        21
+      ],
+      "pdf_pages": [
+        8,
+        9,
+        10,
+        23
+      ],
+      "statement": "조사팀은 시운전 조직 및 인력의 부실, 설계·절차서 관리 미흡, 규정·절차서 미준수를 복합 원인으로 평가했다.",
+      "qualification": "개별 속성 판정과 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4.나; 붙임3",
+      "printed_pages": [
+        6,
+        7,
+        21
+      ],
+      "pdf_pages": [
+        8,
+        9,
+        23
+      ],
+      "statement": "시운전 조직 구성 지연과 운영준비 기간 부족이 지적되었다.",
+      "qualification": "경영진의 의도는 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "붙임3",
+      "printed_pages": [
+        6,
+        21
+      ],
+      "pdf_pages": [
+        8,
+        23
+      ],
+      "statement": "시운전 경험 단절 및 무경험 신규인력 중심의 최소 인력 구성이 지적되었다.",
+      "qualification": "개인별 자격 기록 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4.나",
+      "printed_pages": [
+        7
+      ],
+      "pdf_pages": [
+        9
+      ],
+      "statement": "발전소 친숙화 부족이 원인으로 지적되었다.",
+      "qualification": "개별 역량 전반의 판정은 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4.나; 붙임3",
+      "printed_pages": [
+        7,
+        8,
+        21
+      ],
+      "pdf_pages": [
+        9,
+        10,
+        23
+      ],
+      "statement": "설계변경에 대비한 설계·운영 연계관리 미흡과 설계·절차서 불일치가 지적되었다.",
+      "qualification": "구체적 기술 구성 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "4.가; 4.나",
+      "printed_pages": [
+        7,
+        8
+      ],
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "statement": "운영기술지침서 위반 및 기본업무 수행 미흡이 조사되었다.",
+      "qualification": "운전조건 및 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "붙임2",
+      "printed_pages": [
+        16
+      ],
+      "pdf_pages": [
+        18
+      ],
+      "statement": "추가 시험이 정지 중 작업계획에 반영되지 않은 것으로 기록되었다.",
+      "qualification": "시험 방법과 설비 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "OBSERVED_FACT",
+      "section": "붙임2",
+      "printed_pages": [
+        16,
+        17
+      ],
+      "pdf_pages": [
+        18,
+        19
+      ],
+      "statement": "작업전 회의, 작업허가 및 완료보고가 일부 수행되었다.",
+      "qualification": "업무통제 전체의 적절성을 보증하지 않는다.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "붙임2",
+      "printed_pages": [
+        17,
+        18
+      ],
+      "pdf_pages": [
+        19,
+        20
+      ],
+      "statement": "업무 완료 확인 및 이상상태 확인 과정의 미흡이 기록되었다.",
+      "qualification": "구체적 조작 및 기술 조건 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "붙임2",
+      "printed_pages": [
+        19
+      ],
+      "pdf_pages": [
+        21
+      ],
+      "statement": "시험 관련 이상사항에 대한 운전조직 통보와 협의, 업무통제가 미흡했다.",
+      "qualification": "정보 은폐 의도는 확인되지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4.가; 붙임3",
+      "printed_pages": [
+        7,
+        21
+      ],
+      "pdf_pages": [
+        9,
+        23
+      ],
+      "statement": "비상운전 대응은 전반적으로 적절했으나 절차 및 교육훈련에 고려되지 않은 상황에 대한 보완이 필요했다.",
+      "qualification": "실제 대응 방법 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 붙임3",
+      "printed_pages": [
+        1,
+        21
+      ],
+      "pdf_pages": [
+        3,
+        23
+      ],
+      "statement": "비상발령 지연 및 연락체계 누락이 지적되었다.",
+      "qualification": "구체적 시간 및 연락 대상 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약; 4.다",
+      "printed_pages": [
+        2,
+        8,
+        9
+      ],
+      "pdf_pages": [
+        4,
+        10,
+        11
+      ],
+      "statement": "단기 50개 조치 이행 및 중장기 65개 대책 제시가 보고되었다.",
+      "qualification": "계획과 실제 장기 이행을 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "OBSERVED_FACT",
+      "section": "4.다; 붙임3",
+      "printed_pages": [
+        8,
+        21
+      ],
+      "pdf_pages": [
+        10,
+        23
+      ],
+      "statement": "운전원·정비원 교육 강화 및 절차서 검토·개정이 수행되었다.",
+      "qualification": "교육 효과의 장기 검증은 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "OBSERVED_FACT",
+      "section": "4.다",
+      "printed_pages": [
+        8
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "statement": "경험인력 추가 지원과 타 시운전 조직 경험 전수 대책이 수립되었다.",
+      "qualification": "지원의 장기 효과 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "OBSERVED_FACT",
+      "section": "4.다",
+      "printed_pages": [
+        8
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "statement": "시험·정비 통제 및 발전운영팀 역할 강화 조치가 이행되었다.",
+      "qualification": "공식 역할 정의 전체의 적정성 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4.다",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "statement": "본사 차원의 조직·설계·안전문화·교육·운영관리 종합대책 수립 계획이 제시되었다.",
+      "qualification": "완료 여부 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4.다",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "statement": "조사팀은 단기 조치를 최소한의 적절한 대책으로 평가하며 중장기 대책의 내실 있는 이행을 요구했다.",
+      "qualification": "장기 효과를 보증하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3; 붙임3",
+      "printed_pages": [
+        6,
+        21,
+        22,
+        23
+      ],
+      "pdf_pages": [
+        8,
+        23,
+        24,
+        25
+      ],
+      "statement": "독립평가 및 운영자 자료 검토를 통해 사전안전성 확인 6개 분야 및 상세 17개 항목이 적합으로 평가되었다.",
+      "qualification": "당시 평가에 한정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F21",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4.라; 4.마",
+      "printed_pages": [
+        9,
+        10
+      ],
+      "pdf_pages": [
+        11,
+        12
+      ],
+      "statement": "기기 건전성 평가와 복구·제염 조치가 적절하다고 평가되었으며 지속 확인 필요 사항이 남았다.",
+      "qualification": "기술 검산 및 현재 상태 확인 없음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F22",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약; 4.마; 6",
+      "printed_pages": [
+        2,
+        10,
+        11,
+        23
+      ],
+      "pdf_pages": [
+        4,
+        12,
+        13,
+        25
+      ],
+      "statement": "사건 당시 살수에 의한 직접 작업자 피폭이 없었고 독립 환경평가에서 외부 방사선 영향이 없다고 판단했다.",
+      "qualification": "복구작업 피폭은 별도 평가되었으며 현재 안전 보증 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F23",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4.바; 6",
+      "printed_pages": [
+        11,
+        12,
+        23
+      ],
+      "pdf_pages": [
+        13,
+        14,
+        25
+      ],
+      "statement": "발전소원자력안전위원회 심의·의결과 재가동 준비 조치가 적절하다고 평가되었다.",
+      "qualification": "실제 재가동 승인문서는 미확인.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F24",
+      "kind": "SOURCE_LIMITATION",
+      "section": "5; 붙임3",
+      "printed_pages": [
+        11,
+        22
+      ],
+      "pdf_pages": [
+        13,
+        24
+      ],
+      "statement": "본문은 장기 후속조치 16개, 붙임3은 운영자 후속계획 외 18개 항목 관리를 기재한다.",
+      "qualification": "범위와 중복 관계 미확인; 두 수를 합산하지 않음. 후속 사건조사보고서는 미확보.",
+      "review_status": "PENDING"
+    }
+  ]
+}

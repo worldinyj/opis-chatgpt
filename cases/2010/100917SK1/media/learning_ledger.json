@@ -1,0 +1,139 @@
+{
+  "schema_version": "2.0",
+  "event_id": "100917SK1",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "LA1",
+    "CL1",
+    "CL4",
+    "LA5",
+    "WP3",
+    "PA1",
+    "CO1",
+    "LA6",
+    "WP1",
+    "WP4",
+    "QA4"
+  ],
+  "additional_attribute_codes": [
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "CO2",
+    "CO3",
+    "LA2",
+    "LA4",
+    "LA7",
+    "DM1",
+    "DM2",
+    "DM3",
+    "WE1",
+    "CL2",
+    "PI1",
+    "PI2",
+    "PI3",
+    "WP2"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "message": "설비의 준비와 조직의 준비는 별개로 확인해야 한다.",
+      "objective": "시운전 조직 구성, 경험 전수, 자원 및 업무 적합 역량을 확인한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F03",
+        "F04",
+        "F05",
+        "F12",
+        "F15",
+        "F16",
+        "F18",
+        "F19"
+      ],
+      "attribute_codes": [
+        "LA1",
+        "CL1",
+        "CL4"
+      ],
+      "principle_codes": [
+        "LA",
+        "CL"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "AI 교육용 후보. 공식 속성 판정이나 개인 책임 확정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "message": "변경된 설계와 운영 문서는 정합성이 확인되어야 한다.",
+      "objective": "설계변경 관리와 문서 정확성 및 잠재 위험 인식을 구분한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F02",
+        "F06",
+        "F10",
+        "F15",
+        "F18",
+        "F19"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "WP3",
+        "QA4"
+      ],
+      "principle_codes": [
+        "LA",
+        "WP",
+        "QA"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "AI 교육용 후보. 공식 속성 판정이나 개인 책임 확정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "message": "업무의 승인과 실제 수행, 완료 확인은 일관된 통제와 소통으로 연결한다.",
+      "objective": "규정 준수, 역할 수행, 업무계획, 보고 및 통제를 검토한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F13",
+        "F15",
+        "F17",
+        "F23"
+      ],
+      "attribute_codes": [
+        "PA1",
+        "CO1",
+        "LA6",
+        "WP1",
+        "WP4"
+      ],
+      "principle_codes": [
+        "PA",
+        "CO",
+        "LA",
+        "WP"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "AI 교육용 후보. 공식 속성 판정이나 개인 책임 확정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

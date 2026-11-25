@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "created_date": "2026-11-25",
-  "updated_date": "2026-11-25",
+  "updated_date": "2026-11-26",
   "scope": "DRIVE_ROOT_ALL_PDF_ONLY",
   "ordering": "FILENAME_DATE_DESC_THEN_SIZE_DESC_THEN_FILENAME",
   "source_folder_title": "1등급이상사건",
@@ -27,8 +27,8 @@
   ],
   "pending_pdf_count": 11,
   "pending_date_groups": 11,
-  "next_list_date": "2011-04-19",
-  "next_queue_id": "ROOT-027",
+  "next_list_date": "2010-09-17",
+  "next_queue_id": "ROOT-028",
   "items": [
     {
       "queue_order": 1,
@@ -490,11 +490,12 @@
           "size_bytes": 901625
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED",
+      "event_id": "100917SK1",
+      "verified_event_date": "2010-09-17",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "원본 25쪽·24 사실·3 학습·40속성(11/19/10) 분석 초안 등록. 토론·영상·PPT·A4·정식 계약 대기. 전문가 별도 검토.",
+      "source_sha256": "f80140a0395ac3332c13a9b6a5de254f97475cfd1de124b9cbf8a4b74afe73e4"
     },
     {
       "queue_order": 29,
@@ -686,6 +687,12 @@
       "queue_id": "ROOT-003",
       "event_id": "240513W4",
       "task": "PPT_RENDER_AND_REPORT_PAGE_CHECK"
+    },
+    {
+      "queue_id": "ROOT-027",
+      "event_id": "110419K34",
+      "task": "PPT_RENDER_AND_FORMAL_CONTRACT_QC",
+      "status": "PENDING_DNS_BLOCKER"
     }
   ]
 }
