@@ -1,0 +1,131 @@
+{
+  "event_id": "150903K4",
+  "source_report_sha256": "e84f694b3a279a4bbd801bc85a227fad9aa3f38d7021b9477bf13038e37e0901",
+  "source_pages": 10,
+  "source_render": "PASS_LOCAL_CONTACT_SHEET",
+  "source_report_number": {
+    "cover": "2015-05",
+    "body": "2015-4",
+    "representative": "2015-05",
+    "reconciliation": "UNRESOLVED"
+  },
+  "source_detail": "전쪽 텍스트 검토 및 원문 근거 대조, 세부 시험 수치 전수 검산 미수행",
+  "report": {
+    "status": "DRAFT",
+    "git_blob": "9a8d09922af204c5e9b4d7f8ce138527eb8e36df",
+    "bytes": 11270,
+    "sha256": "b78c796f47c150a4f00effd0fdbec9793bd6b25e5c63921c4b79424407b513d8",
+    "a4_pages": 4,
+    "pdf_sha256": "88bc98e9fa647df07ec9c4106ff573adaba55704d5d4707cfc2b8d9d31354331",
+    "text_blocks": 108,
+    "missing_text_blocks": 0,
+    "replacement_glyphs": 0,
+    "a4_render": "PASS_LOCAL_CONTACT_SHEET"
+  },
+  "ppt": {
+    "git_blob": "d76eb1d3b8d6f81e598455db2e7f8156d6a51870",
+    "bytes": 313783,
+    "sha256": "83d55fb20732f9dd8ad960b8fc8e1616f7f2b6ee7c581fd1561ccf08a908ee11",
+    "render_pdf_sha256": "f4d385b5147101b1883f3dd4e3f8017b943d49e0dd50f1d138f80ee166eee12e",
+    "slides": 16,
+    "nonempty_notes": 16,
+    "editable_shapes": 372,
+    "zip_crc": "PASS",
+    "local_git_blob_match": true,
+    "rendered_pages": 16,
+    "out_of_bounds": 0,
+    "missing_text_shapes": 0,
+    "replacement_glyphs": 0,
+    "actual_render": "PASS_LIBREOFFICE_CONTACT_SHEET"
+  },
+  "contract_checks": {
+    "passed": 14,
+    "total": 14,
+    "results": [
+      {
+        "test": "schema fact_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema learning_ledger.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "schema shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations discussion_action/manifest.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations incident_understanding/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations safety_culture_learning/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "relations shorts/SHORT-01/production.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch safety_culture_learning/batch_job.example.json",
+        "result": "PASS"
+      },
+      {
+        "test": "batch shorts/SHORT-01/batch_job.example.json",
+        "result": "PASS"
+      }
+    ]
+  },
+  "video_design": [
+    {
+      "id": "IU-150903K4",
+      "seconds": 120,
+      "scenes": 20,
+      "fact_coverage": 16
+    },
+    {
+      "id": "SC-150903K4",
+      "seconds": 120,
+      "scenes": 18
+    },
+    {
+      "id": "SHORT-150903K4",
+      "seconds": 30,
+      "scenes": 5
+    }
+  ],
+  "limitations": [
+    "표지 2015-05호/본문 2015-4호 불일치 및 원문 요일 표기 차이 원인 미확인. 사실 원장 및 영상 계약에서는 표지 번호 대표 표기; 영상 출처 안내와 PPT에는 번호 병기.",
+    "CL1 외부 기술정보 범위 및 DM2 판단 교육 후보는 전문가 검토 대기. 절차서 자체 오류와 작업자 준수 여부 구분. 사건대응 개선요인은 최초 정지 원인과 구별.",
+    "세부 시험수치 전수 검산 미수행. 현행 운전절차나 실제 설비·취약점 재현이 아닌 교육용 자료.",
+    "PPT 실제 PowerPoint 및 현장 투사 미시험. A4 표 분할 방지로 하단 여백이 큼. PPT 기존 표준 레이아웃의 일부 빈 공간 유지.",
+    "OPIS 상세 ID, 기초/최종 INES, 현재 장기조치 이행효과 미확인.",
+    "실제 영상·음성 미생성, 나레이션 시간 실측 및 시각 에셋 QC 미수행. 유료 호출·외부 제출 0.",
+    "독립·전문가 내용 및 속성 검토 대기. 렌더 PDF는 로컬 검증용, 저장소에는 원고·PPTX 및 검증 해시 기록."
+  ],
+  "can_ship": false
+}

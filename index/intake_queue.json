@@ -25,10 +25,10 @@
   "existing_cases_not_in_root": [
     "250919W2"
   ],
-  "pending_pdf_count": 21,
-  "pending_date_groups": 20,
-  "next_list_date": "2015-09-03",
-  "next_queue_id": "ROOT-017",
+  "pending_pdf_count": 20,
+  "pending_date_groups": 19,
+  "next_list_date": "2014-10-17",
+  "next_queue_id": "ROOT-018",
   "items": [
     {
       "queue_order": 1,
@@ -306,11 +306,11 @@
           "size_bytes": 183781
         }
       ],
-      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
       "event_id": "150903K4",
       "verified_event_date": "2015-09-03",
       "from_prior_table": true,
-      "notes": "10쪽 전체 텍스트 및 렌더, 표지/본문 보고서 번호 불일치 기록. 16 사실·3 학습·40속성 후보(4/17/19)·토론 초안 등록. 영상/PPT/A4 출력 및 전문가 검토 대기."
+      "notes": "원본 10쪽·16 사실·3 학습·40속성 후보, 표지/본문 번호 불일치 보존, 영상 3종·토론·PPTX 등록, A4 4쪽 및 16장 실제 렌더, 계약 14/14, 전문가 검토 및 실제 영상 생성 대기."
     },
     {
       "queue_order": 18,
