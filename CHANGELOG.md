@@ -228,3 +228,6 @@
 
 ## 2026-11-25 / PILOT-28 영상 설계 체크포인트
 - ROOT-027 / PILOT-28 110419K34 영상 3종 제작 설계 43장면/270초, 한국어 나레이션·편집 지시·배치 예제 2개. 중간검사 10/10 PASS. PPTX/A4/정식 14개 계약 대기. ROOT-027 유지, 11 PDF 대기. can_ship=false.
+
+## 2026-11-25 / PILOT-28 PPT 제작 체크포인트
+- ROOT-027 / PILOT-28 110419K34 16장/52분 편집형 PPTX·진행자 가이드 등록, 422개 도형, ZIP 75개 CRC PASS, Git blob f4ea53e8c9fa2d2834fffe4bc32b5a5f5b439afb. 실제 렌더·A4·정식 14개 계약 대기. ROOT-027 유지, 11 PDF 대기, can_ship=false.

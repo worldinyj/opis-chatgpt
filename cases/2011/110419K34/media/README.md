@@ -8,3 +8,6 @@
 - [서두를수록 확인하십시오](shorts/SHORT-01/production.json) · [스토리보드](shorts/SHORT-01/STORYBOARD.md) · [나레이션](shorts/SHORT-01/NARRATION_KO.md) · [편집 지시](shorts/SHORT-01/EDIT_AND_PROMPTS.md)
 
 실제 생성 없음. 집합교육 PPTX 및 A4/정식 계약 대기.
+
+## 집합교육
+- [편집형 PPTX 및 진행자 가이드](classroom_ppt/README.md): 16장/52분, 실제 렌더 대기.

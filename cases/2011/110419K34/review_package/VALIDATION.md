@@ -15,3 +15,7 @@ ROOT-027 / PILOT-28 110419K34 (원문 110419K3,4) 원본 12쪽·24 사실·3 학
 - SHORT-110419K34: 30초/5장면, F 2, L 1, 로컬 4, 가상 정지 이미지 1.
 
 기존 스키마 부분집합·관계·배치 10/10 PASS. 정식 Python jsonschema·PPTX·A4·실제 영상 생성 및 발화 검증 대기. can_ship=false.
+
+## 집합교육 PPT 제작 중간검사
+
+ROOT-027 / PILOT-28 110419K34 16장/52분 편집형 PPTX·진행자 가이드 등록, 422개 도형, ZIP 75개 CRC PASS, Git blob f4ea53e8c9fa2d2834fffe4bc32b5a5f5b439afb. 실제 렌더·A4·정식 14개 계약 대기. ROOT-027 유지, 11 PDF 대기, can_ship=false.

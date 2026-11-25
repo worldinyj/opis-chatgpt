@@ -9,8 +9,22 @@
     "a4_render": "PENDING"
   },
   "ppt": {
-    "status": "PENDING",
-    "actual_render": "PENDING"
+    "status": "DRAFT_REGISTERED",
+    "slides": 16,
+    "notes": 16,
+    "minutes": 52,
+    "shapes": 422,
+    "bytes": 352392,
+    "zip_members": 75,
+    "deterministic": true,
+    "git_blob": "f4ea53e8c9fa2d2834fffe4bc32b5a5f5b439afb",
+    "actual_render": "PENDING",
+    "generator_blob": "ff621c6377862e3f6ac30e1f2d3b7f70f970a795",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "fact_coverage": 24,
+    "learning_coverage": 3,
+    "attribute_coverage": 10,
+    "approved": false
   },
   "contract_checks": {
     "passed": 0,
@@ -55,7 +69,8 @@
     "보고서의 관련 6개 사건 원문 별도 대조 미수행. OPIS 팝업 ID·INES 등급·실제 재가동 승인문서·장기대책 완료 및 현재 효과 미확인.",
     "구체적 설비 구성·보호논리·설정치·운전 상태의 조합·위치·시간대별 사건 전개·운전/정비/시험 방법 및 기술 도식 제외. 공식 조사 사실과 교육적 해석을 구분한다.",
     "개별 속성은 AI 교육용 후보이며 공식 규제기관 속성 판정 또는 개인 책임 확정 아님. 전문가 별도 검토 및 독립 검토 대기. 영상/PPTX/A4/정식 계약 14개 대기.",
-    "영상 제작 설계만 등록. 한국어 발화시간 실측, 18초 10속성 두 열 카드 가독성 및 실제 에셋·음성·영상 QC 미수행. 실제 생성 및 외부 제출 0."
+    "영상 제작 설계만 등록. 한국어 발화시간 실측, 18초 10속성 두 열 카드 가독성 및 실제 에셋·음성·영상 QC 미수행. 실제 생성 및 외부 제출 0.",
+    "PPTX 기존 생성기 결정성·ZIP CRC 및 장수·노트·근거 검사만 완료. 실제 렌더링·화면 가독성·PowerPoint 호환 및 현장 투사는 미검증. A4 및 정식 14개 계약 검사 대기."
   ],
   "can_ship": false,
   "video_design": [
