@@ -1,0 +1,43 @@
+{
+  "event_id": "210712K3",
+  "source_report_sha256": "b675b726c7d6fd8136aff5757beae3148d00aedd59a49416156a0e6fe7360b7b",
+  "source_pages": 36,
+  "report": {
+    "git_blob": "5762d8e0a6afeef8dc635c51f3e7a1f7beae9abe",
+    "bytes": 13643,
+    "a4_pages": 6,
+    "pdf_sha256": "134131665fce97a01924cb794edb558467defd0b6491bfc128b2add1dfe78eb8",
+    "render": "PASS_LOCAL_CONTACT_SHEET"
+  },
+  "ppt": {
+    "git_blob": "1af689016367126dfd97688c8e9a0ffef09778bf",
+    "bytes": 314412,
+    "sha256": "5101241968a9106dfbe32909576bca5a831edbf7e440451a95e842a2a3b72f31",
+    "render_pdf_sha256": "e0f60e04372b8e8614d16731d1a6f5b917068d7a01d9b9182e65f57ca759af3b",
+    "slides": 16,
+    "rendered_pages": 16,
+    "editable_shapes": 372,
+    "out_of_bounds": 0,
+    "nonempty_notes": 16,
+    "missing_text_shapes": 0,
+    "zip_crc": "PASS",
+    "render": "PASS_LIBREOFFICE_CONTACT_SHEET"
+  },
+  "contract_checks": {
+    "passed": 14,
+    "total": 14,
+    "scope": "JS schema subset/relations for fact, learning, discussion, three video plans and two batches"
+  },
+  "limitations": [
+    "보고서 마지막 쪽 여백이 큼",
+    "PPTX 전달 중 1회 해시 불일치, 수정 후 정확한 Git blob 일치 확인",
+    "원본 1993/1994 연도 표기 및 정비 이력표·서술 차이 미해결",
+    "실제 PowerPoint 및 현장 투사 미시험",
+    "첨부 도면·계산·사진 전수 세부판독 미수행, 비공개 부분 복원 없음",
+    "OPIS 상세 ID·최종 INES·현재 조치 효과 미확인",
+    "독립/전문가 내용 및 속성 검토 대기",
+    "영상·음성 실제 생성 미수행",
+    "렌더 PDF는 로컬 검증 산출물, 저장소에는 MD/PPTX와 검증 해시 기록"
+  ],
+  "can_ship": false
+}

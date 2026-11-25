@@ -28,4 +28,5 @@ analysis:
   additional_review_attributes: [PA1, PA2, PA3, QA1, QA2, QA3, QA4, CO1, CO2, LA1, LA4, LA6, LA7, DM1, DM2, CL2, CL4, PI1, PI4, WP2, WP4]
   insufficient_or_low_relevance_attributes: [CO3, CO4, LA2, LA3, LA8, DM3, WE1, WE2, WE3, WE4, CL3, RC1, RC2]
   approved_attributes: []
-  page_count_verified: false
+  page_count_verified: true
+  a4_pages: 6
