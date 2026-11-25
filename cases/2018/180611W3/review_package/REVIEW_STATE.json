@@ -11,14 +11,15 @@
   "independent_review": "PENDING",
   "can_ship": false,
   "media_status": "SCRIPT_DRAFT",
-  "ppt_status": "GENERATED_DRAFT_RENDER_PENDING",
+  "ppt_status": "PASS_LOCAL_RENDER_DRAFT",
   "paid_generation_calls": 0,
   "external_submissions": 0,
   "report_a4_pages": null,
-  "author_technical_qc": "PASS_CONTRACT_RENDER_PENDING",
+  "author_technical_qc": "PASS_PPT_RENDER_REPORT_RENDER_PENDING",
   "ppt_git_blob": "bd908d6977f327ccbbe0a8210502dc12cb394068",
   "contract_checks": {
     "passed": 14,
     "total": 14
-  }
+  },
+  "ppt_structural_qc": "PASS_BYTE_MATCH_ZIP_CRC"
 }
