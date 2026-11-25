@@ -354,5 +354,23 @@
       "CL1"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "161220HU5",
+    "event_date": "2016-12-20",
+    "report_date": "2017-02-03",
+    "plant": "한울5호기",
+    "title": "한울 5호기 원자로 HJTC 배기구 누설 정비를 위한 원자로 수동정지",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2016/161220HU5/report.md",
+    "candidate_attributes": [
+      "WP1",
+      "DM1",
+      "QA4"
+    ],
+    "approved_attributes": []
   }
 ]

@@ -274,11 +274,11 @@
           "size_bytes": 463157
         }
       ],
-      "status": "SOURCE_RAW_QC_VERIFIED_DETAIL_PENDING",
+      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
       "event_id": "161220HU5",
       "verified_event_date": "2016-12-20",
       "from_prior_table": false,
-      "notes": "원본 463157 bytes, SHA-256 34e2ac6c379e64c4e05a23a68ea85382c809cbbe2b75db2d519968a6cc37eb4c, 17쪽 전쪽 텍스트 및 렌더 확인. 표지·본문 사건번호 일치. 분석 대기."
+      "notes": "17쪽 전체 텍스트 및 렌더, 18 사실·3 학습·40속성 후보(3/15/22)·토론 초안 등록. 영상/PPT/A4 출력 및 전문가 검토 대기."
     },
     {
       "queue_order": 16,

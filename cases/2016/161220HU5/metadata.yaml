@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "161220HU5"
+report_number: "2016-23"
+title: "한울 5호기 원자로 HJTC 배기구 누설 정비를 위한 원자로 수동정지"
+event_date: "2016-12-20"
+report_date: "2017-02-03"
+plant:
+  site: 한울
+  unit: 5
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 17
+  sha256: 34e2ac6c379e64c4e05a23a68ea85382c809cbbe2b75db2d519968a6cc37eb4c
+  source_size_bytes: 463157
+operating_mode: "출력운전"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP1, DM1, QA4]
+  additional_review_attributes: [PA2, PA3, QA1, CO1, CO3, LA5, LA6, LA7, CL1, CL2, CL4, PI2, PI3, WP2, WP3]
+  insufficient_or_low_relevance_attributes: [PA1, QA2, QA3, CO2, CO4, LA1, LA2, LA3, LA4, LA8, DM2, DM3, WE1, WE2, WE3, WE4, CL3, PI1, PI4, RC1, RC2, WP4]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false

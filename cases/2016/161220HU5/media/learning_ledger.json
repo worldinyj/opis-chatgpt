@@ -1,0 +1,106 @@
+{
+  "schema_version": "2.0",
+  "event_id": "161220HU5",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "WP1",
+    "DM1",
+    "QA4"
+  ],
+  "additional_attribute_codes": [
+    "PA2",
+    "PA3",
+    "QA1",
+    "CO1",
+    "CO3",
+    "LA5",
+    "LA6",
+    "LA7",
+    "CL1",
+    "CL2",
+    "CL4",
+    "PI2",
+    "PI3",
+    "WP2",
+    "WP3"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "구매·자재관리에서 품질 요구와 적합성 확인을 연결한다.",
+      "objective": "품질보증서의 존재와 실제 적합성 검증의 차이를 설명한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F07",
+        "F08",
+        "F09",
+        "F16",
+        "F17"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP1"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 미진속성 확정 또는 개인 심리·과실 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "품질등급 결정에는 안전 중요도에 따른 공학적 판단과 명확한 기준이 필요하다.",
+      "objective": "품질등급 판단, 규정 준수 및 품질보증의 적절성을 구분한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F10",
+        "F11",
+        "F16",
+        "F17"
+      ],
+      "principle_codes": [
+        "DM"
+      ],
+      "attribute_codes": [
+        "DM1"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 미진속성 확정 또는 개인 심리·과실 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "작은 부품에도 잠재 위험을 고려하고 유사 자재를 체계적으로 검토한다.",
+      "objective": "낮은 등급이나 과거 이상 없음이 위험 부재를 보장하지 않음을 이해하고 확대 검토의 의미를 설명한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F05",
+        "F07",
+        "F09",
+        "F10",
+        "F13",
+        "F16",
+        "F17"
+      ],
+      "principle_codes": [
+        "QA"
+      ],
+      "attribute_codes": [
+        "QA4"
+      ],
+      "report_section": "3.4",
+      "qualification": "교육용 후보; 공식 미진속성 확정 또는 개인 심리·과실 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}
