@@ -27,8 +27,8 @@
   ],
   "pending_pdf_count": 11,
   "pending_date_groups": 11,
-  "next_list_date": "1997-01-17",
-  "next_queue_id": "ROOT-036",
+  "next_list_date": "1994-10-20",
+  "next_queue_id": "ROOT-037",
   "items": [
     {
       "queue_order": 1,
@@ -626,11 +626,11 @@
           "size_bytes": 502360
         }
       ],
-      "status": "DRAFT_REGISTERED",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
       "event_id": "970117-1502",
       "verified_event_date": "1997-01-17",
       "from_prior_table": true,
-      "notes": "2쪽 동일 스캔 직접 판독, 유효 원문 1건, 호기 및 ID 잠정. 원문 등급 1(체계명 미확인), 14 사실, 3 학습, 40속성 8/21/11, 토론 및 영상 43장면/270초 설계. PPT·A4·정식 계약·상세 조사·전문가 검토 대기.",
+      "notes": "2쪽 동일 스캔 직접 판독, 유효 원문 1건, 호기 및 ID 잠정. 원문 등급 1(체계명 미확인), 14 사실, 3 학습, 40속성 8/21/11, 토론 및 영상 43장면/270초 설계. PPT·A4·정식 계약·상세 조사·전문가 검토 대기. PPTX 16장/52분·진행자 가이드 등록, ZIP CRC PASS, 계약 교차검사 14/14. 호기명·상세 조사·작성기관·등급 체계·공식 ID·후속 효과·A4·화면 렌더·정식 계약 대기.",
       "source_sha256": "77c64ecd353163f6ae8b8ee108588eb850dd1ac38a9aff0bd913b2b53788ecee"
     },
     {
@@ -748,6 +748,12 @@
       "queue_id": "ROOT-035",
       "event_id": "990323Y2",
       "task": "OFFICIAL_ID_FULL_SOURCE_GRADE_SCHEME_PPT_A4_FORMAL_CONTRACT_QC",
+      "status": "PENDING"
+    },
+    {
+      "queue_id": "ROOT-036",
+      "event_id": "970117-1502",
+      "task": "PLANT_OFFICIAL_ID_FULL_SOURCE_GRADE_SCHEME_PPT_A4_FORMAL_CONTRACT_QC",
       "status": "PENDING"
     }
   ]
