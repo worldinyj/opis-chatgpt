@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "221222K3"
+report_number: "2022-12"
+title: "고리3호기 발전기 여자변압기 고압측 케이블 접속부 손상에 의한 터빈/발전기 및 원자로 자동정지"
+event_date: "2022-12-22"
+report_date: "2023-01-05"
+plant:
+  site: 고리
+  unit: 3
+source:
+  organization: KINS
+  system: OPIS
+  portal_url: https://opis.kins.re.kr/mobile/accident/SearchAccidentFailPresentList.do
+  opis_popup_id: null
+  document_url: null
+  page_count: 32
+  sha256: f3826f42d33c26606b000ff208cf319cd6e8bd99a2b6b502d6930ebf8ffda2de
+  source_size_bytes: 1348406
+operating_mode: "1 (출력운전), 99.7%"
+preliminary_ines: 0
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [LA1, CL1, CL3, PI2, WP1, WP2, WP3]
+  additional_review_attributes: [PA1, PA2, PA3, QA1, QA2, QA3, QA4, CO1, CO2, LA4, LA5, LA6, LA7, DM1, DM2, CL2, CL4, PI1, PI3, PI4, WP4]
+  insufficient_or_low_relevance_attributes: [CO3, CO4, LA2, LA3, LA8, DM3, WE1, WE2, WE3, WE4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: false

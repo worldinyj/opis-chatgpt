@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "221222K3",
+  "artifact_id": "DA-221222K3",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "복구 품질과 재발방지 효과",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2022-12",
+    "report_date": "2023-01-05",
+    "sha256": "f3826f42d33c26606b000ff208cf319cd6e8bd99a2b6b502d6930ebf8ffda2de"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "복구 완료와 시공품질 입증을 어떤 서로 다른 증거로 확인하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "필요한 전문자원이 확보되지 않을 때 승인된 대체 검토와 후속 확인은 충분한가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "유사사건 대책의 이행과 실제 재발 방지 효과를 어떻게 구분해 검증하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상 산업시설에서 복구 작업이 완료되었으나 품질검증 기록 일부가 불충분하고 전문검토 일정도 확정되지 않았다.",
+      "learning_ids": [
+        "L01",
+        "L02"
+      ],
+      "facilitator_prompt": "5분(개인1·팀2·공유2): 요구품질, 확인 증거, 전문 지원, 공식 판단과 후속 책임을 논의한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상 조직에서 과거 대책의 완료 기록이 있지만 유사 문제가 다시 발견되었다. 외부 산업계에서 다른 해결방식을 사용한다는 자료도 있다.",
+      "learning_ids": [
+        "L03"
+      ],
+      "facilitator_prompt": "5분(개인1·팀2·공유2): 기존 조치 인정, 효과 확인, 비교학습, 적용성 검토 및 재평가 책임을 논의한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "작업 완료와 품질 검증 증빙을 구분한다.",
+      "verification": "승인 문서 및 품질 확인기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "필요 전문자원 및 검토의 미확인 사항을 공식 공유한다.",
+      "verification": "지원 요청 및 검토기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "유사사건과 기존 조치의 관련성을 검토한다.",
+      "verification": "운전경험 검토기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "시공품질 확인 및 문서화의 충분성을 표본 검토한다.",
+      "verification": "요구사항과 검증 증거 매핑",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "정비 기준과 자원 확보 및 대체 판단의 근거를 독립 검토한다.",
+      "verification": "자원계획·승인·후속 확인 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "운전경험 적용과 대책 효과를 재평가한다.",
+      "verification": "조치별 효과평가 및 후속 책임",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schema_version": "2.0",
+  "event_id": "221222K3",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "LA1",
+    "CL1",
+    "CL3",
+    "PI2",
+    "WP1",
+    "WP2",
+    "WP3"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM2",
+    "CL2",
+    "CL4",
+    "PI1",
+    "PI3",
+    "PI4",
+    "WP4"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "복구 완료보다 시공품질의 입증이 중요하다",
+      "objective": "작업 품질과 검증 근거, 문서화 및 공학적 방어의 충분성을 확인한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F03",
+        "F04",
+        "F10",
+        "F14"
+      ],
+      "principle_codes": [
+        "WP"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP2",
+        "WP3"
+      ],
+      "report_section": "3.4",
+      "qualification": "실제 시공 방법 교육 아님; 정량 설계여유 부족 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "필요한 정비를 지속할 전문자원과 기준을 확보한다",
+      "objective": "시험 범위와 자원 확보 및 변경 근거를 검토한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F05",
+        "F06",
+        "F07"
+      ],
+      "principle_codes": [
+        "LA"
+      ],
+      "attribute_codes": [
+        "LA1"
+      ],
+      "report_section": "3.4",
+      "qualification": "선택적 PMT 당시 허용; 기존 점검 수행 인정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "운전경험은 대책의 이행과 효과까지 확인한다",
+      "objective": "유사 산업 경험의 적용성 및 재발방지대책의 장기 유효성을 평가한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F08",
+        "F09",
+        "F11",
+        "F12",
+        "F13",
+        "F17"
+      ],
+      "principle_codes": [
+        "CL",
+        "PI"
+      ],
+      "attribute_codes": [
+        "CL1",
+        "CL3",
+        "PI2"
+      ],
+      "report_section": "3.4",
+      "qualification": "과거 대책 실제 이행 인정; CAP 미이행 단정 금지.",
+      "review_status": "PENDING"
+    }
+  ]
+}

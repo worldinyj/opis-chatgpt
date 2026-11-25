@@ -140,11 +140,12 @@
           "size_bytes": 1348406
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
+      "event_id": "221222K3",
+      "verified_event_date": "2022-12-22",
       "from_prior_table": false,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "분석·원장·토론 등록, 영상/PPT 진행 중.",
+      "source_sha256": "f3826f42d33c26606b000ff208cf319cd6e8bd99a2b6b502d6930ebf8ffda2de"
     },
     {
       "queue_order": 8,

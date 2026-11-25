@@ -168,5 +168,27 @@
       "WP4"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "221222K3",
+    "event_date": "2022-12-22",
+    "report_date": "2023-01-05",
+    "plant": "고리3호기",
+    "title": "고리3호기 발전기 여자변압기 고압측 케이블 접속부 손상에 의한 터빈/발전기 및 원자로 자동정지",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": 0,
+    "final_ines": null,
+    "path": "cases/2022/221222K3/report.md",
+    "candidate_attributes": [
+      "LA1",
+      "CL1",
+      "CL3",
+      "PI2",
+      "WP1",
+      "WP2",
+      "WP3"
+    ],
+    "approved_attributes": []
   }
 ]
