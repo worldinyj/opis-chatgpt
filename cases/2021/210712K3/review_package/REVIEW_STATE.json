@@ -1,0 +1,14 @@
+{
+  "event_id": "210712K3",
+  "analysis_version": "0.1.0",
+  "source_sha256": "b675b726c7d6fd8136aff5757beae3148d00aedd59a49416156a0e6fe7360b7b",
+  "report_status": "DRAFT",
+  "expert_content_review": "PENDING",
+  "expert_attribute_review": "USER_SEPARATE_REVIEW_PENDING",
+  "independent_review": "PENDING",
+  "can_ship": false,
+  "media_status": "PLANNED",
+  "ppt_status": "PLANNED",
+  "paid_generation_calls": 0,
+  "external_submissions": 0
+}

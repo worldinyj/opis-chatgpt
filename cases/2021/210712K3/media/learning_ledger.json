@@ -1,0 +1,115 @@
+{
+  "schema_version": "2.0",
+  "event_id": "210712K3",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "LA5",
+    "CL1",
+    "PI2",
+    "PI3",
+    "WP1",
+    "WP3"
+  ],
+  "additional_attribute_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "LA1",
+    "LA4",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM2",
+    "CL2",
+    "CL4",
+    "PI1",
+    "PI4",
+    "WP2",
+    "WP4"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "결정된 대책은 정비 기준과 업무목록에 남아야 한다",
+      "objective": "대책의 문서 반영과 반복 이행 증거를 구분한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F08",
+        "F09",
+        "F12"
+      ],
+      "principle_codes": [
+        "PI",
+        "WP"
+      ],
+      "attribute_codes": [
+        "PI3",
+        "WP1",
+        "WP3"
+      ],
+      "report_section": "3.4",
+      "qualification": "정기 검사 수행 인정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "기준 변경 시 과거 교훈을 다시 확인한다",
+      "objective": "변경 영향과 운전경험의 지속성을 함께 검토한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F10",
+        "F11",
+        "F14"
+      ],
+      "principle_codes": [
+        "LA",
+        "CL"
+      ],
+      "attribute_codes": [
+        "LA5",
+        "CL1"
+      ],
+      "report_section": "3.4",
+      "qualification": "현행 전산관리 존재 인정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "message": "점검 만족과 대책의 유효성은 다르다",
+      "objective": "검사 범위와 장기 유효성 및 추가 개선 필요성을 평가한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F05",
+        "F07",
+        "F09",
+        "F13",
+        "F19"
+      ],
+      "principle_codes": [
+        "PI"
+      ],
+      "attribute_codes": [
+        "PI2"
+      ],
+      "report_section": "3.4",
+      "qualification": "모의해석의 정확성 한계 존중.",
+      "review_status": "PENDING"
+    }
+  ]
+}

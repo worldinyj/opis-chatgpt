@@ -174,11 +174,12 @@
           "size_bytes": 1063844
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "ANALYSIS_DRAFT_REGISTERED_MEDIA_PENDING",
+      "event_id": "210712K3",
+      "verified_event_date": "2021-07-12",
       "from_prior_table": false,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "분석·원장·토론 등록; 영상/PPT/렌더 대기.",
+      "source_sha256": "b675b726c7d6fd8136aff5757beae3148d00aedd59a49416156a0e6fe7360b7b"
     },
     {
       "queue_order": 10,

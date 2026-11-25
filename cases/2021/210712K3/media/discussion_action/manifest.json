@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "210712K3",
+  "artifact_id": "DA-210712K3",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "운전경험과 대책의 지속성",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2021-10",
+    "report_date": "2021-11-17",
+    "sha256": "b675b726c7d6fd8136aff5757beae3148d00aedd59a49416156a0e6fe7360b7b"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "결정된 대책이 정비문서와 반복 업무에 반영되었는지 무엇으로 확인하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "기준을 변경할 때 과거 운전경험의 적용성은 어떻게 재검토하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "점검 만족과 장기 재발방지 효과를 어떤 증거로 구분하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상 산업시설에서 과거 대책 완료 기록은 있으나 정기 업무 목록에 반영된 증거가 없다.",
+      "learning_ids": [
+        "L01"
+      ],
+      "facilitator_prompt": "5분: 결정·문서·실행 기록·후속 책임을 구분한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상 팀이 업무 기준 변경을 검토한다. 과거 교훈의 적용성과 검사 범위가 불명확하다.",
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 변경 검토 근거, 미확인 사항, 효과 확인 계획을 논의한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "대책과 최신 업무문서의 연결을 확인한다.",
+      "verification": "대책-문서 매핑",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "변경 검토 시 관련 운전경험을 조회한다.",
+      "verification": "검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "검사 결과의 적용 범위와 한계를 기록한다.",
+      "verification": "검사 근거",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "반복 업무의 지속 이행 증거를 표본 검토한다.",
+      "verification": "계획·실적 대조",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "변경 영향 및 과거 교훈의 재평가를 확인한다.",
+      "verification": "승인 근거",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "완료 조치의 장기 효과를 검토한다.",
+      "verification": "효과평가 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}
