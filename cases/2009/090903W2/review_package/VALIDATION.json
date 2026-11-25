@@ -1,0 +1,41 @@
+{
+  "event_id": "090903W2",
+  "source_report_sha256": "67e06071f2af223e884c59f1671e0724c893413bdd1319844706b73ad8a95cd8",
+  "source_pages": 9,
+  "preliminary_checks": {
+    "attributes": 40,
+    "partition": [
+      10,
+      19,
+      11
+    ],
+    "facts": 24,
+    "learning": 3,
+    "scenes": [
+      20,
+      18,
+      5
+    ],
+    "durations": [
+      120,
+      120,
+      30
+    ],
+    "fact_coverage": 24,
+    "core_coverage": 10,
+    "refs": true
+  },
+  "contract_checks": {
+    "passed": 0,
+    "total": 14,
+    "status": "PENDING"
+  },
+  "report": {
+    "status": "DRAFT",
+    "a4_render": "PENDING"
+  },
+  "ppt": {
+    "status": "PENDING"
+  },
+  "can_ship": false
+}

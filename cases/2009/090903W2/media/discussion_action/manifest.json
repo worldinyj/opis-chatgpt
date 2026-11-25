@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.0",
+  "event_id": "090903W2",
+  "artifact_id": "DA-090903W2",
+  "artifact_type": "DISCUSSION_ACTION",
+  "title": "안전 중심 공정관리와 관리적 원인 분석",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2009-9",
+    "report_date": "2009-12-28",
+    "sha256": "67e06071f2af223e884c59f1671e0724c893413bdd1319844706b73ad8a95cd8"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "업무 조건과 계획의 일치 여부를 어떤 기록으로 확인하는가?",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "원인평가가 설비와 관리 양측을 충분히 다루는지 어떻게 판단하는가?",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "유사사건 교훈이 실제 계획에 반영됐음을 무엇으로 검증하는가?",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "T01",
+      "hypothetical": true,
+      "brief": "가상 일반 제조업체에서 업무계획 문서 사이에 차이가 발견되었다. 팀은 검토 증거와 책임을 논의한다.",
+      "learning_ids": [
+        "L01"
+      ],
+      "facilitator_prompt": "5분: 문서 정합성, 업무 조건, 안전 중심 계획을 토론한다."
+    },
+    {
+      "id": "T02",
+      "hypothetical": true,
+      "brief": "가상 일반 제조업체에서 품질 문제가 발생했다. 팀은 기술 원인과 관리적 원인 및 이전 교훈을 검토한다.",
+      "learning_ids": [
+        "L02",
+        "L03"
+      ],
+      "facilitator_prompt": "5분: 원인평가의 충분성, 교훈 반영, 효과 확인을 토론한다."
+    }
+  ],
+  "actions": [
+    {
+      "id": "A01",
+      "level": "INDIVIDUAL",
+      "action": "업무 조건과 문서의 일치 여부를 검토한다.",
+      "verification": "계획·문서 검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A02",
+      "level": "INDIVIDUAL",
+      "action": "기술과 관리의 원인 분석 범위를 확인한다.",
+      "verification": "원인평가 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A03",
+      "level": "INDIVIDUAL",
+      "action": "이전 교훈의 반영 증거를 확인한다.",
+      "verification": "교훈 반영 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    },
+    {
+      "id": "A04",
+      "level": "TEAM",
+      "action": "안전 중심 공정관리 증거를 표본 평가한다.",
+      "verification": "공정·검토 기록",
+      "learning_ids": [
+        "L01"
+      ]
+    },
+    {
+      "id": "A05",
+      "level": "TEAM",
+      "action": "관리적 원인 분석의 충분성을 평가한다.",
+      "verification": "독립 검토 기록",
+      "learning_ids": [
+        "L02"
+      ]
+    },
+    {
+      "id": "A06",
+      "level": "TEAM",
+      "action": "시정조치 이행과 효과를 추적한다.",
+      "verification": "효과 확인 기록",
+      "learning_ids": [
+        "L03"
+      ]
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

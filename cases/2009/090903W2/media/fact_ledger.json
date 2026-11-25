@@ -1,0 +1,348 @@
+{
+  "schema_version": "2.0",
+  "event_id": "090903W2",
+  "source": {
+    "document_path": "source.md",
+    "report_number": "2009-9",
+    "report_date": "2009-12-28",
+    "sha256": "67e06071f2af223e884c59f1671e0724c893413bdd1319844706b73ad8a95cd8"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "OBSERVED_FACT",
+      "section": "요약; 1",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        3
+      ],
+      "statement": "2009년 9월 3일 월성2호기 계획예방정비 중 소외전원상실 사건이 발생했다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F02",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "요약; 1",
+      "printed_pages": [
+        1
+      ],
+      "pdf_pages": [
+        3
+      ],
+      "statement": "예비전원이 공급되어 발전소는 안전한 상태를 유지했다고 보고되었다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F03",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "요약; 3.나",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "예상하기 어려운 기기 특성과 작업관리 실패가 복합적으로 작용했다고 평가했다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F04",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나.1",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "점검원·감독자·운전원은 변경된 업무 초기조건을 재확인하지 않았다.",
+      "qualification": "변경된 기술 조건과 조작 방법은 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F05",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나.1",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "초기조건 재확인 실패는 직접원인이 아니라 중요한 기여원인으로 평가되었다.",
+      "qualification": "직접원인과 기여요소 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F06",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나.1",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "서로 양립하지 않는 업무 조건에 대한 작업 승인 문제가 지적되었다.",
+      "qualification": "구체적인 설비 구성 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F07",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나.1",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "작업오더·허가 관련 문서·공정도 간 일정 불일치가 지적되었다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F08",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나.1",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "공정도에 정비작업 초기조건이 반영되지 않았다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F09",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나.1",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "소요시간과 투입인력 중심의 계획예방정비 작업관리가 사건 유발조건으로 지적되었다.",
+      "qualification": "의도적인 안전경시나 개인 심리 단정 금지.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F10",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나.1",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "유사사건의 교훈 도출 및 반영 미흡이 지적되었다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F11",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나.1",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "계획예방정비 작업관리 절차가 명확하지 않았다고 평가되었다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F12",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나.1",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "발전소 상태에 대한 명확한 평가 미흡이 지적되었다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F13",
+      "kind": "OBSERVED_FACT",
+      "section": "3.가",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages": [
+        5
+      ],
+      "statement": "작업자들은 당일 계획 확인과 자체 브리핑을 실시했다.",
+      "qualification": "브리핑 실시가 충분한 확인을 보증하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F14",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나.2",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "조사팀은 설비의 불확실성을 운영 및 관리 측면에서 방어할 필요가 있다고 판단했다.",
+      "qualification": "정량적 설계 여유도 상실을 확정하지 않음.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F15",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "3.나.2",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "statement": "KINS는 부적절한 작업관리를 근본원인으로 판단했다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F16",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "3. 원전운영자 조치사항",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "운영자의 원인 분석은 하드웨어 측면에 집중했고 작업관리 원인 평가가 충분하지 않았다고 판단했다.",
+      "qualification": "운영자 별도 원문 미확보.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F17",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "관련 안전기능은 유지되었으며 일부 지연의 안전성 영향은 없었다고 평가되었다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F18",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "사건 중과 종료 후 발전소는 안전한 상태였다고 확인했다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F19",
+      "kind": "REPORTED_ASSESSMENT",
+      "section": "4; 6",
+      "printed_pages": [
+        5
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "statement": "종사자 방사선 피폭과 방사성물질 누출은 없었다고 확인했다.",
+      "qualification": "사건 당시 평가에 한정.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F20",
+      "kind": "OBSERVED_FACT",
+      "section": "5",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "운영자는 절차·공정·작업관리 및 설비 개선의 단기·장기 대책을 제시했다.",
+      "qualification": "계획과 이행을 구분.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F21",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "5",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "KINS는 제시 대책을 필요한 재발방지대책의 일부로 판단했다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F22",
+      "kind": "INVESTIGATOR_FINDING",
+      "section": "5",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "발전소 안전관점의 공정관리 방안 수립·이행 및 유사사건과 사업소별 작업관리실태 분석을 요구했다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F23",
+      "kind": "OBSERVED_FACT",
+      "section": "5",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "추가 대책은 전 발전소 대상으로 계획을 제출하도록 요구되었다.",
+      "qualification": "원문 평가 범위 내 요약; 기술적 세부사항 제외.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "F24",
+      "kind": "SOURCE_LIMITATION",
+      "section": "1; 5; 6",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "statement": "이 보고서는 당시 평가와 개선 요구를 제공하며 후속 이행 효과와 최종 INES는 확인하지 못했다.",
+      "qualification": "당시 사전안전성 확인대상 아님(인쇄면 2); 현재 효과 미확인.",
+      "review_status": "PENDING"
+    }
+  ]
+}

@@ -27,8 +27,8 @@
   ],
   "pending_pdf_count": 11,
   "pending_date_groups": 11,
-  "next_list_date": "2010-09-17",
-  "next_queue_id": "ROOT-028",
+  "next_list_date": "2009-09-03",
+  "next_queue_id": "ROOT-029",
   "items": [
     {
       "queue_order": 1,
@@ -507,11 +507,12 @@
           "size_bytes": 340760
         }
       ],
-      "status": "SOURCE_METADATA_MATCHED",
-      "event_id": null,
-      "verified_event_date": null,
+      "status": "DRAFT_REGISTERED",
+      "event_id": "090903W2",
+      "verified_event_date": "2009-09-03",
       "from_prior_table": true,
-      "notes": "원본 메타데이터 확인; 본문·사건 ID·판본·발생일 검증 대기."
+      "notes": "원본 9쪽, 24 사실, 3 학습, 40속성 10/19/11, 토론·실천 및 영상 43장면/270초 설계 등록. PPT/A4/정식 계약 및 전문가 검토 대기.",
+      "source_sha256": "67e06071f2af223e884c59f1671e0724c893413bdd1319844706b73ad8a95cd8"
     },
     {
       "queue_order": 30,
@@ -693,6 +694,12 @@
       "event_id": "110419K34",
       "task": "PPT_RENDER_AND_FORMAL_CONTRACT_QC",
       "status": "PENDING_DNS_BLOCKER"
+    },
+    {
+      "queue_id": "ROOT-028",
+      "event_id": "100917SK1",
+      "task": "PPT_A4_FORMAL_CONTRACT_QC",
+      "status": "PENDING"
     }
   ]
 }

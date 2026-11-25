@@ -1,0 +1,133 @@
+{
+  "schema_version": "2.0",
+  "event_id": "090903W2",
+  "analysis_version": "0.1.0",
+  "standard_version": "1.0",
+  "core_attribute_codes": [
+    "WP1",
+    "WP3",
+    "DM1",
+    "DM2",
+    "QA4",
+    "WP2",
+    "PI2",
+    "CL1",
+    "WP4",
+    "PA1"
+  ],
+  "additional_attribute_codes": [
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "CO1",
+    "CO2",
+    "CO3",
+    "LA1",
+    "LA2",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM3",
+    "CL2",
+    "CL4",
+    "PI1",
+    "PI3"
+  ],
+  "entries": [
+    {
+      "id": "L01",
+      "message": "안전 중심의 공정관리",
+      "objective": "일정과 인력 외에도 업무 조건·문서·승인·안전성 평가 증거를 확인한다.",
+      "cause_ids": [
+        "R1"
+      ],
+      "fact_ids": [
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F11",
+        "F12",
+        "F13",
+        "F22"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "DM1",
+        "DM2",
+        "QA4",
+        "WP4",
+        "PA1"
+      ],
+      "principle_codes": [
+        "WP",
+        "DM",
+        "QA",
+        "PA"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육적 후보; 전문가 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L02",
+      "message": "기술적 원인과 관리적 원인 구분",
+      "objective": "설비의 불확실성을 관리로 방어하고 원인평가의 충분성을 확인한다.",
+      "cause_ids": [
+        "R2"
+      ],
+      "fact_ids": [
+        "F03",
+        "F14",
+        "F15",
+        "F16",
+        "F21"
+      ],
+      "attribute_codes": [
+        "WP2",
+        "PI2"
+      ],
+      "principle_codes": [
+        "WP",
+        "PI"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육적 후보; 전문가 판정 아님.",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "L03",
+      "message": "경험에서 실질적 개선으로",
+      "objective": "유사사건 교훈의 반영과 개선조치 효과를 검증한다.",
+      "cause_ids": [
+        "R3"
+      ],
+      "fact_ids": [
+        "F10",
+        "F20",
+        "F21",
+        "F22",
+        "F23",
+        "F24"
+      ],
+      "attribute_codes": [
+        "CL1"
+      ],
+      "principle_codes": [
+        "CL"
+      ],
+      "kind": "EDUCATIONAL_INTERPRETATION",
+      "report_section": "3.4",
+      "qualification": "교육적 후보; 전문가 판정 아님.",
+      "review_status": "PENDING"
+    }
+  ]
+}

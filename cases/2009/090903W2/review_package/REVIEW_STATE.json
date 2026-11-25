@@ -1,0 +1,24 @@
+{
+  "event_id": "090903W2",
+  "analysis_version": "0.1.0",
+  "source_sha256": "67e06071f2af223e884c59f1671e0724c893413bdd1319844706b73ad8a95cd8",
+  "source_pages": 9,
+  "source_render": "GENERATED_CONTACT_SHEET",
+  "source_queue_id": "ROOT-029",
+  "report_status": "DRAFT",
+  "expert_content_review": "PENDING",
+  "expert_attribute_review": "USER_SEPARATE_REVIEW_PENDING",
+  "independent_review": "PENDING",
+  "can_ship": false,
+  "media_status": "PRODUCTION_DESIGN_DRAFT",
+  "ppt_status": "PENDING",
+  "paid_generation_calls": 0,
+  "external_submissions": 0,
+  "report_a4_pages": null,
+  "author_technical_qc": "PENDING",
+  "contract_checks": {
+    "passed": 0,
+    "total": 14
+  },
+  "next_step": "CLASSROOM_PPT_AND_OUTPUT_QC"
+}

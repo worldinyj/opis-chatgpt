@@ -1,0 +1,772 @@
+{
+  "schema_version": "2.0",
+  "event_id": "090903W2",
+  "artifact_id": "SC-090903W2",
+  "artifact_type": "SAFETY_CULTURE_LEARNING",
+  "title": "안전 중심 공정관리",
+  "revision": 1,
+  "status": "SCRIPT_DRAFT",
+  "source": {
+    "document_path": "../source.md",
+    "report_number": "2009-9",
+    "report_date": "2009-12-28",
+    "sha256": "67e06071f2af223e884c59f1671e0724c893413bdd1319844706b73ad8a95cd8"
+  },
+  "provenance": {
+    "analysis_path": "../../report.md",
+    "analysis_version": "0.1.0",
+    "standard_version": "1.0",
+    "fact_ledger": "../fact_ledger.json",
+    "learning_ledger": "../learning_ledger.json",
+    "upstream_artifact_id": null
+  },
+  "profile": {
+    "aspect_ratio": "16:9",
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "language": "ko",
+    "style": "controlled graphic + hypothetical 3D brick miniature"
+  },
+  "timing": {
+    "target_seconds": 120
+  },
+  "learning_objectives": [
+    "일정과 인력 외에도 업무 조건·문서·승인·안전성 평가 증거를 확인한다.",
+    "설비의 불확실성을 관리로 방어하고 원인평가의 충분성을 확인한다.",
+    "유사사건 교훈의 반영과 개선조치 효과를 검증한다."
+  ],
+  "references": [
+    {
+      "id": "LOC-A",
+      "kind": "LOCATION",
+      "description": "가상 일반 제조업체 교육회의실",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-A",
+      "kind": "CHARACTER",
+      "description": "가상 담당자, 청회색 복장",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "CHAR-B",
+      "kind": "CHARACTER",
+      "description": "가상 검토자, 짙은 청색 복장",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "OBJ-A",
+      "kind": "OTHER",
+      "description": "빈 문서 카드, 일반 기록철",
+      "path": null,
+      "sha256": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "설비의 불확실성과 작업관리",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "TITLE",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "설비의 불확실성을 방어하는 것은 체계적인 작업관리입니다.",
+      "overlay": [
+        "설비의 불확실성과 작업관리",
+        "교육용 초안 · 전문가 미승인"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "OPENING",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S02",
+      "title": "변경 조건",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F04",
+        "F05"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "변경된 업무 조건의 확인 미흡이 지적됐습니다.",
+      "overlay": [
+        "변경 조건",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S03",
+      "title": "문서와 공정",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F07",
+        "F09"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "문서 불일치와 시간 중심 관리가 지적됐습니다.",
+      "overlay": [
+        "문서와 공정",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S04",
+      "title": "안전 중심 공정",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "DM",
+        "QA",
+        "PA"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "DM1",
+        "DM2",
+        "QA4",
+        "WP4",
+        "PA1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "업무 조건과 문서, 안전성 판단을 확인합니다.",
+      "overlay": [
+        "안전 중심 공정",
+        "교육용 초안 · 전문가 미승인"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S05",
+      "title": "가상 업무 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01"
+      ],
+      "principle_codes": [
+        "WP",
+        "DM",
+        "QA",
+        "PA"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "DM1",
+        "DM2",
+        "QA4",
+        "WP4",
+        "PA1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 일반 제조업체 교육회의실, 중립적 3D 브릭 직원 두 명과 빈 문서. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "가상 팀은 업무계획과 검토 기록을 살펴봅니다.",
+      "overlay": [
+        "가상 업무 검토",
+        "가상 교육 상황 · 실제 사건 아님"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CONTEXT_SHIFT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S06",
+      "title": "복합 원인",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F03",
+        "F14"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "예상하기 어려운 기기 특성과 관리 실패가 결합됐습니다.",
+      "overlay": [
+        "복합 원인",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S07",
+      "title": "원인평가",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F15",
+        "F16"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "관리적 원인 분석이 충분하지 않았습니다.",
+      "overlay": [
+        "원인평가",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S08",
+      "title": "관리적 근본원인",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "WP",
+        "PI"
+      ],
+      "attribute_codes": [
+        "WP2",
+        "PI2"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "기술적 원인과 관리적 원인을 구분해 평가합니다.",
+      "overlay": [
+        "관리적 근본원인",
+        "교육용 초안 · 전문가 미승인"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S09",
+      "title": "가상 원인 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L02"
+      ],
+      "principle_codes": [
+        "WP",
+        "PI"
+      ],
+      "attribute_codes": [
+        "WP2",
+        "PI2"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 일반 제조업체 교육회의실, 중립적 3D 브릭 직원 두 명과 빈 문서. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "가상 팀은 원인 분석의 범위를 함께 검토합니다.",
+      "overlay": [
+        "가상 원인 검토",
+        "가상 교육 상황 · 실제 사건 아님"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CONTEXT_SHIFT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S10",
+      "title": "이전 경험",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F10"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "유사사건의 교훈 반영이 미흡했습니다.",
+      "overlay": [
+        "이전 경험",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S11",
+      "title": "대책 요구",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "FACT",
+      "fact_ids": [
+        "F21",
+        "F22",
+        "F23"
+      ],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "전 발전소 차원의 개선이 요구됐습니다.",
+      "overlay": [
+        "대책 요구",
+        "공식 조사결과"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S12",
+      "title": "실질적 개선",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "INTERPRETATION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "CL"
+      ],
+      "attribute_codes": [
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "교훈 반영과 실제 효과를 확인해야 합니다.",
+      "overlay": [
+        "실질적 개선",
+        "교육용 초안 · 전문가 미승인"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S13",
+      "title": "가상 교훈 검토",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L03"
+      ],
+      "principle_codes": [
+        "CL"
+      ],
+      "attribute_codes": [
+        "CL1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 일반 제조업체 교육회의실, 중립적 3D 브릭 직원 두 명과 빈 문서. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "가상 팀은 개선 기록을 함께 살펴봅니다.",
+      "overlay": [
+        "가상 교훈 검토",
+        "가상 교육 상황 · 실제 사건 아님"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CONTEXT_SHIFT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S14",
+      "title": "핵심 후보 10개",
+      "duration_seconds": 18,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "ATTRIBUTE_SUMMARY",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "WP",
+        "DM",
+        "QA",
+        "PA",
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "DM1",
+        "DM2",
+        "QA4",
+        "WP4",
+        "PA1",
+        "WP2",
+        "PI2",
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "세 학습 영역에서 열 개 속성 후보를 검토합니다.",
+      "overlay": [
+        "핵심 후보 10개",
+        "교육용 초안 · 전문가 미승인",
+        "WP1 · WP3 · DM1 · DM2",
+        "QA4 · WP4 · PA1",
+        "WP2 · PI2 · CL1"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S15",
+      "title": "가상 종합 토론",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "HYPOTHETICAL",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "WP",
+        "DM",
+        "QA",
+        "PA",
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "DM1",
+        "DM2",
+        "QA4",
+        "WP4",
+        "PA1",
+        "WP2",
+        "PI2",
+        "CL1"
+      ],
+      "render_mode": "STILL_MOTION",
+      "generation_route": "GEMINI_TASKS_BATCH",
+      "location_id": "LOC-A",
+      "reference_ids": [
+        "LOC-A",
+        "CHAR-A",
+        "CHAR-B",
+        "OBJ-A"
+      ],
+      "visual_brief": "가상 일반 제조업체 교육회의실, 중립적 3D 브릭 직원 두 명과 빈 문서. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "가상 팀은 세 영역의 증거를 검토합니다.",
+      "overlay": [
+        "가상 종합 토론",
+        "가상 교육 상황 · 실제 사건 아님"
+      ],
+      "input_mode": null,
+      "motion_plan": {
+        "start_scale": 1,
+        "end_scale": 1.06,
+        "pan": "NONE"
+      },
+      "transition": "CONTEXT_SHIFT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S16",
+      "title": "개인 실천",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "REFLECTION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "WP",
+        "DM",
+        "QA",
+        "PA",
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "DM1",
+        "DM2",
+        "QA4",
+        "WP4",
+        "PA1",
+        "WP2",
+        "PI2",
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "내 업무의 확인 근거는 충분한가요?",
+      "overlay": [
+        "개인 실천",
+        "교육용 초안 · 전문가 미승인"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S17",
+      "title": "팀 실천",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "REFLECTION",
+      "fact_ids": [],
+      "learning_ids": [
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "principle_codes": [
+        "WP",
+        "DM",
+        "QA",
+        "PA",
+        "PI",
+        "CL"
+      ],
+      "attribute_codes": [
+        "WP1",
+        "WP3",
+        "DM1",
+        "DM2",
+        "QA4",
+        "WP4",
+        "PA1",
+        "WP2",
+        "PI2",
+        "CL1"
+      ],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "팀의 개선 효과를 어떤 증거로 확인하나요?",
+      "overlay": [
+        "팀 실천",
+        "교육용 초안 · 전문가 미승인"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    },
+    {
+      "id": "S18",
+      "title": "검토 상태",
+      "duration_seconds": 6,
+      "overlap_to_next_seconds": 0,
+      "scene_type": "OUTRO",
+      "fact_ids": [],
+      "learning_ids": [],
+      "principle_codes": [],
+      "attribute_codes": [],
+      "render_mode": "CONTROLLED_GRAPHIC",
+      "generation_route": "LOCAL_EDIT",
+      "location_id": null,
+      "reference_ids": [],
+      "visual_brief": "통제형 교육 그래픽, 주제 카드. 실제 원전·설비·기술도식·조작 방법·기술적 사건 전개 재현 없음.",
+      "narration": "교육용 후보이며 전문가 검토가 필요합니다.",
+      "overlay": [
+        "검토 상태",
+        "교육용 초안 · 전문가 미승인"
+      ],
+      "input_mode": null,
+      "motion_plan": null,
+      "transition": "CUT",
+      "attempts": [],
+      "accepted_take": null,
+      "review_status": "PENDING"
+    }
+  ],
+  "approvals": {
+    "content_review": "PENDING",
+    "asset_review": "PENDING",
+    "final_qc": "PENDING",
+    "expert_approved": false,
+    "reviewer": null,
+    "review_record": null
+  }
+}

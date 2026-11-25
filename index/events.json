@@ -659,5 +659,30 @@
       "QA4"
     ],
     "approved_attributes": []
+  },
+  {
+    "event_id": "090903W2",
+    "event_date": "2009-09-03",
+    "report_date": "2009-12-28",
+    "plant": "월성2호기",
+    "title": "월성2호기 계획예방정비 기간 중 역전력계전기 오작동에 의한 소외전원상실 및 예비디젤발전기 기동",
+    "status": "DRAFT",
+    "approved": false,
+    "preliminary_ines": null,
+    "final_ines": null,
+    "path": "cases/2009/090903W2/report.md",
+    "candidate_attributes": [
+      "WP1",
+      "WP3",
+      "DM1",
+      "DM2",
+      "QA4",
+      "WP2",
+      "PI2",
+      "CL1",
+      "WP4",
+      "PA1"
+    ],
+    "approved_attributes": []
   }
 ]

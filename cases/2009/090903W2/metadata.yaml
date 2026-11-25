@@ -1,0 +1,32 @@
+schema_version: "1.0"
+event_id: "090903W2"
+report_number: "2009-9"
+title: "월성2호기 계획예방정비 기간 중 역전력계전기 오작동에 의한 소외전원상실 및 예비디젤발전기 기동"
+event_date: "2009-09-03"
+report_date: "2009-12-28"
+plant:
+  site: 월성
+  unit: 2
+source:
+  organization: KINS
+  system: OPIS
+  opis_popup_id: null
+  document_url: null
+  page_count: 9
+  sha256: 67e06071f2af223e884c59f1671e0724c893413bdd1319844706b73ad8a95cd8
+  source_size_bytes: 340760
+operating_mode: "계획예방정비"
+preliminary_ines: null
+final_ines: null
+analysis:
+  version: "0.1.0"
+  standard_version: "1.0"
+  status: DRAFT
+  approved: false
+  candidate_attributes: [WP1, WP3, DM1, DM2, QA4, WP2, PI2, CL1, WP4, PA1]
+  additional_review_attributes: [PA2, PA3, QA1, QA2, QA3, CO1, CO2, CO3, LA1, LA2, LA4, LA5, LA6, LA7, DM3, CL2, CL4, PI1, PI3]
+  insufficient_or_low_relevance_attributes: [CO4, LA3, LA8, WE1, WE2, WE3, WE4, CL3, PI4, RC1, RC2]
+  approved_attributes: []
+  qc_score: null
+  page_count_verified: true
+  a4_pages: null
