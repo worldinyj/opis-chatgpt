@@ -1,0 +1,129 @@
+{
+  "event_id": "250919W2",
+  "queue_id": "ROOT-038",
+  "source_commit": "e1d10251f13ddc5ea9133865117c4b95490c2b66",
+  "standard_blob": "d61c9bd73f2ce5eaa14d8ecb13e3df57b9742a9d",
+  "standard_path": "standards/safety_culture_40.md",
+  "fact_ledger_blob": "73f31a815e836b58e78808ba7655edcde947937d",
+  "learning_ledger_blob": "a8aa61b8c35a367e3a8d33d3bde443ec8cd5c492",
+  "scope": "Existing canonical V0.1.1 report, ledgers, attribute review, counter-review and prior Drive text; no new original PDF image or binary verification; author review only.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F02",
+        "F03"
+      ],
+      "rationale": "작업계획 변경·승인·확인 및 수행 프로세스 미흡; 제도 전반 부재 아님.",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F02"
+      ],
+      "rationale": "사전 검토 변경 내용이 승인 문서에 미반영; 문서 전반 일반화 금지.",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F02",
+        "F03"
+      ],
+      "rationale": "승인 관리 및 명시된 비상조치계획 이행 미흡; 고의성 판정 아님.",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F02",
+        "F03"
+      ],
+      "rationale": "승인본 없는 회의와 대응계획 공통 이해 미흡; 은폐·소통 문화 일반화 금지.",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F02",
+        "F03",
+        "F12"
+      ],
+      "rationale": "실제 작업 중단은 확인됨. 재개 전 위험평가 실패가 별도 입증되지 않아 후속 확인·재평가 교육 가설로 관리; 전문가 재분류 가능.",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA4",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F02",
+        "F03"
+      ],
+      "rationale": "잠재 위험 대비 행동과 WP1·QA2 중복 여부 확인; 심리적 자만 단정 금지.",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F02"
+      ],
+      "rationale": "확인 방법의 부적절성과 체계적 의사결정 프로세스 자체의 실패를 구분.",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F02",
+        "F03",
+        "F12"
+      ],
+      "rationale": "당시 정보·대안·판단 기준 및 긍정적 중단 행동을 고려; 보수성 독립 근거 필요.",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04"
+      ],
+      "rationale": "알려진 이상에 대한 CAP 통지 미이행에 한정; CAP 전체의 문제 도출 용이성 결함 아님.",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04"
+      ],
+      "rationale": "과거 정비 이후 원인분석 미이행; 중요도 평가 세부 기록 미확인.",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04"
+      ],
+      "rationale": "반복 이상에 대한 장기간 후속조치 미흡; 개별 조치 및 효과 확인 범위 분리.",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04"
+      ],
+      "rationale": "수집된 해외 경험의 전파·적용 필요성 검토 미흡; 수집 자체는 인정.",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}
