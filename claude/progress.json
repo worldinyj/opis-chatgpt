@@ -119,7 +119,7 @@
         "claude/cases/2024/240319W3/v1/validation.md"
       ],
       "zip": "CLAUDE_ROOT-004_240319W3_v1.zip",
-      "github_commit_sha": null,
+      "github_commit_sha": "d81df164246be662ebc0f086d6ea0d1e350a992d",
       "checks": "Original validation.md; intake in INTAKE_STATUS.json.",
       "constraints": [
         "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
@@ -128,8 +128,7 @@
         "붙임 1~3·10·13·15·16 그림·표 미확인, 비공개 구간 미복원",
         "리더십 계열 속성 다수 N(보고서가 설비·절차·소방 대응 중심)"
       ],
-      "integration_status": "HOLD",
-      "commit_reference_note": "Commit recorded in follow-up."
+      "integration_status": "HOLD"
     }
   ],
   "next_queue_id": "ROOT-006",
