@@ -1,0 +1,1580 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-002",
+  "event_id": "240908HB6",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2024-12-27_한빛 6호기 기체방사성물질 배출운전 중 격납건물.pdf",
+    "report_number": "2024-13",
+    "report_date": "2025-07-07",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 요약, 1~4장, 붙임 1~13; 인쇄쪽 1~40 범위). 도면·결선도·기록지·그래프 이미지는 미확인. 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-002 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-002의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "한빛6호기(OPR-1000)에서 2024.9.8~12.10 동안 격납건물 배기유로를 통한 기체방사성물질 배출운전 8회가 격납건물 배기감시기(RE-037)의 연속감시 없이 수행되었다. RE-037 입구밸브(V21)가 설계변경 과정의 전원케이블 오결선으로 차단된 상태였기 때문이다. 원전운영자는 2024.12.24 이를 확인했고 2024.12.27 보고대상사건(계획 또는 통제되지 않은 방사성물질 방출)으로 보고했다(보고서 2024-13호, 발행 2025-07-07).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1,
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약과 보고"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "개요와 보고대상 해당"
+        }
+      ],
+      "limitation": "표지는 사건발견일을 2024.12.27로, 발생일시를 2024.9.8 11:04로 표기한다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "2024.8.20~9.6 제15차 계획예방정비 중 주기적안전성평가(PSR) 후속조치로 RE-037을 포함한 방사선감시기 설계변경(시료채취 노즐·배관 개선, 스키드 부품 교체·이설 등)을 수행했고, 이 과정에서 입구밸브(V21)를 포함한 전동기구동밸브가 교체되었다. 작업은 오결선 여부가 확인되지 않은 상태로 완료되었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 기간과 내용"
+        },
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 완료 시 V21 오결선 상태"
+        },
+        {
+          "section": "3.5 관련 요건 및 보고대상사건 판단경위 검토",
+          "printed_pages": [
+            18
+          ],
+          "pdf_pages": [],
+          "summary": "오결선 여부 미확인 상태로 작업 완료"
+        }
+      ],
+      "limitation": "교체 밸브의 공급사·형식은 비공개 처리되어 확인하지 못했다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "2024.9.8~12.10 격납건물 배기유로를 통한 배출운전 8회가 수행되었다: 정비 중 2회(9.8 ECCS 기기실, 9.9 격납건물 고체적 배기, 정주기시험), 정상운전 중 6회(10.8, 10.18, 11.8, 11.15, 11.25, 12.10, 격납건물 압력 유지 목적). 8회 모두 RE-037의 입구밸브가 차단되어 해당 감시기로 배기유로의 방사능이 감시되지 못했다. 배출 전 시료분석에서는 입자·방사성옥소가 검출되지 않고 41Ar과 삼중수소만 검출되었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "배출운전 8회와 목적"
+        },
+        {
+          "section": "3.4 배출운전 이력 및 방사선영향 평가",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "배출운전 일람과 핵종"
+        }
+      ],
+      "limitation": "표지 요약은 8회의 범위를 9.8~12.10으로, 개요는 9.6~12.24로 기술한다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "2024.12.20 보건물리실 근무자가 계획예방정비 이후 격납건물 배기 운전 중 RE-037 지시값에 변화가 없음을 확인하고 밸브점검 통지를 발행했다. 원전운영자는 RMS OIU의 최근 기록을 확인하며 배출운전 시 RE-037 기록값 추이가 변하지 않음을 인지하고 설비이상 통지로 변경했다. 12.24 16:00경 점검 과정에서 V21 오결선을 확인했고 19:30경 재결선 조치를 완료했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "12.20 통지 발행과 12.24 확인·재결선"
+        },
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "통지 발행 경위와 OIU 추이 확인"
+        },
+        {
+          "section": "3.5 관련 요건 및 보고대상사건 판단경위 검토",
+          "printed_pages": [
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "지시값 이상 확인에 따른 점검요청과 결선오류 확인"
+        }
+      ],
+      "limitation": "3.2.1절은 현장확인·재결선 시각을 12.26 16:00경으로 기술하고 2.2절과 3.1절은 12.24로 기술해 보고서 내 날짜 표기가 다르며 이유는 설명되어 있지 않다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "오결선의 직접 경위: 교체된 신규 밸브의 전원케이블 연결단자번호가 공급사 도면에 반영되지 않은 채(공급사로부터 수정 도면을 제공받지 못함) 교체 전 밸브의 도면대로 시공해 Normal 신호에서 Close 신호가 발생했다. 단자대 전압 실측(Open 단자 예상 120 Vac/측정 0 Vac, Close 단자 예상 0/측정 120)으로 오결선이 확인되었다. KINS는 이 원인분석이 타당하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1 RE-037 입구밸브(V21) 오결선 경위 및 원인분석",
+          "printed_pages": [
+            6,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "신규 밸브 연결단자번호 미반영 도면과 KINS 판단"
+        },
+        {
+          "section": "붙임 4 밸브 결선상태 점검 및 공급사 도면 검토",
+          "printed_pages": [
+            28,
+            29,
+            30
+          ],
+          "pdf_pages": [],
+          "summary": "전압 실측과 연계도면 불일치"
+        }
+      ],
+      "limitation": "밸브 도면·결선 그림은 텍스트 추출이 깨져 직접 확인하지 못했다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "공급사 도면에는 신규 밸브 연결단자번호 미반영 외에 연계도면 간 Normal/Accident 신호 단자번호가 불일치하는 오류가 있었다. 설계변경 이전에는 입구밸브가 신호별 기능에 맞게 교차결선되어 있어 이 오류가 운전에 영향을 주지 않은 것으로 파악되었다. 원전운영자는 시운전 종합시험 통과, 과거 배출운전 시 지시값 증가 기록, 정주기시험·예방점검 이력으로 설계변경 이전 감시기능은 정상이었다고 평가했고 KINS가 적절하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1 RE-037 입구밸브(V21) 오결선 경위 및 원인분석",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "도면 오류 2건과 설계변경 이전 운영 적절성"
+        },
+        {
+          "section": "붙임 4 밸브 결선상태 점검 및 공급사 도면 검토",
+          "printed_pages": [
+            29
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 이전 교차결선 상태"
+        }
+      ],
+      "limitation": "원본 도면은 직접 확인하지 못했다."
+    },
+    {
+      "id": "CLAUDE-F07",
+      "summary": "설계변경 절차의 미흡: 1) 신규 밸브 구매 시 작성한 기술규격서에 공급사 변경문서(케이블 결선, 연계도면) 제출 요건이 없어 공급사가 관련 도면을 제출하지 않았고 시공 시 기존과 변경된 점을 알지 못했다. 2) 시공 상태 확인 단계에 변경된 기기의 성능(개폐상태, 결선점검 등)을 종합성능시험 전에 사전 확인하는 절차가 없었다. KINS는 기술규격서 작성 미흡이 결선 오류의 원인이라는 원전운영자 분석이 적절하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            9,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "기술규격서 제출요건 부재와 KINS 판단"
+        },
+        {
+          "section": "붙임 5 격납건물 배기감시기 설계변경 수행 절차 검토",
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 업무 흐름도 상의 미흡사항"
+        }
+      ],
+      "limitation": "구매 절차서 번호는 비공개이다."
+    },
+    {
+      "id": "CLAUDE-F08",
+      "summary": "설계변경 종합성능시험이 수행되지 않았다. 원전운영자는 변경 내용이 방사선감시기 스키드 위치 이설과 배관 규격 변경(밸브 교체 포함) 등 물리적 형상의 변경뿐이라고 판단하여 별도의 종합시험 없이 기존 정주기시험으로 대체했으나 해당 정주기시험에는 스키드 설비(펌프, 밸브)의 동작 시험이 포함되어 있지 않았다. 설계변경 종합시험 절차서에는 '필요시' 수행하도록만 되어 있어 수행 여부 판단 기준이 불분명했고, 시험 주관부서가 책임사항 절과 본문에서 다르게 기재되어 수행주체도 불분명했다. KINS는 시공 이후 종합성능시험 미수행 등으로 오결선을 식별하지 못했다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            9,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "종합성능시험 미수행의 판단과 KINS 판단"
+        },
+        {
+          "section": "붙임 5 격납건물 배기감시기 설계변경 수행 절차 검토",
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "판단기준·수행주체 불명확 등 절차서 미흡사항"
+        },
+        {
+          "section": "3.3 사건 발생이후 원전운영자 조치사항 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "RE-037/037A 부품 변경 검토 미흡으로 시험 미실시"
+        }
+      ],
+      "limitation": "절차서 번호와 주관부서명은 비공개 처리되어 있다. 붙임 5의 문서 구조 그림은 텍스트 추출이 깨져 있다."
+    },
+    {
+      "id": "CLAUDE-F09",
+      "summary": "RE-037 초기 기동 시 원전운영자는 절차서에 따라 공급사 도면으로 현장 밸브 배열을 확인했으나, 제작사 매뉴얼의 수평배관 기준 밸브 개방/차단 위치 그림을 수직배관 밸브에 적용해 차단 상태인 V21을 개방된 것으로 잘못 인지했다. 밸브 각도표시기(0 도 닫힘, 90 도 열림)로 상태를 판단할 수 있었으나 이 정보를 간과했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "매뉴얼 그림의 오적용과 각도표시기 간과"
+        }
+      ],
+      "limitation": "해당 확인을 수행한 개인·부서와 판단 경위는 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F10",
+      "summary": "8회 배출운전에서 V21이 차단되고 우회밸브 V20이 개방된 상태에서도 샘플펌프 기동 시 우회유로로 유량이 형성되어 입구측 유량계가 정상 지시했고, 원전운영자는 RE-037이 정상 작동한다고 판단했다. 배출운전 중 V21·V20 상태를 확인하는 절차가 없었고, 30분 간격으로 RE-039/040과 RE-037 값을 기록하는 절차는 있으나 기록값의 변화량으로 정상 동작을 검토하는 절차는 없었다. 배출운전 절차서에는 감시기로의 유로 형성 여부와 입구밸브 상태를 확인하는 절차가 부재했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "유량계 지시에 따른 정상 판단과 밸브 상태 확인 절차 부재"
+        },
+        {
+          "section": "붙임 6 배출운전 개요 및 RE-037 감시 관련 절차 검토",
+          "printed_pages": [
+            32,
+            33
+          ],
+          "pdf_pages": [],
+          "summary": "배출운전 절차서 검토 결과"
+        }
+      ],
+      "limitation": "절차서 번호와 세부 문구는 비공개 처리되어 있다."
+    },
+    {
+      "id": "CLAUDE-F11",
+      "summary": "KINS는 원전운영자의 분석(기술규격서 작성 미흡, 시공 후 종합성능시험 미수행, 초기 기동 시 밸브 배열 확인 미흡으로 오결선을 식별하지 못함)이 적절하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "KINS 판단"
+        },
+        {
+          "section": "4. 결론",
+          "printed_pages": [
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "결론의 원인 정리"
+        }
+      ],
+      "limitation": "KINS가 독립적으로 수행한 면담의 상세는 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F12",
+      "summary": "확대점검에서 교체된 다른 밸브도 같은 문제가 확인되었다. 우회밸브 V20도 V21과 동일하게 오결선되어 재결선했고, RE-037A(고선량 감시)의 신규 입구밸브 V24·V25는 공급사 도면(연결단자 5개)과 신규 밸브 매뉴얼(4개)이 달라 인터락 단자가 없어 CLOSE 동작이 불가했으며 사건 당시 차단된 상태로 유지되었다.",
+      "kind": "OPERATOR_STATEMENT",
+      "source_refs": [
+        {
+          "section": "3.2.3 유사 설비 및 원인 확대점검 결과",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "V20 오결선과 V24·V25의 인터락 단자 부재"
+        },
+        {
+          "section": "붙임 7 RE-037A 운영상태",
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [],
+          "summary": "신규밸브 OPEN만 가능했던 운영상태"
+        }
+      ],
+      "limitation": "원전운영자 확대점검 결과를 KINS가 검토한 내용이며 사건 당시 사고 범위 감시 채널 유로의 실제 상태는 붙임 도면으로 직접 확인하지 못했다."
+    },
+    {
+      "id": "CLAUDE-F13",
+      "summary": "설계사 기술검토로 공급사 도면에서 총 14건의 오류(단순오타 3, 명칭·문구 5, 도면 미반영 3, 결선 표기 1, 운전방법 2)가 확인되었으나 감시기 기능과 정상운영에 영향이 없다고 평가되었다. 동일 공급사 설비를 점검한 결과 한빛3발전소는 특이사항이 없었고 다른 유사원전(비공개)에서는 한빛6호기와 동일한 도면 오류(RE-037 연계도면 단자 불일치)가 확인되었으나 현장 케이블 연결은 정상이었다. 설계변경 대상 방사선감시기 7대와 동일공급사 RMS 117대의 점검에서는 RE-037/037A 외 이상이 없었다.",
+      "kind": "OPERATOR_STATEMENT",
+      "source_refs": [
+        {
+          "section": "3.2.3 유사 설비 및 원인 확대점검 결과",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "도면 오류 14건과 동일공급사·유사원전 확대점검"
+        },
+        {
+          "section": "3.8 재발방지대책 적절성 평가",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 대상 7대·117대 점검 결과"
+        },
+        {
+          "section": "붙임 8 공급사 도면 기재내용 확대 점검 결과",
+          "printed_pages": [
+            35
+          ],
+          "pdf_pages": [],
+          "summary": "도면 오류 분류와 영향 검토"
+        }
+      ],
+      "limitation": "유사원전과 공급사명은 비공개이며 붙임 10의 표는 텍스트가 깨져 있다."
+    },
+    {
+      "id": "CLAUDE-F14",
+      "summary": "사건 후 조치: V21·V20 재결선과 기능시험(2024.12.29), 채널 점검과 연동시험(12.29~12.30), 저체적 배기 운전으로 RE-037이 배출유로를 감시함을 확인(12.29)했다. RE-037A는 임시 결선변경으로 OPEN을 정상화하고 CLOSE는 운전원 수동 조작 절차를 보완했으며 이후 도면 수정으로 OPEN/CLOSE를 모두 정상화했다. 종합성능시험을 수행했고 KINS는 2025.6.13 시험에 입회해 오결선·추가 도면 오류가 정상화되고 감시기능이 유지되고 있음을 확인했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.3 사건 발생이후 원전운영자 조치사항 검토",
+          "printed_pages": [
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "재결선·시험·RE-037A 조치와 KINS 입회 확인"
+        }
+      ],
+      "limitation": "KINS 입회 확인 범위의 세부는 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F15",
+      "summary": "방사선 영향은 미미한 것으로 평가되었다: 8회 배출운전 중 41Ar과 삼중수소만 배출(총 41Ar 1.22E-03 TBq, 삼중수소 4.22E-04 TBq), 제한구역경계 배출제한계수 합 최대 0.00406(약 1/246), 유효선량 3.92x10^-7 mSv(부지 기준치 0.25 mSv/년 대비 0.0001566 %). 배출 중 격납건물 방사선감시기(RE-039/040)와 1차보조건물 배기유로 감시기(RE-017)로 감시했으며 지시값에 특이사항이 없었다. 설계변경 전 최근 3년의 기체배출허가서에서 사전 평가량과 실제 배출량을 비교한 결과 배출 후 평가량은 승인된 값 미만이었다. 소외 환경방사선량률과 안전기능에도 특이사항이 없었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.4 배출운전 이력 및 방사선영향 평가",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "핵종·제한계수·선량 평가와 허가서 비교"
+        },
+        {
+          "section": "3.5 관련 요건 및 보고대상사건 판단경위 검토",
+          "printed_pages": [
+            18
+          ],
+          "pdf_pages": [],
+          "summary": "RE-039/040·RE-017에 의한 감시"
+        },
+        {
+          "section": "3.6 발전소 계통·기기 거동 및 안전성 영향",
+          "printed_pages": [
+            19,
+            20
+          ],
+          "pdf_pages": [],
+          "summary": "계통·기기 거동과 안전기능 유지"
+        }
+      ],
+      "limitation": "수치는 원전운영자 평가를 KINS가 검토한 결과이며 이 분석에서 재계산하지 않았다. 배출 중 RE-037 필터 포집 핵종을 이용한 배출방사능 평가는 수행되지 않았다고 기술된다."
+    },
+    {
+      "id": "CLAUDE-F16",
+      "summary": "원전운영자는 12.24 오결선을 확인했을 때 RE-037이 차단된 상태로 운전되었으나 RE-039/040이 RE-037보다 낮은 설정치로 운영되어 배출운전이 '계획되고 통제된 상태'였다고 판단해 보고대상사건에 해당하지 않는다고 결정했다. 같은 날 16:13경 지역사무소에 구두로 설명했고 12.26 10:00경 대면 보고했다. 규제기관에 설명하는 과정에서 관련 규정을 재검토하여 12.27 14:00경 보고대상사건으로 최종 판단했고 14:17경 원자력안전위원회에 구두 보고했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.5 관련 요건 및 보고대상사건 판단경위 검토",
+          "printed_pages": [
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "보고 경위와 초기 비해당 판단 및 재검토"
+        }
+      ],
+      "limitation": "KINS는 초기 비해당 판단의 적절성을 평가하지 않고 경위를 확인한 것으로 기술했다. 재검토에서 판단이 바뀐 근거 규정의 세부는 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F17",
+      "summary": "KINS는 기초 INES 등급을 0등급으로 사전 검토했다(최종 등급은 추후 원전사건등급평가위원회가 결정).",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.7 사건등급(INES) 관련사항 검토",
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [],
+          "summary": "기초 INES 0등급 사전 검토"
+        }
+      ],
+      "limitation": "이 분석은 INES 등급을 판단하지 않는다."
+    },
+    {
+      "id": "CLAUDE-F18",
+      "summary": "원전운영자가 완료한 재발방지대책 8건: 1) RE-037/037A 밸브 재결선과 종합성능시험, 2) RE-037/037A 기능시험 절차서 신규 작성(유로절체시험 포함), 3) 유사설비 확대점검, 4) 기술규격서 작성요건(공급사 케이블 결선도면 제출기준)과 공급사 성능시험 입회 요건 강화, 5) 전사 설계변경 종합성능시험 가이드라인(시험 대상·범위·방법·입회를 결정하는 회의체) 수립, 6) 소내방사선감시계통 밸브 배열 점검 강화(동시확인·서명란, 밸브 위치지시기 개방/닫힘 표시, 절차서 사용등급 변경, 인적오류예방기법 적용), 7) 배출운전 시 밸브 배열 확인과 RE-037 과거 지시값 비교, 샘플펌프 상시운전 등, 8) 도면 오류 공급사 검토와 문서 개정.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.8 재발방지대책 적절성 평가",
+          "printed_pages": [
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책 8건"
+        }
+      ],
+      "limitation": "각 대책의 시행 완료 일자와 효과 검증 자료는 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F19",
+      "summary": "KINS는 원전운영자의 재발방지대책이 파악된 원인 및 문제점을 해소할 수 있도록 적절히 수립되었다고 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.8 재발방지대책 적절성 평가",
+          "printed_pages": [
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "KINS 판단"
+        },
+        {
+          "section": "4. 결론",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "결론의 조치 적절성 판단"
+        }
+      ],
+      "limitation": "KINS의 조치 적절성 판단이며 대책의 효과를 이 분석이 검증한 것은 아니다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-002-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "원전운영자는 12.24 오결선 확인 시 RE-039/040이 더 낮은 설정치로 운영되었다는 이유로 '계획되고 통제된 상태'라고 보아 보고대상에 해당하지 않는다고 판단했으나 규제기관 설명 과정의 재검토로 12.27에 보고대상으로 판단했다(CLAUDE-F16). 보고 규정의 이해·적용과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F16"
+      ],
+      "source_refs": [
+        {
+          "section": "3.5 관련 요건 및 보고대상사건 판단경위 검토",
+          "printed_pages": [
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "보고 경위와 초기 비해당 판단 및 재검토"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 초기 판단의 적절성을 평가하지 않았고 보고 시한 위반 여부도 기술하지 않았다. 12.24에 지역사무소에 구두 설명한 점은 CO3에서 긍정으로 평가했다. 별도 근거가 있어야 판단할 수 있다."
+    },
+    {
+      "review_key": "ROOT-002-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "업무 책임의식과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "교체 밸브의 공급사 변경문서(결선도면, 연계도면)가 제출 요건 부재로 제공되지 않았고 시공 시 기존과 변경된 점이 인지되지 않았다(CLAUDE-F07). 조직 안팎(공급사–발전소)의 소통·협력과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            9,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "기술규격서 제출요건 부재와 KINS 판단"
+        },
+        {
+          "section": "붙임 5 격납건물 배기감시기 설계변경 수행 절차 검토",
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 업무 흐름도 상의 미흡사항"
+        }
+      ],
+      "counterevidence_or_limitation": "소통 실패보다 구매 요건 미흡(문서화 프로세스)으로 서술되어 WP3·WP1에서 평가했으며 PA3 고유의 증거(요청·거절 등)는 확인되지 않는다."
+    },
+    {
+      "review_key": "ROOT-002-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "원자력기술의 복잡성과 예기치 않은 사건에 대한 인식과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "초기 기동 시 수직배관 밸브에 수평배관 기준 그림을 적용해 상태를 잘못 인지했고(CLAUDE-F09) 이후 배출운전에서 유량계 지시만으로 정상이라 판단해(CLAUDE-F10) '불확실하면 확인'하는 토론 소재가 된다. 밸브 위치를 각도표시기로 이중 확인하는 습관을 논의할 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F09",
+        "CLAUDE-F10"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "매뉴얼 그림의 오적용과 각도표시기 간과"
+        },
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "유량계 지시에 따른 정상 판단과 밸브 상태 확인 절차 부재"
+        },
+        {
+          "section": "붙임 6 배출운전 개요 및 RE-037 감시 관련 절차 검토",
+          "printed_pages": [
+            32,
+            33
+          ],
+          "pdf_pages": [],
+          "summary": "배출운전 절차서 검토 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "보고서는 당시 운전원이 불확실성을 인지했다고 기술하지 않았고 오인지로 서술한다. 불확실 시 중지의 미이행을 보여주는 사실은 없다."
+    },
+    {
+      "review_key": "ROOT-002-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "보건물리실 근무자가 배출운전 시 RE-037 지시값에 변화가 없음을 확인하고 밸브점검 통지를 발행했으며 원전운영자가 기록 추이 변화 없음을 인지해 설비이상 통지로 변경했다(CLAUDE-F04). 지시값이 정상 거동과 다르다는 점을 의문으로 제기한 긍정 근거이다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "12.20 통지 발행과 12.24 확인·재결선"
+        },
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "통지 발행 경위와 OIU 추이 확인"
+        },
+        {
+          "section": "3.5 관련 요건 및 보고대상사건 판단경위 검토",
+          "printed_pages": [
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "지시값 이상 확인에 따른 점검요청과 결선오류 확인"
+        }
+      ],
+      "counterevidence_or_limitation": "이 의문 제기는 8회 배출이 이미 끝난 뒤(약 3개월 후)에 이루어졌다. 이전 배출운전들에서 추이를 검토하지 못한 점은 WP1(절차 부재)에서 평가했다."
+    },
+    {
+      "review_key": "ROOT-002-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "원전운영자는 설계변경 내용이 설비 이설·배관 규격 변경(밸브 교체 포함) 등 물리적 형상의 변경뿐이라고 판단해 종합성능시험을 생략했는데(CLAUDE-F08), 교체된 전동기구동밸브의 결선·동작에 이상이 있을 수 있다는 잠재 위험을 식별하지 못했고 공급사 변경문서 확보도 이루어지지 않았다(CLAUDE-F07). 정의의 '발생 가능한 실수·잠재적 문제와 리스크를 인지하고 대비'와 연결된다(심리 추정 없음).",
+      "fact_ids": [
+        "CLAUDE-F08",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            9,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "종합성능시험 미수행의 판단과 KINS 판단"
+        },
+        {
+          "section": "붙임 5 격납건물 배기감시기 설계변경 수행 절차 검토",
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "판단기준·수행주체 불명확 등 절차서 미흡사항"
+        },
+        {
+          "section": "3.3 사건 발생이후 원전운영자 조치사항 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "RE-037/037A 부품 변경 검토 미흡으로 시험 미실시"
+        }
+      ],
+      "counterevidence_or_limitation": "해당 판단이 절차서의 '필요시' 기준 하에서 이루어졌고(CLAUDE-F08) 개인의 안일함이 아니라 판단 기준 부재로 서술되어 DM1·WP1과 사실을 공유한다. 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-002-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "업무 소통과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 의사결정 근거 소통과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 보고대상이 아니라고 판단한 상태에서도 오결선 확인 후 약 13분 만인 12.24 16:13경 지역사무소에 구두로 설명했고 12.26에 경위와 조치 결과를 대면 보고했다(CLAUDE-F16). 규제기관과의 투명한 정보 공유의 긍정 근거이다.",
+      "fact_ids": [
+        "CLAUDE-F16"
+      ],
+      "source_refs": [
+        {
+          "section": "3.5 관련 요건 및 보고대상사건 판단경위 검토",
+          "printed_pages": [
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "보고 경위와 초기 비해당 판단 및 재검토"
+        }
+      ],
+      "counterevidence_or_limitation": "보고대상 판단이 3일 뒤 변경된 점은 PA1에서 판단보류로 두었다. 사내 정보 공유(운전·보수부서 간)에 대한 사실은 보고서에 없다."
+    },
+    {
+      "review_key": "ROOT-002-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "원자력안전 최우선 방침의 전파와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "인력·설비·예산 지원과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 현장 순시와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보상·징벌 체계와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 의사결정 시 안전 최우선 고려와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "설계변경 과정에서 공급사 문서 제출 요건과 시공 후 성능 사전확인, 종합성능시험 수행 기준이 정립되지 않아(CLAUDE-F07, CLAUDE-F08) 설비 변경을 체계적으로 평가·관리하는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F07",
+        "CLAUDE-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            9,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "기술규격서 제출요건 부재와 KINS 판단"
+        },
+        {
+          "section": "붙임 5 격납건물 배기감시기 설계변경 수행 절차 검토",
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 업무 흐름도 상의 미흡사항"
+        },
+        {
+          "section": "3.3 사건 발생이후 원전운영자 조치사항 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "RE-037/037A 부품 변경 검토 미흡으로 시험 미실시"
+        }
+      ],
+      "counterevidence_or_limitation": "정의의 주체는 리더이며 보고서에 리더 수준의 변화 관리 활동에 대한 조사 사실이 없다. 설계 변경 프로세스는 WP1·WP2에서 평가했다."
+    },
+    {
+      "review_key": "ROOT-002-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "설계변경 종합시험의 시험 주관부서가 절차서의 책임사항 절과 본문에서 서로 다르게 기재되어 수행주체가 불분명했다(CLAUDE-F08). 정의의 '역할, 책임 및 권한을 명확히 규정'과 연결된다. 시험 수행 판단 기준('필요시')의 불명확도 함께 보고되었다.",
+      "fact_ids": [
+        "CLAUDE-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            9,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "종합성능시험 미수행의 판단과 KINS 판단"
+        },
+        {
+          "section": "붙임 5 격납건물 배기감시기 설계변경 수행 절차 검토",
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "판단기준·수행주체 불명확 등 절차서 미흡사항"
+        },
+        {
+          "section": "3.3 사건 발생이후 원전운영자 조치사항 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "RE-037/037A 부품 변경 검토 미흡으로 시험 미실시"
+        }
+      ],
+      "counterevidence_or_limitation": "정의의 주체는 리더이나 근거는 문서상의 기재 불일치이다. 절차서 번호와 부서명은 비공개이며 WP3(문서)·DM1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-002-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "8회 배출운전과 약 3.5개월 동안 RE-037 감시 불능이 발견되지 않았고(CLAUDE-F03), 배출 중 기록값의 변화량을 검토하는 절차가 없었다(CLAUDE-F10). 다양한 모니터링 기법으로 안전을 지속 진단하는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F10"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "배출운전 8회와 목적"
+        },
+        {
+          "section": "3.4 배출운전 이력 및 방사선영향 평가",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "배출운전 일람과 핵종"
+        },
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "유량계 지시에 따른 정상 판단과 밸브 상태 확인 절차 부재"
+        },
+        {
+          "section": "붙임 6 배출운전 개요 및 RE-037 감시 관련 절차 검토",
+          "printed_pages": [
+            32,
+            33
+          ],
+          "pdf_pages": [],
+          "summary": "배출운전 절차서 검토 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "리더의 모니터링 활동에 대한 조사 사실이 보고서에 없다. 보조 감시기(RE-039/040, RE-017)가 감시하고 있었다(CLAUDE-F15)."
+    },
+    {
+      "review_key": "ROOT-002-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 솔선수범과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "설계변경 종합시험을 수행할지는 절차서에 '필요시'로만 규정되어 명확한 판단 기준이 없었고 원전운영자는 변경 내용이 물리적 형상의 변경뿐이라고 판단해 정주기시험으로 대체했다(CLAUDE-F08). 정의의 '의사결정 시 일관적이고 체계적인 방법 사용'과 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            9,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "종합성능시험 미수행의 판단과 KINS 판단"
+        },
+        {
+          "section": "붙임 5 격납건물 배기감시기 설계변경 수행 절차 검토",
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "판단기준·수행주체 불명확 등 절차서 미흡사항"
+        },
+        {
+          "section": "3.3 사건 발생이후 원전운영자 조치사항 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "RE-037/037A 부품 변경 검토 미흡으로 시험 미실시"
+        }
+      ],
+      "counterevidence_or_limitation": "의사결정의 미비는 개인의 방법 선택보다 판단 기준을 제공하지 않은 절차서의 문제로 서술된다. QA4·WP1·LA6과 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-002-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "초기에 RE-037 차단 상태의 배출운전을 '계획되고 통제된 상태'로 보아 보고대상이 아니라고 판단했으며(CLAUDE-F16) 보수적이고 신중한 판단과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F16"
+      ],
+      "source_refs": [
+        {
+          "section": "3.5 관련 요건 및 보고대상사건 판단경위 검토",
+          "printed_pages": [
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "보고 경위와 초기 비해당 판단 및 재검토"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS가 이 판단을 평가하지 않았고 판단 근거 규정의 세부가 없다. PA1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-002-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "의사결정 책임의 명확성과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "상호 존중과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "의견 제기를 격려하는 환경과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "신뢰와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "갈등 해결과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "다른 유사원전에서도 한빛6호기와 동일한 공급사 연계도면 오류가 사건 조사 과정에서야 확인되었다(CLAUDE-F13). 운전경험이 체계적으로 수집·분석되어 조치되는지와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F13"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3 유사 설비 및 원인 확대점검 결과",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "도면 오류 14건과 동일공급사·유사원전 확대점검"
+        },
+        {
+          "section": "3.8 재발방지대책 적절성 평가",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 대상 7대·117대 점검 결과"
+        },
+        {
+          "section": "붙임 8 공급사 도면 기재내용 확대 점검 결과",
+          "printed_pages": [
+            35
+          ],
+          "pdf_pages": [],
+          "summary": "도면 오류 분류와 영향 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "해당 도면 오류는 현장 케이블이 정상 연결되어 기능에 영향이 없었다고 기술되며 이전에 정보가 공유되었어야 했는지는 보고서에 없다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-002-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "자체 진단과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "벤치마킹과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "교육훈련과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "보건물리실 근무자의 지시값 이상 확인이 밸브점검 통지로 발행되고 원전운영자가 설비이상 통지로 변경해 점검이 이어졌다(CLAUDE-F04). 문제점 도출이 용이하도록 운영개선 절차를 운영한 긍정 근거이다(인지 후 통지로의 연결에 한정, CAP 전체 평가가 아님).",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "12.20 통지 발행과 12.24 확인·재결선"
+        },
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "통지 발행 경위와 OIU 추이 확인"
+        },
+        {
+          "section": "3.5 관련 요건 및 보고대상사건 판단경위 검토",
+          "printed_pages": [
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "지시값 이상 확인에 따른 점검요청과 결선오류 확인"
+        }
+      ],
+      "counterevidence_or_limitation": "발견 시점은 8회 배출 이후이며 RE-037의 비정상은 약 3.5개월 지연 발견되었다(CLAUDE-F03). 통지가 CAP 체계인지 여부는 보고서에서 확인되지 않는다."
+    },
+    {
+      "review_key": "ROOT-002-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "오결선 발견 후 V20·V24·V25 확대점검, 공급사 도면 14건 오류 검토, 동일공급사 설비와 유사원전 점검, 설계변경 대상 7대와 117대 RMS 점검 등으로 원인을 철저히 평가했다(CLAUDE-F12, CLAUDE-F13, CLAUDE-F18). 원인분석·시정조치 평가의 긍정 근거이다.",
+      "fact_ids": [
+        "CLAUDE-F13",
+        "CLAUDE-F12",
+        "CLAUDE-F18"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3 유사 설비 및 원인 확대점검 결과",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "도면 오류 14건과 동일공급사·유사원전 확대점검"
+        },
+        {
+          "section": "3.8 재발방지대책 적절성 평가",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 대상 7대·117대 점검 결과"
+        },
+        {
+          "section": "붙임 8 공급사 도면 기재내용 확대 점검 결과",
+          "printed_pages": [
+            35
+          ],
+          "pdf_pages": [],
+          "summary": "도면 오류 분류와 영향 검토"
+        },
+        {
+          "section": "3.2.3 유사 설비 및 원인 확대점검 결과",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "V20 오결선과 V24·V25의 인터락 단자 부재"
+        },
+        {
+          "section": "붙임 7 RE-037A 운영상태",
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [],
+          "summary": "신규밸브 OPEN만 가능했던 운영상태"
+        },
+        {
+          "section": "3.8 재발방지대책 적절성 평가",
+          "printed_pages": [
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책 8건"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 대응이며 사건 전 평가 수준을 보여주지는 않는다. 효과 검증 자료는 보고서에 없다."
+    },
+    {
+      "review_key": "ROOT-002-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "오결선 확인(12.24 16:00)과 같은 날 19:30경 재결선을 완료했고 이후 기능시험·연동시험·종합성능시험을 수행했으며 KINS 입회로 확인되었다(CLAUDE-F04, CLAUDE-F14). 문제를 시의 적절하게 조치한 긍정 근거이다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F14"
+      ],
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "12.20 통지 발행과 12.24 확인·재결선"
+        },
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "통지 발행 경위와 OIU 추이 확인"
+        },
+        {
+          "section": "3.5 관련 요건 및 보고대상사건 판단경위 검토",
+          "printed_pages": [
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "지시값 이상 확인에 따른 점검요청과 결선오류 확인"
+        },
+        {
+          "section": "3.3 사건 발생이후 원전운영자 조치사항 검토",
+          "printed_pages": [
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "재결선·시험·RE-037A 조치와 KINS 입회 확인"
+        }
+      ],
+      "counterevidence_or_limitation": "RE-037A는 임시 결선변경과 수동 조작 절차로 먼저 보완되었고 이후 도면 수정으로 정상화되었다(CLAUDE-F14). 사건 발생부터 약 3.5개월이 지나서야 발견되었다는 점은 PI3 이전의 문제로 다른 속성에서 평가했다."
+    },
+    {
+      "review_key": "ROOT-002-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "경향 분석과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "우려 제기 정책과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "안전건의 프로세스와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-002-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "설계변경 프로세스에서 기술규격서에 공급사 결선·연계도면 제출 요건이 없었고(CLAUDE-F07) 시공 후 변경 기기의 성능을 사전 확인하는 절차와 종합성능시험의 수행 기준·주체가 정립되지 않았으며(CLAUDE-F08), 배출운전 절차에는 감시기로의 유로 형성과 입구밸브 상태를 확인하는 단계가 없었다(CLAUDE-F10). 정의의 '안전을 최우선으로 고려해 작업계획을 수립·시행하는 프로세스'와 직접 연결된다(WP1은 작업 프로세스 구성, WP3은 문서 내용, WP4는 절차 이행으로 구분).",
+      "fact_ids": [
+        "CLAUDE-F07",
+        "CLAUDE-F08",
+        "CLAUDE-F10"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            9,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "기술규격서 제출요건 부재와 KINS 판단"
+        },
+        {
+          "section": "붙임 5 격납건물 배기감시기 설계변경 수행 절차 검토",
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 업무 흐름도 상의 미흡사항"
+        },
+        {
+          "section": "3.3 사건 발생이후 원전운영자 조치사항 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "RE-037/037A 부품 변경 검토 미흡으로 시험 미실시"
+        },
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "유량계 지시에 따른 정상 판단과 밸브 상태 확인 절차 부재"
+        },
+        {
+          "section": "붙임 6 배출운전 개요 및 RE-037 감시 관련 절차 검토",
+          "printed_pages": [
+            32,
+            33
+          ],
+          "pdf_pages": [],
+          "summary": "배출운전 절차서 검토 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "절차서 번호와 주관부서는 비공개이다. 이 프로세스 미비는 설계변경 이전부터의 구조적 요인이다. LA5·LA6·DM1·QA4와 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-002-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "교체 설비가 설계 기능을 유지하는지 확인하는 종합성능시험 없이 설계변경이 완료되어(CLAUDE-F08) 감시 설비 입구밸브가 차단된 채 8회 배출이 이루어졌고, 고선량 감시용 RE-037A의 신규 밸브(V24·V25)는 인터락 단자가 없어 CLOSE 동작이 불가했으며 차단 상태로 유지되었다(CLAUDE-F12). 사건 이전에는 도면의 교차결선이 오류를 가려 왔다(CLAUDE-F06). 정의의 '변경 시 체계적이고 엄격한 프로세스, 안전설비 유지, 심층 방어'와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F08",
+        "CLAUDE-F12",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            9,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "종합성능시험 미수행의 판단과 KINS 판단"
+        },
+        {
+          "section": "붙임 5 격납건물 배기감시기 설계변경 수행 절차 검토",
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "판단기준·수행주체 불명확 등 절차서 미흡사항"
+        },
+        {
+          "section": "3.3 사건 발생이후 원전운영자 조치사항 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "RE-037/037A 부품 변경 검토 미흡으로 시험 미실시"
+        },
+        {
+          "section": "3.2.3 유사 설비 및 원인 확대점검 결과",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "V20 오결선과 V24·V25의 인터락 단자 부재"
+        },
+        {
+          "section": "붙임 7 RE-037A 운영상태",
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [],
+          "summary": "신규밸브 OPEN만 가능했던 운영상태"
+        },
+        {
+          "section": "3.2.1 RE-037 입구밸브(V21) 오결선 경위 및 원인분석",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "도면 오류 2건과 설계변경 이전 운영 적절성"
+        },
+        {
+          "section": "붙임 4 밸브 결선상태 점검 및 공급사 도면 검토",
+          "printed_pages": [
+            29
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 이전 교차결선 상태"
+        }
+      ],
+      "counterevidence_or_limitation": "배출 중 보조 감시기(RE-039/040, RE-017)가 감시했고 소외 영향은 미미했다(CLAUDE-F15). 사고 범위 감시 채널의 사건 당시 실제 기능 상태는 도면으로 확인하지 못했다. WP1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-002-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "신규 밸브의 결선단자번호가 공급사 도면에 반영되지 않았고 연계도면 간 Normal/Accident 단자번호가 불일치했으며 도면 오류가 14건 확인되었다(CLAUDE-F05, CLAUDE-F06, CLAUDE-F13). 제작사 매뉴얼의 수평배관 기준 그림이 수직배관에 적용되어 상태를 오인했고(CLAUDE-F09), 배출운전 절차에는 유로·밸브 상태 확인 단계가 없었다(CLAUDE-F10). 정의의 '문서 작성 및 관리는 완벽하고 정확하며 최신 상태'와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F06",
+        "CLAUDE-F09",
+        "CLAUDE-F10"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 RE-037 입구밸브(V21) 오결선 경위 및 원인분석",
+          "printed_pages": [
+            6,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "신규 밸브 연결단자번호 미반영 도면과 KINS 판단"
+        },
+        {
+          "section": "붙임 4 밸브 결선상태 점검 및 공급사 도면 검토",
+          "printed_pages": [
+            28,
+            29,
+            30
+          ],
+          "pdf_pages": [],
+          "summary": "전압 실측과 연계도면 불일치"
+        },
+        {
+          "section": "3.2.1 RE-037 입구밸브(V21) 오결선 경위 및 원인분석",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "도면 오류 2건과 설계변경 이전 운영 적절성"
+        },
+        {
+          "section": "붙임 4 밸브 결선상태 점검 및 공급사 도면 검토",
+          "printed_pages": [
+            29
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 이전 교차결선 상태"
+        },
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "매뉴얼 그림의 오적용과 각도표시기 간과"
+        },
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "유량계 지시에 따른 정상 판단과 밸브 상태 확인 절차 부재"
+        },
+        {
+          "section": "붙임 6 배출운전 개요 및 RE-037 감시 관련 절차 검토",
+          "printed_pages": [
+            32,
+            33
+          ],
+          "pdf_pages": [],
+          "summary": "배출운전 절차서 검토 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "도면 오류는 공급사 문서의 문제이며 매뉴얼 그림 문제는 공급사 자료의 한계도 있다. WP1(프로세스)·WP2와 사실을 공유한다. 도면 원본은 확인하지 못했다."
+    },
+    {
+      "review_key": "ROOT-002-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "초기 기동 시 절차서에 따라 현장 밸브 배열을 확인했으나 오인지로 이어졌고(CLAUDE-F09), 배출운전 중 기록 절차는 수행되었으나 감시기 이상을 검출할 수 없는 구조였다(CLAUDE-F10). 절차서를 수행했음에도 사건이 발생한 점은 절차 준수와 절차의 유효성을 구분하는 토론 소재가 된다.",
+      "fact_ids": [
+        "CLAUDE-F09",
+        "CLAUDE-F10"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "매뉴얼 그림의 오적용과 각도표시기 간과"
+        },
+        {
+          "section": "3.2.2 RE-037 설계변경작업 및 운영적절성 검토",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "유량계 지시에 따른 정상 판단과 밸브 상태 확인 절차 부재"
+        },
+        {
+          "section": "붙임 6 배출운전 개요 및 RE-037 감시 관련 절차 검토",
+          "printed_pages": [
+            32,
+            33
+          ],
+          "pdf_pages": [],
+          "summary": "배출운전 절차서 검토 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "보고서는 절차 위반을 지적하지 않았고 절차서의 미비를 지적한다. 미선정이다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(62a1417f…a7b3)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 3,300,962 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조), 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본 파일 여러 개가 있으며 사건 식별은 파일명이 아니라 표지 '2024-13호(240908HB6)'와 본문으로 했다. 같은 사건의 등급평가위원회 의결안건 파일명이 Drive에 있었으나 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 40이고 큐 기대 물리 페이지는 42이다. 표지와 조사자 면이 번호 없는 2면일 가능성이 있으나 확인하지 않았으며 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(사건 요약은 인쇄쪽 1~2, 1. 개요 시작 면을 인쇄쪽 3). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 이 보고서는 비공개 처리 사유서가 추출본에 없어 쪽/줄 교차 확인을 하지 못했다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반한다. 표지, 사건 요약, 1~4장, 붙임 1~13의 텍스트를 읽었으나 도면·결선도·사건전개기록지·운전변수 그래프·표 이미지는 직접 확인하지 못했다. 붙임 4·5·6·7·8·10의 일부는 텍스트 추출이 깨져 있어 세부를 판독하지 않았다.",
+    "원본의 비공개 처리 구간(절차서 번호, 공급사·제작사·유사원전명, 설정치, 압력 범위 등 공란 표기)은 복원하지 않았다.",
+    "보고서 내 날짜·수치 표기 차이를 보정하지 않고 기록만 했다: 오결선 확인·재결선 일자(2.2절·3.1절 12.24, 3.2.1절 12.26 16:00경), 8회 배출 기간(요약 9.8~12.10, 개요 9.6~12.24), 사건 발생일 표기(9월 8일 일요일/화요일), 배출 경로 명칭(격납용기퍼지계통 배기유로).",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 본 보고서는 면담 원문이 없는 규제기관 조사 보고서이며 설계변경 과정의 개인·부서별 행동은 거의 기술되지 않아 D/I는 문서·프로세스 계열 속성에 집중되었다. 설계변경 절차·문서의 문제는 개인의 행동이 아니라 조직 프로세스의 문제로 해석해야 한다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-002와는 무관한 사건이며 ROOT-002 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

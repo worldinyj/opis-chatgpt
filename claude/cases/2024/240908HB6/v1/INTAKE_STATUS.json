@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "model": "CLAUDE",
+  "queue_id": "ROOT-002",
+  "event_id": "240908HB6",
+  "artifact_status": "STORED",
+  "integration_status": "HOLD",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+  "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+  "reported_hash_matches_queue": false,
+  "reported_pages_match_queue": false,
+  "source_zip": "CLAUDE_ROOT-002_240908HB6_v1.zip",
+  "source_zip_sha256": "bee14b3c842ccea2a27e59d5edc8527fc768f30cc9813918cd58b21ef9da5c80",
+  "files": [
+    {
+      "name": "excel_import.csv",
+      "blob": "6a81dd3a623bcfad2bac666bd7cc65070d5a9904",
+      "sha256": "ed246f3a47cde56b641a07a01a894c65a8f3b516b59f751b86d14944519c7f1c"
+    },
+    {
+      "name": "report.md",
+      "blob": "23bf93cb5abbcc2bd4b66aece60c56ba22aca0d9",
+      "sha256": "e6960142694a54671ca925a27217a9a020ddfac4ba22a2d304fab5673278d2dd"
+    },
+    {
+      "name": "review.json",
+      "blob": "4df44761424dd773226b49dbae4249a7e2733119",
+      "sha256": "c609c09b00059118841f1e5519d55f11d5e60dc504515a3cc9000cd82e37b9b6"
+    },
+    {
+      "name": "validation.md",
+      "blob": "72cb8216bc9ea15891ae98831b8f07f4a1965c26",
+      "sha256": "a85f8712892dd0bb458fa5a4cf10ba885e29c627ee59625e0bbd992928f25ec7"
+    }
+  ],
+  "role_counts": {
+    "A": 6,
+    "N": 21,
+    "H": 2,
+    "P": 5,
+    "I": 3,
+    "D": 3
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "schema_keyword_subset": "PASS",
+    "csv_json_decision_rationale": "MATCH",
+    "fact_count": 19,
+    "fact_reference_check": "PASS",
+    "attribute_source_ref_membership": "PASS",
+    "report_fact_id_reference": "PASS",
+    "csv_fact_id_reference": "PASS",
+    "csv_formula_prefix_check": "PASS",
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Original PDF hash and physical page count unavailable; source identity from text and queue, not independently verified PDF bytes.",
+    "Prior ROOT-038 education transcript exposure in same session disclosed; Claude states not used in ROOT-002. Independent eligibility pending adjudication.",
+    "Formal Draft2020-12 validation and full report semantic consistency reported by Claude; importer checked schema keyword subset and structural references only."
+  ],
+  "approved": false,
+  "can_ship": false
+}
