@@ -54,7 +54,7 @@
         "claude/cases/2025/250112W2/v1/validation.md"
       ],
       "zip": "CLAUDE_ROOT-001_250112W2_v1.zip",
-      "github_commit_sha": null,
+      "github_commit_sha": "c2ae648aa730621c2082ec474731584fd0ddddde",
       "checks": "Original validation.md; intake in INTAKE_STATUS.json.",
       "constraints": [
         "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
@@ -63,8 +63,7 @@
         "사진·붙임 이미지 미확인, 비공개 구간 미복원",
         "등급평가위원회 의결안건 파일은 열람하지 않음"
       ],
-      "integration_status": "HOLD",
-      "commit_reference_note": "Commit containing original files will be recorded in follow-up."
+      "integration_status": "HOLD"
     }
   ],
   "next_queue_id": "ROOT-002",
