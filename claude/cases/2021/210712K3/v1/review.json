@@ -1,0 +1,1195 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-009",
+  "event_id": "210712K3",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2021-07-12_ 고리 3호기 증기발생기 ‘C’ 수위 저-저에 의한 원자.pdf",
+    "report_number": "2021-10",
+    "report_date": "2021-11-17",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 요약, 1~4장, 붙임 1~9; 인쇄쪽 1~34 범위). 도해·그래프·파단면 사진·응력해석 도표 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-009 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-009의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "고리3호기가 제26차 계획예방정비를 위한 자연출력감소 운전(원자로 출력 93.2 %, 운전모드 1) 중이던 2021.7.12 06:12경 증기발생기 ‘C’ 저-저수위 보호신호로 원자로가 자동정지했다. 증기발생기 ‘C’측 주증기차단밸브(MSIV) 스템이 분리되어 디스크가 낙하하면서 해당 주증기배관이 차단되었고, 증기발생기 ‘C’ 압력 상승과 급수유량 감소로 수위가 보호 설정치 미만으로 내려갔다. 이후 보조급수펌프 자동기동, 주증기안전밸브(PSV-302) 개방 등으로 안전기능이 유지되었고 방사선 특이사항은 없었다. 고시 별표 3.1항 해당 보고대상사건이다(보고서 2021-10호, 2021-11-17 발행).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1,
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "사건 개요와 보고 기준"
+        },
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 전개"
+        },
+        {
+          "section": "3.1 사건 전개과정 확인 결과",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "전개과정 확인"
+        }
+      ],
+      "limitation": "표지·조사자 면은 쪽번호가 없어 인용하지 않았다. 수위·압력 설정값은 비공개 처리되어 있다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "원전운영자의 운전변수 분석(증기발생기 ‘C’ 압력 상승 → 급수 차압 감소·수축현상 → 저-저수위)을 KINS가 사건전개기록지·경보목록·운전변수 자료로 검토해 적절하다고 판단했다. 압력 상승 원인은 MSIV ‘C’ 디스크의 스템 분리·낙하이며 KINS는 분해점검(2021.7.27)에 입회해 이를 확인했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1 증기발생기 ‘C’ 저-저수위로 인한 원자로 자동정지 발생",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "저-저수위 원인 검토"
+        },
+        {
+          "section": "3.2.2 증기발생기 ‘C’ 압력 상승 원인",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "압력 상승 원인과 분해점검 입회"
+        }
+      ],
+      "limitation": "붙임 2의 과도상태 그래프와 설정값은 직접 확인하지 못했다. 보고서 내 급수유량 수치가 1.79와 1.78 Mkg/hr로 달리 표기된다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "스템 손상 메커니즘은 고주기 진동피로로 평가되었다. 파단은 백시트링 상부의 테이퍼 접합부(응력집중 모서리)에서 시작되었고 파면에서 피로 비치마크가 확인되었다. 원자로 출력 80~85 % 구간에서 최대 약 40 mm/s, 약 250 Hz 진동이 관측되었고 원전운영자는 와류 섭동과 디스크/스템 조립품 고유진동수의 공진으로 평가했다. 응력해석상 최대 등가응력은 항복강도(795 MPa)보다 낮으나 이 구간 약 178시간 운전에 해당하는 누적 진동(약 1.6×10^8회)을 고려하면 피로파괴가 가능하다고 제시되었다. 재질(ASTM A564-630 H1100)은 요건을 만족했다. 25차 정비 때 침투탐상에서 결함이 없었으므로 균열성장 시간은 21시간 미만으로 추정되었다. KINS는 진동피로 메커니즘이 적절하나 진동측정 기록이 제한되어 실제 진동·균열 과정의 정확도는 판단하기 어렵다고 서술했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.3.1 스템 손상 원인 및 메커니즘 분석",
+          "printed_pages": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "파단면·진동·응력해석·균열성장 평가와 KINS 판단"
+        },
+        {
+          "section": "붙임 4 주증기차단밸브 C 스템 재질 분석 결과",
+          "printed_pages": [
+            28,
+            29
+          ],
+          "pdf_pages": [],
+          "summary": "재질 분석 결과"
+        },
+        {
+          "section": "붙임 5 주증기차단밸브 스템에 대한 응력해석 결과",
+          "printed_pages": [
+            30
+          ],
+          "pdf_pages": [],
+          "summary": "응력해석 결과"
+        },
+        {
+          "section": "붙임 6 고리3호기 출력 80~85% 구간 운전이력",
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "출력 80~85% 구간 운전이력"
+        }
+      ],
+      "limitation": "S-N 곡선은 스템 재질이 아닌 유사 재질의 것을 참조했고 진동변위는 마모깊이에서 가정한 값이다. 도해·그래프·응력표의 일부 수치는 추출 과정에서 섞여 있어 재계산하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "MSIV ‘C’는 2009.11 비파괴검사에서 디스크 결함이 확인되어 디스크와 스템이 교체된 뒤 사건 전까지 약 12년간 같은 스템을 사용했다. 정비절차서는 3주기마다 완전분해점검과 침투탐상 등 비파괴검사를 하도록 되어 있고 2014.2(PT/UT)와 2019.9(PT) 점검에서 스템 손상은 확인되지 않았다. 계획예방정비 중 급속닫힘 등 시험도 23~25차에 판정기준을 만족했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "교체·점검·시험 이력"
+        }
+      ],
+      "limitation": "본문은 1993년 사건 이후 스템을 3차례(1994.4, 2004.2, 2009.11) 교체했다고 서술하나 정비이력 표에는 1997.1, 2001.3 교체도 기재되어 있어 표기가 일치하지 않는다(보정하지 않고 기록)."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "1993.4 고리4호기 사건 후 대책의 이행이 미흡했다. (1) 고진동 출력구간 운전 최소화: 고리3,4호기는 시운전부터 비진동 구간인 출력 75 %에서 원자로특성시험을 해 왔으나 본사 공문(2008.1.4)에 따라 80 %로 변경되어 사건 전까지 그 출력에서 수행되었다. 이후 상세분석으로 고진동 구간이 80~85 %임이 파악되었다. (2) 지속적 진동측정 관리: 2009~2012년 측정 기록을 제외하면 1993년 사건 이후 주기적 진동측정 기록이 확인되지 않았다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "1993년 고리4호기 사건 대책 이행 검토"
+        }
+      ],
+      "limitation": "2008년 변경 사유와 변경 시 고진동 구간과의 관계를 검토했는지 여부는 보고서에 없다. 해당 내용은 원전운영자의 이행현황 분석을 KINS가 검토한 것이다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "2009.1 고리2호기 사건 후 대책의 이행도 미흡했다. (1) 원전운영자는 스템 적정 교체주기를 3주기로 정해 본사에 답신했고 2013년까지는 3주기가 도래한 스템이 교체되었으나 2014년부터 교체 이력이 없었다. 이는 정비절차서, 유지보수품목 및 직무리스트에 스템 주기 교체가 반영되지 않아서였다. (2) 1993년 사건 대책(스템과 백시트링 일체형 개조) 중 내부곡률은 백시트링 하부 노치에만 반영되었고 이번에 파손된 상부 노치는 테이퍼링이 있다는 이유로 2009년 후속 검토에서도 불필요하다고 판단되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "2009년 고리2호기 사건 대책 이행 검토"
+        }
+      ],
+      "limitation": "정비절차서·직무리스트의 문서 번호는 비공개이다. 2014년 이후 교체 누락의 시점별 의사결정자는 서술되지 않는다."
+    },
+    {
+      "id": "CLAUDE-F07",
+      "summary": "KINS는 주증기차단밸브의 교체·점검·시험과 관련하여 유사사건에서 도출된 사항을 체계적으로 검토해 절차에 반영하고, 조치를 이행하고 그 결과를 다시 운영에 반영하는 활동이 미흡했다고 확인했다. 특히 스템 교체주기를 3주기로 정하고도 지속적으로 수행·관리하지 못한 점을 이 사건에 가장 실질적으로 기여한 원인요소로 판단했다. 참고로 1994년 사건은 KINS 조사 이전이라 조사기록이 없고 2009년 사건은 원전운영자가 근본원인분석 후 대책을 마련한다고만 기록되어 있으며, 2010년 이후 사건은 원전운영자가 대책 이행을 전산으로 관리하고 KINS가 2013년부터 정기검사에서 이행을 점검한다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17,
+            18
+          ],
+          "pdf_pages": [],
+          "summary": "KINS 판단과 참고사항"
+        },
+        {
+          "section": "4. 결론",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "결론의 원인 요약"
+        }
+      ],
+      "limitation": "‘가장 실질적으로 기여한 원인요소’는 KINS의 평가이며 AI는 인과 가중치를 부여하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F08",
+      "summary": "원자로 정지 후 운전원은 비상운전절차서(비상-0, 보조-0.1, 진단-0)를 수행해 안전기능 유지를 확인했고 보조급수·충전유량을 수동제어했다. 운영기술지침서 운전제한조건 3.0.3(보조급수펌프 작동신호 2개 채널 불능, 06:16 적용·08:56 해제)과 3.1.2(정지여유도 불만족, 07:00 적용·비상붕산주입 후 08:33 해제)를 적용·해제했다. KINS는 이를 적절하다고 확인했고 안전기능(미임계 유지, 보조급수, 주증기안전밸브 개방)과 방사선 영향도 문제가 없다고 확인했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.3.1 운전원 대응조치 검토",
+          "printed_pages": [
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 대응과 운전제한조건"
+        },
+        {
+          "section": "3.3.2 발전소 계통·기기 거동 및 소내·외 방사선영향 평가",
+          "printed_pages": [
+            19,
+            20
+          ],
+          "pdf_pages": [],
+          "summary": "안전기능 유지와 방사선 영향"
+        }
+      ],
+      "limitation": "운전원 개인별 행동은 서술되지 않았다. 수치는 원전운영자 자료를 KINS가 검토한 결과이며 재계산하지 않았다. 보고서 본문은 밸브차단시험 일자를 ‘7.12.(화)’로 표기하나 7.12는 월요일이다(보정하지 않고 기록)."
+    },
+    {
+      "id": "CLAUDE-F09",
+      "summary": "KINS는 초기사건 빈도(예상된 사건)와 안전기능 이용가능도(완전충족)를 고려해 기초 INES 등급을 0등급으로 검토했고, ‘94년 고리4호기와 ’09년 고리2호기 유사사건의 재발방지대책이 적절히 이행되지 않은 점은 등급상향 추가요인으로 고려할 수 있다고 서술했다(최종 등급은 사건등급평가위원회가 결정 예정).",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.3.3 사건등급(INES) 관련사항 검토",
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [],
+          "summary": "기초 INES 0등급 사전 검토와 추가요인"
+        }
+      ],
+      "limitation": "이 분석은 INES 등급을 판단하지 않으며 사건등급평가위원회 자료는 열람하지 않았다. 본문은 1993년 사건을 ‘93.4.22로, 이 절은 ’94년 사건으로 표기해 연도가 다르다."
+    },
+    {
+      "id": "CLAUDE-F10",
+      "summary": "원전운영자는 단기 대책 5건(고리3,4호기 스템 취약부 라운드(R6 mm) 설계개선, 스템 구매기술규격서에 초음파탐상 추가, 고리3,4호기 MSIV 6개 확대점검과 개선품 설치·마모부 정비, 원자로특성시험을 75 %에서 하도록 운영절차서 6개 개정, 스템 교체주기 3주기 이내와 고진동 구간 운전이력 관리를 정비절차서·유지보수품목·직무리스트·운영절차서에 반영)을 완료했고 중장기 3건(MSIV 진동 연속측정과 월 2회 측정, 2000~2009년 과거 재발방지대책 이행현황 점검 ~2022.5.31(기계분야 원자로/터빈정지 36건 대상), 노형별 MSIV 진동측정 ~2022.6.30)을 제시했다. 붙임 9는 3주기 또는 1주기 내 고진동 구간 누적 20시간 초과 시 차기 정비에서 교체하는 기준을 제시했다. KINS는 대책이 원인분석에 근거한 적절한 조치로 판단했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.4 재발방지대책 적절성 평가",
+          "printed_pages": [
+            20,
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "단기·중장기 대책과 KINS 판단"
+        },
+        {
+          "section": "4. 결론",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "결론의 대책 적절성 판단"
+        },
+        {
+          "section": "붙임 9 주증기차단밸브 스템 적정 교체주기 선정 검토",
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [],
+          "summary": "스템 적정 교체주기 검토"
+        }
+      ],
+      "limitation": "대책 이행 증빙과 효과 확인은 보고서에 없다. 중장기 대책은 예정 사항이다. 붙임 9는 이전 대책의 교체주기를 ‘3년’, 대책 적용 기준을 ‘3주기’로 혼용 표기한다(보정하지 않고 기록)."
+    },
+    {
+      "id": "CLAUDE-F11",
+      "summary": "사건 후 현장 점검에서 MSIV A, B, C 모두 디스크와 시트 접촉부에서 밸브진동에 의한 마모 흔적이 확인되었고 디스크가이드가 설치된 B, C는 디스크와 가이드 접촉부에서도 마모가 확인되었다. 고리4호기도 26차 정비에서 디스크와 시트 접촉부 마모가 확인되었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.2.3.1 스템 손상 원인 및 메커니즘 분석",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "밸브 구성품 현장 점검"
+        }
+      ],
+      "limitation": "마모 흔적의 시점별 진행 경과와 이전 점검에서의 확인 여부는 보고서에 없다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-009-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "두 번의 유사 파손(1993년, 2009년)을 겪은 설비에서 진동 관리와 스템 교체가 이어지지 않았다(CLAUDE-F05, CLAUDE-F06, CLAUDE-F07). 복잡한 원자력기술이 예상치 못한 사건을 일으킬 수 있다는 인식과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F06",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "1993년 고리4호기 사건 대책 이행 검토"
+        },
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "2009년 고리2호기 사건 대책 이행 검토"
+        },
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17,
+            18
+          ],
+          "pdf_pages": [],
+          "summary": "KINS 판단과 참고사항"
+        },
+        {
+          "section": "4. 결론",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "결론의 원인 요약"
+        }
+      ],
+      "counterevidence_or_limitation": "인식 수준에 대한 직접 서술은 없고 조직적 이행 문제로 서술되어 심리를 추정하지 않는다. CL1·PI3과 사실을 공유한다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-009-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘불확실성 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "2009년 후속 검토에서 백시트링 상부는 테이퍼링이 있어 내부곡률 반영이 불필요하다고 가정했다(CLAUDE-F06). 정확하지 않을 수 있는 사안에 의문을 제기한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "2009년 고리2호기 사건 대책 이행 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "당시 의문 제기나 반대의견 유무는 보고서에 없고 공학적 판단 맥락이 있다. PI2와 사실을 공유한다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-009-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "본사 공문으로 재발방지대책 이행이 요청되고 발전소가 3주기 교체로 답신했으며(CLAUDE-F06), 2008년 본사 공문으로 시험 출력이 변경되었다(CLAUDE-F05). 본사와 발전소 사이의 안전 관련 소통과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "1993년 고리4호기 사건 대책 이행 검토"
+        },
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "2009년 고리2호기 사건 대책 이행 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "공문 내용 중 안전 고려 소통이 부족했다는 서술은 없고 이행 확인은 보고서에 없다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-009-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "원자로특성시험을 비진동 구간인 75 %에서 하던 방식이 2008년 본사 공문으로 80 %로 변경되어 사건 전까지 고진동 구간(80~85 %)에서 수행되었다(CLAUDE-F05). 변화가 안전을 해치지 않도록 체계적으로 평가·관리한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "1993년 고리4호기 사건 대책 이행 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "변경 시 고진동 구간과의 관계를 평가했는지와 변경 사유는 보고서에 서술되지 않아 추정이다. PI3과 사실을 공유한다. 이 판단은 AI의 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-009-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "재발방지대책(스템 주기 교체 등)의 이행을 누가 어떤 체계로 확인·관리하는지가 보고서에 서술되지 않았다(CLAUDE-F06, CLAUDE-F07). 이행 책임과 점검 체계를 토론하기 좋은 소재이다.",
+      "fact_ids": [
+        "CLAUDE-F06",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "2009년 고리2호기 사건 대책 이행 검토"
+        },
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17,
+            18
+          ],
+          "pdf_pages": [],
+          "summary": "KINS 판단과 참고사항"
+        },
+        {
+          "section": "4. 결론",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "결론의 원인 요약"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 역할·책임 소재를 평가하지 않았다. 선정 근거가 아니다."
+    },
+    {
+      "review_key": "ROOT-009-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "시험 출력을 비진동 구간 75 %에서 80 %로 바꾸는 결정(CLAUDE-F05)에서 보수적 판단이 어떻게 이루어졌는지는 토론하기 좋은 소재이다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "1993년 고리4호기 사건 대책 이행 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "변경 결정의 근거와 검토 과정이 보고서에 없다. 선정 근거가 아니다."
+    },
+    {
+      "review_key": "ROOT-009-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "과거 유사사건(1993년 고리4호기, 2009년 고리2호기)에서 도출된 재발방지대책(고진동 구간 운전 최소화, 지속적 진동측정, 스템 3주기 교체)이 시간이 지나며 이행·유지되지 않았다(CLAUDE-F05, CLAUDE-F06). KINS는 유사사건에서 도출된 사항을 체계적으로 검토해 절차에 반영하고 이행 결과를 다시 운영에 반영하는 활동이 미흡했다고 판단했다(CLAUDE-F07). 운전경험을 체계적으로 분석하고 시의적절하게 조치한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F06",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "1993년 고리4호기 사건 대책 이행 검토"
+        },
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "2009년 고리2호기 사건 대책 이행 검토"
+        },
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17,
+            18
+          ],
+          "pdf_pages": [],
+          "summary": "KINS 판단과 참고사항"
+        },
+        {
+          "section": "4. 결론",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "결론의 원인 요약"
+        }
+      ],
+      "counterevidence_or_limitation": "2010년 이후 사건은 원전운영자가 대책 이행을 전산 관리하고 KINS가 2013년부터 점검하나 그 이전 사건에는 적용되지 않았다(CLAUDE-F07). PI3·WP3과 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다(CL1은 경험의 검토·반영, PI3은 조치의 이행·유지, WP3은 문서 반영)."
+    },
+    {
+      "review_key": "ROOT-009-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "사건 후 2000~2009년 과거 재발방지대책 이행현황 점검(기계분야 정지 36건)과 노형별 MSIV 진동측정이 중장기 조치로 제시되었고(CLAUDE-F10), 2010년 이후 사건은 대책 이행이 전산 관리되며 KINS가 2013년부터 점검한다(CLAUDE-F07). 프로그램과 성과를 비판적으로 정기 평가한다는 정의와 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F07",
+        "CLAUDE-F10"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17,
+            18
+          ],
+          "pdf_pages": [],
+          "summary": "KINS 판단과 참고사항"
+        },
+        {
+          "section": "4. 결론",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "결론의 원인 요약"
+        },
+        {
+          "section": "3.4 재발방지대책 적절성 평가",
+          "printed_pages": [
+            20,
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "단기·중장기 대책과 KINS 판단"
+        },
+        {
+          "section": "붙임 9 주증기차단밸브 스템 적정 교체주기 선정 검토",
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [],
+          "summary": "스템 적정 교체주기 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "중장기 조치는 계획이며 이행과 효과는 서술되지 않았다. 사건 전 자체 진단이 있었다는 근거는 없고 이행 공백은 CL1·PI3에서 평가했다."
+    },
+    {
+      "review_key": "ROOT-009-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘벤치마킹’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘교육 훈련’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 파악’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2009년 고리2호기 사건 후속 검토에서 백시트링 상부 노치의 내부곡률 반영이 불필요하다고 판단했고 이번에 바로 그 부위에서 균열이 시작되었다(CLAUDE-F03, CLAUDE-F06). 원인분석과 시정조치를 안전 중요도에 맞게 철저히 평가한다는 정의와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.1 스템 손상 원인 및 메커니즘 분석",
+          "printed_pages": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "파단면·진동·응력해석·균열성장 평가와 KINS 판단"
+        },
+        {
+          "section": "붙임 4 주증기차단밸브 C 스템 재질 분석 결과",
+          "printed_pages": [
+            28,
+            29
+          ],
+          "pdf_pages": [],
+          "summary": "재질 분석 결과"
+        },
+        {
+          "section": "붙임 5 주증기차단밸브 스템에 대한 응력해석 결과",
+          "printed_pages": [
+            30
+          ],
+          "pdf_pages": [],
+          "summary": "응력해석 결과"
+        },
+        {
+          "section": "붙임 6 고리3호기 출력 80~85% 구간 운전이력",
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "출력 80~85% 구간 운전이력"
+        },
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "2009년 고리2호기 사건 대책 이행 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "당시 일체형 백시트링 상부에 테이퍼링이 적용되어 있다는 공학적 판단 맥락이 있었다. 이번 사건 후의 원인분석은 파면·진동·응력해석까지 폭넓게 수행되었고(CLAUDE-F03) 이는 PI2의 반대 방향 사례이나 사건 전 평가 수준과 구분한다."
+    },
+    {
+      "review_key": "ROOT-009-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "3주기 스템 교체는 2013년까지 이행되다 2014년부터 교체 이력이 없었고, 비진동 구간인 75 % 원자로특성시험은 2008년 80 %로 바뀐 채 사건 전까지 수행되어 고진동 구간 운전 최소화 조치가 유지되지 않았다(CLAUDE-F05, CLAUDE-F06). 안전 관련 문제의 조치를 시의적절하고 효과적으로 이행·유지한다는 정의와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "1993년 고리4호기 사건 대책 이행 검토"
+        },
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "2009년 고리2호기 사건 대책 이행 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "교체는 2013년까지 이행되었고 사건 후 단기 대책이 완료되었다(CLAUDE-F10). 2008년 변경 사유는 보고서에 서술되지 않는다. CL1·WP3과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-009-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "2009~2012년을 제외하면 1993년 사건 이후 주기적 진동측정 기록이 없어(CLAUDE-F05) 진동 경향을 볼 수 있는 정보가 없었다. 수집된 정보를 종합해 경향을 분석한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "1993년 고리4호기 사건 대책 이행 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "PI4는 운영개선프로그램 정보의 경향 분석이며 설비 진동 계측은 직접 대상이 아닐 수 있다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-009-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-009-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "스템 주기 교체가 정비절차서뿐 아니라 유지보수품목·직무리스트에도 없어 정기 정비의 작업계획에 포함되지 않았다(CLAUDE-F06). 안전을 우선해 작업계획을 수립하고 시행하는 프로세스와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "2009년 고리2호기 사건 대책 이행 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "보고서가 작업계획 프로세스 자체를 평가한 것은 아니며 WP3과 같은 사실이다. 3주기 분해점검과 비파괴검사는 수행되었다(CLAUDE-F04)."
+    },
+    {
+      "review_key": "ROOT-009-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "MSIV 디스크·스템 조립품이 출력 80~85 % 구간에서 약 250 Hz 공진 진동에 노출되었고, 스템의 응력집중 모서리가 취약부위로 남아 있었으며, 세 MSIV 모두 진동 마모 흔적이 확인되었다(CLAUDE-F03, CLAUDE-F06, CLAUDE-F11). 설비를 설계 여유도 내에서 운영하고 안전설비를 유지·관리한다는 정의와 직접 연결된다(WP2는 설비 설계·유지, LA5는 변경 관리).",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F06",
+        "CLAUDE-F11"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.1 스템 손상 원인 및 메커니즘 분석",
+          "printed_pages": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "파단면·진동·응력해석·균열성장 평가와 KINS 판단"
+        },
+        {
+          "section": "붙임 4 주증기차단밸브 C 스템 재질 분석 결과",
+          "printed_pages": [
+            28,
+            29
+          ],
+          "pdf_pages": [],
+          "summary": "재질 분석 결과"
+        },
+        {
+          "section": "붙임 5 주증기차단밸브 스템에 대한 응력해석 결과",
+          "printed_pages": [
+            30
+          ],
+          "pdf_pages": [],
+          "summary": "응력해석 결과"
+        },
+        {
+          "section": "붙임 6 고리3호기 출력 80~85% 구간 운전이력",
+          "printed_pages": [
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "출력 80~85% 구간 운전이력"
+        },
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "2009년 고리2호기 사건 대책 이행 검토"
+        },
+        {
+          "section": "3.2.3.1 스템 손상 원인 및 메커니즘 분석",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "밸브 구성품 현장 점검"
+        }
+      ],
+      "counterevidence_or_limitation": "MSIV의 안전기능(유로 차단)은 유지되었다(CLAUDE-F08). 진동측정 기록이 제한되어 실제 진동·균열 과정의 정확도는 KINS도 판단하기 어렵다고 서술했다(CLAUDE-F03). CL1·WP3과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-009-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "스템 3주기 교체가 정비절차서, 유지보수품목, 직무리스트에 반영되지 않아 2014년부터 교체되지 않았고, 사건 후 이를 정비절차서·유지보수품목·운영절차서에 반영하는 조치가 제시되었다(CLAUDE-F06, CLAUDE-F10). 문서가 완전하고 최신 상태로 유지되어야 한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F06",
+        "CLAUDE-F10"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "2009년 고리2호기 사건 대책 이행 검토"
+        },
+        {
+          "section": "3.4 재발방지대책 적절성 평가",
+          "printed_pages": [
+            20,
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "단기·중장기 대책과 KINS 판단"
+        },
+        {
+          "section": "4. 결론",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "결론의 대책 적절성 판단"
+        },
+        {
+          "section": "붙임 9 주증기차단밸브 스템 적정 교체주기 선정 검토",
+          "printed_pages": [
+            34
+          ],
+          "pdf_pages": [],
+          "summary": "스템 적정 교체주기 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "정비절차서는 3주기 완전분해점검과 비파괴검사를 이미 포함하고 있었고 점검은 수행되었다(CLAUDE-F04). 절차서 번호는 비공개이다. WP1과 사실을 공유한다(WP3은 문서, WP1은 작업계획 프로세스)."
+    },
+    {
+      "review_key": "ROOT-009-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "운전원이 비상운전절차서와 운영기술지침서 운전제한조건을 적용·해제했고 KINS가 적절하다고 확인했으며, 정비 쪽도 정비절차서에 따라 3주기 분해점검과 비파괴검사를 수행하고 있었다(CLAUDE-F04, CLAUDE-F08). 절차를 준수한다는 정의와 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3.2 주증기차단밸브 정비관리 및 유사사례 재발방지대책 이행 적절성 검토",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "교체·점검·시험 이력"
+        },
+        {
+          "section": "3.3.1 운전원 대응조치 검토",
+          "printed_pages": [
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 대응과 운전제한조건"
+        },
+        {
+          "section": "3.3.2 발전소 계통·기기 거동 및 소내·외 방사선영향 평가",
+          "printed_pages": [
+            19,
+            20
+          ],
+          "pdf_pages": [],
+          "summary": "안전기능 유지와 방사선 영향"
+        }
+      ],
+      "counterevidence_or_limitation": "절차 준수의 전반적 수준을 평가한 것이 아니며 절차 자체의 결함(교체주기 미반영)은 WP3에서 평가했다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(b675b726…0b7b)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 1,063,844 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2021-10호(210712K3)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 34이고 큐 기대 물리 페이지는 36이다. 쪽번호가 없는 표지·조사자 면 등 앞쪽 2면이 더해져 차이가 생긴 것으로 추정하나 확인하지 않았으며 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(사건 요약은 인쇄쪽 1~2, 1. 개요 시작 면은 인쇄쪽 3). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 3.2.3.1(7~15쪽)과 붙임 4~6(28~31쪽)은 그림·표·수식 때문에 면 분할이 불확실해 인접 면으로 추정했다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 9까지 전체 텍스트를 읽었다. 사건전개 도해, 과도상태 추이 그래프(붙임 2), 파단면 사진, S-N 곡선, 응력해석 도표, 운전변수 추이 그래프(붙임 7), 환경방사선량률(붙임 8)은 직접 확인하지 못했다.",
+    "원본의 비공개 처리 구간(설정값, 절차서 번호 등)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 증기발생기 ‘C’ 급수유량이 1.79와 1.78 Mkg/hr로 병기되고, 밸브차단시험 일자가 ‘7.12.(화)’(7.12는 월요일)로 표기되며, 1993년 고리4호기 사건이 3.2.3.2에서는 ‘93.4.22로, 3.3.3에서는 ‘94년으로 표기되고, 본문은 1993년 이후 스템 교체를 3차례로 서술하나 정비이력 표에는 5회(1994.4, 1997.1, 2001.3, 2004.2, 2009.11)가 기재되며, 붙임 9는 교체주기를 ‘3년’과 ‘3주기’로 혼용한다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 설비 피로파손과 과거 재발방지대책 이행 중심의 기술 보고서(본문 23쪽)여서 소통·리더십·존중 계열 속성 다수가 N이다. 재발방지대책 이행 공백(CL1, PI3, WP3)은 서로 같은 사실(CLAUDE-F05, F06, F07)을 공유하며 이는 원전운영자의 이행현황 분석을 KINS가 검토한 서술에 근거한다. 2008년 시험출력 변경 사유와 2014년 이후 교체 누락의 의사결정 과정은 보고서에 없다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-009와는 무관한 사건이며 ROOT-009 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
