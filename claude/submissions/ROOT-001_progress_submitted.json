@@ -1,0 +1,70 @@
+{
+  "model": "CLAUDE",
+  "model_version": "claude-sonnet-5-5",
+  "updated": "2026-11-26",
+  "entries": [
+    {
+      "queue_id": "ROOT-038",
+      "event_id": "250919W2",
+      "status": "EXPORTED_PENDING_UPLOAD",
+      "artifact_paths": [
+        "claude/cases/2025/250919W2/v1/report.md",
+        "claude/cases/2025/250919W2/v1/review.json",
+        "claude/cases/2025/250919W2/v1/excel_import.csv",
+        "claude/cases/2025/250919W2/v1/validation.md"
+      ],
+      "zip": "CLAUDE_ROOT-038_250919W2_v1.zip",
+      "github_commit_sha": null,
+      "checks": "validation.md 참조: 14개 PASS, 1개 NOT_EXECUTED(원본 SHA-256·물리 페이지 수)",
+      "constraints": [
+        "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
+        "PDF 바이너리 미접근: sha256=null, PDF_READ_HASH_UNAVAILABLE",
+        "물리 페이지 미확인",
+        "세션 초기 교육영상 전사문 열람 사실 기록"
+      ]
+    },
+    {
+      "queue_id": "ROOT-005",
+      "event_id": "250314SH2",
+      "status": "EXPORTED_PENDING_UPLOAD",
+      "artifact_paths": [
+        "claude/cases/2025/250314SH2/v1/report.md",
+        "claude/cases/2025/250314SH2/v1/review.json",
+        "claude/cases/2025/250314SH2/v1/excel_import.csv",
+        "claude/cases/2025/250314SH2/v1/validation.md"
+      ],
+      "zip": "CLAUDE_ROOT-005_250314SH2_v1.zip",
+      "github_commit_sha": null,
+      "checks": "validation.md 참조: 14개 PASS, 1개 NOT_EXECUTED(원본 SHA-256·물리 페이지 수)",
+      "constraints": [
+        "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
+        "PDF 바이너리 미접근: sha256=null, PDF_READ_HASH_UNAVAILABLE",
+        "물리 페이지 미확인(인쇄쪽 최대 30, 기대 35)",
+        "붙임 이미지·도면 미확인, 비공개 구간 미복원"
+      ]
+    },
+    {
+      "queue_id": "ROOT-001",
+      "event_id": "250112W2",
+      "status": "EXPORTED_PENDING_UPLOAD",
+      "artifact_paths": [
+        "claude/cases/2025/250112W2/v1/report.md",
+        "claude/cases/2025/250112W2/v1/review.json",
+        "claude/cases/2025/250112W2/v1/excel_import.csv",
+        "claude/cases/2025/250112W2/v1/validation.md"
+      ],
+      "zip": "CLAUDE_ROOT-001_250112W2_v1.zip",
+      "github_commit_sha": null,
+      "checks": "validation.md 참조: 14개 PASS, 1개 NOT_EXECUTED(원본 SHA-256·물리 페이지 수)",
+      "constraints": [
+        "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
+        "PDF 바이너리 미접근: sha256=null, PDF_READ_HASH_UNAVAILABLE",
+        "물리 페이지 미확인(인쇄쪽 최대 31, 기대 35)",
+        "사진·붙임 이미지 미확인, 비공개 구간 미복원",
+        "등급평가위원회 의결안건 파일은 열람하지 않음"
+      ]
+    }
+  ],
+  "next_queue_id": "ROOT-002",
+  "next_status": "NOT_STARTED"
+}

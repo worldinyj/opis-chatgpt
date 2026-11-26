@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "model": "CLAUDE",
+  "queue_id": "ROOT-001",
+  "event_id": "250112W2",
+  "artifact_status": "STORED",
+  "integration_status": "HOLD",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+  "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+  "reported_hash_matches_queue": false,
+  "reported_pages_match_queue": false,
+  "source_zip": "CLAUDE_ROOT-001_250112W2_v1.zip",
+  "source_zip_sha256": "0e606673b766b9e76e950980696a63c1fc84b028b1d0df93a326cc540dddf263",
+  "files": [
+    {
+      "name": "report.md",
+      "blob": "e95b71ea4034bc127113ecae48ebc183867d0fd2",
+      "sha256": "63c0e2d1fa67bd311a54a431e87aa47d22466613a7af8c270e89363d6342fe94"
+    },
+    {
+      "name": "review.json",
+      "blob": "f6d61c8e1353874626066497116cd143c16b5608",
+      "sha256": "cb26ae1aa52d34175f6b26ef52f095c2ed499849e44039cad4bfd7840f506bfd"
+    },
+    {
+      "name": "excel_import.csv",
+      "blob": "0d40ceefb29bed67cca9cce35dc90d8bab61e767",
+      "sha256": "1bdd53734601c048fa8a75f7cc49c06d1e9a48353a16ea5515c833adfe5865d5"
+    },
+    {
+      "name": "validation.md",
+      "blob": "3a0df1f0d5de6fcd2b6072f2884979cfa47498fb",
+      "sha256": "5f3837e49427f5a3d75266077401cc823c866a4731495ec03cadf902728dcb35"
+    }
+  ],
+  "role_counts": {
+    "I": 5,
+    "A": 9,
+    "N": 18,
+    "D": 5,
+    "P": 2,
+    "H": 1
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "csv_json_key_decision_rationale": "PASS",
+    "csv_formula_injection": "PASS",
+    "fact_ids": "PASS",
+    "role_mapping": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "schema_keyword_subset": "PASS",
+    "fact_count": 25,
+    "attribute_source_ref_membership": "PASS",
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "PDF hash and physical pages unavailable, prior other-case transcript exposure disclosed; retain on HOLD until reviewed.",
+    "Source is extracted text; no fresh source reinspection or expert review."
+  ],
+  "approved": false,
+  "can_ship": false
+}

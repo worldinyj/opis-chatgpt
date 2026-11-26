@@ -1,0 +1,1551 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-001",
+  "event_id": "250112W2",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2025-01-12_월성2호기_액체폐기물계통_밸브_오배열에_의한_비계획적인_방사성물질_방ᄎ.pdf",
+    "report_number": "2025-01",
+    "report_date": "2025-04-21",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 요약, 1~4장, 붙임 목록, 비공개 처리 사유서; 인쇄쪽 1~31 범위). 사진·붙임 1~9의 이미지·도면은 미확인. 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-001 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-001의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "월성2호기(PHWR, 출력 83.2 %) 운전 중 2025.1.12 10:05경 액체폐기물탱크(TK5) 재순환운전 중 배출밸브(V21)와 복수기냉각수 방출도관 격리밸브(V53)가 개방된 상태여서 TK5 내 액체방사성물질 약 29.5 m3가 시료분석을 통한 방출 적합성 평가 없이, 액체유출물감시기(LEM)가 정지된 상태로 소외로 방출되었다. 계획 또는 통제되지 않은 방출에 해당하는 보고대상 사건이다(보고서 2025-01호, 발행 2025-04-21).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "비계획 방출과 보고대상 해당"
+        },
+        {
+          "section": "표지·사건 요약(쪽번호 없음)",
+          "printed_pages": [],
+          "pdf_pages": [],
+          "summary": "보고서 번호 2025-01호(250112W2), 운전모드 1/83.2 %"
+        }
+      ],
+      "limitation": "표지 요약의 29.532 m3와 3.3절 초기 평가 29.44 m3의 차이는 수위 감소분 재계산(3.2→3.21 m) 때문이다(CLAUDE-F20)."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "1.11 15:20경 TK5 재순환운전에 착수했고 21:35~22:56경 방출운전(26.68 m3)을 했다. 낮 근무 후반 현장운전원은 방출 완료 시점을 22:56경으로 예상하고 밤 근무 현장운전원에게 방출운전이 진행 중이며 완료 후 계통을 복귀하도록 구두로 인계했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            1,
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "방출운전 시간대와 구두 인계"
+        },
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "인수인계 내용"
+        }
+      ],
+      "limitation": "인계 시각은 2.2절(22:56 완료 예상)과 3.1절(23:30경 인계)에 따라 보고서 내 표기가 다르며 이유는 설명되어 있지 않다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "1.12 01:13경 밤 근무 현장운전원이 방출 완료 후 계통 복귀를 위해 P5를 Off로 하고 V21을 차단하려 했으나 V21은 실제로 격리되지 않고 개방된 채 잠금장치(사슬·자물쇠)가 설치되었다. V53도 격리되지 않았다. 이후 02:00~06:55 TK4·TK2·집수조 등에서 TK5로 액체폐기물을 이송해 수위가 0.3 m에서 약 3.5 m로 올랐다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "01:13 잠금장치 설치와 이후 이송 시간대"
+        },
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "V21 미격리 상태 잠금과 V53 미격리"
+        }
+      ],
+      "limitation": "2.2절에는 방출 완료 판단 시각이 00:10으로, 3.1절에는 01:13경 확인으로 기술되어 시각 기준 차이가 있다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "1.12 07:00경 현장운전원이 재순환운전을 위해 배출펌프 P5를 기동하면서 비계획 방출이 시작되었다. 기동 후 방출유량 형성 여부와 TK5 수위 변화 감시가 이행되지 않았고, 방출은 LEM이 운전되지 않은 상태로 P5 자동정지(수위 약 0.29 m)까지 지속되었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "07:00 재순환운전 착수와 비계획 방출 시작"
+        },
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "유량·수위 감시 미이행과 LEM 미운전 상태 지속"
+        }
+      ],
+      "limitation": "P5 자동정지 설정치는 0.29 m로 확인되었으며 초기에는 0.3 m로 파악되었다. 방출 시간대는 3.5절에 07:00~08:30경으로 기술되고 현장 확인 시각은 10:05이다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "10:05경 시료채취를 위해 현장에 간 HP 근무자가 P5 정지, TK5 수위 감소(약 0.3 m), V21 개방 상태를 확인하고 주제어실에 즉시 보고했다. 10:10경 주제어실 지시로 현장운전원이 V21과 V53을 격리했고 이후 TK5 시료를 채취해 핵종 분석을 했다. KINS는 이 사건 인지 후 조치를 적절하다고 판단했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "10:05 인지·보고, 10:10 격리, 10:30 시료채취"
+        },
+        {
+          "section": "3.5 사건 인지 후 조치적절성 및 기타 특이사항",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "사건 인지 후 조치 적절성 판단"
+        }
+      ],
+      "limitation": "HP 근무자가 이상을 발견한 계기는 계획된 시료채취였으며 감시기·경보에 의한 인지는 아니었다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "V21 격리 누락: 현장운전원은 V21 핸들을 돌리자 즉시 걸려 회전하지 않는 것으로 느꼈고, 잠금장치 구멍이 1시 방향이라 격리된 것으로 착각해 V21 개방 상태에서 잠금장치를 설치했다. 원전운영자는 충분한 힘으로 회전시키지 않았고 격리 시 구멍 위치를 잘못 기억(실제는 5~6시)한 것으로 평가했다. 완전 조작에는 약 7바퀴 반이 필요하고, V21 핸들은 원판형이라 조작 정면에서는 개폐 상태가 보이지 않아 최종 위치는 측면에서 확인해야 하나 이 확인이 수행되지 않았다.",
+      "kind": "OPERATOR_STATEMENT",
+      "source_refs": [
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "V21 격리 누락의 상황과 정면/측면 확인 미수행"
+        }
+      ],
+      "limitation": "원전운영자 분석을 KINS가 적절하다고 판단한 내용(CLAUDE-F15)이며 운전원의 당시 인지는 면담 기반이다. 밸브 사진은 확인하지 못했다."
+    },
+    {
+      "id": "CLAUDE-F07",
+      "summary": "V53은 방출운전 후 격리하도록 절차서에 기술되어 있고 평상시 격리되었다가 방출운전 중에만 배출유량을 6 L/s 미만으로 유지하도록 조절개방한다. 그러나 현장운전원 면담 결과 V53은 항시 일정한 개도로 조절개방된 상태로 유지되고 있었다. 현장운전원은 방출운전 이후에도 V53을 격리하지 않았다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "V53 차단 누락과 절차서 기술 대비 실제 운영"
+        },
+        {
+          "section": "붙임 3 TK5 배출운전 주요 절차",
+          "printed_pages": [
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "방출운전·완료 절차 중 V21·V53 격리 단계"
+        }
+      ],
+      "limitation": "절차서 번호와 일부 세부 문구는 비공개 처리되어 있다."
+    },
+    {
+      "id": "CLAUDE-F08",
+      "summary": "재순환운전 전 V21·V53 점검 누락: 현장운전원은 01:13경 본인이 V21을 격리하고 잠금장치를 설치했으므로 별도 밸브 배열 점검이 불필요하다고 판단했고, V53은 방출운전 중 일정유량 유지를 위해 격리한 사례가 없고 V21이 격리 상태이므로 조절개방이어도 문제없다고 판단했다.",
+      "kind": "OPERATOR_STATEMENT",
+      "source_refs": [
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "재순환운전 전 점검 누락의 판단 근거"
+        }
+      ],
+      "limitation": "원전운영자가 현장운전원 면담에 근거해 제시한 분석이며 KINS가 적절하다고 판단했다(CLAUDE-F15)."
+    },
+    {
+      "id": "CLAUDE-F09",
+      "summary": "재순환운전 중 누설가능성 점검 누락: 현장운전원은 P5 기동 후 현장제어반에서 배출유량(FI-34) 형성과 TK5 수위 변화를 감시하면 비정상 외부방출을 확인할 수 있었으나 이를 확인하지 않았다. 과거 재순환운전에서 특이사항이 없었던 자신의 운전경험을 토대로 이번에도 문제가 없을 것으로 자의적으로 판단하고 이석했다.",
+      "kind": "OPERATOR_STATEMENT",
+      "source_refs": [
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "유량·수위 확인 미수행과 과거 경험에 근거한 판단"
+        }
+      ],
+      "limitation": "'자의적 판단'은 원전운영자 분석의 표현이며 KINS가 적절하다고 판단했다. 이석 시간·장소는 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F10",
+      "summary": "절차서 미사용: 현장운전원은 TK5 방출운전을 약 10회 수행한 경험으로 숙달된 것으로 판단하여 필수사용 절차서인 계통절차서를 소지하지 않고 업무를 수행했고 현장제어반 미믹 등 계통정보를 활용했다. 현장제어반의 방출운전 현장부착물에는 배출밸브 V21의 조작정보만 있고 절차서와 달리 V53에 대한 기술이 없었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "절차서 미소지·미사용과 현장부착물의 V53 누락"
+        }
+      ],
+      "limitation": "필수사용 대상 판정 근거 규정은 비공개 처리되어 직접 확인하지 못했다. KINS는 원전운영자 분석이 적절하다고 판단했다."
+    },
+    {
+      "id": "CLAUDE-F11",
+      "summary": "운전편의 관행 및 문제제기 부재: 방출운전을 담당한 현장운전원들은 일정 배출유량 유지의 편의를 위해 V53을 항시 조절개방해 사용했고, V53의 조절개방 상태가 절차서와 다르다는 점을 인지하고 의문을 가졌으나 문제가 제기되지 않았다. V53은 높은 곳에 있어 주변 배관을 밟고 조작해야 하고 현장제어반과 약 22 m 떨어져 유량 조절·확인에 여러 번 이동해야 하는 불편이 있었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "V53 상시 개방 관행, 의문 제기 부재, 설비 위치의 불편"
+        }
+      ],
+      "limitation": "의문을 갖고도 제기하지 않은 사유(분위기, 영향 우려 등)는 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F12",
+      "summary": "인적오류예방기법 수행 미흡: 자기진단, 의문을 갖는 태도, 불확실시 중지, 절차 수행단계 표시기법(서클&슬래시) 등이 활용되지 않아 1) 평소와 반응이 달라 V21 격리가 불확실한 상태에서 최종 개방 상태 확인을 하지 않았고, 2) 재순환운전 전 밸브 격리 상태 점검, 3) 재순환운전 직후 배출유량·TK5 수위 점검이 수행되지 못했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "인적오류예방기법 미활용과 세 가지 점검 미수행"
+        }
+      ],
+      "limitation": "각 기법이 미활용된 이유(교육, 현장 문화 등)는 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F13",
+      "summary": "원전운영자는 직접 원인은 아니나 간접 영향 요소로 1) 방출운전을 1인이 단독 수행했고 운전편의 관행으로 V53이 항시 조절개방되어 있어(2개 방벽 중 1개 상실) 현장운전원의 V21 격리 오류로 사건이 발생한 점, 2) 중요작업·운전조작이 운전원일지에 기록되지 않은 점(CLAUDE-F14)을 제시했다.",
+      "kind": "OPERATOR_STATEMENT",
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "1인 단독 수행과 2개 방벽 중 1개 상실"
+        }
+      ],
+      "limitation": "원전운영자 평가이며 KINS는 원인분석 전체를 적절하다고 판단했다(CLAUDE-F15). 방벽의 개념은 보고서 표현을 따른다."
+    },
+    {
+      "id": "CLAUDE-F14",
+      "summary": "현장운전원은 근무 중 방출 관련 운전조작을 운전원일지에 기록하지 않았다. 근무교대 인수인계는 현장사무실의 보조일지와 액체폐기물 현황판의 단순 기록에 의해 이루어졌고, 주제어실 운전원일지에도 해당 운전조작 이력이 기록되지 않았다(주제어실 일지의 현장 조작사항은 통상 현장운전원 기록에 근거).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "운전원일지 미작성과 보조일지 기반 인수인계"
+        }
+      ],
+      "limitation": "누락의 사유와 규정 위반 여부 판단은 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F15",
+      "summary": "KINS는 현장 입회, 현장운전원 면담, 절차서 검토, 방출운전 관행 확인에 근거하여 절차서 미사용, 부적절한 운전관행, 인적오류예방기법 사용 미흡 등으로 배출밸브가 격리되지 못했다는 원전운영자의 분석이 적절하다고 판단하고 재발방지대책 수립을 요구했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "KINS 판단과 재발방지대책 요구"
+        }
+      ],
+      "limitation": "KINS가 독립적으로 면담한 결과의 상세는 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F16",
+      "summary": "LEM이 작동하지 않은 원인: LEM 샘플모드 전환용 유량스위치(FS34-1)가 월성2호기에 설치되지 않았다. 원전운영자 분석은 1) 액체폐기물계통과 LEM 계통의 설계문서 간 불일치·검토 미흡, 2) 제작사 성능시험 결과 검토 미흡으로 시운전에서 Remote 기능시험 미수행, 3) 월성3,4호기 시운전 중 발행된 설계변경서(1997.11)가 월성2호기에 반영되지 않음 때문에 시운전 이후 사건까지 LEM 샘플제어를 Local로만 운전했다고 평가했고 KINS가 적절하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.4.1 LEM 설치 및 운영 적절성 검토",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "FS34-1 미설치와 Remote 기능시험 미수행, 설계변경 미반영"
+        },
+        {
+          "section": "3.4.3 관련 요건 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "KINS의 적절성 판단"
+        }
+      ],
+      "limitation": "이 원인들은 건설·시운전기(1990년대)의 일로 현재 현장 종사자·리더의 행동과는 구분해야 한다. 설계문서 원문은 확인하지 못했다."
+    },
+    {
+      "id": "CLAUDE-F17",
+      "summary": "월성3,4호기 시운전 당시에는 건설원전의 설계변경이 가동원전으로 전파되는 체계가 없었다. 현재는 가동-건설원전 설계기술 협의체(2023.09~)가 운영되나 설계변경 정보가 주요 현안 위주로 전달되는 미흡사항이 있어 개선이 필요하다고 기술되었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.4.1 LEM 설치 및 운영 적절성 검토",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 전파 체계의 과거 부재와 현재의 한계"
+        }
+      ],
+      "limitation": "개선 필요성의 판단 주체는 보고서에서 명확하지 않으며 원전운영자 평가를 포함한 서술이다."
+    },
+    {
+      "id": "CLAUDE-F18",
+      "summary": "KINS는 FS34-1이 설치되었다면 이번 사건이 비계획 방출에는 해당하나 미통제 상태의 방출은 방지할 수 있었을 것으로 판단했다. 원전운영자는 LEM이 운전되지 않은 상태의 방출이 방사선안전관리 등의 기술기준에 관한 규칙 제10조제5호를 만족하지 못한 것으로 평가했다(배수감시설비로 배수 중 방사성물질 농도를 감시하지 못함).",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.4.3 관련 요건 검토",
+          "printed_pages": [
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "LEM 정지 상태 방출의 요건 평가와 KINS 판단"
+        }
+      ],
+      "limitation": "규칙 조항 세부는 붙임 7을 확인하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F19",
+      "summary": "유사상태 확대점검 결과: 월성2호기 LEM 설계문서에 기술된 기능 중 샘플 저유량 경보와 PV-54 격리가 구현되지 않았고 배출 저유량 경보·자체진단 고장 경보 등은 설계사 기술검토 후 문서개정 등을 예정했다. 월성1호기 LEM도 동일하게 미구현이며 유사설비인 월성2호기 기체유출물감시기(GEM)는 설계문서상 샘플펌프 2대가 실제 1대만 설치된 것이 파악되어 재발방지대책을 수립할 예정이다.",
+      "kind": "OPERATOR_STATEMENT",
+      "source_refs": [
+        {
+          "section": "3.4.2 LEM 관련 유사상태 확대점검",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "LEM 미구현 기능, 월성1호기 동일 상태, GEM 샘플펌프 차이"
+        }
+      ],
+      "limitation": "붙임 6의 구현 현황표(표 형태)는 텍스트 추출이 깨져 있어 세부 판독을 하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F20",
+      "summary": "방사선 영향은 미미한 것으로 평가되었다: 총 방출량 약 29.532 m3(탱크 단면적 9.2 m2 x 수위 감소 3.21 m), 방출 방사능은 월성2호기 연간 배출제한치 대비 삼중수소 1.544x10^-3 %, 베타/감마 6.37x10^-4 %, C-14 1.355x10^-3 %이며 농도는 배출관리기준 대비 각각 0.13 %, 0.0033 %, 0.0035 %이다. 소외주민피폭선량은 원전운영자 평가 1.30x10^-7 mSv/yr, KINS 평가 1.73x10^-7 mSv/yr(보수적 입력변수)이고 일반인 연간선량한도(1 mSv)에 비해 미미하다. 사건 후 해수 시료는 영향이 반영된 4차 시료를 제외하고 특이사항이 없었다. 기초 INES 등급은 0이며 최종 등급은 추후 원전사건등급평가위원회가 결정한다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.3 사건에 의한 방사선영향 검토",
+          "printed_pages": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "방출량·방사능·선량 평가와 해수 시료 결과"
+        },
+        {
+          "section": "3.6 예상 사건등급(INES) 검토",
+          "printed_pages": [
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "기초 INES 0등급(사전 검토)"
+        }
+      ],
+      "limitation": "수치는 원전운영자 평가를 KINS가 검토한 결과이며 이 분석에서 재계산하지 않았다. 이 분석은 INES 등급을 판단하지 않는다."
+    },
+    {
+      "id": "CLAUDE-F21",
+      "summary": "사건 전후 안전기능 유지, 주요 운전변수, 소내 고정지역 방사선감시기, 소외환경방사선량률 추이에 특이사항이 없었다. 원전운영자는 비계획 방출 과정에서 LEM이 운전제한조건 3.3.4.1에 따라 운전가능했어야 하나 사건 인지 시점에는 이미 방출이 완료되어 적용 상황이 아니었음에도 기록·관리를 위해 해당 조건을 소급 적용했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.5 사건 인지 후 조치적절성 및 기타 특이사항",
+          "printed_pages": [
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "LEM 운전제한조건 소급 적용과 특이사항 없음"
+        }
+      ],
+      "limitation": "붙임 8·9의 추이 그래프는 직접 확인하지 못했다."
+    },
+    {
+      "id": "CLAUDE-F22",
+      "summary": "원전운영자가 완료한 단기조치: 1) 계통절차서 개정(재순환·배출운전 2인 수행, 배출밸브 개도를 측면에서 확인하는 주의사항, FS34-1에 따른 Remote 모드 절차 반영), 2) 개도를 직관적으로 확인할 수 없는 V21 동일 유형 밸브 35개에 주의사항 부착과 특이 밸브 9종의 단위기기설명서 작성, 3) 운전기본수칙·운전기록 교육과 액체폐기물계통 운전 근무일지 양식 추가, 4) 필수사용 절차서 11종 현장 비치와 절차서와 다르게 운영되는 밸브 전수 조사 및 절차서 8종 개정, 5) 월성1발 현장부착물 유효성 전수 검토, 6) 월성1,2호기 LEM 유량스위치 설치와 성능시험.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.7 재발방지대책 적절성 검토",
+          "printed_pages": [
+            15,
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "단기조치 6건 상세"
+        }
+      ],
+      "limitation": "각 조치의 시행 완료 일자와 효과 검증 자료는 보고서에 없다. 결론절 4의 단기조치 서술은 중복·오기 형태로 추출되어 3.7절 서술을 기준으로 했다."
+    },
+    {
+      "id": "CLAUDE-F23",
+      "summary": "예정된 중장기 조치: 1) 운전원 교육 개선(2025.12): 인적오류예방기법 실습·평가를 포함한 교육과정과 월성 HPO 센터(2025.10 준공) 실습, 2) LEM 설계요건 기술검토(2025.12)와 GEM 설계기능 재검토, 3) 건설원전-가동원전 설계변경 전파 프로세스 개선(2025.12).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.7 재발방지대책 적절성 검토",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "중장기 조치 3건"
+        }
+      ],
+      "limitation": "예정 사항이며 완료로 취급하지 않는다."
+    },
+    {
+      "id": "CLAUDE-F24",
+      "summary": "KINS는 원전운영자의 재발방지대책이 파악된 원인요소에 근거하여 적절하다고 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "4. 결론",
+          "printed_pages": [
+            17,
+            18
+          ],
+          "pdf_pages": [],
+          "summary": "결론의 조치 적절성 판단"
+        },
+        {
+          "section": "표지·사건 요약(쪽번호 없음)",
+          "printed_pages": [],
+          "pdf_pages": [],
+          "summary": "요약의 조치 적절성 판단"
+        }
+      ],
+      "limitation": "KINS의 조치 적절성 판단이며 대책의 효과를 이 분석이 검증한 것은 아니다."
+    },
+    {
+      "id": "CLAUDE-F25",
+      "summary": "TK5 방출운전 절차(붙임 3)에는 시료채취 전 재순환운전 단계에서 V21·V22·V53 닫힘 확인, 3분 이상 재순환 중 탱크 수위 또는 배출유량계 변화 확인(변화가 있으면 즉시 펌프 정지)이 포함되어 있고, 배출완료 단계에서 V21·V53 격리와 V21 잠금장치 설치 후 열쇠 반납이 규정되어 있다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "붙임 3 TK5 배출운전 주요 절차",
+          "printed_pages": [
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "절차서의 재순환 전 확인·배출완료 단계"
+        }
+      ],
+      "limitation": "붙임 3은 요약 형태이며 절차서 원문의 번호는 비공개이다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-001-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "현장운전원은 필수사용 절차서를 소지하지 않았고(CLAUDE-F10) V53을 절차서와 다르게 항시 조절개방해 운영했으며 이 차이를 인지하고 의문을 가진 운전원들도 이를 제기하지 않았다(CLAUDE-F11, CLAUDE-F07). 정의의 '규정 및 절차의 중요성을 인식하고 준수'에서 숙달 판단과 운전편의가 절차 사용보다 우선한 행동 패턴으로 연결한다. 개인의 인식 수준은 직접 조사되지 않았으며 행동 사실에 근거한 후보이다(PA1은 개인 수준의 인식·태도, WP4는 작업 프로세스의 이행 행위로 구분).",
+      "fact_ids": [
+        "CLAUDE-F10",
+        "CLAUDE-F11",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "절차서 미소지·미사용과 현장부착물의 V53 누락"
+        },
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "V53 상시 개방 관행, 의문 제기 부재, 설비 위치의 불편"
+        },
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "V53 차단 누락과 절차서 기술 대비 실제 운영"
+        },
+        {
+          "section": "붙임 3 TK5 배출운전 주요 절차",
+          "printed_pages": [
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "방출운전·완료 절차 중 V21·V53 격리 단계"
+        }
+      ],
+      "counterevidence_or_limitation": "원전운영자는 숙달 판단과 편의를 원인으로 분석했으나 개인의 안전 중요성 인식 자체를 조사한 기록은 없다. WP4와 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-001-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "현장운전원은 재순환운전 전 점검을 불필요하다고 판단하고 P5 기동 후 유량·수위를 확인하지 않은 채 이석했다(CLAUDE-F08, CLAUDE-F09). 본인 업무 책임의 이해·실천과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F08",
+        "CLAUDE-F09"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "재순환운전 전 점검 누락의 판단 근거"
+        },
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "유량·수위 확인 미수행과 과거 경험에 근거한 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "같은 사실이 WP4·QA4에서 이미 평가되며 PA2 고유의 증거(책임 범위 인식 등)가 없다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-001-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "방출운전이 1인 단독으로 수행되었고 운전조작이 기록되지 않아 주제어실이 현장 조작 이력을 갖지 못했다(CLAUDE-F13, CLAUDE-F14). 조직 내 소통·협력과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F13",
+        "CLAUDE-F14"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "1인 단독 수행과 2개 방벽 중 1개 상실"
+        },
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "운전원일지 미작성과 보조일지 기반 인수인계"
+        }
+      ],
+      "counterevidence_or_limitation": "소통 내용의 공유는 CO3에서, 작업 구성은 WP1에서 평가했다. 팀워크 자체의 실패를 보여주는 조사 사실은 없다."
+    },
+    {
+      "review_key": "ROOT-001-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "원자력기술의 복잡성과 예기치 않은 사건에 대한 인식과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "V21을 돌리자 즉시 걸려 평소와 다른 반응이 있었는데도 최종 개방 상태를 측면에서 확인하지 않았고(CLAUDE-F06), KINS가 적절하다고 판단한 분석은 불확실시 중지와 의문을 갖는 태도가 활용되지 않았다고 기술했다(CLAUDE-F12). 정의의 '불확실할 경우 작업을 중단하고 재개 전 리스크를 평가·관리'와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F06",
+        "CLAUDE-F12"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "V21 격리 누락의 상황과 정면/측면 확인 미수행"
+        },
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "인적오류예방기법 미활용과 세 가지 점검 미수행"
+        }
+      ],
+      "counterevidence_or_limitation": "당시 운전원의 불확실감 인지 여부는 면담 기반 서술이며 보고서는 '평소와 기기의 반응이 상이하여 격리 상태가 불확실한 상태'로 기술한다. QA4와 사실을 일부 공유한다."
+    },
+    {
+      "review_key": "ROOT-001-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "V53의 상시 조절개방이 절차서와 다르다는 점을 인지하고 의문을 가진 전임 운전원들이 있었으나 문제가 제기되지 않았다(CLAUDE-F11). 인적오류예방기법의 '의문을 갖는 태도'도 활용되지 않았다(CLAUDE-F12). 정의의 '정확하지 않다고 판단될 경우 의문을 제기하고 반대의견을 제시'에서 의문이 제기로 이어지지 않은 사례로 연결한다.",
+      "fact_ids": [
+        "CLAUDE-F11",
+        "CLAUDE-F12"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "V53 상시 개방 관행, 의문 제기 부재, 설비 위치의 불편"
+        }
+      ],
+      "counterevidence_or_limitation": "의문이 제기되지 않은 이유(분위기, 영향 우려)는 보고서에 없다. WE2·RC 계열은 근거 부족으로 N으로 두었다. 개인별 책임은 추정하지 않는다."
+    },
+    {
+      "review_key": "ROOT-001-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "현장운전원은 약 10회 방출운전 경험으로 숙달된 것으로 판단하여 절차서를 지니지 않았고(CLAUDE-F10), 과거 재순환운전에서 특이사항이 없었던 경험을 근거로 이번에도 문제가 없을 것으로 자의적으로 판단해 유량·수위를 확인하지 않았으며(CLAUDE-F09), 본인이 V21을 격리했다고 믿어 재점검이 불필요하다고 판단했다(CLAUDE-F08). 정의의 '발생 가능한 실수·잠재적 문제와 리스크를 인지하고 대비'와 연결된다(심리 상태는 추정하지 않고 원전운영자 분석의 서술에 한정).",
+      "fact_ids": [
+        "CLAUDE-F09",
+        "CLAUDE-F10",
+        "CLAUDE-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "유량·수위 확인 미수행과 과거 경험에 근거한 판단"
+        },
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "절차서 미소지·미사용과 현장부착물의 V53 누락"
+        },
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "재순환운전 전 점검 누락의 판단 근거"
+        }
+      ],
+      "counterevidence_or_limitation": "'숙달', '자의적' 등은 원전운영자 분석의 표현이며 KINS가 적절하다고 판단했다. 개인의 자만 성향을 판단하지 않는다. QA2·DM2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-001-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "HP 근무자가 이상 상태를 확인하자 즉시 주제어실에 보고했고 주제어실 지시로 격리가 이루어졌다(CLAUDE-F05). KINS는 사건 인지 후 조치가 적절하다고 판단했다. 안전을 염두에 둔 업무 소통의 긍정 근거이다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "10:05 인지·보고, 10:10 격리, 10:30 시료채취"
+        },
+        {
+          "section": "3.5 사건 인지 후 조치적절성 및 기타 특이사항",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "사건 인지 후 조치 적절성 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "인지 후 행동이며 사건 방지에는 기여하지 못했다. 사건 전 소통은 CO3에서 평가했다."
+    },
+    {
+      "review_key": "ROOT-001-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 의사결정 근거 소통과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "현장운전원이 방출운전 조작을 운전원일지에 기록하지 않아 인수인계가 보조일지·현황판의 단순 기록과 구두에 의존했고 주제어실 일지에도 조작 이력이 없었다(CLAUDE-F14, CLAUDE-F02). 정의의 '수직·수평 관계의 직원·조직과 투명하게 정보를 공유'에서 운전 상태 정보가 기록으로 공유되지 않은 구체 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F14",
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "운전원일지 미작성과 보조일지 기반 인수인계"
+        },
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            1,
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "방출운전 시간대와 구두 인계"
+        },
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "인수인계 내용"
+        }
+      ],
+      "counterevidence_or_limitation": "구두 인계에서 V21 개방 가능성은 전달되었다는 서술이 있고(CLAUDE-F02) 기록 누락의 의도나 규정 해석 차이는 보고서에 없다. WP3(문서화)과 구분하여 여기서는 정보 공유 관점만 본다."
+    },
+    {
+      "review_key": "ROOT-001-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "원자력안전 최우선 방침의 전파와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "인력·설비·예산 지원과 관련하여 구분할 조사 사실이 보고서에 없다(1인 수행의 배경 인력 상황 미기술). 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 현장 순시와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보상·징벌 체계와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 의사결정 시 안전 최우선 고려와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "월성3,4호기 설계변경서(1997.11)가 월성2호기에 반영되지 않았고 당시에는 건설원전-가동원전 설계변경 전파 체계가 없었으며 현재도 주요 현안 위주로 전달되는 한계가 있다(CLAUDE-F16, CLAUDE-F17). 변화를 체계적으로 평가·관리하는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F16",
+        "CLAUDE-F17"
+      ],
+      "source_refs": [
+        {
+          "section": "3.4.1 LEM 설치 및 운영 적절성 검토",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "FS34-1 미설치와 Remote 기능시험 미수행, 설계변경 미반영"
+        },
+        {
+          "section": "3.4.3 관련 요건 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "KINS의 적절성 판단"
+        },
+        {
+          "section": "3.4.1 LEM 설치 및 운영 적절성 검토",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 전파 체계의 과거 부재와 현재의 한계"
+        }
+      ],
+      "counterevidence_or_limitation": "정의의 주체는 리더이며 사건은 과거 건설·시운전기의 설계 반영 누락에 관한 것이다. 설계 변경 관리는 WP2에서 평가했다. 리더 수준의 현재 활동에 대한 조사 사실은 없다."
+    },
+    {
+      "review_key": "ROOT-001-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "방출운전을 1인이 단독 수행하고 V53 상시 개방 관행에 대한 제동이 없었던 점(CLAUDE-F13, CLAUDE-F11)은 방출운전의 역할·책임·권한 규정, 독립 확인자의 필요성 등을 토론하는 소재가 된다.",
+      "fact_ids": [
+        "CLAUDE-F13",
+        "CLAUDE-F11"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "1인 단독 수행과 2개 방벽 중 1개 상실"
+        },
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "V53 상시 개방 관행, 의문 제기 부재, 설비 위치의 불편"
+        }
+      ],
+      "counterevidence_or_limitation": "보고서는 역할·책임·권한의 규정 결함을 지적하지 않았다."
+    },
+    {
+      "review_key": "ROOT-001-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "V53의 상시 개방 관행이 여러 운전원에 걸쳐 지속되었고 LEM이 시운전 이후 Local로만 운전된 상태가 사건 때까지 발견되지 않았다(CLAUDE-F11, CLAUDE-F16). 지속적 진단과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F11",
+        "CLAUDE-F16"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "V53 상시 개방 관행, 의문 제기 부재, 설비 위치의 불편"
+        },
+        {
+          "section": "3.4.1 LEM 설치 및 운영 적절성 검토",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "FS34-1 미설치와 Remote 기능시험 미수행, 설계변경 미반영"
+        },
+        {
+          "section": "3.4.3 관련 요건 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "KINS의 적절성 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "리더의 모니터링 활동에 대한 조사 사실이 보고서에 없다. 관행의 지속 기간은 확인되지 않는다."
+    },
+    {
+      "review_key": "ROOT-001-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 솔선수범과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "현장운전원은 절차서 대신 현장제어반 미믹과 본인의 기억·경험에 의존해 격리 여부와 점검 필요성을 판단했다(CLAUDE-F08, CLAUDE-F10). 일관적이고 체계적인 의사결정 방법과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F08",
+        "CLAUDE-F10"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "재순환운전 전 점검 누락의 판단 근거"
+        },
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "절차서 미소지·미사용과 현장부착물의 V53 누락"
+        }
+      ],
+      "counterevidence_or_limitation": "해당 판단은 WP4·QA4에서 평가되며 DM1 고유의 증거(판단 기준 부재 등)는 확인되지 않는다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-001-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "편의를 위해 V53을 항시 조절개방한 운영은 두 방벽 중 하나를 사실상 포기한 비보수적 선택이며(CLAUDE-F07, CLAUDE-F11, CLAUDE-F13), 이 관행이 V21 격리 오류를 방출로 이어지게 했다. 정의의 '안전을 고려하여 보수적이고 신중함 견지'와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F07",
+        "CLAUDE-F11",
+        "CLAUDE-F13"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "V53 차단 누락과 절차서 기술 대비 실제 운영"
+        },
+        {
+          "section": "붙임 3 TK5 배출운전 주요 절차",
+          "printed_pages": [
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "방출운전·완료 절차 중 V21·V53 격리 단계"
+        },
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "V53 상시 개방 관행, 의문 제기 부재, 설비 위치의 불편"
+        },
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "1인 단독 수행과 2개 방벽 중 1개 상실"
+        }
+      ],
+      "counterevidence_or_limitation": "관행은 작업 환경의 불편(높은 위치, 22 m 이격)에서 비롯된 것으로 서술된다(CLAUDE-F11). 개별 판단 시점과 결정권자는 특정되지 않는다. QA4·WP4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-001-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "의사결정 책임의 명확성과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "상호 존중과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "의견 제기를 격려하는 환경과 관련한 조사 사실이 보고서에 없다(문제제기 부재의 이유는 미기술이며 QA3에서 행동 측면을 평가). 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "신뢰와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "갈등 해결과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "월성3,4호기 시운전에서 확인된 LEM 유량스위치 미설치와 설계변경서(1997.11)가 월성2호기에 반영되지 않았다는 점은 운전경험의 수집·분석과 조치가 연결되지 않은 사례일 수 있다(CLAUDE-F16, CLAUDE-F17).",
+      "fact_ids": [
+        "CLAUDE-F16",
+        "CLAUDE-F17"
+      ],
+      "source_refs": [
+        {
+          "section": "3.4.1 LEM 설치 및 운영 적절성 검토",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "FS34-1 미설치와 Remote 기능시험 미수행, 설계변경 미반영"
+        },
+        {
+          "section": "3.4.3 관련 요건 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "KINS의 적절성 판단"
+        },
+        {
+          "section": "3.4.1 LEM 설치 및 운영 적절성 검토",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "설계변경 전파 체계의 과거 부재와 현재의 한계"
+        }
+      ],
+      "counterevidence_or_limitation": "건설·시운전기의 일이고 당시에는 전파 체계가 없었다고 기술되어 현재의 운전경험 프로그램 평가로 보기는 어렵다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-001-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "자체 진단과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "벤치마킹과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "인적오류예방기법이 활용되지 않았고(CLAUDE-F12) 원전운영자는 중장기로 HPO 센터 실습을 포함한 운전원 교육 개선을 계획했다(CLAUDE-F23). 교육훈련과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F12",
+        "CLAUDE-F23"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "인적오류예방기법 미활용과 세 가지 점검 미수행"
+        },
+        {
+          "section": "3.7 재발방지대책 적절성 검토",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "중장기 조치 3건"
+        }
+      ],
+      "counterevidence_or_limitation": "교육훈련의 수준·이수 현황에 대한 조사 사실이 없고 KINS는 교육 미흡을 원인으로 명시하지 않았다."
+    },
+    {
+      "review_key": "ROOT-001-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "V53 운영이 절차서와 다르다는 점을 전임 운전원들이 인지하고 있었으나 문제가 제기되지 않았다(CLAUDE-F11). 문제점 도출이 용이하도록 CAP을 운영하는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F11"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "V53 상시 개방 관행, 의문 제기 부재, 설비 위치의 불편"
+        }
+      ],
+      "counterevidence_or_limitation": "CAP 등록 여부에 대한 조사 사실이 보고서에 없다. 의문 제기 행동은 QA3에서 평가했다."
+    },
+    {
+      "review_key": "ROOT-001-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "사건 후 LEM 설계기능 전체와 월성1호기, GEM으로 확대점검을 수행해 미구현 기능을 추가로 파악했고(CLAUDE-F19), 개도 확인이 어려운 유사 밸브 35개, 절차서와 다르게 운영되는 밸브, 현장부착물까지 전수 조사했다(CLAUDE-F22). 원인분석과 시정조치를 철저히 평가한 긍정 근거이다.",
+      "fact_ids": [
+        "CLAUDE-F19",
+        "CLAUDE-F22"
+      ],
+      "source_refs": [
+        {
+          "section": "3.4.2 LEM 관련 유사상태 확대점검",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "LEM 미구현 기능, 월성1호기 동일 상태, GEM 샘플펌프 차이"
+        },
+        {
+          "section": "3.7 재발방지대책 적절성 검토",
+          "printed_pages": [
+            15,
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "단기조치 6건 상세"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 이후의 대응이며 사건 전의 문제 평가를 보여주지는 않는다. 효과 검증 자료는 보고서에 없다."
+    },
+    {
+      "review_key": "ROOT-001-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "사건 후 단기조치 6건이 완료되었으나(CLAUDE-F22) LEM 기능 미구현과 V53 관행은 오랜 기간 방치되었다(CLAUDE-F16, CLAUDE-F11). 시의 적절한 문제 해결과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F22",
+        "CLAUDE-F16"
+      ],
+      "source_refs": [
+        {
+          "section": "3.7 재발방지대책 적절성 검토",
+          "printed_pages": [
+            15,
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "단기조치 6건 상세"
+        },
+        {
+          "section": "3.4.1 LEM 설치 및 운영 적절성 검토",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "FS34-1 미설치와 Remote 기능시험 미수행, 설계변경 미반영"
+        },
+        {
+          "section": "3.4.3 관련 요건 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "KINS의 적절성 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "방치 기간과 중간 인지 여부는 보고서에 없다. 사건 후 조치는 PI2에서 긍정으로 평가했다."
+    },
+    {
+      "review_key": "ROOT-001-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "경향 분석과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "우려 제기 정책과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "안전건의 프로세스와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-001-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "방출운전과 재순환운전이 1인 단독으로 수행되었고 독립적 확인(2인 수행, 측면 확인)이 작업 프로세스에 없었으며(CLAUDE-F13, CLAUDE-F06), 인수인계는 구두와 단순 기록에 의존했고(CLAUDE-F14), 절차서의 재순환 전 확인 단계(CLAUDE-F25)가 이행되지 않았다. 정의의 '안전을 최우선으로 고려하여 작업계획을 수립하고 시행하는 프로세스'와 연결된다(WP1은 작업 구성·확인 방식, WP3은 문서, WP4는 이행 행위).",
+      "fact_ids": [
+        "CLAUDE-F13",
+        "CLAUDE-F14",
+        "CLAUDE-F25"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "1인 단독 수행과 2개 방벽 중 1개 상실"
+        },
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "운전원일지 미작성과 보조일지 기반 인수인계"
+        },
+        {
+          "section": "붙임 3 TK5 배출운전 주요 절차",
+          "printed_pages": [
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "절차서의 재순환 전 확인·배출완료 단계"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 2인 수행 규정이 신설되었다는 점(CLAUDE-F22)은 사건 전 프로세스에 독립 확인이 없었음을 시사하나 사건 전 규정 자체는 보고서에서 확인되지 않는다. WP4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-001-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "월성2호기 LEM은 샘플모드 전환용 유량스위치가 설치되지 않아 건설 이후 Local 모드로만 운전되었고, 이 때문에 방출유량 감지에 따른 자동 감시·격리 기능이 구현되지 않아 비계획 방출이 미통제 방출이 되었다(CLAUDE-F16, CLAUDE-F18). 또한 V53의 상시 개방으로 방벽 2개 중 1개가 상실된 상태로 운영되었다(CLAUDE-F13). 정의의 '설계 여유도 내 운전과 변경 시 체계적 프로세스, 안전설비 유지, 심층 방어'와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F16",
+        "CLAUDE-F13",
+        "CLAUDE-F18"
+      ],
+      "source_refs": [
+        {
+          "section": "3.4.1 LEM 설치 및 운영 적절성 검토",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "FS34-1 미설치와 Remote 기능시험 미수행, 설계변경 미반영"
+        },
+        {
+          "section": "3.4.3 관련 요건 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "KINS의 적절성 판단"
+        },
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "1인 단독 수행과 2개 방벽 중 1개 상실"
+        },
+        {
+          "section": "3.4.3 관련 요건 검토",
+          "printed_pages": [
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "LEM 정지 상태 방출의 요건 평가와 KINS 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "LEM 미설치의 원인은 건설·시운전기의 문서·검토 미흡이며 현재 운영 종사자의 행동 문제와는 구분된다. 방출 영향은 기준 대비 미미했다(CLAUDE-F20). LA5와 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-001-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "액체폐기물계통과 LEM 계통의 설계문서가 서로 일치하지 않아 유량스위치 설치가 누락되었고(CLAUDE-F16), 현장제어반 부착물에는 V21만 기술되고 V53은 절차서와 달리 빠져 있었으며(CLAUDE-F10), LEM 설계문서의 기능과 실제 구현의 차이가 다수 확인되었다(CLAUDE-F19). 정의의 '문서 작성 및 관리는 완벽하고 정확하며 최신 상태'와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F10",
+        "CLAUDE-F16",
+        "CLAUDE-F19"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "절차서 미소지·미사용과 현장부착물의 V53 누락"
+        },
+        {
+          "section": "3.4.1 LEM 설치 및 운영 적절성 검토",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "FS34-1 미설치와 Remote 기능시험 미수행, 설계변경 미반영"
+        },
+        {
+          "section": "3.4.3 관련 요건 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "KINS의 적절성 판단"
+        },
+        {
+          "section": "3.4.2 LEM 관련 유사상태 확대점검",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "LEM 미구현 기능, 월성1호기 동일 상태, GEM 샘플펌프 차이"
+        }
+      ],
+      "counterevidence_or_limitation": "일부는 건설·시운전기의 문서 문제이며 현장부착물은 현재의 문서 관리 문제로 시기가 다르다. CO3(기록 공유)와 구분하며 운전원일지 미작성은 CO3에서 평가했다."
+    },
+    {
+      "review_key": "ROOT-001-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "현장운전원은 필수사용 절차서를 소지·사용하지 않았고(CLAUDE-F10), 방출 후 V53 격리와 재순환 전 V21·V53 닫힘 확인, 재순환 직후 유량·수위 확인이라는 절차 단계를 수행하지 않았다(CLAUDE-F07, CLAUDE-F08, CLAUDE-F09, CLAUDE-F25). 정의의 '프로세스, 절차 및 작업 지침 준수'와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F07",
+        "CLAUDE-F08",
+        "CLAUDE-F09",
+        "CLAUDE-F10",
+        "CLAUDE-F25"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "V53 차단 누락과 절차서 기술 대비 실제 운영"
+        },
+        {
+          "section": "붙임 3 TK5 배출운전 주요 절차",
+          "printed_pages": [
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "방출운전·완료 절차 중 V21·V53 격리 단계"
+        },
+        {
+          "section": "3.2.1 운전원 조치 미흡사항",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "유량·수위 확인 미수행과 과거 경험에 근거한 판단"
+        },
+        {
+          "section": "3.2.2 운전원 조치 미흡사항 원인 분석",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "절차서 미소지·미사용과 현장부착물의 V53 누락"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS가 적절하다고 판단한 원전운영자 분석에 근거하며 절차서 번호는 비공개이다. PA1과 사실을 공유한다(WP4는 이행 행위, PA1은 개인 수준의 인식·태도)."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(9a8fa2e6…07f4)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 1,765,325 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조), 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본 파일 여러 개가 있으며 사건 식별은 파일명이 아니라 표지 '2025-01호(250112W2)'와 본문으로 했다. 같은 사건의 등급평가위원회 의결안건 파일명이 Drive에 있었으나 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 31이고 큐 기대 물리 페이지는 35이다. 표지·조사자 면·요약 면은 쪽번호가 없다. 번호 없는 면이 4쪽 이상 있다고 추정되나 확인하지 않았으며 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(1. 개요 시작 면을 인쇄쪽 1로 취급). 비공개 처리 사유서의 '쪽/줄' 위치(예: 2쪽, 3쪽, 4쪽)가 이 매핑과 일치하는 것을 교차 확인했으나 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 표지와 사건 요약은 쪽번호가 없어 printed_pages를 빈 배열로 두었고 D/I 근거에는 사용하지 않았다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반한다. 표지, 사건 요약, 1~4장, 붙임 목록과 비공개 처리 사유서의 텍스트를 읽었으나 사진(V21 정면/측면, 현장부착물, 이격 상태)과 붙임 1~9의 도면·표·그래프 이미지는 직접 확인하지 못했다. 붙임 6의 표는 텍스트 추출이 깨져 세부를 판독하지 않았다.",
+    "원본의 비공개 처리 구간(절차서 번호, 배출관리기준 값 일부 등 '0' 연속 표기)은 복원하지 않았다.",
+    "보고서 내 시각·수치 표기 차이를 보정하지 않고 기록만 했다: 방출 완료 판단 시각(2.2절 00:10과 3.1절 01:13경), 인계 시각, 총 방출량 29.44 m3(초기)와 29.532 m3(최종), 소외주민피폭선량 1.30x10^-7(원전운영자)과 1.73x10^-7 mSv/yr(KINS). 결론절 4의 단기조치 서술은 3.7절과 달리 중복·오기 형태로 추출되어 3.7절을 기준으로 했다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 본 보고서는 면담 원문이 없는 규제기관 조사 보고서이며 현장운전원의 행동·판단은 원전운영자 분석을 KINS가 적절하다고 판단한 서술에 의존한다. LEM 관련 원인(WP2·WP3 일부)은 1990년대 건설·시운전기의 문제이며 현재 종사자의 행동과 구분해야 한다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-001과는 무관한 사건이며 ROOT-001 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

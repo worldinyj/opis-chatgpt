@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "model": "GEMINI",
+  "queue_id": "ROOT-003",
+  "event_id": "240513W4",
+  "artifact_status": "STORED",
+  "integration_status": "PENDING_INTEGRATION",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "SELF_ATTESTED_NO_OTHER_AI_OUTPUTS_SEEN",
+  "source_verification": "BINARY_HASH_VERIFIED",
+  "reported_hash_matches_queue": true,
+  "reported_pages_match_queue": true,
+  "source_zip": "GEMINI_ROOT-003_240513W4_v1.zip",
+  "source_zip_sha256": "fa2f488ab6eb2db1ac38728f5f03711be6d8e6c9083f0ca9edabd0e8c9939f62",
+  "files": [
+    {
+      "name": "report.md",
+      "blob": "38df101fcf5275a2eb3207498d1b31f3f5f22f47",
+      "sha256": "dd6b2ef45cd8349e3346cbaf5307995434c69024d3df06b4e3d020472c40d5f7"
+    },
+    {
+      "name": "review.json",
+      "blob": "d9694c0ee7771e0d6f32358c9004c0b4b3cbffa5",
+      "sha256": "01adf7dba150b9cb807b9ef5e985bbf079118701957a4357f1b78f0fa5adcf26"
+    },
+    {
+      "name": "excel_import.csv",
+      "blob": "193ceb04254357f96efc6d44c3ed34977dc130ac",
+      "sha256": "1100db85c5060c104e574aacb459039aa4bf9ee79f3a07bd23ee8c286b7ca2b8"
+    },
+    {
+      "name": "validation.md",
+      "blob": "2001eee20d5511a77950d739502142ad5b29b7cf",
+      "sha256": "23020b57edcded351bbadea7b56e38c9fd93444677bdb421494f48b67ee6ad9f"
+    }
+  ],
+  "role_counts": {
+    "D": 14,
+    "I": 5,
+    "A": 4,
+    "H": 3,
+    "N": 13,
+    "P": 1
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "csv_json_key_decision_rationale": "PASS",
+    "csv_formula_injection": "PASS",
+    "fact_ids": "PASS",
+    "role_mapping": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "schema_keyword_subset": "PASS",
+    "fact_count": 14,
+    "attribute_source_ref_membership": "PASS",
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Reported PDF hash and page count match queue; no fresh PDF byte hash by importer.",
+    "Independence self-attestation, no semantic reinspection or expert review."
+  ],
+  "approved": false,
+  "can_ship": false
+}
