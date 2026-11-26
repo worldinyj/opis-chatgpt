@@ -1,0 +1,236 @@
+[
+  {
+    "path": "cases/2005/051106W1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+    "event_id": "051106W1",
+    "queue_id": "ROOT-031",
+    "priority": "P2_ROLE_BOUNDARY",
+    "candidates": 2,
+    "education": 8,
+    "metadata": [
+      {
+        "key": "candidate_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "additional_review_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "insufficient_or_low_relevance_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "approved_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      }
+    ],
+    "validation": {
+      "status": "PASS_STRUCTURAL",
+      "errors": [],
+      "notes": []
+    }
+  },
+  {
+    "path": "cases/2003/031229Y5/review_package/EXPERT_REVIEW_PACKET_V1.json",
+    "event_id": "031229Y5",
+    "queue_id": "ROOT-032",
+    "priority": "P1_EVIDENCE_BOUNDARY",
+    "candidates": 0,
+    "education": 8,
+    "metadata": [
+      {
+        "key": "candidate_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "additional_review_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "insufficient_or_low_relevance_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "approved_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      }
+    ],
+    "validation": {
+      "status": "PASS_STRUCTURAL",
+      "errors": [],
+      "notes": []
+    }
+  },
+  {
+    "path": "cases/2002/020405U4/review_package/EXPERT_REVIEW_PACKET_V1.json",
+    "event_id": "020405U4",
+    "queue_id": "ROOT-033",
+    "priority": "P1_EVIDENCE_BOUNDARY",
+    "candidates": 0,
+    "education": 6,
+    "metadata": [
+      {
+        "key": "candidate_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "additional_review_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "insufficient_or_low_relevance_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "approved_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      }
+    ],
+    "validation": {
+      "status": "PASS_STRUCTURAL",
+      "errors": [],
+      "notes": []
+    }
+  },
+  {
+    "path": "cases/2000/001117K1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+    "event_id": "001117K1",
+    "queue_id": "ROOT-034",
+    "priority": "P2_ROLE_BOUNDARY",
+    "candidates": 2,
+    "education": 5,
+    "metadata": [
+      {
+        "key": "candidate_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "additional_review_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "insufficient_or_low_relevance_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "approved_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      }
+    ],
+    "validation": {
+      "status": "PASS_STRUCTURAL",
+      "errors": [],
+      "notes": []
+    }
+  },
+  {
+    "path": "cases/1999/990323Y2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+    "event_id": "990323Y2",
+    "queue_id": "ROOT-035",
+    "priority": "P2_ROLE_BOUNDARY",
+    "candidates": 5,
+    "education": 2,
+    "metadata": [
+      {
+        "key": "candidate_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "additional_review_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "insufficient_or_low_relevance_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "approved_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      }
+    ],
+    "validation": {
+      "status": "PASS_STRUCTURAL",
+      "errors": [],
+      "notes": []
+    }
+  },
+  {
+    "path": "cases/1997/970117-1502/review_package/EXPERT_REVIEW_PACKET_V1.json",
+    "event_id": "970117-1502",
+    "queue_id": "ROOT-036",
+    "priority": "P2_ROLE_BOUNDARY",
+    "candidates": 6,
+    "education": 2,
+    "metadata": [
+      {
+        "key": "candidate_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "additional_review_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "insufficient_or_low_relevance_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "approved_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      }
+    ],
+    "validation": {
+      "status": "PASS_STRUCTURAL",
+      "errors": [],
+      "notes": []
+    }
+  }
+]

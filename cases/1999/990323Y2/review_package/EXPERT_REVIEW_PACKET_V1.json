@@ -1,0 +1,332 @@
+{
+  "schema_version": "1.0",
+  "event_id": "990323Y2",
+  "queue_id": "ROOT-035",
+  "priority": "P2_ROLE_BOUNDARY",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_path": "cases/1999/990323Y2/review_package/ATTRIBUTE_ROLES_V1.json",
+    "normalized_blob": "f358dd01a9a1435510e5b01734bbce97314deaff",
+    "metadata_blob": "82e5c16df26ec37997f474c2fe3355485faae350",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "link_index_blob": "e8dda08fefb980b9bee911237eaacaedb2a48b64",
+    "source_sha256": "13d80baa4e31bb0bea57852824c684ae244783e43b5176dac64feba698f95407"
+  },
+  "source_paths": {
+    "report": "cases/1999/990323Y2/report.md",
+    "fact_ledger": "cases/1999/990323Y2/media/fact_ledger.json",
+    "learning_ledger": "cases/1999/990323Y2/media/learning_ledger.json"
+  },
+  "candidates": [
+    {
+      "code": "CL1",
+      "name": "운전 경험",
+      "definition": "운전경험은 체계적이고 효과적으로 수집하고 분석하며 그 결과는 시의 적절하게 조치한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F07"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F07",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        }
+      ],
+      "author_rationale": "운전경험 반영 미흡",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "CL4",
+      "name": "교육 훈련",
+      "definition": "높은 수준의 교육훈련을 통해 전문 인력을 양성하고 엄격한 원자력안전 기준을 강조한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F05"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F05",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        }
+      ],
+      "author_rationale": "이해 부족과 교육 체계 미흡 구별",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "PI3",
+      "name": "문제 해결",
+      "definition": "원자력안전에 대한 문제를 중요도에 따라 시의 적절하고 효과적으로 조치한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F06"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F06",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        }
+      ],
+      "author_rationale": "인지 문제 조치 미흡",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP1",
+      "name": "작업 관리",
+      "definition": "원자력안전을 최우선적으로 고려하여 작업계획을 수립하고 시행하는 프로세스를 운영한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F06",
+        "F09"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F06",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        },
+        {
+          "fact_id": "F09",
+          "kind": "OBSERVED_FACT",
+          "section": "요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        }
+      ],
+      "author_rationale": "조치와 계획 관리 연결 추가 확인",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP4",
+      "name": "절차 준수",
+      "definition": "모든 종사자는 프로세스, 절차 및 작업 지침을 준수한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F12"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F12",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약; 등급평가",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        }
+      ],
+      "author_rationale": "원문 절차 준수 불이행 지적",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    }
+  ],
+  "education_and_positive": [
+    {
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "definition": "모든 종사자는 불확실할 경우 작업을 중단하고 작업 재개 전 리스크를 평가하고 관리한다.",
+      "role": "EDUCATION_ONLY",
+      "fact_ids": [
+        "F04",
+        "F06"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F04",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        },
+        {
+          "fact_id": "F06",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        }
+      ],
+      "author_rationale": "상황 예측과 불확실시 작업중단 구분",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "PI1",
+      "name": "문제 파악",
+      "definition": "원자력안전에 대한 문제점 도출이 용이하도록 운영개선프로그램(CAP)을 운영한다.",
+      "role": "EDUCATION_ONLY",
+      "fact_ids": [
+        "F06"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F06",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        }
+      ],
+      "author_rationale": "이미 인지; CAP 운영 근거 없음",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    }
+  ],
+  "additional_review_codes": [
+    "PA1",
+    "PA2",
+    "QA1",
+    "QA3",
+    "QA4",
+    "CO1",
+    "LA1",
+    "LA2",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM2",
+    "DM3",
+    "CL2",
+    "PI2",
+    "WP2",
+    "WP3"
+  ],
+  "legacy_unselected_codes": [
+    "PA3",
+    "CO2",
+    "CO3",
+    "CO4",
+    "LA3",
+    "LA8",
+    "WE1",
+    "WE2",
+    "WE3",
+    "WE4",
+    "CL3",
+    "PI4",
+    "RC1",
+    "RC2"
+  ],
+  "metadata_checks": [
+    {
+      "key": "candidate_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "additional_review_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "insufficient_or_low_relevance_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "approved_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    }
+  ],
+  "validation": {
+    "status": "PASS_STRUCTURAL",
+    "errors": [],
+    "notes": []
+  },
+  "expert_status": "PENDING",
+  "expert_reviewer": null,
+  "expert_review_date": null,
+  "approved_attributes": [],
+  "confirmed_weakness_count": null,
+  "can_ship": false
+}

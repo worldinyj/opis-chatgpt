@@ -1,0 +1,423 @@
+{
+  "schema_version": "1.0",
+  "event_id": "970117-1502",
+  "queue_id": "ROOT-036",
+  "priority": "P2_ROLE_BOUNDARY",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_path": "cases/1997/970117-1502/review_package/ATTRIBUTE_ROLES_V1.json",
+    "normalized_blob": "68d771b7679d945222df27bc10bc56bda195e6ed",
+    "metadata_blob": "e6bc8fb37dd1f801787bb08b5b81b53d340fc854",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "link_index_blob": "e8dda08fefb980b9bee911237eaacaedb2a48b64",
+    "source_sha256": "77c64ecd353163f6ae8b8ee108588eb850dd1ac38a9aff0bd913b2b53788ecee"
+  },
+  "source_paths": {
+    "report": "cases/1997/970117-1502/report.md",
+    "fact_ledger": "cases/1997/970117-1502/media/fact_ledger.json",
+    "learning_ledger": "cases/1997/970117-1502/media/learning_ledger.json"
+  },
+  "candidates": [
+    {
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "definition": "모든 종사자는 원자력안전을 위한 본인의 업무에 대해 책임을 이해하고 실천한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F05",
+        "F06"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F05",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "fact_id": "F06",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "author_rationale": "책임 인식·실천 관련 추가 확인",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "DM2",
+      "name": "보수적 성향",
+      "definition": "모든 종사자는 의사결정 시 원자력안전을 고려하여 보수적이고 신중함을 견지한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F05"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F05",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "author_rationale": "생산 우려와 판단; 조직적 압박 단정 금지",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "PI3",
+      "name": "문제 해결",
+      "definition": "원자력안전에 대한 문제를 중요도에 따라 시의 적절하고 효과적으로 조치한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F05"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F05",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "author_rationale": "문제 방치 기록",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP1",
+      "name": "작업 관리",
+      "definition": "원자력안전을 최우선적으로 고려하여 작업계획을 수립하고 시행하는 프로세스를 운영한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F08",
+        "F09"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F08",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "fact_id": "F09",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "author_rationale": "정기 시험관리 부적절 및 점검 미수행",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP3",
+      "name": "문서화",
+      "definition": "문서 작성 및 관리는 완벽하고 정확하며 최신의 상태를 유지한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F07"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F07",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "author_rationale": "필요 절차 누락",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP4",
+      "name": "절차 준수",
+      "definition": "모든 종사자는 프로세스, 절차 및 작업 지침을 준수한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F06",
+        "F07"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F06",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "fact_id": "F07",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "author_rationale": "실제 요구된 절차 여부 확인",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    }
+  ],
+  "education_and_positive": [
+    {
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "definition": "모든 종사자는 불확실할 경우 작업을 중단하고 작업 재개 전 리스크를 평가하고 관리한다.",
+      "role": "EDUCATION_ONLY",
+      "fact_ids": [
+        "F03",
+        "F04",
+        "F06"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F03",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "fact_id": "F04",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "fact_id": "F06",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "author_rationale": "불확실시 중단·평가 증거 미확보",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "PI1",
+      "name": "문제 파악",
+      "definition": "원자력안전에 대한 문제점 도출이 용이하도록 운영개선프로그램(CAP)을 운영한다.",
+      "role": "EDUCATION_ONLY",
+      "fact_ids": [
+        "F03"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F03",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "요약",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "printed_pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "author_rationale": "단순 이상 인지 실패와 CAP 결함 구별",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    }
+  ],
+  "additional_review_codes": [
+    "PA1",
+    "PA3",
+    "QA1",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "CO3",
+    "LA1",
+    "LA2",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM3",
+    "CL1",
+    "CL2",
+    "CL4",
+    "PI2",
+    "WP2"
+  ],
+  "legacy_unselected_codes": [
+    "CO4",
+    "LA3",
+    "LA8",
+    "WE1",
+    "WE2",
+    "WE3",
+    "WE4",
+    "CL3",
+    "PI4",
+    "RC1",
+    "RC2"
+  ],
+  "metadata_checks": [
+    {
+      "key": "candidate_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "additional_review_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "insufficient_or_low_relevance_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "approved_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    }
+  ],
+  "validation": {
+    "status": "PASS_STRUCTURAL",
+    "errors": [],
+    "notes": []
+  },
+  "expert_status": "PENDING",
+  "expert_reviewer": null,
+  "expert_review_date": null,
+  "approved_attributes": [],
+  "confirmed_weakness_count": null,
+  "can_ship": false
+}
