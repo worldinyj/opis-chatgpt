@@ -36,7 +36,22 @@
     "a4_render": "PENDING"
   },
   "ppt": {
-    "status": "PENDING"
+    "event_id": "100917SK1",
+    "slides": 16,
+    "notes": 16,
+    "total_minutes": 52,
+    "editable_shapes": 417,
+    "zip_members": 75,
+    "zip_crc": "PASS",
+    "generic_generator_execution": "PASS",
+    "generator_path": "education/ppt/generic/generic.mjs",
+    "generator_commit": "5b34a2fe56b523d3247d6a4d9c85cb2601c31f6f",
+    "method": "Repository prepare(input,taxonomy) then buildPptx(prepared) executed in JS isolate; export replaced with return only. Not CLI or actual renderer.",
+    "actual_render": "PENDING",
+    "pptx_blob": "62b18e15adf51e67e37a65de52955b993f7a68f7",
+    "pptx_bytes": 345227,
+    "expert_approved": false,
+    "can_ship": false
   },
   "can_ship": false,
   "media": {

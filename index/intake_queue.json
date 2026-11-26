@@ -490,11 +490,11 @@
           "size_bytes": 901625
         }
       ],
-      "status": "DRAFT_REGISTERED",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
       "event_id": "100917SK1",
       "verified_event_date": "2010-09-17",
       "from_prior_table": true,
-      "notes": "원본 25쪽·24 사실·3 학습·40속성(11/19/10) 분석 초안 등록. 토론·영상·PPT·A4·정식 계약 대기. 전문가 별도 검토. 토론 3문항·2가상사례·6실천 및 영상 3종 43장면/270초 설계 등록. 실제 생성 미수행.",
+      "notes": "원본 25쪽·24 사실·3 학습·40속성(11/19/10) 분석 초안 등록. 토론·영상·PPT·A4·정식 계약 대기. 전문가 별도 검토. 토론 3문항·2가상사례·6실천 및 영상 3종 43장면/270초 설계 등록. 실제 생성 미수행. 실제 PPTX 16장/52분 및 진행자 가이드 등록. 저장소 표준 생성기 실행·CRC PASS. 출력과 정식 계약 대기.",
       "source_sha256": "f80140a0395ac3332c13a9b6a5de254f97475cfd1de124b9cbf8a4b74afe73e4"
     },
     {
@@ -706,7 +706,7 @@
     {
       "queue_id": "ROOT-028",
       "event_id": "100917SK1",
-      "task": "MISSING_PPTX_BUILD_THEN_PPT_A4_FORMAL_CONTRACT_QC",
+      "task": "PPT_A4_FORMAL_CONTRACT_QC",
       "status": "PENDING"
     },
     {
