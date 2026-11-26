@@ -1,0 +1,91 @@
+{
+  "event_id": "110419K34",
+  "queue_id": "ROOT-027",
+  "date": "2026-11-26",
+  "source_commit": "099be1511deb567112e562ad89effa539c33e8ff",
+  "renderer_commit": "ddf036b1824c81ace2772b96865d1d64e2adf2e7",
+  "renderer_blob": "b565608a687d2bf8fd8f026000edef2c699abc1f",
+  "source_hash": {
+    "bytes": 13415,
+    "sha256": "b22e4eef5840868a083afed2201fcf29bdc150b5f0bc0c83bf66dc40a6f34ab4",
+    "git_blob": "ec70645bbbb67a4115ff4b25f0b41c01100e048b"
+  },
+  "pdf_hash": {
+    "bytes": 333396,
+    "sha256": "54d4159513a3d01ad2661d679b2049ff303a38ef7af48f22e04d52e718dc0e84",
+    "git_blob": "bb024cdaf314e73e996c72cef5a99084c1595b50"
+  },
+  "output_storage": "LOCAL_OUTPUT_NOT_COMMITTED",
+  "engine": {
+    "weasyprint": "68.0",
+    "mistune": "3.2.1",
+    "pymupdf": "1.26.7"
+  },
+  "pages": 4,
+  "page_details": [
+    {
+      "page": 1,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "text_chars": 1864,
+      "flags": []
+    },
+    {
+      "page": 2,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "text_chars": 1650,
+      "flags": []
+    },
+    {
+      "page": 3,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "text_chars": 1433,
+      "flags": []
+    },
+    {
+      "page": 4,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "text_chars": 1689,
+      "flags": []
+    }
+  ],
+  "tables": 2,
+  "expected_text_blocks": 136,
+  "missing_text_block_indices": [],
+  "fonts": [
+    {
+      "name": "SXAUFQ+Noto-Sans-CJK-KR-Bold",
+      "embedded": true
+    },
+    {
+      "name": "DSVEWC+Noto-Sans-CJK-KR",
+      "embedded": true
+    }
+  ],
+  "flags": [],
+  "initial_iteration": {
+    "pages": 5,
+    "flags": [
+      "FONT_SUBSTITUTION_POSSIBLE",
+      "TEXT_COMPLETENESS_HEURISTIC"
+    ],
+    "visual_issue": "SPARSE_FINAL_PAGE",
+    "fix": "Line height 1.54 to 1.48; remove page header/footer from completeness text; normalize font name punctuation. No content deletion."
+  },
+  "visual_review": "AUTHOR_CONTACT_SHEET_ALL_4_PAGES_REVIEWED",
+  "full_size_independent_review": "PENDING",
+  "status": "RENDERED_MANUAL_REVIEW_REQUIRED",
+  "source_unchanged": true,
+  "can_ship": false
+}

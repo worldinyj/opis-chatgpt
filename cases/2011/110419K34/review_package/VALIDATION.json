@@ -6,7 +6,11 @@
   "source_detail": "전쪽 텍스트 추출 및 축소시트 2개 시각검토; 붙임1 도식 세부 전사 없음",
   "report": {
     "status": "DRAFT",
-    "a4_render": "PENDING"
+    "a4_render": "LOCAL_STANDARD_RENDER_COMPLETE",
+    "a4_pages": 4,
+    "standard_render_record": "A4_STANDARD_RENDER_QC_20261126.json",
+    "automated_flags": 0,
+    "independent_visual_review": "PENDING"
   },
   "ppt": {
     "status": "DRAFT_REGISTERED",

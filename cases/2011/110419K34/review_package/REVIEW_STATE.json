@@ -14,13 +14,13 @@
   "ppt_status": "DRAFT_REGISTERED",
   "paid_generation_calls": 0,
   "external_submissions": 0,
-  "report_a4_pages": null,
+  "report_a4_pages": 4,
   "author_technical_qc": "PENDING",
   "contract_checks": {
     "passed": 0,
     "total": 14
   },
-  "next_step": "FINAL_RENDER_AND_CONTRACT_QC",
+  "next_step": "PPT_RENDER_AND_FULL_CONTRACT_QC",
   "video_design": {
     "status": "DRAFT_REGISTERED",
     "seconds": 270,
@@ -28,5 +28,11 @@
     "preliminary_checks": 10
   },
   "ppt_git_blob": "f4ea53e8c9fa2d2834fffe4bc32b5a5f5b439afb",
-  "ppt_structural_qc": "PASS_DETERMINISTIC_ZIP_CRC"
+  "ppt_structural_qc": "PASS_DETERMINISTIC_ZIP_CRC",
+  "report_a4_standard_render": {
+    "status": "RENDERED_LOCAL_AUTOMATED_FLAGS_ZERO",
+    "visual_review": "AUTHOR_CONTACT_SHEET_ALL_4_PAGES_REVIEWED",
+    "record": "A4_STANDARD_RENDER_QC_20261126.json",
+    "pdf_sha256": "54d4159513a3d01ad2661d679b2049ff303a38ef7af48f22e04d52e718dc0e84"
+  }
 }

@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-26",
+  "renderer_blob": "b565608a687d2bf8fd8f026000edef2c699abc1f",
+  "batch_runner_blob": "284f81dc482ac789f86cdbbc91a248b46108fe52",
+  "tests": [
+    {
+      "name": "actual_case_markdown",
+      "kind": "ACTUAL_A4_RENDER",
+      "pages": 4,
+      "text_blocks": 136,
+      "missing": 0,
+      "flags": [],
+      "result": "PASS_AUTOMATED_CHECKS"
+    },
+    {
+      "name": "long_table",
+      "kind": "SYNTHETIC_A4_RENDER",
+      "pages": 7,
+      "rows": 40,
+      "unique_row_codes_found": 40,
+      "table_header_pages": 7,
+      "text_blocks": 128,
+      "missing": 0,
+      "flags": [],
+      "result": "PASS_AUTOMATED_CHECKS"
+    },
+    {
+      "name": "wrong_source_hash",
+      "exit": 1,
+      "output_created": false,
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "dirty_tracked_tree",
+      "exit": 2,
+      "result": "PASS_REJECTED"
+    },
+    {
+      "name": "integrated_four_case_run",
+      "kind": "SYNTHETIC_CONTRACT_PPT_WORKER_REAL_A4",
+      "exit": 1,
+      "processed": 4,
+      "a4_pdfs": 4,
+      "counts": {
+        "RENDERED_MANUAL_REVIEW_REQUIRED": 1,
+        "FAIL_CONTRACT": 1,
+        "REVIEW_RENDER_FLAGS": 1,
+        "ERROR": 1
+      },
+      "result": "PASS_EXPECTED_FAILURES_PRESERVED"
+    },
+    {
+      "name": "selected_contract_only",
+      "kind": "SYNTHETIC_WORKER",
+      "exit": 0,
+      "processed": 1,
+      "a4_status": "SKIPPED",
+      "result": "PASS"
+    },
+    {
+      "name": "a4_flag_propagation",
+      "kind": "SYNTHETIC_WORKER_REAL_A4",
+      "exit": 1,
+      "contract_ppt": "RENDERED_MANUAL_REVIEW_REQUIRED",
+      "a4_status": "REVIEW_RENDER_FLAGS",
+      "overall": "REVIEW_RENDER_FLAGS",
+      "flag": "UNSUPPORTED_MARKDOWN_MEDIA",
+      "result": "PASS"
+    }
+  ],
+  "local_git_blob_matches_repository": true,
+  "full_corpus_integration": "PENDING",
+  "source_mutation": false,
+  "can_ship": false
+}
