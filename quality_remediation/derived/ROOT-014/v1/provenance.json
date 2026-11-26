@@ -1,0 +1,19 @@
+{
+  "queue_id": "ROOT-014",
+  "event_id": "170327K4",
+  "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
+  "original_review_blob": "594e6ec2269aa5232a85568ad70b0bfdab699bf0",
+  "original_csv_blob": "520636f2dd6e4b5d33d3ded20f82a2e88a1f5c2c",
+  "original_review_sha256": "2854835296c0e8a56a59536c655867e27f6a67b28263d36805190e108402664c",
+  "original_csv_sha256": "b3fa6ef9344e16a1f324ac6a7beb868c510663b0483f87868b1e57b97be9300c",
+  "derived_csv_sha256": "95743db4a5f76d8a3de206eaa4ee34c38b3d0ae6d2f04d80c9ff8469ba7366a2",
+  "transform_version": "B04-1.0",
+  "original_model": "GEMINI",
+  "derived_by": "CHATGPT_FORMAT_ONLY",
+  "row_diff": "row_diff.json",
+  "validation_report": "validation.json",
+  "authorization_reference": null,
+  "approved": false,
+  "can_ship": false,
+  "eligible_for_three_ai_consensus": false
+}
