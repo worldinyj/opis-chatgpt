@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "model": "GEMINI",
+  "queue_id": "ROOT-020",
+  "event_id": "140617W4",
+  "artifact_status": "STORED",
+  "integration_status": "HOLD",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "SELF_ATTESTED_NO_OTHER_AI_OUTPUTS_SEEN",
+  "source_verification": "BINARY_HASH_VERIFIED",
+  "reported_hash_matches_queue": true,
+  "reported_pages_match_queue": true,
+  "source_zip": "GEMINI_ROOT-020_140617W4_v1.zip",
+  "source_zip_sha256": "eb37204836a8c8d312d0c812a4d4e1b71e0a29872d883b1970a20e079639da42",
+  "files": [
+    {
+      "name": "report.md",
+      "blob": "62e6e70f5b55fa32aac61b13024fde84e09f7c2f",
+      "sha256": "e264e02d736f5317cd6ec6aea3fab6136d295f94b8f142041d0da1c1e8c906a2"
+    },
+    {
+      "name": "review.json",
+      "blob": "9eb09141006eb8484ba393a83f247da3ac56889d",
+      "sha256": "fb81bc1d719cc95df18765d6a203193516c96e2a8d5cb6ac99b357c3b4e9b693"
+    },
+    {
+      "name": "excel_import.csv",
+      "blob": "364ada1dee3b19a863d290bb815f0ec727a1bfcb",
+      "sha256": "fe102cd3e9a1ca746d99c6c4a305c8f826783fa5559513d846d6c5d71573a386"
+    },
+    {
+      "name": "validation.md",
+      "blob": "adc395476126987440f3fa9f1fb41f692b5e9837",
+      "sha256": "0c2c77f990f3391c75a7dabd8335f5ac816a4b339374e55be1d33894554a3089"
+    }
+  ],
+  "role_counts": {
+    "D": 11,
+    "I": 7,
+    "A": 2,
+    "H": 0,
+    "P": 1,
+    "N": 19
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "zip_exact_paths": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "json_duplicate_keys": "PASS",
+    "schema_draft202012_with_format_checker": "PASS",
+    "schema_reference_blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+    "csv_json_decision": "MATCH",
+    "csv_json_rationale": "FAIL_EXACT_MATCH_40_OF_40_ROLE_PREFIX_ONLY",
+    "csv_json_rationale_after_role_prefix_removal": "MATCH_40_OF_40",
+    "csv_source_detail": "FAIL_SECTION_AND_PAGE_DETAILS_OMITTED_FOR_REFERENCED_ROWS",
+    "csv_source_rows_missing_details": [
+      "PA1",
+      "PA2",
+      "QA1",
+      "QA2",
+      "QA3",
+      "QA4",
+      "LA2",
+      "LA5",
+      "LA7",
+      "DM1",
+      "DM2",
+      "CL1",
+      "CL2",
+      "PI1",
+      "PI2",
+      "PI3",
+      "PI4",
+      "WP1",
+      "WP2",
+      "WP3",
+      "WP4"
+    ],
+    "fact_count": 7,
+    "fact_reference_check": "PASS",
+    "report_csv_fact_id_reference": "PASS",
+    "report_and_validation_role_counts": "MATCH",
+    "pdf_page_range_check": "PASS",
+    "csv_formula_prefix_check": "PASS",
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Reported PDF SHA-256 and physical page count match the neutral queue. Importer did not independently reopen or hash the original PDF.",
+    "Independence is self-attested. Semantic source reinspection and expert approval were not performed.",
+    "No submitted progress.json in the ZIP.",
+    "Reported cover number formatting 2014-8호(140617W4) matches queue report 2014-8.",
+    "CSV rationale adds a role prefix in 40/40 rows. Removing only the matching role prefix yields exact JSON rationale equality. The standard requires exact original equality.",
+    "CSV source omits section and page details in 21 rows with JSON source references. Fact IDs match."
+  ],
+  "approved": false,
+  "can_ship": false
+}

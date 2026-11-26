@@ -1,0 +1,1402 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-019",
+  "event_id": "141001Y12",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2014-10-01_저전압 및 비상디젤발전기 기동 (발생일 _2014. 10.1).pdf",
+    "report_number": "2014-14호(141001Y12)",
+    "report_date": "2014-10-29",
+    "sha256": "3845ad254c76c6b2d6d83ea4bf3731af175c8b177f40b3b903468b2ba59277c3",
+    "pdf_page_count": 10,
+    "reading_scope": "원본 PDF 전 10쪽 텍스트 추출(9,718자) 및 본문 전체(표지, 사건 요약, 1장 개요~5장 결론, PDF 1~10쪽) 정밀 판독 완료. 로컬 바이너리 SHA-256 해시·파일 크기(184,823 bytes)·페이지 수(10쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 KINS 원본 조사보고서(2014-14호)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "2014.10.01.(수) 한빛 1호기 95.6% 출력운전(1,030 MWe) 및 한빛 2호기 제21차 계획예방정비(운전모드 6, 핵연료 사용후연료저장조 이송 완료) 중, 2호기 13.8 kV 비안전모선 A계열 고압차단기반(NA-S02-3, SUT #1 인입차단기) 1단계 개체시험 과정에서 공급사 시험원이 계기용 변류기 단자대 대신 인접한 SUT #1 보호용 변류기 단자대에 시험전류 1.25 A(설정치 1.03 A)를 오인가했다. 13:57:48~51 비율차동계전기(587A) 작동으로 스위치야드 차단기(7300/7371)가 개방되어 소외전원이 상실되었고, 1·2호기 SUT #1이 소외전력 공급회로를 공유함에 따라 1·2호기 4.16 kV 안전모선 A계열 동시 저전압(LOV) 및 비상디젤발전기(EDG) 자동기동이 발생했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~3.1.1절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "summary": "SUT #1 보호용 변류기 단자대 1.25 A 오인가로 비율차동계전기 작동, 1·2호기 안전모선 A계열 동시 LOV 및 EDG 기동"
+        }
+      ],
+      "limitation": "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않으며, 3.1.1절 주석에 '한빛 1호기는 고압차단기 교체계획에 따라'라고 표기되어 있으나 실제 교체·시험 호기는 한빛 2호기임."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "원전운영자는 SUT #1과 고압차단기반 사이를 전기적으로 분리했다는 이유만으로 1단계 개체시험을 LOV 유발 중점관리대상에서 제외(2~4단계만 LOV 분류)하고, 한수원 주관 09:30 작업전회의에서도 보호계전기 작동 가능성 및 LOV 주의사항을 전달하지 않았다. 선행호기(고리 4호기)는 1단계 시험을 LOV 유발작업으로 분류해 SUT #1 비가압 상태에서 수행했으나, 한빛 2호기는 SUT 가압 상태(1호기 출력운전과 회로 공유)였음에도 상이한 작업조건의 영향을 사전 검토하지 않고 일반작업으로 수행했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "고리 4호기와 동일한 공급사 작성 시험절차서(HB12E-임시-14-0007)를 '14.09.19 한수원 현장 작업부서(전기팀)가 단독 검토·승인했으나, 절차서 및 점검기록지에는 시험대상 단자대 정보, 계기용 vs 보호용 단자대 구분, 대형펌프 차단기반 vs SUT 인입차단기반 간 차이점 및 보호용 변류기 단자대 주의사항이 전혀 명시되지 않았다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.2~3.1.3절, 3.3절",
+          "printed_pages": [
+            4,
+            5,
+            6,
+            8
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            7,
+            9
+          ],
+          "summary": "시험절차서(HB12E-임시-14-0007) 단자대 구분·주의사항 누락 및 현장 작업부서(전기팀) 단독 검토·승인"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F04",
+      "summary": "고압차단기반 내부에는 보호용과 계기용 변류기 단자대가 단자대 번호 외 별도 구분 없이 나란히 설치되어 선택착오 가능성이 존재했으나 LOV 식별표시·단자대 인식표 등 물리적 방벽(HSI)을 갖추지 못했다. 선행호기(고리 4호기)와 동일인인 공급사 시험원(2인)이 대형펌프 차단기반(NA-S02-7~4)에 이어 SUT 인입차단기반(NA-S02-3)을 시험하면서 단자대 수량·위치 차이점에 적절한 주의를 기울이지 않고 동일 방식으로 시험하다 보호용 단자대에 전류를 인가했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "인접 단자대 물리적 방벽(HSI) 부재 및 시험원의 차단기반 간 단자대 차이점 주의 미흡"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F05",
+      "summary": "KINS 개별면담 조사 결과, 원전운영자 시험감독자가 중복된 타 업무 수행으로 인해 고압차단기반 개체시험 현장 감독업무를 수행할 수 없었음이 확인되었다. 단기조치로 엔지니어링 지원센터 전문원 지원 및 퇴직인력 전환 배치활용을 통한 관리감독 강화가 시행되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "원전운영자 시험감독자의 타 업무 중복으로 현장 감독 불능 및 관리감독 인력 보강 대책"
+        }
+      ],
+      "limitation": "시험감독자의 구체적 중복 업무 내역은 원문에 상세 미수록."
+    },
+    {
+      "id": "GEMINI-F06",
+      "summary": "1·2호기 4.16 kV 안전모선 A계열 LOV 발생 시 EDG 자동기동 및 FSAR 8.3절 부하투입순서에 따른 기기냉각수펌프 등 안전계통 기기가 설계대로 정상 작동했다. 1·2호기 운전원은 LCO 3.8.1/3.8.2 적용 및 비정상-3823·3810B·계통-3591을 적절히 수행하여 15:51~16:06 소외전원 복구 및 EDG 정지를 완료했고, 1·2차 계통 주요 운전변수 안정 유지 및 방사선 특이사항 없음을 확인했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 2.2절, 3.2절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            6,
+            7
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            7,
+            8
+          ],
+          "summary": "EDG·안전부하 정상 작동 및 1·2호기 운전원의 LCO·비정상절차서 수행·소외전원 복구 적절"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F07",
+      "summary": "원전운영자는 단기조치(기동변압기 휴전 시 시험 및 2호기 수전선로 보호계전기 차단, 13.8 kV 고압차단기반 교체·시험 LOV 작업 재분류, 중요 터미널 박스 인식표·물리적 방벽 설치, 관련사 합동 시험절차서 전면 보완, 엔지니어링 지원센터 전문원·퇴직인력 전환배치 관리감독 강화, 전기팀·공사업체 전직원 LOV 특별 안전교육)를 완료하고, 중장기대책(LOV 관련 설계변경 관리절차 개선[설계사·현장 엔지니어링 부서 검토 추가, '14.12], 작업오더 제3검토부서[엔지니어링센터] 추가['14.12], 1·2호기 345 kV 송수전 선로 분리공사['15.03], 휴전 작업 시 보호계전기 신호선 분리 지침 개정['15.03])을 수립했다. KINS는 보완요구사항 없음 및 발전소 안전성 문제 없음으로 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 6건 완료, 중장기대책 4건 수립 및 KINS 발전소 안전성 적정 판단"
+        }
+      ],
+      "limitation": "중장기대책은 보고서 발행일('14.10.29) 기준 '14.12~'15.03월 이행 예정 상태."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-019-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "설계변경 시 설계사·현장 엔지니어링 부서의 LOV 유발 가능성 검토 규정, 작업오더 제3검토부서(엔지니어링센터) 기준 및 휴전 작업 시 보호계전기 신호선 분리 지침이 미비하여 전기팀 단독 검토에 머물렀다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2~3.1.3절, 3.3절",
+          "printed_pages": [
+            4,
+            5,
+            6,
+            8
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            7,
+            9
+          ],
+          "summary": "시험절차서(HB12E-임시-14-0007) 단자대 구분·주의사항 누락 및 현장 작업부서(전기팀) 단독 검토·승인"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 6건 완료, 중장기대책 4건 수립 및 KINS 발전소 안전성 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 1·2호기 운전원은 LCO 3.8.1/3.8.2 및 비정상절차서를 규정에 따라 적절히 준수함."
+    },
+    {
+      "review_key": "ROOT-019-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "공급사 시험원이 대형펌프 차단기반과 SUT 인입차단기반의 단자대 수량·위치 차이점에 적절한 주의를 기울이지 않고 보호용 단자대에 전류를 인가했고, 운영자 작업부서도 단자대 구분이 누락된 절차서를 그대로 검토·승인했다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2~3.1.3절, 3.3절",
+          "printed_pages": [
+            4,
+            5,
+            6,
+            8
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            7,
+            9
+          ],
+          "summary": "시험절차서(HB12E-임시-14-0007) 단자대 구분·주의사항 누락 및 현장 작업부서(전기팀) 단독 검토·승인"
+        },
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "인접 단자대 물리적 방벽(HSI) 부재 및 시험원의 차단기반 간 단자대 차이점 주의 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "시험원은 도면으로 시험대상을 확인하려 했으나 인접 단자대 물리적 방벽 부재와 절차서 미비가 복합 작용함."
+    },
+    {
+      "review_key": "ROOT-019-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "단기조치로 시험 관련사 합동 절차서 검토회의를 실시하고 감독 인력을 보강한 점은 운영자-공급사 간 협업 미흡 정황을 시사하나, 보고서가 팀워크 자체를 직접 평가하지 않아 판단보류로 분류한다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F05",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2~3.1.3절, 3.3절",
+          "printed_pages": [
+            4,
+            5,
+            6,
+            8
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            7,
+            9
+          ],
+          "summary": "시험절차서(HB12E-임시-14-0007) 단자대 구분·주의사항 누락 및 현장 작업부서(전기팀) 단독 검토·승인"
+        },
+        {
+          "section": "3.1.3절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "원전운영자 시험감독자의 타 업무 중복으로 현장 감독 불능 및 관리감독 인력 보강 대책"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 6건 완료, 중장기대책 4건 수립 및 KINS 발전소 안전성 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "운영자-공급사 간 구체적 협업 관행에 대한 직접 조사 내용은 원문에 미수록."
+    },
+    {
+      "review_key": "ROOT-019-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "출력운전 중인 1호기와 소외전력 공급회로를 공유하고 SUT #1이 가압된 환경에서 수행되는 고압차단기반 개체시험을 LOV 중점관리대상에서 제외하고 물리적 방벽·현장 감독 없이 진행한 점은 다호기 공유 전원계통의 안전 특수성 인식 부족을 보여준다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02",
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~3.1.1절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "summary": "SUT #1 보호용 변류기 단자대 1.25 A 오인가로 비율차동계전기 작동, 1·2호기 안전모선 A계열 동시 LOV 및 EDG 기동"
+        },
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        },
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "인접 단자대 물리적 방벽(HSI) 부재 및 시험원의 차단기반 간 단자대 차이점 주의 미흡"
+        },
+        {
+          "section": "3.1.3절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "원전운영자 시험감독자의 타 업무 중복으로 현장 감독 불능 및 관리감독 인력 보강 대책"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 기동변압기 휴전 시 시험, 2호기 수전선로 보호계전기 차단 및 1·2호기 345 kV 선로 분리공사를 추진함."
+    },
+    {
+      "review_key": "ROOT-019-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "선행호기(고리 4호기)와 달리 SUT #1이 가압된 작업환경이 보호계전기 작동에 미치는 불확실성을 사전 확인하지 않았고, 현장에서도 대형펌프 차단기반과 SUT 인입차단기반 내부 단자대 위치 차이를 확인하지 않고 시험전류를 인가했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        },
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "인접 단자대 물리적 방벽(HSI) 부재 및 시험원의 차단기반 간 단자대 차이점 주의 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 당일 재현시험 및 내부결선도 검토를 통해 원인을 신속히 확인함."
+    },
+    {
+      "review_key": "ROOT-019-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "SUT #1과 고압차단기반 사이를 전기적으로 분리했으므로 LOV 발생 가능성이 없다고 가정해 1단계 시험을 일반작업으로 분류했고, 고리 4호기와 동일한 절차서·동일 시험원이면 문제가 없을 것이라 가정해 SUT 가압 조건 차이를 검증하지 않았다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        },
+        {
+          "section": "3.1.2~3.1.3절, 3.3절",
+          "printed_pages": [
+            4,
+            5,
+            6,
+            8
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            7,
+            9
+          ],
+          "summary": "시험절차서(HB12E-임시-14-0007) 단자대 구분·주의사항 누락 및 현장 작업부서(전기팀) 단독 검토·승인"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.1.2절에서 전기적 분리만으로 LOV 가능성이 없다고 오판한 점을 핵심 원인으로 명시)."
+    },
+    {
+      "review_key": "ROOT-019-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "선행호기(고리 4호기)에서 동일한 절차서와 동일 시험원(2인)이 시험을 완료했고 직전 2호기 B계열 시험(9.24~30)도 무사히 끝난 경험에 안주하여 A계열 SUT 인입차단기반의 상이한 작업조건과 단자대 차이를 경시한 안일함이 드러났다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        },
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "인접 단자대 물리적 방벽(HSI) 부재 및 시험원의 차단기반 간 단자대 차이점 주의 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "B계열 시험 당시의 구체적 작업조건(SUT 가압 여부 등)은 원문에 상세 미수록."
+    },
+    {
+      "review_key": "ROOT-019-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "09:30 한수원 주관 개체시험 작업전회의에서 SUT 가압 상태에 따른 보호계전기 작동 가능성과 LOV 유발 위험 주의사항이 공급사 시험원에게 전혀 전달되지 않아 현장 오류 방어벽이 작동하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        },
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "인접 단자대 물리적 방벽(HSI) 부재 및 시험원의 차단기반 간 단자대 차이점 주의 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.1.2~3.1.3절에서 작업전회의 주의사항 누락을 직접 기여요소로 명시)."
+    },
+    {
+      "review_key": "ROOT-019-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "SUT #1 인입차단기반에 보호계전기가 존재해 SUT 가압 상태에서 전류 인가 시 스위치야드 차단기가 개방될 수 있음에도, 전기적 분리 사실만으로 LOV 대상에서 제외한 의사결정 근거 검토가 미흡했다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "LOV 분류 제외 당시의 내부 검토 문서 원문은 보고서에 미수록."
+    },
+    {
+      "review_key": "ROOT-019-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서상 보고대상 사건 보고 및 당일 재현시험·KINS 조사 협조 과정에서 정보 은폐나 투명성 결여를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원전운영자 시험감독자가 중복된 타 업무 수행으로 인해 고위험 고압차단기반 개체시험 현장 감독업무를 수행할 수 없었으며, 단기조치로 엔지니어링 지원센터 전문원 지원 및 퇴직인력 전환 배치활용이 추진되었다.",
+      "fact_ids": [
+        "GEMINI-F05",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "원전운영자 시험감독자의 타 업무 중복으로 현장 감독 불능 및 관리감독 인력 보강 대책"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 6건 완료, 중장기대책 4건 수립 및 KINS 발전소 안전성 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "시험감독자 개인의 구체적 중복 업무량·배치 이력은 원문에 상세 미수록."
+    },
+    {
+      "review_key": "ROOT-019-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "출력운전 중인 1호기와 회로를 공유하고 SUT가 가압된 상태의 고압차단기반 개체시험 현장에 시험감독자가 타 업무 중복으로 입회·감독하지 못해 공급사 시험원의 단자대 오인가를 사전 차단하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "원전운영자 시험감독자의 타 업무 중복으로 현장 감독 불능 및 관리감독 인력 보강 대책"
+        }
+      ],
+      "counterevidence_or_limitation": "단기조치로 전문원·퇴직인력 활용을 통한 관리감독 강화를 완료함."
+    },
+    {
+      "review_key": "ROOT-019-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "기존 자기차단기(MBB)에서 진공차단기(VCB)로 교체하는 설계변경 및 선행호기(고리 4호기) 시험절차서 도입 과정에서 한빛 2호기의 상이한 작업조건(SUT 가압)과 차단기반별 단자대 구성 차이를 반영하는 변화관리가 미흡했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        },
+        {
+          "section": "3.1.2~3.1.3절, 3.3절",
+          "printed_pages": [
+            4,
+            5,
+            6,
+            8
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            7,
+            9
+          ],
+          "summary": "시험절차서(HB12E-임시-14-0007) 단자대 구분·주의사항 누락 및 현장 작업부서(전기팀) 단독 검토·승인"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 6건 완료, 중장기대책 4건 수립 및 KINS 발전소 안전성 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 설계변경 시 설계사·현장 엔지니어링 부서의 LOV 검토 항목을 추가함."
+    },
+    {
+      "review_key": "ROOT-019-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 감독자·시험원 간 권한 혼선 자체를 지적하는 직접 근거는 없다(감독 부재는 업무 중복에 따른 LA1·LA2에서 평가).",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 지속적 자체평가·진단 체계 결여를 직접 원인으로 지적하는 근거는 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2~4단계만 LOV 유발작업으로 분류하고 1단계는 제외했으며, 설계변경 및 작업오더 검토가 현장 작업부서(전기팀) 단독 검토에 그쳐 엔지니어링 부서·엔지니어링센터의 독립적 제3검토 프로세스가 결여되어 있었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        },
+        {
+          "section": "3.1.2~3.1.3절, 3.3절",
+          "printed_pages": [
+            4,
+            5,
+            6,
+            8
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            7,
+            9
+          ],
+          "summary": "시험절차서(HB12E-임시-14-0007) 단자대 구분·주의사항 누락 및 현장 작업부서(전기팀) 단독 검토·승인"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 6건 완료, 중장기대책 4건 수립 및 KINS 발전소 안전성 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 13.8 kV 고압차단기반 교체·시험 전체를 LOV 작업으로 재분류하고 제3검토부서를 추가함."
+    },
+    {
+      "review_key": "ROOT-019-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "1호기가 출력운전 중이고 SUT #1이 가압된 고위험 환경에서 보수적으로 LOV 유발작업 분류, 기동변압기 휴전 또는 수전선로 보호계전기 차단 조치를 취하지 않고 일반작업으로 시험을 강행했다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 발생 후에는 기동변압기 휴전 시 시험 및 2호기 수전선로 보호계전기 차단으로 보수적 조건을 확립함."
+    },
+    {
+      "review_key": "ROOT-019-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 책임 소재 회피를 직접 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "선행호기인 고리 4호기는 1단계 개체시험을 LOV 유발작업으로 분류하고 SUT #1 비가압 상태에서 수행했으나, 한빛 2호기는 이 핵심 안전조건을 반영하지 않은 채 절차서만 그대로 차용하여 사고를 초래했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        },
+        {
+          "section": "3.1.2~3.1.3절, 3.3절",
+          "printed_pages": [
+            4,
+            5,
+            6,
+            8
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            7,
+            9
+          ],
+          "summary": "시험절차서(HB12E-임시-14-0007) 단자대 구분·주의사항 누락 및 현장 작업부서(전기팀) 단독 검토·승인"
+        }
+      ],
+      "counterevidence_or_limitation": "선행호기 시험원(2인)을 동일하게 투입했으나 작업조건 차이에 대한 사전 검토가 누락됨."
+    },
+    {
+      "review_key": "ROOT-019-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 정기 자체 진단 미흡이 사건의 원인으로 작용했다는 직접 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 외부 기관 벤치마킹 누락이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "단기조치로 전기팀 및 현장 공사업체 전직원 대상 LOV 유발작업 특별 안전교육을 실시했으나, 보고서가 사건 전 교육훈련 프로그램의 결함 여부를 직접 평가하지 않아 판단보류로 분류한다.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "인접 단자대 물리적 방벽(HSI) 부재 및 시험원의 차단기반 간 단자대 차이점 주의 미흡"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 6건 완료, 중장기대책 4건 수립 및 KINS 발전소 안전성 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "공급사 시험원 및 전기팀의 사전 교육 이력에 대한 조사 내용은 원문에 미수록."
+    },
+    {
+      "review_key": "ROOT-019-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "SUT와 인입차단기가 전기적으로 분리되어 있더라도 SUT 가압 상태에서 보호용 변류기 단자대에 전류를 인가하면 스위치야드 차단기가 개방되어 1·2호기 동시 LOV가 발생한다는 위험과 차단기반 간 단자대 차이를 사전 작업검토에서 파악하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        },
+        {
+          "section": "3.1.2~3.1.3절, 3.3절",
+          "printed_pages": [
+            4,
+            5,
+            6,
+            8
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            7,
+            9
+          ],
+          "summary": "시험절차서(HB12E-임시-14-0007) 단자대 구분·주의사항 누락 및 현장 작업부서(전기팀) 단독 검토·승인"
+        },
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "인접 단자대 물리적 방벽(HSI) 부재 및 시험원의 차단기반 간 단자대 차이점 주의 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 발생 후 당일 재현시험과 회로도 검토를 통해 원인을 신속히 규명함."
+    },
+    {
+      "review_key": "ROOT-019-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "SUT #1과 고압차단기반의 전기적 분리만을 근거로 LOV 발생 가능성이 없다고 평가함으로써 선행호기 대비 상이한 작업조건(SUT 가압)과 보호계전기 작동 위험을 과소평가했다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.1.2절 및 결론에서 사전 작업검토·위험평가 미흡을 주요 기여원인으로 명시)."
+    },
+    {
+      "review_key": "ROOT-019-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 사건 전 해당 LOV 위험을 인지하고도 시정을 지연·방치했다는 근거는 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 설비·오류 경향분석 체계 결함이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-019-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS가 사건 제목과 결론에서 직접 명시한 바와 같이, LOV 미분류, 작업전회의 주의사항 누락, 시험감독자 타 업무 중복에 따른 감독 불능, 보호용·계기용 단자대 식별표시·인식표 등 물리적 방벽 미비 및 시험원 오인가가 복합된 부적절한 작업관리가 사건의 직접 원인이 되었다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02",
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~3.1.1절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "summary": "SUT #1 보호용 변류기 단자대 1.25 A 오인가로 비율차동계전기 작동, 1·2호기 안전모선 A계열 동시 LOV 및 EDG 기동"
+        },
+        {
+          "section": "사건 요약, 3.1.2절",
+          "printed_pages": [
+            1,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "1단계 개체시험 LOV 미분류, 작업전회의 LOV 주의사항 누락 및 선행호기(SUT 비가압)와 상이한 조건 사전검토 미흡"
+        },
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "인접 단자대 물리적 방벽(HSI) 부재 및 시험원의 차단기반 간 단자대 차이점 주의 미흡"
+        },
+        {
+          "section": "3.1.3절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "원전운영자 시험감독자의 타 업무 중복으로 현장 감독 불능 및 관리감독 인력 보강 대책"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 LOV 재분류, 물리적 방벽 설치, 감독 인력 보강 등 6건의 단기조치를 완료함."
+    },
+    {
+      "review_key": "ROOT-019-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "한빛 1·2호기 SUT #1이 소외전력 공급회로를 공유해 2호기 정비 오류가 운전 중인 1호기 안전모선 LOV로 동시 파급되는 설비 구조(345 kV 선로 분리공사 추진 중)와, 고압차단기반 내부에 보호용·계기용 단자대가 별도 구분 없이 나란히 배치된 HSI 취약성이 기여했다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F04",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~3.1.1절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "summary": "SUT #1 보호용 변류기 단자대 1.25 A 오인가로 비율차동계전기 작동, 1·2호기 안전모선 A계열 동시 LOV 및 EDG 기동"
+        },
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "인접 단자대 물리적 방벽(HSI) 부재 및 시험원의 차단기반 간 단자대 차이점 주의 미흡"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 6건 완료, 중장기대책 4건 수립 및 KINS 발전소 안전성 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "EDG 자동기동 및 FSAR 8.3절 안전계통 부하투입 설계 자체는 정상 작동함."
+    },
+    {
+      "review_key": "ROOT-019-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "공급사가 작성하고 한수원이 승인한 개체시험 절차서(HB12E-임시-14-0007) 및 점검기록지에 시험대상 단자대 정보, 계기용 vs 보호용 단자대 구분, 대형펌프 차단기반과 SUT 인입차단기반의 차이점 및 보호용 변류기 주의사항이 전혀 명시되지 않았다.",
+      "fact_ids": [
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2~3.1.3절, 3.3절",
+          "printed_pages": [
+            4,
+            5,
+            6,
+            8
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            7,
+            9
+          ],
+          "summary": "시험절차서(HB12E-임시-14-0007) 단자대 구분·주의사항 누락 및 현장 작업부서(전기팀) 단독 검토·승인"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 시험 관련사 합동 절차서 검토회의를 통해 항목별 주의사항·운전영향·구체적 시험절차를 전면 보완함."
+    },
+    {
+      "review_key": "ROOT-019-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "1·2호기 4.16 kV 안전모선 A계열 동시 LOV 발생 직후 운전원이 운영기술지침서 LCO 3.8.1/3.8.2와 비정상-3823·3810B·계통-3591을 절차대로 적절히 수행하여 EDG 자동기동·안전부하 투입 확인 및 15:51~16:06 소외전원 복구·계통 안정 유지를 달성하여 긍정·방어 요소(P)로 평가한다.",
+      "fact_ids": [
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 2.2절, 3.2절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            6,
+            7
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            7,
+            8
+          ],
+          "summary": "EDG·안전부하 정상 작동 및 1·2호기 운전원의 LCO·비정상절차서 수행·소외전원 복구 적절"
+        }
+      ],
+      "counterevidence_or_limitation": "사전 시험단계의 절차서 미비 및 시험원 오인가는 WP1·WP3·PA2에서 별도 직접기여(D)로 평가함."
+    }
+  ],
+  "limitations": [
+    "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않음.",
+    "본문 3.1.1절 주석에 '한빛 1호기는 고압차단기 교체계획에 따라'라는 표기가 있으나 실제 교체·시험 수행 호기는 한빛 2호기임.",
+    "시험감독자의 구체적 중복 업무 내역 및 공급사 시험원 사전 교육 이력은 원문에 상세 미수록.",
+    "중장기대책 4건은 보고서 발행일('14.10.29) 기준 '14.12~'15.03월 이행 예정 상태임.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
