@@ -1,0 +1,682 @@
+[
+  {
+    "review_key": "ROOT-020-PA1",
+    "role": "I",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[I] 건설 당시 배관지지대 PH-29의 설계 허용간극 기준(1/16인치)이 준수되지 않아 배관 고착이 발생했고(PH-28 부분접촉 포함), 2011년 최초 결함 이후에도 2인치 소구경배관 취약부위(CUF 0.879)에 대한 보수용접부 비파괴검사 주기 기준이 재발을 방지할 수준으로 설정되지 못했다.",
+      "source": "2014-8호(140617W4) (GEMINI-F02, GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "건설 당시 배관지지대 PH-29의 설계 허용간극 기준(1/16인치)이 준수되지 않아 배관 고착이 발생했고(PH-28 부분접촉 포함), 2011년 최초 결함 이후에도 2인치 소구경배관 취약부위(CUF 0.879)에 대한 보수용접부 비파괴검사 주기 기준이 재발을 방지할 수준으로 설정되지 못했다.",
+      "source": "보고서 2014-8호(140617W4); 절 사건 요약, 3.1.1.1~3.1.3절 / 인쇄쪽 1,4,5,6,7 / PDF 물리쪽 2,5,6,7,8; 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; [GEMINI-F02,GEMINI-F04]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-PA2",
+    "role": "I",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[I] 2011.12.15 동일부위 최초 결함·누설 당시 원인분석 담당자가 단순 용접결함으로만 평가하고 설계적합성, 시공적합성 및 현장 지지대 검증을 종합적으로 수행하지 못한 점이 동일부위 재발에 간접 기여했다.",
+      "source": "2014-8호(140617W4) (GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "2011.12.15 동일부위 최초 결함·누설 당시 원인분석 담당자가 단순 용접결함으로만 평가하고 설계적합성, 시공적합성 및 현장 지지대 검증을 종합적으로 수행하지 못한 점이 동일부위 재발에 간접 기여했다.",
+      "source": "보고서 2014-8호(140617W4); 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; [GEMINI-F04]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-PA3",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 부서 간 협업 실패나 팀워크 결여가 사건 발생 또는 재발에 기여했다는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 부서 간 협업 실패나 팀워크 결여가 사건 발생 또는 재발에 기여했다는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-QA1",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 원자로냉각재 압력경계(가압기 증기배출 2인치 배관)이자 설계 누적피로계수 0.879의 취약부위에서 2011.12(4호기)과 2012.03(3호기)에 동일부위 결함이 연이어 발생했음에도 단순 용접결함으로 치부하고 2018년 이후로 검사주기를 설정한 점은 압력경계 건전성의 안전 특수성 인식 부족을 드러낸다.",
+      "source": "2014-8호(140617W4) (GEMINI-F02, GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "원자로냉각재 압력경계(가압기 증기배출 2인치 배관)이자 설계 누적피로계수 0.879의 취약부위에서 2011.12(4호기)과 2012.03(3호기)에 동일부위 결함이 연이어 발생했음에도 단순 용접결함으로 치부하고 2018년 이후로 검사주기를 설정한 점은 압력경계 건전성의 안전 특수성 인식 부족을 드러낸다.",
+      "source": "보고서 2014-8호(140617W4); 절 사건 요약, 3.1.1.1~3.1.3절 / 인쇄쪽 1,4,5,6,7 / PDF 물리쪽 2,5,6,7,8; 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; [GEMINI-F02,GEMINI-F04]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-QA2",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 2011.12 월성 4호기 최초 누설과 2012.03 월성 3호기 동일부위 결함 시 배관지지대 고착·부식피로 가능성을 확인하지 않았고, 2012.01 ROP Creep Penalty 적용 이후 PCV-5 개방횟수가 급격히 증가한 운전조건이 취약부위 피로에 미치는 불확실성도 사전 검증하지 않았다.",
+      "source": "2014-8호(140617W4) (GEMINI-F02, GEMINI-F03, GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "2011.12 월성 4호기 최초 누설과 2012.03 월성 3호기 동일부위 결함 시 배관지지대 고착·부식피로 가능성을 확인하지 않았고, 2012.01 ROP Creep Penalty 적용 이후 PCV-5 개방횟수가 급격히 증가한 운전조건이 취약부위 피로에 미치는 불확실성도 사전 검증하지 않았다.",
+      "source": "보고서 2014-8호(140617W4); 절 사건 요약, 3.1.1.1~3.1.3절 / 인쇄쪽 1,4,5,6,7 / PDF 물리쪽 2,5,6,7,8; 절 3.1.3~3.1.4절 / 인쇄쪽 6,7,8 / PDF 물리쪽 7,8,9; 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; [GEMINI-F02,GEMINI-F03,GEMINI-F04]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-QA3",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 2011.12 최초 결함 발생 당시 원인을 단순 용접결함으로 가정하여 보수용접으로만 종결했고, 배관지지대가 설계대로 시공되어 있을 것이라는 가정과 3주기 2차('18.2월)·4차('21.11월) 검사주기의 충분성에 도전하지 않아 2주기(582회) 만에 관통균열이 재발했다.",
+      "source": "2014-8호(140617W4) (GEMINI-F02, GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "2011.12 최초 결함 발생 당시 원인을 단순 용접결함으로 가정하여 보수용접으로만 종결했고, 배관지지대가 설계대로 시공되어 있을 것이라는 가정과 3주기 2차('18.2월)·4차('21.11월) 검사주기의 충분성에 도전하지 않아 2주기(582회) 만에 관통균열이 재발했다.",
+      "source": "보고서 2014-8호(140617W4); 절 사건 요약, 3.1.1.1~3.1.3절 / 인쇄쪽 1,4,5,6,7 / PDF 물리쪽 2,5,6,7,8; 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; [GEMINI-F02,GEMINI-F04]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-QA4",
+    "role": "I",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[I] 2011.12 보수용접 및 확대검사 완료 이후 월성 3·4호기 동일부위 결함 이력과 설계 CUF 0.879 취약부위 조건이 존재함에도 추가 현장 지지대 점검이나 조기 비파괴검사 없이 장기 주기에 의존한 안일함이 재발에 간접 기여했다.",
+      "source": "2014-8호(140617W4) (GEMINI-F02, GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "2011.12 보수용접 및 확대검사 완료 이후 월성 3·4호기 동일부위 결함 이력과 설계 CUF 0.879 취약부위 조건이 존재함에도 추가 현장 지지대 점검이나 조기 비파괴검사 없이 장기 주기에 의존한 안일함이 재발에 간접 기여했다.",
+      "source": "보고서 2014-8호(140617W4); 절 사건 요약, 3.1.1.1~3.1.3절 / 인쇄쪽 1,4,5,6,7 / PDF 물리쪽 2,5,6,7,8; 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; [GEMINI-F02,GEMINI-F04]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-CO1",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 부서·작업자 간 의사소통 누락이나 오해가 사건 발생 또는 재발에 기여했다는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 부서·작업자 간 의사소통 누락이나 오해가 사건 발생 또는 재발에 기여했다는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-CO2",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 의사결정 근거 전달·설명 미흡을 지적하는 내용이 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 의사결정 근거 전달·설명 미흡을 지적하는 내용이 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-CO3",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 원안위 고시 보고사항 보고, KAERI 파단면 분석, 제3기관(두산중공업) 검토 수용 및 KINS 현장입회 협조가 투명하게 이루어졌으며 은폐 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "원안위 고시 보고사항 보고, KAERI 파단면 분석, 제3기관(두산중공업) 검토 수용 및 KINS 현장입회 협조가 투명하게 이루어졌으며 은폐 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-CO4",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-LA1",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 인력·장비·예산 등 자원 부족이 사건 발생이나 재발의 원인으로 작용했다는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 인력·장비·예산 등 자원 부족이 사건 발생이나 재발의 원인으로 작용했다는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-LA2",
+    "role": "I",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[I] 건설 당시 배관지지대 PH-29가 허용기준(1/16인치)을 불만족하며 배관과 완전 고착된 채 설치되었으나 현장 감독·검증에서 걸러지지 못해 1999년 운영허가 이후 15년간 방치되었고, 2011.12 최초 사건 당시에도 현장 지지대 입회·검증이 누락되었다.",
+      "source": "2014-8호(140617W4) (GEMINI-F02, GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "건설 당시 배관지지대 PH-29가 허용기준(1/16인치)을 불만족하며 배관과 완전 고착된 채 설치되었으나 현장 감독·검증에서 걸러지지 못해 1999년 운영허가 이후 15년간 방치되었고, 2011.12 최초 사건 당시에도 현장 지지대 입회·검증이 누락되었다.",
+      "source": "보고서 2014-8호(140617W4); 절 사건 요약, 3.1.1.1~3.1.3절 / 인쇄쪽 1,4,5,6,7 / PDF 물리쪽 2,5,6,7,8; 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; [GEMINI-F02,GEMINI-F04]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-LA3",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-LA4",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-LA5",
+    "role": "I",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[I] 2012.01.02 국부과출력(ROP) 압력관 Creep Penalty 적용 이후 PCV-5 개방횟수가 급격히 증가했으나, 이러한 운전조건 변화가 설계 취약부위(CUF 0.879) 및 과거 결함 이력 부위에 미치는 피로 영향을 사전 검토·관리하는 변화관리가 미흡했다.",
+      "source": "2014-8호(140617W4) (GEMINI-F02, GEMINI-F03)"
+    },
+    "after": {
+      "rationale": "2012.01.02 국부과출력(ROP) 압력관 Creep Penalty 적용 이후 PCV-5 개방횟수가 급격히 증가했으나, 이러한 운전조건 변화가 설계 취약부위(CUF 0.879) 및 과거 결함 이력 부위에 미치는 피로 영향을 사전 검토·관리하는 변화관리가 미흡했다.",
+      "source": "보고서 2014-8호(140617W4); 절 사건 요약, 3.1.1.1~3.1.3절 / 인쇄쪽 1,4,5,6,7 / PDF 물리쪽 2,5,6,7,8; 절 3.1.3~3.1.4절 / 인쇄쪽 6,7,8 / PDF 물리쪽 7,8,9; [GEMINI-F02,GEMINI-F03]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-LA6",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 조직·담당자 간 역할·책임·권한 혼선이 사건에 기여했다는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 조직·담당자 간 역할·책임·권한 혼선이 사건에 기여했다는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-LA7",
+    "role": "I",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[I] 2011.12 동일부위 최초 결함 이후에도 2인치 연결배관의 열팽창·수축 거동(연신량) 및 인접 지지대(PH-28·PH-29) 상태를 주기적으로 진단하는 체계가 마련되지 않아 고착 및 피로균열 성장을 사전 포착하지 못했다.",
+      "source": "2014-8호(140617W4) (GEMINI-F04, GEMINI-F07)"
+    },
+    "after": {
+      "rationale": "2011.12 동일부위 최초 결함 이후에도 2인치 연결배관의 열팽창·수축 거동(연신량) 및 인접 지지대(PH-28·PH-29) 상태를 주기적으로 진단하는 체계가 마련되지 않아 고착 및 피로균열 성장을 사전 포착하지 못했다.",
+      "source": "보고서 2014-8호(140617W4); 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; 절 사건 요약, 3.2.2~5장 / 인쇄쪽 1,10,11,13,14,15,16 / PDF 물리쪽 2,11,12,14,15,16,17; [GEMINI-F04,GEMINI-F07]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-LA8",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-DM1",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 2011.12.15 최초 결함·누설 당시 파단면 상세분석, 설계·시공적합성 재검토 및 현장검증을 포함하는 체계적 근본원인 평가와 검사주기 설정 의사결정 프로세스가 작동하지 않아 단순 용접결함 보수로 종결되었다.",
+      "source": "2014-8호(140617W4) (GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "2011.12.15 최초 결함·누설 당시 파단면 상세분석, 설계·시공적합성 재검토 및 현장검증을 포함하는 체계적 근본원인 평가와 검사주기 설정 의사결정 프로세스가 작동하지 않아 단순 용접결함 보수로 종결되었다.",
+      "source": "보고서 2014-8호(140617W4); 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; [GEMINI-F04]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-DM2",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 설계 누적피로계수가 0.879로 허용기준(1.0)에 근접한 취약부위이자 월성 3·4호기에서 동일부위 결함이 발생한 원자로냉각재 압력경계임에도, 보수적 관점에서 검사주기를 단축하거나 주변 지지대를 점검하지 않고 3주기 2차('18.2월)·4차('21.11월)로 장기 설정했다.",
+      "source": "2014-8호(140617W4) (GEMINI-F02, GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "설계 누적피로계수가 0.879로 허용기준(1.0)에 근접한 취약부위이자 월성 3·4호기에서 동일부위 결함이 발생한 원자로냉각재 압력경계임에도, 보수적 관점에서 검사주기를 단축하거나 주변 지지대를 점검하지 않고 3주기 2차('18.2월)·4차('21.11월)로 장기 설정했다.",
+      "source": "보고서 2014-8호(140617W4); 절 사건 요약, 3.1.1.1~3.1.3절 / 인쇄쪽 1,4,5,6,7 / PDF 물리쪽 2,5,6,7,8; 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; [GEMINI-F02,GEMINI-F04]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-DM3",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 의사결정 책임 회피나 지연이 사건에 기여했다는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 의사결정 책임 회피나 지연이 사건에 기여했다는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-WE1",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-WE2",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-WE3",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-WE4",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-CL1",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 2011.12.15 월성 4호기 동일부위 결함·누설과 2012.03.25 월성 3호기 동일부위 결함이라는 명확한 내부 운전경험이 축적되어 있었음에도, 설계·시공적합성 검증, 배관지지대 점검 및 보수용접부 검사주기 단축으로 환류하지 못해 동일부위 관통결함이 재발했다.",
+      "source": "2014-8호(140617W4) (GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "2011.12.15 월성 4호기 동일부위 결함·누설과 2012.03.25 월성 3호기 동일부위 결함이라는 명확한 내부 운전경험이 축적되어 있었음에도, 설계·시공적합성 검증, 배관지지대 점검 및 보수용접부 검사주기 단축으로 환류하지 못해 동일부위 관통결함이 재발했다.",
+      "source": "보고서 2014-8호(140617W4); 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; [GEMINI-F04]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-CL2",
+    "role": "A",
+    "result": "판단보류",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[A] 2011년 검사결과에 대해 금번 사건에서 제3기관(두산중공업) 검토를 통해 RT 필름 선명도 저하 및 Al Oxide Grinding Wheel 사용 등 개선사항이 도출되었으나, 원전운영자의 기존 자체진단 체계 자체에 대한 직접 조사가 원문에 없어 판단보류로 분류한다.",
+      "source": "2014-8호(140617W4) (GEMINI-F04, GEMINI-F05)"
+    },
+    "after": {
+      "rationale": "2011년 검사결과에 대해 금번 사건에서 제3기관(두산중공업) 검토를 통해 RT 필름 선명도 저하 및 Al Oxide Grinding Wheel 사용 등 개선사항이 도출되었으나, 원전운영자의 기존 자체진단 체계 자체에 대한 직접 조사가 원문에 없어 판단보류로 분류한다.",
+      "source": "보고서 2014-8호(140617W4); 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; 절 3.1.1.2절, 3.2.1절 / 인쇄쪽 4,9,10 / PDF 물리쪽 5,10,11; [GEMINI-F04,GEMINI-F05]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-CL3",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 외부 기관 벤치마킹 누락이 사건에 기여했다는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 외부 기관 벤치마킹 누락이 사건에 기여했다는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-CL4",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 2011년 및 2014년 용접사 자격(GTAW MQW 3000)은 모두 코드 요건 적합으로 확인되었으며 교육훈련·자격 결여 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "2011년 및 2014년 용접사 자격(GTAW MQW 3000)은 모두 코드 요건 적합으로 확인되었으며 교육훈련·자격 결여 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-PI1",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 건설 당시 시공불량으로 발생한 PH-29 배관지지대 완전 고착 및 PH-28 부분접촉이 15년간 식별되지 못했고, 2011.12 최초 사건 당시에도 지지대 고착과 2011년 RT 필름 선명도 저하(및 주조 시 밸브 노즐 표면직하 미세 선형지시)가 식별되지 못했다.",
+      "source": "2014-8호(140617W4) (GEMINI-F02, GEMINI-F04, GEMINI-F05)"
+    },
+    "after": {
+      "rationale": "건설 당시 시공불량으로 발생한 PH-29 배관지지대 완전 고착 및 PH-28 부분접촉이 15년간 식별되지 못했고, 2011.12 최초 사건 당시에도 지지대 고착과 2011년 RT 필름 선명도 저하(및 주조 시 밸브 노즐 표면직하 미세 선형지시)가 식별되지 못했다.",
+      "source": "보고서 2014-8호(140617W4); 절 사건 요약, 3.1.1.1~3.1.3절 / 인쇄쪽 1,4,5,6,7 / PDF 물리쪽 2,5,6,7,8; 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; 절 3.1.1.2절, 3.2.1절 / 인쇄쪽 4,9,10 / PDF 물리쪽 5,10,11; [GEMINI-F02,GEMINI-F04,GEMINI-F05]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-PI2",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 2011.12.15 최초 결함·누설 당시 부식피로 메커니즘, 설계 누적피로계수 0.879 취약도, PH-29 지지대 고착에 따른 추가 인장응력 및 밸브 운전이력을 종합 평가하지 못하고 단순 용접결함으로 과소평가했다.",
+      "source": "2014-8호(140617W4) (GEMINI-F02, GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "2011.12.15 최초 결함·누설 당시 부식피로 메커니즘, 설계 누적피로계수 0.879 취약도, PH-29 지지대 고착에 따른 추가 인장응력 및 밸브 운전이력을 종합 평가하지 못하고 단순 용접결함으로 과소평가했다.",
+      "source": "보고서 2014-8호(140617W4); 절 사건 요약, 3.1.1.1~3.1.3절 / 인쇄쪽 1,4,5,6,7 / PDF 물리쪽 2,5,6,7,8; 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; [GEMINI-F02,GEMINI-F04]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-PI3",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 2011.12 최초 사건 이후 수행한 보수용접·확대검사 및 3주기 2차('18.2월)·4차('21.11월) 검사계획 반영이 근본원인인 PH-29 지지대 고착을 제거하지 못하고 검사주기도 부적절해 2주기 만에 동일부위 관통균열이 재발했다.",
+      "source": "2014-8호(140617W4) (GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "2011.12 최초 사건 이후 수행한 보수용접·확대검사 및 3주기 2차('18.2월)·4차('21.11월) 검사계획 반영이 근본원인인 PH-29 지지대 고착을 제거하지 못하고 검사주기도 부적절해 2주기 만에 동일부위 관통균열이 재발했다.",
+      "source": "보고서 2014-8호(140617W4); 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; [GEMINI-F04]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-PI4",
+    "role": "A",
+    "result": "판단보류",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[A] 2012.01.02 ROP Creep Penalty 적용 이후 PCV-5 개방횟수가 급격히 증가(2주기 582회)했으나, 운영자가 밸브 작동횟수 증가 추세를 배관 피로·취약부위 관리와 연계해 경향분석했는지 여부가 원문에 명시되지 않아 판단보류로 분류한다.",
+      "source": "2014-8호(140617W4) (GEMINI-F03)"
+    },
+    "after": {
+      "rationale": "2012.01.02 ROP Creep Penalty 적용 이후 PCV-5 개방횟수가 급격히 증가(2주기 582회)했으나, 운영자가 밸브 작동횟수 증가 추세를 배관 피로·취약부위 관리와 연계해 경향분석했는지 여부가 원문에 명시되지 않아 판단보류로 분류한다.",
+      "source": "보고서 2014-8호(140617W4); 절 3.1.3~3.1.4절 / 인쇄쪽 6,7,8 / PDF 물리쪽 7,8,9; [GEMINI-F03]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-RC1",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-RC2",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "source": "2014-8호(140617W4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-020-WP1",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 건설 당시 배관지지대 PH-29 시공불량(허용기준 1/16인치 불만족 고착) 및 PH-28 부분접촉 등 시공·설치 작업관리 결함이 배관 구속과 추가응력을 직접 초래했고, 2011년 보수 이후에도 비파괴검사 주기 관리 및 이종금속용접부 작업기준(Stainless Brush, RT 선명도, 입열량 모니터링) 관리가 미흡했다.",
+      "source": "2014-8호(140617W4) (GEMINI-F02, GEMINI-F04, GEMINI-F05)"
+    },
+    "after": {
+      "rationale": "건설 당시 배관지지대 PH-29 시공불량(허용기준 1/16인치 불만족 고착) 및 PH-28 부분접촉 등 시공·설치 작업관리 결함이 배관 구속과 추가응력을 직접 초래했고, 2011년 보수 이후에도 비파괴검사 주기 관리 및 이종금속용접부 작업기준(Stainless Brush, RT 선명도, 입열량 모니터링) 관리가 미흡했다.",
+      "source": "보고서 2014-8호(140617W4); 절 사건 요약, 3.1.1.1~3.1.3절 / 인쇄쪽 1,4,5,6,7 / PDF 물리쪽 2,5,6,7,8; 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; 절 3.1.1.2절, 3.2.1절 / 인쇄쪽 4,9,10 / PDF 물리쪽 5,10,11; [GEMINI-F02,GEMINI-F04,GEMINI-F05]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-WP2",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 파손된 2인치 배관은 당초 설계 누적피로계수(CUF)가 0.879로 허용기준(1.0) 대비 설계여유도가 적은 취약부위였으며, PH-29 지지대 고착에 따른 설계 미고려 추가응력이 잔여 설계여유도를 소진해 CUF가 최소 1.463 이상으로 초과(설계 열천이하중 12,700회 대비 582회 만에 관통균열 성장)했다.",
+      "source": "2014-8호(140617W4) (GEMINI-F02, GEMINI-F03)"
+    },
+    "after": {
+      "rationale": "파손된 2인치 배관은 당초 설계 누적피로계수(CUF)가 0.879로 허용기준(1.0) 대비 설계여유도가 적은 취약부위였으며, PH-29 지지대 고착에 따른 설계 미고려 추가응력이 잔여 설계여유도를 소진해 CUF가 최소 1.463 이상으로 초과(설계 열천이하중 12,700회 대비 582회 만에 관통균열 성장)했다.",
+      "source": "보고서 2014-8호(140617W4); 절 사건 요약, 3.1.1.1~3.1.3절 / 인쇄쪽 1,4,5,6,7 / PDF 물리쪽 2,5,6,7,8; 절 3.1.3~3.1.4절 / 인쇄쪽 6,7,8 / PDF 물리쪽 7,8,9; [GEMINI-F02,GEMINI-F03]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-WP3",
+    "role": "I",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[I] 결함발생 2인치 소구경배관이 장기 가동중검사(ISI) 계획서 비파괴검사 대상에서 제외되어 있었고, 이종금속용접부 용접절차시방서(WPS)의 입열량(층간온도·용접속도) 관리 및 Stainless Brush 기준, 밸브 내부결함 UT 절차서 및 RT 선명도 보완 기준이 미비해 금번 사건 후 개정·개발이 추진되었다.",
+      "source": "2014-8호(140617W4) (GEMINI-F04, GEMINI-F05, GEMINI-F07)"
+    },
+    "after": {
+      "rationale": "결함발생 2인치 소구경배관이 장기 가동중검사(ISI) 계획서 비파괴검사 대상에서 제외되어 있었고, 이종금속용접부 용접절차시방서(WPS)의 입열량(층간온도·용접속도) 관리 및 Stainless Brush 기준, 밸브 내부결함 UT 절차서 및 RT 선명도 보완 기준이 미비해 금번 사건 후 개정·개발이 추진되었다.",
+      "source": "보고서 2014-8호(140617W4); 절 3.1절, 3.1.5절 / 인쇄쪽 3,8 / PDF 물리쪽 4,9; 절 3.1.1.2절, 3.2.1절 / 인쇄쪽 4,9,10 / PDF 물리쪽 5,10,11; 절 사건 요약, 3.2.2~5장 / 인쇄쪽 1,10,11,13,14,15,16 / PDF 물리쪽 2,11,12,14,15,16,17; [GEMINI-F04,GEMINI-F05,GEMINI-F07]"
+    }
+  },
+  {
+    "review_key": "ROOT-020-WP4",
+    "role": "P",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[P] 원자로건물 FTAM 상승 감지('14.6.16 15:00) 직후 신속한 현장점검과 예방적 비닐 밀봉조치로 3시간 이내 1.0 DAC 정상 회복 및 누설 중수 0.9kg 회수를 달성하고, 작업자 피폭선량(최대 0.14 mSv)을 연간선량한도(20 mSv) 이내로 관리했으며, 2014년 보수용접·노즐 결함제거·지지대 재설치를 KEPIC·절차서 요건대로 적합하게 수행하여 긍정·방어 요소(P)로 평가한다.",
+      "source": "2014-8호(140617W4) (GEMINI-F01, GEMINI-F06, GEMINI-F07)"
+    },
+    "after": {
+      "rationale": "원자로건물 FTAM 상승 감지('14.6.16 15:00) 직후 신속한 현장점검과 예방적 비닐 밀봉조치로 3시간 이내 1.0 DAC 정상 회복 및 누설 중수 0.9kg 회수를 달성하고, 작업자 피폭선량(최대 0.14 mSv)을 연간선량한도(20 mSv) 이내로 관리했으며, 2014년 보수용접·노즐 결함제거·지지대 재설치를 KEPIC·절차서 요건대로 적합하게 수행하여 긍정·방어 요소(P)로 평가한다.",
+      "source": "보고서 2014-8호(140617W4); 절 사건 요약, 1~2.2절 / 인쇄쪽 1,2,3 / PDF 물리쪽 2,3,4; 절 사건 요약, 3.3~3.4절 / 인쇄쪽 1,12,13 / PDF 물리쪽 2,13,14; 절 사건 요약, 3.2.2~5장 / 인쇄쪽 1,10,11,13,14,15,16 / PDF 물리쪽 2,11,12,14,15,16,17; [GEMINI-F01,GEMINI-F06,GEMINI-F07]"
+    }
+  }
+]
