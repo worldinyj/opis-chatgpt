@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "model": "CLAUDE",
+  "queue_id": "ROOT-038",
+  "event_id": "250919W2",
+  "artifact_status": "STORED",
+  "integration_status": "HOLD",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+  "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+  "pdf_physical_pages_verified": false,
+  "source_zip_sha256": "dd809db4a2dff52aaa15fbc3a6baeefceacfcbf06ed3028c5291b837433ea5e4",
+  "files": [
+    {
+      "name": "report.md",
+      "blob": "68734b1978efbc4cd09bc0e09dd4e2ac73b7b58a"
+    },
+    {
+      "name": "review.json",
+      "blob": "5d2f064cb562d915f418c2b4a21a8e290c31c241"
+    },
+    {
+      "name": "excel_import.csv",
+      "blob": "1eccb8d191c4cb58a5944e2a9aab7224e92f50ef"
+    },
+    {
+      "name": "validation.md",
+      "blob": "7ed163517dbfb1111aba5ee2c509eded5cd71138"
+    }
+  ],
+  "reported_counts": {
+    "D": 8,
+    "I": 6,
+    "A": 8,
+    "H": 7,
+    "P": 3,
+    "N": 8
+  },
+  "intake_checks": {
+    "artifact_bytes": "MATCH_ORIGINAL_ZIP_GIT_BLOB",
+    "role_counts": "MATCH",
+    "fact_count": 30,
+    "attribute_count": 40,
+    "csv_json_decision_and_rationale": "MATCH",
+    "fact_reference_check": "PASS"
+  },
+  "limitations": [
+    "Claude disclosed reading an education video transcript for this case before analysis; original JSON independence.other_ai_outputs_seen=false preserved, not accepted as a clean independence attestation.",
+    "Raw PDF SHA-256 and physical pages unavailable to Claude. File size alone not sufficient for source equality.",
+    "Schema and semantic source reinspection not independently certified by this intake. Claude reported 14 PASS and one NOT_EXECUTED; no expert or release approval.",
+    "Use a clean new session and the correct original PDF for replacement independent review if required; retain v1 unchanged."
+  ],
+  "approved": false,
+  "can_ship": false
+}

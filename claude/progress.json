@@ -1,0 +1,29 @@
+{
+  "model": "CLAUDE",
+  "model_version": "claude-sonnet-5-5",
+  "updated": "2026-11-26",
+  "entries": [
+    {
+      "queue_id": "ROOT-038",
+      "event_id": "250919W2",
+      "status": "STORED",
+      "integration_status": "HOLD",
+      "artifact_paths": [
+        "claude/cases/2025/250919W2/v1/report.md",
+        "claude/cases/2025/250919W2/v1/review.json",
+        "claude/cases/2025/250919W2/v1/excel_import.csv",
+        "claude/cases/2025/250919W2/v1/validation.md"
+      ],
+      "zip": "CLAUDE_ROOT-038_250919W2_v1.zip",
+      "github_commit_sha": null,
+      "commit_reference_note": "This progress record and artifacts are committed together; retrieve containing Git commit from history.",
+      "checks": "See validation.md and INTAKE_STATUS.json",
+      "constraints": [
+        "Prior Claude source hash and physical page check NOT_EXECUTED",
+        "Education-video transcript exposure; excluded from consensus until adjudicated"
+      ]
+    }
+  ],
+  "next_queue_id": "ROOT-005",
+  "next_status": "NOT_STARTED"
+}
