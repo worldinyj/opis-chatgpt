@@ -33,7 +33,7 @@
         "claude/cases/2025/250314SH2/v1/validation.md"
       ],
       "zip": "CLAUDE_ROOT-005_250314SH2_v1.zip",
-      "github_commit_sha": null,
+      "github_commit_sha": "4e5964299918b3c1b9b35e22398118da037bed02",
       "checks": "Original validation.md; independent intake in INTAKE_STATUS.json.",
       "constraints": [
         "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
@@ -41,8 +41,7 @@
         "물리 페이지 미확인(인쇄쪽 최대 30, 기대 35)",
         "붙임 이미지·도면 미확인, 비공개 구간 미복원"
       ],
-      "integration_status": "HOLD",
-      "commit_reference_note": "Artifacts and progress committed together; commit will be recorded in follow-up."
+      "integration_status": "HOLD"
     }
   ],
   "next_queue_id": "ROOT-001",

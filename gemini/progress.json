@@ -27,12 +27,11 @@
       "validation_status": "PASS",
       "artifact_path": "gemini/cases/2025/250919W2/v1/",
       "zip_filename": "GEMINI_BATCH_01_ROOT-038_005_001_v1.zip",
-      "github_commit_sha": null,
+      "github_commit_sha": "4e5964299918b3c1b9b35e22398118da037bed02",
       "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
       "updated_at": "2026-11-26T12:52:00+09:00",
-      "integration_status": "PENDING_INTEGRATION",
-      "commit_reference_note": "Artifacts and progress committed together; commit will be recorded in follow-up."
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-005",
@@ -42,12 +41,11 @@
       "validation_status": "PASS",
       "artifact_path": "gemini/cases/2025/250314SH2/v1/",
       "zip_filename": "GEMINI_BATCH_01_ROOT-038_005_001_v1.zip",
-      "github_commit_sha": null,
+      "github_commit_sha": "4e5964299918b3c1b9b35e22398118da037bed02",
       "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
       "updated_at": "2026-11-26T12:52:00+09:00",
-      "integration_status": "PENDING_INTEGRATION",
-      "commit_reference_note": "Artifacts and progress committed together; commit will be recorded in follow-up."
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-001",
@@ -57,12 +55,11 @@
       "validation_status": "PASS",
       "artifact_path": "gemini/cases/2025/250112W2/v1/",
       "zip_filename": "GEMINI_BATCH_01_ROOT-038_005_001_v1.zip",
-      "github_commit_sha": null,
+      "github_commit_sha": "4e5964299918b3c1b9b35e22398118da037bed02",
       "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
       "updated_at": "2026-11-26T12:52:00+09:00",
-      "integration_status": "PENDING_INTEGRATION",
-      "commit_reference_note": "Artifacts and progress committed together; commit will be recorded in follow-up."
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-002",
@@ -72,12 +69,11 @@
       "validation_status": "PASS",
       "artifact_path": "gemini/cases/2024/240908HB6/v1/",
       "zip_filename": "GEMINI_ROOT-002_240908HB6_v1.zip",
-      "github_commit_sha": null,
+      "github_commit_sha": "4e5964299918b3c1b9b35e22398118da037bed02",
       "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
       "updated_at": "2026-11-26T12:52:00+09:00",
-      "integration_status": "PENDING_INTEGRATION",
-      "commit_reference_note": "Artifacts and progress committed together; commit will be recorded in follow-up."
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-003",
