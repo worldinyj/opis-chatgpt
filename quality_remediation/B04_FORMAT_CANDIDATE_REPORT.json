@@ -1,0 +1,60 @@
+{
+  "phase": "B04",
+  "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
+  "cases": [
+    {
+      "queue_id": "ROOT-014",
+      "rows": 40,
+      "sha256": "95743db4a5f76d8a3de206eaa4ee34c38b3d0ae6d2f04d80c9ff8469ba7366a2",
+      "blob": "0b2d813c11f704456177245b5494fbea9b907f83"
+    },
+    {
+      "queue_id": "ROOT-015",
+      "rows": 40,
+      "sha256": "9d65d033ecf1b6c81bc71942770771f38e9a863a25b32719f41ae37627a74067",
+      "blob": "d69d52e8bfe8962602314d5c806a2664f95685dd"
+    },
+    {
+      "queue_id": "ROOT-017",
+      "rows": 40,
+      "sha256": "2006f2fae83551d2c2de35852c19f78b0b926e148749785aa68c733a6922a81e",
+      "blob": "4fcf9ff789c6b53a570471611581abcd68cd66d0"
+    },
+    {
+      "queue_id": "ROOT-018",
+      "rows": 40,
+      "sha256": "c3b082112ce0339e6c8a3102c11b4b8ad7d367c8f64a0f6153872f8ec3a014a4",
+      "blob": "1107da68cff3aed82a0d4f1889bdadf86dc833fe"
+    },
+    {
+      "queue_id": "ROOT-019",
+      "rows": 40,
+      "sha256": "037a34770150eb643652b55a486e138de8b001313e9bb3db47ec0bca61350a8e",
+      "blob": "8f5324ff76a17fa3ca679748c84320d3196c1ba1"
+    },
+    {
+      "queue_id": "ROOT-020",
+      "rows": 40,
+      "sha256": "f7be67b013c2a4e02747a6595ad5e9404d3641fe2835e49c196dd8eeb3a100cc",
+      "blob": "d78f1d1deef55e2decc60f91e824941903a79907"
+    }
+  ],
+  "derived_rows": 240,
+  "rationale_cells_changed": 240,
+  "source_cells_changed": 240,
+  "empty_source_standardized": 117,
+  "nonempty_source_serialized": 123,
+  "readback_csv_sha256": "6/6 PASS",
+  "excluded": [
+    "ROOT-004"
+  ],
+  "status": "FORMAT_CANDIDATES_NOT_APPROVED",
+  "limitations": [
+    "Actual generation used pinned GitHub bytes; B03-R1 full audit reused for other frozen files. Only review.json and CSV were rehashed during B04. B06 independent validation and original PDF verification remain pending.",
+    "No actual eligibility change, no integration, no Excel write."
+  ],
+  "approved": false,
+  "can_ship": false,
+  "eligible_for_three_ai_consensus": false,
+  "main_merge": false
+}
