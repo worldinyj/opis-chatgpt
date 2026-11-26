@@ -15,8 +15,7 @@
         "claude/cases/2025/250919W2/v1/validation.md"
       ],
       "zip": "CLAUDE_ROOT-038_250919W2_v1.zip",
-      "github_commit_sha": null,
-      "commit_reference_note": "This progress record and artifacts are committed together; retrieve containing Git commit from history.",
+      "github_commit_sha": "644a01cfd4db6350d4afc3e04982dcc911313679",
       "checks": "See validation.md and INTAKE_STATUS.json",
       "constraints": [
         "Prior Claude source hash and physical page check NOT_EXECUTED",
