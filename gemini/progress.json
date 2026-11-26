@@ -5,10 +5,10 @@
   "branch": "main",
   "total_cases": 38,
   "summary": {
-    "analysis_completed_count": 17,
-    "github_stored_count": 17,
+    "analysis_completed_count": 19,
+    "github_stored_count": 19,
     "exported_pending_upload_count": 0,
-    "not_started_count": 21,
+    "not_started_count": 19,
     "blocked_count": 0
   },
   "next_case": {
@@ -287,27 +287,29 @@
       "queue_id": "ROOT-019",
       "event_id": "141001Y12",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "FAIL",
       "artifact_path": "gemini/cases/2014/141001Y12/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
-      "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "zip_filename": "GEMINI_ROOT-019_141001Y12_v1.zip",
+      "github_commit_sha": "131eaa7110bd8a8b31cff78993f5495238a53b8a",
+      "source_verification": "BINARY_HASH_VERIFIED",
+      "blocker": "CSV rationale differs from JSON by role prefix in 40/40 rows. CSV source omits section/page information in 22 rows with JSON source references. Original files preserved.",
+      "updated_at": "2026-11-26",
+      "integration_status": "HOLD"
     },
     {
       "queue_id": "ROOT-020",
       "event_id": "140617W4",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "FAIL",
       "artifact_path": "gemini/cases/2014/140617W4/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
-      "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "zip_filename": "GEMINI_ROOT-020_140617W4_v1.zip",
+      "github_commit_sha": "131eaa7110bd8a8b31cff78993f5495238a53b8a",
+      "source_verification": "BINARY_HASH_VERIFIED",
+      "blocker": "CSV rationale differs from JSON by role prefix in 40/40 rows. CSV source omits section/page information in 21 rows with JSON source references. Original files preserved.",
+      "updated_at": "2026-11-26",
+      "integration_status": "HOLD"
     },
     {
       "queue_id": "ROOT-021",
