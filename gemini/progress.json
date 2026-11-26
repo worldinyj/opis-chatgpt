@@ -5,17 +5,17 @@
   "branch": "main",
   "total_cases": 38,
   "summary": {
-    "analysis_completed_count": 25,
-    "github_stored_count": 25,
+    "analysis_completed_count": 26,
+    "github_stored_count": 26,
     "exported_pending_upload_count": 0,
-    "not_started_count": 13,
+    "not_started_count": 12,
     "blocked_count": 0
   },
   "next_case": {
-    "queue_id": "ROOT-025",
-    "event_id": "121126U6",
-    "event_year": 2012,
-    "drive_filename_hint": "2012-11-26 _울진 6호기계획예방정비 중부적절한 안전주입.pdf"
+    "queue_id": "ROOT-026",
+    "event_id": "110621K2",
+    "event_year": 2011,
+    "drive_filename_hint": "2011-06-21_원자로냉각재펌프_정지로인한_원자로_자동정지.pdf"
   },
   "updated_at": "2026-11-26",
   "cases": [
@@ -373,14 +373,15 @@
       "queue_id": "ROOT-025",
       "event_id": "121126U6",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "PASS",
       "artifact_path": "gemini/cases/2012/121126U6/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
+      "zip_filename": "GEMINI_ROOT-025_121126U6_v1.zip",
+      "github_commit_sha": "d139946c7a08d24695e3b21e4f4e3f0e0a18d54a",
+      "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "updated_at": "2026-11-26",
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-026",
