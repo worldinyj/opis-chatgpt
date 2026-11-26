@@ -2,13 +2,13 @@
   "track": "B",
   "branch": "develop/gemini-quality",
   "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
-  "phase": "B02",
-  "status": "FREEZE_VERIFIED_CONTRACT_DEFINED",
+  "phase": "B03",
+  "status": "VALIDATOR_IMPLEMENTED_SYNTHETIC_TESTED",
   "completed": [
     "B01",
     "B02"
   ],
-  "next": "B03",
+  "next": "B03-R1",
   "hold_count": 7,
   "approved": false,
   "can_ship": false,
@@ -17,5 +17,8 @@
   "checked_main_ref": "8775c5ae6249cf0f8bcd70d513e3296cbb46343e",
   "blobs_checked": 39,
   "blobs_matched": 39,
-  "pdf_binary_verified": false
+  "pdf_binary_verified": false,
+  "synthetic_tests_passed": 17,
+  "synthetic_tests_failed": 0,
+  "actual_case_tests_executed": false
 }
