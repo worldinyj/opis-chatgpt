@@ -1,0 +1,793 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-020",
+  "event_id": "140617W4",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2014-06-17_월성4호기_계획예방정비_중_가압기_증기배출밸브_배관_연결부_관통결하.pdf",
+    "report_number": "2014-8",
+    "report_date": "2014-07-11",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 및 조사 결과 요약, 1~5장(전 쪽); 인쇄쪽 1~16 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-020 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-020의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2014.6.17(화) 10:30경 계획예방정비(제12차, 5.17 착수) 중이던 월성 4호기에서 가압기 증기배출밸브(63332-PCV5)의 가압기측 배관 연결 용접부 미세 관통균열(냉각재 누설)이 발견되었다. 6.16 15:00경 원자로건물 고정지역삼중수소감시기(FTAM)가 1.25 DAC에서 상승(16:02 최고 3.27 DAC)해 건물 점검을 하고 누설 의심부위를 비닐·테이프로 임시밀봉했으며 18:00에 1.0 DAC로 회복했고 6.17 비닐 밀봉부에서 누설 중수 약 0.9 kg을 회수했다. 가압기는 냉각재계통과 격리된 상태였고 방사성물질의 유의한 방출은 없었다(보고서 2014-8호, 2014-07-11 발행).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 및 조사 결과 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 및 조사 결과 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "개요와 보고 기준"
+        },
+        {
+          "section": "2.2 사건전개 과정",
+          "printed_pages": [
+            2,
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "사건전개 과정"
+        },
+        {
+          "section": "3.3 방사선 영향 및 작업자 방사선피폭선량 평가",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "방사선 영향 평가"
+        }
+      ],
+      "limitation": "표지 면은 쪽번호가 없다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "재발 사건: 이번 결함은 2011.12.15 월성 4호기(동일호기)의 사건과 결함·누설 위치가 동일하고, 월성 3호기에서도 2012.3.25 동일부위 결함이 확인되어 보수용접이 수행된 바 있다. 동일부위에서 재발하자 KINS는 결함부위 파단면 상세 분석, 설계·시공 적합성 재검토, 운전이력 확인, 용접 적합성 검토 등으로 재발원인을 종합 평가하도록 원전운영자에게 요구했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1 사건발생 원인평가",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "사건발생 원인평가 서두"
+        }
+      ],
+      "limitation": "2011년 사건과 월성 3호기 사건의 상세 경위는 이 보고서에 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "원인: 한국원자력연구원 파면 분석에서 결함은 전형적인 부식피로 형상이었고, 원전운영자는 반복적 열하중과 배관 지지대와의 간섭에 의한 인장응력, 냉각재 부식환경이 종합 작용한 것으로 평가했다. 지지대 PH-29가 시공불량으로 배관에 완전 밀착(고착)된 상태(허용기준 1/16\" 불만족)였고 PH-28도 일부 접촉했다. KINS 요구로 현장 설치상태를 측정했고 KINS는 입회(2014.6.25)로 확인했으며 설계대로 설치되면 접촉되지 않아 시공불량 추정이 타당하다고 판단했다. 고착을 반영한 응력해석에서 누적피로계수(CUF)가 설계기준(1 이하)을 넘는 최소 1.463이었고 균열성장평가에서 2011.12 보수 이후 밸브 운전횟수 582회(2014.6)에서 관통결함으로 성장할 수 있음이 확인되었다. KINS는 평가방법·결과가 적절하다고 판단했다. 설계 응력해석의 누적피로계수는 0.879로 기준을 만족했으나 취약부위로 지속 감시가 필요한 부위로 확인되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.1 결함발생 부위 파단면 분석 및 밸브 내부 선형결함 분석",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "파단면 분석"
+        },
+        {
+          "section": "3.1.2 설계 및 설치 적합성 검토",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "설계 및 설치 적합성"
+        },
+        {
+          "section": "3.1.3 설치상태 및 운전이력을 반영한 배관 응력해석 결과 검토",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "응력해석 결과"
+        }
+      ],
+      "limitation": "지지대 시공불량이 발생한 시점과 인수검사 이력은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "밸브 운전의 영향: 밸브 수명과 설계 열천이하중(12,700회)을 고려하면 개방 횟수의 영향은 미미하나 지지대가 고착되면 반복 열하중이 피로를 유발할 수 있다. 월성 2호기는 2011년에 총 1,661회 개방되었으나 비파괴검사(2013.5, 2014.7)에서 결함이 없었고 지지대 구속도 없었다. 월성 4호기는 국부과출력(ROP)에 따른 압력관 Creep Penalty를 2012.1부터 적용했고 그 이후 PCV-5 개방 횟수가 급격히 증가했다(월성 2/3/4호기 적용 시점 2011.6.21/2011.9.14/2012.1.2). 원전운영자는 증기배출밸브 작동 최소화가 필요하다고 평가했고 KINS는 적합하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.4 가압기 증기배출밸브 운전으로 인한 영향",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "가압기 증기배출밸브 운전으로 인한 영향"
+        }
+      ],
+      "limitation": "Creep Penalty 적용 때 배관·지지대에 미치는 영향의 사전 평가 여부는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "재발원인: 원전운영자는 2011.12.15 최초 결함 때 원인분석이 용접결함 원인으로 평가되어 보수용접과 유사부위 확대검사만 수행했고(설계적합성·시공적합성·현장검증 등 종합검토 미흡), 해당 보수용접부(2인치 소구경배관 용접부)는 장기 가동중검사 계획상 비파괴검사 대상이 아니며 사건 후 3주기 2차(2018.2 예정)·4차(2021.11 예정) 계획에 반영되어 이번 정비 중 검사가 수행되지 못한 점(검사 주기 부적절)을 재발원인으로 평가했고 KINS는 타당하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.5 사건의 재발원인 평가",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "사건의 재발원인 평가"
+        }
+      ],
+      "limitation": "2011년 원인분석 당시 종합검토를 하지 못한 사유는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "정비 적절성: 원전운영자는 GTAW 보수용접(2011), 밸브 노즐 내면 선형지시 제거, 지지대 정비(PH-28 간극 재조정, PH-29 재설치)를 수행했고 KINS는 설치상태가 허용기준(1/16\")을 만족하는 것을 입회로 확인했다. 제3기관(두산중공업) 검토 결과를 근거로 KINS가 용접기법(스테인리스 브러시), 방사선투과검사 필름 선명도 개선과 소구경배관 초음파검사 기법 개발, 이종금속용접부 입열 모니터링을 권고·요구했고 원전운영자는 용접절차시방서(WPS)를 개정해 모의(Mock-up) 용접과 현장 용접을 수행했다. 관련 40개소의 지지대·방진기 점검(PH-28, 29 외 38개소 양호)과 동종밸브·이종금속 용접부 12개소 추가 검사(결함 없음)도 수행했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2 보수 정비 적절성 평가",
+          "printed_pages": [
+            8,
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "보수 정비 적절성 평가"
+        },
+        {
+          "section": "3.2.3 유사부위 기기건전성 확인결과 검토",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "유사부위 기기건전성 확인"
+        }
+      ],
+      "limitation": "일부 개선 사항은 KINS 권고·요구에 따른 것이다."
+    },
+    {
+      "id": "CLAUDE-F07",
+      "summary": "재발방지 조치: 단기(완료) — 연결배관 스풀 교체·보수용접·비파괴검사, 지지대 점검·정비, 동종밸브·이종금속용접부 12개소 추가검사(양호), 이종금속용접부 WPS 개정(입열 최소화). 중장기 — 기동·정지 시 PCV5,6 연결배관 연신량 감시(연신량 표식), 증기배출밸브 운전방법 개선, 월성 3호기 동일사건 재발방지 대책(증기배출밸브실 삼중수소 1회/일 감시, 50 DAC 이상 증가 및 누설 확인 시 즉시 정지·냉각감압 후 가압기 격리), 증기배출밸브 신품 교체(3호기 2015.12, 4호기 2015.8), 월성 2·3호기 동일부위 용접부 비파괴검사·지지대 점검, 전체계통 상세 응력분석(2014.10), 유사부위 가동중검사 주기 단축(매 주기), PH-28·29 상태 주기점검(매 OH), 밸브 내부결함 점검용 초음파검사 절차 개발(2015.6). KINS는 대책이 적절하고 보완요구사항이 없다고 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.4 재발방지 조치 적절성",
+          "printed_pages": [
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지 조치 적절성"
+        },
+        {
+          "section": "4. 보완요구사항",
+          "printed_pages": [
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항 없음"
+        },
+        {
+          "section": "5. 결론",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "중장기대책의 이행과 효과는 보고서 시점에 확인되지 않았다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-020-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘불확실성 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 소통’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "월성 4호기에 압력관 Creep Penalty를 2012.1부터 적용한 이후 PCV-5 개방 횟수가 급격히 증가했으나 이 변화가 배관·지지대에 미치는 영향을 사전에 평가했다는 서술은 없다(CLAUDE-F04). 변화를 체계적으로 평가·관리한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 가압기 증기배출밸브 운전으로 인한 영향",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "가압기 증기배출밸브 운전으로 인한 영향"
+        }
+      ],
+      "counterevidence_or_limitation": "개방 횟수 증가와 결함의 인과는 KINS가 직접 서술하지 않았고 월성 2호기는 더 많이 개방되어도 결함이 없었다(CLAUDE-F04). 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-020-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "설계 응력해석에서 누적피로계수 0.879가 취약부위로 지속 감시가 필요하다고 확인되었으나 사건 전 감시 활동 여부는 서술되지 않았다(CLAUDE-F03). 다양한 기법으로 안전을 지속적으로 진단한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.1 결함발생 부위 파단면 분석 및 밸브 내부 선형결함 분석",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "파단면 분석"
+        },
+        {
+          "section": "3.1.2 설계 및 설치 적합성 검토",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "설계 및 설치 적합성"
+        },
+        {
+          "section": "3.1.3 설치상태 및 운전이력을 반영한 배관 응력해석 결과 검토",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "응력해석 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "‘감시가 필요한 부위’라는 확인이 사건 후 KINS의 평가에서 나온 것이다. 별도 근거가 필요하다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-020-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘보수적 성향’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "월성 4호기(2011.12)와 월성 3호기(2012.3)의 동일부위 결함 경험이 있었으나 이번에 동일부위에서 재발했고, KINS가 재발원인을 종합 평가하도록 요구했다(CLAUDE-F02, CLAUDE-F05). 운전경험을 체계적으로 수집·분석하고 시의적절하게 반영한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1 사건발생 원인평가",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "사건발생 원인평가 서두"
+        }
+      ],
+      "counterevidence_or_limitation": "각 사건 후 보수용접과 확대검사 조치는 수행되었다(CLAUDE-F02, CLAUDE-F05). 월성 3호기 경험의 4호기 반영 여부는 서술되지 않았다. PI2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-020-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자체 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘벤치마킹’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘교육 훈련’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 FTAM의 삼중수소 농도 상승(1.25 DAC)을 감지한 직후 원자로건물 각 지역을 점검하고 누설 의심부위를 임시밀봉해 약 3시간 내에 농도를 복구했으며 누설 중수 약 0.9 kg을 회수했다(CLAUDE-F01). 문제를 조기에 도출·확인해 조치한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F01"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 및 조사 결과 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 및 조사 결과 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "개요와 보고 기준"
+        },
+        {
+          "section": "2.2 사건전개 과정",
+          "printed_pages": [
+            2,
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "사건전개 과정"
+        },
+        {
+          "section": "3.3 방사선 영향 및 작업자 방사선피폭선량 평가",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "방사선 영향 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "누설부위는 다음 날 결함으로 확인되었다(CLAUDE-F01). 감시기 설정치와 판단 기준은 서술되지 않았다."
+    },
+    {
+      "review_key": "ROOT-020-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011.12 최초 결함 때 원인을 용접결함으로 평가하고 설계적합성·시공적합성·현장검증 등 종합검토가 미흡했던 점이 이번 재발의 원인으로 KINS에 의해 타당하다고 평가되었다(CLAUDE-F05). 원인분석과 시정조치를 안전 중요도에 맞게 철저히 평가한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5 사건의 재발원인 평가",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "사건의 재발원인 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "2011년 사건 이후 확대검사 등 시정조치가 수행되었다(CLAUDE-F05). 당시 분석이 제한된 사유는 서술되지 않았다. PI3·CL1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-020-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "보수용접부가 소구경배관 용접부로 기존 가동중검사 대상이 아니었고 2011년 사건 후 검사 계획이 2018.2·2021.11로 반영되어 이번 정비 중 검사가 수행되지 못했으며 KINS가 검사 주기 부적절을 재발원인으로 확인했다(CLAUDE-F05). 문제를 중요도에 따라 시의적절하게 조치한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5 사건의 재발원인 평가",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "사건의 재발원인 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "동종밸브·이종금속용접부 등 유사부위 확대검사는 수행되었다(CLAUDE-F06). 검사 주기 결정의 근거는 서술되지 않았다. PI2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-020-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "Creep Penalty 적용 후 증기배출밸브 개방 횟수가 급격히 증가했다는 사실이 기록되었다(CLAUDE-F04). 경향을 분석해 문제를 조기에 식별한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 가압기 증기배출밸브 운전으로 인한 영향",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "가압기 증기배출밸브 운전으로 인한 영향"
+        }
+      ],
+      "counterevidence_or_limitation": "개방 횟수 경향을 감시·분석했는지는 서술되지 않았다. 별도 근거가 필요하다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-020-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘작업 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘설계 여유도’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문서화’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-020-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘절차 준수’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(f578b6d2…777f)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 253,914 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2014-8호(140617W4)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 16이고 큐 기대 물리 페이지는 17이다. PDF 텍스트 추출이 가능했고 큐의 SHA-256·페이지(17)와 일치했다. 표지에는 쪽번호가 없고 요약은 인쇄쪽 1이다. 붙임은 없다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(물리 페이지 = 인쇄쪽 + 1(표지 1면)로 추정한다. 면 끝 ‘- N -’ 표기를 기준으로 했다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 면 경계에 ±1쪽 불확실성이 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 파단면 조직 사진, 배관 지지대 도면, 응력해석 결과 그림 등은 텍스트로 확인하지 못했다. 이 보고서에는 별도 붙임이 없다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 특이사항 없음",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 배관 지지대 시공불량과 부식피로라는 설비·시공 요인이 중심이고, 조직 요인은 2011년 원인분석 미흡과 검사 주기 부적절을 KINS가 재발원인으로 직접 확인한 부분이 중심이라 선정이 적다. 지지대 시공불량은 건설 당시 요인으로 속성 선정 대상으로 보지 않았다. 기술적 중요 사건이라는 것과 선정 개수는 별개이다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-020와는 무관한 사건이며 ROOT-020 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

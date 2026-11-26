@@ -1,0 +1,1265 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-012",
+  "event_id": "190121W3",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2019-01-21_월성3호기 써지보호기 손상에 따른 원자력냉각재 펌프 1번 정지 및 이로 인한 .pdf",
+    "report_number": "2019-02",
+    "report_date": "2019-02-25",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 요약, 1~5장, 붙임 1·3~13 (OCR로 읽음); 인쇄쪽 1~52 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-012 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-012의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2019.1.21(월) 08:58경 정격열출력 90.5 %로 운전 중이던 월성 3호기에서 원자로냉각재펌프(RCP) #1 차단기가 개방되어 정지하고 냉각재 저유량 원자로보호신호로 원자로가 자동정지했다(08:58:30). 정지 후 절차에 따라 제동장치를 작동시킨 RCP #1·#3의 제동장치에서 연기(09:04·09:08)와 불꽃(09:43~09:45경 CCTV 확인)이 발생해 초동·자체소방대가 11:00경 분말소화기로 진압했다. 원자로는 냉각·감압을 거쳐 보증정지로 안정되었고 안전기능이 유지되었으며 방사성물질 방출은 없었다. 보고 및 공개규정 별표 3.1과 별표 1.9에 해당하는 보고대상 사건이다(보고서 2019-02호, 2019-02-25 발행).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 개요와 보고 기준"
+        },
+        {
+          "section": "2.1 사건 전 발전소 운전상태",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 전 운전상태"
+        },
+        {
+          "section": "2.2 시간대별 사건전개 과정",
+          "printed_pages": [
+            1,
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 전개"
+        }
+      ],
+      "limitation": "표지·요약(로마자 쪽번호) 면은 인용하지 않았다. OCR 읽기여서 시각·수치의 일부는 원문 대조가 필요하다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "원자로정지의 직접원인은 RCP #1 전동기측 써지보호기(써지커패시터) C상 손상에 의한 지락과전류와 지락보호계전기 동작으로 인한 차단기 개방이다. 원전운영자는 제작과정의 절연물 미세손상(핀홀·크랙)에서 부분방전이 생겨 절연이 파괴된 것으로 추정했으나, KINS는 소손된 부품이 탄화되어 미세손상 자체를 확인할 수 없어 이 추정의 적절성은 확인하지 못했고 수작업 제작 시 미세결함이 생길 개연성은 있다고 보았다. 공장시험과 계획예방정비 때 정전용량 측정(전동기 제작사 정비기준에는 써지보호기 점검항목이 없음)은 모두 기준을 만족했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1 원자로 자동정지 원인",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 원인"
+        },
+        {
+          "section": "3.2.2 RCP #1 차단기 개방원인",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "차단기 개방원인"
+        },
+        {
+          "section": "3.2.3 전동기측 써지보호기 손상원인",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 손상원인"
+        }
+      ],
+      "limitation": "제작 결함은 추정이며 확인되지 않았다. 점검방법 개선 필요는 원전운영자 평가로 서술되었다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "운전경험 후속조치 지연: 고리 4호기 사건(2015.9.3, 써지보호기 손상으로 RCP 정지·원자로정지)의 후속조치로 월성 3·4호기 전동기측 써지보호기를 제거하기로 하고(2016.5 타당성 확인, 2016.10 설계변경제안서) 설계변경제안은 2017.3.16 승인되었으나 2017년 설계용역 역무에 포함되지 못해 2018년 역무로 넘어가 계약이 2018.2.14에 체결되었고(약 12개월 지연) 제거는 2019.9 계획예방정비 때로 예정되어 있어 이 사건이 먼저 발생했다. 당시 긴급역무제도는 운영 중이었으나 2015.12 전동기 써지보호기를 신품으로 일부 교체해 긴급도가 낮다고 판단해 긴급역무에서 제외했다. KINS는 발전정지·출력감발과 관련된 설계변경은 긴급역무로 추진할 타당성을 검토하고 보고대상 사건 재발방지대책의 적기 이행을 강화해야 한다고 정리했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.4 유사부위 점검결과",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "유사부위 점검결과와 고리 4호기 후속조치"
+        },
+        {
+          "section": "붙임 6 전동기측 써지보호기 제거 후속조치 이행현황",
+          "printed_pages": [
+            30,
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 제거 후속조치 이행현황"
+        }
+      ],
+      "limitation": "‘긴급도가 낮다’는 판단 주체와 근거는 원전운영자 설명으로 서술되며 판단 당시 기록은 보고서에 없다. 일부 칸은 OCR 오인식이 있다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "제동장치 운전절차 결함: 사건 중 따른 비정상운전절차서(비정상-233128, 냉각재펌프 1대 정지)는 2013.5.19 신규 작성(2012.1 월성 1호기 RCP 1대 정지 경험 계기)되었으나, 설계지침서·운전지침서·설계사 권고가 말하는 ‘같은 루프의 정지 펌프 자유회전 허용’과 ‘제동장치 작동 후 10초 내 0 rpm 미감속 시 제동장치 해제’ 내용을 종합적으로 이해하지 못한 채 작성되었다고 원전운영자가 평가했고 KINS도 적절하다고 확인했다. 운전원은 절차에 따라 RCP #1에 제동을 걸고 #3을 수동정지·제동했으며, 마찰열과 불완전 해제로 제동장치 튜브(네오프렌)가 발화했다. 원전운영자는 비정상절차서 개정과 5건 운영절차서 개정, 안전계통·화재유발 등 대응 절차 55종의 유효성 평가(~2019.8)를 수립했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.3.3 RCP #1,#3 제동장치 화재발생 원인",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 화재발생 원인"
+        },
+        {
+          "section": "3.3.4 제동장치 운전절차 적절성 평가",
+          "printed_pages": [
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 운전절차 적절성 평가"
+        },
+        {
+          "section": "붙임 11 RCP 1대 정지 시 제동장치 운전방법 적절성 검토",
+          "printed_pages": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 운전방법 적절성 검토"
+        }
+      ],
+      "limitation": "화재는 절차 이행 중 발생했으며 운전원의 절차 미준수 사실은 서술되지 않았다. 설계사 권고 일부와 그림은 확인하지 못했다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "화재 대응: 09:35경 주제어실이 정지·제동한 RCP #1·#3 회전수가 약 500 rpm으로 지시되는 것을 확인하고 현장 확인을 지시했으나 현장운전원은 09:48경에야 원자로건물에서 연기를 확인했고(방화복 미착용 상태로 현장점검), 09:52경 제동장치 해제 시도는 불일치등이 점등되어 조작되지 않았다. 10:00 소방대 출동을 요청했고 10:25경 도착한 소방대는 수직사다리뿐인 고소지역에 소화기를 들고 올라가기 어려워 추가 사다리와 인력을 요청했으며 11:00경 진압했다(#1 불꽃은 10:33경 자연소화). KINS는 원자로정지·RCP 1대 정지·화재가 겹친 복합 비정상 상황과 고소지역 접근 어려움을 고려한 화재 시나리오 개발과 소방대 교육·훈련 대책을 원전운영자에게 요구했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.3.1 화재인지 후 대응 조치",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "화재인지 후 대응 조치"
+        },
+        {
+          "section": "붙임 8 화재발생 및 대응 상세 경위",
+          "printed_pages": [
+            35,
+            36,
+            37
+          ],
+          "pdf_pages": [],
+          "summary": "화재발생 및 대응 상세 경위"
+        }
+      ],
+      "limitation": "09:35~09:48 구간의 지연 사유와 방화복 미착용의 의미는 보고서가 평가하지 않았다. 발전과장이 초동소방대장을 겸한 것은 안전차장이 비상운전 업무로 바빠서이다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "화재감지기: RCP 상부 연기감지기는 1단계 예비경보를 발생시켰으나(10:01경) 전동기 하부 연기감지기 9개는 작동 기록이 없었다. 원전운영자는 RCP #1 고장전류가 접지선과 연결된 감지기 전선관으로 유도되어 화재수신반 통신카드가 일시 고장난 것으로 평가했고 KINS는 고장 시점은 특정할 수 없으나 일시 고장 가능성이 있다고 판단했다. 수신반은 약 23년 된 노후 설비로 경보 발생 시각이 기록되지 않고 예비품이 없어 재현시험을 하지 못했다. 1·2단계는 예비경보라 주제어실 경보를 발생시키지 않는다. 개선 전까지 감시 프린터·경광등을 주제어실에 설치하고 순시점검(4시간 주기)을 추가했으며 수신반 전면 개선(~2021.1)을 수립했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.3.2 화재감지기 작동 적절성 평가",
+          "printed_pages": [
+            10,
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "화재감지기 작동 적절성 평가"
+        },
+        {
+          "section": "붙임 9 화재감지기 동작상태 검토",
+          "printed_pages": [
+            38,
+            39,
+            40
+          ],
+          "pdf_pages": [],
+          "summary": "화재감지기 동작상태 검토"
+        },
+        {
+          "section": "3.5 재발방지 조치 적절성",
+          "printed_pages": [
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지 조치"
+        }
+      ],
+      "limitation": "통신카드 고장은 화재 전·후 건전했다고 확인되어 고장 시점과 인과가 완전히 입증되지는 않았다."
+    },
+    {
+      "id": "CLAUDE-F07",
+      "summary": "KINS 평가: 운전원은 비상운전절차서에 따라 원자로정지 확인과 필수안전변수 점검을 적절히 수행했고 노심냉각·열제거원 등 필수안전기능이 유지되었으며 소내외 방사선 이상이 없었다. 화재로 영향을 받은 RCP #1·#3 제동장치와 속도센서는 교체되고 전동기·베어링의 건전성도 확인되었다. 한편 신품 제동장치 패드 두께(8.5 mm)가 제작사 허용기준(3.8~8.4 mm)을 벗어났음이 확인되었으나 원전운영자는 화재와 무관하다고 평가했고 KINS는 패드 두께 규격 관리 등 점검방법의 개선대책이 필요하다고 보았다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.3.3 RCP #1,#3 제동장치 화재발생 원인",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "패드 두께 규격"
+        },
+        {
+          "section": "3.3.5 제동장치 과열 및 화재에 따른 RCP 건전성 점검",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "RCP 건전성 점검"
+        },
+        {
+          "section": "3.4 발전소 계통·기기 거동 및 운전조치 평가",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "계통·기기 거동 및 운전조치 평가"
+        }
+      ],
+      "limitation": "패드 두께 이탈의 원인(자재인수검사 등)은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F08",
+      "summary": "원전운영자의 재발방지 조치: 단기(완료) 전동기측 써지보호기 전수 제거(12개), 차단기측 써지보호기 점검, 제동장치 운전절차 개정, 제동장치 교체·기능시험, 화재수신반 감시수단과 순시점검, 접지선·전선관 절연처리. 중장기(예정) 타 제작사 써지보호기 21개 제거(~2021.1), 보고사건 재발방지대책 적기 이행 강화(지침 개정 ~2019.6), 제동장치 설계변경(~2020.12), 화재감시설비 전면개선(~2021.1), 비정상절차서 55종 유효성 평가(~2019.8), 중수로 소유자그룹 운전경험 직접 검토·후속조치 상호 비교(~2019.12), 소방대 고소지역 화재대응 훈련(~2019.12). KINS는 대책이 사건 원인을 해소하는 데 타당하고 보완요구사항은 없으며 기술적 측면에서 재가동은 문제가 없다고 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.5 재발방지 조치 적절성",
+          "printed_pages": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지 조치 적절성"
+        },
+        {
+          "section": "4. 보완요구사항",
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항 없음"
+        },
+        {
+          "section": "5. 결론",
+          "printed_pages": [
+            20,
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "중장기 조치의 이행과 효과는 보고서 시점에 확인되지 않았다. 일부 항목 일정은 OCR 읽기에 따른다."
+    },
+    {
+      "id": "CLAUDE-F09",
+      "summary": "타 제작사 전동기측 써지보호기(주급수펌프 3대, 기기냉각수펌프 4대, 총 21개)는 손상 시 대기 중인 펌프가 자동기동하여 안전기능 영향이 없다고 원전운영자가 평가했고 KINS도 적절하다고 판단했다. 해당 전동기의 절연내력 자료는 지식재산권 문제로 아직 입수하지 못했다. RCP 전동기의 절연내력 시험전압은 설계기준 대비 약 160 % 여유가 있고 전동기측 써지보호기 제거 후 최대 써지는 절연내력 이내로 평가되었다.",
+      "kind": "OPERATOR_STATEMENT",
+      "source_refs": [
+        {
+          "section": "3.2.4 유사부위 점검결과",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "유사부위 점검"
+        },
+        {
+          "section": "3.2.5 전동기측 써지보호기 제거 적절성 검토",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 제거 적절성 검토"
+        },
+        {
+          "section": "붙임 7 전동기측 써지보호기 제거 적절성 검토",
+          "printed_pages": [
+            32,
+            33,
+            34
+          ],
+          "pdf_pages": [],
+          "summary": "제거 적절성 검토 상세"
+        }
+      ],
+      "limitation": "수치는 OCR 읽기여서 원문 대조 전에는 근사값이다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-012-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "정상적인 절차 이행(RCP 정지 후 제동)이 특정 운전조건(2대 운전·2대 정지)에서 화재로 이어진 점(CLAUDE-F01, CLAUDE-F04)은 복잡한 설비의 상호작용이 예상치 못한 결과를 낳을 수 있음을 토의하기 좋은 소재이다.",
+      "fact_ids": [
+        "CLAUDE-F01",
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 개요와 보고 기준"
+        },
+        {
+          "section": "2.1 사건 전 발전소 운전상태",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 전 운전상태"
+        },
+        {
+          "section": "2.2 시간대별 사건전개 과정",
+          "printed_pages": [
+            1,
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 전개"
+        },
+        {
+          "section": "3.3.3 RCP #1,#3 제동장치 화재발생 원인",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 화재발생 원인"
+        },
+        {
+          "section": "3.3.4 제동장치 운전절차 적절성 평가",
+          "printed_pages": [
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 운전절차 적절성 평가"
+        },
+        {
+          "section": "붙임 11 RCP 1대 정지 시 제동장치 운전방법 적절성 검토",
+          "printed_pages": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 운전방법 적절성 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS가 인식 수준을 평가하지 않았다. 선정 근거가 아니다."
+    },
+    {
+      "review_key": "ROOT-012-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘불확실성 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "정지 펌프 제동장치의 과열·발화 가능성이 절차서 작성 시 인지되지 않았고 사건 중에도 제동장치 해제 불능 상태의 위험이 즉시 인식되지 않았다(CLAUDE-F04, CLAUDE-F05). 발생 가능한 실수와 잠재 리스크를 인지하고 대비한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.3.3 RCP #1,#3 제동장치 화재발생 원인",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 화재발생 원인"
+        },
+        {
+          "section": "3.3.4 제동장치 운전절차 적절성 평가",
+          "printed_pages": [
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 운전절차 적절성 평가"
+        },
+        {
+          "section": "붙임 11 RCP 1대 정지 시 제동장치 운전방법 적절성 검토",
+          "printed_pages": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 운전방법 적절성 검토"
+        },
+        {
+          "section": "3.3.1 화재인지 후 대응 조치",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "화재인지 후 대응 조치"
+        },
+        {
+          "section": "붙임 8 화재발생 및 대응 상세 경위",
+          "printed_pages": [
+            35,
+            36,
+            37
+          ],
+          "pdf_pages": [],
+          "summary": "화재발생 및 대응 상세 경위"
+        }
+      ],
+      "counterevidence_or_limitation": "인지 수준에 대한 직접 서술이 없다. 심리는 추정하지 않는다. WP3·CL1과 사실을 공유한다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-012-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 소통’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "설계용역 역무가 연간 단위로 취합되어 이미 승인된 설계변경이 약 12개월 대기했고(CLAUDE-F03), 화재수신반은 약 23년 노후 설비로 예비품이 없어 재현시험을 하지 못했다(CLAUDE-F06). 리더가 설비·예산 등 자원이 안전을 위해 이용 가능하도록 지원한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.4 유사부위 점검결과",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "유사부위 점검결과와 고리 4호기 후속조치"
+        },
+        {
+          "section": "붙임 6 전동기측 써지보호기 제거 후속조치 이행현황",
+          "printed_pages": [
+            30,
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 제거 후속조치 이행현황"
+        },
+        {
+          "section": "3.3.2 화재감지기 작동 적절성 평가",
+          "printed_pages": [
+            10,
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "화재감지기 작동 적절성 평가"
+        },
+        {
+          "section": "붙임 9 화재감지기 동작상태 검토",
+          "printed_pages": [
+            38,
+            39,
+            40
+          ],
+          "pdf_pages": [],
+          "summary": "화재감지기 동작상태 검토"
+        },
+        {
+          "section": "3.5 재발방지 조치 적절성",
+          "printed_pages": [
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지 조치"
+        }
+      ],
+      "counterevidence_or_limitation": "예산·인력 부족이 직접 서술되지는 않았다. 긴급역무제도는 있었으나 적용되지 않았다(CLAUDE-F03). 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-012-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘변화 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "전동기 써지보호기를 신품으로 일부 교체했다는 이유로 긴급도가 낮다고 판단해 긴급역무에서 제외했고 설계변경이 지연되었다(CLAUDE-F03). 의사결정 시 원자력안전을 고려해 보수적이고 신중하다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.4 유사부위 점검결과",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "유사부위 점검결과와 고리 4호기 후속조치"
+        },
+        {
+          "section": "붙임 6 전동기측 써지보호기 제거 후속조치 이행현황",
+          "printed_pages": [
+            30,
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 제거 후속조치 이행현황"
+        }
+      ],
+      "counterevidence_or_limitation": "당시 판단 기록과 근거는 보고서에 서술되지 않았다. 판단 주체가 개인인지 조직인지 구분되지 않는다. CL1·PI3과 사실을 공유한다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-012-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "고리 4호기 사건(2015.9.3)의 후속조치(써지보호기 제거)가 설계변경제안 승인(2017.3)에서 설계용역 계약(2018.2)까지 약 12개월 지연되고 2019.9 계획예방정비로 미뤄져 이 사건이 먼저 발생했다(CLAUDE-F03). 운전경험을 체계적으로 분석하고 그 결과를 시의적절하게 조치한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.4 유사부위 점검결과",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "유사부위 점검결과와 고리 4호기 후속조치"
+        },
+        {
+          "section": "붙임 6 전동기측 써지보호기 제거 후속조치 이행현황",
+          "printed_pages": [
+            30,
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 제거 후속조치 이행현황"
+        }
+      ],
+      "counterevidence_or_limitation": "후속조치 검토와 설계변경제안서 작성 등 이행 절차는 진행되었다(CLAUDE-F03). 타 제작사 설계 차이로 기술검토가 추가로 필요했다고 설명되었다. PI3·DM2와 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-012-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "2013년에 신규 작성된 비정상운전절차서의 설계 기술정보 반영 오류가 사건 때까지 평가·진단되지 않았고 사건 후 55종 절차의 유효성 평가가 계획되었다(CLAUDE-F04, CLAUDE-F08). 프로그램과 관행에 대한 비판적·객관적 평가를 정기적으로 수행한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.3.3 RCP #1,#3 제동장치 화재발생 원인",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 화재발생 원인"
+        },
+        {
+          "section": "3.3.4 제동장치 운전절차 적절성 평가",
+          "printed_pages": [
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 운전절차 적절성 평가"
+        },
+        {
+          "section": "붙임 11 RCP 1대 정지 시 제동장치 운전방법 적절성 검토",
+          "printed_pages": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 운전방법 적절성 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "절차서 정기검토 활동 자체의 유무는 서술되지 않았다. WP3과 사실을 공유한다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-012-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "사건 후 원전운영자는 캐나다·중국 중수로 운전방법과 설계사 권고를 비교 검토해 제동장치 운전방법을 정하고 중수로 소유자그룹의 운전경험을 직접 검토하는 계획을 수립했다(CLAUDE-F04, CLAUDE-F08). 벤치마킹을 통한 안전성능 향상과 연결되는 사후 조치이다.",
+      "fact_ids": [
+        "CLAUDE-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.5 재발방지 조치 적절성",
+          "printed_pages": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지 조치 적절성"
+        },
+        {
+          "section": "4. 보완요구사항",
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항 없음"
+        },
+        {
+          "section": "5. 결론",
+          "printed_pages": [
+            20,
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 이전의 벤치마킹 수준은 서술되지 않았다. 이행은 예정 단계이다."
+    },
+    {
+      "review_key": "ROOT-012-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "소방대의 고소지역 접근·진압 방법이 현장에서 강구되었고 KINS가 복합 비정상 상황을 고려한 화재 시나리오 개발과 교육·훈련을 요구했다(CLAUDE-F05). 높은 수준의 교육훈련을 통한 전문 인력 양성과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.3.1 화재인지 후 대응 조치",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "화재인지 후 대응 조치"
+        },
+        {
+          "section": "붙임 8 화재발생 및 대응 상세 경위",
+          "printed_pages": [
+            35,
+            36,
+            37
+          ],
+          "pdf_pages": [],
+          "summary": "화재발생 및 대응 상세 경위"
+        }
+      ],
+      "counterevidence_or_limitation": "진압 자체는 성공했으며 소방대 훈련의 기존 수준은 서술되지 않았다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-012-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 파악’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 제동장치 분해점검, 속도 이력 분석, 재현시험으로 화재 경로를 규명했고 화재감지기 통신카드 고장도 접지·유도전압 경로로 평가했다(CLAUDE-F04, CLAUDE-F06). 원인분석을 안전 중요도에 맞게 평가한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.3.3 RCP #1,#3 제동장치 화재발생 원인",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 화재발생 원인"
+        },
+        {
+          "section": "3.3.4 제동장치 운전절차 적절성 평가",
+          "printed_pages": [
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 운전절차 적절성 평가"
+        },
+        {
+          "section": "붙임 11 RCP 1대 정지 시 제동장치 운전방법 적절성 검토",
+          "printed_pages": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 운전방법 적절성 검토"
+        },
+        {
+          "section": "3.3.2 화재감지기 작동 적절성 평가",
+          "printed_pages": [
+            10,
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "화재감지기 작동 적절성 평가"
+        },
+        {
+          "section": "붙임 9 화재감지기 동작상태 검토",
+          "printed_pages": [
+            38,
+            39,
+            40
+          ],
+          "pdf_pages": [],
+          "summary": "화재감지기 동작상태 검토"
+        },
+        {
+          "section": "3.5 재발방지 조치 적절성",
+          "printed_pages": [
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지 조치"
+        }
+      ],
+      "counterevidence_or_limitation": "통신카드 고장 시점은 특정하지 못했고 재현시험은 수행하지 못했다(CLAUDE-F06)."
+    },
+    {
+      "review_key": "ROOT-012-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "보고대상 사건의 재발방지대책이 적기에 이행되지 않아 원전운영자 스스로 재발방지대책 관리지침 개정(적기 이행 강화)을 수립했다(CLAUDE-F03, CLAUDE-F08). 안전 문제를 중요도에 따라 시의적절하고 효과적으로 조치한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.4 유사부위 점검결과",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "유사부위 점검결과와 고리 4호기 후속조치"
+        },
+        {
+          "section": "붙임 6 전동기측 써지보호기 제거 후속조치 이행현황",
+          "printed_pages": [
+            30,
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 제거 후속조치 이행현황"
+        }
+      ],
+      "counterevidence_or_limitation": "재발방지대책은 수립되고 단계적으로 진행되고 있었다. CL1과 같은 사실이어서 별도 사건으로 보지 않는다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-012-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘작업 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-012-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "써지보호기 제거라는 설계변경이 일정 시점에 걸쳐 체계적 절차(제안·심의·용역·설계변경서)로 진행되었고(CLAUDE-F03), 절연내력 여유와 최대 써지 분석으로 제거의 타당성도 검토되었다(CLAUDE-F09). 변경 시 체계적이고 엄격한 프로세스를 적용한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F09"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.4 유사부위 점검결과",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "유사부위 점검결과와 고리 4호기 후속조치"
+        },
+        {
+          "section": "붙임 6 전동기측 써지보호기 제거 후속조치 이행현황",
+          "printed_pages": [
+            30,
+            31
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 제거 후속조치 이행현황"
+        },
+        {
+          "section": "3.2.5 전동기측 써지보호기 제거 적절성 검토",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 제거 적절성 검토"
+        },
+        {
+          "section": "붙임 7 전동기측 써지보호기 제거 적절성 검토",
+          "printed_pages": [
+            32,
+            33,
+            34
+          ],
+          "pdf_pages": [],
+          "summary": "제거 적절성 검토 상세"
+        }
+      ],
+      "counterevidence_or_limitation": "프로세스는 적용되었고 문제는 지연(CL1)이어서 WP2의 직접 결함으로 보기 어렵다. 별도 근거가 필요하다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-012-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2013.5.19 신규 작성된 비정상운전절차서가 설계지침서·운전지침서의 정지 펌프 자유회전 허용과 10초 내 미감속 시 제동 해제 요건을 정확히 반영하지 못해 사건 중 제동장치가 지속 작동하며 발화했다(CLAUDE-F04). 문서가 완전하고 정확해야 한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.3.3 RCP #1,#3 제동장치 화재발생 원인",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 화재발생 원인"
+        },
+        {
+          "section": "3.3.4 제동장치 운전절차 적절성 평가",
+          "printed_pages": [
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 운전절차 적절성 평가"
+        },
+        {
+          "section": "붙임 11 RCP 1대 정지 시 제동장치 운전방법 적절성 검토",
+          "printed_pages": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "pdf_pages": [],
+          "summary": "제동장치 운전방법 적절성 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "절차서는 2012.1 월성 1호기 경험을 반영하려는 의도로 작성되었다(CLAUDE-F04). 운전원은 이 절차대로 수행했다(CLAUDE-F07). 사건 후 개정·유효성 평가가 수립되었다(CLAUDE-F08). WP4와 구분(문서 결함 vs 이행)한다."
+    },
+    {
+      "review_key": "ROOT-012-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "운전원은 비상운전절차서와 비정상운전절차서에 따라 원자로정지 확인, 필수안전변수 점검, RCP 제동 등을 수행했고 KINS는 절차를 적절히 수행했다고 확인했다(CLAUDE-F07). 절차를 준수한다는 정의와 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.3.3 RCP #1,#3 제동장치 화재발생 원인",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "패드 두께 규격"
+        },
+        {
+          "section": "3.3.5 제동장치 과열 및 화재에 따른 RCP 건전성 점검",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "RCP 건전성 점검"
+        },
+        {
+          "section": "3.4 발전소 계통·기기 거동 및 운전조치 평가",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "계통·기기 거동 및 운전조치 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "절차 자체의 결함은 WP3에서 구분했다(CLAUDE-F04)."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(5f44465d…79ee)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 1,635,578 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2019-02호(190121W3)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 52이고 큐 기대 물리 페이지는 55이다. 이 PDF는 글꼴 인코딩 때문에 텍스트 추출이 깨져 한국어 OCR(Tesseract)로 읽었다. OCR 인식 오류가 있어(영문 약어, 단위, 수치, 그림 라벨) 일부 약어와 수치는 원문과 대조하지 못했다. 요약 면은 로마자 쪽번호이며 본문 인쇄쪽은 ‘- 1 -’(1. 개요)부터 시작한다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(본문 1쪽은 1. 개요이고 붙임은 인쇄쪽 23~52로 이어진다. 인쇄쪽 번호는 면 끝의 ‘- N -’ 표기(OCR로 일부 오인식)를 기준으로 추정했다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 붙임 쪽번호는 OCR로 읽은 표기와 면 순서에서 환산했고 면 경계에는 ±1쪽 불확실성이 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 붙임 2(제동장치 구조·작동원리)와 붙임 1·3의 도면·그림, 고장기록계 파형, 속도 그래프, 운전변수 추이와 사진은 OCR로 읽을 수 없었다.",
+    "원본의 비공개 처리 구간(OCR 오인식 약어(예: RCP, DPS))은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 사건 발생 시각이 요약은 08시 58분경, 개요는 8시 53분경으로 달리 적혀 있고(OCR 오인식 가능), ‘RCP #1·#3 불꽃’ 시각이 3.1절(09:43·09:45)과 붙임 8(09:56)에서 다르게 적혀 있다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 설비 고장(써지보호기)과 제동장치 화재의 기술 원인 분석이 중심이며 안전문화를 직접 다룬 절은 없다. 보고서가 지적한 조직·절차 관련 사실은 운전경험 후속조치 지연과 절차서 결함, 소방 대응 정도이다. 보완요구사항이 없으므로 미선정이 많다. 기술적 중요 사건이라는 것과 안전문화 속성 선정 개수는 별개이다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-012와는 무관한 사건이며 ROOT-012 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

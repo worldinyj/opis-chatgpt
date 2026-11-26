@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "model": "CLAUDE",
+  "queue_id": "ROOT-019",
+  "event_id": "141001Y12",
+  "artifact_status": "STORED",
+  "integration_status": "HOLD",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+  "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+  "reported_hash_matches_queue": false,
+  "reported_pages_match_queue": false,
+  "source_zip": "CLAUDE_ROOT-019_141001Y12_v1.zip",
+  "source_zip_sha256": "719ca780f762ad3c18302b9c6b646ef0c28f4d65c40783d5c8d9c91782dbeafb",
+  "files": [
+    {
+      "name": "report.md",
+      "blob": "d00043a6a5178bb3da675c67e96088420542910b",
+      "sha256": "238a15abaac633ef6eabe4a627e6162860b375f6eb4a5a01860a01f7e8940fb4"
+    },
+    {
+      "name": "review.json",
+      "blob": "f06a49a7ee7ad43bfaf1d34bb543e140eb196382",
+      "sha256": "3b71276c35cade7ce1c452f966547c5f10662efc5747554e499377bce898e094"
+    },
+    {
+      "name": "excel_import.csv",
+      "blob": "f9b173fe33ebd9a0b99d43589e2d1c7b1a6dfaa8",
+      "sha256": "27f9e23dddfc781f1bef8ede58e3ee9cd8783154fce3f537674c2b60ea3fcce5"
+    },
+    {
+      "name": "validation.md",
+      "blob": "74ac8d14530c4060f1e1b3b5e8a9e119b33494dc",
+      "sha256": "c1216be568e1afb89d9e943ffb6e7b9d02d32f1add769650128b3c6537a0b43c"
+    }
+  ],
+  "role_counts": {
+    "D": 4,
+    "I": 2,
+    "A": 2,
+    "H": 0,
+    "P": 1,
+    "N": 31
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "zip_exact_paths": "PASS",
+    "zip_symlink_size_check": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "json_duplicate_keys": "PASS",
+    "schema_draft202012_with_format_checker": "PASS",
+    "schema_reference_blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+    "csv_json_decision_rationale": "MATCH",
+    "csv_source_detail": "MATCH_SECTION_PRINTED_PAGE_FACT_ID",
+    "fact_count": 6,
+    "fact_reference_check": "PASS",
+    "attribute_source_ref_membership": "PASS",
+    "report_csv_fact_id_reference": "PASS",
+    "report_and_validation_role_counts": "MATCH",
+    "printed_page_range": "WITHIN_QUEUE_EXPECTED_PAGE_BOUND",
+    "pdf_physical_page_range": "NOT_EXECUTED",
+    "csv_formula_prefix_check": "PASS",
+    "reported_source_identity": "REPORT_NUMBER_AND_EVENT_ID_MATCH_PDF_VERSION_UNVERIFIED",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "제출본에서 원본 PDF 바이너리 SHA-256 및 물리 페이지 수 확인 불가. 큐 기대 물리 페이지 10쪽, 제출 참조 인쇄쪽 최대 9쪽. 독립적인 원본 재검사는 수행하지 않음.",
+    "과거 ROOT-038 교육영상 전사문 노출을 공개했고 이번 사건 근거로 미사용했다는 제출자 진술. 독립성 검토 대기."
+  ],
+  "approved": false,
+  "can_ship": false,
+  "revision": "v1"
+}

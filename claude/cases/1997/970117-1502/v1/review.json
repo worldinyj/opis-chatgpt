@@ -1,0 +1,663 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-036",
+  "event_id": "970117-1502",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "1997-01-17_비상정지 논리시험중 Block Relay 접점불량에 의한 정지차단기 개방으로 원자로정지.pdf",
+    "report_number": "1502-97-02",
+    "report_date": "1997-01-17",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(1~2쪽 요약 양식 전체(관리번호·발생일시·제목·요약·코드); 인쇄쪽 1~2 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-036 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-036의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "1997.1.17 13:01 100 % 출력(전기출력 약 992 MWe) 정상 운전 중이던 발전소에서 비상정지 논리시험 도중 원자로가 자동 정지했다. 11:37경 출력영역 고중성자속 저설정치 정지시험을 실시한 후 Block Relay 접점 불량으로 원자로정지 차단기가 개방되었으나 이를 인지하지 못했고, 시험 완료 후 13:01 원자로정지 우회차단기를 개방하면서 원자로정지가 발생했다. 시험 신호를 제거하면 저설정치 정지신호가 해제되어야 하나 정지차단기 저전압계전기로 가는 신호가 접점 불량으로 전달되지 않아 해제되지 않았고 신호 제거 시 정지차단기가 열렸다. 복구는 18:30이다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "머리 정보(관리번호·발생일시·제목·등급)",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "머리 정보"
+        },
+        {
+          "section": "요약 본문",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "요약"
+        }
+      ],
+      "limitation": "이 PDF는 1쪽 요약 양식(관리번호 1502-97-02)이며 본 조사보고서가 아니다. 같은 내용이 2쪽에 반복된다. 원문 PDF의 텍스트 층이 없어 OCR로 추출했으며 일부 영문·숫자가 깨져 있다. 호기와 사건 작성일은 본문에 없고 파일명·큐로 울진 2호기로 확인했다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "문제점(요약 서술): 원자로정지 차단기가 11:37경 개방되고 전산기록지에도 기록되었으나 약 1시간 20분 간 이를 간과했다. 정지차단기 상태표시등이 전구 고장으로 점등되지 않는 상태였는데 발전정지를 우려해 이를 방치해 확인이 불가능했다. 시험 완료 후 원자로정지 우회차단기를 투입할 때에도 정지차단기의 현장 위치를 확인하지 않았다. 시험절차서에는 계통복귀 절차가 누락되어 있었고, 원자로정지 차단기를 56분간 투입상태로 유지해 정지신호 발생 시 한 계열의 정지신호만으로 원자로정지가 가능한 상태로 두어 정·주기 시험관리가 부적절했다. 또한 계전기에 대한 점검이 이루어지지 못했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "요약 문제점 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "문제점 단락"
+        },
+        {
+          "section": "2쪽(1쪽과 동일 요약 반복)",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "2쪽 반복"
+        }
+      ],
+      "limitation": "서술 주체(작성 기관)는 명시되지 않았다. ‘56분간 투입상태로 유지’가 정지차단기인지 우회차단기인지 OCR상 불명확하다. 간과한 주체(운전원 수, 직위)와 당직 교대는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "재발방지(요약 서술): Block Relay 등 계전기 점검을 강화하고 시험절차서를 보완했으며, 원자로정지 차단기 운전절차서를 작성하고 주요 기기 운전조작 절차를 개선했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "요약 재발방지 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지 단락"
+        }
+      ],
+      "limitation": "이행·효과 확인은 서술되지 않았다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-036-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "원자로정지 차단기 개방이 전산기록지에 기록되었으나 약 1시간 20분 간 간과되었고 우회차단기 투입 시 현장 위치 확인이 없었다(CLAUDE-F02). 안전을 위한 본인의 업무 책임을 이해하고 실천한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "요약 문제점 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "문제점 단락"
+        },
+        {
+          "section": "2쪽(1쪽과 동일 요약 반복)",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "2쪽 반복"
+        }
+      ],
+      "counterevidence_or_limitation": "간과한 주체와 경위가 서술되지 않아 후보 의견이다. WP1·QA2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-036-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "상태표시등이 점등되지 않아 정지차단기 상태를 확인할 수 없는 상태에서 시험이 계속되었다(CLAUDE-F02). 불확실할 경우 작업을 중단하고 리스크를 평가·관리한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "요약 문제점 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "문제점 단락"
+        },
+        {
+          "section": "2쪽(1쪽과 동일 요약 반복)",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "2쪽 반복"
+        }
+      ],
+      "counterevidence_or_limitation": "시험 중단 여부 판단 과정은 서술되지 않아 후보 의견이다. DM2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-036-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 소통’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘변화 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "정지차단기 상태표시등이 전구 고장으로 점등되지 않았는데 발전정지를 우려해 이를 방치해 확인이 불가능했다고 요약이 서술했다(CLAUDE-F02). 의사결정 시 원자력안전을 고려해 보수적이고 신중함을 견지한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "요약 문제점 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "문제점 단락"
+        },
+        {
+          "section": "2쪽(1쪽과 동일 요약 반복)",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "2쪽 반복"
+        }
+      ],
+      "counterevidence_or_limitation": "결정 주체와 결정 경위는 서술되지 않았다. 심리를 추정하지 않았다. QA2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-036-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘운전 경험’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자체 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘벤치마킹’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘교육 훈련’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 파악’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 평가’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "계전기 점검 강화, 시험절차서 보완, 원자로정지 차단기 운전절차서 작성, 주요 기기 운전조작 절차 개선이 조치로 서술되었다(CLAUDE-F03). 문제를 시의적절하게 조치한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "요약 재발방지 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지 단락"
+        }
+      ],
+      "counterevidence_or_limitation": "이행·효과 확인은 서술되지 않았다."
+    },
+    {
+      "review_key": "ROOT-036-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "요약은 시험 완료 후 정지차단기의 현장 위치를 확인하지 않았고 정지신호 시 한 계열의 신호만으로 원자로정지가 가능한 상태로 56분간 유지하는 등 정·주기 시험관리가 부적절했으며 계전기 점검이 이루어지지 못했다고 서술했다(CLAUDE-F02). 원자력안전을 최우선으로 작업을 계획·시행한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "요약 문제점 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "문제점 단락"
+        },
+        {
+          "section": "2쪽(1쪽과 동일 요약 반복)",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "2쪽 반복"
+        }
+      ],
+      "counterevidence_or_limitation": "시험 계획·승인 과정은 서술되지 않았다. WP3·PA2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-036-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘설계 여유도’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-036-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "요약은 시험절차서에 계통복귀 절차가 누락되어 있었다고 서술했고 재발방지로 시험절차서를 보완하고 원자로정지 차단기 운전절차서를 작성했다(CLAUDE-F02, CLAUDE-F03). 문서가 완벽하다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "요약 문제점 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "문제점 단락"
+        },
+        {
+          "section": "2쪽(1쪽과 동일 요약 반복)",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "2쪽 반복"
+        },
+        {
+          "section": "요약 재발방지 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지 단락"
+        }
+      ],
+      "counterevidence_or_limitation": "서술 주체가 명시되지 않았다. WP1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-036-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘절차 준수’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(77c64ecd…ecee)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 502,360 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '1502-97-02호(970117-1502)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 2이고 큐 기대 물리 페이지는 2이다. 이 PDF는 1쪽 요약 양식(관리번호 1502-97-02)이며 KINS 조사보고서 본문이 아니다. 2쪽은 1쪽과 같은 요약이 반복된다. 원문 PDF의 텍스트 층이 없어 OCR(한국어)로 추출했고 일부 영문·숫자가 깨져 있다. 큐의 SHA-256·페이지(2)와 일치했다. 문서에 작성일이 없어 날짜는 사건발생일(1997-01-17)로 부호화했다. 호기는 문서 본문에 없고 파일명과 큐로 울진 2호기로 확인했다. Drive에는 같은 날짜의 다른 사건 파일(영광 4호기 주급수펌프 저유량제어밸브 과도개방, 크기 221,546 bytes)이 있었으나 큐와 크기가 일치하는 파일만 사용했다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(인쇄쪽 번호가 없어 PDF 물리쪽을 인쇄쪽으로 사용한다(1쪽, 2쪽은 같은 요약)). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 특이사항 없음(2쪽 문서).",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 코드 표기(분류 코드)는 OCR로 판독이 불확실하다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 발생일시 13:01은 원자로 자동 정지 시각이고 비상정지 논리시험 중 정지차단기가 열린 시각은 11:37경이다. ‘정지차단기 56분간 투입 상태 유지’의 대상(정지차단기 vs 우회차단기)은 OCR상 불명확하다. 호기는 본문에 서술되지 않았다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 PDF는 1쪽 요약 양식이라 사실이 간략하다. 요약은 시험절차서의 계통복귀 절차 누락, 정·주기 시험관리 부적절, 발전정지 우려로 상태표시등 고장을 방치한 점을 직접 서술해 WP3, WP1, DM2를 선정했고 간과와 확인 부재는 후보로 두었다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-036와는 무관한 사건이며 ROOT-036 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

@@ -1,0 +1,826 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-016",
+  "event_id": "160227HB1",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2016-02-27_한빛 1호기 복수기 진공상실에 의한 터빈발전기 및 원자로 자동정지.pdf",
+    "report_number": "2016-04",
+    "report_date": "2016-03-29",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 요약, 1~5장(전 쪽); 인쇄쪽 1~14 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-016 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-016의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2016.2.27(토) 05:15경 95.6 % 출력으로 운전 중이던 한빛 1호기에서 복수기 A 신축이음매(Expansion Joint) 파손(수평 균열 약 90 cm)에 의한 복수기 진공상실로 터빈발전기와 원자로가 자동정지했다. 정지 후 증기발생기 저-저수위로 터빈구동 보조급수펌프가 자동기동했으나 기동 즉시 과속도로 정지했고, 비안전 4.16 kV 모선(NB-S02) 전원절체도 실패했으나 모터구동 보조급수펌프(약 60 L/s, 비상절차 요구 최소 33 L/s)로 냉각이 유지되어 안전성에는 영향이 없었다. 보고서 2016-04호(2016-03-29 발행).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "사건 개요와 보고 기준"
+        },
+        {
+          "section": "2.2 시간대 별 사건전개 과정",
+          "printed_pages": [
+            2,
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 경과"
+        },
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "사건 전개과정 확인결과"
+        }
+      ],
+      "limitation": "표지 면은 쪽번호가 없어 인용하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "사건 직전 대응: 04:12 복수기 신축이음매 밀봉수 저-수위 경보가 발생하자 운전원은 진공펌프를 기동했고 현장운전원이 정비원과 함께 파손부를 고무판으로 덧대는 긴급조치(04:36, 05:05)를 했으나 05:15:56 복수기 저-진공으로 터빈이 정지하고 원자로가 자동정지했다(경보 후 약 1시간 3분). KINS는 이 정지를 설계된 대로의 작동으로 기술했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "긴급조치와 정지 경위"
+        },
+        {
+          "section": "2.2 시간대 별 사건전개 과정",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 경과"
+        }
+      ],
+      "limitation": "긴급조치의 사전 계획·절차 근거는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "신축이음매 파손 원인과 관리: 파손은 습식 환경에서 고무가 경화·균열하며 연신율이 낮아지고 진공으로 인한 굽힘력이 장기간 작용해 발생했다. 한빛 1호기 상업운전(1985) 이후 신축이음매가 교체되지 않았고(제작사 매뉴얼에도 사용수명이 없음), 파손 메커니즘을 확인할 수 있는 점검(계획예방정비 때 단순 육안점검)이 시행되지 않았으며, 한빛 3호기의 누설·정비 운전경험에 대해 별도 시정조치계획을 수립하지 않고 종결했다(한빛 1호기는 운전경험반영 프로세스가 아닌 별도 자체계획으로 교체계획을 수립). 또한 한빛 1호기에는 한빛 3호기와 달리 밀봉수 이상을 사전에 감시할 설비가 없었다. 원전운영자는 이들을 기여원인으로 분류했으나 KINS는 근본원인으로 평가하는 것이 타당하다고 판단했고, 향후 근본원인 분석 시 설비개선 전까지의 감시·대응수단 계획 수립을 포함해 체계적으로 분석할 필요가 있다고 보았다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1 원자로 자동정지 원인(복수기 진공상실 원인)",
+          "printed_pages": [
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 원인(복수기 진공상실)"
+        }
+      ],
+      "limitation": "한빛 3호기 사례의 구체 시기·내용과 종결 사유는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "터빈구동 보조급수펌프 과속도정지 원인: 근본원인은 증기공급밸브(HV-128)의 급속 열림(실증시험 2016.3.6에서 약 45 % 급속 개방 확인)이며 밸브 특성시험에서 개방 저해 요소(unwedging thrust)가 과거보다 크게 증가했고 분해점검에서 디스크·시트 밀봉면 손상이 확인되었다. 제어유 품질은 기여원인으로 평가되었다. 사건 당시의 급속 개방 정도는 기록계가 없어 확인할 수 없었다. KINS는 NRC IN 86-14, NUREG/CR-5821 등 해외 사례를 근거로 한 원전운영자 평가가 타당하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.2 터빈구동 보조급수펌프 과속도정지 원인",
+          "printed_pages": [
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "터빈구동 보조급수펌프 과속도정지 원인"
+        }
+      ],
+      "limitation": "과거 시험 대비 증가 정도의 수치와 시험 이력은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "사건 대응능력: 운전원은 비상-0·보조-0.1 절차를 정전·복수기 이용불능 상황에서 적절히 수행했으나 터빈구동 보조급수펌프 정지를 인지하지 못했고 비상운전절차서의 필수안전기능 상태추적점검(진단-0)을 수행하지 않았다(안전변수지시계통으로 필수안전기능은 확인했다고 진술, 현장확인으로 검증). KINS는 진단-0을 독립적으로 수행했다면 정지를 인지했을 가능성이 있다고 판단했다. 절차 종결 후 투입된 지원조가 정지를 인지한 것은 적절한 대응이나 비정상 상태의 계통 정상화 개념(경보를 리셋하고 특이사항이 없으면 정상복귀로 인지)과 지원조의 역할·책임·권한, 보고체계, 의사소통 방법, 운전조와 지원조 구분방법이 명확히 수립되지 않아 과속도정지에 따른 별도 확인조치가 수행되지 않았다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.3.2 사건 대응능력 검토",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "사건 대응능력 검토"
+        }
+      ],
+      "limitation": "진단-0 미수행의 이유는 서술되지 않았다. 필수안전기능은 유지되었다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "전원절체 실패: 정지 후 비안전 4.16 kV 모선(NB-S02)이 소내전원에서 소외전원으로 절체되지 않았고 06:33 현장 수동절체되었다. 원인은 차단기 내부 인터록 스위치(152/IS) 접점 불량에 의한 접촉저항 증가이며 신품 교체와 성능시험, 절체 전후 접점 접촉저항 확인 절차 개정이 이루어졌다. 나머지 모선 절체는 정상이었고 필수안전기능은 허용범위 이내로 유지되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.3.1 발전소 계통·기기 거동 적절성 평가",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "계통·기기 거동 평가"
+        }
+      ],
+      "limitation": "접점 불량의 선행 징후와 점검 이력은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F07",
+      "summary": "재발방지 조치: 단기(완료) — 신축이음매 전량 교체(한빛 2호기는 22차 OH), 신축이음매 교체주기 8주기(약 12년)·외부점검 주기 설정과 예방정비 반영, 밀봉수 충수밸브 동작 기록계 설치, HV-128 정비와 운전가능성 시험(8회, 첨두속도 3,640 rpm으로 전기적 과속도 하한 대비 6.7 % 여유). 장기 — 신축이음매 점검방안 수립·전사 적용(2016.5), 밀봉수 수질개선 절차, 운전경험 활용 운영개선프로그램(e-CAP) 개선(~2016.12, 장기과제 목록 관리 프로세스)과 3개월 이상 중장기 시정조치 별도 관리대장(2016.3~), 건식 운전 설계변경 검토(~2017.12), HV-128 성능기준·정비주기 단축·디스크 형식변경(~2018.12), 제어유 분석·필터 관리, 원자로정지 후 상태진단 지침서 작성(2016.5), 터빈 과속도정지 경보 신설(~2018.12). KINS는 대책이 원인과 연계되어 적절하고 보완요구사항이 없으며 재가동은 기술적으로 문제가 없다고 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.4.1 복수기 신축이음매 파손에 대한 대책",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "신축이음매 대책"
+        },
+        {
+          "section": "3.4.2 터빈구동 보조급수펌프 과속도정지에 대한 대책",
+          "printed_pages": [
+            10,
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "보조급수펌프 대책"
+        },
+        {
+          "section": "3.4.3 사건대응 능력 관련 대책",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "사건대응 능력 관련 대책"
+        },
+        {
+          "section": "4. 보완요구사항",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항 없음"
+        },
+        {
+          "section": "5. 결론",
+          "printed_pages": [
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "장기대책의 이행과 효과는 보고서 시점에 확인되지 않았다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-016-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘불확실성 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "터빈구동 보조급수펌프 정지를 운전원이 인지하지 못했고 독립적 상태추적을 하지 않았다(CLAUDE-F05). 발생 가능한 실수와 잠재 리스크를 인지하고 대비한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.3.2 사건 대응능력 검토",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "사건 대응능력 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "인지 수준에 대한 직접 서술이 없고 심리는 추정하지 않는다. 필수안전기능은 별도 지시계로 확인되었다. 별도 근거가 필요하다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-016-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "비정상 상태의 계통 정상화 개념(경보 리셋 후 특이사항이 없으면 정상복귀로 인지)과 운전조-지원조 의사소통 방법이 명확하지 않았다(CLAUDE-F05). 모든 업무 활동에서 원자력안전을 염두에 두고 소통한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.3.2 사건 대응능력 검토",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "사건 대응능력 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "소통 실패의 구체 사례(누가 무엇을 전달하지 못했는지)는 서술되지 않았다. LA6와 사실을 공유한다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-016-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘변화 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "정지 후 투입된 지원조의 역할·책임·권한, 보고체계, 의사소통 방법, 운전조와의 구분방법이 명확히 수립되지 않아 과속도정지에 따른 별도 확인조치가 수행되지 않았다(CLAUDE-F05). 역할·책임·권한을 명확히 규정한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.3.2 사건 대응능력 검토",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "사건 대응능력 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "지원조가 정지를 인지한 것은 적절한 대응으로 평가되었다(CLAUDE-F05). CO1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-016-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘보수적 성향’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "한빛 3호기의 신축이음매 누설·정비 운전경험을 별도 시정조치계획 없이 종결했고 한빛 1호기는 운전경험반영 프로세스가 아닌 별도 자체계획으로 교체계획을 수립했다(CLAUDE-F03). 운전경험을 체계적으로 수집·분석하고 시의적절하게 조치한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 원자로 자동정지 원인(복수기 진공상실 원인)",
+          "printed_pages": [
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 원인(복수기 진공상실)"
+        }
+      ],
+      "counterevidence_or_limitation": "한빛 1호기는 자체 교체계획을 세웠다(CLAUDE-F03). 운전경험 반영의 구체 시기와 내용은 서술되지 않았다. PI2·PI3과 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-016-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "계획예방정비 때 단순 육안점검이 파손 메커니즘을 확인할 수 있는 점검이 아니었고 점검 유효성 검토가 미흡했다고 서술되었다(CLAUDE-F03). 프로그램과 관행에 대한 비판적·객관적 평가를 정기적으로 수행한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 원자로 자동정지 원인(복수기 진공상실 원인)",
+          "printed_pages": [
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 원인(복수기 진공상실)"
+        }
+      ],
+      "counterevidence_or_limitation": "점검의 존재 자체는 확인되었다. 점검 유효성 평가 활동의 이력은 서술되지 않았다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-016-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 NRC IN 86-14와 NUREG/CR-5821 등 해외 사례와 EPRI 기술보고서(Terry Turbine Maintenance Guide)를 근거로 과속도정지 원인과 제어유 관리를 평가했다(CLAUDE-F04, CLAUDE-F07). 지식·기술·안전성능을 높이기 위한 벤치마킹과 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 터빈구동 보조급수펌프 과속도정지 원인",
+          "printed_pages": [
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "터빈구동 보조급수펌프 과속도정지 원인"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 이전의 해외 사례 활용 수준은 서술되지 않았다."
+    },
+    {
+      "review_key": "ROOT-016-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘교육 훈련’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 파악’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원전운영자가 기여원인으로 분류한 사항(감시수단 부재, 점검·교체주기 미설정, 점검 유효성 검토 미흡, 운전경험 활용 미흡)을 KINS가 근본원인으로 평가했고 향후 설비개선 전까지의 감시·대응수단 계획까지 포함한 체계적 분석이 필요하다고 정리했다(CLAUDE-F03). 원인분석과 시정조치를 안전 중요도에 맞게 철저히 평가한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 원자로 자동정지 원인(복수기 진공상실 원인)",
+          "printed_pages": [
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 원인(복수기 진공상실)"
+        }
+      ],
+      "counterevidence_or_limitation": "원전운영자는 파손 메커니즘 분석(시편·이물질 분석)을 수행했고 KINS가 타당하다고 판단했다(CLAUDE-F03). CL1·PI3과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-016-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "운전경험에 대한 시정조치계획이 수립되지 않았고, 사건 후 중장기(3개월 이상) 시정조치를 별도 관리대장으로 추적하는 장기과제 CAP 관리 프로세스가 마련되었다(CLAUDE-F03, CLAUDE-F07). 문제를 중요도에 따라 시의적절하고 효과적으로 조치한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 원자로 자동정지 원인(복수기 진공상실 원인)",
+          "printed_pages": [
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 원인(복수기 진공상실)"
+        },
+        {
+          "section": "3.4.1 복수기 신축이음매 파손에 대한 대책",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "신축이음매 대책"
+        },
+        {
+          "section": "3.4.2 터빈구동 보조급수펌프 과속도정지에 대한 대책",
+          "printed_pages": [
+            10,
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "보조급수펌프 대책"
+        },
+        {
+          "section": "3.4.3 사건대응 능력 관련 대책",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "사건대응 능력 관련 대책"
+        },
+        {
+          "section": "4. 보완요구사항",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항 없음"
+        },
+        {
+          "section": "5. 결론",
+          "printed_pages": [
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "counterevidence_or_limitation": "기존 CAP의 장기과제 추적 방식은 서술되지 않았다. CL1과 사실을 공유한다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-016-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘작업 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘설계 여유도’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문서화’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-016-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "운전원이 비상운전절차서의 필수안전기능 상태추적점검(진단-0)을 수행하지 않았다는 사실을 KINS가 직접 확인했다(CLAUDE-F05). 프로세스·절차를 준수한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.3.2 사건 대응능력 검토",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "사건 대응능력 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "운전원은 비상-0·보조-0.1 절차는 적절히 수행했고 안전변수지시계통으로 필수안전기능을 확인했다(CLAUDE-F05). 절차 미수행의 이유는 서술되지 않았다. QA4·CO1과 사실을 공유한다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(fea42f16…4f18)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 295,319 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2016-04호(160227HB1)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 14이고 큐 기대 물리 페이지는 15이다. PDF 텍스트 추출이 가능했고 큐의 SHA-256·페이지(15)와 일치했다. 표지에는 쪽번호가 없고 사건 요약은 인쇄쪽 1에서 시작한다. 붙임은 없다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(물리 페이지 = 인쇄쪽 + 1(표지 1면)로 추정한다. 면 끝 ‘- N -’ 표기를 기준으로 했다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 면 경계에 ±1쪽 불확실성이 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 신축이음매 형상·파손위치 그림과 증기공급 계통도 등 그림은 텍스트로 확인하지 못했다. 이 보고서에는 별도 붙임이 없다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 사건 요약은 ‘터빈구동 보조급수펌프 증기공급밸브(HV-128) 급속열림’을 원인으로, 3.2.2절은 ‘근본원인’과 ‘기여원인’을 구분해 서술한다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 복수기 신축이음매 경년열화와 증기공급밸브 급속열림이라는 설비 원인이 중심이나, 운전경험 종결·원인분석(근본/기여 분류)·비상절차 일부 미수행·지원조 역할 불명확 등 조직·절차 관련 KINS 직접 서술이 있어 일부를 선정했다. 기술적 중요 사건이라는 것과 안전문화 속성 선정 개수는 별개이다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-016와는 무관한 사건이며 ROOT-016 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
