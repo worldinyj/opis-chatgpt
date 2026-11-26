@@ -1,0 +1,98 @@
+{
+  "phase": "B03-R1",
+  "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
+  "method": "GitHub base64 original bytes, independent JS SHA256 (abc known-answer test), duplicate-key JSON parser, strict CSV parser, pinned schema keyword evaluator, report table and validation aggregate comparison",
+  "actual_cases": 7,
+  "actual_rows": 280,
+  "original_artifact_sha256_matched": 28,
+  "original_artifact_blob_matched": 28,
+  "schema_cases_no_errors": 7,
+  "report_role_count_matches": 7,
+  "validation_role_count_matches": 7,
+  "cases": [
+    {
+      "queue_id": "ROOT-004",
+      "role_prefix_rows": 0,
+      "empty_source_rows": 10,
+      "source_rows": 30,
+      "route": "MANUAL_SOURCE_HOLD",
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-014",
+      "role_prefix_rows": 40,
+      "empty_source_rows": 18,
+      "source_rows": 22,
+      "route": "FORMAT_CANDIDATE",
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-015",
+      "role_prefix_rows": 40,
+      "empty_source_rows": 23,
+      "source_rows": 17,
+      "route": "FORMAT_CANDIDATE",
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-017",
+      "role_prefix_rows": 40,
+      "empty_source_rows": 21,
+      "source_rows": 19,
+      "route": "FORMAT_CANDIDATE",
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-018",
+      "role_prefix_rows": 40,
+      "empty_source_rows": 18,
+      "source_rows": 22,
+      "route": "FORMAT_CANDIDATE",
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-019",
+      "role_prefix_rows": 40,
+      "empty_source_rows": 18,
+      "source_rows": 22,
+      "route": "FORMAT_CANDIDATE",
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-020",
+      "role_prefix_rows": 40,
+      "empty_source_rows": 19,
+      "source_rows": 21,
+      "route": "FORMAT_CANDIDATE",
+      "approved": false,
+      "can_ship": false
+    }
+  ],
+  "root004": {
+    "source_identity": "UNVERIFIED",
+    "ledger_gap": {
+      "DM3": [
+        68,
+        69
+      ]
+    },
+    "section_exact_string_differences": 28
+  },
+  "limits": [
+    "No full clone; Python B03 CLI and its installed jsonschema engine were not run on actual inputs. Independent JS evaluator covered all keywords in pinned schema, not a general Draft 2020-12 certification.",
+    "INTAKE_STATUS.json 7 blobs were checked in B02; no recorded SHA256 for those files.",
+    "Report table role/result and aggregate comparison, not semantic or per-key report rationale comparison.",
+    "Source section exact strings match for six cases; ROOT-004 differences not adjudicated. PDF hashes reported by submitters not independently verified.",
+    "B04 must independently verify pins, serialize JSON references, reparse and validate output formula safety and row invariants. No derived CSV produced."
+  ],
+  "approved": false,
+  "can_ship": false,
+  "eligible_for_three_ai_consensus": false,
+  "main_merge": false
+}
