@@ -97,7 +97,7 @@
         "claude/cases/2024/240513W4/v1/validation.md"
       ],
       "zip": "CLAUDE_ROOT-003_240513W4_v1.zip",
-      "github_commit_sha": null,
+      "github_commit_sha": "b7c6078a8a7ee36032d4d212bff5019fa912451c",
       "checks": "Original validation.md; intake in INTAKE_STATUS.json.",
       "constraints": [
         "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
@@ -106,8 +106,7 @@
         "붙임 7~11 미열람, 도면·이미지 미확인, 비공개 구간 미복원",
         "리더 지시 관련 속성은 붙임 6 면담 요약 의존"
       ],
-      "integration_status": "HOLD",
-      "commit_reference_note": "Commit recorded in follow-up."
+      "integration_status": "HOLD"
     }
   ],
   "next_queue_id": "ROOT-004",
