@@ -1,0 +1,737 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-033",
+  "event_id": "020405U4",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2002-04-05_울진 4호기 증기발생기 세관 손상.pdf",
+    "report_number": "2002-02호(020405U4)",
+    "report_date": "2002-04",
+    "sha256": "a3dff667158b6c61f576f87221b4e458afd25e66ba3d31c712f3ea5aa4fc13cf",
+    "pdf_page_count": 6,
+    "reading_scope": "원본 PDF 전 6쪽이 이미지 스캔본(텍스트 레이어 0자)으로, 150dpi PNG 이미지 변환 후 전 6쪽(조사자 명단, 사건 요약, 1장 개요~4장 현장 조사 결과, PDF 1~6쪽)을 직접 시각 정밀 판독 완료. 로컬 바이너리 SHA-256 해시·파일 크기(1,017,134 bytes)·페이지 수(6쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 KINS 원본 조사보고서(2002-02호)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "2002.04.05. 18:33 제3차 계획예방정비를 위해 원자로 정지 후 운전모드 3에서 냉각·감압 운전(종합-05, 붕소농도 약 2,260 ppm; 17:50 RCS 158.2 kg/cm², 290.9/291.2℃, 가압기 수위 35.6%, SG 74.9 kg/cm²) 중이던 울진 4호기(PWR 2Loops, KHIC, 1000 MWe, 상업운전 '99.12.30)에서 증기발생기 #2 세관 손상(파단)으로 가압기 수위가 29.3%에서 급격 감소했다. 18:35 충전펌프 1대 추가 기동(총 3대 132 gpm) 및 유출수 차단밸브 닫힘, 18:38 가압기 저압력 SI Reset(147 kg/cm²), 18:46 SG #2 취출 방사능 경보(RE-104, 3.12 MBq/m³) 발생 및 SG #2 격리(MSIV·MSIVBV·MFIV·SG B/D), 18:49 SI 펌프 수동작동(RCS 103 kg/cm², 288℃)으로 가압기 수위를 회복했고, 19:14 SI 펌프 정지 후 19:59 1·2차 압력 평형(74.2 kg/cm²)으로 누설이 종료되어 4.6 02:58 정지냉각계통 운전·13:25 저온정지에 도달했다. RWT 수위 변화(2.8%) 기준 총 누설량은 약 45톤, 순간최대 누설률은 132 gpm 이상으로 추정되었다(on-line 최대 99.35 gpm).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2장, 3.가.2)절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "summary": "제3차 O/H 냉각 중 SG #2 세관 손상(총 약 45톤, 순간최대 132 gpm 이상 누설), SG #2 격리·수동 SI 및 압력 평형(19:59)·저온정지(4.6 13:25) 경과"
+        }
+      ],
+      "limitation": "본 PDF에는 인쇄쪽 번호, 보고서 발행일(조사기간 2002.4.6~4.7만 기재) 및 별도 INES 등급 평가 절이 수록되어 있지 않으며, 문서 순번(1~6쪽)을 인쇄쪽으로 병기함."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "KINS 조사 결과 사건 전 종합-05('고온대기 상태로부터 상온정지 상태운전 수행') 절차서 및 운전모드 3 기술지침서 운전제한조건(붕소농도 2,333 ppm, RWT 4,000 ppm 유로 형성, 사고 중 2,333~2,767 ppm 유지)을 충족하고 있었으며, 누설 징후 발견 후 충전펌프 추가 기동, 비정상-31 절차서(증기발생기 튜브 누설)에 따른 SG #2 격리, 비상-03 절차서(증기발생기 튜브 파열)에 따른 수동 안전주입 작동, 보조살수 감압 및 건전 SG 냉각으로 정지냉각계통 연결·고온/저온정지로 유도한 운전원 비상대응 조치가 전반적으로 적절했다고 평가되었다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.가.1)·3)·4)절, 4장",
+          "printed_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "종합-05·기술지침서(정지여유도 2,333~2,767 ppm) 준수 및 비정상-31·비상-03 운전원 비상대응 전반적 적절 평가"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "SG #2 취출 감시기(RE-104)에서 경보가 발생했으나 외부 방출 확인 감시기에서 방사선이 탐지되지 않아 환경으로의 방출은 없었고, 2차 계통수 오염은 SG #2에 국한되었다(1차계통 1.28E-01 μCi/g[4/5 21:45]→1.32E-02[4/6 23:32], 2번 SG 7.07E-02[4/5 21:27]→5.19E-02[4/6 23:32]). 울진 4호기 인근 후문·남서고지·신화리 공간감마선량률은 평상 변동폭 이내였으며, 부지 내·외 토양, 빗물, 해수 시료 감마핵종 분석(1~2주 소요) 및 SG #2 2차측 액체폐기물 처리·제염 대책 마련이 예정되어 있었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나~다절",
+          "printed_pages": [
+            2,
+            5,
+            6
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "외부 방사선 방출 없음, 2차 계통 오염 SG #2 국한, 공간감마선량률 정상 및 환경시료 감마핵종 분석·제염 대책 예정"
+        }
+      ],
+      "limitation": "환경시료 감마핵종 분석 결과(1~2주 소요) 및 구체적 제염 방법은 보고서 작성 시점 미완료 상태."
+    },
+    {
+      "id": "GEMINI-F04",
+      "summary": "제3차 계획예방정비 냉각·감압 과정에서 순간최대 132 gpm 이상(총 약 45톤)의 1차→2차 냉각재 누설을 유발한 증기발생기 #2 세관 손상(파단)이 발생했으나, 본 보고서(2002.4.6~4.7 현장조사) 시점에는 1차측 Manway 개방 전이어서 세관의 손상 부위 및 근본원인이 규명되지 않았으며 추후 확인 및 조치가 필요한 사항으로 기록되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.가.2)·5)절, 4장",
+          "printed_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "SG #2 세관 손상(파단) 발생 확인 및 1차측 Manway 개방 후 손상 부위·근본원인 추후 규명 필요"
+        }
+      ],
+      "limitation": "초기 현장조사 보고서이므로 세관 손상의 야금학적·정비·검사 근본원인이 미수록 상태."
+    },
+    {
+      "id": "GEMINI-F05",
+      "summary": "KINS는 4장 현장 조사 결과에서 비상대응 조치는 전반적으로 적절했으나 확인 과정에서 복수기 진공배기감시기(RE-063)의 경보설정치 적절성 여부를 추후 검토할 필요성이 있음을 개선 요구사항으로 명시했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "4장",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [
+            6
+          ],
+          "summary": "복수기 진공배기감시기(RE-063) 경보설정치 적절성 여부 추후 검토 필요성 제기"
+        }
+      ],
+      "limitation": "RE-063의 구체적 설정치·작동 이력은 본 6쪽 초기 보고서에 상세 미수록."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-033-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "사건 전 종합-05 및 기술지침서 요건과 사건 후 비정상-31·비상-03 절차가 적절히 준수되었으며 개인 표준 미준수 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "운전원 절차·기술지침서 준수는 WP4(P)에서 별도 평가함."
+    },
+    {
+      "review_key": "ROOT-033-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 개인의 업무수행 책임 결여가 사건을 유발했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 부서 간 협업 실패를 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 원자력 특수성 인식 부족이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "세관 손상 근본원인 규명 전 초기 보고서임."
+    },
+    {
+      "review_key": "ROOT-033-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 불확실한 상태에서 작업이나 운전을 강행했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 잘못된 가정 미도전이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 안일함 자체를 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 의사소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 의사결정 근거 전달·설명 부족을 지적하는 내용이 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "사건 발생 후 KINS 현장조사(2002.4.6~4.7) 협조가 투명하게 이루어졌다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 인력·예산·장비 등 자원 부족이 사건의 원인으로 작용했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 현장 감독 실패가 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 조직·설비·절차 변경 과정의 변화관리 실패가 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 조직·담당자 간 역할·책임·권한 혼선을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 지속적 자체진단 체계 결여를 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 의사결정 프로세스 결여가 사건을 유발했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "운전원이 가압기 수위 급감 및 18:46 SG #2 취출 방사능 경보 인지 직후 손상된 SG #2를 격리해 1차측 누설수의 확산을 차단했고, 격리 후에도 가압기 수위 감소가 지속되자 18:49 Reset 되어 있던 안전주입계통을 수동 작동해 냉각재 재고량과 필수안전기능을 확보한 보수적 의사결정(P)으로 평가한다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2장, 3.가.2)절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "summary": "제3차 O/H 냉각 중 SG #2 세관 손상(총 약 45톤, 순간최대 132 gpm 이상 누설), SG #2 격리·수동 SI 및 압력 평형(19:59)·저온정지(4.6 13:25) 경과"
+        },
+        {
+          "section": "사건 요약, 3.가.1)·3)·4)절, 4장",
+          "printed_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "종합-05·기술지침서(정지여유도 2,333~2,767 ppm) 준수 및 비정상-31·비상-03 운전원 비상대응 전반적 적절 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.가.1)·3)절에서 수동 안전주입 및 고장 SG 격리 조치의 적절성을 명시)."
+    },
+    {
+      "review_key": "ROOT-033-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 의사결정 책임 회피나 권한 충돌이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 과거 유사사건 교훈 미반영을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 정기 자체 진단 체계 결함을 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 외부 기관 벤치마킹 누락이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 운전원·정비원의 교육훈련 또는 자격 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "KINS가 4장 현장 조사 결과에서 복수기 진공배기감시기(RE-063)의 경보설정치 적절성 여부를 추후 검토할 필요성을 제기했으나, 본 초기 보고서에는 RE-063의 설정치 부적합이나 누설 초기 탐지 지연 여부가 확정되지 않아 판단을 보류한다.",
+      "fact_ids": [
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "4장",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [
+            6
+          ],
+          "summary": "복수기 진공배기감시기(RE-063) 경보설정치 적절성 여부 추후 검토 필요성 제기"
+        }
+      ],
+      "counterevidence_or_limitation": "최종 상세 조사보고서에서 RE-063 설정치 검토 결과 확인 후 재평가 필요."
+    },
+    {
+      "review_key": "ROOT-033-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "본 보고서(2002.4.6~4.7 현장조사)는 1차측 Manway 개방 전 작성된 초기 보고서로 증기발생기 #2 세관 손상 부위·근본원인(과거 가동중검사 평가 적정성 포함)과 환경시료 감마핵종 분석(1~2주 소요)이 미완료 상태이므로 평가 적정성 판단을 보류한다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나~다절",
+          "printed_pages": [
+            2,
+            5,
+            6
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "외부 방사선 방출 없음, 2차 계통 오염 SG #2 국한, 공간감마선량률 정상 및 환경시료 감마핵종 분석·제염 대책 예정"
+        },
+        {
+          "section": "사건 요약, 3.가.2)·5)절, 4장",
+          "printed_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "SG #2 세관 손상(파단) 발생 확인 및 1차측 Manway 개방 후 손상 부위·근본원인 추후 규명 필요"
+        }
+      ],
+      "counterevidence_or_limitation": "Manway 개방 후 세관 손상 근본원인 규명 결과 확인 시 재평가 필요."
+    },
+    {
+      "review_key": "ROOT-033-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 기존 시정조치 미이행을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 설비·오류 경향분석 체계 결함이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 정비·작업관리 결함이 사건을 유발했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "세관 손상 근본원인 규명 전 초기 보고서임."
+    },
+    {
+      "review_key": "ROOT-033-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "제3차 계획예방정비를 위한 원자로 정지 후 운전모드 3 냉각·감압 과정에서 1차–2차 경계 방벽인 증기발생기 #2 세관이 손상(파단)되어 순간최대 132 gpm 이상(총 약 45톤)의 1차측 냉각재가 2차측으로 누설된 설비 건전성 상실이 사건의 직접 원인이 되었다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2장, 3.가.2)절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "summary": "제3차 O/H 냉각 중 SG #2 세관 손상(총 약 45톤, 순간최대 132 gpm 이상 누설), SG #2 격리·수동 SI 및 압력 평형(19:59)·저온정지(4.6 13:25) 경과"
+        },
+        {
+          "section": "사건 요약, 3.가.2)·5)절, 4장",
+          "printed_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "SG #2 세관 손상(파단) 발생 확인 및 1차측 Manway 개방 후 손상 부위·근본원인 추후 규명 필요"
+        }
+      ],
+      "counterevidence_or_limitation": "세관 손상의 구체적 손상 부위 및 근본원인은 1차측 Manway 개방 후 추후 확인 예정."
+    },
+    {
+      "review_key": "ROOT-033-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 초기 조사보고서에 운전·비상절차서 자체의 결함을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-033-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "사건 전 종합-05 절차서 및 운전모드 3 기술지침서 운전제한조건(붕소농도 2,333~2,767 ppm 유지)을 준수했고, 누설 발생 후 비정상-31(증기발생기 튜브 누설) 및 비상-03(증기발생기 튜브 파열) 절차서에 따라 고장 SG #2 격리, 수동 안전주입, 보조살수 감압, 1·2차 압력 평형(19:59) 및 정지냉각계통 연결·저온정지(4.6 13:25)를 적절히 수행한 긍정·방어 요소(P)로 평가한다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2장, 3.가.2)절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "summary": "제3차 O/H 냉각 중 SG #2 세관 손상(총 약 45톤, 순간최대 132 gpm 이상 누설), SG #2 격리·수동 SI 및 압력 평형(19:59)·저온정지(4.6 13:25) 경과"
+        },
+        {
+          "section": "사건 요약, 3.가.1)·3)·4)절, 4장",
+          "printed_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "종합-05·기술지침서(정지여유도 2,333~2,767 ppm) 준수 및 비정상-31·비상-03 운전원 비상대응 전반적 적절 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.가절 및 4장에서 절차·기술지침서 준수 및 비상대응 전반의 적절성을 명시)."
+    }
+  ],
+  "limitations": [
+    "본 보고서는 2002.4.6~4.7 현장조사 직후 작성된 초기 보고서로, 1차측 Manway 개방 전이어서 증기발생기 #2 세관 손상 부위 및 근본원인이 미규명 상태임.",
+    "복수기 진공배기감시기(RE-063) 경보설정치 적절성 검토, 환경시료 감마핵종 분석(1~2주 소요) 및 SG #2 2차측 제염 대책이 추후 확인·조치 사항으로 남아 있음.",
+    "본 보고서는 이미지 스캔본(6쪽)이며 별도 발행일(조사기간 2002.4.6~4.7만 기재)·인쇄쪽 번호·INES 등급 평가 절이 수록되어 있지 않음.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
