@@ -164,7 +164,7 @@
         "claude/cases/2022/221222K3/v1/validation.md"
       ],
       "zip": "CLAUDE_ROOT-007_221222K3_v1.zip",
-      "github_commit_sha": null,
+      "github_commit_sha": "1ec3b01d12b2f85021f2be13bae1cd11346d36b1",
       "checks": "Original validation.md; intake in INTAKE_STATUS.json.",
       "constraints": [
         "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
@@ -174,8 +174,7 @@
         "2011년 의사결정 관련 판단은 사건 후 원전운영자 유효성 평가에 의존",
         "설비·과거 대책 중심 보고서로 N 25개"
       ],
-      "integration_status": "HOLD",
-      "commit_reference_note": "Commit recorded in follow-up."
+      "integration_status": "HOLD"
     }
   ],
   "next_queue_id": "ROOT-008",
