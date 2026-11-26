@@ -1,0 +1,682 @@
+[
+  {
+    "review_key": "ROOT-017-PA1",
+    "role": "I",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[I] 제작사 기술지침(TB-04-5)의 정확한 해석·반영 기준과 발전정지 관련 전기설비 정비절차서(61건 재검토 대상) 판정기준의 적합성 검증 규정이 미흡하여 오류가 장기간 방치되었다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02, GEMINI-F06)"
+    },
+    "after": {
+      "rationale": "제작사 기술지침(TB-04-5)의 정확한 해석·반영 기준과 발전정지 관련 전기설비 정비절차서(61건 재검토 대상) 판정기준의 적합성 검증 규정이 미흡하여 오류가 장기간 방치되었다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; 절 사건 요약, 3.3~5장 / 인쇄쪽 1,7,8,9 / PDF 물리쪽 2,8,9,10; [GEMINI-F02,GEMINI-F06]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-PA2",
+    "role": "A",
+    "result": "판단보류",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[A] 제작사 지침 오해석 절차서 작성·운영 및 2014년 79,000 MΩ 측정 시 실무자의 책임의식 미흡 정황이 있으나, 보고서가 개인별 귀책을 직접 규명하지 않아 판단보류로 분류한다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02)"
+    },
+    "after": {
+      "rationale": "제작사 지침 오해석 절차서 작성·운영 및 2014년 79,000 MΩ 측정 시 실무자의 책임의식 미흡 정황이 있으나, 보고서가 개인별 귀책을 직접 규명하지 않아 판단보류로 분류한다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; [GEMINI-F02]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-PA3",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 부서·구성원 간 협업 부재나 팀워크 결함이 사건에 기여했다는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 부서·구성원 간 협업 부재나 팀워크 결함이 사건에 기여했다는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-QA1",
+    "role": "I",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[I] 고압 RCP 전원공급 회로의 지락·원자로 자동정지를 유발할 수 있는 써지보호기의 절연저항이 2006년 208,000 MΩ에서 2014년 79,000 MΩ으로 반감되었음에도 당일 2회 측정 비교에만 의존한 점은 주요 설비의 안전 중요도 인식 부족을 보여준다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02)"
+    },
+    "after": {
+      "rationale": "고압 RCP 전원공급 회로의 지락·원자로 자동정지를 유발할 수 있는 써지보호기의 절연저항이 2006년 208,000 MΩ에서 2014년 79,000 MΩ으로 반감되었음에도 당일 2회 측정 비교에만 의존한 점은 주요 설비의 안전 중요도 인식 부족을 보여준다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; [GEMINI-F02]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-QA2",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 정비절차서의 '당일 2회 측정 후 2차값이 1차값의 50% 이상이면 합격'이라는 비합리적 기준의 불확실성을 확인하지 않고 장기 운영했고, 정지 안정 후 주급수펌프 'C' 35 RPM 누설 확인 시에도 응축수 배수밸브 개방에 따른 증기소모·과도 영향을 확인하지 않고 조작했다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02, GEMINI-F05)"
+    },
+    "after": {
+      "rationale": "정비절차서의 '당일 2회 측정 후 2차값이 1차값의 50% 이상이면 합격'이라는 비합리적 기준의 불확실성을 확인하지 않고 장기 운영했고, 정지 안정 후 주급수펌프 'C' 35 RPM 누설 확인 시에도 응축수 배수밸브 개방에 따른 증기소모·과도 영향을 확인하지 않고 조작했다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; 절 3.2.1절, 3.3절 / 인쇄쪽 6,7 / PDF 물리쪽 7,8; [GEMINI-F02,GEMINI-F05]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-QA3",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 제작사 지침(초기값 대비 50% 이하 시 교체)을 당일 1·2차 측정값 비교로 오해석해 열화된 써지보호기를 정상으로 가정했고, 원자로 정지 후 보조-0.1 수행 중에도 급수유량 조절이 지속 중이라 가정해 MSIV 차단을 생략하여 RCS 과냉각(273.5℃)을 초래했다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02, GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "제작사 지침(초기값 대비 50% 이하 시 교체)을 당일 1·2차 측정값 비교로 오해석해 열화된 써지보호기를 정상으로 가정했고, 원자로 정지 후 보조-0.1 수행 중에도 급수유량 조절이 지속 중이라 가정해 MSIV 차단을 생략하여 RCS 과냉각(273.5℃)을 초래했다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; 절 3.2.1절, 3.3절 / 인쇄쪽 6,7 / PDF 물리쪽 7,8; [GEMINI-F02,GEMINI-F04]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-QA4",
+    "role": "A",
+    "result": "판단보류",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[A] 장기간(2006~2015) 당일 2회 측정 비교 방식으로 매번 합격 판정이 반복되면서 절차서 오류에 무감각해진 자만 정황이 있으나, 관련 면담·조직진단 근거가 원문에 없어 판단보류로 분류한다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02)"
+    },
+    "after": {
+      "rationale": "장기간(2006~2015) 당일 2회 측정 비교 방식으로 매번 합격 판정이 반복되면서 절차서 오류에 무감각해진 자만 정황이 있으나, 관련 면담·조직진단 근거가 원문에 없어 판단보류로 분류한다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; [GEMINI-F02]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-CO1",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 조직·작업자 간 의사소통 오류가 사건에 기여했다는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 조직·작업자 간 의사소통 오류가 사건에 기여했다는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-CO2",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 특정 의사결정의 기술적 근거 소통 실패를 직접 지적하는 근거는 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 특정 의사결정의 기술적 근거 소통 실패를 직접 지적하는 근거는 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-CO3",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서상 보고대상 사건 보고 및 조사 협조 과정에서 정보 은폐나 투명성 결여를 시사하는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서상 보고대상 사건 보고 및 조사 협조 과정에서 정보 은폐나 투명성 결여를 시사하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-CO4",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-LA1",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 인력·예산·예비품 등 자원 부족이 사건에 기여했다는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 인력·예산·예비품 등 자원 부족이 사건에 기여했다는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-LA2",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 경영진·관리자의 현장 순시 부족을 사건 원인으로 지적하는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 경영진·관리자의 현장 순시 부족을 사건 원인으로 지적하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-LA3",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-LA4",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-LA5",
+    "role": "I",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[I] 2014년 9월 13.8 kV 비안전모선 고압차단기반 설비개선으로 주차단기측 써지보호기를 추가 설치하면서, 역할이 축소되고 단락 고장 위험이 있는 전동기측 써지보호기 제거와 주차단기측 PMT 수립을 연계하지 못한 변화관리 미흡이 확인된다.",
+      "source": "2015-05호(150903K4) (GEMINI-F03, GEMINI-F06)"
+    },
+    "after": {
+      "rationale": "2014년 9월 13.8 kV 비안전모선 고압차단기반 설비개선으로 주차단기측 써지보호기를 추가 설치하면서, 역할이 축소되고 단락 고장 위험이 있는 전동기측 써지보호기 제거와 주차단기측 PMT 수립을 연계하지 못한 변화관리 미흡이 확인된다.",
+      "source": "보고서 2015-05호(150903K4); 절 3.1.4절, 3.3절 / 인쇄쪽 5,7 / PDF 물리쪽 6,8; 절 사건 요약, 3.3~5장 / 인쇄쪽 1,7,8,9 / PDF 물리쪽 2,8,9,10; [GEMINI-F03,GEMINI-F06]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-LA6",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 부서·직책 간 역할·책임·권한 혼선이 사건에 기여했다는 직접 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 부서·직책 간 역할·책임·권한 혼선이 사건에 기여했다는 직접 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-LA7",
+    "role": "I",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[I] 당일 2회 측정치만 비교하는 정비절차서 판정기준 오류가 2006년 이후 2015년 사건 시점까지 장기간 수정되지 않고 운영된 점은 절차서·정비품질에 대한 지속적 진단 미흡을 보여준다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02, GEMINI-F06)"
+    },
+    "after": {
+      "rationale": "당일 2회 측정치만 비교하는 정비절차서 판정기준 오류가 2006년 이후 2015년 사건 시점까지 장기간 수정되지 않고 운영된 점은 절차서·정비품질에 대한 지속적 진단 미흡을 보여준다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; 절 사건 요약, 3.3~5장 / 인쇄쪽 1,7,8,9 / PDF 물리쪽 2,8,9,10; [GEMINI-F02,GEMINI-F06]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-LA8",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-DM1",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 제작사 기술지침(Westinghouse TB-04-5)을 정비절차서에 정확히 해석·반영·검증하는 프로세스가 미흡해 판정기준 오류가 발생·지속되었으며, 장기대책으로 본사 차원의 '제작사 기술정보 처리 프로세스 개선 및 적용'이 수립되었다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02, GEMINI-F06)"
+    },
+    "after": {
+      "rationale": "제작사 기술지침(Westinghouse TB-04-5)을 정비절차서에 정확히 해석·반영·검증하는 프로세스가 미흡해 판정기준 오류가 발생·지속되었으며, 장기대책으로 본사 차원의 '제작사 기술정보 처리 프로세스 개선 및 적용'이 수립되었다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; 절 사건 요약, 3.3~5장 / 인쇄쪽 1,7,8,9 / PDF 물리쪽 2,8,9,10; [GEMINI-F02,GEMINI-F06]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-DM2",
+    "role": "I",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[I] 과도 중 추가 증기소모 방지를 위한 MSIV 차단을 생략해 RCS 온도가 273.5℃까지 저하되었고, 안정 후 주급수펌프 'C' 누설 확인 시에도 전단 수동차단밸브 격리 없이 응축수 배수밸브를 개방해 추가 과도를 초래한 비보수적 운전 판단이 확인되었다.",
+      "source": "2015-05호(150903K4) (GEMINI-F04, GEMINI-F05)"
+    },
+    "after": {
+      "rationale": "과도 중 추가 증기소모 방지를 위한 MSIV 차단을 생략해 RCS 온도가 273.5℃까지 저하되었고, 안정 후 주급수펌프 'C' 누설 확인 시에도 전단 수동차단밸브 격리 없이 응축수 배수밸브를 개방해 추가 과도를 초래한 비보수적 운전 판단이 확인되었다.",
+      "source": "보고서 2015-05호(150903K4); 절 3.2.1절, 3.3절 / 인쇄쪽 6,7 / PDF 물리쪽 7,8; 절 3.2.1절, 3.3절 / 인쇄쪽 6,7 / PDF 물리쪽 7,8; [GEMINI-F04,GEMINI-F05]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-DM3",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 의사결정 책임 소재 불명확이나 회피를 직접 지적하는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 의사결정 책임 소재 불명확이나 회피를 직접 지적하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-WE1",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-WE2",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-WE3",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-WE4",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-CL1",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 제작사 기술권고서(Westinghouse TB-04-5)가 제시한 '초기 측정값 대비 50% 이하 시 교체' 기준을 오해석해 정비절차서에 잘못 반영함으로써 손상 설비를 포함한 다수 써지보호기가 교체기한을 초과해 사용되었다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02, GEMINI-F06)"
+    },
+    "after": {
+      "rationale": "제작사 기술권고서(Westinghouse TB-04-5)가 제시한 '초기 측정값 대비 50% 이하 시 교체' 기준을 오해석해 정비절차서에 잘못 반영함으로써 손상 설비를 포함한 다수 써지보호기가 교체기한을 초과해 사용되었다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; 절 사건 요약, 3.3~5장 / 인쇄쪽 1,7,8,9 / PDF 물리쪽 2,8,9,10; [GEMINI-F02,GEMINI-F06]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-CL2",
+    "role": "I",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[I] 정비절차서의 판정기준 오류와 다수 써지보호기의 교체기한 초과를 자체 진단으로 사전 적발하지 못해 사건 이후 61건의 전기설비 정비절차서 판정기준 적합성 재검토를 추진하게 되었다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02, GEMINI-F06)"
+    },
+    "after": {
+      "rationale": "정비절차서의 판정기준 오류와 다수 써지보호기의 교체기한 초과를 자체 진단으로 사전 적발하지 못해 사건 이후 61건의 전기설비 정비절차서 판정기준 적합성 재검토를 추진하게 되었다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; 절 사건 요약, 3.3~5장 / 인쇄쪽 1,7,8,9 / PDF 물리쪽 2,8,9,10; [GEMINI-F02,GEMINI-F06]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-CL3",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 외부 기관 벤치마킹 누락이 사건 원인이라는 직접 서술은 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 외부 기관 벤치마킹 누락이 사건 원인이라는 직접 서술은 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-CL4",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 비상운전절차서 보조-0.1 수행 중 MSIV 차단조치 미흡으로 RCS 온도가 273.5℃까지 과냉각(유사사례 한빛 2호기 대비 약 8℃ 낮음)됨에 따라, 운전원 재교육과정에 보조급수유량 제어 및 MSIV 차단 시점 교육·훈련 강화 대책이 수립되었다.",
+      "source": "2015-05호(150903K4) (GEMINI-F04, GEMINI-F06)"
+    },
+    "after": {
+      "rationale": "비상운전절차서 보조-0.1 수행 중 MSIV 차단조치 미흡으로 RCS 온도가 273.5℃까지 과냉각(유사사례 한빛 2호기 대비 약 8℃ 낮음)됨에 따라, 운전원 재교육과정에 보조급수유량 제어 및 MSIV 차단 시점 교육·훈련 강화 대책이 수립되었다.",
+      "source": "보고서 2015-05호(150903K4); 절 3.2.1절, 3.3절 / 인쇄쪽 6,7 / PDF 물리쪽 7,8; 절 사건 요약, 3.3~5장 / 인쇄쪽 1,7,8,9 / PDF 물리쪽 2,8,9,10; [GEMINI-F04,GEMINI-F06]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-PI1",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 손상된 'A'상 써지보호기의 절연저항이 2006년 208,000 MΩ에서 2014년 79,000 MΩ으로 1/2 이상 감소하는 등 다수 써지보호기가 열화 상태였음에도 부적절한 판정기준으로 인해 사건 전까지 문제를 파악하지 못했다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02)"
+    },
+    "after": {
+      "rationale": "손상된 'A'상 써지보호기의 절연저항이 2006년 208,000 MΩ에서 2014년 79,000 MΩ으로 1/2 이상 감소하는 등 다수 써지보호기가 열화 상태였음에도 부적절한 판정기준으로 인해 사건 전까지 문제를 파악하지 못했다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; [GEMINI-F02]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-PI2",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 매 점검 시 1·2차 측정값만 비교하는 잘못된 판정기준을 적용함으로써 초기값 대비 50% 이상 저하된 실제 절연열화 및 내부 단락 위험을 정상으로 오판·과소평가했다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02)"
+    },
+    "after": {
+      "rationale": "매 점검 시 1·2차 측정값만 비교하는 잘못된 판정기준을 적용함으로써 초기값 대비 50% 이상 저하된 실제 절연열화 및 내부 단락 위험을 정상으로 오판·과소평가했다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; [GEMINI-F02]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-PI3",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 사건 전 써지보호기 열화나 절차서 오류를 인지하고도 시정을 지연·방치했다는 근거는 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 사건 전 써지보호기 열화나 절차서 오류를 인지하고도 시정을 지연·방치했다는 근거는 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-PI4",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 2006년(208,000 MΩ)과 2014년(79,000 MΩ)의 절연저항 주기점검 기록이 확보되어 있었음에도 초기 측정값 대비 장기 경향분석을 수행하지 않고 매 점검 시 당일 2회 측정값만 비교하여 열화 추세를 포착하지 못했다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02)"
+    },
+    "after": {
+      "rationale": "2006년(208,000 MΩ)과 2014년(79,000 MΩ)의 절연저항 주기점검 기록이 확보되어 있었음에도 초기 측정값 대비 장기 경향분석을 수행하지 않고 매 점검 시 당일 2회 측정값만 비교하여 열화 추세를 포착하지 못했다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; [GEMINI-F02]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-RC1",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-RC2",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] 보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-WP1",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 잘못된 정비절차서 판정기준으로 다수 써지보호기가 교체기한을 초과해 장기 사용되었고, '14.09 추가된 주차단기측 써지보호기의 PMT도 미수립 상태였으며, 정지 안정 후 주급수펌프 'C' 누설 확인 시 전단 수동차단밸브 대신 응축수 배수밸브를 개방해 추가 과도를 유발했다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02, GEMINI-F03, GEMINI-F05, GEMINI-F06)"
+    },
+    "after": {
+      "rationale": "잘못된 정비절차서 판정기준으로 다수 써지보호기가 교체기한을 초과해 장기 사용되었고, '14.09 추가된 주차단기측 써지보호기의 PMT도 미수립 상태였으며, 정지 안정 후 주급수펌프 'C' 누설 확인 시 전단 수동차단밸브 대신 응축수 배수밸브를 개방해 추가 과도를 유발했다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; 절 3.1.4절, 3.3절 / 인쇄쪽 5,7 / PDF 물리쪽 6,8; 절 3.2.1절, 3.3절 / 인쇄쪽 6,7 / PDF 물리쪽 7,8; 절 사건 요약, 3.3~5장 / 인쇄쪽 1,7,8,9 / PDF 물리쪽 2,8,9,10; [GEMINI-F02,GEMINI-F03,GEMINI-F05,GEMINI-F06]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-WP2",
+    "role": "N",
+    "result": "미선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "CANONICAL_EMPTY_SOURCE"
+    ],
+    "before": {
+      "rationale": "[N] RCP 전동기 절연 및 보호계전기·차단기 설계 자체는 적합했으며, 경년열화된 전동기측 써지보호기의 미교체가 원인이었다.",
+      "source": "2015-05호(150903K4) (관련 근거 미확인)"
+    },
+    "after": {
+      "rationale": "RCP 전동기 절연 및 보호계전기·차단기 설계 자체는 적합했으며, 경년열화된 전동기측 써지보호기의 미교체가 원인이었다.",
+      "source": "해당 원문 근거 없음"
+    }
+  },
+  {
+    "review_key": "ROOT-017-WP3",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 정비절차서(KR34E-431-MT-I-006A-Q)에 제작사 지침(TB-04-5)이 잘못 반영되어 시험·판정기준 오류가 발생했고, 주차단기측 써지보호기 점검기준(PMT)과 주급수펌프 증기공급차단밸브 내부누설 확인 시 전단 수동차단밸브 조작 지침이 미비했다.",
+      "source": "2015-05호(150903K4) (GEMINI-F02, GEMINI-F03, GEMINI-F05, GEMINI-F06)"
+    },
+    "after": {
+      "rationale": "정비절차서(KR34E-431-MT-I-006A-Q)에 제작사 지침(TB-04-5)이 잘못 반영되어 시험·판정기준 오류가 발생했고, 주차단기측 써지보호기 점검기준(PMT)과 주급수펌프 증기공급차단밸브 내부누설 확인 시 전단 수동차단밸브 조작 지침이 미비했다.",
+      "source": "보고서 2015-05호(150903K4); 절 사건 요약, 3.1.3절 / 인쇄쪽 1,3,4,5 / PDF 물리쪽 2,4,5,6; 절 3.1.4절, 3.3절 / 인쇄쪽 5,7 / PDF 물리쪽 6,8; 절 3.2.1절, 3.3절 / 인쇄쪽 6,7 / PDF 물리쪽 7,8; 절 사건 요약, 3.3~5장 / 인쇄쪽 1,7,8,9 / PDF 물리쪽 2,8,9,10; [GEMINI-F02,GEMINI-F03,GEMINI-F05,GEMINI-F06]"
+    }
+  },
+  {
+    "review_key": "ROOT-017-WP4",
+    "role": "D",
+    "result": "선정",
+    "rules": [
+      "REMOVE_MATCHING_ROLE_PREFIX",
+      "SERIALIZE_RECORDED_LOCATORS"
+    ],
+    "before": {
+      "rationale": "[D] 원자로 자동정지 후 운전원이 비상-0·보조-0.1을 수행하며 안전기능을 확보했으나, 보조-0.1 1.0 'RCS 온도 점검'에서 추가 증기소모 방지를 위한 MSIV 차단조치를 수행하지 않아 RCS 온도가 273.5℃까지 과냉각되었다.",
+      "source": "2015-05호(150903K4) (GEMINI-F04)"
+    },
+    "after": {
+      "rationale": "원자로 자동정지 후 운전원이 비상-0·보조-0.1을 수행하며 안전기능을 확보했으나, 보조-0.1 1.0 'RCS 온도 점검'에서 추가 증기소모 방지를 위한 MSIV 차단조치를 수행하지 않아 RCS 온도가 273.5℃까지 과냉각되었다.",
+      "source": "보고서 2015-05호(150903K4); 절 3.2.1절, 3.3절 / 인쇄쪽 6,7 / PDF 물리쪽 7,8; [GEMINI-F04]"
+    }
+  }
+]
