@@ -1,0 +1,92 @@
+{
+  "event_id": "970117-1502",
+  "queue_id": "ROOT-036",
+  "source_commit": "570946da0f9df45e5750bfc7ccb55943a0f4bf98",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "48246bdec7e6cbb029e095306aa7f156a03492dc",
+  "learning_ledger_blob": "aaedbd93e41817defc52227d205a8993b1f530d8",
+  "scope": "Review existing fact/learning ledgers against taxonomy; not original PDF reinspection, independent audit or expert determination.",
+  "codes": [
+    {
+      "code": "PI1",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F03"
+      ],
+      "rationale": "단순 이상 인지 실패와 CAP 결함 구별",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05"
+      ],
+      "rationale": "문제 방치 기록",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05"
+      ],
+      "rationale": "생산 우려와 판단; 조직적 압박 단정 금지",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08",
+        "F09"
+      ],
+      "rationale": "정기 시험관리 부적절 및 점검 미수행",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07"
+      ],
+      "rationale": "필요 절차 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F06",
+        "F07"
+      ],
+      "rationale": "실제 요구된 절차 여부 확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F03",
+        "F04",
+        "F06"
+      ],
+      "rationale": "불확실시 중단·평가 증거 미확보",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PA2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F05",
+        "F06"
+      ],
+      "rationale": "책임 인식·실천 관련 추가 확인",
+      "proposed_review_only": true
+    }
+  ],
+  "issues": [
+    "2쪽 동일 문안 중복 집계 금지. 호기 미확인. 생산 우려를 조직 정책으로 확대하지 않음."
+  ],
+  "can_ship": false
+}

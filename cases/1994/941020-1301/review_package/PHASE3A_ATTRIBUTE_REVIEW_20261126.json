@@ -1,0 +1,63 @@
+{
+  "event_id": "941020-1301",
+  "queue_id": "ROOT-037",
+  "source_commit": "570946da0f9df45e5750bfc7ccb55943a0f4bf98",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "dedd157397c102cd60fccb72eb5a5c6cbe31e01d",
+  "learning_ledger_blob": "92c564b27063057bebe6f3031f1a35e0c18ea94d",
+  "scope": "Review existing fact/learning ledgers against taxonomy; not original PDF reinspection, independent audit or expert determination.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F07",
+        "F11"
+      ],
+      "rationale": "후속 관리기준 개선; 기존 실패 증거 아님",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F08"
+      ],
+      "rationale": "후속 문서 보완; 이전 결함 미확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL4",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F09"
+      ],
+      "rationale": "대응 향상 대책; 기존 교육 실패 미확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA1",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F10"
+      ],
+      "rationale": "추가 자원; 이전 부족 미확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI3",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F07",
+        "F12",
+        "F14"
+      ],
+      "rationale": "효과 미확인과 실패 구분",
+      "proposed_review_only": true
+    }
+  ],
+  "issues": [
+    "5개 전부 후속 조치 기반 교육 가설. 약점 빈도에 합산할 수 없음. INES와 후보 수 독립."
+  ],
+  "can_ship": false
+}

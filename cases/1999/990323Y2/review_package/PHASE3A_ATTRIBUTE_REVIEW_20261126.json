@@ -1,0 +1,80 @@
+{
+  "event_id": "990323Y2",
+  "queue_id": "ROOT-035",
+  "source_commit": "570946da0f9df45e5750bfc7ccb55943a0f4bf98",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "726142f6b0c356ddcc8abf3850afc976dc137211",
+  "learning_ledger_blob": "bd6eac73fd76601dbbe9d379e6a1f59ab92c85c4",
+  "scope": "Review existing fact/learning ledgers against taxonomy; not original PDF reinspection, independent audit or expert determination.",
+  "codes": [
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F12"
+      ],
+      "rationale": "원문 절차 준수 불이행 지적",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI1",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F06"
+      ],
+      "rationale": "이미 인지; CAP 운영 근거 없음",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F06"
+      ],
+      "rationale": "인지 문제 조치 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F04",
+        "F06"
+      ],
+      "rationale": "상황 예측과 불확실시 작업중단 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL4",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F05"
+      ],
+      "rationale": "이해 부족과 교육 체계 미흡 구별",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07"
+      ],
+      "rationale": "운전경험 반영 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F06",
+        "F09"
+      ],
+      "rationale": "조치와 계획 관리 연결 추가 확인",
+      "proposed_review_only": true
+    }
+  ],
+  "issues": [
+    "PI1은 CAP 근거가 없고 PI3는 조치 미흡 직접 기록; 구분 필요."
+  ],
+  "can_ship": false
+}

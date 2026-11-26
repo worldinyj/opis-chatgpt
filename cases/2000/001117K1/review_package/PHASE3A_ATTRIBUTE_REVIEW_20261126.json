@@ -1,0 +1,86 @@
+{
+  "event_id": "001117K1",
+  "queue_id": "ROOT-034",
+  "source_commit": "570946da0f9df45e5750bfc7ccb55943a0f4bf98",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "325fb25564e1a8d987136c1308f8abaaf3def5ce",
+  "learning_ledger_blob": "13ad87329bdcc05f2ca1ea673f176ba5c6246a2c",
+  "scope": "Review existing fact/learning ledgers against taxonomy; not original PDF reinspection, independent audit or expert determination.",
+  "codes": [
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04"
+      ],
+      "rationale": "사업자 보고 문서 불명확; 독립 검증 대기",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F04",
+        "F15"
+      ],
+      "rationale": "사전검토 및 작업관리의 구체 결함 별도 확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F05",
+        "F17"
+      ],
+      "rationale": "연계 영향 이해와 불확실시 중단 여부 분리",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA3",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F05",
+        "F17"
+      ],
+      "rationale": "이견 제기 기회·행동의 증거 없음",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL4",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F15",
+        "F17"
+      ],
+      "rationale": "후속 교육 제시만으로 기존 교육 결함 확정 불가",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F03",
+        "F04",
+        "F05",
+        "F18"
+      ],
+      "rationale": "독립 조사 미확보는 원인평가 실패 증거 아님",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "P",
+      "fact_refs": [
+        "F06",
+        "F07"
+      ],
+      "rationale": "사업자 보고 긍정 대응; 규제기관 적절성 판정 아님",
+      "proposed_review_only": true
+    }
+  ],
+  "issues": [
+    "WP4 긍정학습은 이미 인덱스 제외. 사업자 보고와 독립 조사 구분."
+  ],
+  "can_ship": false
+}

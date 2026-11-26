@@ -1,0 +1,190 @@
+{
+  "event_id": "190510HB1",
+  "queue_id": "ROOT-011",
+  "source_commit": "570946da0f9df45e5750bfc7ccb55943a0f4bf98",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "935f291edd569d5edf9f1da0df7e936598b14572",
+  "learning_ledger_blob": "6fc4f3bd862876c56af1cf987f1a920f64f543c6",
+  "scope": "Review existing fact/learning ledgers against taxonomy; not original PDF reinspection, independent audit or expert determination.",
+  "codes": [
+    {
+      "code": "PA1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F03",
+        "F16"
+      ],
+      "rationale": "규정 인식과 실제 위반 분리",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PA2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F06",
+        "F12"
+      ],
+      "rationale": "책임 이해·실천 별도 근거",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F07",
+        "F11"
+      ],
+      "rationale": "작업중단·리스크 재평가 기록 필요",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA3",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F05"
+      ],
+      "rationale": "반론자 운영 미흡과 실제 이견 제기 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04",
+        "F09"
+      ],
+      "rationale": "교대회의 및 전달 관리 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F12",
+        "F15"
+      ],
+      "rationale": "인력·교육 자원 문제",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA3",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F14"
+      ],
+      "rationale": "평가지표 우려와 실제 보상·징벌 운영 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA5",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F15"
+      ],
+      "rationale": "근로환경 변화관리 문제",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA6",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F12",
+        "F13"
+      ],
+      "rationale": "역할·권한 명확성 문제",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F07",
+        "F13"
+      ],
+      "rationale": "판단 검증·체계적 프로세스 연결 검토",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F13",
+        "F14",
+        "F16"
+      ],
+      "rationale": "판단 지연 및 보수적 판단 저해 우려; L01 연결 근거 보완",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F13"
+      ],
+      "rationale": "의사결정 권한·책임 구조",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08",
+        "F10"
+      ],
+      "rationale": "경험반영 및 조치 효과 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F11"
+      ],
+      "rationale": "자체진단으로 이미 식별; 진단 자체 미흡 증거 별도 필요",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F09"
+      ],
+      "rationale": "CAP 등록 미흡 직접 기록",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F09",
+        "F10"
+      ],
+      "rationale": "후속조치 효과 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F06"
+      ],
+      "rationale": "필요 작업계획 미수립",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F03",
+        "F16"
+      ],
+      "rationale": "요구된 조치 불이행",
+      "proposed_review_only": true
+    }
+  ],
+  "issues": [
+    "CL4(F12) 및 PI2(F08) 추가 후보의 근거가 일부 핵심 후보보다 구체적일 가능성. 전문가 비교 검토.",
+    "DM2의 핵심 F13·F14가 L01에 직접 연결되지 않음. 근거 연결 수정 제안."
+  ],
+  "can_ship": false
+}

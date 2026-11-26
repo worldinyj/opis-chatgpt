@@ -1,0 +1,102 @@
+{
+  "event_id": "031229Y5",
+  "queue_id": "ROOT-032",
+  "source_commit": "570946da0f9df45e5750bfc7ccb55943a0f4bf98",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "c02760091f6d6befe9f714388d82656bbd405a10",
+  "learning_ledger_blob": "28522ec9e564c6530f9cca0852738ad8179358fb",
+  "scope": "Review existing fact/learning ledgers against taxonomy; not original PDF reinspection, independent audit or expert determination.",
+  "codes": [
+    {
+      "code": "QA2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F05",
+        "F07",
+        "F20"
+      ],
+      "rationale": "추가 조사 필요와 작업중단·리스크 관리 실패는 별개",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA3",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F05",
+        "F19",
+        "F20"
+      ],
+      "rationale": "가설 검증은 이견 제기 실패와 다름",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI1",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F01",
+        "F03",
+        "F08"
+      ],
+      "rationale": "문제 발견은 긍정; CAP 운영 결함 미확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F14",
+        "F20",
+        "F24"
+      ],
+      "rationale": "1차 조사 미완료는 평가 실패 증거 아님",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI3",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F21",
+        "F24"
+      ],
+      "rationale": "계획·진행과 후속 실패 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F05",
+        "F19",
+        "F20"
+      ],
+      "rationale": "가설만으로 설계여유도 관리 결함 입증 불가",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F11",
+        "F12",
+        "F21"
+      ],
+      "rationale": "당시 작업관리 적절 평가와 후속 검토 분리",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "P",
+      "fact_refs": [
+        "F02",
+        "F22"
+      ],
+      "rationale": "보수적 판단 긍정 학습; 인덱스에 혼재",
+      "proposed_review_only": true
+    }
+  ],
+  "issues": [
+    "DM2는 L03과 report §3.3에서 긍정임에도 events.json 및 metadata.yaml 후보에 포함. 의미 불일치; 정규화 제안.",
+    "1차 조사에서 미완료된 평가를 사건 전 관리 실패로 전환하지 않음."
+  ],
+  "can_ship": false
+}

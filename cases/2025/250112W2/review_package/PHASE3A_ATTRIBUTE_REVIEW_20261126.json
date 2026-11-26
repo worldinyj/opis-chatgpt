@@ -1,0 +1,108 @@
+{
+  "event_id": "250112W2",
+  "queue_id": "ROOT-001",
+  "source_commit": "570946da0f9df45e5750bfc7ccb55943a0f4bf98",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "c0f991a870d77aeed2e9f529950de78094524846",
+  "learning_ledger_blob": "c0aa4170e2fdbe5cd6571a47f579c526bffaf1b3",
+  "scope": "Review existing fact/learning ledgers against taxonomy; not original PDF reinspection, independent audit or expert determination.",
+  "codes": [
+    {
+      "code": "PA1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F04",
+        "F05"
+      ],
+      "rationale": "규정 중요성 인식과 실제 준수 구별; WP4 중복",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F06"
+      ],
+      "rationale": "불확실시 중지 관련 기법 활용 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05"
+      ],
+      "rationale": "의문 인지에도 제기하지 않음",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F06"
+      ],
+      "rationale": "잠재 오류 대비 및 확인 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F07"
+      ],
+      "rationale": "업무 소통 증거; 당시 요구사항과 대조",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F06"
+      ],
+      "rationale": "신중한 판단 근거를 별도로 확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F07"
+      ],
+      "rationale": "업무계획·관리 프로세스 평가 추가 필요",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08",
+        "F10"
+      ],
+      "rationale": "설계요건 구현 및 검토 문제; 정량 여유도 단정 금지",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04",
+        "F08"
+      ],
+      "rationale": "문서 불일치·정보 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04"
+      ],
+      "rationale": "필수 절차 미사용 기록",
+      "proposed_review_only": true
+    }
+  ],
+  "issues": [
+    "F09 설계변경 전파 결함 관련 LA5·CL1 추가 후보 재검토. 기존 코드 자동 승격 없음."
+  ],
+  "can_ship": false
+}
