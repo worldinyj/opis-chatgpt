@@ -1,0 +1,1001 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-031",
+  "event_id": "051106W1",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2005-11-06_월성1호기 비상발전기실 스프링클러 오작동에 의한 원자로격물 격리 신호 ᄇ.pdf",
+    "report_number": "2005-14호(051106W1)",
+    "report_date": "2005-11-10",
+    "sha256": "32cd0b8a3ba57f7c9ee4c73c4bd7a71d2b61240dbca3eb5ab173dcab033440cb",
+    "pdf_page_count": 17,
+    "reading_scope": "원본 PDF 전 17쪽 텍스트 추출(11,668자) 및 본문 전체(표지, 조사자 명단, 사건 요약, 1장 개요~6장 결론, 붙임 1~5, PDF 1~17쪽; 단 붙임 1 p.12~13 SOE는 스캔 이미지 형태) 정밀 판독 완료. 로컬 바이너리 SHA-256 해시·파일 크기(1,996,480 bytes)·페이지 수(17쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 KINS 원본 조사보고서(2005-14호)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "2005.11.06.(일) 02:28:01 월성 1호기가 정상출력 운전 중(원자로 출력 91.5%, 발전기 출력 637 MWe, PHWR 2 Loops, 상업운전 1983.04.22), 2번 비상발전기실(#2) 상부 소화계통 스프링클러 노즐 1개의 Fusible Link 이탈로 소화수가 분출되었고, 비상발전기실 #1을 거쳐 방화문 하단 틈새로 인접한 1층 제2제어실(SCA)에 유입된 뒤 바닥 신호선 관통부를 통해 지하 1층(EL 95.43m) 방사선감시기 패널(P, Q 채널; Victoren 942A-200-m35 내부 퓨즈 소손)로 침투해 2/3 논리가 작동하며 원자로건물 격리(Box-up, 환기계통 격리밸브 40개 닫힘) 신호가 발생했다. 02:30 현장 확인(화재 없음), 02:35 #2 소화수 공급밸브 격리, 04:52 #1 비상발전기 건전성 확인시험, 07:33(요약)/09:21:35(2.나절 채널 P·Q 모듈 교체 후 신호 해제), 10:12 N·P·Q 시험 완료, 11.08 20:30 #2 비상발전기 성능시험 완료 및 LCO 해제로 종료되었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2장, 3.가절, 붙임 2~4",
+          "printed_pages": [
+            3,
+            4,
+            5,
+            6,
+            14,
+            15,
+            16
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            14,
+            15,
+            16
+          ],
+          "summary": "비상발전기실 #2 스프링클러 노즐 고장·소화수 분출 및 제2제어실(SCA) 지하 방사선감시기 침투로 원자로건물 격리(Box-up) 발생·복구 경과"
+        }
+      ],
+      "limitation": "본 보고서에는 별도 INES 등급 평가 절이 없으며, 격리 해제 시각이 사건 요약(07:33)과 2.나절(09:21:35)에 상이하게 기술되고, 3.라절 번호가 p.7과 p.8에 중복 표기되며, 붙임 1(SOE, p.12~13)은 스캔 이미지 형태임."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "파손된 스프링클러 노즐은 1981년 월성 1호기 건설 당시 설치되어 24년이 경과한 노후 설비로, 고소 부위이고 사건 당시(오전 2시경) 주위 작업이 없어 외부 충격 가능성은 없으며 노후화로 인한 Fusible Link 이탈로 추정되었다. 1개월 주기 외관점검(주기-기-002 부록 1, 2005.10.06 수행) 및 1년 주기 작동·기능점검(부록 2, 2005.04.25~26 수행)은 모두 판정기준을 만족했으나 노후 파손을 예방하지 못했다. 또한 비상발전기실 #2→#1→제2제어실(SCA) 방화문 하단 틈새와 SCA 1층 바닥 신호선 관통부의 소화수 침투 경로가 특별안전계통(그룹 2) 패널까지 노출되어 있었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.가~나절, 붙임 3~5",
+          "printed_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "summary": "1981년 설치(24년 경과) 노후 스프링클러 Fusible Link 이탈 및 방화문 하단 틈새·바닥 신호선 관통부 침수 경로 확인"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "월성 1·2호기가 소화펌프와 루프 배관을 공유하는 설비 구성 때문에 1호기 스프링클러 오작동 시 소화수펌프 기동 압력동요로 02:07 월성 2호기 터빈빌딩 7층(El. 120m) Deluge valve 클레퍼가 순간 개방되며 2호기 주제어실에 먼저 화재경보(CI 1246 Fire in Plant)가 발생했고, 2호기 현장점검 후 02:15 1호기에 통보되면서 1호기 운전원 대응이 지연되었다. 1호기 주제어실 경보 미발생 원인은 비상발전기실 스프링클러 모관 압력스위치 내부 부품 고착(3년 주기 검교정, 2003.07.28 수행·차기 2006.07.27)이었으며, 해당 압력스위치에 예비경보기능(Trouble alarm)이 미설치되어 사전 감지되지 못했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "2.나절, 3.다절",
+          "printed_pages": [
+            5,
+            7
+          ],
+          "pdf_pages": [
+            5,
+            7
+          ],
+          "summary": "1·2호기 공유 소화배관 압력동요로 2호기 오경보 발생, 1호기 압력스위치 고착 및 예비경보(Trouble alarm) 미설치로 대응 지연"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F04",
+      "summary": "월성 1호기 원자로건물 격리 시 비정상 운전절차(발 1-5-301 AOP 68400)를 따르도록 되어 있으나 운전원은 방사선감시회로 오작동임을 감안해 운전절차서(발 1-5-083) '5.4.2.2 뜻하지 않게 잘못 운전된 경우의 복구'에 따라 복구했다. KINS 검토 결과 ① 두 절차서 모두에 격리 후 복구 절차가 중복 기술되어 운전원 혼동 우려가 있고, ② 두 절차서 모두 고압력·고방사능 이외의 고장(오신호)에 의한 격리 시 적용 기준이 불분명하게 기술되어 개선이 필요한 것으로 평가되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.라절(운전원 조치 사항 평가), 5장",
+          "printed_pages": [
+            8,
+            9,
+            10
+          ],
+          "pdf_pages": [
+            8,
+            9,
+            10
+          ],
+          "summary": "원자로건물 격리 복구 절차서(발 1-5-301 AOP 68400, 발 1-5-083) 중복 기술 및 오신호 격리 적용 기준 불명확성 확인"
+        }
+      ],
+      "limitation": "본문 절 번호 '3.라.'가 p.7(기기 건전성 점검 결과)과 p.8(운전원 조치 사항 평가)에 중복 표기됨."
+    },
+    {
+      "id": "GEMINI-F05",
+      "summary": "원자로건물 격리 신호는 원자로 정지 신호와 별개여서 원자로 정지나 출력 변동 없이 정상 출력(91.5%/637 MWe)을 유지했고, 격리밸브 40개 정상 작동 및 방사성물질 외부 누출·피폭이 없었다. 운전원은 운영기술지침서(3.3.2.6 비상전원공급계통)에 따라 #2 비상발전기 침수 확인 후 04:52 #1 비상발전기 부하시험을 적절히 수행했고, 사업자는 방사선감시기 P·Q 채널 예비품 교체 및 교정/기능시험, 제2정지계통(G, H, J) 정상 확인, #2 비상발전기·제어패널(52900-PL1468) 건조·절연저항·논리/부하시험(월0-52900-EPS-O/H-Q)으로 건전성을 복구했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1장, 3.라절(기기 건전성·운전원 조치), 4장, 6장",
+          "printed_pages": [
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "summary": "필수안전기능 및 출력 정상 유지, 운영기술지침서 3.3.2.6 준수(#1 비상발전기 시험), 침수 기기 교체·성능시험 건전성 확인 및 방사선 무영향"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F06",
+      "summary": "사건 후 사업자는 방화문에 소화수 유입 방지턱(물막이)을 설치했으나 KINS는 비상발전기실과 제2제어실의 소화수 영향을 근본적으로 배제할 대책이 추가로 필요하다고 평가했다. KINS는 2005.12.30까지 ① 월성 1호기: 노후 스프링클러 헤드 점검·정비(교체 포함) 강화 및 파손 헤드 상세 손상원인 분석, 비상발전기실 화재경보 기능 검토·보완, 오신호 격리 시 운전절차 검토·개선, ② 월성 1~4호기: 비상발전기실 #1/#2 간 및 제2제어실 간 소화수 유입 근본 방지대책 수립(2~4호기 적용성 검토), ③ 국내 전 원전: 소화계통 작동 시 인접계통 영향 가능성 점검 이행계획 제출을 요구했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.마절, 5~6장",
+          "printed_pages": [
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "summary": "사업자 물막이 설치 외 근본 침수방지·노후 헤드 정비교체·경보보완·절차개선·전 원전 인접계통 점검('05.12.30 계획 제출) 요구"
+        }
+      ],
+      "limitation": "5장 개선 및 보완요구사항은 보고서 발행일('05.11.10) 기준 '05.12.30 이행계획 제출 예정 상태."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-031-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "스프링클러 1개월·1년 주기점검 및 압력스위치 3년 검교정이 기존 절차대로 수행되었으며, 사건 발생 과정에서 개인의 표준 미준수를 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "사건 후 운전원의 운영기술지침서 3.3.2.6 준수는 WP4(P)로 별도 평가함."
+    },
+    {
+      "review_key": "ROOT-031-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 특정 작업자나 운전원의 업무수행 책임 결여가 사건을 유발했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "월성 2호기 경보 발생 후 1호기 통보(02:15) 및 현장 대응이 이루어졌으며 협업 실패를 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "비상발전기실과 특별안전계통(제2정지계통·원자로건물 격리계통)이 집중된 제2제어실(SCA)이 인접해 있음에도, 방화문 하단 틈새 및 SCA 1층 바닥 신호선 관통부를 통한 소화수 침투(내부침수) 위험을 사전에 차단하지 못한 방호 인식 미흡이 간접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2장, 3.가절, 붙임 2~4",
+          "printed_pages": [
+            3,
+            4,
+            5,
+            6,
+            14,
+            15,
+            16
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            14,
+            15,
+            16
+          ],
+          "summary": "비상발전기실 #2 스프링클러 노즐 고장·소화수 분출 및 제2제어실(SCA) 지하 방사선감시기 침투로 원자로건물 격리(Box-up) 발생·복구 경과"
+        },
+        {
+          "section": "3.가~나절, 붙임 3~5",
+          "printed_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "summary": "1981년 설치(24년 경과) 노후 스프링클러 Fusible Link 이탈 및 방화문 하단 틈새·바닥 신호선 관통부 침수 경로 확인"
+        },
+        {
+          "section": "3.마절, 5~6장",
+          "printed_pages": [
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "summary": "사업자 물막이 설치 외 근본 침수방지·노후 헤드 정비교체·경보보완·절차개선·전 원전 인접계통 점검('05.12.30 계획 제출) 요구"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 국내 전 원전 대상으로 소화계통 작동 시 인접계통 영향 가능성 점검을 요구함."
+    },
+    {
+      "review_key": "ROOT-031-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 불확실한 상태에서 작업이나 운전을 강행했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 특정 잘못된 가정에 도전하지 못해 사건이 발생했다는 직접 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안일함 자체를 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "월성 2호기 경보 발생 후 2호기 현장점검 및 1호기 통보(02:15)가 이루어졌으며, 대응 지연은 1호기 압력스위치 고착 및 공유 배관 특성에 기인했다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 인적 의사소통 실패 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 근거 전달·설명 부족을 지적하는 내용이 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고대상 사건 보고 및 KINS 현장조사(11.7~11.9) 협조가 투명하게 이루어졌다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 인력·예산·장비 등 자원 부족이 사건의 원인으로 작용했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "사건 당시(오전 2시경) 해당 구역 및 주위에서 수행 중인 작업이 없었으며 현장 감독 실패 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직·설비·절차 변경 과정의 변화관리 실패가 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직·담당자 간 역할·책임·권한 혼선을 지적하는 직접 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 지속적 자체진단 체계 결여를 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 프로세스 결여가 사건을 유발했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 운전원이나 관리자의 비보수적 의사결정이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 책임 회피나 권한 충돌이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 과거 유사사건 교훈 미반영을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 정기 자체 진단 체계 결함을 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 외부 기관 벤치마킹 누락이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 운전원·정비원의 교육훈련 또는 자격 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "1981년 설치(24년 경과) 노후 스프링클러 노즐의 파손 위험, 비상발전기실 압력스위치 내부 고착(예비경보 미설치), 방화문 하단 틈새·SCA 바닥 신호선 관통부의 소화수 침투 경로, 그리고 원자로건물 격리 복구 절차서 중복·불명확성이 사건 발생 전까지 식별되지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가~나절, 붙임 3~5",
+          "printed_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "summary": "1981년 설치(24년 경과) 노후 스프링클러 Fusible Link 이탈 및 방화문 하단 틈새·바닥 신호선 관통부 침수 경로 확인"
+        },
+        {
+          "section": "2.나절, 3.다절",
+          "printed_pages": [
+            5,
+            7
+          ],
+          "pdf_pages": [
+            5,
+            7
+          ],
+          "summary": "1·2호기 공유 소화배관 압력동요로 2호기 오경보 발생, 1호기 압력스위치 고착 및 예비경보(Trouble alarm) 미설치로 대응 지연"
+        },
+        {
+          "section": "3.라절(운전원 조치 사항 평가), 5장",
+          "printed_pages": [
+            8,
+            9,
+            10
+          ],
+          "pdf_pages": [
+            8,
+            9,
+            10
+          ],
+          "summary": "원자로건물 격리 복구 절차서(발 1-5-301 AOP 68400, 발 1-5-083) 중복 기술 및 오신호 격리 적용 기준 불명확성 확인"
+        }
+      ],
+      "counterevidence_or_limitation": "1개월·1년 주기점검 및 3년 검교정 자체는 절차대로 수행되었으나 해당 잠재 결함을 탐지하지 못함."
+    },
+    {
+      "review_key": "ROOT-031-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "소화계통 작동 시 분출된 소화수가 비상발전기실 #2→#1→제2제어실(SCA) 특별안전계통 패널로 침투할 수 있는 인접계통 영향(내부침수)과 1·2호기 공유 소화설비의 경보 미발생 위험에 대한 사전 기술평가가 미흡했으며, KINS가 파손 스프링클러 헤드의 상세 손상원인 분석을 추가 요구했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가~나절, 붙임 3~5",
+          "printed_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "summary": "1981년 설치(24년 경과) 노후 스프링클러 Fusible Link 이탈 및 방화문 하단 틈새·바닥 신호선 관통부 침수 경로 확인"
+        },
+        {
+          "section": "2.나절, 3.다절",
+          "printed_pages": [
+            5,
+            7
+          ],
+          "pdf_pages": [
+            5,
+            7
+          ],
+          "summary": "1·2호기 공유 소화배관 압력동요로 2호기 오경보 발생, 1호기 압력스위치 고착 및 예비경보(Trouble alarm) 미설치로 대응 지연"
+        },
+        {
+          "section": "3.마절, 5~6장",
+          "printed_pages": [
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "summary": "사업자 물막이 설치 외 근본 침수방지·노후 헤드 정비교체·경보보완·절차개선·전 원전 인접계통 점검('05.12.30 계획 제출) 요구"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 5장에서 파손 헤드 상세 원인분석 및 전 원전 인접계통 영향 점검을 명시 요구함)."
+    },
+    {
+      "review_key": "ROOT-031-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "사건 후 사업자가 방화문에 소화수 유입 방지턱을 설치했으나, KINS는 비상발전기실과 제2제어실의 소화수 영향을 근본적으로 배제할 대책 수립과 노후 헤드 정비·교체 강화, 경보 보완, 절차 개선 및 전 원전 점검('05.12.30 계획 제출)이 추가로 필요하다고 평가했다.",
+      "fact_ids": [
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.마절, 5~6장",
+          "printed_pages": [
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "summary": "사업자 물막이 설치 외 근본 침수방지·노후 헤드 정비교체·경보보완·절차개선·전 원전 인접계통 점검('05.12.30 계획 제출) 요구"
+        }
+      ],
+      "counterevidence_or_limitation": "침수 기기(방사선감시기 P·Q 채널, #2 비상발전기) 교체·성능복구 조치 자체는 적절히 완료됨."
+    },
+    {
+      "review_key": "ROOT-031-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "1981년 월성 1호기 건설 당시 설치되어 24년이 경과한 스프링클러 노즐이 노후화로 파손될 때까지 경년열화 추적 및 선제적 교체 방안이 미흡해 KINS가 노후 스프링클러 헤드 점검 및 교체 포함 정비 강화 방안을 요구했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가~나절, 붙임 3~5",
+          "printed_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "summary": "1981년 설치(24년 경과) 노후 스프링클러 Fusible Link 이탈 및 방화문 하단 틈새·바닥 신호선 관통부 침수 경로 확인"
+        },
+        {
+          "section": "3.마절, 5~6장",
+          "printed_pages": [
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "summary": "사업자 물막이 설치 외 근본 침수방지·노후 헤드 정비교체·경보보완·절차개선·전 원전 인접계통 점검('05.12.30 계획 제출) 요구"
+        }
+      ],
+      "counterevidence_or_limitation": "개별 노즐 경년열화 이력 데이터는 보고서에 상세 미수록."
+    },
+    {
+      "review_key": "ROOT-031-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-031-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "1개월 육안점검(주기-기-002 부록 1)·1년 기능점검(부록 2) 및 압력스위치 3년 주기 검교정이 수행되었으나, 24년 경과 노후 스프링클러 헤드의 선제 교체·예방정비 관리와 비상발전기실 압력스위치 내부 고착을 사전 탐지할 정비관리가 미흡해 오작동 및 화재경보 미발생으로 이어졌다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가~나절, 붙임 3~5",
+          "printed_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "summary": "1981년 설치(24년 경과) 노후 스프링클러 Fusible Link 이탈 및 방화문 하단 틈새·바닥 신호선 관통부 침수 경로 확인"
+        },
+        {
+          "section": "2.나절, 3.다절",
+          "printed_pages": [
+            5,
+            7
+          ],
+          "pdf_pages": [
+            5,
+            7
+          ],
+          "summary": "1·2호기 공유 소화배관 압력동요로 2호기 오경보 발생, 1호기 압력스위치 고착 및 예비경보(Trouble alarm) 미설치로 대응 지연"
+        },
+        {
+          "section": "3.마절, 5~6장",
+          "printed_pages": [
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "summary": "사업자 물막이 설치 외 근본 침수방지·노후 헤드 정비교체·경보보완·절차개선·전 원전 인접계통 점검('05.12.30 계획 제출) 요구"
+        }
+      ],
+      "counterevidence_or_limitation": "정기 점검·검교정 주기 자체는 준수되었으나 노후·고착 결함 예방에는 한계가 있었음."
+    },
+    {
+      "review_key": "ROOT-031-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "24년 노후 스프링클러 노즐의 Fusible Link 이탈, 비상발전기실 #2→#1→제2제어실(SCA) 방화문 하단 틈새 및 SCA 1층 바닥 신호선 관통부를 통한 특별안전계통 지하 패널 침수 경로(물리적 방호 취약), 1·2호기 공유 소화배관 압력동요로 인한 2호기 오경보 및 1호기 압력스위치 고착·예비경보(Trouble alarm) 미설치가 사건과 대응 지연의 직접 원인이 되었다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2장, 3.가절, 붙임 2~4",
+          "printed_pages": [
+            3,
+            4,
+            5,
+            6,
+            14,
+            15,
+            16
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            14,
+            15,
+            16
+          ],
+          "summary": "비상발전기실 #2 스프링클러 노즐 고장·소화수 분출 및 제2제어실(SCA) 지하 방사선감시기 침투로 원자로건물 격리(Box-up) 발생·복구 경과"
+        },
+        {
+          "section": "3.가~나절, 붙임 3~5",
+          "printed_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "pdf_pages": [
+            5,
+            6,
+            15,
+            16,
+            17
+          ],
+          "summary": "1981년 설치(24년 경과) 노후 스프링클러 Fusible Link 이탈 및 방화문 하단 틈새·바닥 신호선 관통부 침수 경로 확인"
+        },
+        {
+          "section": "2.나절, 3.다절",
+          "printed_pages": [
+            5,
+            7
+          ],
+          "pdf_pages": [
+            5,
+            7
+          ],
+          "summary": "1·2호기 공유 소화배관 압력동요로 2호기 오경보 발생, 1호기 압력스위치 고착 및 예비경보(Trouble alarm) 미설치로 대응 지연"
+        },
+        {
+          "section": "3.마절, 5~6장",
+          "printed_pages": [
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "summary": "사업자 물막이 설치 외 근본 침수방지·노후 헤드 정비교체·경보보완·절차개선·전 원전 인접계통 점검('05.12.30 계획 제출) 요구"
+        }
+      ],
+      "counterevidence_or_limitation": "원자로건물 격리밸브 40개 및 제2정지계통(G, H, J) 자체는 정상 기능을 유지함."
+    },
+    {
+      "review_key": "ROOT-031-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원자로건물 격리 후 복구 절차가 비정상 운전절차(발 1-5-301 AOP 68400)와 운전절차서(발 1-5-083) 양쪽에 중복 기술되어 운전원 혼동 우려가 있고, 두 절차서 모두 고압력·고방사능 이외의 고장(오신호)에 의한 원자로건물 격리 시 적용 기준이 불분명하게 기술되어 KINS가 개선을 요구했다.",
+      "fact_ids": [
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.라절(운전원 조치 사항 평가), 5장",
+          "printed_pages": [
+            8,
+            9,
+            10
+          ],
+          "pdf_pages": [
+            8,
+            9,
+            10
+          ],
+          "summary": "원자로건물 격리 복구 절차서(발 1-5-301 AOP 68400, 발 1-5-083) 중복 기술 및 오신호 격리 적용 기준 불명확성 확인"
+        }
+      ],
+      "counterevidence_or_limitation": "운전원은 발 1-5-083 5.4.2.2에 따라 복구를 완료했으나 절차서 자체의 중복·불명확성이 지적됨."
+    },
+    {
+      "review_key": "ROOT-031-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "사건 발생 후 운전원이 운영기술지침서(3.3.2.6 비상전원공급계통)에 따라 #2 비상발전기 침수 확인 직후 04:52 #1 비상발전기 부하시험을 적절히 수행했고, 방사선감시기 P·Q 채널 교체 및 #2 비상발전기 정비절차서(월0-52900-EPS-O/H-Q) 점검·성능시험을 통해 발전소 안전기능을 유지한 긍정·방어 요소(P)로 평가한다.",
+      "fact_ids": [
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1장, 3.라절(기기 건전성·운전원 조치), 4장, 6장",
+          "printed_pages": [
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "summary": "필수안전기능 및 출력 정상 유지, 운영기술지침서 3.3.2.6 준수(#1 비상발전기 시험), 침수 기기 교체·성능시험 건전성 확인 및 방사선 무영향"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.라절 및 4장에서 운영기술지침서 조치 및 기기 복구 적절성을 명시)."
+    }
+  ],
+  "limitations": [
+    "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않음.",
+    "원자로건물 격리 해제 시각이 사건 요약(07:33)과 2.나절(09:21:35)에 상이하게 기술되어 있고, 절 번호 '3.라.'가 p.7과 p.8에 중복 표기되며, 붙임 1(SOE, p.12~13)은 스캔 이미지 형태임.",
+    "5장 개선 및 보완요구사항은 보고서 발행일('05.11.10) 기준 '05.12.30 이행계획 제출 예정 상태임.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
