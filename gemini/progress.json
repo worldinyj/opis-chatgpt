@@ -5,17 +5,17 @@
   "branch": "main",
   "total_cases": 38,
   "summary": {
-    "analysis_completed_count": 19,
-    "github_stored_count": 19,
+    "analysis_completed_count": 22,
+    "github_stored_count": 22,
     "exported_pending_upload_count": 0,
-    "not_started_count": 19,
+    "not_started_count": 16,
     "blocked_count": 0
   },
   "next_case": {
-    "queue_id": "ROOT-004",
-    "event_id": "240319W3",
-    "event_year": 2024,
-    "drive_filename_hint": "2024-03-19_월성 3호기 13.8kV  등급4전원 BUB  모선 화재 및  전원상실에 의한 원자로 정지.pdf"
+    "queue_id": "ROOT-022",
+    "event_id": "130414KR4",
+    "event_year": 2013,
+    "drive_filename_hint": "2013-04-14_고리 4호기 증기발생기 이물질 신호 점검을 위한 수동 정지 및 냉각 중 부적.pdf"
   },
   "updated_at": "2026-11-26",
   "cases": [
@@ -93,14 +93,15 @@
       "queue_id": "ROOT-004",
       "event_id": "240319W3",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "FAIL",
       "artifact_path": "gemini/cases/2024/240319W3/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
-      "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "zip_filename": "GEMINI_ROOT-004_240319W3_v1.zip",
+      "github_commit_sha": "450e86f71d102cee2f6ec5bd7a75c2dd32ada856",
+      "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+      "blocker": "PDF hash and physical page count could not be verified. Submitter also reports that appendices 14–16 were not directly read. Some review attribute printed-page references are absent from the linked fact ledger entries: {'DM3': [68, 69]}. Original files preserved.",
+      "updated_at": "2026-11-26",
+      "integration_status": "HOLD"
     },
     {
       "queue_id": "ROOT-006",
@@ -246,14 +247,15 @@
       "queue_id": "ROOT-016",
       "event_id": "160227HB1",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "FAIL",
       "artifact_path": "gemini/cases/2016/160227HB1/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
-      "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "zip_filename": "GEMINI_ROOT-016_160227HB1_v1 (1).zip",
+      "github_commit_sha": "450e86f71d102cee2f6ec5bd7a75c2dd32ada856",
+      "source_verification": "BINARY_HASH_VERIFIED",
+      "blocker": "CSV rationale differs from JSON by role prefix in 40/40 rows. CSV source omits section/page information in 23 rows with JSON source references. Original files preserved.",
+      "updated_at": "2026-11-26",
+      "integration_status": "HOLD"
     },
     {
       "queue_id": "ROOT-017",
@@ -315,14 +317,15 @@
       "queue_id": "ROOT-021",
       "event_id": "140228Y2",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "FAIL",
       "artifact_path": "gemini/cases/2014/140228Y2/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
-      "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "zip_filename": "GEMINI_ROOT-021_140228Y2_v1.zip",
+      "github_commit_sha": "450e86f71d102cee2f6ec5bd7a75c2dd32ada856",
+      "source_verification": "BINARY_HASH_VERIFIED",
+      "blocker": "CSV rationale differs from JSON by role prefix in 40/40 rows. CSV source omits section/page information in 21 rows with JSON source references. Original files preserved.",
+      "updated_at": "2026-11-26",
+      "integration_status": "HOLD"
     },
     {
       "queue_id": "ROOT-022",
