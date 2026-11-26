@@ -1,0 +1,728 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-035",
+  "event_id": "990323Y2",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "1999-03-23_증기덤프밸브 동작불량에 의한 증기발생기 수위제어 실패로 원자로정지.pdf",
+    "report_number": "1402-99-02",
+    "report_date": "1999-03",
+    "sha256": "13d80baa4e31bb0bea57852824c684ae244783e43b5176dac64feba698f95407",
+    "pdf_page_count": 1,
+    "reading_scope": "원본 PDF 전 1쪽(스캔 이미지, 텍스트 레이어 0자)을 150dpi PNG로 변환해 전체 문안·INES 등급(1등급)·Watchlist 코드를 시각 정밀 판독 완료. 로컬 바이너리 SHA-256·파일 크기(905,688 bytes)·페이지 수(1쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 원본 보고서(1402-99-02)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "1999.03.23 23:51 영광 2호기(원자로출력 14%, 전기출력 0 MWe)가 주발전기 고장 정지 후 기동과정에서 잉여 증기를 복수기로 덤프하던 중, 복수기 덤프밸브 그룹 1의 3개 중 1개 밸브가 압력균형밸브(Pilot Valve) 작동불량으로 열리지 않아 원자로–터빈 출력 편차가 커지며 덤프밸브 그룹 2 밸브 6개가 개방되었다. 증기 과다 방출로 SG 압력 저하·swelling 수위 급상승에 따른 터빈정지 및 급수차단신호가 발생했고, 주급수차단밸브 압력잠김(Pressure Locking)으로 개방이 지연되어 결국 SG 저-저 수위로 원자로가 자동정지되었다. 주요 안전변수는 정상범위 내 유지되었고 3.24 02:38 임계·3.25 05:14 계통병입되었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "복수기 덤프밸브 Pilot Valve 작동불량·주급수차단밸브 압력잠김으로 SG 저-저 수위 원자로 자동정지 및 복구"
+        }
+      ],
+      "limitation": "본 자료는 1쪽 분량의 OPIS 사건 요약본으로 보고서 발행일 및 상세 시간대별 SOE·세부 조사근거가 미수록되어 있음."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "요약본은 하드웨어 결함 외에 ① 운전원의 상황 예측 미흡 및 설비 특성·기능 이해 부족, ② 덤프밸브의 동작불량을 사전에 인지하고도 조치가 미흡했던 점, ③ 주급수 조절밸브가 낮은 개도에서 예민한 동작특성을 갖고 있어 원자로 출력 15% 정도에서 터빈을 기동하는 것이 가장 적합하다는 운전경험을 적절히 반영하지 못하고 운전한 점을 문제점으로 명시했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "덤프밸브 동작불량 사전 인지 후 미조치, 상황 예측·설비 이해 부족 및 15% 터빈기동 운전경험 미반영"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "INES 등급평가 과정에서 '종사자의 절차서 준수 불이행에 의한 안전문화 결여'를 적용하여 등급을 상향 조정해 최종 1등급으로 판정되었다. 후속조치로 복수기 증기덤프밸브 분해점검, 저출력 운전 시 과도상태 방지를 위한 기동운전절차서 개정, 증기발생기 수위제어계통의 Digital Control System 변경이 수행되었다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "절차서 준수 불이행에 의한 '안전문화 결여'로 INES 1등급 상향 및 덤프밸브 점검·절차서 개정·DCS 변경"
+        }
+      ],
+      "limitation": "없음"
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-035-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원문 요약에 INES 등급평가 과정에서 '종사자의 절차서 준수 불이행에 의한 안전문화 결여'를 적용해 등급을 1등급으로 상향 판정한 사실이 직접 명시되어 있다.",
+      "fact_ids": [
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "절차서 준수 불이행에 의한 '안전문화 결여'로 INES 1등급 상향 및 덤프밸브 점검·절차서 개정·DCS 변경"
+        }
+      ],
+      "counterevidence_or_limitation": "구체적으로 미준수한 절차서 조항 번호는 1쪽 요약본에 미기재."
+    },
+    {
+      "review_key": "ROOT-035-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "운전원이 복수기 덤프밸브의 동작불량을 사전에 인지하고도 적절한 조치를 취하지 않았고, 저출력 기동 중 상황 예측 미흡으로 SG 저-저 수위 원자로 정지에 이르렀다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "덤프밸브 동작불량 사전 인지 후 미조치, 상황 예측·설비 이해 부족 및 15% 터빈기동 운전경험 미반영"
+        }
+      ],
+      "counterevidence_or_limitation": "없음."
+    },
+    {
+      "review_key": "ROOT-035-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "복수기 덤프밸브 동작불량을 사전에 인지하고도 조치 없이 저출력 기동을 진행했고, 원문에 '종사자의 절차서 준수 불이행에 의한 안전문화 결여'로 등급 상향 판정된 안전 특수성 인식 부족이 확인된다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "덤프밸브 동작불량 사전 인지 후 미조치, 상황 예측·설비 이해 부족 및 15% 터빈기동 운전경험 미반영"
+        },
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "절차서 준수 불이행에 의한 '안전문화 결여'로 INES 1등급 상향 및 덤프밸브 점검·절차서 개정·DCS 변경"
+        }
+      ],
+      "counterevidence_or_limitation": "없음."
+    },
+    {
+      "review_key": "ROOT-035-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "복수기 덤프밸브 동작불량을 사전에 인지하고 있었음에도 이를 해소·조치하지 않은 불확실한 설비 상태에서 저출력 기동을 계속해 과도상태를 초래했다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "덤프밸브 동작불량 사전 인지 후 미조치, 상황 예측·설비 이해 부족 및 15% 터빈기동 운전경험 미반영"
+        }
+      ],
+      "counterevidence_or_limitation": "없음."
+    },
+    {
+      "review_key": "ROOT-035-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "덤프밸브 동작불량을 사전에 인지하고도 조치하지 않았으며, 주급수 조절밸브 저개도 예민 특성을 고려한 15% 출력 터빈기동 운전경험을 반영하지 않고 14%에서 기동을 진행한 비보수적 의사결정이 정지로 이어졌다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "복수기 덤프밸브 Pilot Valve 작동불량·주급수차단밸브 압력잠김으로 SG 저-저 수위 원자로 자동정지 및 복구"
+        },
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "덤프밸브 동작불량 사전 인지 후 미조치, 상황 예측·설비 이해 부족 및 15% 터빈기동 운전경험 미반영"
+        }
+      ],
+      "counterevidence_or_limitation": "없음."
+    },
+    {
+      "review_key": "ROOT-035-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원문에서 주급수 조절밸브가 낮은 개도에서 예민한 동작특성을 갖고 있어 원자로 출력 15% 정도에서 터빈을 기동하는 것이 가장 적합하다는 운전경험을 적절히 반영하지 못하고 운전한 점이 직접 지적되었다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "덤프밸브 동작불량 사전 인지 후 미조치, 상황 예측·설비 이해 부족 및 15% 터빈기동 운전경험 미반영"
+        }
+      ],
+      "counterevidence_or_limitation": "없음."
+    },
+    {
+      "review_key": "ROOT-035-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원문에서 운전원의 상황 예측 미흡과 설비의 특성·기능에 대한 이해 부족이 핵심 문제점으로 직접 지적되었다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "덤프밸브 동작불량 사전 인지 후 미조치, 상황 예측·설비 이해 부족 및 15% 터빈기동 운전경험 미반영"
+        }
+      ],
+      "counterevidence_or_limitation": "없음."
+    },
+    {
+      "review_key": "ROOT-035-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "복수기 덤프밸브 동작불량을 사전에 인지했음에도 출력 편차 확대·그룹 2 개방·SG swelling으로 이어지는 과도상태 파급영향을 사전에 정확히 예측·평가하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "복수기 덤프밸브 Pilot Valve 작동불량·주급수차단밸브 압력잠김으로 SG 저-저 수위 원자로 자동정지 및 복구"
+        },
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "덤프밸브 동작불량 사전 인지 후 미조치, 상황 예측·설비 이해 부족 및 15% 터빈기동 운전경험 미반영"
+        }
+      ],
+      "counterevidence_or_limitation": "없음."
+    },
+    {
+      "review_key": "ROOT-035-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-035-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "사전에 인지된 복수기 덤프밸브 동작불량에 대한 기동 전 정비·분해점검이 이루어지지 않아 사건 후 분해점검을 수행하게 된 정비 작업관리 미흡이 간접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "덤프밸브 동작불량 사전 인지 후 미조치, 상황 예측·설비 이해 부족 및 15% 터빈기동 운전경험 미반영"
+        },
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "절차서 준수 불이행에 의한 '안전문화 결여'로 INES 1등급 상향 및 덤프밸브 점검·절차서 개정·DCS 변경"
+        }
+      ],
+      "counterevidence_or_limitation": "사전 결함 보고·작업오더 상세 이력은 1쪽 요약본에 미수록."
+    },
+    {
+      "review_key": "ROOT-035-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "복수기 덤프밸브 그룹 1의 압력균형밸브(Pilot Valve) 작동불량, 주급수차단밸브의 압력잠김(Pressure Locking)에 의한 개방 지연, 그리고 저개도에서 예민한 기존 SG 수위제어계통(사건 후 DCS 변경) 취약성이 원자로 정지를 직접 초래했다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "복수기 덤프밸브 Pilot Valve 작동불량·주급수차단밸브 압력잠김으로 SG 저-저 수위 원자로 자동정지 및 복구"
+        },
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "절차서 준수 불이행에 의한 '안전문화 결여'로 INES 1등급 상향 및 덤프밸브 점검·절차서 개정·DCS 변경"
+        }
+      ],
+      "counterevidence_or_limitation": "주요 안전변수는 정상범위 내 유지됨."
+    },
+    {
+      "review_key": "ROOT-035-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "후속조치로 기동운전절차서를 저출력 운전 시 과도상태를 방지할 수 있도록 개정한 점에서 기존 기동운전절차서의 미비가 확인된다.",
+      "fact_ids": [
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "절차서 준수 불이행에 의한 '안전문화 결여'로 INES 1등급 상향 및 덤프밸브 점검·절차서 개정·DCS 변경"
+        }
+      ],
+      "counterevidence_or_limitation": "개정 전후 세부 조항 비교는 1쪽 요약본에 미수록."
+    },
+    {
+      "review_key": "ROOT-035-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    }
+  ],
+  "limitations": [
+    "본 자료는 1쪽 분량의 OPIS 사건 요약본(이미지 스캔본)으로 보고서 발행일, 상세 SOE 및 세부 미준수 절차 조항이 미수록되어 있음.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
