@@ -1,0 +1,1252 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-026",
+  "event_id": "110621K2",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2011-06-21_원자로냉각재펌프_정지로인한_원자로_자동정지.pdf",
+    "report_number": "2011-08호(110621K2)",
+    "report_date": "2011-08-30",
+    "sha256": "e8bedf1d68e47eed941e90e950f30e971de1a1014664d3096801337f4d1d7355",
+    "pdf_page_count": 11,
+    "reading_scope": "원본 PDF 전 11쪽 텍스트 추출(8,375자) 및 본문 전체(표지, 조사자 명단, 사건 요약, 1장 개요~7장 결론, PDF 1~11쪽) 정밀 판독 완료. 로컬 바이너리 SHA-256 해시·파일 크기(364,751 bytes)·페이지 수(11쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 KINS 원본 조사보고서(2011-08호)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "2011.06.21.(화) 10:30:21 고리 2호기 전출력 정상운전(운전모드 1, 100%, 685 MWe) 중 신울산↔고리N/P #2 345 kV 송전선로 A상(25번 철탑)에 이물질(비닐) 부착으로 순간지락이 발생해 스위치야드 차단기 7271·7272 A상이 개방 후 약 1초 뒤 자동 재투입되었다. 이 과도 중 소내전력계통 상불평형으로 6.9 kV 비안전모선 대형전동기 상불평형보호계전기(46 Relay)가 순시 동작해 주급수펌프 B, 순환수펌프 A/B 및 원자로냉각재펌프(RCP) A 차단기가 개방되었고(10:30:22.266), 10:30:22.343 원자로가 자동정지(P-7 + RCP BKR OPEN) 및 터빈정지되었다. 터빈정지 후 자동 개방되어야 할 발전기차단기(GCB)가 개방되지 않아 10:32:45.722 운전원이 수동 개방했다(교과부고시 제2009-37 별표 3.1 보고 및 재가동 승인 대상).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~3.가절",
+          "printed_pages": [
+            1,
+            2,
+            3
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5
+          ],
+          "summary": "345 kV 송전선로 비닐 순간지락 시 6.9 kV 상불평형보호계전기 순시 동작으로 RCP A 정지·원자로 자동정지 및 GCB 미개방(수동 개방)"
+        }
+      ],
+      "limitation": "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않음."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "RCP 상불평형보호계전기(46 Relay)는 2010년 10월 보호계전기 교체 설계변경 시 설정된 순시요소(20%, 0.01초)로 동작했으나, 산업계 요건(IEEE C37.96-2000)과 제작사(GE) 매뉴얼 권고사항에는 순시요소가 없었다. KINS는 이 설계변경 오류의 원인으로 ① 설계자(KEPCO E&C)의 제3자 검토 미흡 및 운전경험반영 미흡, ② 원전운영자의 설계변경서 검토능력 미흡, 프로세스 표준화 관리 및 조직 간 소통 미흡, ③ 비안전관련기기라 하더라도 원자로정지 유발 기기(SPV)를 체계적으로 관리해야 하나 설계변경·정비품질확보·원인분석·운전경험반영 프로그램과 SPV 관리프로그램이 연계되지 않고 일반 기기와 동일하게 관리된 점을 지목했다. 최근 2주기 설계변경 60건 전수검사에서도 설계자-운영자 간 도면검토 미흡에 의한 도면표기 오류 1건이 추가 확인되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        }
+      ],
+      "limitation": "3.나절 소제목에 '사건 발생 원인 원인' 오기가 있음."
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "2010년 10월 기존 GLBS에서 GCB로 설계변경하면서 발전기 보호용 역전력계전기(32MB) 설정치를 설계사(KEPCO E&C) 계산오류로 산업계 요건(IEEE C37.102-1995: 정격용량의 0.5~3%)을 크게 초과한 7%(80 MW)로 과다 설정해, 사건 당시 실제 동작측정치(13.7 MW, 설정치의 16.5%)에서 GCB가 자동 개방되지 않고 운전원이 수동 개방해야 했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.다절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "GCB 설계변경 시 역전력계전기(32MB) 설계자 계산오류(7%, 80 MW 과다설정)로 자동개방 실패"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F04",
+      "summary": "본 사건은 2008.08.08 고리 1호기 '송전선로 낙뢰로 인한 소내전력계통 과도발생에 따른 원자로정지 및 안전주입 발생' 사건(RCP B 상불평형보호계전기 시지연 시간을 원설계자 GE 권고값보다 낮게 설정해 동작)과 동일한 유형(설계변경에 따른 보호계전기 설정치 문제)의 재발 사건으로, KINS는 2008년 고리 1호기 사건 교훈반영 미흡 및 원전운영자의 운전경험반영체계 보완 필요성을 명시했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 3.바절",
+          "printed_pages": [
+            1,
+            4,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            6,
+            9
+          ],
+          "summary": "2008.08.08 고리 1호기 유사 사건(RCP 상불평형보호계전기 설정치 오류) 교훈반영 미흡"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F05",
+      "summary": "순환수펌프 3대 중 2대 정지로 복수기덤프 허용신호(C-9) 상실 및 주급수 차단(Tavg < 295℃)이 발생했으나 주증기관 압력방출밸브(PORV)와 보조급수펌프가 설계대로 정상 작동해 2차측 열제거 기능을 유지했고, 운전원은 GCB 수동 개방, 비상-0·보조-0.1 수행(TAVG LO LO ALERT 289.4℃ 대응 주증기 격리밸브 차단 및 불필요 기기 수동 정지), 그리고 RCP A 차단기 정비 시 운영기술지침서 LCO 3.4.5 적용(10:35~13:00)을 적절히 수행했다. 소내외 방사선 방출 및 종사자 피폭은 없었다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.다~라절, 4장, 7장",
+          "printed_pages": [
+            1,
+            5,
+            7,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            7,
+            9,
+            11
+          ],
+          "summary": "안전계통 정상 작동, 운전원 비상-0·보조-0.1·LCO 3.4.5 적절 수행 및 방사선 영향 없음 확인"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F06",
+      "summary": "원전운영자는 재가동 전 단기조치(비안전모선 6.9 kV 계전기 7개 순시기능 제거, 6.9 kV 계전기 개체시험·설정치 확인 및 B계열·안전모선 유사계전기 점검, 역전력계전기 IEEE C37.102-1995 기준 재설정·성능시험, 최근 2주기 설계변경 60건[Q-class·SPV 20건 포함] 전수검사)를 완료했다. 중장기 후속대책으로 ① 전 원전 설계변경 보호계전기 설정값 재검토·확인, ② 발전정지 관련 설계변경의 사내 전문가 등 제3자 검토 의무화·설계변경 요건 상세화 등 품질보증 절차 준수 근본대책, ③ 전 원전 발전기 역전력계전기·주요 설계변경 점검, ④ 계통·기기별 분류·검색·반영 운전경험자료 관리 체계 구축을 수립했고, KINS는 보완요구사항 없음 및 재가동 문제 없음으로 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.라~마절, 5~6장",
+          "printed_pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "summary": "재가동 전 조치 완료, 중장기 후속대책 수립(제3자 검토 의무화·OE 관리체계 등) 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "limitation": "중장기 후속대책은 보고서 발행일('11.08.30) 기준 세부계획에 따라 이행 진행 중 상태."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-026-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "산업계 요건(IEEE C37.96-2000, IEEE C37.102-1995) 및 원설계자(GE) 매뉴얼 권고사항에 없는 보호계전기 순시요소(20%, 0.01초)와 과다 역전력계전기 설정치(7%)가 설계변경에 반영되었고, 중장기대책으로 품질보증 절차 준수를 위한 근본대책 수립이 도출되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        },
+        {
+          "section": "3.다절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "GCB 설계변경 시 역전력계전기(32MB) 설계자 계산오류(7%, 80 MW 과다설정)로 자동개방 실패"
+        },
+        {
+          "section": "3.라~마절, 5~6장",
+          "printed_pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "summary": "재가동 전 조치 완료, 중장기 후속대책 수립(제3자 검토 의무화·OE 관리체계 등) 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 발생 후 운전원의 비상운전절차서 및 LCO 3.4.5 준수는 적절했음."
+    },
+    {
+      "review_key": "ROOT-026-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "설계자(KEPCO E&C)의 제3자 검토 미흡, 역전력계전기 설정치 계산오류(7% vs 0.5~3%) 및 도면표기 오류와 원전운영자의 설계변경서·도면 검토능력 미흡이 사건의 직접 원인이 되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        },
+        {
+          "section": "3.다절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "GCB 설계변경 시 역전력계전기(32MB) 설계자 계산오류(7%, 80 MW 과다설정)로 자동개방 실패"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 설계사 재계산 및 최근 2주기 설계변경 60건 전수점검을 완료함."
+    },
+    {
+      "review_key": "ROOT-026-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "KINS가 지적한 프로세스 표준화 관리 및 조직 간 소통 미흡과, 설계변경·정비품질확보·원인분석·운전경험반영 프로그램이 SPV 관리프로그램과 연계되지 못한 부서 간 협업 단절이 사건에 간접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        }
+      ],
+      "counterevidence_or_limitation": "구체적 부서 간 협업 실패 경위는 원문에 상세 미수록."
+    },
+    {
+      "review_key": "ROOT-026-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "비안전관련기기라 하더라도 원자로정지를 직접 유발할 수 있는 발전정지 유발기기(SPV: RCP 보호계전기, GCB 역전력계전기)를 일반 기기와 동일하게 관리해 산업계 요건과 원천설계자 권고를 벗어난 설계변경을 그대로 적용한 안전 특수성 인식 부족이 드러났다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        },
+        {
+          "section": "3.다절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "GCB 설계변경 시 역전력계전기(32MB) 설계자 계산오류(7%, 80 MW 과다설정)로 자동개방 실패"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 최근 2주기 설계변경 60건 중 Q-class 및 SPV 20건의 설정치 변경내역을 집중 재검토함."
+    },
+    {
+      "review_key": "ROOT-026-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2010.10 보호계전기 교체 및 GLBS→GCB 설계변경 시 원천설계자(GE) 매뉴얼 및 산업계 요건(IEEE C37.96-2000·IEEE C37.102-1995)과의 불일치와 송전선로 순간지락 시 민감 동작 불확실성을 확인·검증하지 않았다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        },
+        {
+          "section": "3.다절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "GCB 설계변경 시 역전력계전기(32MB) 설계자 계산오류(7%, 80 MW 과다설정)로 자동개방 실패"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 6.9 kV 비안전모선 B계열 및 안전모선 A·B계열 유사계전기 설정치를 점검해 정상 확인함."
+    },
+    {
+      "review_key": "ROOT-026-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "설계사(KEPCO E&C)가 제출한 상불평형보호계전기 순시요소(20%, 0.01초)와 역전력계전기 7%(80 MW) 설정치가 적정할 것이라 가정하고 원천설계자 권고·산업계 기준 대비 독립 검증·도전 없이 승인·적용했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        },
+        {
+          "section": "3.다절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "GCB 설계변경 시 역전력계전기(32MB) 설계자 계산오류(7%, 80 MW 과다설정)로 자동개방 실패"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.나~다절에서 설계자 계산·설계오류 및 운영자 검토 미흡을 직접 원인으로 명시)."
+    },
+    {
+      "review_key": "ROOT-026-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안일함 자체를 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS가 3.나절에서 '조직 간 소통 미흡'과 '설계자와 원전운영자 간 도면검토 미흡'을 사건 기여원인으로 직접 명시했다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.나절 원문 명시)."
+    },
+    {
+      "review_key": "ROOT-026-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 근거 설명 부족을 지적하는 내용이 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고대상 사건 보고 및 KINS 현장조사·전수검사 결과 공유가 투명하게 이루어졌다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 인력·예산·장비 등 자원 부족이 사건의 원인으로 작용했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "설계사(KEPCO E&C)의 보호계전기 설정치 계산오류·순시요소 설계오류 및 도면표기 오류에 대한 원전운영자의 검토·감독이 미흡해 중장기대책으로 사내 전문가 등 제3자 검토 의무화가 수립되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        },
+        {
+          "section": "3.다절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "GCB 설계변경 시 역전력계전기(32MB) 설계자 계산오류(7%, 80 MW 과다설정)로 자동개방 실패"
+        },
+        {
+          "section": "3.라~마절, 5~6장",
+          "printed_pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "summary": "재가동 전 조치 완료, 중장기 후속대책 수립(제3자 검토 의무화·OE 관리체계 등) 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 최근 2주기 설계변경 60건 전수검사를 통해 추가 안전성 저해요소 없음을 확인함."
+    },
+    {
+      "review_key": "ROOT-026-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS가 사건 요약·본문·결론에서 핵심 원인으로 명시한 바와 같이, 2010.10 보호계전기 교체 및 GLBS→GCB 설계변경 과정에서 SPV 관리 연계·제3자 검토·원천설계자 권고 확인·프로세스 표준화 등 변화관리 체계가 미흡해 2건의 보호계전기 설정 오류(46 Relay, 32MB)와 도면표기 오류(1건)를 유발했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        },
+        {
+          "section": "3.다절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "GCB 설계변경 시 역전력계전기(32MB) 설계자 계산오류(7%, 80 MW 과다설정)로 자동개방 실패"
+        },
+        {
+          "section": "3.라~마절, 5~6장",
+          "printed_pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "summary": "재가동 전 조치 완료, 중장기 후속대책 수립(제3자 검토 의무화·OE 관리체계 등) 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS가 설계변경 관리 미흡을 핵심 근본원인으로 명시)."
+    },
+    {
+      "review_key": "ROOT-026-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직·담당자 간 역할·책임·권한 혼선을 지적하는 직접 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 지속적 자체진단 체계 결여를 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "발전정지 유발기기(SPV)의 설계변경 시 사내 전문가 등 제3자 독립 검토, 원천설계자 권고 및 산업계 기준 확인, SPV 관리프로그램 연계를 거치는 표준화된 의사결정 프로세스가 결여되어 오류 설정치가 그대로 적용되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        },
+        {
+          "section": "3.다절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "GCB 설계변경 시 역전력계전기(32MB) 설계자 계산오류(7%, 80 MW 과다설정)로 자동개방 실패"
+        },
+        {
+          "section": "3.라~마절, 5~6장",
+          "printed_pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "summary": "재가동 전 조치 완료, 중장기 후속대책 수립(제3자 검토 의무화·OE 관리체계 등) 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "중장기대책으로 설계 시부터 설치·인수·독립검토까지 SPV 변경내역 철저 검토 프로세스 구축을 수립함."
+    },
+    {
+      "review_key": "ROOT-026-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "비안전관련기기라는 이유로 원자로정지를 유발할 수 있는 SPV 기기(RCP 보호계전기, GCB 역전력계전기)를 일반 기기와 동일하게 취급하고 산업계 요건·제작사 권고 확인 없이 설계변경을 승인한 비보수적 관리 판단이 간접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        },
+        {
+          "section": "3.다절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "GCB 설계변경 시 역전력계전기(32MB) 설계자 계산오류(7%, 80 MW 과다설정)로 자동개방 실패"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 6.9 kV 비안전모선 계전기 7개 순시기능을 제거하고 전 원전 설정값 재검토를 추진함."
+    },
+    {
+      "review_key": "ROOT-026-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 책임 회피나 지연이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2008.08.08 동일 본부 인접 호기인 고리 1호기에서 송전선로 낙뢰 과도 중 RCP B 상불평형보호계전기 설정치(시지연 시간 GE 권고값 미만 설정) 문제로 원자로정지·안전주입이 발생한 명확한 유사 운전경험이 있었음에도, 고리 2호기 2010.10 보호계전기 교체 설계변경에 교훈이 전혀 반영되지 못했다(KINS 핵심 원인 명시).",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        },
+        {
+          "section": "사건 요약, 3.나절, 3.바절",
+          "printed_pages": [
+            1,
+            4,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            6,
+            9
+          ],
+          "summary": "2008.08.08 고리 1호기 유사 사건(RCP 상불평형보호계전기 설정치 오류) 교훈반영 미흡"
+        },
+        {
+          "section": "3.라~마절, 5~6장",
+          "printed_pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "summary": "재가동 전 조치 완료, 중장기 후속대책 수립(제3자 검토 의무화·OE 관리체계 등) 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "중장기대책으로 계통·기기별 운전경험자료 분류·검색·반영 시스템 구축을 수립함."
+    },
+    {
+      "review_key": "ROOT-026-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 정기 자체 진단 체계 결함을 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 외부 기관 벤치마킹 누락이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "KINS가 3.나절에서 '원전운영자의 설계변경서 검토능력 미흡'을 직접 지적한 점은 설계변경 검토 담당자의 기술 역량·전문성 보강 필요성을 시사한다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        }
+      ],
+      "counterevidence_or_limitation": "구체적 담당자 교육 이력은 원문에 상세 미수록."
+    },
+    {
+      "review_key": "ROOT-026-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2010.10 보호계전기 교체 및 GCB 설계변경 과정에서 46 Relay 불필요 순시요소(20%, 0.01초), 32MB 역전력계전기 설정치 과다(7%, 80 MW), 그리고 최근 2주기 설계변경 60건 중 도면표기 오류 1건을 설계·검토·인수 단계에서 식별하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        },
+        {
+          "section": "3.다절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "GCB 설계변경 시 역전력계전기(32MB) 설계자 계산오류(7%, 80 MW 과다설정)로 자동개방 실패"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 최근 2주기 설계변경 60건 전수검사 및 6.9 kV 계전기 개체시험으로 결함을 식별·해소함."
+    },
+    {
+      "review_key": "ROOT-026-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "사건 발생 후 원인규명·설계변경 전수점검 및 역전력계전기 재계산 평가가 적절히 수행되었다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 사건 전 인지된 결함의 시정조치를 지연·방치했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 설비·오류 경향분석 체계 결함이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-026-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "비안전관련기기라 하더라도 원자로정지를 유발하는 SPV 기기를 설계변경·정비품질확보·원인분석·운전경험반영 프로그램과 연계해 체계적으로 관리하지 못하고 일반 기기와 동일하게 관리한 점이 간접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 SPV 20건 포함 최근 2주기 설계변경 60건 전수점검을 완료함."
+    },
+    {
+      "review_key": "ROOT-026-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "설계사(KEPCO E&C)가 산업계 요건(IEEE C37.96-2000·IEEE C37.102-1995)과 제작사(GE) 권고를 벗어나 상불평형보호계전기 순시요소(20%, 0.01초)를 과민 설계하고 역전력계전기(32MB)를 7%(80 MW)로 과다 설계해 송전선로 순간지락 시 원자로정지 및 GCB 자동개방 실패를 직접 초래했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        },
+        {
+          "section": "3.다절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "GCB 설계변경 시 역전력계전기(32MB) 설계자 계산오류(7%, 80 MW 과다설정)로 자동개방 실패"
+        }
+      ],
+      "counterevidence_or_limitation": "원자로정지 후 PORV·보조급수펌프 등 안전계통 열제거 설계 자체는 정상 작동함."
+    },
+    {
+      "review_key": "ROOT-026-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "설계변경 프로세스 표준화 관리 미흡, 발전정지 관련 설계변경 시 요건 상세화 및 제3자 검토 의무화 절차 미비와 최근 2주기 설계변경 중 도면표기 오류 1건이 확인되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.나절, 7장",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "summary": "46 Relay 순시요소(20%, 0.01초) 설계오류, 설계자 3자검토·운영자 검토능력·조직소통·SPV 연계 미흡 및 도면오류 1건 확인"
+        },
+        {
+          "section": "3.라~마절, 5~6장",
+          "printed_pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "summary": "재가동 전 조치 완료, 중장기 후속대책 수립(제3자 검토 의무화·OE 관리체계 등) 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "중장기대책으로 설계변경 프로세스 개선 및 절차서 개정을 이행 중임."
+    },
+    {
+      "review_key": "ROOT-026-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원자로 자동정지 후 운전원이 미개방된 GCB를 수동 개방하고, 비상-0·보조-0.1(TAVG LO LO ALERT 289.4℃ 대응 주증기 격리밸브 차단 및 불필요 기기 수동정지)과 RCP A 차단기 정비 시 운영기술지침서 LCO 3.4.5 적용(10:35~13:00)을 절차대로 적절히 수행하여 긍정·방어 요소(P)로 평가한다.",
+      "fact_ids": [
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.다~라절, 4장, 7장",
+          "printed_pages": [
+            1,
+            5,
+            7,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            7,
+            9,
+            11
+          ],
+          "summary": "안전계통 정상 작동, 운전원 비상-0·보조-0.1·LCO 3.4.5 적절 수행 및 방사선 영향 없음 확인"
+        }
+      ],
+      "counterevidence_or_limitation": "사전 설계변경 단계의 산업계 요건·품질보증 절차 미흡은 PA1·LA5·WP3에서 별도 평가함."
+    }
+  ],
+  "limitations": [
+    "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않음.",
+    "본문 3.나절 소제목에 '사건 발생 원인 원인' 오기가 있으며, 2.나절 시각 표기(10:30:22:240 등)에 소수점 대신 콜론이 사용됨.",
+    "중장기 후속대책(전 원전 보호계전기·역전력계전기 재검토, 제3자 검토 의무화, 운전경험자료 관리체계 구축 등)은 보고서 발행일('11.08.30) 기준 이행 진행 중 상태임.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
