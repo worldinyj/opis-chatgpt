@@ -1,0 +1,19 @@
+{
+  "queue_id": "ROOT-020",
+  "event_id": "140617W4",
+  "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
+  "original_review_blob": "9eb09141006eb8484ba393a83f247da3ac56889d",
+  "original_csv_blob": "364ada1dee3b19a863d290bb815f0ec727a1bfcb",
+  "original_review_sha256": "fb81bc1d719cc95df18765d6a203193516c96e2a8d5cb6ac99b357c3b4e9b693",
+  "original_csv_sha256": "fe102cd3e9a1ca746d99c6c4a305c8f826783fa5559513d846d6c5d71573a386",
+  "derived_csv_sha256": "f7be67b013c2a4e02747a6595ad5e9404d3641fe2835e49c196dd8eeb3a100cc",
+  "transform_version": "B04-1.0",
+  "original_model": "GEMINI",
+  "derived_by": "CHATGPT_FORMAT_ONLY",
+  "row_diff": "row_diff.json",
+  "validation_report": "validation.json",
+  "authorization_reference": null,
+  "approved": false,
+  "can_ship": false,
+  "eligible_for_three_ai_consensus": false
+}
