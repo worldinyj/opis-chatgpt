@@ -76,7 +76,7 @@
         "claude/cases/2024/240908HB6/v1/validation.md"
       ],
       "zip": "CLAUDE_ROOT-002_240908HB6_v1.zip",
-      "github_commit_sha": null,
+      "github_commit_sha": "bd7b5ba6fffb690e865a802df0413c4071c52627",
       "checks": "Original validation.md; intake in INTAKE_STATUS.json.",
       "constraints": [
         "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
@@ -84,8 +84,7 @@
         "물리 페이지 미확인(인쇄쪽 최대 40, 기대 42)",
         "붙임 도면·이미지 미확인, 비공개 구간 미복원"
       ],
-      "integration_status": "HOLD",
-      "commit_reference_note": "Commit recorded in follow-up."
+      "integration_status": "HOLD"
     }
   ],
   "next_queue_id": "ROOT-003",
