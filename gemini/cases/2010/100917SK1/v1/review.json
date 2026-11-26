@@ -1,0 +1,1927 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-028",
+  "event_id": "100917SK1",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2010-09-17_신고리 1호기시운전중 살수격리밸브의 비정상.pdf",
+    "report_number": "2010-11호(100917SK1)",
+    "report_date": "2010-10-15",
+    "sha256": "f80140a0395ac3332c13a9b6a5de254f97475cfd1de124b9cbf8a4b74afe73e4",
+    "pdf_page_count": 25,
+    "reading_scope": "원본 PDF 전 25쪽 텍스트 추출(19,575자) 및 본문 전체(표지, 조사자 명단, 사건 요약, 1~6장, 붙임 1~3, PDF 1~25쪽; 붙임 1 및 그림 2-1 도식 3쪽 포함) 정밀 판독 완료. 로컬 바이너리 SHA-256 해시·파일 크기(901,625 bytes)·페이지 수(25쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 KINS 원본 조사보고서(2010-11호)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "2010.09.17.(금) 14:17 신고리 1호기 시운전 중간정비(노외핵계측기 정비) 완료 후 재가동 가열운전(운전모드 4, 고온정지, RCS 압력 28 kg/cm²·온도 145℃, 정지냉각계통 운전 중) 상태에서 정지냉각열교환기 출구 격리밸브(CS-V033)가 절차서 오류로 개방되어 있던 중 원자로건물살수계통 격리밸브(CS-V035)가 비정상 개방되어 37분간(14:17~14:54) 원자로냉각재 423톤이 원자로건물 내부로 살수되었다. RCS 압력이 28→3.9 kg/cm²로 급감(최대 냉각률 약 110℃/hr로 제한치 55.6℃/hr 초과)해 14:18 비상운전절차(우선-02, 비상-02) 진입 및 RCP 정지, 14:20 원자로건물 고방사능 경보(CPIAS 작동), 14:35:26 안전주입 수동 작동(26분간 437톤 주입)·14:36:09 원자로건물 격리신호 수동 작동, 14:54 CS-V035 수동 닫음, 15:00 백색비상 발령(비상-02 진입 기준 대비 40분 지연, 18:00 해제)이 이루어졌다(교과부고시 제2009-37호 별표 3.2.가 및 ESF 동작 재가동 승인 대상).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2.나절, 4.라절, 붙임 3",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            9,
+            21,
+            22,
+            23
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            11,
+            23,
+            24,
+            25
+          ],
+          "summary": "CS-V035 비정상 개방으로 37분간 원자로냉각재 423톤 살수, 수동 안전주입(437톤) 및 백색비상 발령(40분 지연)"
+        }
+      ],
+      "limitation": "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않으며, 살수량 423톤(본문)·액체폐기물 이송 427톤(붙임 3 5-4)으로 수치가 병기됨."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "사건의 잠재 고장은 정지냉각 운전모드에서 정지냉각열교환기 출구 격리밸브(CS-V033)가 설계변경사항을 미반영한 절차서 오류로 개방된 상태로 유지된 데 있었으며(표준원전에 대한 잦은 설계변경 및 건설 중 많은 설계변경 대비 설계-운영 연계관리 부적절, 설계-절차서 불일치), 또한 9.16 최초 정지 중 작업계획(25건)에 포함되지 않았던 주기-5827(열적과부하보호장치 시험, 17개 밸브)이 정지 중 작업계획에 반영되지 않은 채 추가 수행되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3장 표 1, 4.나절, 붙임 2, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            16,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            18,
+            23
+          ],
+          "summary": "설계변경 미반영 절차서 오류(CS-V033 개방 유지) 및 정지 중 작업계획 미반영 주기-5827 시험 추가"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "9.16 11:20 4.16 kV 안전모선 A계열 휴전작업(꼬리표 미발행) 중 19:45 착수한 주기-5827 시험에서도 꼬리표 미발행·현장운전원 미동행 상태로 수행되었고, 23:00 시험 종료 시 보호계전기 Reset을 눌렀으나 모선 휴전으로 'MCC Trouble' 경보가 이미 떠 있어 Reset 적정성을 확인할 수 없었다. 23:20~23:40 전원 재가압 후 MCR 운전원 4명(발전팀장·원자로과장·터빈과장·전기과장)이 110여 개 영향 기기의 'Inoperable' 지시등을 동시 조작해 해소하는 과정에서, CS-V035는 Reset 미완료로 해소되지 않자 2회 이상 조작하다 'CLOSE' 대신 'OPEN' 버튼을 오조작해 밸브 열림신호가 제어기(PCS) 메모리에 저장되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F04",
+      "summary": "9.17 05:10 원자로건물 살수펌프 정상화 및 종합-3010(모드변경 점검) 단계 5.5 확인 시 'CS TRN A Inoperable' 경보가 미해소 상태였고 CS-V035 핸드스위치 'Inoperable' 지시가 점멸 중이었음에도 야간근무조와 오전근무조(08:00 교대) 모두 주의집중 소홀로 이를 인지하지 못한 채 09:35 운전모드 4로 진입했다(살수격리밸브 CS-V035 '운전불가능[Inoperable]' 상태에서의 모드 5→4 변경은 운영기술지침서 위반).",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "4.가절, 붙임 2",
+          "printed_pages": [
+            7,
+            18
+          ],
+          "pdf_pages": [
+            9,
+            20
+          ],
+          "summary": "CS TRN A Inoperable 경보·CS-V035 핸드스위치 점멸 미인지 채 모드 4 진입(운영기술지침서 위반)"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F05",
+      "summary": "9.17 11:00경 시험원이 '1E 480V MCC MC08A TROUBLE' 경보가 전일 수행한 주기-5827 시험과 관련됨을 확인했으나 MCR 운전원에게 알리거나 협의하지 않았고, 14:17 차단기실로 이동해 MCR 운전원 통보·통제(원인·영향 평가) 없이 임의로 MCC 08A 측 차단기 4개의 'RESET' 버튼을 조작했다. 그 순간 보호계전기가 Reset되며 CS-V035 구동전원이 공급되자 전날 제어기 메모리에 저장되어 있던 개방신호로 CS-V035가 즉시 개방되며 423톤 살수 사건이 발생했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F06",
+      "summary": "KINS는 본 사건의 근본 환경요인으로 '핵심인력 주도의 시운전 경험이 단절된 상태에서 신규직원·무경험자 위주로 시운전 인력을 최소화 및 조직 구성 지연(발전소 친숙화 부족, 운영준비 기간 부족)'을 지목했다. 또한 사건 대응에서도 ① 절차·교육훈련에 미고려된 비정상 상황으로 살수 부위 확인·차단에 37분이 소요되었고, ② 방사선비상 '백색비상'(비상-02 진입 시) 발령이 40분 지연되었으며, ③ 자동동보시스템 연락기관 누락 등 방재대응 미흡이 확인되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3장 표 1, 4.가~나절, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            23
+          ],
+          "summary": "시운전 경험 단절·신규직원 위주 조직 구성 지연, 살수 차단 37분 소요, 백색비상 발령 40분 지연 및 동보시스템 누락"
+        }
+      ],
+      "limitation": "방재대응분야 상세 내용은 별도 보고서 작성 예정으로 본 보고서에는 요약 수록."
+    },
+    {
+      "id": "GEMINI-F07",
+      "summary": "사건 발생 후 운전원의 수동 안전주입 작동·비상운전절차서(우선-02, 비상-02) 수행·원자로건물 격리 등 과도 대응은 전반적으로 적절했고, 핵연료(최대온도 약 171.5℃, 핵비등이탈 미도달)·RCS 취성파괴 방지(KEPIC 기준 만족)·RCP/정지냉각펌프 건전성·살수 영향 기기 제염 및 보호도장 18개소 보수·액체폐기물 처리(12회 배출, 법적 제한치 최대 0.5%)·작업자 피폭(살수 직접피폭 없음, 제염 최대 0.83 mSv ≤ 연간 50 mSv)·환경방사능 영향 없음 모두 적합으로 확인되었다. 또한 표준기행 운영-13에 따른 발전소원자력안전위원회(PNSC) 심의·의결도 적절했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 4.라~바절, 붙임 3",
+          "printed_pages": [
+            2,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22,
+            23
+          ],
+          "pdf_pages": [
+            4,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24,
+            25
+          ],
+          "summary": "과도 운전대응·핵연료/RCS/기기 건전성·제염·폐기물·피폭·환경영향 없음 및 PNSC 재가동 준비 적합 평가"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F08",
+      "summary": "원전운영자는 단기조치 50건(운전원/정비원 핸드스위치·PCS·통보절차·인적오류예방기법 교육, 선행호기 대비 설비개선 절차서 종합검토 및 정지냉각계통 절차서 개정, 신월성 1·2호기 운전인력 시운전 지원팀 추가 배치, 시험/정비 통제·발전운영팀 역할 강화, 유사 단일고장 누설 가능 밸브 SI-V669/668·SI-V170/180 꼬리표·자물쇠 조치)을 완료하고, 중장기조치 65건(설계변경 절차서 반영체계 개선, 시운전 조직·인력투입 계획, 설계관리·안전문화 자체평가·교육훈련, 비상통신·동보장치 개선, PCS 작동불능 시 밸브 열림신호 인지 방안·열동과부하계전기 타당성·단자함 인입구 하부전환, 살수 기기 붕산부식 종합관리)을 수립했다. KINS는 재가동 사전안전성확인 6개 분야(17개 항목) 적합 및 재가동 문제 없음으로 판단(중장기 16~18개 항목 주기 확인 및 추가 규제 시정조치 별도 요구 예정)했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 4.나~다절, 5~6장, 붙임 3",
+          "printed_pages": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24
+          ],
+          "summary": "단기조치 50건 완료, 중장기조치 65건 수립, 유사 단일고장 밸브 4개 조치 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "limitation": "중장기조치 65건 및 추가 규제 시정조치는 발행일('10.10.15) 기준 향후 이행·추적관리 예정 상태."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-028-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "살수격리밸브(CS-V035) '운전불가능(Inoperable)' 상태에서 운전모드 5→4로 변경해 운영기술지침서를 위반했고, 시험원의 MCR 통보·승인 없는 현장 기기(MCC 08A) 임의 Reset 조작, 휴전·시험 시 꼬리표 미발행 및 백색비상 발령 40분 지연 등 규정·절차 미준수가 복합 발생했다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04",
+        "GEMINI-F05",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        },
+        {
+          "section": "4.가절, 붙임 2",
+          "printed_pages": [
+            7,
+            18
+          ],
+          "pdf_pages": [
+            9,
+            20
+          ],
+          "summary": "CS TRN A Inoperable 경보·CS-V035 핸드스위치 점멸 미인지 채 모드 4 진입(운영기술지침서 위반)"
+        },
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        },
+        {
+          "section": "사건 요약, 3장 표 1, 4.가~나절, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            23
+          ],
+          "summary": "시운전 경험 단절·신규직원 위주 조직 구성 지연, 살수 차단 37분 소요, 백색비상 발령 40분 지연 및 동보시스템 누락"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 발생 후 수동 안전주입·비상운전절차서(우선-02, 비상-02) 수행 및 PNSC 심의 절차는 적절히 준수함."
+    },
+    {
+      "review_key": "ROOT-028-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "MCR 운전원 4인의 핸드스위치 동시조작 중 CS-V035 'OPEN' 오조작, 야간·오전근무조의 'CS TRN A Inoperable' 경보 및 핸드스위치 점멸 확인 소홀(운전원 기본임무 소홀), 시험원의 MCR 미통보·임의 현장 Reset 조작 등 구성원별 직무수행 결함이 사건을 직접 유발했다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        },
+        {
+          "section": "4.가절, 붙임 2",
+          "printed_pages": [
+            7,
+            18
+          ],
+          "pdf_pages": [
+            9,
+            20
+          ],
+          "summary": "CS TRN A Inoperable 경보·CS-V035 핸드스위치 점멸 미인지 채 모드 4 진입(운영기술지침서 위반)"
+        },
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        }
+      ],
+      "counterevidence_or_limitation": "시운전 조직 구성 지연·무경험 인력 위주 편성 및 설계-절차서 불일치 등 조직 환경요인이 복합 작용함."
+    },
+    {
+      "review_key": "ROOT-028-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "9.16 23:20 MCR 운전원 4인이 110여 개 기기를 동시 조작하면서 역할·확인 공조가 무너져 CS-V035 'OPEN' 오조작이 발생했고, 시험원-MCR 운전원 간 경보 확인(11:00) 및 현장 Reset(14:17) 협의·협업이 완전히 단절되었다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        },
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 발생 후 비상운전절차서 수행 및 제염·복구 협업은 적절히 수행됨."
+    },
+    {
+      "review_key": "ROOT-028-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "안전관련 원자로건물살수계통 격리밸브(CS-V035)의 'Inoperable' 경보와 핸드스위치 점멸이 남아 있는 상태에서 운전모드 4 진입을 강행(운영기술지침서 위반)하고, 시험원이 MCR 통제 없이 안전모선 MCC 차단기 Reset을 임의 조작한 안전 특수성 인식 부족이 드러났다.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "4.가절, 붙임 2",
+          "printed_pages": [
+            7,
+            18
+          ],
+          "pdf_pages": [
+            9,
+            20
+          ],
+          "summary": "CS TRN A Inoperable 경보·CS-V035 핸드스위치 점멸 미인지 채 모드 4 진입(운영기술지침서 위반)"
+        },
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        }
+      ],
+      "counterevidence_or_limitation": "단기조치로 가동원전 인적오류 저감화 방안의 시운전원전 적용 및 안전문화 자체평가 계획을 수립함."
+    },
+    {
+      "review_key": "ROOT-028-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "9.16 23:00 휴전 중 'MCC Trouble' 경보 중첩으로 Reset 적정성을 확인할 수 없었음에도 재가압 후 확인하지 않았고, 9.17 05:10·09:35 'CS TRN A Inoperable' 경보 미해소 및 11:00 'MC08A TROUBLE' 원인의 불확실성을 확인·협의하지 않은 채 모드 전환 및 현장 Reset을 수행했다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        },
+        {
+          "section": "4.가절, 붙임 2",
+          "printed_pages": [
+            7,
+            18
+          ],
+          "pdf_pages": [
+            9,
+            20
+          ],
+          "summary": "CS TRN A Inoperable 경보·CS-V035 핸드스위치 점멸 미인지 채 모드 4 진입(운영기술지침서 위반)"
+        },
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 유사 단일고장 누설 가능 밸브 4개(SI-V669/668, SI-V170/180)를 추가 점검해 꼬리표·자물쇠 조치함."
+    },
+    {
+      "review_key": "ROOT-028-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "시험원이 외관 휴즈·램프 점검만으로 이상 없다고 가정해 MCR 협의 없이 MCC 08A Reset을 눌렀고, 운전조도 Acknowledge 조작과 전일 작업 완료 보고만으로 CS-V035가 정상 복귀되었을 것이라 가정해 경보·핸드스위치 상태를 검증하지 않았다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        },
+        {
+          "section": "4.가절, 붙임 2",
+          "printed_pages": [
+            7,
+            18
+          ],
+          "pdf_pages": [
+            9,
+            20
+          ],
+          "summary": "CS TRN A Inoperable 경보·CS-V035 핸드스위치 점멸 미인지 채 모드 4 진입(운영기술지침서 위반)"
+        },
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 붙임 2에서 경보 미해소 확인 누락 및 MCR 통보 없는 임의 Reset을 직접 원인으로 명시)."
+    },
+    {
+      "review_key": "ROOT-028-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "4.16 kV 안전모선 휴전·주기-5827 시험 시 꼬리표 미발행·현장운전원 미동행, 그리고 다수 경보(110여 개 영향 기기) 발생 환경에서 'CS TRN A Inoperable' 미해소 상태를 간과한 안일함이 사건에 간접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        },
+        {
+          "section": "4.가절, 붙임 2",
+          "printed_pages": [
+            7,
+            18
+          ],
+          "pdf_pages": [
+            9,
+            20
+          ],
+          "summary": "CS TRN A Inoperable 경보·CS-V035 핸드스위치 점멸 미인지 채 모드 4 진입(운영기술지침서 위반)"
+        }
+      ],
+      "counterevidence_or_limitation": "단기조치로 시험/정비 관리·통제 강화 및 운전원 기본수칙 교육을 완료함."
+    },
+    {
+      "review_key": "ROOT-028-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "9.17 11:00 시험원이 전일 시험 관련 'MCC Trouble' 경보를 확인하고도 MCR 운전원에게 알리거나 협의하지 않았고, 14:17 현장 Reset 전에도 MCR 통보·보고를 누락했으며, 사건 중 자동동보시스템 연락기관 누락 등 비상통신 소통 미흡도 확인되었다.",
+      "fact_ids": [
+        "GEMINI-F05",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        },
+        {
+          "section": "사건 요약, 3장 표 1, 4.가~나절, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            23
+          ],
+          "summary": "시운전 경험 단절·신규직원 위주 조직 구성 지연, 살수 차단 37분 소요, 백색비상 발령 40분 지연 및 동보시스템 누락"
+        }
+      ],
+      "counterevidence_or_limitation": "단기조치로 주제어실 통보 등 작업 절차 교육을 실시하고 중장기대책으로 비상통신 회선 증설·동보장치 개선을 수립함."
+    },
+    {
+      "review_key": "ROOT-028-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 근거 전달·설명 부족을 지적하는 내용이 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고대상 사건 보고, 백색비상 발령·해제 및 KINS 현장조사 협조가 투명하게 이루어졌다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS가 핵심 근본원인으로 명시한 바와 같이, 핵심인력 주도의 시운전 경험이 단절된 상태에서 신규직원·무경험자 위주로 시운전 인력을 최소화하고 시운전 조직 구성을 지연해 발전소 친숙화와 운영준비 기간이 부족했다(단기 신월성 1·2호기 인력 추가 배치, 장기 시운전 조직·인력투입 계획 수립).",
+      "fact_ids": [
+        "GEMINI-F06",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3장 표 1, 4.가~나절, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            23
+          ],
+          "summary": "시운전 경험 단절·신규직원 위주 조직 구성 지연, 살수 차단 37분 소요, 백색비상 발령 40분 지연 및 동보시스템 누락"
+        },
+        {
+          "section": "사건 요약, 4.나~다절, 5~6장, 붙임 3",
+          "printed_pages": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24
+          ],
+          "summary": "단기조치 50건 완료, 중장기조치 65건 수립, 유사 단일고장 밸브 4개 조치 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3장 표 1·4.나절·붙임 3에서 시운전 조직·인력 취약과 구성 지연을 3대 근본원인 중 하나로 명시)."
+    },
+    {
+      "review_key": "ROOT-028-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "주기-5827 시험 시 현장운전원이 동행하지 않았고 시험원이 MCR 통제 없이 차단기실에서 임의로 MCC 08A Reset을 조작하는 것을 차단하지 못했으며, 발전운영팀의 시험/정비 통제·감독 기능이 미흡했다(단기조치: 시험/정비 관리·통제 강화 및 발전운영팀 역할 강화).",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F05",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        },
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        },
+        {
+          "section": "사건 요약, 4.나~다절, 5~6장, 붙임 3",
+          "printed_pages": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24
+          ],
+          "summary": "단기조치 50건 완료, 중장기조치 65건 수립, 유사 단일고장 밸브 4개 조치 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 4.다절 및 붙임 2에서 시험/정비 통제 미흡 및 MCR 통제 누락을 명시)."
+    },
+    {
+      "review_key": "ROOT-028-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "표준원전에 대한 잦은 설계변경(설계자) 및 건설 중 많은 설계변경(설계자·운영자)이 이루어졌음에도 설계변경사항을 운영절차서에 반영하는 설비-운영 연계 변화관리 체계가 부적절해 CS-V033 개방 유지 절차서 오류를 유발했다(장기대책: 설계변경사항 절차서 반영체계 개선).",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3장 표 1, 4.나절, 붙임 2, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            16,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            18,
+            23
+          ],
+          "summary": "설계변경 미반영 절차서 오류(CS-V033 개방 유지) 및 정지 중 작업계획 미반영 주기-5827 시험 추가"
+        },
+        {
+          "section": "사건 요약, 4.나~다절, 5~6장, 붙임 3",
+          "printed_pages": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24
+          ],
+          "summary": "단기조치 50건 완료, 중장기조치 65건 수립, 유사 단일고장 밸브 4개 조치 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3장 표 1 및 4.나절에서 설계·운영 연계관리 부적절을 3대 근본원인 중 하나로 명시)."
+    },
+    {
+      "review_key": "ROOT-028-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "시운전 조직 구성 지연 및 발전운영팀의 시험/정비 통제 역할 미흡(단기조치: 발전운영팀 역할 강화)으로 인해, 계획 외 추가 시험(주기-5827)과 시험원의 임의 현장조작에 대한 운전-시운전 간 통제 권한 경계가 불명확했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F05",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3장 표 1, 4.나절, 붙임 2, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            16,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            18,
+            23
+          ],
+          "summary": "설계변경 미반영 절차서 오류(CS-V033 개방 유지) 및 정지 중 작업계획 미반영 주기-5827 시험 추가"
+        },
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        },
+        {
+          "section": "사건 요약, 4.나~다절, 5~6장, 붙임 3",
+          "printed_pages": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24
+          ],
+          "summary": "단기조치 50건 완료, 중장기조치 65건 수립, 유사 단일고장 밸브 4개 조치 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "세부 조직별 R&R 문서 원문은 보고서에 미수록."
+    },
+    {
+      "review_key": "ROOT-028-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "가동원전에 시행 중인 인적오류 저감화 방안과 안전문화 자체평가 체계가 시운전 원전에 적용되지 못한 상태였으며, 사건 후 시운전원전 적용 및 안전문화 자체평가 추진 계획이 수립되었다.",
+      "fact_ids": [
+        "GEMINI-F06",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3장 표 1, 4.가~나절, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            23
+          ],
+          "summary": "시운전 경험 단절·신규직원 위주 조직 구성 지연, 살수 차단 37분 소요, 백색비상 발령 40분 지연 및 동보시스템 누락"
+        },
+        {
+          "section": "사건 요약, 4.나~다절, 5~6장, 붙임 3",
+          "printed_pages": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24
+          ],
+          "summary": "단기조치 50건 완료, 중장기조치 65건 수립, 유사 단일고장 밸브 4개 조치 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "기존 시운전 단계 자체진단 이력은 원문에 상세 미수록."
+    },
+    {
+      "review_key": "ROOT-028-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "최초 정지 중 작업계획(25건)에 없던 주기-5827 시험이 작업계획 반영 없이 추가되었고, 시험원의 현장 Reset 전 MCR 원인·영향 평가 및 운전원 통제 의사결정 프로세스가 완전히 생략되었으며, 백색비상 발령도 비상-02 진입 기준 대비 40분 지연되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F05",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3장 표 1, 4.나절, 붙임 2, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            16,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            18,
+            23
+          ],
+          "summary": "설계변경 미반영 절차서 오류(CS-V033 개방 유지) 및 정지 중 작업계획 미반영 주기-5827 시험 추가"
+        },
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        },
+        {
+          "section": "사건 요약, 3장 표 1, 4.가~나절, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            23
+          ],
+          "summary": "시운전 경험 단절·신규직원 위주 조직 구성 지연, 살수 차단 37분 소요, 백색비상 발령 40분 지연 및 동보시스템 누락"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 재가동 준비는 표준기행 운영-13에 따라 PNSC 심의·의결 프로세스를 적절히 준수함."
+    },
+    {
+      "review_key": "ROOT-028-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "CS-V035 'Inoperable' 경보가 미해소된 상태에서 운전모드 5→4 진입을 강행하고, 110여 개 영향 기기 경보를 4인이 동시 조작하며, 시험원이 원인·영향 평가 없이 안전모선 MCC 차단기 Reset을 임의 실행한 비보수적 판단이 423톤 살수를 초래했다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        },
+        {
+          "section": "4.가절, 붙임 2",
+          "printed_pages": [
+            7,
+            18
+          ],
+          "pdf_pages": [
+            9,
+            20
+          ],
+          "summary": "CS TRN A Inoperable 경보·CS-V035 핸드스위치 점멸 미인지 채 모드 4 진입(운영기술지침서 위반)"
+        },
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 발생 후 운전원의 수동 안전주입 작동 및 원자로건물 격리신호 수동 작동은 보수적·적절한 대응이었음."
+    },
+    {
+      "review_key": "ROOT-028-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 책임 회피나 권한 충돌이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS가 명시한 '핵심인력 주도의 시운전 경험 단절'과 선행 표준원전 대비 설비개선 사항의 절차서 미반영, 그리고 가동원전 인적오류 저감화 방안의 시운전원전 미적용 등 선행 운전·시운전 경험 환류가 실패했다(단기조치: 신월성 1·2호기 인력 지원·경험 전수 및 선행호기 대비 절차서 종합검토).",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F06",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3장 표 1, 4.나절, 붙임 2, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            16,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            18,
+            23
+          ],
+          "summary": "설계변경 미반영 절차서 오류(CS-V033 개방 유지) 및 정지 중 작업계획 미반영 주기-5827 시험 추가"
+        },
+        {
+          "section": "사건 요약, 3장 표 1, 4.가~나절, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            23
+          ],
+          "summary": "시운전 경험 단절·신규직원 위주 조직 구성 지연, 살수 차단 37분 소요, 백색비상 발령 40분 지연 및 동보시스템 누락"
+        },
+        {
+          "section": "사건 요약, 4.나~다절, 5~6장, 붙임 3",
+          "printed_pages": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24
+          ],
+          "summary": "단기조치 50건 완료, 중장기조치 65건 수립, 유사 단일고장 밸브 4개 조치 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3장 표 1·4.다절·붙임 3에서 시운전 경험 단절과 선행호기 대비 검토 필요성을 명시)."
+    },
+    {
+      "review_key": "ROOT-028-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "시운전 단계에서 설계-절차서 일치성 및 안전문화에 대한 자체진단이 미흡해 CS-V033 개방 유지 절차서 오류와 기본수칙 미준수가 누적되었고, 사건 후 전면 재검토 및 안전문화 자체평가 추진 계획이 수립되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3장 표 1, 4.나절, 붙임 2, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            16,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            18,
+            23
+          ],
+          "summary": "설계변경 미반영 절차서 오류(CS-V033 개방 유지) 및 정지 중 작업계획 미반영 주기-5827 시험 추가"
+        },
+        {
+          "section": "사건 요약, 4.나~다절, 5~6장, 붙임 3",
+          "printed_pages": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24
+          ],
+          "summary": "단기조치 50건 완료, 중장기조치 65건 수립, 유사 단일고장 밸브 4개 조치 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "기존 시운전 자체진단 이력은 원문에 상세 미수록."
+    },
+    {
+      "review_key": "ROOT-028-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 외부 기관 벤치마킹 누락이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "신규직원·무경험자 위주 시운전 인력 편성으로 발전소 친숙화 및 핸드스위치·PCS·통보절차 교육훈련이 부족했고, 살수격리밸브 오개방 비정상 상황에 대한 교육훈련 미고려로 누출부위 확인·차단에 37분이 소요되었다(단기 3종 교육 및 장기 시운전·방재 교육 강화).",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F06",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        },
+        {
+          "section": "사건 요약, 3장 표 1, 4.가~나절, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            23
+          ],
+          "summary": "시운전 경험 단절·신규직원 위주 조직 구성 지연, 살수 차단 37분 소요, 백색비상 발령 40분 지연 및 동보시스템 누락"
+        },
+        {
+          "section": "사건 요약, 4.나~다절, 5~6장, 붙임 3",
+          "printed_pages": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24
+          ],
+          "summary": "단기조치 50건 완료, 중장기조치 65건 수립, 유사 단일고장 밸브 4개 조치 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 4.가~다절 및 붙임 3에서 발전소 친숙화 부족과 교육훈련 미고려를 명시)."
+    },
+    {
+      "review_key": "ROOT-028-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "정지냉각 운전 중 CS-V033 개방 유지 절차서 오류, 9.16 23:00 보호계전기 Reset 미완료 및 23:20 CS-V035 'OPEN' 오조작(메모리 저장), 9.17 05:10·09:35 'CS TRN A Inoperable' 경보·핸드스위치 미해소 상태, 그리고 유사 단일고장 누설 가능 밸브 4개(SI-V669/668, SI-V170/180)를 사전에 식별하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3장 표 1, 4.나절, 붙임 2, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            16,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            18,
+            23
+          ],
+          "summary": "설계변경 미반영 절차서 오류(CS-V033 개방 유지) 및 정지 중 작업계획 미반영 주기-5827 시험 추가"
+        },
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        },
+        {
+          "section": "4.가절, 붙임 2",
+          "printed_pages": [
+            7,
+            18
+          ],
+          "pdf_pages": [
+            9,
+            20
+          ],
+          "summary": "CS TRN A Inoperable 경보·CS-V035 핸드스위치 점멸 미인지 채 모드 4 진입(운영기술지침서 위반)"
+        },
+        {
+          "section": "사건 요약, 4.나~다절, 5~6장, 붙임 3",
+          "printed_pages": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24
+          ],
+          "summary": "단기조치 50건 완료, 중장기조치 65건 수립, 유사 단일고장 밸브 4개 조치 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 단일고장 누설 가능성 평가를 통해 유사 밸브 4개를 식별하고 꼬리표·자물쇠 조치함."
+    },
+    {
+      "review_key": "ROOT-028-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "9.17 11:00 시험원이 '1E 480V MCC MC08A TROUBLE' 경보를 확인하고도 MCR과 원인·영향 평가를 수행하지 않은 채 임의 Reset을 실행했고, 사건 발생 후 비상-02 진입 시 백색비상 발령 조건 판단도 40분 지연되었다.",
+      "fact_ids": [
+        "GEMINI-F05",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        },
+        {
+          "section": "사건 요약, 3장 표 1, 4.가~나절, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            23
+          ],
+          "summary": "시운전 경험 단절·신규직원 위주 조직 구성 지연, 살수 차단 37분 소요, 백색비상 발령 40분 지연 및 동보시스템 누락"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 발생 후 RCS 압력·수위 급감에 대한 비상운전절차 진입 및 수동 안전주입 판단 자체는 신속·적절했음."
+    },
+    {
+      "review_key": "ROOT-028-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 사건 전 인지된 결함의 시정조치를 지연·방치했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 설비·오류 경향분석 체계 결함이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-028-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "정지 중 작업계획 미반영 시험(주기-5827) 추가, 휴전·시험 시 꼬리표 미발행·현장운전원 미동행, 4.16 kV 모선 휴전 중 Reset 확인 불가 조건에서의 시험 종료, MCR 4인 동시 핸드스위치 조작 및 시험원 임의 현장조작 등 전반적 작업관리·통제 결함이 사건을 직접 유발했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3장 표 1, 4.나절, 붙임 2, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            16,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            18,
+            23
+          ],
+          "summary": "설계변경 미반영 절차서 오류(CS-V033 개방 유지) 및 정지 중 작업계획 미반영 주기-5827 시험 추가"
+        },
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        },
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        }
+      ],
+      "counterevidence_or_limitation": "단기조치로 시험/정비 관리·통제 강화 및 발전운영팀 역할 강화를 완료함."
+    },
+    {
+      "review_key": "ROOT-028-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "PCS 작동불능(Reset 미완료) 상태에서 핸드스위치 'OPEN' 신호가 제어기 메모리에 저장되어 추후 Reset 시 밸브가 즉시 개방되는 제어설계 취약성(중장기: 인지 방안 개발), 휴전 중 'MCC Trouble' 경보 중첩으로 Reset 확인 불가 구조, 단일고장 시 RCS 누설 가능 밸브 4개 존재 및 자동동보시스템 연락기관 누락 등 설비·HSI 설계 취약성이 직접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F05",
+        "GEMINI-F06",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        },
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        },
+        {
+          "section": "사건 요약, 3장 표 1, 4.가~나절, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            23
+          ],
+          "summary": "시운전 경험 단절·신규직원 위주 조직 구성 지연, 살수 차단 37분 소요, 백색비상 발령 40분 지연 및 동보시스템 누락"
+        },
+        {
+          "section": "사건 요약, 4.나~다절, 5~6장, 붙임 3",
+          "printed_pages": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24
+          ],
+          "summary": "단기조치 50건 완료, 중장기조치 65건 수립, 유사 단일고장 밸브 4개 조치 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "과도 중 핵연료·RCS 취성파괴 방지(KEPIC 기준) 및 원자로건물 격리 설계 여유도는 모두 건전함을 확인함."
+    },
+    {
+      "review_key": "ROOT-028-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "설계변경사항을 미반영해 정지냉각 운전 중 CS-V033을 개방 유지하도록 기술된 정지냉각계통 운전절차서 오류(설계-절차서 불일치)가 잠재 고장을 만들었고, 살수격리밸브 비정상 개방 대응 절차가 미고려되어 누출부위 확인·차단에 37분이 소요되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F06",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3장 표 1, 4.나절, 붙임 2, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            16,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            18,
+            23
+          ],
+          "summary": "설계변경 미반영 절차서 오류(CS-V033 개방 유지) 및 정지 중 작업계획 미반영 주기-5827 시험 추가"
+        },
+        {
+          "section": "사건 요약, 3장 표 1, 4.가~나절, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            23
+          ],
+          "summary": "시운전 경험 단절·신규직원 위주 조직 구성 지연, 살수 차단 37분 소요, 백색비상 발령 40분 지연 및 동보시스템 누락"
+        },
+        {
+          "section": "사건 요약, 4.나~다절, 5~6장, 붙임 3",
+          "printed_pages": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24
+          ],
+          "summary": "단기조치 50건 완료, 중장기조치 65건 수립, 유사 단일고장 밸브 4개 조치 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "단기조치로 선행호기 대비 설비개선 절차서 종합검토 및 정지냉각계통 운전절차서 개정을 완료함."
+    },
+    {
+      "review_key": "ROOT-028-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "살수격리밸브(CS-V035) '운전불가능' 상태에서의 모드 5→4 전환(운영기술지침서 위반), 휴전·시험 시 꼬리표 미발행, 시험원의 MCR 통보 없는 임의 현장조작 및 백색비상 발령 40분 지연 등 규정·절차 미준수가 직접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04",
+        "GEMINI-F05",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "summary": "꼬리표 미발행·현장운전원 미동행, 휴전 중 Reset 확인 불가 및 MCR 4인 동시조작 중 CS-V035 'OPEN' 오조작(메모리 저장)"
+        },
+        {
+          "section": "4.가절, 붙임 2",
+          "printed_pages": [
+            7,
+            18
+          ],
+          "pdf_pages": [
+            9,
+            20
+          ],
+          "summary": "CS TRN A Inoperable 경보·CS-V035 핸드스위치 점멸 미인지 채 모드 4 진입(운영기술지침서 위반)"
+        },
+        {
+          "section": "3장 표 1, 4.나절, 붙임 2",
+          "printed_pages": [
+            6,
+            8,
+            19
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            21
+          ],
+          "summary": "시험원의 MCC Trouble 경보 미협의 및 MCR 통보·통제 없는 현장 MCC 08A 임의 Reset 조작으로 CS-V035 개방"
+        },
+        {
+          "section": "사건 요약, 3장 표 1, 4.가~나절, 붙임 3",
+          "printed_pages": [
+            1,
+            6,
+            7,
+            8,
+            21
+          ],
+          "pdf_pages": [
+            3,
+            8,
+            9,
+            10,
+            23
+          ],
+          "summary": "시운전 경험 단절·신규직원 위주 조직 구성 지연, 살수 차단 37분 소요, 백색비상 발령 40분 지연 및 동보시스템 누락"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 발생 후 운전원의 수동 안전주입·비상운전절차서(우선-02, 비상-02) 수행 및 PNSC 재가동 절차는 적절히 준수함(GEMINI-F07)."
+    }
+  ],
+  "limitations": [
+    "본 보고서는 재가동 사전안전성확인 검토결과 보고서로 별도 INES 등급 평가 절이 미수록이며, 추가 규제 시정조치 및 방재대응 상세는 별도 보고서 예정으로 기술됨.",
+    "PDF p.16~17(붙임 1) 및 p.22(그림 2-1)는 도식 이미지로 수록되어 있으며, 본문 살수량(423톤)·붙임 3 5-4 액체폐기물 이송량(427톤)·5-1 안전주입량(437톤)이 병기됨.",
+    "중장기조치 65건 및 재가동 후 기기 성능·액체폐기물 배출 확인 16~18개 항목은 발행일('10.10.15) 기준 향후 이행·추적관리 예정 상태임.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
