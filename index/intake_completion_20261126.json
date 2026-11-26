@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-26",
+  "audited_commit": "55ef92dfb27023d3381d83a91d417e32662c8dfb",
+  "method": "GitHub recursive tree and event index join on intake event ID; file presence only, not content validity or rendering.",
+  "scope": "DRIVE_ROOT_ALL_PDF_ONLY",
+  "root_sources": 37,
+  "registered": 37,
+  "unique_event_ids": 37,
+  "all_index_events": 38,
+  "non_root_index_events": [
+    "250919W2"
+  ],
+  "counts": {
+    "report": 37,
+    "fact_ledger": 37,
+    "learning_ledger": 37,
+    "review_state": 37,
+    "pptx": 36
+  },
+  "old_pending_counters": {
+    "pending_pdf_count": 11,
+    "pending_date_groups": 11
+  },
+  "new_pending_source_count": 0,
+  "followup_queue_count": 13,
+  "status_counts": {
+    "ALREADY_REGISTERED": 2,
+    "DRAFT_REGISTERED_RENDER_PENDING": 12,
+    "DRAFT_REGISTERED_RENDER_VERIFIED": 1,
+    "DRAFT_REGISTERED_TECHNICALLY_VERIFIED": 21,
+    "DRAFT_REGISTERED": 1
+  },
+  "rows": [
+    {
+      "queue_id": "ROOT-001",
+      "event_id": "250112W2",
+      "status": "ALREADY_REGISTERED",
+      "path": "cases/2025/250112W2/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2025/250112W2/media/classroom_ppt/OPIS_250112W2_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-002",
+      "event_id": "240908HB6",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "path": "cases/2024/240908HB6/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2024/240908HB6/media/classroom_ppt/OPIS_240908HB6_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-003",
+      "event_id": "240513W4",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "path": "cases/2024/240513W4/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2024/240513W4/media/classroom_ppt/OPIS_240513W4_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-004",
+      "event_id": "240319W3",
+      "status": "DRAFT_REGISTERED_RENDER_VERIFIED",
+      "path": "cases/2024/240319W3/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2024/240319W3/media/classroom_ppt/OPIS_240319W3_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-005",
+      "event_id": "250314SH2",
+      "status": "ALREADY_REGISTERED",
+      "path": "cases/2025/250314SH2/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2025/250314SH2/media/classroom_ppt/OPIS_250314SH2_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-006",
+      "event_id": "230405W2",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2023/230405W2/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2023/230405W2/media/classroom_ppt/OPIS_230405W2_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-007",
+      "event_id": "221222K3",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2022/221222K3/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2022/221222K3/media/classroom_ppt/OPIS_221222K3_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-008",
+      "event_id": "220908SW2",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2022/220908SW2/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2022/220908SW2/media/classroom_ppt/OPIS_220908SW2_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-009",
+      "event_id": "210712K3",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2021/210712K3/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2021/210712K3/media/classroom_ppt/OPIS_210712K3_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-010",
+      "event_id": "200719HU6",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2020/200719HU6/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2020/200719HU6/media/classroom_ppt/OPIS_200719HU6_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-011",
+      "event_id": "190510HB1",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2019/190510HB1/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2019/190510HB1/media/classroom_ppt/OPIS_190510HB1_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-012",
+      "event_id": "190121W3",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2019/190121W3/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2019/190121W3/media/classroom_ppt/OPIS_190121W3_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-013",
+      "event_id": "180611W3",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2018/180611W3/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2018/180611W3/media/classroom_ppt/OPIS_180611W3_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-014",
+      "event_id": "170327K4",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2017/170327K4/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2017/170327K4/media/classroom_ppt/OPIS_170327K4_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-015",
+      "event_id": "161220HU5",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2016/161220HU5/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2016/161220HU5/media/classroom_ppt/OPIS_161220HU5_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-016",
+      "event_id": "160227HB1",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2016/160227HB1/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2016/160227HB1/media/classroom_ppt/OPIS_160227HB1_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-017",
+      "event_id": "150903K4",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2015/150903K4/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2015/150903K4/media/classroom_ppt/OPIS_150903K4_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-018",
+      "event_id": "141017Y3",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2014/141017Y3/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2014/141017Y3/media/classroom_ppt/OPIS_141017Y3_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-019",
+      "event_id": "141001Y12",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2014/141001Y12/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2014/141001Y12/media/classroom_ppt/OPIS_141001Y12_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-020",
+      "event_id": "140617W4",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2014/140617W4/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2014/140617W4/media/classroom_ppt/OPIS_140617W4_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-021",
+      "event_id": "140228Y2",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2014/140228Y2/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2014/140228Y2/media/classroom_ppt/OPIS_140228Y2_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-022",
+      "event_id": "130414KR4",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2013/130414KR4/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2013/130414KR4/media/classroom_ppt/OPIS_130414KR4_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-023",
+      "event_id": "130117U1",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2013/130117U1/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2013/130117U1/media/classroom_ppt/OPIS_130117U1_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-024",
+      "event_id": "061011U2",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2006/061011U2/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2006/061011U2/media/classroom_ppt/OPIS_061011U2_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-025",
+      "event_id": "121126U6",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2012/121126U6/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2012/121126U6/media/classroom_ppt/OPIS_121126U6_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-026",
+      "event_id": "110621K2",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "path": "cases/2011/110621K2/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2011/110621K2/media/classroom_ppt/OPIS_110621K2_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-027",
+      "event_id": "110419K34",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "path": "cases/2011/110419K34/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2011/110419K34/media/classroom_ppt/OPIS_110419K34_Generic_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-028",
+      "event_id": "100917SK1",
+      "status": "DRAFT_REGISTERED",
+      "path": "cases/2010/100917SK1/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-029",
+      "event_id": "090903W2",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "path": "cases/2009/090903W2/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2009/090903W2/media/classroom_ppt/OPIS_090903W2_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-030",
+      "event_id": "060507U1",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "path": "cases/2006/060507U1/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2006/060507U1/media/classroom_ppt/OPIS_060507U1_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-031",
+      "event_id": "051106W1",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "path": "cases/2005/051106W1/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2005/051106W1/media/classroom_ppt/OPIS_051106W1_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-032",
+      "event_id": "031229Y5",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "path": "cases/2003/031229Y5/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2003/031229Y5/media/classroom_ppt/OPIS_031229Y5_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-033",
+      "event_id": "020405U4",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "path": "cases/2002/020405U4/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2002/020405U4/media/classroom_ppt/OPIS_020405U4_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-034",
+      "event_id": "001117K1",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "path": "cases/2000/001117K1/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/2000/001117K1/media/classroom_ppt/OPIS_001117K1_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-035",
+      "event_id": "990323Y2",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "path": "cases/1999/990323Y2/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/1999/990323Y2/media/classroom_ppt/OPIS_990323Y2_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-036",
+      "event_id": "970117-1502",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "path": "cases/1997/970117-1502/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/1997/970117-1502/media/classroom_ppt/OPIS_970117-1502_16_Draft.pptx"
+      ],
+      "review_state": true
+    },
+    {
+      "queue_id": "ROOT-037",
+      "event_id": "941020-1301",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "path": "cases/1994/941020-1301/report.md",
+      "report": true,
+      "fact_ledger": true,
+      "learning_ledger": true,
+      "pptx_files": [
+        "cases/1994/941020-1301/media/classroom_ppt/OPIS_941020-1301_16_Draft.pptx"
+      ],
+      "review_state": true
+    }
+  ],
+  "priority": "ROOT-028_MISSING_PPTX_BUILD",
+  "can_ship": false,
+  "expert_review": "PENDING_SEPARATE_USER_REVIEW",
+  "formal_contract_and_render": "NOT_COMPLETED_FOR_ALL"
+}
