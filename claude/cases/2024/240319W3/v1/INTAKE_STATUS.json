@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "model": "CLAUDE",
+  "queue_id": "ROOT-004",
+  "event_id": "240319W3",
+  "artifact_status": "STORED",
+  "integration_status": "HOLD",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+  "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+  "reported_hash_matches_queue": false,
+  "reported_pages_match_queue": false,
+  "source_zip": "CLAUDE_ROOT-004_240319W3_v1 (1).zip",
+  "source_zip_sha256": "74c96351db3d9308314c4602c2f3b176a26585822a798ef621f12663d2f233b9",
+  "files": [
+    {
+      "name": "excel_import.csv",
+      "blob": "7d34b289ea4e452d571cf4d2de6915bcfe1823e4",
+      "sha256": "e61bb2336dcb8ace3f9bd599f31a9bcf7ca1b24bc3f97e666ee7d0d9af331a8c"
+    },
+    {
+      "name": "report.md",
+      "blob": "03de6ed95a0a4d1f120889471b7dd4de4b685ace",
+      "sha256": "d47aebfd41a9dde53164cfb7a1403684d40e937e37d87acca44103f27d1ea388"
+    },
+    {
+      "name": "review.json",
+      "blob": "9dc6f73a7e2cdb4ddfac1a155042cc4af30ef755",
+      "sha256": "ef3c4a9f5faf5e66502ffa97ae2dd1e8ae0ae055468ebd8f3474ccb3d321db09"
+    },
+    {
+      "name": "validation.md",
+      "blob": "dee221fc89f2c383331a0693f4b86e8a4d482c4d",
+      "sha256": "b871df7a0e3385b8a754d8eedeb952338b4d802999d396bc000dd3c94fbd4068"
+    }
+  ],
+  "role_counts": {
+    "A": 4,
+    "P": 2,
+    "N": 18,
+    "I": 7,
+    "H": 1,
+    "D": 8
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "schema_keyword_subset": "PASS",
+    "csv_json_decision_rationale": "MATCH",
+    "fact_count": 18,
+    "fact_reference_check": "PASS",
+    "attribute_source_ref_membership": "PASS",
+    "report_fact_id_reference": "PASS",
+    "csv_fact_id_reference": "PASS",
+    "csv_formula_prefix_check": "PASS",
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Original PDF hash and physical page count unavailable; reported printed pages up to 76 versus expected 88 physical pages; selected appendix images/tables not inspected.",
+    "Prior ROOT-038 education transcript exposure in same session disclosed; Claude states not used in ROOT-004. Independent eligibility pending adjudication.",
+    "Formal Draft2020-12 validation and full report semantic consistency reported by Claude; importer checked schema keyword subset and structural references only."
+  ],
+  "approved": false,
+  "can_ship": false
+}
