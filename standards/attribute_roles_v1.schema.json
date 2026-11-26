@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OPIS normalized attribute role draft",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "event_id",
+    "queue_id",
+    "standard_version",
+    "analysis_version",
+    "source_commit",
+    "provenance",
+    "entries",
+    "counts",
+    "legacy",
+    "changes",
+    "validation",
+    "approved_attributes",
+    "confirmed_weakness_count",
+    "can_ship"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "queue_id": {
+      "type": "string",
+      "pattern": "^ROOT-[0-9]{3}$"
+    },
+    "source_commit": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{40}$"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "standard_blob",
+        "fact_ledger_blob",
+        "learning_ledger_blob",
+        "review_blob",
+        "review_path",
+        "phase3b_summary_blob",
+        "source_sha256"
+      ]
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 40,
+      "maxItems": 40,
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "name",
+          "principle",
+          "role",
+          "legacy_index_candidate",
+          "legacy_learning_core",
+          "legacy_additional",
+          "review_scope",
+          "evidence",
+          "learning_ids",
+          "expert_status",
+          "expert_decision"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}[1-8]$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "principle": {
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "DIRECT_REVIEW_CANDIDATE",
+              "INDIRECT_REVIEW_CANDIDATE",
+              "EDUCATION_ONLY",
+              "POSITIVE_LEARNING",
+              "ADDITIONAL_REVIEW_PENDING",
+              "INSUFFICIENT_OR_LOW_RELEVANCE_LEGACY"
+            ]
+          },
+          "legacy_index_candidate": {
+            "type": "boolean"
+          },
+          "legacy_learning_core": {
+            "type": "boolean"
+          },
+          "legacy_additional": {
+            "type": "boolean"
+          },
+          "review_scope": {
+            "enum": [
+              "CORE_AUTHOR_REVIEW",
+              "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED"
+            ]
+          },
+          "evidence": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "learning_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "expert_status": {
+            "const": "PENDING"
+          },
+          "expert_decision": {
+            "type": "null"
+          }
+        }
+      }
+    },
+    "counts": {
+      "type": "object"
+    },
+    "legacy": {
+      "type": "object"
+    },
+    "changes": {
+      "type": "object"
+    },
+    "validation": {
+      "type": "object",
+      "required": [
+        "status",
+        "errors",
+        "warnings",
+        "semantic_validation",
+        "original_pdf_reinspection"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "PASS_STRUCTURAL",
+            "FAIL"
+          ]
+        }
+      }
+    },
+    "approved_attributes": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "confirmed_weakness_count": {
+      "type": "null"
+    },
+    "can_ship": {
+      "const": false
+    }
+  }
+}
