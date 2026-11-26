@@ -1,0 +1,197 @@
+{
+  "contract_version": "1.0",
+  "status": "DESIGN_DRAFT",
+  "track": "C",
+  "base_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
+  "reference_blobs": {
+    "baseline/CHATGPT_BASELINE_V1.json": "4759e068818a88c86719abd191efaa3d561d5f04",
+    "baseline/CHATGPT_BASELINE_V1.csv": "f5174189f9f76b044b92a1b23318cd8ffac9ef34",
+    "index/independent_source_queue_v1.json": "8336cf23bcfda080d1856d6ef5143b70e18e8235",
+    "standards/safety_culture_40.json": "8dd238647998d31c2fa872968fe519925cd12670",
+    "standards/independent_ai_review_v1.schema.json": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+    "prompts/independent_ai_review_v1.0.md": "d34b9a7686798b29a11d016cc1c51c75536b402c",
+    "prompts/independent_ai_master_workflow_v1.1.md": "c31667d1ef3c15fe4feb2f17bc9176bb893f4ba0",
+    "docs/PARALLEL_DEVELOPMENT_ROADMAP.md": "fcafecc104c995b68b70a9f714b27b18d1c6ac6d"
+  },
+  "write_scope": "integration_platform/",
+  "actual_data_import_enabled": false,
+  "source_paths_read_only": true,
+  "expected": {
+    "events": 38,
+    "attributes": 40,
+    "models": [
+      "CHATGPT",
+      "GEMINI",
+      "CLAUDE"
+    ],
+    "review_keys": 1520,
+    "vote_slots": 4560
+  },
+  "roles": {
+    "D": "선정",
+    "I": "선정",
+    "A": "판단보류",
+    "H": "미선정",
+    "P": "미선정",
+    "N": "미선정"
+  },
+  "inputs": {
+    "baseline": {
+      "csv": "baseline/CHATGPT_BASELINE_V1.csv",
+      "manifest": "baseline/CHATGPT_BASELINE_V1.json",
+      "fields": [
+        "review_key",
+        "queue_id",
+        "event_id",
+        "attribute_code",
+        "role",
+        "chatgpt_review_result"
+      ],
+      "rationale_missing_policy": "PRESERVE_NULL_UNLESS_PINNED_EVIDENCE_AVAILABLE"
+    },
+    "external": {
+      "schema": "standards/independent_ai_review_v1.schema.json",
+      "required_artifacts": [
+        "report.md",
+        "review.json",
+        "excel_import.csv",
+        "validation.md",
+        "INTAKE_STATUS.json"
+      ],
+      "status_not_eligibility": [
+        "STORED",
+        "PENDING_INTEGRATION",
+        "HOLD"
+      ],
+      "requires_explicit_eligibility_decision": true
+    },
+    "remediation": {
+      "path_prefix": "quality_remediation/",
+      "required_provenance": [
+        "source_ref",
+        "original_review_blob",
+        "original_csv_blob",
+        "derived_csv_sha256",
+        "transform_version",
+        "row_diff",
+        "validation_report",
+        "authorization_reference"
+      ],
+      "decision_basis": "original review.json; derived formatting only",
+      "automatic_activation": false
+    }
+  },
+  "rule": {
+    "version": "1.0",
+    "eligibility": "ALL_THREE_EXPLICITLY_ELIGIBLE_COMPLETE",
+    "pending": "PENDING_INPUT",
+    "all_three_selected": "INTERNAL_CONSENSUS_SELECTED",
+    "zero_to_two_selected": "EXPERT_REVIEW_REQUIRED",
+    "deferred_vote": "RESPONDED_NOT_SELECTED_EXPERT_REVIEW",
+    "expert_approval_separate": true,
+    "missing_never_nonselection": true
+  },
+  "acceptance_cases": [
+    {
+      "id": "C01-AC01",
+      "votes": [
+        "선정",
+        "선정",
+        "선정"
+      ],
+      "eligibility": [
+        true,
+        true,
+        true
+      ],
+      "expect": "INTERNAL_CONSENSUS_SELECTED"
+    },
+    {
+      "id": "C01-AC02",
+      "votes": [
+        "선정",
+        "선정",
+        "미선정"
+      ],
+      "eligibility": [
+        true,
+        true,
+        true
+      ],
+      "expect": "EXPERT_REVIEW_REQUIRED"
+    },
+    {
+      "id": "C01-AC03",
+      "votes": [
+        "선정",
+        "미선정",
+        "판단보류"
+      ],
+      "eligibility": [
+        true,
+        true,
+        true
+      ],
+      "expect": "EXPERT_REVIEW_REQUIRED"
+    },
+    {
+      "id": "C01-AC04",
+      "votes": [
+        "미선정",
+        "미선정",
+        "미선정"
+      ],
+      "eligibility": [
+        true,
+        true,
+        true
+      ],
+      "expect": "EXPERT_REVIEW_REQUIRED"
+    },
+    {
+      "id": "C01-AC05",
+      "votes": [
+        "판단보류",
+        "미선정",
+        "미선정"
+      ],
+      "eligibility": [
+        true,
+        true,
+        true
+      ],
+      "expect": "EXPERT_REVIEW_REQUIRED"
+    },
+    {
+      "id": "C01-AC06",
+      "votes": [
+        "선정",
+        "선정",
+        null
+      ],
+      "eligibility": [
+        true,
+        true,
+        false
+      ],
+      "expect": "PENDING_INPUT"
+    },
+    {
+      "id": "C01-AC07",
+      "votes": [
+        "선정",
+        "선정",
+        "선정"
+      ],
+      "eligibility": [
+        true,
+        true,
+        false
+      ],
+      "expect": "PENDING_INPUT"
+    }
+  ],
+  "test_status": "SPECIFICATION_ONLY_NOT_EXECUTED",
+  "approved": false,
+  "can_ship": false
+}

@@ -1,0 +1,16 @@
+{
+  "track": "C",
+  "branch": "develop/integration-platform",
+  "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
+  "phase": "C01",
+  "status": "DESIGN_COMPLETED",
+  "completed": [
+    "C01"
+  ],
+  "next": "C02",
+  "actual_data_import": false,
+  "tests_executed": false,
+  "approved": false,
+  "can_ship": false,
+  "main_merge": false
+}
