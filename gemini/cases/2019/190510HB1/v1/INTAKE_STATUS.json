@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "model": "GEMINI",
+  "queue_id": "ROOT-011",
+  "event_id": "190510HB1",
+  "artifact_status": "STORED",
+  "integration_status": "PENDING_INTEGRATION",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "SELF_ATTESTED_NO_OTHER_AI_OUTPUTS_SEEN",
+  "source_verification": "BINARY_HASH_VERIFIED",
+  "reported_hash_matches_queue": true,
+  "reported_pages_match_queue": true,
+  "source_zip": "GEMINI_ROOT-011_190510HB1_v1.zip",
+  "source_zip_sha256": "5459e8e72b920563e42dc55af056aa30f6b9efbc7f183659c61f3f9d27bb581f",
+  "files": [
+    {
+      "name": "report.md",
+      "blob": "4620dbb404e9a2d628646afc611df277fc0c7c62",
+      "sha256": "232fb358b8416df8a9e0861f2805b7d19402119ef82cb017f17fdee7a3cf86e0"
+    },
+    {
+      "name": "review.json",
+      "blob": "1f39415fbc3e865bb48801517be9467dac4aec2c",
+      "sha256": "2dc4fa7f4901b7aeaa1a967527164402f0fc81b0f3355237ab75b23d194f2773"
+    },
+    {
+      "name": "excel_import.csv",
+      "blob": "7acb34b9a06dcdbbad57066d000d1b5e8d4e6d30",
+      "sha256": "f8eb6bc99fc82357a65adebad848434817cc19d84d7fd2a9658ba6522607538c"
+    },
+    {
+      "name": "validation.md",
+      "blob": "150de7bee7e89bbbf00833a23394a65d3883411e",
+      "sha256": "b16c86f9e9d55640c3c381f8f48d982c7ef110df84d183a23ee3a7fa95e99d64"
+    }
+  ],
+  "role_counts": {
+    "D": 27,
+    "A": 1,
+    "I": 5,
+    "N": 4,
+    "P": 2,
+    "H": 1
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "zip_exact_paths": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "schema_keyword_subset": "PASS",
+    "csv_json_decision_rationale": "MATCH",
+    "fact_count": 17,
+    "fact_reference_check": "PASS",
+    "report_csv_fact_id_reference": "PASS",
+    "pdf_page_range_check": "PASS",
+    "csv_formula_prefix_check": "PASS",
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Reported PDF hash and page count match queue; importer did not independently rehash original PDF.",
+    "Independence self-attestation; no semantic reinspection or expert approval.",
+    "Reading scope reports full text extraction of 122 pages but detailed reading of pages 1–60; scope completeness requires review.",
+    "32 of 40 attributes selected; high selection count flagged for later evidence-specific review, not a rejection."
+  ],
+  "approved": false,
+  "can_ship": false
+}
