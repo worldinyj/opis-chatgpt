@@ -1,0 +1,1335 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-021",
+  "event_id": "140228Y2",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2014-02-28 _한빛 2호기 M-G set출력차단기의 부적절한 개방.pdf",
+    "report_number": "2014-3호(140228Y2)",
+    "report_date": "2014-03-07",
+    "sha256": "4eb7c17d9d60fb5c15f3a986d30c543d4d34e0262cefdc49c3bebdf58fc1f9e7",
+    "pdf_page_count": 11,
+    "reading_scope": "원본 PDF 전 11쪽 텍스트 추출(11,606자) 및 본문 전체(표지, 사건 요약, 1장 개요~5장 결론, PDF 1~11쪽) 정밀 판독 완료. 로컬 바이너리 SHA-256 해시·파일 크기(213,167 bytes)·페이지 수(11쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 KINS 원본 조사보고서(2014-3호)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "2014.02.28.(금) 10:50 한빛 2호기 정상 출력운전(운전모드 1, 원자로출력 95.6%, 전기출력 1,038 MWe) 중 지진발생시 원자로 자동정지 시스템(ASTS) 주기 기능시험(주기-6762E, 6개월 주기, 10:21 착수) 과정에서, 10:46:20.203 채널 1 트립신호 시 M-G set #1 출력차단기가 부적절하게 개방(운전원·시험원 미인지)된 상태에서 10:50:01.202 채널 2 트립신호로 M-G set #2 출력차단기도 개방되어 제어봉구동전원 상실 및 제어봉집합체 낙하로 원자로가 정지되었다. 원자로보호신호가 아닌 제어봉 낙하로 정지되어 터빈이 즉시 정지되지 않아 증기발생기 압력이 64.6→61.4 kg/cm²로 감소했고, Lead/Lag 보상함수 적용으로 10:50:10.708 주증기관 저-압력(설정치 41.14 kg/cm²) 안전주입신호(SI)가 발생해 고압안전주입펌프로 16분간 약 29톤 붕산수가 주입된 뒤 10:50:10.787 원자로보호신호 및 10:50:11.072 터빈-발전기 자동정지가 이루어졌다(원안위 고시 제2013-50호 별표 3.1·3.2 보고 및 재가동 승인 대상).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~3.1.2절",
+          "printed_pages": [
+            1,
+            2,
+            3
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "summary": "ASTS 기능시험 중 M-G set #1·#2 출력차단기 순차 개방으로 제어봉 낙하·원자로정지 및 터빈 미정지에 따른 주증기관 저-압력 안전주입 발생"
+        }
+      ],
+      "limitation": "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않으며, 표지에는 '2014-03호', 요약에는 '2014-3호'로 표기됨."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "현장점검 결과 M-G set 출력차단기 제어회로와 ASTS 채널트립 출력회로 간 (-) 전원이 공통으로 연결되어 있어, 시험·점검을 위해 우회(Bypass)/차단(Defeat) 스위치를 개방(Open)하더라도 가상 지진신호 인가 시 M-G set의 Shunt Trip Relay가 작동해 출력차단기가 개방되는 회로 오류가 확인되었다(한빛 1·2호기 제외 국내 전 원전은 (-) 전원 공통선 정상 분리). 현장인수시험('11.9월, 미연결 Open/연결 Close), 안정화 기간 기능시험(미연결 Open), M-G set 연결('13.11월) 후 교정시험(주기-6762D, 연결 Close)에서는 구조적으로 오류 확인이 불가능했고, 가압된 M-G set 연결 + 우회/차단 스위치 Open 상태의 주기-6762E 기능시험은 이번('14.2월)이 최초였다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절 [회로 설치]",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "M-G set 제어회로-ASTS 채널트립 출력회로 (-) 전원 공통연결 오류 및 과거 시험조건 사각지대(최초 연결+Open 시험)"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "웨스팅하우스·표준형 원전 ASTS 설계 시 (-) 전원 공통연결 오류가 공급사 상세설계에서 확인되지 않았으며, 한빛 2호기 최초 설치('11.9.30) 직후 고리 4호기('11.10월) 및 표준형 원전 시공 중 동일 오류가 발견되어 고리 4·1·2호기는 현장수정·반영되었으나, 이미 시공이 완료된 한빛 1발전소(1·2호기)에는 공급사의 수정내용 미통보로 반영되지 않았다. 또한 한수원의 설계변경관리절차서(표준정비-9044A, rev.1)에도 초기 설계변경서 승인(rev.0, '11.8.1) 후 추가 개정내용에 대한 타 원전 전파 절차가 미비해 타 원전 오류 개선사항이 한빛 1발전소에 반영되지 못했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3절 [설계변경 관리]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "공급사 설계오류·타 원전(고리 4호기 등) 수정내용 미통보 및 한수원 설계변경관리절차서(표준정비-9044A) 타 원전 전파 절차 미비"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F04",
+      "summary": "ASTS는 원자로정지를 유발할 수 있는 설비임에도 ASTS 기능시험(주기-6762E)이 중요시험으로 분류되지 않았고, 작업전회의에서 '시험 중 원자로정지 유발 가능성' 등 중요 사항이 사전에 검토되지 않았다. 또한 ASTS 채널별 기능시험 절차서에 M-G set 출력차단기 개방(닫힘) 여부를 확인하는 단계가 반영되어 있지 않았다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 기능시험 중요시험 미분류, 작업전회의 정지 유발 가능성 미검토 및 절차서 차단기 상태 확인 단계 누락"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F05",
+      "summary": "시험원·운전원의 상태 인지 수단(HSI·경보설계)에서 3가지 결함이 확인되었다: ① ASTS 패널화면에 M-G set 출력차단기 개방을 의미하는 'Ch 1 Trip' 상태가 약 0.5초 이내에 사라져 시험원이 인지하기 어려웠고, ② 주제어실 경보창의 'ASTS Ch 1 Trip' 경보가 운전원의 확인(Acknowledge)·Reset 과정에서 M-G set 출력차단기가 개방 상태임에도 소멸되어 정상으로 오인하게 만들었으며, ③ M-G set 출력차단기 개방 시 경보절차서에는 주제어실에 'Rod Drive M-G set Trouble' 경보가 발생한다고 기술되어 있으나 실제 경보논리도에는 해당 경보가 미발생하도록 되어 있어 문서-설계 불일치가 존재했다(운전원은 경보 미발생으로 개방을 인지하지 못함).",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 패널 0.5초 표시 소멸, 주제어실 경보 Reset 소멸 및 경보절차서-경보논리도 불일치('Rod Drive M-G set Trouble' 미발생)"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F06",
+      "summary": "KINS 사건조사팀은 현재의 ASTS 설계개념, 즉 고출력 운전 중 ASTS 작동으로 M-G set 출력차단기가 개방되어 제어봉이 낙하할 때 터빈이 자동정지되지 않아 주증기관 저-압력 안전주입이 발생할 수 있는 구조에 대해 원전운영자의 설계 타당성 평가를 요구했으며, 운영자는 WH형 등 유사 원전 타당성 평가(~'14.8월) 및 관련 설비개선('14.8~)을 중장기대책에 반영했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.1절, 3.4절",
+          "printed_pages": [
+            2,
+            8
+          ],
+          "pdf_pages": [
+            4,
+            10
+          ],
+          "summary": "ASTS 작동 시 M-G set 개방·터빈 미정지에 따른 안전주입 발생 가능성 설계 타당성 평가 요구"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F07",
+      "summary": "안전주입 발생 후 원자로·터빈 정지, 보조급수펌프·1차측 기기냉각수/해수펌프·비상디젤발전기 등 안전관련 기기가 설계대로 작동했고, 운전원은 비상운전절차서 비상-0(원자로 트립 또는 SI)·보조-1.1(SI종료)에 따라 11:06 안전주입을 종결하고 운영기술지침서 제1편 3.5.4항(RWST)을 적용해 13:41 재고량(2,000 m³ 이상)을 복구했다. RCS 압력-온도 과도(289.62→265.75℃, 156.93→132.00 kg/cm²), 최대 냉각률/가열률(24.15/28.19℃/hr ≤ 55.6℃/hr), 안전주입 피로빈도(2회/설계 60회) 모두 운영기술지침서·FSAR 기준을 만족했고 소내외 방사선 영향도 없었다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.2~3.3절",
+          "printed_pages": [
+            5,
+            6,
+            7
+          ],
+          "pdf_pages": [
+            2,
+            7,
+            8,
+            9
+          ],
+          "summary": "안전계통 정상 작동, 운전원 비상-0/보조-1.1/LCO 3.5.4 적절 수행, 구조건전성·방사선 영향 없음 확인"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F08",
+      "summary": "원전운영자는 단기조치(ASTS 시험회로 오류 수정·기능시험, M-G set 출력차단기 개방 시 주제어실 경보발생원 추가, ASTS 기능시험 중요시험 분류 및 차단기 닫힘 확인절차 추가 개정, 운전원·시험원 교육)를 완료했다. 중장기대책으로 설계변경관리·구매관리 절차서 보완 및 설비기술검증위원회 재검증(~'14.6), 공급사 품질감사(~'14.6)·계약특수조건 개정(~'14.8), WH형 등 ASTS 안전주입 설계타당성 평가(~'14.8)·설비개선('14.8~), ASTS 패널화면 경보 확인·Reset 보완(~'14.12), 한빛 1호기 임시절차서 적용('14.3, '14.3.4 모의시험 확인) 및 차기 OH 회로변경('15.3)을 수립했고 KINS는 보완요구사항 없음 및 재가동 문제 없음으로 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.4~5장",
+          "printed_pages": [
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            9,
+            10,
+            11
+          ],
+          "summary": "단기조치 4건 완료, 중장기대책 수립(설계변경·공급사 감사·안전주입 타당성·패널 개선·1호기 조치) 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "limitation": "중장기대책은 보고서 발행일('14.03.07) 기준 '14.03~'15.03월 순차 이행 예정 상태."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-021-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "한수원 설계변경관리절차서(표준정비-9044A)에 초기 승인 후 추가 개정사항의 타 원전 전파 규정이 미비했고, 경보절차서와 경보논리도 간 불일치 및 공급사 수정통보 계약특수조건 미흡이 사건에 간접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F05",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절 [설계변경 관리]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "공급사 설계오류·타 원전(고리 4호기 등) 수정내용 미통보 및 한수원 설계변경관리절차서(표준정비-9044A) 타 원전 전파 절차 미비"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 패널 0.5초 표시 소멸, 주제어실 경보 Reset 소멸 및 경보절차서-경보논리도 불일치('Rod Drive M-G set Trouble' 미발생)"
+        },
+        {
+          "section": "사건 요약, 3.4~5장",
+          "printed_pages": [
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            9,
+            10,
+            11
+          ],
+          "summary": "단기조치 4건 완료, 중장기대책 수립(설계변경·공급사 감사·안전주입 타당성·패널 개선·1호기 조치) 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 발생 후 운전원은 비상-0, 보조-1.1 및 LCO 3.5.4를 규정에 따라 적절히 준수함."
+    },
+    {
+      "review_key": "ROOT-021-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "공급사가 상세설계 단계에서 (-) 전원 공통연결 오류를 확인하지 못했고 고리 4호기('11.10) 수정내용을 한빛 1발전소에 통보하지 않았으며, 한수원도 타 원전 동일설비에 대한 설계확인·관리 책임을 다하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절 [회로 설치]",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "M-G set 제어회로-ASTS 채널트립 출력회로 (-) 전원 공통연결 오류 및 과거 시험조건 사각지대(최초 연결+Open 시험)"
+        },
+        {
+          "section": "3.1.3절 [설계변경 관리]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "공급사 설계오류·타 원전(고리 4호기 등) 수정내용 미통보 및 한수원 설계변경관리절차서(표준정비-9044A) 타 원전 전파 절차 미비"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 한수원은 한빛 1호기 임시절차서 모의시험('14.3.4) 및 공급사 품질감사를 신속히 추진함."
+    },
+    {
+      "review_key": "ROOT-021-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "고리 2발전소·공급사·한빛 1발전소 간 다수호기 시공 수정사항 공유 부재와 시험 중 운전원-시험원 간 차단기 개방 미인지 정황이 있으나, 보고서가 팀워크 자체를 직접 평가하지 않아 판단보류로 분류한다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절 [설계변경 관리]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "공급사 설계오류·타 원전(고리 4호기 등) 수정내용 미통보 및 한수원 설계변경관리절차서(표준정비-9044A) 타 원전 전파 절차 미비"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 기능시험 중요시험 미분류, 작업전회의 정지 유발 가능성 미검토 및 절차서 차단기 상태 확인 단계 누락"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 패널 0.5초 표시 소멸, 주제어실 경보 Reset 소멸 및 경보절차서-경보논리도 불일치('Rod Drive M-G set Trouble' 미발생)"
+        }
+      ],
+      "counterevidence_or_limitation": "발전소 간 협업 관행 및 시험 중 운전원-시험원 교신 내역은 원문에 상세 미수록."
+    },
+    {
+      "review_key": "ROOT-021-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원자로정지를 직접 유발할 수 있는 지진 원자로 자동정지 설비(ASTS)의 가압 M-G set 연결 후 최초 주기기능시험(주기-6762E)을 중요시험으로 분류하지 않고 작업전회의에서 원자로정지 유발 가능성도 검토하지 않은 점은 안전 특수성 인식 부족을 보여준다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절 [회로 설치]",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "M-G set 제어회로-ASTS 채널트립 출력회로 (-) 전원 공통연결 오류 및 과거 시험조건 사각지대(최초 연결+Open 시험)"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 기능시험 중요시험 미분류, 작업전회의 정지 유발 가능성 미검토 및 절차서 차단기 상태 확인 단계 누락"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 ASTS 기능시험을 중요시험으로 재분류하고 차단기 닫힘 확인절차를 추가함."
+    },
+    {
+      "review_key": "ROOT-021-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "M-G set 연결('13.11) 후 우회/차단 스위치 Open 상태에서의 주기 기능시험이 최초였음에도 회로 오류·정지 유발 불확실성을 사전 확인하지 않았고, 채널 1 시험 중 'ASTS Ch 1 Trip' 경보가 Reset으로 소멸하자 차단기 개방 여부를 확인하지 않은 채 채널 2 시험을 진행했다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02",
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~3.1.2절",
+          "printed_pages": [
+            1,
+            2,
+            3
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "summary": "ASTS 기능시험 중 M-G set #1·#2 출력차단기 순차 개방으로 제어봉 낙하·원자로정지 및 터빈 미정지에 따른 주증기관 저-압력 안전주입 발생"
+        },
+        {
+          "section": "사건 요약, 3.1.3절 [회로 설치]",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "M-G set 제어회로-ASTS 채널트립 출력회로 (-) 전원 공통연결 오류 및 과거 시험조건 사각지대(최초 연결+Open 시험)"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 기능시험 중요시험 미분류, 작업전회의 정지 유발 가능성 미검토 및 절차서 차단기 상태 확인 단계 누락"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 패널 0.5초 표시 소멸, 주제어실 경보 Reset 소멸 및 경보절차서-경보논리도 불일치('Rod Drive M-G set Trouble' 미발생)"
+        }
+      ],
+      "counterevidence_or_limitation": "패널화면 0.5초 소멸과 경보논리도 불일치('Rod Drive M-G set Trouble' 미발생)가 현장 인지를 크게 저해함."
+    },
+    {
+      "review_key": "ROOT-021-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "우회/차단 스위치를 Open하면 출력차단기가 개방되지 않을 것이라는 가정, 인수·교정시험 통과로 회로가 정상일 것이라는 가정, 그리고 경보절차서대로 'Rod Drive M-G set Trouble' 경보가 발생할 것이라는 가정에 도전·검증하지 않아 채널 1 개방을 놓친 채 원자로정지를 초래했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절 [회로 설치]",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "M-G set 제어회로-ASTS 채널트립 출력회로 (-) 전원 공통연결 오류 및 과거 시험조건 사각지대(최초 연결+Open 시험)"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 기능시험 중요시험 미분류, 작업전회의 정지 유발 가능성 미검토 및 절차서 차단기 상태 확인 단계 누락"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 패널 0.5초 표시 소멸, 주제어실 경보 Reset 소멸 및 경보절차서-경보논리도 불일치('Rod Drive M-G set Trouble' 미발생)"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.1.3절에서 시험조건 사각지대와 경보절차서-논리도 불일치로 인한 오인을 핵심 원인으로 명시)."
+    },
+    {
+      "review_key": "ROOT-021-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "ASTS 설치('11.9) 이후 M-G set 미연결 상태의 주기시험과 Close 상태의 교정시험이 무사히 완료된 경험에 안주해, M-G set 가압 연결 후 최초로 수행되는 Open 상태 주기기능시험의 위험성을 경시한 안일함이 간접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절 [회로 설치]",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "M-G set 제어회로-ASTS 채널트립 출력회로 (-) 전원 공통연결 오류 및 과거 시험조건 사각지대(최초 연결+Open 시험)"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 기능시험 중요시험 미분류, 작업전회의 정지 유발 가능성 미검토 및 절차서 차단기 상태 확인 단계 누락"
+        }
+      ],
+      "counterevidence_or_limitation": "과거 시험(인수·안정화·교정)은 구조적으로 해당 회로오류를 검출할 수 없는 조건이었음."
+    },
+    {
+      "review_key": "ROOT-021-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "타 원전(고리 4호기 등) 시공 중 확인·수정된 ASTS (-) 전원 공통연결 오류 내용이 공급사로부터 한빛 1발전소에 통보되지 않았고, 시험 당일 작업전회의에서도 '시험 중 원자로정지 유발 가능성' 등 중요 안전사항이 전달·검토되지 않았다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절 [설계변경 관리]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "공급사 설계오류·타 원전(고리 4호기 등) 수정내용 미통보 및 한수원 설계변경관리절차서(표준정비-9044A) 타 원전 전파 절차 미비"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 기능시험 중요시험 미분류, 작업전회의 정지 유발 가능성 미검토 및 절차서 차단기 상태 확인 단계 누락"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.1.3절에서 공급사 수정내용 미통보와 작업전회의 중요사항 미검토를 직접 원인으로 명시)."
+    },
+    {
+      "review_key": "ROOT-021-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 근거 설명 부족을 지적하는 내용이 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "원안위 고시 보고사항 보고, 재현시험(0.5초 소멸 확인), 한빛 1호기 모의시험('14.3.4) 및 KINS 조사 협조가 투명하게 이루어졌으며 은폐 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 인력·예산·장비 등 자원 부족이 사건의 원인으로 작용했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "KINS가 타 원전 동일설비에 대한 공급사와 한수원의 설계확인 및 관리 미흡을 지적한 바와 같이, 공급사 상세설계·현장수정 관리에 대한 운영자의 품질감독이 미흡해 중장기대책으로 공급사 품질감사 및 설비기술검증위원회 재검증이 추진되었다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절 [설계변경 관리]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "공급사 설계오류·타 원전(고리 4호기 등) 수정내용 미통보 및 한수원 설계변경관리절차서(표준정비-9044A) 타 원전 전파 절차 미비"
+        },
+        {
+          "section": "사건 요약, 3.4~5장",
+          "printed_pages": [
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            9,
+            10,
+            11
+          ],
+          "summary": "단기조치 4건 완료, 중장기대책 수립(설계변경·공급사 감사·안전주입 타당성·패널 개선·1호기 조치) 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "현장 시험 당일 감독자 부재 여부는 원문에 별도 언급 없음."
+    },
+    {
+      "review_key": "ROOT-021-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "한수원 설계변경관리절차서(표준정비-9044A)에 초기 설계변경서 승인(rev.0, '11.8.1) 이후 타 원전(고리 4·1·2호기, 표준형 원전)에서 발생한 추가 개정·현장수정 사항을 기시공 호기(한빛 1·2호기)에 전파·반영하는 변화관리 절차가 미비해 회로오류가 방치되었다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절 [설계변경 관리]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "공급사 설계오류·타 원전(고리 4호기 등) 수정내용 미통보 및 한수원 설계변경관리절차서(표준정비-9044A) 타 원전 전파 절차 미비"
+        },
+        {
+          "section": "사건 요약, 3.4~5장",
+          "printed_pages": [
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            9,
+            10,
+            11
+          ],
+          "summary": "단기조치 4건 완료, 중장기대책 수립(설계변경·공급사 감사·안전주입 타당성·패널 개선·1호기 조치) 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 설비기술검증위원회 재검증 및 설계변경·구매관리 절차서 보완(~'14.6)을 추진함."
+    },
+    {
+      "review_key": "ROOT-021-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직·담당자 간 역할·책임·권한 혼선을 지적하는 직접 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 지속적 자체진단 체계 결여를 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "초기 설계변경 승인(rev.0) 이후 추가 변경사항에 대한 재검증·타 원전 전파 의사결정 프로세스(설비기술검증위원회 등)가 부재했고, 원자로정지 유발 가능 설비인 ASTS 기능시험을 중요시험으로 분류하는 의사결정 프로세스도 작동하지 않았다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절 [설계변경 관리]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "공급사 설계오류·타 원전(고리 4호기 등) 수정내용 미통보 및 한수원 설계변경관리절차서(표준정비-9044A) 타 원전 전파 절차 미비"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 기능시험 중요시험 미분류, 작업전회의 정지 유발 가능성 미검토 및 절차서 차단기 상태 확인 단계 누락"
+        },
+        {
+          "section": "사건 요약, 3.4~5장",
+          "printed_pages": [
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            9,
+            10,
+            11
+          ],
+          "summary": "단기조치 4건 완료, 중장기대책 수립(설계변경·공급사 감사·안전주입 타당성·패널 개선·1호기 조치) 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 중요시험 재분류 및 설비기술검증위원회 재검증 절차 보완을 추진함."
+    },
+    {
+      "review_key": "ROOT-021-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "가압 M-G set 연결 후 최초로 수행되는 ASTS Open 상태 주기기능시험을 보수적으로 중요시험으로 분류하지 않았고, 채널 1 시험 중 'ASTS Ch 1 Trip' 경보가 발생했을 때 M-G set #1 출력차단기 상태를 확인하지 않은 채 채널 2 시험을 진행해 원자로정지·안전주입을 초래했다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02",
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~3.1.2절",
+          "printed_pages": [
+            1,
+            2,
+            3
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "summary": "ASTS 기능시험 중 M-G set #1·#2 출력차단기 순차 개방으로 제어봉 낙하·원자로정지 및 터빈 미정지에 따른 주증기관 저-압력 안전주입 발생"
+        },
+        {
+          "section": "사건 요약, 3.1.3절 [회로 설치]",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "M-G set 제어회로-ASTS 채널트립 출력회로 (-) 전원 공통연결 오류 및 과거 시험조건 사각지대(최초 연결+Open 시험)"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 기능시험 중요시험 미분류, 작업전회의 정지 유발 가능성 미검토 및 절차서 차단기 상태 확인 단계 누락"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 패널 0.5초 표시 소멸, 주제어실 경보 Reset 소멸 및 경보절차서-경보논리도 불일치('Rod Drive M-G set Trouble' 미발생)"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 한빛 1호기에는 차기 OH 전까지 Trip Relay 전원 차단 임시절차서를 선제 적용하고 모의시험('14.3.4)으로 검증함."
+    },
+    {
+      "review_key": "ROOT-021-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 책임 회피나 지연이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "한빛 2호기 설치('11.9.30) 직후 고리 4호기('11.10월)와 표준형 원전 시공 중 동일 ASTS 설비의 (-) 전원 공통연결 오류가 발견·수정되어 고리 1·2호기까지 반영되었음에도, 이 타 원전 경험이 기시공된 한빛 1·2호기로 전혀 환류되지 못해 사건을 초래했다.",
+      "fact_ids": [
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절 [설계변경 관리]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "공급사 설계오류·타 원전(고리 4호기 등) 수정내용 미통보 및 한수원 설계변경관리절차서(표준정비-9044A) 타 원전 전파 절차 미비"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 동일 설비가 설치된 한빛 1호기에 임시절차서 적용('14.3) 및 차기 OH 회로변경('15.3)을 즉시 반영함."
+    },
+    {
+      "review_key": "ROOT-021-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 정기 자체 진단 체계 결함을 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 외부 기관 벤치마킹 누락이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "단기조치로 설비 및 절차서 변경에 대한 운전원·시험원 교육을 실시했으나, 보고서가 사건 이전의 교육훈련 프로그램 결함 여부를 직접 평가하지 않아 판단보류로 분류한다.",
+      "fact_ids": [
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.4~5장",
+          "printed_pages": [
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            9,
+            10,
+            11
+          ],
+          "summary": "단기조치 4건 완료, 중장기대책 수립(설계변경·공급사 감사·안전주입 타당성·패널 개선·1호기 조치) 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 전 운전원·시험원의 ASTS 기능시험 교육 이력은 원문에 미수록."
+    },
+    {
+      "review_key": "ROOT-021-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "공급사 상세설계 단계의 (-) 전원 공통연결 오류, 인수·안정화·교정시험 조건의 오류 검출 사각지대, 경보절차서와 경보논리도 간 불일치, 그리고 채널 1 시험 중 M-G set #1 출력차단기 개방 상태를 사전 및 현장에서 식별하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~3.1.2절",
+          "printed_pages": [
+            1,
+            2,
+            3
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "summary": "ASTS 기능시험 중 M-G set #1·#2 출력차단기 순차 개방으로 제어봉 낙하·원자로정지 및 터빈 미정지에 따른 주증기관 저-압력 안전주입 발생"
+        },
+        {
+          "section": "사건 요약, 3.1.3절 [회로 설치]",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "M-G set 제어회로-ASTS 채널트립 출력회로 (-) 전원 공통연결 오류 및 과거 시험조건 사각지대(최초 연결+Open 시험)"
+        },
+        {
+          "section": "3.1.3절 [설계변경 관리]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "공급사 설계오류·타 원전(고리 4호기 등) 수정내용 미통보 및 한수원 설계변경관리절차서(표준정비-9044A) 타 원전 전파 절차 미비"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 패널 0.5초 표시 소멸, 주제어실 경보 Reset 소멸 및 경보절차서-경보논리도 불일치('Rod Drive M-G set Trouble' 미발생)"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 재현시험과 현장점검을 통해 회로오류 및 0.5초 패널 소멸·경보논리도 불일치를 신속히 규명함."
+    },
+    {
+      "review_key": "ROOT-021-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "ASTS 기능시험이 원자로정지를 유발할 수 있는 위험을 사전 평가해 중요시험으로 분류하지 못했고, 고출력 운전 중 ASTS 작동으로 제어봉 낙하 시 터빈 미정지에 따른 주증기관 저-압력 안전주입 발생 가능성에 대한 설계 타당성 평가도 사전에 미흡했다.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 기능시험 중요시험 미분류, 작업전회의 정지 유발 가능성 미검토 및 절차서 차단기 상태 확인 단계 누락"
+        },
+        {
+          "section": "3.1.1절, 3.4절",
+          "printed_pages": [
+            2,
+            8
+          ],
+          "pdf_pages": [
+            4,
+            10
+          ],
+          "summary": "ASTS 작동 시 M-G set 개방·터빈 미정지에 따른 안전주입 발생 가능성 설계 타당성 평가 요구"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 WH형 등 유사 원전에 대한 안전주입 설계 타당성 평가(~'14.8) 및 설비개선을 중장기대책에 반영함."
+    },
+    {
+      "review_key": "ROOT-021-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "고리 4호기 시공 중('11.10월) 이미 식별되어 현장수정된 (-) 전원 공통연결 오류 시정조치가 후속 고리 1·2호기에만 적용되고, 동일 설비가 기시공된 한빛 1·2호기에는 수평전개·시정되지 못한 채 2년 넘게 방치되었다.",
+      "fact_ids": [
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절 [설계변경 관리]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "공급사 설계오류·타 원전(고리 4호기 등) 수정내용 미통보 및 한수원 설계변경관리절차서(표준정비-9044A) 타 원전 전파 절차 미비"
+        }
+      ],
+      "counterevidence_or_limitation": "공급사 미통보와 한수원 절차서 미비가 복합 작용한 결과임."
+    },
+    {
+      "review_key": "ROOT-021-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 설비·오류 경향분석 체계 결함이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-021-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS가 사건 요약과 결론에서 명시한 바와 같이, 원자로정지 유발 설비의 기능시험을 중요시험으로 분류하지 않고 작업전회의에서 정지 유발 가능성을 미검토했으며, 가압 M-G set 연결 후 Open 상태 기능시험 오류를 사전 검증하지 못한 시험관리 미흡이 직접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절 [회로 설치]",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "M-G set 제어회로-ASTS 채널트립 출력회로 (-) 전원 공통연결 오류 및 과거 시험조건 사각지대(최초 연결+Open 시험)"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 기능시험 중요시험 미분류, 작업전회의 정지 유발 가능성 미검토 및 절차서 차단기 상태 확인 단계 누락"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 중요시험 재분류 및 M-G set 출력차단기 닫힘 확인절차 추가를 완료함."
+    },
+    {
+      "review_key": "ROOT-021-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "M-G set 제어회로와 ASTS 채널트립 출력회로의 (-) 전원 공통연결 설계오류, ASTS 패널 'Ch 1 Trip' 0.5초 소멸·주제어실 경보 Reset 소멸·'Rod Drive M-G set Trouble' 경보 미발생 등 경보/HSI 설계 결함, 그리고 ASTS 작동 시 터빈 미정지로 안전주입이 발생할 수 있는 설계개념 미흡이 복합 작용했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F05",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절 [회로 설치]",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            5,
+            6
+          ],
+          "summary": "M-G set 제어회로-ASTS 채널트립 출력회로 (-) 전원 공통연결 오류 및 과거 시험조건 사각지대(최초 연결+Open 시험)"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 패널 0.5초 표시 소멸, 주제어실 경보 Reset 소멸 및 경보절차서-경보논리도 불일치('Rod Drive M-G set Trouble' 미발생)"
+        },
+        {
+          "section": "3.1.1절, 3.4절",
+          "printed_pages": [
+            2,
+            8
+          ],
+          "pdf_pages": [
+            4,
+            10
+          ],
+          "summary": "ASTS 작동 시 M-G set 개방·터빈 미정지에 따른 안전주입 발생 가능성 설계 타당성 평가 요구"
+        }
+      ],
+      "counterevidence_or_limitation": "원자로정지·안전주입 발생 이후 안전계통 기기 작동 및 구조건전성 설계 여유도는 모두 정상으로 확인됨."
+    },
+    {
+      "review_key": "ROOT-021-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "설계변경관리절차서(표준정비-9044A)에 추가 개정 타 원전 전파 절차가 누락되었고, ASTS 기능시험절차서(주기-6762E)에 M-G set 출력차단기 개방 여부 확인 단계가 없었으며, 경보절차서('Rod Drive M-G set Trouble' 발생)와 경보논리도(미발생) 간 불일치가 운전원의 오인을 초래했다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절 [설계변경 관리]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "공급사 설계오류·타 원전(고리 4호기 등) 수정내용 미통보 및 한수원 설계변경관리절차서(표준정비-9044A) 타 원전 전파 절차 미비"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 기능시험 중요시험 미분류, 작업전회의 정지 유발 가능성 미검토 및 절차서 차단기 상태 확인 단계 누락"
+        },
+        {
+          "section": "3.1.3절 [시험관리 및 절차]",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "ASTS 패널 0.5초 표시 소멸, 주제어실 경보 Reset 소멸 및 경보절차서-경보논리도 불일치('Rod Drive M-G set Trouble' 미발생)"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 기능시험절차서 개정 및 주제어실 경보발생원 추가를 단기조치로 완료함."
+    },
+    {
+      "review_key": "ROOT-021-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원자로정지 및 주증기관 저-압력 안전주입 발생 직후 운전원이 비상운전절차서 비상-0(원자로 트립 또는 SI), 보조-1.1(SI종료) 및 운영기술지침서 제1편 3.5.4항(RWST)을 절차대로 적절히 수행해 11:06 안전주입 종결 및 13:41 RWST 재고량(2,000 m³ 이상) 복구를 달성하여 긍정·방어 요소(P)로 평가한다.",
+      "fact_ids": [
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.2~3.3절",
+          "printed_pages": [
+            5,
+            6,
+            7
+          ],
+          "pdf_pages": [
+            2,
+            7,
+            8,
+            9
+          ],
+          "summary": "안전계통 정상 작동, 운전원 비상-0/보조-1.1/LCO 3.5.4 적절 수행, 구조건전성·방사선 영향 없음 확인"
+        }
+      ],
+      "counterevidence_or_limitation": "사전 시험단계의 절차서 누락 및 경보절차서 불일치는 WP1·WP3에서 별도 직접기여(D)로 평가함."
+    }
+  ],
+  "limitations": [
+    "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않음.",
+    "표지에는 '2014-03호(140228Y2)', 요약에는 '2014-3호(140228Y2)'로 표기되어 있으며, 2.2절 일부 시각 표기(10:50:10:787 등)에 소수점 대신 콜론이 사용됨.",
+    "운전원·시험원의 사건 전 ASTS 교육 이력 및 발전소 간 시공 수정사항 교신 내역은 원문에 상세 미수록.",
+    "중장기대책(절차서 보완, 공급사 품질감사, 안전주입 설계타당성 평가, 패널화면 보완, 한빛 1호기 회로변경 등)은 보고서 발행일('14.03.07) 기준 '14.03~'15.03월 순차 이행 예정 상태임.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
