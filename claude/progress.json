@@ -129,8 +129,32 @@
         "리더십 계열 속성 다수 N(보고서가 설비·절차·소방 대응 중심)"
       ],
       "integration_status": "HOLD"
+    },
+    {
+      "queue_id": "ROOT-006",
+      "event_id": "230405W2",
+      "status": "STORED",
+      "artifact_paths": [
+        "claude/cases/2023/230405W2/v1/report.md",
+        "claude/cases/2023/230405W2/v1/review.json",
+        "claude/cases/2023/230405W2/v1/excel_import.csv",
+        "claude/cases/2023/230405W2/v1/validation.md"
+      ],
+      "zip": "CLAUDE_ROOT-006_230405W2_v1.zip",
+      "github_commit_sha": null,
+      "checks": "Original validation.md; intake in INTAKE_STATUS.json.",
+      "constraints": [
+        "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
+        "PDF 바이너리 미접근: sha256=null, PDF_READ_HASH_UNAVAILABLE",
+        "물리 페이지 미확인(인쇄쪽 최대 23, 기대 25)",
+        "도면·개략도·그래프 이미지 미확인, 비공개 구간 미복원",
+        "작업자·감독자 행동은 붙임 2의 원전운영자 설명 요약에 의존",
+        "리더십 계열 속성 다수 N(작업관리 중심 보고서)"
+      ],
+      "integration_status": "HOLD",
+      "commit_reference_note": "Commit recorded in follow-up."
     }
   ],
-  "next_queue_id": "ROOT-006",
+  "next_queue_id": "ROOT-007",
   "next_status": "NOT_STARTED"
 }

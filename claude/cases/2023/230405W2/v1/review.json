@@ -1,0 +1,1221 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-006",
+  "event_id": "230405W2",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2023-04-05_월성2호기 계획예방정비 중 등급4전원 모선 인입 차단기 개방에 의한 예비디.pdf",
+    "report_number": "2023-3",
+    "report_date": "2023-04-25",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 요약, 1~4장, 붙임 1~7, 비공개 사유서; 인쇄쪽 1~23 범위). 도면·개략도·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-006 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-006의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "월성2호기가 제21차 계획예방정비 중(운전모드 5, 0 %)이던 2023.4.5 10:34경 13.8 kV 등급4전원 BUB 모선 인입차단기(BUB-05)가 개방되어 4.16 kV 등급3전원 BUF 모선 저전압이 발생했고, 대기 중이던 예비디젤발전기(SDG) #2가 자동기동했다. 고시 별표 3.2 마항 해당 보고대상사건이다(보고서 2023-3호, 발행 2023-04-25).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "사건 개요와 보고 기준"
+        }
+      ],
+      "limitation": "표지·조사자 면은 쪽번호가 없어 인용하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "경과: 4.3 BUB 모선 보호계전기 시험 작업오더 허가(시험은 SST 정비로 4.5로 연기), 4.5 09:10 일반작업전회의, 10:12 시험 착수, 10:34:32 과전류보호계전기·폐쇄계전기 작동으로 BUB-05 개방, 10:34:36 BUF 모선 저전압, 10:34:46 SDG #2 자동기동 후 출력차단기 투입, 11:39 BUB 모선 인입차단기 투입·전원 복구, 14:29 SDG #2 수동정지.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            2,
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 전개"
+        },
+        {
+          "section": "붙임 2 보호계전기 시험절차 및 수행 경위",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "시험 수행 경위"
+        }
+      ],
+      "limitation": "시각은 원전운영자 기록(사건전개기록지·경보목록·운전원 일지)을 KINS가 검토한 것이며 이 분석에서 개별 대조하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "직접원인: 13.8 kV BUB 모선 보호계전기 시험은 LOV(모선정전) 유발 가능성이 높아 모선을 휴전한 상태에서 해야 하나 BUB-05가 투입된 가압 상태에서 착수되었다. 시험 중 설정값 150 % 전류를 인가하자 3중화 과전류보호계전기와 폐쇄계전기가 설계대로 작동해 BUB-05가 개방되었다. KINS는 LOV 유발 가능성이 높은 시험이 초기조건을 만족하지 못한 채 진행되어 작업관리·수행 측면에서 미흡하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1 예비디젤발전기 기동 원인",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "직접원인 확인"
+        },
+        {
+          "section": "3.2.2 등급4전원 모선 인입차단기 개방 원인",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "시험 중 차단기 개방과 KINS 판단"
+        }
+      ],
+      "limitation": "보호계전기 자체는 설계대로 작동했으며 설비 결함이 직접원인으로 서술되지 않는다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "LOV 유발기기 작업관리가 전반적으로 미흡했다. 원전운영자는 2011년부터 LOV 유발기기 작업관리 표준지침을 두었으나 월성1발전소는 LOV 작업오더를 '중점'과 '별도(하부)' 관리로 나누어 표준지침과 다르게 운영했고, 이번 오더는 '별도' 관리라 LOV 스탬프 발행 등 방지 절차가 적용되지 않았다. 중점 관리 비율은 13차 OH 45 %에서 매 OH 줄어 21차 4.3 %까지 감소했고, 보호계전기 시험은 15차까지 중점이었다가 16차부터 별도 관리로 바뀌었으며 17차부터 별도 관리 오더에는 시험조건(예: BUB 모선 휴전 시) 정보도 명시되지 않았다. 이번에는 부서 내 3자 검토·엔지니어링부 검토가 누락되었고 소그룹 회의에서도 전기부의 최초 의견만 반영되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.3 LOV 유발기기 작업관리 적절성 검토",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "LOV 작업관리 차등 운영과 검토 누락"
+        },
+        {
+          "section": "붙임 4 계획예방정비 중 LOV 유발기기 관리현황",
+          "printed_pages": [
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "OH별 LOV 작업오더 관리 현황"
+        }
+      ],
+      "limitation": "'별도' 관리 지정은 휴전 중 LOV가 없을 것으로 예상되는 오더를 구분한 것이라는 원전운영자 설명이 있다. 차등 도입·확대 결정의 승인자와 근거 문서는 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "작업오더 설계부터 허가까지 단계별 미흡이 확인되었다: 설계 시 LOV 유발기기 미지정, 작업일정을 BUB 모선 휴전이 아닌 SST 휴전기간으로 설정, 중요작업전회의(HPJB) 대신 일반작업전회의(GPJB)로 설정했고, 발행·승인 단계 검토가 미흡했다. 일일작업계획 입력 시 전기부는 작업리스크를 가장 낮은 등급(D)으로 평가했고 발전운영부와 기술실장 주관 리스크 검토회의의 검토도 미흡했다. 작업허가 시 발전부는 기술검토 없이 감독자 요청에 따라 작업조건을 BUB 모선 휴전에서 SST 휴전으로 변경해 허가했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "작업오더 설계·발행·승인·준비·허가 단계 미흡"
+        }
+      ],
+      "limitation": "KINS는 개별 담당자의 책임을 구분해 서술하지 않고 단계별 미흡으로 서술한다. 허가 시 변경을 요청한 사유(SST 휴전 일정)는 보고서에 상세하지 않다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "작업 수행 단계 미흡: 4.3 예정 작업이 4.5로 연기되었으나 착수 전일 일일작업계획이 등록되지 않았고 이 경우 필요한 리스크 검토서도 작성되지 않았다. 작업자가 착수 전 발전부에 통보하지 않아 발전부는 당일 작업현황을 파악하지 못했다. 일반작업전회의에서 계통영향·LOV 유발 가능성이 제대로 검토되지 않았고, 시험절차서 10.1항·10.12.1항의 BUB 모선 무가압 확인 단계가 미흡하게 수행되었다. KINS는 LOV 유발 작업이 강화된 관리체계에 따라 수행되었다면 다수 문제가 방지되었을 것으로 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "작업 수행 단계 미흡과 KINS 종합 판단"
+        }
+      ],
+      "limitation": "KINS의 마지막 판단은 가정적 평가이다."
+    },
+    {
+      "id": "CLAUDE-F07",
+      "summary": "붙임 2의 원전운영자 설명: 협력사 작업자는 절차서 주의사항(BUA/05·BUB/05 인입차단기와 BUA/11·BUB/11 대체차단기 인출 및 모선 무압 확인, 모선 휴전작업 기간에만 수행)의 문구를 모두 읽었으나 이전 시험 경험에서 개별 부하차단기만 인출하면 되었기에 작업오더에 명시된 BUB/11 차단기의 인출 상태만 확인했다. 보호계전기 지시전압 0 V를 모선 무가압으로 오인했고 SST 휴전상태를 BUB 모선 휴전상태로 인지했으며, 시험 전 작업조건 확인 절차(10.1)는 OH 3주간 유사 절차를 반복 수행해 유사·반복 시험으로 인지해 수행하지 않았다. 감독자는 10:09 발전과장의 페이지폰 호출로 다른 오더 종결을 위해 이동하면서 BUB-11이 인출 상태면 계통 영향이 없다고 판단해 시험 계속을 지시했다.",
+      "kind": "OPERATOR_STATEMENT",
+      "source_refs": [
+        {
+          "section": "붙임 2 보호계전기 시험절차 및 수행 경위",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "작업자·감독자 행동 경위"
+        }
+      ],
+      "limitation": "작업자 진술을 원전운영자가 요약한 내용이며 KINS가 직접 면담한 원문은 확인하지 못했다. 심리 상태는 추정하지 않는다. 감독자의 이동은 발전과장의 호출이라는 상황 요인과 함께 서술된다."
+    },
+    {
+      "id": "CLAUDE-F08",
+      "summary": "SDG #2 자동기동 후 부하순차투입으로 정지냉각펌프 등 중요 부하가 기동되어 원자로 잔열제거 안전기능이 유지되었다. 냉방기 #2는 정지되었으나 대기 중인 #1이 자동기동했다. 주제어실 운전원은 비정상절차서를 수행했고 후비 기기냉각해수펌프 일시 정지로 기기냉각수 온도가 올랐으나 경보 설정치 이내였으며 사용후핵연료 저장조 온도는 0.5 ℃ 상승했다. 중수증기회수계통 건조기 능력 저하로 원자로건물 삼중수소 농도가 0.3에서 0.8 DAC로 올랐다가 복구되었고 방사선 관련 특이사항은 없었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.3 발전소 계통·기기 거동, 운전원 대응조치 및 안전성 영향 검토",
+          "printed_pages": [
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "계통 거동·운전원 조치·안전성"
+        }
+      ],
+      "limitation": "수치는 원전운영자 자료를 KINS가 검토한 결과이며 이 분석에서 재계산하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F09",
+      "summary": "냉방기 #2는 부하순차접속 시 자동기동에 실패했다. 원전운영자는 냉방기 현장 제어판넬 내부 저전압감지기(27X2-1) 부품 고장(사건 당시에는 확인되지 않았고 정기시험에서 확인, 점검기준 미충족 저항)과 순환수펌프 전환 시 냉방수 저유량 경보 가능성을 제시했고, 부품 교체와 유지보수품목 개선·주기교체, 설비·운영 개선 검토를 조치로 제시했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "붙임 5 냉방기 #2 기동실패 원인분석 결과",
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [],
+          "summary": "냉방기 #2 기동실패 원인과 조치"
+        }
+      ],
+      "limitation": "저유량 가능성은 사건 당시 확인된 원인이 아니라 검토 가능성으로 서술된다."
+    },
+    {
+      "id": "CLAUDE-F10",
+      "summary": "KINS는 정지원전에 쓰는 개시사건 접근법으로 기초 INES 등급을 0등급으로 검토했다(최종 등급은 사건등급평가위원회가 결정 예정).",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.4 사건등급(INES) 관련사항 검토",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "기초 INES 0등급 사전 검토"
+        }
+      ],
+      "limitation": "이 분석은 INES 등급을 판단하지 않는다."
+    },
+    {
+      "id": "CLAUDE-F11",
+      "summary": "원전운영자는 단기 대책 3건(차등 관리 내부 방침 폐지와 모든 LOV 오더의 표준지침 수행, 계통영향 평가 항목에 LOV 표기와 리스크 검토회의 중점 검토 및 작업계획 미등재·리스크 검토서 누락 시 작업허가 금지 교육, 보호계전기 시험절차서에 초기조건 독립확인 절차 추가)을 완료했고 중장기 5건(정비작업 처리관리 시스템 LOV 자동연계, LOV 작업관리 프로세스 개선, 타 발전소 참여·교육 등 역량 강화, 시험·정비 중 LOV 취약점 도출, 냉방기 기동실패 방지 설비·운영 개선)을 제시했다. KINS는 원인분석에 근거한 적절한 조치로 판단했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.5 재발방지대책 적절성 평가",
+          "printed_pages": [
+            11,
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "단기·중장기 대책"
+        }
+      ],
+      "limitation": "대책 이행 증빙과 효과 확인은 보고서에 없다. 중장기 대책 시한은 2024.8~12월 예정이다."
+    },
+    {
+      "id": "CLAUDE-F12",
+      "summary": "대조 사례: 제20차 OH의 BUA 모선 보호계전기 시험은 BUA 모선 휴전 작업기간에 휴전 작업계획서 절차에 따라 BUA 모선 인입차단기를 모두 인출한 상태에서 수행되어 시험 초기조건을 만족했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "BUA 보호계전기 시험(20차 OH) 수행 방식"
+        }
+      ],
+      "limitation": "BUA 시험 수행 담당자와 당시 관리 등급(중점/별도)은 보고서에 없다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-006-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "절차서의 시험 전 작업조건 확인 단계(10.1항)가 수행되지 않았고 주의사항 3항목 중 일부만 확인되었으며, 작업자는 유사 절차를 반복했다는 이유로 확인 단계를 생략했다고 설명했다(CLAUDE-F06, CLAUDE-F07). 규정·절차의 중요성을 인식하고 따른다는 정의와 연결된다(PA1은 개인의 인식, WP4는 이행).",
+      "fact_ids": [
+        "CLAUDE-F06",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "작업 수행 단계 미흡과 KINS 종합 판단"
+        },
+        {
+          "section": "붙임 2 보호계전기 시험절차 및 수행 경위",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "작업자·감독자 행동 경위"
+        }
+      ],
+      "counterevidence_or_limitation": "작업자 설명은 원전운영자의 요약이며 심리 상태는 추정하지 않는다. 같은 사실을 WP4에서도 평가하며 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-006-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "감독자는 발전과장의 호출을 받아 다른 오더 종결을 위해 BUB-11이 인출 상태면 계통 영향이 없다고 판단하고 시험 계속을 지시한 채 이동했다(CLAUDE-F07). 자기 업무의 안전 책임을 다한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2 보호계전기 시험절차 및 수행 경위",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "작업자·감독자 행동 경위"
+        }
+      ],
+      "counterevidence_or_limitation": "호출이라는 상황 요인이 있고 감독자 부재가 사건에 미친 영향은 KINS가 직접 평가하지 않았다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-006-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "부서 간 협력·팀워크와 관련하여 구분할 조사 사실이 보고서에 없다(검토 누락은 LA6·CO1에서 평가). 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "보호계전기 시험이 안전모선까지 정전시킬 수 있는 LOV 유발 시험임에도 작업오더 설계 단계에서 LOV 유발기기로 지정되지 않았고 계통영향 검토도 낮은 등급으로 평가되었다(CLAUDE-F03, CLAUDE-F05). 원자력 설비의 상호 연관·잠재적 영향을 인식한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 예비디젤발전기 기동 원인",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "직접원인 확인"
+        },
+        {
+          "section": "3.2.2 등급4전원 모선 인입차단기 개방 원인",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "시험 중 차단기 개방과 KINS 판단"
+        },
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "작업오더 설계·발행·승인·준비·허가 단계 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "해당 인식 부족의 직접 서술은 없고 LA5·WP1·QA3과 사실을 공유한다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-006-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "작업자가 보호계전기 지시전압 0 V를 모선 무가압으로 오인하고 SST 휴전을 BUB 모선 휴전으로 인지한 채 진행했다(CLAUDE-F07). 불확실한 상황에서 확인·중단한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2 보호계전기 시험절차 및 수행 경위",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "작업자·감독자 행동 경위"
+        }
+      ],
+      "counterevidence_or_limitation": "오인은 원전운영자가 요약한 작업자 설명이며 확인 행위의 부재가 개인 판단 때문인지 절차·교육 때문인지 구분되지 않는다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-006-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "작업조건이 BUB 모선 휴전에서 SST 휴전으로 바뀌었는데도 발전부는 기술검토 없이 허가했고(CLAUDE-F05), 감독자는 BUB-11 인출 상태면 계통 영향이 없다고 판단했으며(CLAUDE-F07), 시험 전 BUB 모선 무가압 확인 단계는 미흡했다(CLAUDE-F06). 가정 상황(모선이 휴전 상태라는 전제)을 확인하고 의문을 제기한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F06",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "작업오더 설계·발행·승인·준비·허가 단계 미흡"
+        },
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "작업 수행 단계 미흡과 KINS 종합 판단"
+        },
+        {
+          "section": "붙임 2 보호계전기 시험절차 및 수행 경위",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "작업자·감독자 행동 경위"
+        }
+      ],
+      "counterevidence_or_limitation": "각 단계의 전제를 검증하지 못한 사유(일정 압박 등)는 보고서에 없다. QA2·DM2·WP4와 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-006-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "LOV 중점 관리 비율이 매 OH 줄어 4.3 %까지 낮아졌고(CLAUDE-F04), 작업자는 유사 시험을 반복해 왔다고 설명했다(CLAUDE-F07). 반복 경험 속에서도 잠재 위험을 인지하고 대비한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3 LOV 유발기기 작업관리 적절성 검토",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "LOV 작업관리 차등 운영과 검토 누락"
+        },
+        {
+          "section": "붙임 4 계획예방정비 중 LOV 유발기기 관리현황",
+          "printed_pages": [
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "OH별 LOV 작업오더 관리 현황"
+        },
+        {
+          "section": "붙임 2 보호계전기 시험절차 및 수행 경위",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "작업자·감독자 행동 경위"
+        }
+      ],
+      "counterevidence_or_limitation": "보고서에 자만 등 심리를 직접 서술한 문장이 없고 심리는 추정하지 않는다. LA7·LA5와 사실을 공유한다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-006-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "작업자가 착수 전 발전부에 통보하지 않아 발전부는 당일 작업현황을 파악하지 못했고(CLAUDE-F06), 감독자는 발전과장의 호출로 이동하며 시험 계속을 지시했다(CLAUDE-F07). 업무 활동에서 안전 관련 정보를 서로 전달·확인한다는 정의와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F06",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "작업 수행 단계 미흡과 KINS 종합 판단"
+        },
+        {
+          "section": "붙임 2 보호계전기 시험절차 및 수행 경위",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "작업자·감독자 행동 경위"
+        }
+      ],
+      "counterevidence_or_limitation": "통보 의무의 구체적 규정과 통보하지 않은 이유는 보고서에 없다. LA6·WP4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-006-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 의사결정 근거 소통과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "투명한 정보 공유와 관련하여 구분할 조사 사실이 보고서에 없다(시험조건 정보 미명시는 WP3에서 평가). 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "안전 최우선 방침의 전파와 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "자원 지원과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 현장 순시·코칭과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보상·징벌과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "LOV 작업오더를 중점·별도로 나누어 별도 관리 대상에는 방지 절차를 적용하지 않고, 별도 관리 비율을 키운 운영 방침이 안전 우선순위와 관리 부담 사이에서 어떻게 정해졌는지는 토론하기 좋은 소재이다(CLAUDE-F04).",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3 LOV 유발기기 작업관리 적절성 검토",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "LOV 작업관리 차등 운영과 검토 누락"
+        },
+        {
+          "section": "붙임 4 계획예방정비 중 LOV 유발기기 관리현황",
+          "printed_pages": [
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "OH별 LOV 작업오더 관리 현황"
+        }
+      ],
+      "counterevidence_or_limitation": "보고서는 방침 결정 과정과 책임자를 서술하지 않아 리더의 우선순위 결정으로 평가할 근거는 부족하다. 선정 근거가 아니다."
+    },
+    {
+      "review_key": "ROOT-006-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "표준지침에 없던 중점·별도 차등이 13차 OH에 도입된 뒤 중점 비율이 45 %에서 4.3 %로 줄고 보호계전기 시험이 별도 관리로 옮겨졌으며 17차부터 시험조건 정보까지 빠졌으나 변화에 대한 평가·승인 기록이 서술되지 않았다(CLAUDE-F04). 변화를 체계적으로 평가·관리한다는 정의와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3 LOV 유발기기 작업관리 적절성 검토",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "LOV 작업관리 차등 운영과 검토 누락"
+        },
+        {
+          "section": "붙임 4 계획예방정비 중 LOV 유발기기 관리현황",
+          "printed_pages": [
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "OH별 LOV 작업오더 관리 현황"
+        }
+      ],
+      "counterevidence_or_limitation": "변경 결정의 승인·평가 과정은 보고서에 없고 관리 방침 변경(LA5)과 문서 반영(WP3)을 구분했다. DM1·LA7과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-006-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "표준지침이 요구하는 부서 내 3자 검토와 엔지니어링부 검토가 누락되었고 소그룹 회의에서 전기부의 최초 의견만 반영되었으며, 작업허가에서 발전부는 기술검토 없이 변경을 허가했다(CLAUDE-F04, CLAUDE-F05). 역할·책임·권한의 명확한 이행과 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3 LOV 유발기기 작업관리 적절성 검토",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "LOV 작업관리 차등 운영과 검토 누락"
+        },
+        {
+          "section": "붙임 4 계획예방정비 중 LOV 유발기기 관리현황",
+          "printed_pages": [
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "OH별 LOV 작업오더 관리 현황"
+        },
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "작업오더 설계·발행·승인·준비·허가 단계 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "역할 규정 자체가 모호했는지, 규정은 있었으나 이행되지 않았는지는 KINS가 구분하지 않았다. CO1·DM1·WP4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-006-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "중점 관리 비율이 13차 45 %에서 21차 4.3 %까지 8번의 OH에 걸쳐 줄어 별도 관리 대상에는 방지 절차가 적용되지 않았으나 이 추세가 점검·교정되지 않은 채 사건에 이르렀다(CLAUDE-F04, 붙임 4). 다양한 모니터링으로 안전을 지속 진단한다는 정의와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3 LOV 유발기기 작업관리 적절성 검토",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "LOV 작업관리 차등 운영과 검토 누락"
+        },
+        {
+          "section": "붙임 4 계획예방정비 중 LOV 유발기기 관리현황",
+          "printed_pages": [
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "OH별 LOV 작업오더 관리 현황"
+        }
+      ],
+      "counterevidence_or_limitation": "추세 점검 활동이 있었는지는 보고서에 직접 서술되지 않는다. PI4·LA5와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-006-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 솔선수범과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "LOV 작업오더의 선정·관리 프로세스가 표준지침과 다르게 차등 운영되었고 3자·엔지니어링부 검토와 소그룹 회의 확정이 제 기능을 하지 못했으며 작업조건 변경 허가도 일관된 기술검토 없이 이루어졌다(CLAUDE-F04, CLAUDE-F05). 일관적이고 체계적인 의사결정 프로세스와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3 LOV 유발기기 작업관리 적절성 검토",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "LOV 작업관리 차등 운영과 검토 누락"
+        },
+        {
+          "section": "붙임 4 계획예방정비 중 LOV 유발기기 관리현황",
+          "printed_pages": [
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "OH별 LOV 작업오더 관리 현황"
+        },
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "작업오더 설계·발행·승인·준비·허가 단계 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "차등 운영은 별도 관리 대상이 LOV가 없을 것으로 예상된다는 원전운영자 설명에 근거했다. LA5·WP1·WP4와 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-006-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "전기부가 작업리스크를 가장 낮은 등급(D)으로 평가했고 발전부는 기술검토 없이 작업조건 변경을 허가했으며 감독자는 BUB-11 인출 상태면 계통 영향이 없다고 판단했다(CLAUDE-F05, CLAUDE-F07). 불확실할 때 보수적으로 판단하고 시스템 영향을 검토한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "작업오더 설계·발행·승인·준비·허가 단계 미흡"
+        },
+        {
+          "section": "붙임 2 보호계전기 시험절차 및 수행 경위",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "작업자·감독자 행동 경위"
+        }
+      ],
+      "counterevidence_or_limitation": "일정 제약 등 당시 판단 맥락은 보고서에 없다. 대조 사례(BUA 시험은 인출 후 수행)가 있다(CLAUDE-F12). QA3·DM1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-006-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "작업조건을 BUB 모선 휴전에서 SST 휴전으로 바꾸는 요청을 발전부가 기술검토 없이 허가한 점은 의사결정 책임의 명확성과 연결될 수 있다(CLAUDE-F05).",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "작업오더 설계·발행·승인·준비·허가 단계 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "허가권자와 변경 요청자의 책임 구분은 보고서에 서술되지 않았다. DM2·LA6과 사실을 공유한다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-006-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "상호 존중과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "의견 제기를 격려하는 환경과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "신뢰와 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "갈등 해소와 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "운전경험 활용과 관련하여 구분할 조사 사실이 보고서에 없다(LOV 작업관리 절차를 2011년 마련한 경위는 서술되나 사건 이전 외부 사례 반영 여부는 확인되지 않음). 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "자체 진단 활동 여부와 관련하여 구분할 조사 사실이 보고서에 직접 서술되어 있지 않다(추세 모니터링은 LA7에서 평가). 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "벤치마킹과 관련하여 구분할 조사 사실이 보고서에 없다(타 발전소 참석은 사건 후 대책). 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "교육훈련 수준의 결함을 직접 지적한 조사 사실이 보고서에 없다(절차준수 교육은 사건 후 대책). 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "문제 파악·CAP 연계와 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "사건 후 원전운영자가 표준지침 대비 이행 적절성을 평가해 차등 운영, 검토 누락, 소그룹 회의 문제를 밝혀냈고 냉방기 #2 기동실패도 정기시험에서 확인된 부품 고장과 저유량 가능성으로 분석했다(CLAUDE-F04, CLAUDE-F09, CLAUDE-F11). 원인분석을 철저히 수행한다는 정의와 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F09",
+        "CLAUDE-F11"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3 LOV 유발기기 작업관리 적절성 검토",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "LOV 작업관리 차등 운영과 검토 누락"
+        },
+        {
+          "section": "붙임 4 계획예방정비 중 LOV 유발기기 관리현황",
+          "printed_pages": [
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "OH별 LOV 작업오더 관리 현황"
+        },
+        {
+          "section": "붙임 5 냉방기 #2 기동실패 원인분석 결과",
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [],
+          "summary": "냉방기 #2 기동실패 원인과 조치"
+        },
+        {
+          "section": "3.5 재발방지대책 적절성 평가",
+          "printed_pages": [
+            11,
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "단기·중장기 대책"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 원인분석에 근거한 대책이 적절하다고 판단했다(CLAUDE-F11). 사건 전의 평가 수준은 별도(LA7)이다."
+    },
+    {
+      "review_key": "ROOT-006-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "사건 후 차등 관리 방침을 폐지하고 모든 LOV 오더를 표준지침에 따라 수행하도록 하는 등 단기 대책 3건을 완료했고 시스템·프로세스 개선 중장기 대책을 시한과 함께 제시했다(CLAUDE-F11). 문제 조치의 시의성과 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F11"
+      ],
+      "source_refs": [
+        {
+          "section": "3.5 재발방지대책 적절성 평가",
+          "printed_pages": [
+            11,
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "단기·중장기 대책"
+        }
+      ],
+      "counterevidence_or_limitation": "효과 확인 증빙은 보고서에 없고 중장기 대책은 예정 사항이다."
+    },
+    {
+      "review_key": "ROOT-006-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "붙임 4는 OH별 LOV 오더 관리 현황을 보여주나 사건 전에 중점 관리 비율 감소 추세를 분석해 조치했다는 서술은 없다(CLAUDE-F04). 경향을 주기적으로 분석한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3 LOV 유발기기 작업관리 적절성 검토",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "LOV 작업관리 차등 운영과 검토 누락"
+        },
+        {
+          "section": "붙임 4 계획예방정비 중 LOV 유발기기 관리현황",
+          "printed_pages": [
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "OH별 LOV 작업오더 관리 현황"
+        }
+      ],
+      "counterevidence_or_limitation": "현황표는 사건 후 분석 자료이며 경향 분석의 사전 수행 여부는 보고서에 직접 서술되지 않는다. LA7과 사실을 공유한다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-006-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "우려사항 제기 권리·의무 보장 정책과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "안전건의 프로세스와 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-006-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "작업오더 설계(LOV 미지정, 일정·작업전회의 설정 오류), 발행·승인, 일일작업계획 리스크 평가(최저 등급), 허가 조건 변경, 연기된 작업의 일일계획 미등록과 리스크 검토서 누락, 착수 미통보로 이어지는 전 단계에서 미흡이 확인되었다(CLAUDE-F05, CLAUDE-F06). 안전을 최우선으로 작업을 계획·시행하는 프로세스와 직접 연결된다(WP1은 프로세스, WP3은 문서, WP4는 이행).",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "작업오더 설계·발행·승인·준비·허가 단계 미흡"
+        },
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "작업 수행 단계 미흡과 KINS 종합 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 LOV 관리체계가 정상 적용되었다면 다수 문제가 방지되었을 것으로 판단해 단계별 문제 일부는 근본 문제(CLAUDE-F04)의 결과로 본다. LA5·DM1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-006-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "냉방기 #2의 저전압감지기 부품이 점검기준을 만족하지 못하는 상태였으나 사건 당시 발견되지 않아 자동기동에 실패했고, 사건 후 유지보수품목 개선과 주기교체가 조치로 제시되었다(CLAUDE-F09). 안전 관련 설비를 유지·관리한다는 정의와 연결된다(WP2는 설계 여유도와 설비 유지).",
+      "fact_ids": [
+        "CLAUDE-F09"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 5 냉방기 #2 기동실패 원인분석 결과",
+          "printed_pages": [
+            20
+          ],
+          "pdf_pages": [],
+          "summary": "냉방기 #2 기동실패 원인과 조치"
+        }
+      ],
+      "counterevidence_or_limitation": "대기 냉방기 #1이 자동기동해 안전기능은 유지되었다(CLAUDE-F08). 부품 고장의 발생 시기·정비 이력은 보고서에 없다."
+    },
+    {
+      "review_key": "ROOT-006-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "17차 OH부터 별도 관리 오더에서 시험조건 정보(예: BUB 모선 휴전 시)가 명시되지 않았고, 작업오더 정보 입력에서 작업일정이 SST 휴전기간으로 잘못 설정되고 LOV 유발기기와 작업전회의 유형이 잘못 입력되었다(CLAUDE-F04, CLAUDE-F05). 문서의 정확성·최신성과 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.3 LOV 유발기기 작업관리 적절성 검토",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "LOV 작업관리 차등 운영과 검토 누락"
+        },
+        {
+          "section": "붙임 4 계획예방정비 중 LOV 유발기기 관리현황",
+          "printed_pages": [
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "OH별 LOV 작업오더 관리 현황"
+        },
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "작업오더 설계·발행·승인·준비·허가 단계 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "절차서 번호 일부는 비공개 처리되어 있다. 문서 오류와 이행 문제(WP4)의 구분은 KINS가 명시하지 않았다. LA5와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-006-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "시험 착수 조건(모선 휴전·무가압)을 충족하지 않은 채 시험이 진행되었고(CLAUDE-F03), 표준지침과 다른 차등 운영으로 LOV 방지 절차가 적용되지 않았으며(CLAUDE-F04), 일일작업계획 미등록·리스크 검토서 누락·착수 미통보·시험 전 확인 단계 미흡이 있었다(CLAUDE-F06, CLAUDE-F07). 프로세스·절차를 준수한다는 정의와 직접 연결된다(PA1은 규정 인식, WP4는 이행).",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F04",
+        "CLAUDE-F06",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 예비디젤발전기 기동 원인",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "직접원인 확인"
+        },
+        {
+          "section": "3.2.2 등급4전원 모선 인입차단기 개방 원인",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "시험 중 차단기 개방과 KINS 판단"
+        },
+        {
+          "section": "3.2.3 LOV 유발기기 작업관리 적절성 검토",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "LOV 작업관리 차등 운영과 검토 누락"
+        },
+        {
+          "section": "붙임 4 계획예방정비 중 LOV 유발기기 관리현황",
+          "printed_pages": [
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "OH별 LOV 작업오더 관리 현황"
+        },
+        {
+          "section": "3.2.4 정비작업 관리절차 적용 및 수행 적절성 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "작업 수행 단계 미흡과 KINS 종합 판단"
+        },
+        {
+          "section": "붙임 2 보호계전기 시험절차 및 수행 경위",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "작업자·감독자 행동 경위"
+        }
+      ],
+      "counterevidence_or_limitation": "일부 이탈은 작업자가 주의사항을 읽고도 일부만 확인한 것으로 개인 판단과 조직 운영이 혼재한다. WP1·PA1·DM1과 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(5d5db17b…9e91)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 763,939 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2023-3호(230405W2)'와 본문으로 했다. 같은 사건의 등급평가위원회 의결안건과 다른 분석 보고서 파일명이 Drive 검색 결과에 보였으나 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 23이고 큐 기대 물리 페이지는 25이다. 표지·조사자 면(번호 없음) 2면이 더해져 차이가 생긴 것으로 추정하나 확인하지 않았으며 쪽수 차이를 보정하지 않는다. 비공개 사유서가 인용하는 쪽(5~21쪽)은 본문 인쇄 쪽번호 체계와 일치하는 것으로 보이나 물리쪽을 보증하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(사건 요약을 인쇄쪽 1, 1. 개요 시작 면을 인쇄쪽 2). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 붙임 1~2 구간(그림 설명과 붙임 2 시작)과 붙임 6의 쪽 표지는 추출 순서상 확실하지 않아 인접 면으로 추정했다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 일부 수치·기준치·절차서 번호가 비공개 처리되어 있다. 표지부터 붙임 7과 비공개 사유서까지 전체 텍스트를 읽었다. 도면·개략도·흐름도·그래프·사건전개 그림(붙임 1, 3, 6, 7)은 직접 확인하지 못했다.",
+    "원본의 비공개 처리 구간(지식재산 관련 정보, 절차서 번호, 일부 수치)은 복원하지 않았다. 일부 수치(과전류 시지연, 기기냉각수 온도 등)는 공란으로 추출되어 인용하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 3.2.1·3.4 등에서 'SDG 자동기동'과 '자동정지'가 혼용되는 부분이 있고(3.4에서 '자동정지가 발생한 사건'으로 표기), 붙임 3~4의 원전운영자 절차서명은 번호가 비어 있다. 월성2호기 OH 차수는 본문에서 제21차이고 붙임 4의 21차 OH는 2023년이다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 작업관리 중심의 짧은 보고서(본문 13쪽)여서 리더십·갈등·건의 계열 속성 다수가 N이다. 작업자·감독자 행동은 붙임 2의 원전운영자 설명 요약에 근거하며 원문 진술은 확인하지 못했다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-006과는 무관한 사건이며 ROOT-006 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

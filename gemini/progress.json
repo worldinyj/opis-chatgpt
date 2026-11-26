@@ -5,10 +5,10 @@
   "branch": "main",
   "total_cases": 38,
   "summary": {
-    "analysis_completed_count": 6,
-    "github_stored_count": 6,
+    "analysis_completed_count": 7,
+    "github_stored_count": 7,
     "exported_pending_upload_count": 0,
-    "not_started_count": 32,
+    "not_started_count": 31,
     "blocked_count": 0
   },
   "next_case": {
@@ -120,14 +120,16 @@
       "queue_id": "ROOT-007",
       "event_id": "221222K3",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "PASS",
       "artifact_path": "gemini/cases/2022/221222K3/v1/",
-      "zip_filename": null,
+      "zip_filename": "GEMINI_ROOT-007_221222K3_v1.zip",
       "github_commit_sha": null,
-      "source_verification": null,
+      "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "updated_at": "2026-11-26",
+      "integration_status": "PENDING_INTEGRATION",
+      "commit_reference_note": "Commit recorded in follow-up."
     },
     {
       "queue_id": "ROOT-008",

@@ -1,0 +1,1208 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-007",
+  "event_id": "221222K3",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2022-12-22_고리3호기_발전기_여자변압기_고압측_케이블_접속부_손상에_의한_터빈_발전ᄀ.pdf",
+    "report_number": "2022-12호(221222K3)",
+    "report_date": "2023-01-05",
+    "sha256": "f3826f42d33c26606b000ff208cf319cd6e8bd99a2b6b502d6930ebf8ffda2de",
+    "pdf_page_count": 32,
+    "reading_scope": "원본 PDF 전 32쪽(표지, 조사자·검토자·확인자 명단, 사건 요약, 1장 개요~4장 결론, 붙임 1~10, 원자력안전정보 비공개 처리 사유서 8개소) 텍스트 추출 및 스캔 이미지 본문 PDF 4쪽(인쇄쪽 2쪽, 1장 개요·2장 사건 경위) 및 PDF 13쪽(인쇄쪽 11쪽, 3.1.5절 유효성 검토·3.2절 케이블 교체 시공) 시각 판독 완료. 로컬 바이너리 SHA-256 해시·파일 크기·페이지 수 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "저장소의 ChatGPT 분석보고서(cases/), 기준선(baseline/), Claude 산출물(claude/), 통합 Excel을 일절 열람하지 않고 Google Drive 원본 KINS 사건조사보고서 PDF(SHA-256 일치 검증)와 중립 큐·공통 기준 문서만으로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "2022.12.22.(목) 08:24:51.803경 운전모드 1(원자로출력 99.7%, 발전기출력 1,044 MWe) 정상운전 중이던 고리3호기에서 주발전기 보호계전기(지락과전압계전기 359G, 과여자계전기 324)가 작동해 스위치야드 차단기(PCB 7900, 7972)와 계자차단기가 개방되며 터빈/발전기가 자동정지되었고, 연동신호(P-8)로 원자로가 자동정지(08:24:52.915)되었다. 직후 증기발생기 A·C 저-저수위 도달로 전동기구동 보조급수펌프 A·B 및 터빈구동 보조급수펌프가 자동기동되었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1. 개요, 2.1~2.2절, 3.1.1절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "summary": "주발전기 보호계전기 작동, 터빈/발전기·원자로 자동정지 및 보조급수펌프 3대 자동기동"
+        }
+      ],
+      "limitation": "PDF 4쪽(인쇄쪽 2쪽)은 스캔 이미지로 수록되어 시각 판독했으며, RCS 압력·온도 및 P-8 출력 설정값은 비공개 가림 처리되어 있다."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "현장 육안점검 및 전문분석기관 분해점검 결과, 터빈건물 여자변압기 고압측(22kV) C상 케이블 종단접속부 열수축튜브에서 수직방향 약 6cm 탄화·손상과 절연물 표면 절연파괴 흔적(hole 2개소) 및 추가 아크흔적이 확인되었다. 케이블 절연물·제작 치수·수분유입·단말부품 설치·절연체 표면흠집은 모두 양호했으나, 열수축튜브가 쉽게 탈피되고 녹색 레진 흡착이 거의 없으며 반도전층 말단부 등에 공극(틈새)이 존재해, 열수축튜브 시공 중 가열 불량→접착력 부족→공극 발생→마스틱 테이프 경계부 전계집중에 따른 절연파괴로 평가되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.2~3.1.3절, 붙임 2~3",
+          "printed_pages": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            19,
+            20,
+            21,
+            22
+          ],
+          "pdf_pages": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            21,
+            22,
+            23,
+            24
+          ],
+          "summary": "여자변압기 C상 고압케이블 종단접속부 열수축튜브 가열불량·접착력 부족·공극·전계집중 절연파괴"
+        }
+      ],
+      "limitation": "보호계전기 설정치 및 시지연 시간 일부는 비공개 가림 처리되어 있다."
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "열수축형 종단접속부는 조립형에 비해 균질한 마스틱 테이핑, 튜브 전체 고른 가열(미흡 시 공극·과다 시 손상), 스커트 가열 등 시공불량 유발 단계가 많고 작업자 숙련도 영향이 크다. 반면 조립형은 가열 및 마스틱 테이핑이 불필요하고 숙련도 영향이 적으며, 1997년 이후 한국전력 배전용 케이블(22.9kV)에 적용되어 신뢰성이 검증되어 있었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3절, 3.2절, 붙임 4~5",
+          "printed_pages": [
+            7,
+            11,
+            23,
+            24
+          ],
+          "pdf_pages": [
+            9,
+            13,
+            25,
+            26
+          ],
+          "summary": "열수축형 시공 취약성 및 조립형 종단접속부의 한전 22.9kV 신뢰성 검증 비교"
+        }
+      ],
+      "limitation": "PDF 13쪽(인쇄쪽 11쪽)은 스캔 이미지로 수록되어 시각 판독하였다."
+    },
+    {
+      "id": "GEMINI-F04",
+      "summary": "2011.12.14. 동일 호기인 고리3호기 여자변압기 C상 고압측 케이블 접속부 절연파괴(원인: 마스틱 테이프 미부착 및 열수축튜브 가열 불량)로 원자로가 정지된 직후 손상 케이블을 교체 시공(‘11.12.14.)했으나, ‘전력케이블 종단접속 시공지침’은 재가동 이후(‘12.01.20.)에야 작성되었다. 보고서는 조속한 설비복구(‘11.12.15. 재가동 착수)에만 집중해 명확한 절차·지침 없이 시공업체 경험과 작업자 숙련도에 의존해 시공품질 확보 노력이 부족했다고 평가했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.5절, 붙임 6",
+          "printed_pages": [
+            9,
+            10,
+            11,
+            25
+          ],
+          "pdf_pages": [
+            11,
+            12,
+            13,
+            27
+          ],
+          "summary": "2011년 고리3호기 C상 교체 시 시공지침 작성 전 조속한 재가동 집중·무지침 시공"
+        }
+      ],
+      "limitation": "2011년 당시 교체 시공에 참여한 작업자·감독자 개인별 경위는 보고서에 수록되지 않았다."
+    },
+    {
+      "id": "GEMINI-F05",
+      "summary": "2011년 고리3호기 사건의 재발방지대책 수립 시 한국전력에서는 이미 열수축형에서 조립형 종단접속부로 전환하고 있었으나, 원전운영자는 유사업계 전체를 검토하지 못하고 원전산업계만 검토해 원전 사용경험 부재를 이유로 조립형 종단접속부를 재발방지대책에 적용하지 못했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.5절",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [
+            12
+          ],
+          "summary": "2011년 대책 수립 시 한전 조립형 전환 미검토(원전산업계만 검토)"
+        }
+      ],
+      "limitation": "2011년 당시 기술검토 회의록 원문은 보고서에 첨부되지 않았다."
+    },
+    {
+      "id": "GEMINI-F06",
+      "summary": "2013.11.28. 고리1호기에서도 동일 부위(여자변압기 A상 고압측 케이블 접속부) 절연파괴(원인: 절연체 표면 흠집 및 열수축튜브 가열 불량)로 원자로가 정지되었으나, 당시 재발방지대책(‘여자변압기 연결선로 접속부 개선’)이 성능점검 불만족 시에만 조립형으로 교체하도록 수립됨에 따라, 고리3호기(및 고리4호기·한울1·2호기)는 점검 결과 건전 판정을 이유로 기존 열수축형 종단접속부를 교체하지 않고 계속 사용했다(고리2호기 및 월성2·3·4호기는 부분방전 증상 확인 후 조립형 교체).",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.5절, 붙임 6~7",
+          "printed_pages": [
+            9,
+            10,
+            25,
+            26
+          ],
+          "pdf_pages": [
+            11,
+            12,
+            27,
+            28
+          ],
+          "summary": "2013년 고리1호기 사건 대책의 조건부(불만족 시) 교체 기준 및 고리3호기 열수축형 유지"
+        }
+      ],
+      "limitation": "2013년 점검 당시 고리3호기의 세부 측정값은 보고서에 기재되지 않았다."
+    },
+    {
+      "id": "GEMINI-F07",
+      "summary": "고압케이블의 국부적 손상을 찾아내는 데 가장 유효한 부분방전시험이 2011년 고리3호기 및 2013년 고리1호기 재발방지대책 당시 유전정접 시험으로 건전성 확인이 충분하다는 판단하에 1회성 점검으로만 수행되고 주기적 수행이 재발방지대책에서 누락되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.4~3.1.5절",
+          "printed_pages": [
+            8,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            10,
+            12,
+            13
+          ],
+          "summary": "유전정접 시험 충분 오판에 따른 주기적 부분방전시험 재발방지대책 누락"
+        }
+      ],
+      "limitation": "당시 유전정접 시험만으로 충분하다고 판단한 구체적 기술근거 문서는 보고서에 수록되지 않았다."
+    },
+    {
+      "id": "GEMINI-F08",
+      "summary": "2022.01. 이전까지 여자변압기 고압케이블 예방정비기준(PMT)상 부분방전시험은 발전소 상황에 따른 선택적 적용 항목이었고, 고리3호기는 매주기 부분방전시험을 수행해 오다가 사건 발생 직전 계획예방정비(‘21.07.) 기간에 부분방전시험 수행 전문인력 미확보 및 PMT 선택적 적용을 사유로 부분방전시험을 미수행했다(’22.01. SPV 대상 PMT 필수적용 개정으로 다음 주기부터 필수 수행 예정이었음).",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.4절",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "summary": "사건 직전 OH(‘21.07.) 전문인력 미확보 및 PMT 선택적 적용으로 부분방전시험 미수행"
+        }
+      ],
+      "limitation": "전문인력 미확보의 구체적 사유(외주 계약·일정 등)는 보고서에 상세히 기재되지 않았다."
+    },
+    {
+      "id": "GEMINI-F09",
+      "summary": "사건 후 원전운영자는 고리3호기 여자변압기 A·B·C상 고압케이블 종단접속부를 열수축형에서 조립형으로 전면 교체 시공했으며, 30년 이상 시공자격 경력자 시공, 품질감독 입회, 특수공기구 사용 및 시공 후 절연저항·내전압(22kV 30분)·부분방전·VLF 유전정접 시험을 모두 만족함을 확인했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.2절, 붙임 8",
+          "printed_pages": [
+            11,
+            12,
+            27
+          ],
+          "pdf_pages": [
+            13,
+            14,
+            29
+          ],
+          "summary": "A·B·C상 조립형 전면 교체, 품질감독 입회 및 시공 후 전기적 건전성 시험 만족"
+        }
+      ],
+      "limitation": "붙임 8(인쇄쪽 27쪽)의 세부 판정기준·측정값 수치는 비공개 가림 처리되어 '정상' 결과만 확인된다."
+    },
+    {
+      "id": "GEMINI-F10",
+      "summary": "원자로 정지 후 주제어실 운전원은 비상운전절차서 3종(원자로트립 및 SI, 원자로트립시 조치, 안전기능상태 추적도)을 수행해 6대 필수안전기능 만족을 확인하고 08:30 비상운전절차서를 종료한 뒤 09:09 안정상태(운전모드 3)를 유지했다. RCS 온도·SG 수위 조절을 위해 보조급수펌프 2대 정지 및 동작신호 우회(Override) 시 LCO 3.3.2/3.0.3을 적절히 적용(08:28) 및 해제(10:32)했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2.2절, 3.3.1~3.3.2절",
+          "printed_pages": [
+            3,
+            12,
+            13,
+            14
+          ],
+          "pdf_pages": [
+            5,
+            14,
+            15,
+            16
+          ],
+          "summary": "비상운전절차서 3종 및 LCO 3.3.2/3.0.3 적절 수행·안정상태 유지"
+        }
+      ],
+      "limitation": "비상운전절차서 및 운전절차서 번호는 비공개 가림 처리되어 있다."
+    },
+    {
+      "id": "GEMINI-F11",
+      "summary": "스위치야드 차단기 개방 후 비안전모선(13.8kV/4.16kV) 전원이 UAT에서 SUT로 정상 절체되었고, 보조급수계통·증기덤프계통 작동으로 노심냉각·열제거 안전기능이 적절히 유지되었으며, 사건 전후 발전소 내 방사선 이상 및 환경 방출은 없었다. KINS는 개시사건 접근법상 기초 INES 등급을 0등급으로 평가했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.3.2절, 3.4절",
+          "printed_pages": [
+            13,
+            14
+          ],
+          "pdf_pages": [
+            15,
+            16
+          ],
+          "summary": "계통·기기 정상 거동, 방사선 영향 없음 및 기초 INES 0등급 평가"
+        }
+      ],
+      "limitation": "최종 INES 등급은 원전사건등급평가위원회에서 결정 예정이다."
+    },
+    {
+      "id": "GEMINI-F12",
+      "summary": "원전운영자는 단기대책 4건(고장설비 교체·A/B/C상 조립형 변경 및 시험, Mock-up 사전교육·품질검사 입회 등 시공품질 확보, 영향설비 및 13.8/4.16kV 열수축형 유사부위 점검, 22kV 매주기 부분방전시험 적용)을 완료하고, 중장기대책 2건(고리4호기·한울1·2호기 조립형 교체 확대 ‘~23.10., 22kV 상시감시형 부분방전 진단설비 시범적용 및 확대검토 ‘~24.12.)을 수립했으며, KINS는 원인분석에 근거한 적절한 조치로 평가했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.5절, 4. 결론",
+          "printed_pages": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "pdf_pages": [
+            3,
+            16,
+            17,
+            18
+          ],
+          "summary": "단기대책 4건 완료 및 중장기대책 2건 수립·적절성 평가"
+        }
+      ],
+      "limitation": "중장기대책 2건(‘~23.10., ‘~24.12.)의 실제 이행 완료 여부는 보고서 발행일(‘23.01.05.) 기준 미확정이다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-007-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "사건 발생 후 주제어실 운전원이 비상운전절차서 3종과 운영기술지침서 LCO 3.3.2/3.0.3을 규정에 따라 적절히 준수했고(GEMINI-F10), 사건 직전 OH(‘21.07.)의 부분방전시험 미수행도 당시 PMT상 선택적 적용 규정 범위 내였으며(GEMINI-F08), 2011년 시공 결함은 규정 위반이 아니라 시공지침 자체의 부재(WP3)에 기인하므로 긍정·보호요인으로 평가해 미선정함.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F08",
+        "GEMINI-F10"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4~3.1.5절, 3.3.1~3.3.2절",
+          "printed_pages": [
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "pdf_pages": [
+            10,
+            13,
+            14,
+            15,
+            16
+          ],
+          "summary": "비상운전절차서·LCO 준수 및 당시 PMT 규정 체계 확인"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 예방 단계의 규정 미준수 근거는 없으나, 지침 부재(WP3) 및 비보수적 판단(DM2)이 별도 취약속성으로 도출됨."
+    },
+    {
+      "review_key": "ROOT-007-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "2011년 고리3호기 여자변압기 C상 케이블 교체 당시 조속한 설비복구에 집중해 시공품질 확보 노력이 부족했고(GEMINI-F04), 작업자의 열수축튜브 가열 불량으로 공극 결함이 잔존해 11년 뒤 절연파괴 및 원자로 정지로 이어졌으므로(GEMINI-F02) 간접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절, 3.1.5절",
+          "printed_pages": [
+            6,
+            7,
+            11
+          ],
+          "pdf_pages": [
+            8,
+            9,
+            13
+          ],
+          "summary": "2011년 교체 시공품질 확보 노력 부족 및 가열 불량"
+        }
+      ],
+      "counterevidence_or_limitation": "2011년 시공 당시 개별 담당자·작업자 면담 기록은 보고서에 수록되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "조직 안팎의 팀워크·소통·협력 미흡에 관한 조사 사실이 보고서에 나타나지 않아 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "부서 간 협업 문제는 본 사건조사 보고서에서 제기되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "비안전계통인 여자변압기 고압케이블이라도 발전정지유발기기(SPV)로서 손상 시 전출력 원자로 자동정지 및 공학적안전설비(보조급수펌프 3대) 자동기동으로 직결됨에도(GEMINI-F01), 2011년 무지침 긴급시공, 2013년 조건부 유지, 2021년 부분방전시험 생략으로 잠재 결함이 11년간 방치되어(GEMINI-F04, GEMINI-F06, GEMINI-F08) 간접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F04",
+        "GEMINI-F06",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.1절, 3.1.4~3.1.5절",
+          "printed_pages": [
+            4,
+            8,
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            6,
+            10,
+            11,
+            12,
+            13
+          ],
+          "summary": "SPV 고장의 원자로정지·보조급수 기동 파급 및 장기 결함 방치"
+        }
+      ],
+      "counterevidence_or_limitation": "종사자의 원자력 특수성 인식에 대한 직접 면담 자료는 없으며 SPV 관리 취약 사실에서 간접 도출함."
+    },
+    {
+      "review_key": "ROOT-007-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "2011년 동일 부위 절연파괴(가열 불량 포함) 직후 명확한 시공지침이 없는 불확실한 상태에서 작업을 중단·정비하지 않고 업체 경험에만 의존해 재시공·재가동을 진행했고(GEMINI-F04), 2021년 7월 OH에서도 전문인력 미확보로 가장 유효한 국부손상 진단시험(부분방전시험)을 생략한 채 운전을 재개하여(GEMINI-F08) 간접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4~3.1.5절",
+          "printed_pages": [
+            8,
+            9,
+            11
+          ],
+          "pdf_pages": [
+            10,
+            11,
+            13
+          ],
+          "summary": "무지침 시공 강행 및 부분방전시험 미수행 상태 운전 재개"
+        }
+      ],
+      "counterevidence_or_limitation": "당시 작업 중단 요청이나 리스크 평가 회의록 원문은 보고서에 수록되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011년·2013년 유사사건 재발방지대책 수립 시 ‘유전정접 시험으로 케이블 건전성 확인이 충분히 가능하다’고 가정해 주기적 부분방전시험을 누락했고(GEMINI-F07), 2013년 점검 시점의 일회성 양호 판정만으로 2011년 무지침 시공된 열수축형 접속부가 계속 건전할 것이라고 가정해 조립형 교체를 보류하여(GEMINI-F06) 직접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F06",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5절",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [
+            12,
+            13
+          ],
+          "summary": "유전정접 시험 충분 가정 및 1회성 양호 판정에 따른 열수축형 유지 가정"
+        }
+      ],
+      "counterevidence_or_limitation": "원전운영자의 과거 재발방지대책 유효성 평가 결과로 해당 오판이 명확히 확인됨."
+    },
+    {
+      "review_key": "ROOT-007-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011년(고리3호기)·2013년(고리1호기) 두 차례 동일한 여자변압기 고압케이블 열수축형 종단접속부 절연파괴·원자로정지 사건을 겪고도, 점검 결과 특이사항이 없다는 이유로 취약한 열수축형 접속부를 11년간 유지하고 사건 직전 OH(‘21.07.)에는 부분방전시험마저 생략해(GEMINI-F06, GEMINI-F07, GEMINI-F08) 잠재 리스크에 대비하지 못한 자만이 직접 확인되어 선정함.",
+      "fact_ids": [
+        "GEMINI-F06",
+        "GEMINI-F07",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4~3.1.5절",
+          "printed_pages": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "summary": "2차례 유사사건 이후에도 열수축형 11년 유지 및 직전 OH 부분방전시험 생략"
+        }
+      ],
+      "counterevidence_or_limitation": "고리2호기 및 월성2·3·4호기는 부분방전 증상 확인 후 조립형으로 교체했으나 고리3호기는 사전 예방 교체를 수행하지 않음."
+    },
+    {
+      "review_key": "ROOT-007-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "업무 활동 중 안전 의사소통 미흡에 관한 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "현장·부서 간 의사소통 실패는 본 사건조사 보고서에서 지적되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 운영·조직 의사결정 근거 소통에 관한 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "의사결정 근거 소통 실태는 본 사건조사 범위에 포함되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "정보 공유의 투명성·솔직성 저해에 관한 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "정보 은폐나 비투명한 공유 문제는 보고서에서 확인되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 원자력안전 최우선 방침 전파·강조 활동에 관한 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "평소 안전방침 전파 활동은 본 사건조사 보고서에서 다루어지지 않음."
+    },
+    {
+      "review_key": "ROOT-007-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "사건 발생 직전 계획예방정비(‘21.07.) 기간에 고압케이블 국부 손상 탐지에 가장 유효한 부분방전시험을 ‘부분방전시험 수행의 전문인력 미확보’ 및 PMT 선택적 적용을 사유로 미수행한 사실이 보고서에 직접 명시되어(GEMINI-F08) 자원 확보 측면의 직접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4절",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "summary": "사건 직전 OH(‘21.07.) 부분방전시험 전문인력 미확보로 시험 미수행"
+        }
+      ],
+      "counterevidence_or_limitation": "전문인력 미확보의 구체적 배경(외주 계약·인력 배치 등)은 보고서에 상세히 기재되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 현장 순시, 관찰, 코칭 실태에 관한 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "현장 순시 기록은 본 사건조사 보고서에 포함되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "인센티브, 보상 및 징벌 제도와 관련된 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "보상·징벌 체계는 본 사건조사 보고서의 검토 대상이 아님."
+    },
+    {
+      "review_key": "ROOT-007-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011년 고리3호기 여자변압기 C상 케이블 교체 시공(‘11.12.14.) 시 시공지침 작성(‘12.01.20.)을 기다리지 않고 ‘조속한 설비복구(‘11.12.15. 재가동 착수)에만 집중하여 시공품질 확보에 대한 노력이 부족하였기 때문’이라고 보고서에 직접 평가되어(GEMINI-F04) 안전 최우선 의사결정 원칙의 직접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5절",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [
+            13
+          ],
+          "summary": "조속한 설비복구(‘11.12.15. 재가동 착수)에만 집중해 시공품질 확보 노력 부족"
+        }
+      ],
+      "counterevidence_or_limitation": "2011년 당시 경영·리더십의 구체적 지시 문건은 첨부되지 않았으나 보고서의 유효성 평가 결론으로 명시됨."
+    },
+    {
+      "review_key": "ROOT-007-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "2022.01. SPV 대상 PMT 필수적용 제도 개선과 사건 후 열수축형→조립형 시공방식 변경이 추진되었으나(GEMINI-F08, GEMINI-F09), 변화관리 절차 미흡이 사건의 직접 원인이라는 근거는 부족해 미선정함.",
+      "fact_ids": [
+        "GEMINI-F08",
+        "GEMINI-F09"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4절, 3.2절",
+          "printed_pages": [
+            8,
+            11
+          ],
+          "pdf_pages": [
+            10,
+            13
+          ],
+          "summary": "SPV PMT 필수적용 개정 및 조립형 시공방식 전환"
+        }
+      ],
+      "counterevidence_or_limitation": "설비·절차 변경 과정의 리스크 평가 누락 사례는 보고서에 직접 제기되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "역할, 책임 및 권한 규정의 불명확성에 관한 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "업무분장 또는 권한 충돌 문제는 보고서에서 확인되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "고압케이블 국부손상 탐지에 가장 유효한 부분방전시험이 2022.01. 이전까지 PMT 선택적 적용 항목으로 방치되어 사건 직전 OH(‘21.07.)에 미수행되었고(GEMINI-F08), 2011·2013년 유사사건 대책에서도 1회성 점검에 그쳐 지속적 상태 모니터링 체계가 미흡했으므로(GEMINI-F07) 직접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F07",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4~3.1.5절",
+          "printed_pages": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "summary": "부분방전시험 1회성 점검 한계 및 PMT 선택적 적용으로 직전 OH 미수행"
+        }
+      ],
+      "counterevidence_or_limitation": "2022.01. SPV 대상 PMT 필수적용 개정 및 사건 후 상시감시형 부분방전 진단설비 시범도입이 추진됨(GEMINI-F12)."
+    },
+    {
+      "review_key": "ROOT-007-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "2011년 조속한 재가동(‘11.12.15.)에 집중해 시공지침 없이 케이블을 교체한 정황(GEMINI-F04)은 확인되나, 특정 리더의 솔선수범 행동 부족을 단정할 구체적 면담·행동 기록이 없어 판단보류로 분류함.",
+      "fact_ids": [
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5절",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [
+            13
+          ],
+          "summary": "2011년 조속한 설비복구 집중 정황"
+        }
+      ],
+      "counterevidence_or_limitation": "리더 개인의 언행이나 본보기 실천 여부에 대한 직접 조사 자료가 없음."
+    },
+    {
+      "review_key": "ROOT-007-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "2011년 사건 직후 시공지침 수립 전에 재시공·재가동을 먼저 진행했고(GEMINI-F04), 2022.01. 이전까지 발전정지유발기기(SPV)인 여자변압기 고압케이블 부분방전시험을 발전소 상황에 따라 선택적으로 생략할 수 있도록 허용해(GEMINI-F08) 일관적이고 체계적인 정비·복구 의사결정 프로세스가 미흡했으므로 간접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4~3.1.5절",
+          "printed_pages": [
+            8,
+            9,
+            11
+          ],
+          "pdf_pages": [
+            10,
+            11,
+            13
+          ],
+          "summary": "시공지침 수립 전 재시공 및 PMT 선택적 적용 허용"
+        }
+      ],
+      "counterevidence_or_limitation": "2022.01. SPV 대상 PMT 필수적용 기본계획 2단계 개정으로 제도 보완이 시작됨."
+    },
+    {
+      "review_key": "ROOT-007-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011년 동일 부위 절연파괴 직후 명확한 시공지침 없이 조속한 재가동(‘11.12.15.)에 집중해 업체 숙련도에만 의존한 비보수적 복구 결정을 내렸고(GEMINI-F04), 2013년 고리1호기 유사사건 후에도 선제적 조립형 교체 대신 ‘성능점검 불만족 시에만 교체’라는 소극적 기준을 적용해 취약한 열수축형을 11년간 유지하여(GEMINI-F06) 직접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5절",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [
+            12,
+            13
+          ],
+          "summary": "무지침 조속 재가동 및 2013년 조건부(불만족 시) 교체 기준 적용"
+        }
+      ],
+      "counterevidence_or_limitation": "반면 2022년 사건 발생 후에는 A·B·C상 전체를 조립형으로 전면 교체하고 고리4·한울1·2호기 확대 적용을 결정함(GEMINI-F09, GEMINI-F12)."
+    },
+    {
+      "review_key": "ROOT-007-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "원자력안전 의사결정 시 개개인의 책임 명확화 또는 회피와 관련된 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "의사결정 책임 소재 문제는 본 사건조사 보고서에서 다루어지지 않음."
+    },
+    {
+      "review_key": "ROOT-007-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "종사자 간 상호 존엄과 존중에 관한 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "상호 존중 문화는 본 사건조사 보고서의 검토 대상이 아님."
+    },
+    {
+      "review_key": "ROOT-007-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "원자력안전 의문 제기 및 반대의견 존중 문화와 관련된 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "의견 존중 관련 면담이나 조직문화 자료가 보고서에 없음."
+    },
+    {
+      "review_key": "ROOT-007-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "직원 상호간 및 조직 전반의 신뢰 형성 수준에 관한 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "조직 신뢰 수준은 본 사건조사 보고서에서 평가되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "공정하고 객관적인 갈등 해소 프로세스 운영 여부에 관한 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "조직 내 갈등 사례나 해소 절차가 보고서에 기록되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011년 고리3호기 및 2013년 고리1호기에서 동일한 여자변압기 고압측 열수축형 종단접속부 절연파괴·원자로정지 사건이 두 차례 발생했음에도, 조립형 전면 교체와 주기적 부분방전시험이 재발방지대책에서 누락되어 동일 호기·동일 부위에서 사건이 재발했으므로(GEMINI-F04~F07) 운전경험 반영 실패의 직접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F05",
+        "GEMINI-F06",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5절, 붙임 6~7",
+          "printed_pages": [
+            9,
+            10,
+            11,
+            25,
+            26
+          ],
+          "pdf_pages": [
+            11,
+            12,
+            13,
+            27,
+            28
+          ],
+          "summary": "2011년 고리3·2013년 고리1 유사사건 대책 한계 및 동일 부위 재발"
+        }
+      ],
+      "counterevidence_or_limitation": "당시 수립된 대책 자체는 형식적으로 이행 완료되었으나 핵심 근본대책(조립형 전환·주기적 부분방전시험)이 누락됨."
+    },
+    {
+      "review_key": "ROOT-007-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "2011년·2013년 재발방지대책 이행 이후에도 고리3·4호기와 한울1·2호기에 열수축형 접속부가 잔존하고 부분방전시험이 선택 항목으로 남아 있었음에도, 본 사건 발생 전까지 과거 대책과 정비 관행의 유효성 결함을 비판적 자체 진단으로 교정하지 못해(GEMINI-F06, GEMINI-F07, GEMINI-F08) 간접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F06",
+        "GEMINI-F07",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4~3.1.5절, 붙임 7",
+          "printed_pages": [
+            8,
+            10,
+            26
+          ],
+          "pdf_pages": [
+            10,
+            12,
+            28
+          ],
+          "summary": "열수축형 잔존 및 과거 대책 유효성 결함의 사전 자체진단 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "발전소 자체진단 프로그램의 구체적 시행 이력은 보고서에 별도 수록되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011년 고리3호기 사건 재발방지대책 수립 당시 한국전력에서는 1997년 이후 배전용 22.9kV 케이블에 조립형 종단접속부를 전환·적용해 신뢰성을 검증하고 있었으나, ‘원전운영자는 유사업계 전체를 검토하지 못하고 원전산업계만 검토를 수행’해 조립형 도입 기회를 놓친 사실이 보고서에 직접 명시되어(GEMINI-F03, GEMINI-F05) 벤치마킹의 직접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5절, 붙임 4",
+          "printed_pages": [
+            10,
+            23
+          ],
+          "pdf_pages": [
+            12,
+            25
+          ],
+          "summary": "한전 배전 조립형 전환 미검토 및 원전산업계 한정 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "2013년 고리1호기 사건 이후에야 한전 배전케이블 적용 조립형 방식 도입이 시작됨(GEMINI-F03, 3.2절)."
+    },
+    {
+      "review_key": "ROOT-007-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "작업자 숙련도 영향이 큰 열수축형 시공 과정에서 가열 불량(접착력 부족·공극 발생)이 반복되었고(GEMINI-F02, GEMINI-F03, GEMINI-F04), 사건 후 단기대책으로 케이블 탈피 시공 Mock-up 사전교육·훈련 및 30년 이상 경력자 시공이 도입된 점(GEMINI-F09, GEMINI-F12)은 시공 전문인력 양성 및 교육훈련의 간접적 취약성을 시사해 선정함.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04",
+        "GEMINI-F09",
+        "GEMINI-F12"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절, 3.2절, 3.5절",
+          "printed_pages": [
+            7,
+            11,
+            15
+          ],
+          "pdf_pages": [
+            9,
+            13,
+            17
+          ],
+          "summary": "열수축형 숙련도 의존 가열불량 및 사후 Mock-up 사전교육·훈련 도입"
+        }
+      ],
+      "counterevidence_or_limitation": "2011년 시공 작업자의 구체적 교육훈련 이력은 보고서에 수록되지 않음."
+    },
+    {
+      "review_key": "ROOT-007-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "2011년 교체 시공 당시 형성된 열수축튜브 가열 불량·공극 결함이 11년간 잠재해 있었으나, 사건 직전 OH(‘21.07.)에서 국부 손상 탐지에 가장 유효한 부분방전시험을 미수행함으로써 사건 전 결함을 조기에 파악할 기회를 상실해(GEMINI-F02, GEMINI-F08) 간접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3~3.1.4절",
+          "printed_pages": [
+            6,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            8,
+            10,
+            11
+          ],
+          "summary": "11년간 잠재된 공극 결함 및 직전 OH 부분방전시험 미수행에 따른 사전 탐지 실패"
+        }
+      ],
+      "counterevidence_or_limitation": "2011년 이후 2021년 직전까지 수행된 절연저항·유전정접·부분방전·열화상 점검에서는 특이사항이 발견되지 않았음(GEMINI-F08)."
+    },
+    {
+      "review_key": "ROOT-007-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011년·2013년 두 차례 유사사건의 재발방지대책 수립 시 ① 유전정접 시험만으로 충분하다고 오판해 주기적 부분방전시험을 누락했고(GEMINI-F07), ② 원전산업계만 검토해 조립형 도입을 보류했으며(GEMINI-F05), ③ 점검 불만족 시에만 조립형 교체로 한정해 잠재 시공불량이 내재된 고리3호기 열수축형 접속부를 방치하는(GEMINI-F06) 등 시정조치 유효성 평가가 미흡했으므로 직접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F05",
+        "GEMINI-F06",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5절",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [
+            12,
+            13
+          ],
+          "summary": "2011·2013년 재발방지대책 유효성 결함(조립형 미적용·조건부 교체·부분방전시험 누락)"
+        }
+      ],
+      "counterevidence_or_limitation": "사건조사 중 원전운영자 스스로 과거 대책의 유효성 결함 3가지를 평가·제시함."
+    },
+    {
+      "review_key": "ROOT-007-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011년·2013년 유사사건 이후 근본적 해결책인 조립형 종단접속부 전환과 주기적 부분방전시험 의무화가 적시에 완료되지 못해(2022.01.에야 SPV PMT 필수적용 개정, 고리3·4호기 및 한울1·2호기 열수축형 미교체) 11년 만에 동일 사건이 재발했으므로(GEMINI-F05~F08) 문제 해결의 직접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F05",
+        "GEMINI-F06",
+        "GEMINI-F07",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4~3.1.5절, 붙임 7",
+          "printed_pages": [
+            8,
+            9,
+            10,
+            26
+          ],
+          "pdf_pages": [
+            10,
+            11,
+            12,
+            28
+          ],
+          "summary": "근본 해결책(조립형 전환·부분방전시험 의무화) 장기 지연 및 동일 사건 재발"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 고리3호기 조립형 전면 교체 완료 및 고리4·한울1·2호기 확대 교체(‘~23.10.)가 추진됨(GEMINI-F12)."
+    },
+    {
+      "review_key": "ROOT-007-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "운영개선프로그램(CAP) 기반 경향 분석 미흡에 관한 직접 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "경향 분석 프로그램 운영 실태는 본 사건조사 보고서에서 다루어지지 않음."
+    },
+    {
+      "review_key": "ROOT-007-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "원자력안전 우려사항 제기에 대한 개인의 권리·의무 보장 정책과 관련된 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "안전중시 업무환경 정책은 본 사건조사 보고서의 검토 대상이 아님."
+    },
+    {
+      "review_key": "ROOT-007-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "독립적 안전건의 프로세스 운영 여부나 활용 사례에 관한 조사 사실이 보고서에 없어 미선정함.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "안전건의 프로세스 관련 조사 내용이 보고서에 없음."
+    },
+    {
+      "review_key": "ROOT-007-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011년 고리3호기 C상 케이블 교체 시공 시 명확한 절차·지침과 품질검사 입회 없이 시공업체 경험과 작업자 숙련도에만 의존해 시공함으로써 열수축튜브 가열 불량·공극 결함이 발생했고(GEMINI-F02, GEMINI-F04), 사건 직전 OH(‘21.07.)에는 전문인력 미확보로 부분방전시험이 누락되어(GEMINI-F08) 작업 관리의 직접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3~3.1.5절",
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9,
+            11
+          ],
+          "pdf_pages": [
+            8,
+            9,
+            10,
+            11,
+            13
+          ],
+          "summary": "무지침·품질검증 미흡 시공 및 직전 OH 부분방전시험 누락"
+        }
+      ],
+      "counterevidence_or_limitation": "2022년 사건 후 조립형 교체 시공에서는 작업절차서·30년 경력자·품질감독 입회·특수공기구 및 시공 후 건전성 시험이 적절히 이행됨(GEMINI-F09)."
+    },
+    {
+      "review_key": "ROOT-007-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "조립형에 비해 시공불량 유발 단계가 많고 작업자 숙련도에 크게 의존하는 열수축형 종단접속부 방식이 발전정지유발기기(SPV)인 22kV 여자변압기 고압케이블에 장기간 적용되어 절연 여유도가 취약했으므로(GEMINI-F02, GEMINI-F03, GEMINI-F06) 간접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절, 3.1.5절, 붙임 4~5",
+          "printed_pages": [
+            7,
+            10,
+            23,
+            24
+          ],
+          "pdf_pages": [
+            9,
+            12,
+            25,
+            26
+          ],
+          "summary": "시공불량 취약 열수축형 구조의 SPV 고압케이블 장기 적용"
+        }
+      ],
+      "counterevidence_or_limitation": "원자로정지 이후 보조급수펌프 자동기동·전원절체 등 안전계통 심층방어는 설계대로 정상 작동함(GEMINI-F10, GEMINI-F11)."
+    },
+    {
+      "review_key": "ROOT-007-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011년 고리3호기 C상 케이블 교체 시공(‘11.12.14.) 당시 ‘전력케이블 종단접속 시공지침’이 아직 제정되지 않은 상태(‘12.01.20. 작성)에서 무지침으로 작업이 수행되었고(GEMINI-F04), 2022.01. 이전 예방정비기준(PMT) 문서도 고압케이블 부분방전시험을 필수 항목이 아닌 선택 항목으로 규정하여(GEMINI-F08) 문서화의 직접적 취약속성으로 선정함.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4~3.1.5절",
+          "printed_pages": [
+            8,
+            9,
+            11
+          ],
+          "pdf_pages": [
+            10,
+            11,
+            13
+          ],
+          "summary": "2011년 시공 당시 시공지침 부재 및 2022.01. 이전 PMT 부분방전시험 선택 규정"
+        }
+      ],
+      "counterevidence_or_limitation": "2012.01. 시공지침 제정 및 2022.01. SPV PMT 필수적용 개정으로 문서화가 사후 보완됨."
+    },
+    {
+      "review_key": "ROOT-007-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "사건 당시 주제어실 운전원이 비상운전절차서 3종과 정상운전 복귀 절차, 운영기술지침서 LCO 3.3.2/3.0.3을 정확히 준수해 6대 필수안전기능을 유지했고(GEMINI-F10), 2011년 시공 결함은 절차 위반이 아니라 절차·지침 자체의 부재(WP3)에 기인하므로 긍정·보호요인으로 평가해 미선정함.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F10"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5절, 3.3.1~3.3.2절",
+          "printed_pages": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "pdf_pages": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "summary": "비상운전절차서 3종·LCO 준수 및 2011년 시공지침 부재 구분"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 대응 단계의 절차 준수는 적절했으나 사건 예방 단계의 지침 부재(WP3)·작업관리 미흡(WP1)은 별도 선정됨."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 내 원자력안전정보 비공개 처리 사유서(PDF 32쪽)에 명시된 8개소(RCS 압력·온도, P-8 출력 설정값, 보호계전기 설정치·시지연, 비상운전절차서 번호, 붙임 8 시험 측정값 등)는 가림 처리되어 있으며 임의로 복원·추정하지 않음.",
+    "PDF 4쪽(인쇄쪽 2쪽, 1장 개요·2장 사건 경위)과 PDF 13쪽(인쇄쪽 11쪽, 3.1.5절 유효성 검토·3.2절 케이블 교체 시공)은 텍스트 레이어가 없는 스캔 이미지로 수록되어 고해상도 렌더링 후 시각 판독함.",
+    "최종 INES 등급(기초 0등급) 및 중장기대책 2건(‘~23.10., ‘~24.12.) 이행 완료 여부는 보고서 발행일(‘23.01.05.) 기준 미확정 상태임.",
+    "GitHub 쓰기 권한 부재로 원격 커밋·푸시는 미수행(NOT_EXECUTED)하며, 로컬 ZIP 패키지로 산출물을 반환함."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

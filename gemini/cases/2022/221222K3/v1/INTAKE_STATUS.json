@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "model": "GEMINI",
+  "queue_id": "ROOT-007",
+  "event_id": "221222K3",
+  "artifact_status": "STORED",
+  "integration_status": "PENDING_INTEGRATION",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "SELF_ATTESTED_NO_OTHER_AI_OUTPUTS_SEEN",
+  "source_verification": "BINARY_HASH_VERIFIED",
+  "reported_hash_matches_queue": true,
+  "reported_pages_match_queue": true,
+  "source_zip": "GEMINI_ROOT-007_221222K3_v1.zip",
+  "source_zip_sha256": "e2536fda9b1ad11fff9225923f79425fa0c8cebde8ae4bc6f677b1927063caef",
+  "files": [
+    {
+      "name": "report.md",
+      "blob": "d93606bf6c21c65324300dbcd494a33789d18c16",
+      "sha256": "4b96e8b8937691d047de72ea7c63c9d059897f5b4aa06f3dfe352079a6af80e8"
+    },
+    {
+      "name": "review.json",
+      "blob": "64753dbbd546af8e047d5be67b54b60499bd1b5c",
+      "sha256": "7e1b760abe63890ee6c613247c12e9e993fc2f6ec8365f56d9fc5319f951227c"
+    },
+    {
+      "name": "excel_import.csv",
+      "blob": "486a19f038fa3474ebec1678a28002a3ead85542",
+      "sha256": "79b20ab79dc7e0d87bcc9c8f5d45da59cc8aca7f6e66b2e61bc69efada08782a"
+    },
+    {
+      "name": "validation.md",
+      "blob": "c2c734d30565432bcf0fdf18dad10d022bde97db",
+      "sha256": "7955ed55dce44b3d67afa418967b6ce74a37286686b91144397e9adf3fa94eea"
+    }
+  ],
+  "role_counts": {
+    "H": 2,
+    "I": 8,
+    "N": 16,
+    "D": 12,
+    "P": 1,
+    "A": 1
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "csv_json_decision_rationale": "MATCH",
+    "fact_reference_check": "PASS",
+    "report_csv_fact_id_reference": "PASS",
+    "csv_formula_prefix_check": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "schema_keyword_subset": "PASS",
+    "fact_count": 12,
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Reported PDF hash and page count match queue; importer did not independently rehash original PDF.",
+    "Independence self-attestation; no semantic reinspection or expert approval."
+  ],
+  "approved": false,
+  "can_ship": false
+}

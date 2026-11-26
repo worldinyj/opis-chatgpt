@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "model": "CLAUDE",
+  "queue_id": "ROOT-006",
+  "event_id": "230405W2",
+  "artifact_status": "STORED",
+  "integration_status": "HOLD",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+  "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+  "reported_hash_matches_queue": false,
+  "reported_pages_match_queue": false,
+  "source_zip": "CLAUDE_ROOT-006_230405W2_v1.zip",
+  "source_zip_sha256": "d81ec5991ddeb93d82ef82ff924282a581fef640848c54426c1f3bed03246a3a",
+  "files": [
+    {
+      "name": "excel_import.csv",
+      "blob": "e73305aeb8957f1c9f959e0d03ba113cc5c6298b",
+      "sha256": "6d268fd9910422bcf930028d0d7b9cb18638c33e5fefd2481d9d13b23efb6153"
+    },
+    {
+      "name": "report.md",
+      "blob": "8cf25d9c76d3141619203c191bc01000efe9cb32",
+      "sha256": "d4df08e31b40788bad440dc75c224ffa79bb77012fc3c28deb41ff0d1ded732b"
+    },
+    {
+      "name": "review.json",
+      "blob": "d86cd659eb5fc8b45f890f3bc5becc61b543f0b1",
+      "sha256": "eb0b6a35a81314ef3d5c6807a4aab48f0b4657d9c62778f42b1ff9027f039472"
+    },
+    {
+      "name": "validation.md",
+      "blob": "ac6e77d726c1d91168bc68d93be04cf044f3562a",
+      "sha256": "1bc05733813d5678909800c991dd27c6a5ae5024d11214b318f15aa883e38073"
+    }
+  ],
+  "role_counts": {
+    "I": 6,
+    "A": 6,
+    "N": 19,
+    "D": 6,
+    "H": 1,
+    "P": 2
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "csv_json_decision_rationale": "MATCH",
+    "fact_reference_check": "PASS",
+    "report_csv_fact_id_reference": "PASS",
+    "csv_formula_prefix_check": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "schema_keyword_subset": "PASS",
+    "fact_count": 12,
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Original PDF hash and physical pages unverified; diagram/graph images not inspected; operator and supervisor behavior relies on appendix 2 operator explanation; prior other-case transcript exposure disclosed; integration HOLD.",
+    "No fresh original source review or expert approval."
+  ],
+  "approved": false,
+  "can_ship": false
+}
