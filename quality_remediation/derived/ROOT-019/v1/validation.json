@@ -1,0 +1,22 @@
+{
+  "status": "FORMAT_CANDIDATE_NOT_APPROVED",
+  "rows": 40,
+  "rationale_changed": 40,
+  "source_changed": 40,
+  "checks": {
+    "original_review_csv_sha256": "PASS",
+    "original_blob": "PASS",
+    "csv_roundtrip": "PASS",
+    "key_order_and_decisions": "PASS",
+    "rationale_json_exact": "PASS",
+    "fact_id_set": "PASS",
+    "source_serialization_from_json_only": "PASS",
+    "formula_prefix": "PASS"
+  },
+  "limitations": [
+    "B03-R1 fixed-ref audit used for other original files; no new PDF verification. Independent B06 required."
+  ],
+  "approved": false,
+  "can_ship": false,
+  "eligible_for_three_ai_consensus": false
+}
