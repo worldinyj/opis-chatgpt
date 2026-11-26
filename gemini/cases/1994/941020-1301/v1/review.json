@@ -1,0 +1,674 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-037",
+  "event_id": "941020-1301",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "1994-10-20_냉각재계통 과압보호밸브 구동장치 고장으로 밸브 개방 고착되어 가압기 수위ᄀ.pdf",
+    "report_number": "1301-1994-02",
+    "report_date": "1994-10",
+    "sha256": "6a20318b90cbc8e50836467dd741a9f8d56ad710fb8f1bf301e8d4af5922b23f",
+    "pdf_page_count": 1,
+    "reading_scope": "원본 PDF 전 1쪽(스캔 이미지, 텍스트 레이어 0자)을 150dpi PNG로 변환해 사건 요약·INES 등급(2등급, 심층 방어)·Coded Watchlist를 시각 정밀 판독 완료. 로컬 바이너리 SHA-256·파일 크기(295,684 bytes)·페이지 수(1쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 원본 보고서(1301-1994-02)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "1994.10.20 05:09 전출력(원자력 출력 100%, 발전기 출력 680 MWe, 복구일자 94/10/24 08:47 임계·10.25 00:45 계통병입, INES 2등급[심층 방어]) 운전 중 냉각재계통 과압보호밸브(PV4) 구동장치(Actuator) 내 다이아프램 파손으로 밸브가 개방 고착되어 냉각재가 탈기응축기로 유입되고 가압기 수위가 저하되면서 제1·제2 원자로정지계통이 작동해 05:11 비계획 자동정지되었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "PV4 구동장치 다이아프램 파손 개방고착→가압기 수위 저하→제1·2 정지계통 작동 자동정지(05:11, INES 2등급)"
+        }
+      ],
+      "limitation": "본 자료는 1쪽 분량의 OPIS 사건 요약본으로 호기명(관리번호 1301-1994-02·680 MWe·중수로 특성만 기재), 보고서 발행일 및 05:11~06:56 상세 운전조치 경위가 미수록되어 있음."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "원자로가 정지된 상태에서 06:56 탈기응축기 Box-up 중 PV4 개방고착으로 탈기응축기 압력이 냉각재계통 압력과 평형을 이루고 있던 상태에서, 탈기응축기 압력제어용 살수밸브 및 냉각재 충수펌프 재순환 유량배관을 통한 유량 유입으로 압력이 상승해 탈기응축기 과압보호밸브(RV11, 21)가 개방되었고, 핵연료 교환기실(원자로건물 내)로 냉각재 중수 6.5톤이 누설되었다(INES 2등급, 심층 방어 기준).",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "탈기응축기 Box-up 압력평형 중 살수밸브·충수펌프 재순환 유입으로 RV11,21 개방 및 중수 6.5톤 누설"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "후속조치로 ① 공기구동 밸브의 다이아프램 교체주기 재정립, ② 비상운전절차서 보완 및 재정비, ③ 운전원의 비상 대응 조치 향상 방안 강구, ④ 비상용 예비중수 추가 확보, ⑤ 냉각재계통·탈기응축기 과압보호밸브 점검 및 정비가 수행되었다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "다이아프램 교체주기 재정립, 비상운전절차서 보완, 운전원 비상대응 향상 및 예비중수 추가 확보"
+        }
+      ],
+      "limitation": "없음"
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-037-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "정지(05:11) 이후 탈기응축기 Box-up 상태에서 06:56 과압보호밸브(RV11, 21) 개방·중수 6.5톤 누설에 이르기까지 운전원의 구체적 판단·조치 경위가 1쪽 요약본에 수록되어 있지 않아 보수적 의사결정 여부를 판단보류한다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "탈기응축기 Box-up 압력평형 중 살수밸브·충수펌프 재순환 유입으로 RV11,21 개방 및 중수 6.5톤 누설"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "다이아프램 교체주기 재정립, 비상운전절차서 보완, 운전원 비상대응 향상 및 예비중수 추가 확보"
+        }
+      ],
+      "counterevidence_or_limitation": "상세 조사보고서(운전원 대응 시퀀스) 확보 시 재평가 필요."
+    },
+    {
+      "review_key": "ROOT-037-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "후속조치로 '운전원의 비상 대응 조치 향상 방안 강구'가 명시된 점에서 탈기응축기 Box-up 및 과압보호밸브 고착 복합상황에서의 운전원 비상대응 훈련·역량 보완 필요성이 간접 확인된다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "탈기응축기 Box-up 압력평형 중 살수밸브·충수펌프 재순환 유입으로 RV11,21 개방 및 중수 6.5톤 누설"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "다이아프램 교체주기 재정립, 비상운전절차서 보완, 운전원 비상대응 향상 및 예비중수 추가 확보"
+        }
+      ],
+      "counterevidence_or_limitation": "구체적 운전원 오류 행위는 1쪽 요약본에 상세 미수록."
+    },
+    {
+      "review_key": "ROOT-037-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "냉각재계통 과압보호밸브(PV4) 구동장치 내 다이아프램 파손 후 후속조치로 '공기구동 밸브의 다이아프램 교체주기 재정립'이 제시된 점에서 기존 경년열화·수명 관리 미흡이 간접 확인된다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "PV4 구동장치 다이아프램 파손 개방고착→가압기 수위 저하→제1·2 정지계통 작동 자동정지(05:11, INES 2등급)"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "다이아프램 교체주기 재정립, 비상운전절차서 보완, 운전원 비상대응 향상 및 예비중수 추가 확보"
+        }
+      ],
+      "counterevidence_or_limitation": "기존 교체주기 및 파손 이력은 1쪽 요약본에 미수록."
+    },
+    {
+      "review_key": "ROOT-037-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-037-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "냉각재계통 과압보호밸브(PV4) 구동장치 내 다이아프램 파손으로 개방고착이 발생하고 후속조치로 공기구동 밸브 다이아프램 교체주기 재정립이 요구된 예방정비 작업관리 미흡이 사건의 직접 원인이 되었다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "PV4 구동장치 다이아프램 파손 개방고착→가압기 수위 저하→제1·2 정지계통 작동 자동정지(05:11, INES 2등급)"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "다이아프램 교체주기 재정립, 비상운전절차서 보완, 운전원 비상대응 향상 및 예비중수 추가 확보"
+        }
+      ],
+      "counterevidence_or_limitation": "없음."
+    },
+    {
+      "review_key": "ROOT-037-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "냉각재계통 과압보호밸브(PV4) 구동장치 다이아프램 파손에 의한 개방고착, 그리고 탈기응축기 Box-up 압력평형 중 살수밸브 및 충수펌프 재순환 유량 유입으로 과압보호밸브(RV11, 21)가 개방되어 중수 6.5톤이 원자로건물 내로 누설된(INES 2등급 심층방어 손상) 설비·계통 결함이 사건의 직접 원인이 되었다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "PV4 구동장치 다이아프램 파손 개방고착→가압기 수위 저하→제1·2 정지계통 작동 자동정지(05:11, INES 2등급)"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "탈기응축기 Box-up 압력평형 중 살수밸브·충수펌프 재순환 유입으로 RV11,21 개방 및 중수 6.5톤 누설"
+        }
+      ],
+      "counterevidence_or_limitation": "제1·제2 원자로정지계통은 정상 작동함."
+    },
+    {
+      "review_key": "ROOT-037-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "후속조치로 '비상운전절차서 보완 및 재정비'가 제시된 점에서 PV4 개방고착 및 탈기응축기 압력상승 복합상황 대응 절차서의 미비가 확인된다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "탈기응축기 Box-up 압력평형 중 살수밸브·충수펌프 재순환 유입으로 RV11,21 개방 및 중수 6.5톤 누설"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [
+            1
+          ],
+          "summary": "다이아프램 교체주기 재정립, 비상운전절차서 보완, 운전원 비상대응 향상 및 예비중수 추가 확보"
+        }
+      ],
+      "counterevidence_or_limitation": "개정 전후 세부 절차 조항은 1쪽 요약본에 미수록."
+    },
+    {
+      "review_key": "ROOT-037-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    }
+  ],
+  "limitations": [
+    "본 자료는 1쪽 분량의 OPIS 사건 요약본(이미지 스캔본)으로 호기명(관리번호 1301-1994-02만 표기), 보고서 발행일 및 05:11~06:56 상세 운전조치 경위가 미수록되어 있음.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
