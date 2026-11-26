@@ -222,8 +222,33 @@
         "제출 progress(1).json의 ROOT-009 constraints에 ROOT-008 내용이 남아 있어 원본은 별도 보존하고 활성 진행기록의 제약사항은 ROOT-009 review.json 및 validation.md에 근거하여 기록함"
       ],
       "integration_status": "HOLD"
+    },
+    {
+      "queue_id": "ROOT-010",
+      "event_id": "200719HU6",
+      "status": "STORED",
+      "artifact_paths": [
+        "claude/cases/2020/200719HU6/v1/report.md",
+        "claude/cases/2020/200719HU6/v1/review.json",
+        "claude/cases/2020/200719HU6/v1/excel_import.csv",
+        "claude/cases/2020/200719HU6/v1/validation.md"
+      ],
+      "zip": "CLAUDE_ROOT-010_200719HU6_v1.zip",
+      "github_commit_sha": null,
+      "checks": "Original validation.md; intake and submitted progress discrepancy in INTAKE_STATUS.json.",
+      "constraints": [
+        "PDF 바이너리 미접근: sha256=null, PDF_READ_HASH_UNAVAILABLE",
+        "물리 페이지 미확인(인쇄쪽 최대 53, 큐 기대 물리쪽 54); 실제 참조 인쇄쪽 1~51, 인쇄쪽 경계 ±1쪽 가능",
+        "Drive 파일 크기 1,597,832 bytes 일치라는 제출자 진술은 판본 확인을 대체하지 않음",
+        "표지부터 붙임 16까지 텍스트 판독이라는 제출자 진술; 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원",
+        "정비 작업 오류와 설계·임시변경 시공오류 중심 보고서; N 22개",
+        "이전 ROOT-038 교육영상 전사문 노출 사실 공개; ROOT-010 분석에 미사용이라는 제출자 진술; 독립성 확인 대기",
+        "제출 progress (1)(1).json의 ROOT-010 constraints에 ROOT-008 내용이 남아 있어 원본은 별도 보존하고 활성 진행기록의 제약사항은 ROOT-010 review.json 및 validation.md에 근거하여 기록함"
+      ],
+      "integration_status": "HOLD",
+      "commit_reference_note": "Commit recorded in follow-up."
     }
   ],
-  "next_queue_id": "ROOT-010",
+  "next_queue_id": "ROOT-011",
   "next_status": "NOT_STARTED"
 }
