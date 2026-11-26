@@ -5,18 +5,13 @@
   "branch": "main",
   "total_cases": 38,
   "summary": {
-    "analysis_completed_count": 33,
-    "github_stored_count": 33,
+    "analysis_completed_count": 38,
+    "github_stored_count": 38,
     "exported_pending_upload_count": 0,
-    "not_started_count": 5,
+    "not_started_count": 0,
     "blocked_count": 0
   },
-  "next_case": {
-    "queue_id": "ROOT-033",
-    "event_id": "020405U4",
-    "event_year": 2002,
-    "drive_filename_hint": "2002-04-05_울진 4호기 증기발생기 세관 손상.pdf"
-  },
+  "next_case": null,
   "updated_at": "2026-11-26",
   "cases": [
     {
@@ -485,66 +480,71 @@
       "queue_id": "ROOT-033",
       "event_id": "020405U4",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "PASS",
       "artifact_path": "gemini/cases/2002/020405U4/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
+      "zip_filename": "GEMINI_ROOT-033_020405U4_v1.zip",
+      "github_commit_sha": "d11e224da3fa0c48f169684849318fdf44873fd5",
+      "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "updated_at": "2026-11-26",
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-034",
       "event_id": "001117K1",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "PASS",
       "artifact_path": "gemini/cases/2000/001117K1/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
+      "zip_filename": "GEMINI_ROOT-034_001117K1_v1.zip",
+      "github_commit_sha": "4ebce09c49d99629be8f8705a80a945dd1be70d4",
+      "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "updated_at": "2026-11-26",
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-035",
       "event_id": "990323Y2",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "PASS",
       "artifact_path": "gemini/cases/1999/990323Y2/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
+      "zip_filename": "GEMINI_ROOT-035_990323Y2_v1.zip",
+      "github_commit_sha": "4e8f2797e930e081eed8e88e110ad9dfb7d9ba7f",
+      "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "updated_at": "2026-11-26",
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-036",
       "event_id": "970117-1502",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "PASS",
       "artifact_path": "gemini/cases/1997/970117-1502/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
+      "zip_filename": "GEMINI_ROOT-036_970117-1502_v1.zip",
+      "github_commit_sha": "2f1509f68b98de03239568584d933613544b2be4",
+      "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "updated_at": "2026-11-26",
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-037",
       "event_id": "941020-1301",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "PASS",
       "artifact_path": "gemini/cases/1994/941020-1301/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
+      "zip_filename": "GEMINI_ROOT-037_941020-1301_v1.zip",
+      "github_commit_sha": "1c277f5dadd32cb88672630f2731233b6143e022",
+      "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "updated_at": "2026-11-26",
+      "integration_status": "PENDING_INTEGRATION"
     }
   ]
 }
