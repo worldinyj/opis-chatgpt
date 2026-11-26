@@ -5,17 +5,17 @@
   "branch": "main",
   "total_cases": 38,
   "summary": {
-    "analysis_completed_count": 31,
-    "github_stored_count": 31,
+    "analysis_completed_count": 32,
+    "github_stored_count": 32,
     "exported_pending_upload_count": 0,
-    "not_started_count": 7,
+    "not_started_count": 6,
     "blocked_count": 0
   },
   "next_case": {
-    "queue_id": "ROOT-031",
-    "event_id": "051106W1",
-    "event_year": 2005,
-    "drive_filename_hint": "2005-11-06_월성1호기 비상발전기실 스프링클러 오작동에 의한 원자로격물 격리 신호 ᄇ.pdf"
+    "queue_id": "ROOT-032",
+    "event_id": "031229Y5",
+    "event_year": 2003,
+    "drive_filename_hint": "2003-12-29_영광5호기_탈염수_공급_모관_방사능_검출_원인_조사_위한_원자로_수동_정지.pdf"
   },
   "updated_at": "2026-11-26",
   "cases": [
@@ -457,14 +457,15 @@
       "queue_id": "ROOT-031",
       "event_id": "051106W1",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "PASS",
       "artifact_path": "gemini/cases/2005/051106W1/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
+      "zip_filename": "GEMINI_ROOT-031_051106W1_v1.zip",
+      "github_commit_sha": "d8b7e59eb0113fededfee5cea8f79045ad203a79",
+      "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "updated_at": "2026-11-26",
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-032",
