@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "model": "GEMINI",
+  "queue_id": "ROOT-002",
+  "event_id": "240908HB6",
+  "artifact_status": "STORED",
+  "integration_status": "PENDING_INTEGRATION",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "SELF_ATTESTED_NO_OTHER_AI_OUTPUTS_SEEN",
+  "source_verification": "BINARY_HASH_VERIFIED",
+  "reported_hash_matches_queue": true,
+  "reported_pages_match_queue": true,
+  "source_zip": "GEMINI_ROOT-002_240908HB6_v1.zip",
+  "source_zip_sha256": "91a09731c563a01e6c5cee17ec794bb998a1af816ee84433302e14c4a4906b9e",
+  "files": [
+    {
+      "name": "report.md",
+      "blob": "0e054050e73290c49fd68bcf86462e9856b3a265",
+      "sha256": "eaeb40f70a7dd82aa19d6c8b8473a0107ac111d21fc8f66725ba3d14729f90dc"
+    },
+    {
+      "name": "review.json",
+      "blob": "67b062e3c2ba4902f80ccb8c6a895e1385dce0f6",
+      "sha256": "889781dac8acf037dc5b89d73ca55e8e91cb6fbf1e5c98f7a5509d233f478546"
+    },
+    {
+      "name": "excel_import.csv",
+      "blob": "f2db4611577d895c4e4d36bb10af7997ed8e40e9",
+      "sha256": "23f2d0fc96d440a1ab6b81afad43794101583e52fbc9947ea21a8f601243e7f7"
+    },
+    {
+      "name": "validation.md",
+      "blob": "b7d9ea9721fb7c47f430b646157337d5a56756bc",
+      "sha256": "18c3e57bb6c0ead1080b8624e65c586db29db5419607a5fd0a74ade7f39fb67c"
+    }
+  ],
+  "role_counts": {
+    "I": 4,
+    "A": 3,
+    "H": 3,
+    "D": 9,
+    "N": 19,
+    "P": 2
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "schema_keyword_subset": "PASS",
+    "csv_json_decision_rationale": "MATCH",
+    "fact_count": 12,
+    "fact_reference_check": "PASS",
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Gemini's reported original PDF hash and page count match queue; original PDF bytes not independently rehashed during intake.",
+    "Independence is model self-attestation; no semantic source reinspection or expert approval.",
+    "This is storage and structural intake only; not an automatic consensus vote or release approval."
+  ],
+  "approved": false,
+  "can_ship": false
+}

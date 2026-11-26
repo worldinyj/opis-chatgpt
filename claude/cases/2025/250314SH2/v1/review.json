@@ -1,0 +1,1574 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-005",
+  "event_id": "250314SH2",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2025-03-14_신한울2호기 보조건물 관리구역 정상배기 공기정화기 입구 방사선감시기 경보 발생 사건조사 보고서_OPIS.pdf",
+    "report_number": "2025-03",
+    "report_date": "2025-08-13",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 요약, 1~4장, 붙임 목록, 비공개 처리 사유서; 인쇄쪽 1~30 범위). 붙임 1~7의 이미지·도면은 미확인. 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-005 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다. 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-005의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "신한울2호기(APR1400) 원자로 정지 후(운전모드 5, 출력 0 %) 2025.3.14 03:35경 화학 및 체적 제어계통(CVCS) 정화이온교환기 후단 시료를 채취하는 과정에서 원자로냉각재계통(RCS) 내 기체 방사성물질이 보조건물 관리구역으로 누출되어 정상배기 공기정화기 입구 방사선감시기 기체 채널(RE-013G)에서 경보가 발생했다. 고방사선경보 작동에 해당하는 보고대상 사건이다(보고서 2025-03호, 발행 2025-08-13).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "RE-013G 경보 발생과 보고대상(별표 3.4 가목) 해당"
+        },
+        {
+          "section": "표지·사건 요약(쪽번호 없음)",
+          "printed_pages": [],
+          "pdf_pages": [],
+          "summary": "보고서 번호 2025-03호(250314SH2), 사건명, 운전모드 5(상온정지)/0 %"
+        }
+      ],
+      "limitation": "표지 제목에 '2024.03.14.'로 표기된 부분이 있으나 본문·번호는 2025.03.14이며 본문 기준을 따랐다. 발견 시각 03:35는 보고서 요약 표기이다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "원자로냉각재펌프 01A 밀봉수 주입배관 누설로 2025.3.12 12:35 원자로를 수동 정지(출력 94.46 %→0 %)했고 3.13 06:37 운전모드 5에 도달했다. 정지 후 RCS 냉각·감압 중 가압기 증기영역 용존 수소 배기운전과 1차측 시료채취를 병행했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            1,
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "수동정지와 모드 5 도달"
+        },
+        {
+          "section": "3.1.1 RE-013G/014G 작동 현황",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "배기운전과 시료채취 병행"
+        }
+      ],
+      "limitation": "정비 대상 누설 자체의 경위는 이 사건 조사 범위 밖이다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "정지 후 1차측 시료는 4시간 주기로 총 5회(3.13 10:30, 14:38, 21:05, 3.14 00:15, 03:20) 채취했다. 매회 가압기 증기영역 배기운전을 중단하고 RCS 고온관 시료를 채취한 뒤 CVCS 정화이온교환기 후단 시료를 기기배수탱크(EDT)로 배수하며 채취하고, 종료 후 배기운전을 재개하는 순서를 반복했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 배열·시료채취 반복"
+        },
+        {
+          "section": "3.1.1 RE-013G/014G 작동 현황",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "5회 시료채취와 반복 순서"
+        }
+      ],
+      "limitation": "밸브 조작의 세부 순서는 설비 조작 재현을 피하기 위해 요약만 기록한다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "RE-013G는 1회차(10:30경) 미세 증가 후 감소, 2회차(14:38경) 경고(약 111초), 3회차(21:05경) 경고(약 87초), 4회차(00:15경) 경고 미만 증가, 5회차(03:20경) 경고와 경보(경보 약 57초) 순으로 반응했고, 원인 파악 과정(05:05경)에서도 경고·경보(경보 약 66초)가 발생했다. 경보 시 주변 시료에서 133Xe·135Xe 등이 검출되었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "회차별 감시기 반응(시계열)"
+        },
+        {
+          "section": "3.1.1 RE-013G/014G 작동 현황",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "회차별 경고·경보 지속 시간과 시료 분석 결과"
+        }
+      ],
+      "limitation": "2.2와 3.1.1의 감시기 반응 시각이 약 5분 차이(예: 14:54:33 vs 14:59:32)로 서로 달라 기준 시각 차이가 있는 것으로 보이며 보고서는 이유를 설명하지 않는다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "방사선안전부는 3.13 14:55경·21:23경 경고에서 감시기 기능 이상 없음과 주변 시료 검출하한치 미만을 확인하고 절차서에 따라 실제 경고가 아닌 것(오경보)으로 판단했다. 경보(3.14 03:35경·05:06경)에서는 제논이 검출되어 실제 누출로 판단했다. KINS는 앞선 두 경고도 기체 방사성물질이 실제 누출되어 감시기가 작동한 것이며, 검출하한치 미만이어도 실제 누출로 보아 누출 개소·원인을 식별하고 배출량 평가에 반영하도록 절차서를 개선할 필요가 있다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.4.1 방사선안전부 대응조치 검토",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "경고 시 오경보 판단과 KINS의 절차서 개선 필요성"
+        }
+      ],
+      "limitation": "절차서 번호·세부 문구는 비공개 처리되어 있다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "발전부는 경고 단계부터 비정상 절차서를 선제 적용해 방사선안전부 통보, 보건물리실에 작업·출입 확인과 시료 채취·분석을 요청했고, 누출 지점이 파악되지 않아 절차서를 계속 수행 중인 상태로 두었다. 05:06 경보 시 정상배기 공기정화기를 비상배기 공기정화기로 교체 운전했다. KINS는 절차에 따라 조치한 것으로 확인하되 방사선안전부 등 관련 부서와의 유기적 협조로 누출 개소와 원인을 식별할 수 있도록 절차서를 보완할 필요가 있다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.4.2 발전부 대응조치 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "발전부 대응과 KINS의 협조 체계 보완 필요성"
+        }
+      ],
+      "limitation": "발전부와 방사선안전부 간 실제 협의 내용은 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F07",
+      "summary": "3.14 03:34 경보 뒤 03:55경 가압기 증기영역 배기운전 배열을 다시 구성했고, 05:05경에는 경보 원인을 확인하기 위해 시료 배수 유로(EDT)를 점검 목적으로 다시 형성했으며 이때 RE-013G 경보가 재발했다. 소외로 배출된 최대 방사능 농도(8.131×10^5 Bq/㎥)는 이 원인 파악 과정에서 발생한 것으로 평가되었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "03:55 재배열, 05:05 점검 목적 유로 형성과 경보"
+        },
+        {
+          "section": "3.1.1 RE-013G/014G 작동 현황",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "원인 파악 과정의 경보 재발"
+        },
+        {
+          "section": "3.5 방사선 영향",
+          "printed_pages": [
+            18
+          ],
+          "pdf_pages": [],
+          "summary": "최대 방사능 농도가 원인 파악 과정에서 발생"
+        }
+      ],
+      "limitation": "원인 파악 행위의 승인·검토 절차는 보고서에 기술되지 않았다. KINS는 이 행위를 문제로 지적하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F08",
+      "summary": "KINS가 적절하다고 판단한 원인: 연료결함(2024.4.14경 징후)으로 RCS 기체 방사성물질 농도가 높은 상태에서 가압기 증기영역 배기운전 중 시료채취계통 배관으로 유입된 기체가 시료채취 모관과 두 배수 밸브 사이 배관에 정체되었고, 이후 정화이온교환기 후단 시료를 EDT로 배수할 때 이 기체가 재순환배수모관을 거쳐 CVCS 필터 Room Vent와 붕산수보충펌프·수용펌프 축 밀봉부를 통해 보조건물 정상배기 공기정화기로 이동했다. 누출 핵종은 133Xe, 133mXe, 135Xe이다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.2 기체 방사성물질 누출 경로 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "연료결함 이력과 기체 유입·정체 경로, KINS 판단"
+        },
+        {
+          "section": "3.1.3 유입 경로 상세 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "배관 점검·도면 검토·가압시험으로 상세 경로 확인"
+        }
+      ],
+      "limitation": "도면·붙임의 경로 그림은 직접 확인하지 못했다."
+    },
+    {
+      "id": "CLAUDE-F09",
+      "summary": "APR 원전(새울 1,2호기, 신한울 1,2호기)의 1차측 시료채취 절차서는 정화이온교환기 후단 시료 배수 유로로 체적제어탱크(VCT) 또는 EDT 중 하나를 선택하도록 하되 붕소농도만 고려하도록 기술하고 연료결함으로 RCS 기체 방사성물질 농도가 높아진 상황의 고려사항은 없었다. OPR 원전 절차서는 VCT 배수를 명시하고 새울 1,2호기는 같은 절차를 갖고도 VCT로 배수했으나 신한울 1,2호기는 사건 전후 모두 EDT로 배수했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.1.4 RE-013G 경보 발생 원인",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "절차서의 배수 유로 선택 기준과 유사 원전 운영 차이"
+        }
+      ],
+      "limitation": "절차서 원문은 비공개 처리되어 직접 확인하지 못했고 원전운영자 설명을 KINS가 적절하다고 판단한 내용에 의존한다."
+    },
+    {
+      "id": "CLAUDE-F10",
+      "summary": "EDT 배수는 재순환배수모관을 거쳐 CVCS 필터 배수·Room Vent 등 기기 간 간섭이 발생할 수 있으나 VCT 배수는 간섭 없이 바로 연결되어 연료결함 상황에서도 기체 누출 우려가 없다. 신한울2호기는 2024.4.14경 연료결함 발생 후 출력이 급변한 3차례 상황으로 정상 출력운전 대비 RCS 기체 방사성물질 농도가 상당히 증가한 상태였으며, 이를 고려하지 않고 EDT를 선택한 것은 적절하지 못했다는 원전운영자 분석을 KINS가 적절하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.4 RE-013G 경보 발생 원인",
+          "printed_pages": [
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "VCT·EDT 배수 유로 차이, 연료결함 상황 고려 미흡, KINS 판단"
+        }
+      ],
+      "limitation": "원전운영자 분석을 KINS가 수용한 형식이며 선택 주체·시점은 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F11",
+      "summary": "원전운영자는 사건 원인을 연료결함으로 RCS 기체 방사성물질 농도가 높아진 상태에서, 가압기 증기영역 배기운전으로 유입된 기체가 시료채취계통 배관 내에 정체되어 있었음을 고려하지 못한 채 정화이온교환기 후단 시료 배수 유로로 EDT를 선택한 것으로 제시했다.",
+      "kind": "OPERATOR_STATEMENT",
+      "source_refs": [
+        {
+          "section": "3.1.4 RE-013G 경보 발생 원인",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "정체된 기체를 고려하지 못한 채 EDT 선택"
+        }
+      ],
+      "limitation": "원전운영자 설명이며 KINS는 3.1.4 절의 분석을 적절하다고 판단했다."
+    },
+    {
+      "id": "CLAUDE-F12",
+      "summary": "사건 전 3.13 06:37경 복합건물 공기정화기 덕트 정비 완료 후 기체 폐기물처리계통 내 형성된 부압 조건을 해소하지 않은 채 VCT 퍼지운전을 수행하여 06:46경 기체 폐기물처리계통 배기감시기 경고가 발생했고, 이에 VCT 퍼지운전을 중단하여 VCT에서 기체 폐기물처리계통으로의 유로가 차단되었다. 이후 가압기 증기영역 배기운전 시에는 VCT로의 유로만 형성된 상태였다. 화학기술부는 기체 폐기물처리계통으로의 유로가 차단된 상황을 인지하지 못한 채 발전부에 배기운전을 요청했다.",
+      "kind": "OPERATOR_STATEMENT",
+      "source_refs": [
+        {
+          "section": "3.1.2 기체 방사성물질 누출 경로 검토",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "부압 미해소 VCT 퍼지, 유로 차단, 화학기술부의 미인지"
+        }
+      ],
+      "limitation": "원전운영자의 설명이며 KINS는 3.1.2의 원인 분석이 적절하다고 판단했다. 사건과의 인과 크기는 보고서가 정량화하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F13",
+      "summary": "원전운영자는 연료결함 징후 확인 시점부터 사건 직전까지 연료결함 운전 조치단계 2 또는 3을 적용했다: 정상 시 주 1회인 1차측 시료채취 주기를 6시간 또는 24시간으로 단축하고 RCS 정화유량을 약 300 L/min에서 약 520·400 L/min으로 증가시켰으며, 원자로 정지 후에는 4시간 주기로 단축했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.1.2 기체 방사성물질 누출 경로 검토",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "연료결함 대응 운전 조치단계와 시료채취 주기 단축"
+        }
+      ],
+      "limitation": "이 조치들이 시료 배수 유로 선택 기준에 영향을 주도록 연결되지는 않았다(CLAUDE-F09, CLAUDE-F10)."
+    },
+    {
+      "id": "CLAUDE-F14",
+      "summary": "연료결함 발생 이후 사건 직전까지의 감시기 이력을 사건 후 점검한 결과 3차례의 지시값 변화가 있었다: 2024.4.18 정화이온교환기 교체운전 배기 시 RE-013G가 경고 설정치 이상으로 일시 증가, 4.26 유사 작업 시 일시 증가, 6.13 터빈 정지에 따른 VCT 우회로 수용탱크 압력 증가 시 RE-014G 일시 증가. 새울 1호기의 연료결함 이력에서는 특이사항이 없었다(결함 수준 약 1/20).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.2 이동 경로 확대 검토",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "2024년 감시기 지시값 변화 3건과 새울 1호기 비교"
+        }
+      ],
+      "limitation": "당시 이 변화가 어떻게 평가·조치되었는지는 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F15",
+      "summary": "설계사와 원전운영자는 핵연료 1 % 손상과 1차 계통에서 보조건물로의 누설을 가정한 방법론으로 유출물 감시계통을 설계했으며 1차 계통에서 보조건물로 누설될 수 있는 개별 경로는 고려하지 않았다. KINS는 설계 관점에서 일반인 선량 제한치는 충분히 만족했다고 판단하되 식별된 경로를 포함해 정비·운영 과정의 기체 방사성물질 누출을 최소화할 대책 수립이 필요하다고 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.3 계통 설계 사항 검토",
+          "printed_pages": [
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "설계 가정, 개별 누출 경로 미고려, KINS의 대책 필요 판단"
+        }
+      ],
+      "limitation": "설계사의 평가 문서는 직접 확인하지 못했다."
+    },
+    {
+      "id": "CLAUDE-F16",
+      "summary": "KINS는 연료결함으로 RCS 내 기체 방사성물질이 다량 존재하는 상황에서는 가압기 증기영역 배기운전과 EDT 배수 시료채취의 교번 수행뿐 아니라 CVCS 정화이온교환기·필터 교체운전의 배기 과정과 VCT 우회 운전에서도 기체 방사성물질이 보조건물 정상배기 공기정화기로 누출될 가능성이 있다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2 이동 경로 확대 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "다른 작업에서의 유사 누출 가능성에 대한 KINS 판단"
+        }
+      ],
+      "limitation": "가능성 판단이며 실제 추가 누출 사례를 확인한 것은 아니다."
+    },
+    {
+      "id": "CLAUDE-F17",
+      "summary": "영향은 미미한 것으로 평가되었다: 누출 핵종은 133Xe(97.8 %), 133mXe(1.3 %), 135Xe(0.9 %)이고 제한구역경계에서 배출제한계수 합은 최대 0.00908(약 1/110), 소외 배출 총량 5.111×10^10 Bq는 연간 배출제한치(8.00×10^13 Bq)의 약 0.064 %, 제한구역경계 유효선량 7.34×10^-7 mSv이며 환경방사선감시기에는 특이사항이 없었다. 출입 작업자 76명의 최대 선량은 0.22 mSv, 집단선량은 1.93 man·mSv이고 발전소 안전기능에 영향은 없었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.5 방사선 영향",
+          "printed_pages": [
+            17,
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "핵종·농도·총량·선량 평가와 작업자 피폭 평가"
+        },
+        {
+          "section": "3.6 예상 사건등급(INES) 검토",
+          "printed_pages": [
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "발전소 안전기능에 영향 없음"
+        }
+      ],
+      "limitation": "수치는 원전운영자 평가를 KINS가 검토한 결과이며 재계산하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F18",
+      "summary": "KINS는 환경·주민에 미친 영향이 없어 심층방어 영향을 기준으로 사건등급을 평가할 수 있다고 사전 검토했으나 등급 수치는 제시하지 않았고 최종 등급은 추후 원전사건등급평가위원회가 결정한다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.6 예상 사건등급(INES) 검토",
+          "printed_pages": [
+            19,
+            20
+          ],
+          "pdf_pages": [],
+          "summary": "INES 사전 검토와 최종 결정 예정"
+        }
+      ],
+      "limitation": "이 분석은 INES 등급을 판단하지 않는다."
+    },
+    {
+      "id": "CLAUDE-F19",
+      "summary": "원전운영자가 완료한 단기조치 6건: 연료결함 시 시료 배수 유로를 VCT로 지시하는 운전권고서 발행·적용, 시료채취 중 감시기 경보 운전경험 긴급전파, 시료채취 절차 보완, 보조건물 기체 방사성물질 모니터링 강화, 검출하한치 미만 경우 포함 대응조치 개선, 누출 시 배출량 평가·연간 배출량 반영.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.7 재발방지대책 적절성 검토",
+          "printed_pages": [
+            20,
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "단기조치 6건 내용"
+        }
+      ],
+      "limitation": "개정 완료 시점·시행 확인 자료는 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F20",
+      "summary": "예정된 중장기 조치: 연료결함 발생 시 발전소 대응지침 개발(~2025.10)로 감시기 모니터링 강화, 감시기 지시값 증가 시 조치, Room Vent·수용탱크 상부 Vent Line 누출 최소화 운전전략을 수립한다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.7 재발방지대책 적절성 검토",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "중장기 조치 1건"
+        }
+      ],
+      "limitation": "예정 사항이며 완료로 취급하지 않는다."
+    },
+    {
+      "id": "CLAUDE-F21",
+      "summary": "KINS는 파악된 원인요소에 근거하여 원전운영자의 재발방지대책이 적절하다고 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "4. 결론",
+          "printed_pages": [
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        },
+        {
+          "section": "표지·사건 요약(쪽번호 없음)",
+          "printed_pages": [],
+          "pdf_pages": [],
+          "summary": "요약의 조치 적절성 판단"
+        }
+      ],
+      "limitation": "KINS의 조치 적절성 판단이며 대책의 효과를 이 분석이 검증한 것은 아니다."
+    },
+    {
+      "id": "CLAUDE-F22",
+      "summary": "KINS는 방사선안전부와 발전부가 경고·경보 시 해당 절차서에 따라 감시기 기능 확인, 주변 시료 채취·분석, 통보, 비상배기 공기정화기 교체운전 등을 수행한 것으로 확인했다. 연료결함에 대응한 시료채취 주기 단축·정화유량 증가가 이행되었고(CLAUDE-F13) 해당 경고 단계에서 절차서를 선제 적용했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.4.1 방사선안전부 대응조치 검토",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "방사선안전부의 절차 이행"
+        },
+        {
+          "section": "3.4.2 발전부 대응조치 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "발전부의 절차 이행과 선제 적용"
+        }
+      ],
+      "limitation": "절차서 번호·세부 문구는 비공개 처리되어 있다."
+    },
+    {
+      "id": "CLAUDE-F23",
+      "summary": "사건 후 원인 확인을 위해 EDT 배수 유로 배관 육안점검, 도면 검토, 재순환배수모관 가압시험을 수행했다. 가압시험 시 Room Vent 6개소 중 5개소를 밀봉하고 1개소에 압축공기를 주입하자 펌프실 공간방사선량이 증가해 RE-014G 경고가 발생했고 펌프 4대 축 밀봉부에서 기포가 확인되어 Room Vent 외 경로(축 밀봉부)가 식별되었다. 이 시험에서 기체 방사성물질은 소외로 배출되지 않았다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3 유입 경로 상세 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "육안점검·도면 검토·가압시험과 추가 경로 식별"
+        },
+        {
+          "section": "3.5 방사선 영향",
+          "printed_pages": [
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "가압시험 과정에서 소외 배출 없음"
+        }
+      ],
+      "limitation": "시험 방법의 세부는 재현하지 않는다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-005-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "방사선안전부와 발전부는 경고·경보 때마다 해당 절차서에 따라 감시기 기능 확인, 주변 시료 채취·분석, 부서 통보, 비상배기 교체운전을 수행했고 발전부는 경고 단계부터 비정상 절차서를 선제 적용했다(CLAUDE-F22, CLAUDE-F06). 규정·절차의 중요성을 인식하고 준수하는 행동의 긍정 근거이며 미진 후보로 채택할 근거는 없다.",
+      "fact_ids": [
+        "CLAUDE-F22",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.4.1 방사선안전부 대응조치 검토",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "방사선안전부의 절차 이행"
+        },
+        {
+          "section": "3.4.2 발전부 대응조치 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "발전부의 절차 이행과 선제 적용"
+        }
+      ],
+      "counterevidence_or_limitation": "절차 이행이 곧 안전한 판단을 뜻하지는 않는다. 절차 자체의 한계(오경보 판단 기준 등)는 WP3에서 평가했다."
+    },
+    {
+      "review_key": "ROOT-005-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "업무 책임의식과 관련하여 미진 또는 긍정을 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "화학기술부는 VCT 퍼지 중단으로 기체 폐기물처리계통 유로가 차단된 상황을 인지하지 못한 채 발전부에 가압기 배기운전을 요청했고(CLAUDE-F12), KINS는 경고·경보 발생 시 방사선안전부를 포함한 관련 부서와의 유기적 협조로 누출 개소와 원인을 식별하도록 절차서 보완이 필요하다고 판단했다(CLAUDE-F06). 정의의 '업무에 대해 조직 안팎으로 소통하고 협력'과 직접 연결된다. 정보 공유 내용(CO3)과 구분하여, 여기서는 부서 간 협력 체계의 미진을 본다.",
+      "fact_ids": [
+        "CLAUDE-F06",
+        "CLAUDE-F12"
+      ],
+      "source_refs": [
+        {
+          "section": "3.4.2 발전부 대응조치 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "발전부 대응과 KINS의 협조 체계 보완 필요성"
+        },
+        {
+          "section": "3.1.2 기체 방사성물질 누출 경로 검토",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "부압 미해소 VCT 퍼지, 유로 차단, 화학기술부의 미인지"
+        }
+      ],
+      "counterevidence_or_limitation": "발전부는 방사선안전부 통보와 시료분석 요청을 수행했다(CLAUDE-F06). 협력의 실제 부재가 아니라 체계 보완 필요로 서술되어 있어 개인·부서 책임을 추정하지 않는다."
+    },
+    {
+      "review_key": "ROOT-005-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "연료결함 징후 이후 시료채취 주기를 단축하고 정화유량을 높이는 운전 조치단계를 적용하여 연료결함이 RCS 방사능 준위와 기체 거동에 영향을 준다는 점을 반영했다(CLAUDE-F13). 계통 조건 변화가 예상치 못한 영향을 낳을 수 있다는 인식의 긍정 근거이다.",
+      "fact_ids": [
+        "CLAUDE-F13"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2 기체 방사성물질 누출 경로 검토",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "연료결함 대응 운전 조치단계와 시료채취 주기 단축"
+        }
+      ],
+      "counterevidence_or_limitation": "이 인식이 시료 배수 유로 선택으로 이어지지 않았다(CLAUDE-F10). 따라서 이 속성이 전반적으로 양호하다는 의미는 아니며 QA4에서 별도로 평가한다."
+    },
+    {
+      "review_key": "ROOT-005-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "2회차·3회차 시료채취에서 경고가 발생했으나 검출하한치 미만이라 오경보로 판단되었고(CLAUDE-F05) 같은 방식의 시료채취가 4회차·5회차로 이어져 5회차에서 경보가 발생했다(CLAUDE-F04). 경보 후 03:55에 배기운전 배열을 재구성했고 05:05에는 경보 재현 여부를 확인하려고 배수 유로를 다시 형성하여 경보가 재발했으며 최대 소외 농도가 이 과정에서 발생했다(CLAUDE-F07). 정의의 '불확실할 경우 작업을 중단하고 재개 전 리스크를 평가·관리'에서 경고 반복 시 작업 방식의 재평가가 이루어지지 않은 사례로 연결한다(중단과 재평가를 분리 평가).",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F05",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "회차별 감시기 반응(시계열)"
+        },
+        {
+          "section": "3.1.1 RE-013G/014G 작동 현황",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "회차별 경고·경보 지속 시간과 시료 분석 결과"
+        },
+        {
+          "section": "3.4.1 방사선안전부 대응조치 검토",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "경고 시 오경보 판단과 KINS의 절차서 개선 필요성"
+        },
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "03:55 재배열, 05:05 점검 목적 유로 형성과 경보"
+        },
+        {
+          "section": "3.1.1 RE-013G/014G 작동 현황",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "원인 파악 과정의 경보 재발"
+        },
+        {
+          "section": "3.5 방사선 영향",
+          "printed_pages": [
+            18
+          ],
+          "pdf_pages": [],
+          "summary": "최대 방사능 농도가 원인 파악 과정에서 발생"
+        }
+      ],
+      "counterevidence_or_limitation": "각 작업은 절차서 범위 안에서 이루어졌고 정지 후 4시간 주기 시료채취는 필요한 업무였다. 05:05 행위는 원인 확인 목적이었으며 KINS는 이를 문제로 지적하지 않았다. 당시 판단 과정은 보고서에 없고 인지·의도는 추정하지 않는다. DM2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-005-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "'시료분석 결과가 검출하한치 미만이면 실제 경고가 아니다'라는 판단 가정이 두 차례 경고에서 사용되었고 KINS는 이 가정이 실제와 달랐다고 평가했다(CLAUDE-F05). 그러나 정의는 정확하지 않다고 판단될 때 의문 제기와 반대의견 제시이며 누가 의문을 제기했거나 억제했는지에 대한 조사 사실이 없다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.4.1 방사선안전부 대응조치 검토",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "경고 시 오경보 판단과 KINS의 절차서 개선 필요성"
+        }
+      ],
+      "counterevidence_or_limitation": "면담 기록 등 별도 근거가 필요하다. 가정의 부정확성 자체는 WP3(절차서 판단 기준)에서 평가했다."
+    },
+    {
+      "review_key": "ROOT-005-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원전운영자의 분석(KINS가 적절하다고 판단)은 가압기 배기운전으로 유입된 기체가 시료채취 배관 내에 정체되어 있었음을 고려하지 못한 채 EDT를 선택했고(CLAUDE-F11), 연료결함과 출력 급변 이력으로 RCS 기체 농도가 높았음에도 이를 고려하지 못한 것이 적절하지 못했다고 평가했다(CLAUDE-F10). 절차서도 연료결함 상황의 고려사항이 없었다(CLAUDE-F09). 정의의 '발생 가능한 실수·잠재적 문제와 리스크를 인지하고 대비'에서 기체 정체와 누출 가능성에 대한 인지·대비 부족으로 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F09",
+        "CLAUDE-F10",
+        "CLAUDE-F11"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 RE-013G 경보 발생 원인",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "절차서의 배수 유로 선택 기준과 유사 원전 운영 차이"
+        },
+        {
+          "section": "3.1.4 RE-013G 경보 발생 원인",
+          "printed_pages": [
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "VCT·EDT 배수 유로 차이, 연료결함 상황 고려 미흡, KINS 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "연료결함 대응 운전 조치(CLAUDE-F13)는 이행되고 있었다. 보고서의 표현은 '고려 미흡'이며 심리 상태나 자만은 추정하지 않는다. DM1·DM2와 사실을 공유하므로 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-005-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "VCT 퍼지 중단 후 유로 차단 상황이 화학기술부에 전달되지 않은 점(CLAUDE-F12)과 경고 발생 시 부서 간 협조 보완 요구(CLAUDE-F06)는 업무 중 안전 관련 소통과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F12",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2 기체 방사성물질 누출 경로 검토",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "부압 미해소 VCT 퍼지, 유로 차단, 화학기술부의 미인지"
+        },
+        {
+          "section": "3.4.2 발전부 대응조치 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "발전부 대응과 KINS의 협조 체계 보완 필요성"
+        }
+      ],
+      "counterevidence_or_limitation": "같은 사실이 PA3(협력)·CO3(정보 공유)에서 이미 평가되어 CO1 고유의 증거(작업 전 회의, 인수인계 등)는 확인되지 않는다. 별도 근거가 있어야 판단할 수 있다."
+    },
+    {
+      "review_key": "ROOT-005-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 의사결정 근거 소통과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "3.13 06:46 기체 폐기물처리계통 배기감시기 경고로 VCT 퍼지를 중단해 해당 유로가 차단된 사실이 화학기술부에 공유되지 않은 채 가압기 증기영역 배기운전 요청이 이루어졌다(CLAUDE-F12). 정의의 '수직·수평 관계의 직원·조직과 투명하게 정보를 공유'에서 수평 부서 간 운전 상태 정보 공유가 이루어지지 않은 구체 사례로 연결한다.",
+      "fact_ids": [
+        "CLAUDE-F12"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2 기체 방사성물질 누출 경로 검토",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "부압 미해소 VCT 퍼지, 유로 차단, 화학기술부의 미인지"
+        }
+      ],
+      "counterevidence_or_limitation": "원전운영자 설명이며 KINS가 정보 공유 문제로 명시하지는 않았다. 공유되지 않은 경위(교대, 통보 방식)는 보고서에 없다. PA3과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-005-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "원자력안전 최우선 방침의 전파와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "인력·설비·예산 지원과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 현장 순시와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보상·징벌 체계와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 의사결정 시 안전 최우선 고려와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "2024.4 연료결함 이후 약 11개월간 시료채취 주기·정화유량 등 운전 조치는 변경되었으나(CLAUDE-F13) 시료 배수 유로 선택 절차에는 연료결함 상황의 고려가 반영되지 않았다(CLAUDE-F09). 중장기로 발전소 대응지침이 개발될 예정이다(CLAUDE-F20). 플랜트 상태 변화를 체계적으로 평가·관리하는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F09",
+        "CLAUDE-F13",
+        "CLAUDE-F20"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 RE-013G 경보 발생 원인",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "절차서의 배수 유로 선택 기준과 유사 원전 운영 차이"
+        },
+        {
+          "section": "3.1.2 기체 방사성물질 누출 경로 검토",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "연료결함 대응 운전 조치단계와 시료채취 주기 단축"
+        },
+        {
+          "section": "3.7 재발방지대책 적절성 검토",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "중장기 조치 1건"
+        }
+      ],
+      "counterevidence_or_limitation": "정의의 주체는 리더이며 보고서에 리더의 변화 관리 활동에 대한 조사 사실이 없다. 절차서 미반영 문제는 WP3에서 평가했으므로 LA5 별도 적용은 전문가 판단이 필요하다."
+    },
+    {
+      "review_key": "ROOT-005-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "경고·경보 대응에서 방사선안전부(감시기 확인·시료분석)와 발전부(비정상 절차 운영)가 각각 절차를 수행했으나 누출 개소 식별 책임이 어느 부서에 있는지 불분명했다는 점을 토론할 수 있다(CLAUDE-F05, CLAUDE-F06).",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.4.1 방사선안전부 대응조치 검토",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "경고 시 오경보 판단과 KINS의 절차서 개선 필요성"
+        },
+        {
+          "section": "3.4.2 발전부 대응조치 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "발전부 대응과 KINS의 협조 체계 보완 필요성"
+        }
+      ],
+      "counterevidence_or_limitation": "보고서는 역할·책임·권한의 결함을 지적하지 않았고 협조 체계 보완만 요구했다."
+    },
+    {
+      "review_key": "ROOT-005-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "2024년 연료결함 이후 감시기 지시값 변화 3건(CLAUDE-F14)이 사건 전에 어떻게 진단·활용되었는지 토론할 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F14"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2 이동 경로 확대 검토",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "2024년 감시기 지시값 변화 3건과 새울 1호기 비교"
+        }
+      ],
+      "counterevidence_or_limitation": "해당 이력은 사건 후 점검에서 확인되었고 당시 평가·조치 여부는 보고서에 없어 지속적 진단 미진의 근거가 되지 못한다."
+    },
+    {
+      "review_key": "ROOT-005-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 솔선수범과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "시료 배수 유로는 붕소농도만을 기준으로 VCT 또는 EDT 중 선택하도록 되어 있어 연료결함·기체 정체 같은 조건을 함께 비교하는 체계적 방법이 없었고(CLAUDE-F09), 실제 선택은 연료결함 상황 고려 없이 이루어졌다(CLAUDE-F10, CLAUDE-F11). 정의의 '일관적이고 체계적인 방법'과 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F09",
+        "CLAUDE-F10",
+        "CLAUDE-F11"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 RE-013G 경보 발생 원인",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "절차서의 배수 유로 선택 기준과 유사 원전 운영 차이"
+        },
+        {
+          "section": "3.1.4 RE-013G 경보 발생 원인",
+          "printed_pages": [
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "VCT·EDT 배수 유로 차이, 연료결함 상황 고려 미흡, KINS 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "의사결정이 절차서의 기준을 따른 것이어서 결정 방법의 미비는 개인이 아니라 절차서 쪽 문제로 서술된다(WP3). QA4·DM2와 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-005-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "연료결함으로 RCS 기체 농도가 높은 상황에서 다른 APR/OPR 발전소가 VCT 배수를 택한 것과 달리 EDT를 선택했고(CLAUDE-F10, CLAUDE-F09), 경고가 반복된 뒤에도 같은 방식을 이어갔으며(CLAUDE-F04) 경보 후 원인 확인을 위해 경보 조건을 재현하는 행위로 최대 소외 농도를 발생시켰다(CLAUDE-F07). 정의의 '보수적이고 신중함 견지'와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F07",
+        "CLAUDE-F10"
+      ],
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "회차별 감시기 반응(시계열)"
+        },
+        {
+          "section": "3.1.1 RE-013G/014G 작동 현황",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "회차별 경고·경보 지속 시간과 시료 분석 결과"
+        },
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "03:55 재배열, 05:05 점검 목적 유로 형성과 경보"
+        },
+        {
+          "section": "3.1.1 RE-013G/014G 작동 현황",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "원인 파악 과정의 경보 재발"
+        },
+        {
+          "section": "3.5 방사선 영향",
+          "printed_pages": [
+            18
+          ],
+          "pdf_pages": [],
+          "summary": "최대 방사능 농도가 원인 파악 과정에서 발생"
+        },
+        {
+          "section": "3.1.4 RE-013G 경보 발생 원인",
+          "printed_pages": [
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "VCT·EDT 배수 유로 차이, 연료결함 상황 고려 미흡, KINS 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "해당 선택은 절차서가 허용한 범위였고 05:05 행위는 원인 확인 목적이었다. 소외 영향은 기준 대비 매우 작았다(CLAUDE-F17). QA2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-005-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "배수 유로를 VCT와 EDT 중 선택하는 결정을 누가 어떤 근거로 했는지가 보고서에 특정되어 있지 않아 의사결정 책임의 명확성을 토론할 수 있다(CLAUDE-F09).",
+      "fact_ids": [
+        "CLAUDE-F09"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 RE-013G 경보 발생 원인",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "절차서의 배수 유로 선택 기준과 유사 원전 운영 차이"
+        }
+      ],
+      "counterevidence_or_limitation": "보고서는 개인의 책임을 다루지 않으며 이 속성의 미진을 시사하는 조사 사실은 없다."
+    },
+    {
+      "review_key": "ROOT-005-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "상호 존중과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "의견 제기를 격려하는 환경과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "신뢰와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "갈등 해결과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "같은 APR 설계 원전인 새울 1,2호기와 OPR 원전이 VCT로 배수하고 있었다는 사실(CLAUDE-F09)과 새울 1호기의 연료결함 운영 이력(CLAUDE-F14)은 운전경험이 신한울 절차에 반영되지 않았을 가능성을 시사한다. 사건 후에는 운전경험을 긴급 전파했다(CLAUDE-F19).",
+      "fact_ids": [
+        "CLAUDE-F09",
+        "CLAUDE-F14",
+        "CLAUDE-F19"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 RE-013G 경보 발생 원인",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "절차서의 배수 유로 선택 기준과 유사 원전 운영 차이"
+        },
+        {
+          "section": "3.2 이동 경로 확대 검토",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "2024년 감시기 지시값 변화 3건과 새울 1호기 비교"
+        },
+        {
+          "section": "3.7 재발방지대책 적절성 검토",
+          "printed_pages": [
+            20,
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "단기조치 6건 내용"
+        }
+      ],
+      "counterevidence_or_limitation": "신한울이 타 발전소 운전경험을 수집·분석했는지, 어떻게 조치했는지에 대한 사건 전 조사 사실이 없다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-005-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "자체 진단과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "신한울과 새울의 시료 배수 방식 차이(CLAUDE-F09)와 새울 1호기의 연료결함 이력 비교(CLAUDE-F14)는 타 발전소 관행을 벤치마킹했다면 위험을 사전에 알 수 있었는지 토론 소재가 된다.",
+      "fact_ids": [
+        "CLAUDE-F09",
+        "CLAUDE-F14"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 RE-013G 경보 발생 원인",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "절차서의 배수 유로 선택 기준과 유사 원전 운영 차이"
+        },
+        {
+          "section": "3.2 이동 경로 확대 검토",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "2024년 감시기 지시값 변화 3건과 새울 1호기 비교"
+        }
+      ],
+      "counterevidence_or_limitation": "벤치마킹 수행 여부를 보여주는 조사 사실은 없다. 운전경험 활용은 CL1에서 평가했다."
+    },
+    {
+      "review_key": "ROOT-005-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "교육훈련과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "경고 두 건이 오경보로 분류되어 후속 원인 규명으로 이어지지 않았고(CLAUDE-F05), 2024년 감시기 지시값 변화 3건도 사건 후에야 점검되었다(CLAUDE-F14). 문제점을 도출하는 CAP 운영과 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F14"
+      ],
+      "source_refs": [
+        {
+          "section": "3.4.1 방사선안전부 대응조치 검토",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "경고 시 오경보 판단과 KINS의 절차서 개선 필요성"
+        },
+        {
+          "section": "3.2 이동 경로 확대 검토",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "2024년 감시기 지시값 변화 3건과 새울 1호기 비교"
+        }
+      ],
+      "counterevidence_or_limitation": "CAP 통지 발행·미발행 여부에 대한 조사 사실이 보고서에 없다. 오경보 판단은 절차서의 규정에 따른 것이었다."
+    },
+    {
+      "review_key": "ROOT-005-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "3.13 경고 두 건에 대해 감시기 기능 확인과 시료 분석 후 검출하한치 미만을 이유로 원인 확인 없이 종결되거나(CLAUDE-F05) 누출 지점 미확인 상태로 절차서만 수행 중으로 유지되었으며(CLAUDE-F06), 같은 작업이 반복되어 5회차에 경보가 발생했다(CLAUDE-F04). KINS는 누출 개소·원인 식별이 이루어지도록 절차 개선이 필요하다고 판단했다. 정의의 '원인분석 및 시정조치를 중요도에 맞게 철저히 평가'에서 경고 단계의 원인 평가 미진으로 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F05",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "회차별 감시기 반응(시계열)"
+        },
+        {
+          "section": "3.1.1 RE-013G/014G 작동 현황",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "회차별 경고·경보 지속 시간과 시료 분석 결과"
+        },
+        {
+          "section": "3.4.1 방사선안전부 대응조치 검토",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "경고 시 오경보 판단과 KINS의 절차서 개선 필요성"
+        },
+        {
+          "section": "3.4.2 발전부 대응조치 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "발전부 대응과 KINS의 협조 체계 보완 필요성"
+        }
+      ],
+      "counterevidence_or_limitation": "방사선안전부는 절차서대로 확인·분석했고 발전부는 절차서를 선제 적용해 누출 지점을 확인하려 했다(CLAUDE-F06). 미진은 절차서 설계 쪽에 더 가깝다. PI1·PI3과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-005-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "경고 두 건 이후에도 같은 시료채취 방식이 이어졌으나(CLAUDE-F04, CLAUDE-F05), 경고 직후 조치 적시성은 정지 후 4시간 주기 작업과 시료 분석 시간 등 보고서에 없는 요소에 좌우된다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "회차별 감시기 반응(시계열)"
+        },
+        {
+          "section": "3.1.1 RE-013G/014G 작동 현황",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "회차별 경고·경보 지속 시간과 시료 분석 결과"
+        },
+        {
+          "section": "3.4.1 방사선안전부 대응조치 검토",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "경고 시 오경보 판단과 KINS의 절차서 개선 필요성"
+        }
+      ],
+      "counterevidence_or_limitation": "경고와 이어진 작업 사이의 간격·결정 과정에 대한 조사 사실이 없어 시의 적절성을 판단할 수 없다."
+    },
+    {
+      "review_key": "ROOT-005-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "2024년 감시기 지시값 변화 3건(CLAUDE-F14)과 사건 당일 경고 반복(CLAUDE-F04)은 정보를 종합해 경향을 분석했다면 조기 파악 가능성이 있었음을 시사한다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F14"
+      ],
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "회차별 감시기 반응(시계열)"
+        },
+        {
+          "section": "3.1.1 RE-013G/014G 작동 현황",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "회차별 경고·경보 지속 시간과 시료 분석 결과"
+        },
+        {
+          "section": "3.2 이동 경로 확대 검토",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "2024년 감시기 지시값 변화 3건과 새울 1호기 비교"
+        }
+      ],
+      "counterevidence_or_limitation": "경향 분석 프로그램의 수행 여부는 보고서에 없다."
+    },
+    {
+      "review_key": "ROOT-005-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "우려 제기 정책과 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "안전건의 프로세스와 관련한 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-005-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "가압기 증기영역 배기운전과 시료채취를 4시간 주기로 교번·병행하면서 두 작업의 상호작용(기체 정체)이 계획 단계에서 평가되지 않았고(CLAUDE-F03, CLAUDE-F11), 사건 전 정비 후 부압 조건을 해소하지 않은 채 VCT 퍼지를 수행해 유로가 차단된 상태가 되었으나 이 정보가 다음 작업 계획에 반영되지 않았다(CLAUDE-F12). 정의의 '안전을 우선 고려하여 작업계획을 수립하고 시행하는 프로세스'와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F12"
+      ],
+      "source_refs": [
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 배열·시료채취 반복"
+        },
+        {
+          "section": "3.1.1 RE-013G/014G 작동 현황",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "5회 시료채취와 반복 순서"
+        },
+        {
+          "section": "3.1.2 기체 방사성물질 누출 경로 검토",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "부압 미해소 VCT 퍼지, 유로 차단, 화학기술부의 미인지"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 작업 관리 프로세스를 미흡으로 명시하지 않았고 정비 후 복구 상태 확인은 원전운영자 설명에 의존한다. WP3·DM1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-005-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "설계는 개별 누출 경로를 고려하지 않았고(CLAUDE-F15) 연료결함 상태에서는 Room Vent·펌프 축 밀봉부 등 의도하지 않은 경로로 기체가 이동할 수 있다(CLAUDE-F16). 설계 여유도와 심층 방어를 논의하는 토론 소재이다.",
+      "fact_ids": [
+        "CLAUDE-F15",
+        "CLAUDE-F16"
+      ],
+      "source_refs": [
+        {
+          "section": "3.3 계통 설계 사항 검토",
+          "printed_pages": [
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "설계 가정, 개별 누출 경로 미고려, KINS의 대책 필요 판단"
+        },
+        {
+          "section": "3.2 이동 경로 확대 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "다른 작업에서의 유사 누출 가능성에 대한 KINS 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 선량 제한치를 설계 관점에서 충분히 만족했다고 판단했고(CLAUDE-F15) 설비 변경이나 설계 여유도 위반은 없었다."
+    },
+    {
+      "review_key": "ROOT-005-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "시료채취 절차서는 배수 유로를 붕소농도만으로 선택하도록 하고 연료결함 상황을 고려하지 않았으며(CLAUDE-F09), 감시기 작동 시 시료 분석이 검출하한치 미만이면 오경보로 판단하도록 되어 있어 실제 누출이 두 차례 오경보로 분류되었다(CLAUDE-F05). 경고·경보 시 부서 협조로 누출 개소·원인을 식별하도록 절차서 보완이 필요하다고 KINS가 판단했고(CLAUDE-F06), 원전운영자는 이에 따라 절차서를 개정했다(CLAUDE-F19). 정의의 '문서 작성 및 관리는 완벽하고 정확하며 최신 상태'에서 절차서가 연료결함 상황을 반영하지 못한 직접 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F06",
+        "CLAUDE-F09",
+        "CLAUDE-F19"
+      ],
+      "source_refs": [
+        {
+          "section": "3.4.1 방사선안전부 대응조치 검토",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "경고 시 오경보 판단과 KINS의 절차서 개선 필요성"
+        },
+        {
+          "section": "3.4.2 발전부 대응조치 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "발전부 대응과 KINS의 협조 체계 보완 필요성"
+        },
+        {
+          "section": "3.1.4 RE-013G 경보 발생 원인",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "절차서의 배수 유로 선택 기준과 유사 원전 운영 차이"
+        },
+        {
+          "section": "3.7 재발방지대책 적절성 검토",
+          "printed_pages": [
+            20,
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "단기조치 6건 내용"
+        }
+      ],
+      "counterevidence_or_limitation": "절차서 개정은 사건 후 완료되었으며 사건 전 절차서의 한계가 개정 지연 때문인지 알 수 없다. WP4(절차 이행)·DM1과 구분하며 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-005-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "KINS는 방사선안전부와 발전부가 해당 절차서에 따라 조치를 수행한 것으로 확인했다(CLAUDE-F22, CLAUDE-F05, CLAUDE-F06). 경고 단계에서도 비정상 절차서를 선제 적용했다. 프로세스·절차를 준수한 긍정 근거이다.",
+      "fact_ids": [
+        "CLAUDE-F22",
+        "CLAUDE-F06",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.4.1 방사선안전부 대응조치 검토",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "방사선안전부의 절차 이행"
+        },
+        {
+          "section": "3.4.2 발전부 대응조치 검토",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "발전부의 절차 이행과 선제 적용"
+        }
+      ],
+      "counterevidence_or_limitation": "절차 준수가 사건 방지에 충분하지 않았다는 점은 WP3에서 평가했다. 긍정 사례가 다른 속성의 미진을 상쇄하지 않는다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(c79f5dab…9d4f)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 997,678 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조), 이것이 판본 동일성을 증명하지 않는다. 같은 크기의 '2024-03-14' 접두어 파일이 Drive에 있으나 사건 식별은 파일명이 아니라 표지 '2025-03호(250314SH2)'와 본문으로 했다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 30이고 큐 기대 물리 페이지는 35이다. 표지·조사자 면·붙임 등 번호 없는 면이 있을 가능성이 있으나 확인하지 않았으며 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기 위치로 정했다. 첫 '- 1 -' 표기가 요약 직후와 본문 1장 직후에 각각 나타나는 구조로 보여, 요약 면을 인쇄쪽 1, 1장 시작 면을 2로 취급했다. 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반한다. 표지, 사건 요약, 1~4장, 붙임 목록과 비공개 처리 사유서의 텍스트를 읽었으나 붙임 1~7의 도면·그래프·표 이미지(감시기 기록값, RCS 방사능 분석값, 경로 도면, 환경감시기 기록)는 직접 확인하지 못했다.",
+    "원본의 비공개 처리 구간(절차서 번호, 경고 설정치, 설계사명 등 '( )' 표기)은 복원하지 않았다.",
+    "표지 제목에는 '(2024.03.14.)'로, 본문에는 2025.03.14로 표기되어 있어 본문·보고서 번호 기준(2025.03.14)을 따랐다. 2.2절 사건 전개 시각과 3.1.1절 감시기 경고 시각이 약 5분 다르게 기재된 부분은 보정하지 않고 기록만 했다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 본 보고서는 조직·개인 면담 기록이 없는 규제기관 조사 보고서에 기반하므로 리더십·소통·업무환경 계열 속성은 근거 부족이 많다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-005와는 무관한 사건이며 ROOT-005 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

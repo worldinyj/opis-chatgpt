@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "model": "CLAUDE",
+  "queue_id": "ROOT-005",
+  "event_id": "250314SH2",
+  "artifact_status": "STORED",
+  "integration_status": "HOLD",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+  "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+  "reported_hash_matches_queue": false,
+  "reported_pages_match_queue": false,
+  "source_zip": "CLAUDE_ROOT-005_250314SH2_v1.zip",
+  "source_zip_sha256": "b02dca909872258728c2f956eb7c346fa397006cd3db95c092ba86295fb3bc46",
+  "files": [
+    {
+      "name": "excel_import.csv",
+      "blob": "cd9cef1a8b89e57e4237f6aecaf087f9d1b2501f",
+      "sha256": "e4a56187cd01989d124239ffe7b47fb399c46e1b513b9278ecccc7a1997ca8d1"
+    },
+    {
+      "name": "review.json",
+      "blob": "ccf23073506d23efaa13af55045a589aa1eece9b",
+      "sha256": "7161b78e86edece2295d5a65e764695e46c64a8983c7c11d52feeda6ffae70e9"
+    },
+    {
+      "name": "validation.md",
+      "blob": "0857ac98df414922c309db2f2adce42445d6eb1e",
+      "sha256": "f0ae36b2bc85a1e98f18a6f75913ef9dbeee5ef9de8866553258227d084341a1"
+    },
+    {
+      "name": "report.md",
+      "blob": "ed3fac39f81fdc46d2d9f3aea50f1f19c051887c",
+      "sha256": "544b96c7b257ec2c948eaf46eecd192e237e44d3d7292869aae3807c30d36efa"
+    }
+  ],
+  "role_counts": {
+    "P": 3,
+    "N": 16,
+    "D": 3,
+    "I": 6,
+    "A": 7,
+    "H": 5
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "schema_keyword_subset": "PASS",
+    "csv_json_decision_rationale": "MATCH",
+    "fact_count": 23,
+    "fact_reference_check": "PASS",
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Original PDF hash and physical page count unavailable; hold integration pending source verification.",
+    "Claude disclosed exposure to the ROOT-038 education transcript in the same session, states it was unrelated to ROOT-005 and not used; no target-specific exposure reported, independent eligibility still pending.",
+    "No fresh original PDF or expert review; retain original submitted files verbatim."
+  ],
+  "approved": false,
+  "can_ship": false
+}

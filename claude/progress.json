@@ -21,8 +21,30 @@
         "Prior Claude source hash and physical page check NOT_EXECUTED",
         "Education-video transcript exposure; excluded from consensus until adjudicated"
       ]
+    },
+    {
+      "queue_id": "ROOT-005",
+      "event_id": "250314SH2",
+      "status": "STORED",
+      "artifact_paths": [
+        "claude/cases/2025/250314SH2/v1/report.md",
+        "claude/cases/2025/250314SH2/v1/review.json",
+        "claude/cases/2025/250314SH2/v1/excel_import.csv",
+        "claude/cases/2025/250314SH2/v1/validation.md"
+      ],
+      "zip": "CLAUDE_ROOT-005_250314SH2_v1.zip",
+      "github_commit_sha": null,
+      "checks": "Original validation.md; independent intake in INTAKE_STATUS.json.",
+      "constraints": [
+        "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
+        "PDF 바이너리 미접근: sha256=null, PDF_READ_HASH_UNAVAILABLE",
+        "물리 페이지 미확인(인쇄쪽 최대 30, 기대 35)",
+        "붙임 이미지·도면 미확인, 비공개 구간 미복원"
+      ],
+      "integration_status": "HOLD",
+      "commit_reference_note": "Artifacts and progress committed together; commit will be recorded in follow-up."
     }
   ],
-  "next_queue_id": "ROOT-005",
+  "next_queue_id": "ROOT-001",
   "next_status": "NOT_STARTED"
 }
