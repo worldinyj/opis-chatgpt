@@ -1,0 +1,898 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-018",
+  "event_id": "141017Y3",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2014-10-17_한빛 호기 증기발생기 세관누설 정비를 위한 출력감.pdf",
+    "report_number": "2014-16",
+    "report_date": "2015-03-20",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 및 조사 결과 요약, 1~5장(전 쪽); 인쇄쪽 1~24 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-018 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-018의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2014.10.16(목) 전출력 운전 중이던 한빛 3호기에서 증기발생기(SG) 세관누설 징후가 확인되어 비정상절차(비정상-3431C/D)에 따라 출력을 감발하던 중, 10.17 02:09 원자로 출력 약 14 %에서 노심보호연산기(CPC)의 핵비등이탈률 ‘저’ 신호로 원자로가 자동정지했다. 정지 후 고온정지(10.17 20:00)와 저온정지(10.18 03:16)에 도달했고 누설 SG #2는 11:33에 격리되었다. 안전기능은 유지되었다(보고서 2014-16호).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 및 조사 결과 요약",
+          "printed_pages": [
+            1,
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "사건 및 조사 결과 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "개요와 보고 기준"
+        },
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "사건 전개과정"
+        }
+      ],
+      "limitation": "텍스트 추출에서 숫자가 누락되어 OCR로 수치를 읽었다. 표지 면과 요약 면의 쪽번호는 표기가 없어 추정이다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "누설 징후 통보와 비정상절차 진입: 10.16 13:30 방사선안전팀이 복수기 공기추출계통 RMS(RE-063) 지시값 증가를 인지했고 14:19경 시료 분석에서 7개 핵종이 검출되어 SG 세관누설이 확인되었으나 누설률 계산은 수행되지 않았다. 방사선-8520 절차는 RMS 경고·경보 시에만 방사선안전팀이 발전팀에 통보하고 발전팀이 누설률을 계산하도록 되어 있었고 이번에는 경보가 발생하지 않아 수행되지 않았다. 또한 N-16 감시기 등에 변화가 없어 이미 확인된 누설징후를 재확인하려고 시료채취·분석을 추가했고, 최초 확인(14:19)부터 발전팀 통보(17:20)까지 약 3시간이 걸렸다. 발전팀은 수동 시료분석으로 누설률을 평가했음에도 ‘연속감시 불능’ 정의가 불명확해 연속감시 가능 경우의 ‘조치 2단계’로 진입했다. 원전운영자는 이상 시 즉시 발전팀에 통보하도록 절차를 개정하고 핵종분석 누설률이 0.8 L/h 이상인데 N-16 지시가 증가하지 않으면 연속감시 불능으로 판단하도록 개정했으며 KINS는 적절하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.1 원자로 정지 전 사건전개 및 대응조치",
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 정지 전 사건전개 및 대응조치"
+        }
+      ],
+      "limitation": "통보 지연의 구체 사유(담당자 판단 내용)와 17:00~17:20 구간의 정확한 시각은 서술이 일부 불일치한다. 조치 2단계 진입의 영향은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "원자로 정지 원인: 출력감발 중 감발률 변경 후에도 붕산주입 지연과 제논 축적으로 출력이 목표보다 급격히 감소해 02:00에 약 14 %에 도달했고, 계통병입을 위한 급전과의 협조로 약 14 %를 유지하던 중 CPC의 축방향출력편차(ASI) 값이 -0.5003으로 설정치 범위(±0.5)를 벗어났다. CPC는 저출력(증발 17 %, 감발 15 % 이하)에서 ASI 신호를 우회하는데, 우회 기준출력은 노외핵계측기 상·중·하 출력 평균으로 계산되어 채널 B·C에서 15.63 %, 15.06 %로 기준(15 %)을 넘었고(운전원이 본 주제어실 출력은 모든 채널 13~14 %) 2/4 논리가 만족되어 정지신호가 발생했다. KINS는 기록 분석으로 이를 확인했다. 원전운영자는 설계변경을 검토하고 그 전까지 종합운전절차서에 기준출력 정의와 수계산 확인절차를 반영했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.1 원자로 정지 전 사건전개 및 대응조치",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "출력감발 경과"
+        },
+        {
+          "section": "3.1.2 원자로 자동정지 발생원인 평가",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 발생원인 평가"
+        }
+      ],
+      "limitation": "기준출력과 운전원 제공 출력의 차이가 이전에 알려졌는지는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "세관누설 원인: 누설 세관 인출·회수 이물질을 원자력연구원에서 분석한 결과 탄소강재 중탄소강 가공 시 발생한 금속칩으로, 반복접촉에 의한 마모 손상(fretting)으로 평가되었다. 유입시기는 직전 검사 이력(마모·이물질 신호 없음)을 근거로 이후로 추정되었고, 유입원은 SG 2차측 개구부로 이물질이 유입될 수 있는 정비작업과 기계공작실 금속칩을 비교해 작업복·발판·공기구 상자 등에 부착·운반된 금속칩이 개구부로 유입된 것으로 추정되었다. KINS는 유입시기·유입원이 명확히 확인되지는 않았으나 검사 이력과 성분분석에 근거한 추정은 적절하다고 판단했다. 원전운영자는 금속칩 발생구역 특별관리, 이물질 유입방지 프로그램 절차서 개정(개구부 작업 시 감시원 배치·출입일지·클린작업복 환복)을 시행했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3 증기발생기 세관누설 원인 평가",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "증기발생기 세관누설 원인 평가"
+        }
+      ],
+      "limitation": "유입원은 ‘추정’이며 단정되지 않았다. 구체 시기와 작업은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "N-16 누설감시기(4대) 미감지: 원전운영자는 제작사 매뉴얼에 근거한 교정절차서를 운영하던 중, 채널 교정결과 확인용 선원(Cm-244/C-13 혼합선원, 1990년 생산·인증)의 사용기간(권장 15년)이 경과해 교정 후 계수율이 붕괴보정 기준계수율보다 낮아지자(최초 인증 후 약 24년 사용) 오차판정기준(±20 %)을 맞추도록 임의로 광전자증배관 인가전압 조정 단계를 교정절차서에 추가해 개정했고 이로 인해 감시영역이 의도한 영역에서 크게 벗어나 미감지가 발생했다. 한빛 3호기 절차는 제작사 매뉴얼에 없는 4-2단계(전압 조정 후 재수행)를 포함했다. 제작사는 현재 선원이 확인 목적으로는 사용 가능하나 신규 구매나 재평가를 권고했고, 기존 형식 선원은 더 이상 생산되지 않아 대체선원을 확보할 계획이다. KINS는 실증시험을 추가로 요구해 재교정한 감시기를 타 호기에 설치해 교정절차의 적합성을 확인했고, 전 원전의 교정절차·감시범위 점검과 선원 유효성 점검을 요구했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1 세관 누설 감시계통 작동 적절성(N-16)",
+          "printed_pages": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "N-16 누설감시기 미감지 원인 및 조치"
+        }
+      ],
+      "limitation": "교정절차 개정 시점은 OCR상 2012년 3월로 읽히나 확정하지 않았다. 개정 시 검토·승인 과정은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "취출수 RMS 미작동과 누설 SG 식별 혼선: SG #2 취출수 RMS(RE-152)는 시료유로의 철산화물 침적과 유량계 고착으로 작동하지 않았다. 사건 초기 N-16 감시기와 취출수 RMS(RE-151)에 변화가 없고 시료분석에서 핵종이 미검출된 상태에서 취출수 시료계통 RMS 지시값만 상승하자 이를 근거로 SG #1을 누설 SG로 추정해 02:50에 격리했다. 격리 후 취출수 공통모관 RMS가 증가하기 시작했고 시료분석에서 SG #2에서만 핵종이 검출되었는데 RE-152 지시가 변하지 않아 09:30부터 유로점검을 해 유로 막힘·유량계 고착을 확인했고, 배수 작업 후 지시가 증가해 누설 SG를 #2로 정정해 SG #1을 계통 복귀하고 SG #2를 격리했다(11:33). 원전운영자는 유로 분해점검, 분기별 배관 세척, 주간 압력계 확인, 유량계 교체 설계변경을 제시했고 KINS는 적절하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1~3.2.2 취출수 RMS 미작동·누설 SG 식별",
+          "printed_pages": [
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "취출수 RMS 미작동과 누설 SG 식별"
+        },
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "누설 SG 격리 경과"
+        }
+      ],
+      "limitation": "초기 누설 SG 추정의 근거 판단 과정은 보고서에 요약되어 있다. 격리 지연 시간 자체는 정량화되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F07",
+      "summary": "누설량·소외 방사선 영향 평가: 원전운영자는 누설률 연속감시기 미작동으로 복수기 공기추출기 시료 분석값(총 5회)으로 누설을 평가했고 처음에는 구간 평균 누설률을 사용했으나 KINS가 과도상태에서 비보수적이라며 구간 최대 누설률로 재평가를 요구해 소외배출 정지시점(00:47)까지 193.2 L, 최종 평가시점까지 201.8 L로 평가되었다. 또한 처음에는 복수기 공기추출기 배기구의 불활성기체만 평가했으나 KINS 현장확인으로 터빈 증기밀봉계통 배기구도 배출 경로임이 확인되었고 삼중수소 시료분석이 없었으며, KINS 요구에 따라 삼중수소·방사성탄소(C-14)·터빈 증기밀봉 배기구 불활성기체를 보수적·이론적으로 추가해 재평가한 결과 총 방사능 1.88×10^10 Bq로 최초(1.11×10^9 Bq) 대비 약 17배였다. 배출관리기준의 약 0.12 %, 예상주민피폭선량 연간 약 3.05×10^-6 mSv(일반인 선량한도의 약 1/32만)로 미미했다. 최초 평가가 누락된 이유는 삼중수소 분석 조건(요오드-131 등가방사능이 평상값의 3배 이상 등)에 해당하지 않아서였고 원전운영자는 SG 누설징후 시 증기밀봉 배기구·복수기 배기구 시료채취·분석 요건을 절차에 명시했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.4.1 1차계통에서 2차계통으로의 누설 평가",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "누설률·누설량 평가"
+        },
+        {
+          "section": "3.4.2 누설로 인한 소외 방사선 영향 평가",
+          "printed_pages": [
+            17,
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "소외 방사선 영향 평가"
+        }
+      ],
+      "limitation": "수치는 OCR로 읽은 값이며 일부 단위·지수 표기는 OCR 한계로 확인이 제한된다."
+    },
+    {
+      "id": "CLAUDE-F08",
+      "summary": "재발방지 조치: 단기(완료) — ASI 우회 기준출력 정의 명확화와 수계산 절차 반영, N-16 감시기 교정절차 보완(운전전압 조정 절차 삭제, 다중채널분석기 확인), N-16 감시기 4대 제작사 점검·정비, 취출수 유로 분해점검·분기별 세척, 세관누설 비정상절차 보완(배기유로 신속 전환, 연속감시 불능 정의, 지시치 비정상 증가 시 발전팀 즉시 통보), 배출 시료분석 절차 명확화, 금속칩 발생구역 특별관리와 이물질 유입방지 강화, 전 원전 취출수 유로 유량계 점검과 감시기 교정절차 적합성 확인(적합). 장기 — ASI 우회 기준출력 지시계 확보 설계변경 검토, 교정확인용 대체선원 구매, 유량계 설계변경, 전 원전 교정 선원 유효성 확인. 환경영향은 미미했고 제염·정화는 적절했으며 KINS는 대책이 타당하고 보완요구사항이 없으며 재가동은 기술적으로 문제가 없다고 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.5 재발방지대책 적절성 평가",
+          "printed_pages": [
+            21,
+            22,
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책 적절성 평가"
+        },
+        {
+          "section": "4. 보완요구사항",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항 없음"
+        },
+        {
+          "section": "5. 결론",
+          "printed_pages": [
+            23,
+            24
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "장기대책의 이행과 효과는 보고서 시점에 확인되지 않았다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-018-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "이미 확인된 누설징후를 재확인하려고 시료채취·분석을 추가한 점(CLAUDE-F02)과 감시기 지시가 상반될 때 SG #1을 먼저 격리한 점(CLAUDE-F06)이 서술되었다. 불확실성을 확인한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.1 원자로 정지 전 사건전개 및 대응조치",
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 정지 전 사건전개 및 대응조치"
+        },
+        {
+          "section": "3.2.1~3.2.2 취출수 RMS 미작동·누설 SG 식별",
+          "printed_pages": [
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "취출수 RMS 미작동과 누설 SG 식별"
+        },
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "누설 SG 격리 경과"
+        }
+      ],
+      "counterevidence_or_limitation": "재확인과 격리 판단의 의도는 서술되지 않았고 결과적으로 정정되었다. 별도 근거가 필요하다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-018-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "방사선안전팀이 누설을 확인(14:19)한 뒤 발전팀 통보(17:20)까지 약 3시간이 걸렸고 이는 RMS 경보가 발생하지 않으면 통보·누설률 계산 절차가 작동하지 않는 구조 때문이었으며, 원전운영자는 이상 시 즉시 통보하도록 절차를 개정했다(CLAUDE-F02). 부서 간 업무 활동에서 원자력안전을 염두에 두고 소통한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.1 원자로 정지 전 사건전개 및 대응조치",
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 정지 전 사건전개 및 대응조치"
+        }
+      ],
+      "counterevidence_or_limitation": "방사선안전팀은 이상을 인지해 시료분석을 수행했고 절차(방사선-8520)는 경보 조건을 전제했다(CLAUDE-F02). 담당자 판단 내용은 서술되지 않았다. WP3와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-018-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "선원 사용기간 경과로 교정 결과가 기준을 벗어나자 제작사 매뉴얼에 없는 전압 조정 단계를 ‘임의로’ 교정절차서에 추가했고 그 영향 평가 없이 운영되었다(CLAUDE-F05). 변화의 영향을 체계적으로 평가·관리한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 세관 누설 감시계통 작동 적절성(N-16)",
+          "printed_pages": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "N-16 누설감시기 미감지 원인 및 조치"
+        }
+      ],
+      "counterevidence_or_limitation": "절차 개정의 승인·검토 이력은 서술되지 않았다. 후보 의견이다. WP3와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-018-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS가 구간 평균 누설률 사용을 ‘과도상태 하에서 비보수적’이라고 지적해 최대 누설률로 재평가하게 했고, 소외 배출 평가에서 터빈 증기밀봉 배기구·삼중수소·C-14를 누락한 초기 평가를 보수적으로 재평가하게 했다(CLAUDE-F07). 불확실성이 있을 때 보수적으로 판단한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.4.1 1차계통에서 2차계통으로의 누설 평가",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "누설률·누설량 평가"
+        },
+        {
+          "section": "3.4.2 누설로 인한 소외 방사선 영향 평가",
+          "printed_pages": [
+            17,
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "소외 방사선 영향 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "원전운영자는 재평가 결과를 수용해 절차 요건을 명시했다(CLAUDE-F07). 초기 방법은 기존 절차 조건에 부합했다고 서술되었다. QA2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-018-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘운전 경험’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "교정확인용 선원이 권장사용기간 15년을 약 24년 넘게 사용되고 있었음이 이번 조사로 확인되었고 원전운영자는 전 원전 선원 유효성을 점검하기로 했다(CLAUDE-F05, CLAUDE-F08). 프로그램과 설비 상태를 정기적으로 비판적으로 평가한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 세관 누설 감시계통 작동 적절성(N-16)",
+          "printed_pages": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "N-16 누설감시기 미감지 원인 및 조치"
+        }
+      ],
+      "counterevidence_or_limitation": "선원 사용기간을 점검한 기존 활동은 서술되지 않았다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-018-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "제작사 현장확인과 기술검토를 받아 교정절차와 선원 상태를 확인하고 제작사 매뉴얼에 따라 교정절차를 재개정했으며 감시기를 제작사에서 점검·정비했다(CLAUDE-F05, CLAUDE-F08). 외부 전문 기술정보를 활용한 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 세관 누설 감시계통 작동 적절성(N-16)",
+          "printed_pages": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "N-16 누설감시기 미감지 원인 및 조치"
+        }
+      ],
+      "counterevidence_or_limitation": "제작사 정보 수신 체계의 사전 운영은 서술되지 않았다."
+    },
+    {
+      "review_key": "ROOT-018-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘교육 훈련’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 파악’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 N-16 미감지 원인을 스펙트럼 측정·제작사 현장확인·다중채널분석기로 확인했고 RE-152 막힘은 분해점검과 철산화물 성분분석으로 평가했으며 전 원전의 취출수 유로·교정절차를 점검했다(CLAUDE-F05, CLAUDE-F06, CLAUDE-F08). 원인분석과 시정조치 범위를 넓게 평가한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 세관 누설 감시계통 작동 적절성(N-16)",
+          "printed_pages": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "N-16 누설감시기 미감지 원인 및 조치"
+        },
+        {
+          "section": "3.2.1~3.2.2 취출수 RMS 미작동·누설 SG 식별",
+          "printed_pages": [
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "취출수 RMS 미작동과 누설 SG 식별"
+        },
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "누설 SG 격리 경과"
+        }
+      ],
+      "counterevidence_or_limitation": "일부는 KINS 요구(실증시험)에 따른 것이다(CLAUDE-F05). 이행 효과는 후속 확인 대상이다."
+    },
+    {
+      "review_key": "ROOT-018-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 해결’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "SG 2차측 개구부로 유입된 탄소강 금속칩이 세관 마모의 원인으로 평가되었고 유입원은 작업복·발판·공기구 상자에 부착·운반된 금속칩으로 추정되어, 이물질 유입방지 프로그램과 개구부 작업관리를 강화했다(CLAUDE-F04, CLAUDE-F08). 안전을 우선해 작업을 계획·시행한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 증기발생기 세관누설 원인 평가",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "증기발생기 세관누설 원인 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "유입 시기와 작업은 명확히 확인되지 않았다(CLAUDE-F04). 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-018-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘설계 여유도’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-018-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS 확인 결과 ‘연속감시 불능’ 정의가 불명확했고(CLAUDE-F02), ASI 우회 기준출력이 운전원 제공 출력과 다른데 절차서에 정의·확인 방법이 없었으며(CLAUDE-F03), N-16 교정절차서가 제작사 매뉴얼과 다르게 개정되어 있었다(CLAUDE-F05). 문서가 정확하고 완전하다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F03",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.1 원자로 정지 전 사건전개 및 대응조치",
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 정지 전 사건전개 및 대응조치"
+        },
+        {
+          "section": "3.1.1 원자로 정지 전 사건전개 및 대응조치",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "출력감발 경과"
+        },
+        {
+          "section": "3.1.2 원자로 자동정지 발생원인 평가",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 발생원인 평가"
+        },
+        {
+          "section": "3.2.1 세관 누설 감시계통 작동 적절성(N-16)",
+          "printed_pages": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "N-16 누설감시기 미감지 원인 및 조치"
+        }
+      ],
+      "counterevidence_or_limitation": "원전운영자가 사건 후 해당 절차서를 모두 개정했고 KINS가 적절하다고 판단했다(CLAUDE-F02, CLAUDE-F03, CLAUDE-F05). 세 가지는 서로 다른 절차서이며 CO1·LA5·WP4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-018-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "발전팀이 수동 시료분석 평가임에도 연속감시 가능 경우의 조치 2단계로 진입한 것은 ‘연속감시 불능’ 정의 불명확 때문으로 서술되었다(CLAUDE-F02). 절차 준수와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.1 원자로 정지 전 사건전개 및 대응조치",
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 정지 전 사건전개 및 대응조치"
+        }
+      ],
+      "counterevidence_or_limitation": "절차 위반이 아니라 절차의 모호성이 원인으로 서술되었다. 별도 근거가 필요하다. 판단보류한다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(97685ba3…e050)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 2,250,865 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2014-16호(141017Y3)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 24이고 큐 기대 물리 페이지는 25이다. 큐의 SHA-256·크기·페이지(25)와 일치했다. PDF 텍스트 계층은 한글은 읽히나 숫자·영문이 누락되어 전 쪽을 OCR(Tesseract kor)로 보완해 숫자와 시각을 확인했다. OCR 한계로 일부 영문 약어·단위·지수 표기는 부정확할 수 있다. 표지와 요약 면은 쪽번호 표기가 없다. 붙임은 없다. 표지 OCR상 발행일은 2015.3.20이며 사건발생일 표기는 OCR상 10.12로 읽히나 본문 기준 10.17로 보았다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(물리 페이지 = 인쇄쪽 + 1(표지 1면)로 추정한다. 요약(물리 2~3면)은 1~2쪽으로 추정하며 면 끝 ‘- N -’ 표기를 기준으로 했다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 요약 면의 쪽번호와 면 경계에 ±1쪽 불확실성이 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 누설 세관·이물질 사진, 스펙트럼 그림, 계통도 등 그림은 확인하지 못했다. 이 보고서에는 별도 붙임이 없다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 텍스트 계층과 OCR의 숫자가 일부 다르다(OCR 값을 사용). 사건 개시를 요약은 ‘10.16 전출력 운전 중 징후 확인’으로, 개요는 ‘10.17 02:09’로 적는 등 서술 시점이 다르다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 운영·절차·소통·정비 관련 KINS 직접 서술이 많아 선정이 상대적으로 많다(조직 요인 중심). 한편 설비 원인(금속칩 마모)과 설계 요인(ASI 우회 기준출력)은 속성 선정 대상이 아니라고 보았다. 기술적 중요 사건이라는 것과 선정 개수는 별개이다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-018와는 무관한 사건이며 ROOT-018 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

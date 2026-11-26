@@ -1,0 +1,1439 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-028",
+  "event_id": "100917SK1",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2010-09-17_신고리 1호기시운전중 살수격리밸브의 비정상.pdf",
+    "report_number": "2010-11",
+    "report_date": "2010-10-15",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 조사자 명단, 사건 요약, 1~6장, 붙임 1~3(전 쪽); 인쇄쪽 1~23 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-028 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-028의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2010.9.17(금) 14:17 시운전 중이던 신고리 1호기가 정지·가열운전(운전모드 4, RCS 28 kg/cm², 145 ℃)에서 원자로건물살수계통 격리밸브(CS-V035)가 비정상 개방되어 37분간 원자로냉각재 423톤이 원자로건물 내로 살수되었다. RCS 압력이 28에서 3.9 kg/cm²로 급감하고 RCP를 정지했으며 14:35 운전원이 수동 안전주입을 작동해 압력이 회복되었다(안전주입 26분, 437톤). 14:54 CS-V035를 수동으로 닫아 살수를 종료했고 백색비상이 15:00 발령되어 18:00 해제되었다. 격납건물 내 작업자가 없어 피폭이 없었고 환경영향은 없었다. 이 사건은 운영허가(2010.5.19) 후 출력상승시험 중 노외핵계측기 위치 재조정 정비(9.14 22:00 제어정지)를 마치고 재가동 준비 중 발생했다(보고서 2010-11호, 2010-10-15 발행, 재가동 사전안전성확인 검토결과).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1,
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "개요"
+        },
+        {
+          "section": "2.가 시간대별 사건 경위",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 사건 경위"
+        },
+        {
+          "section": "2.나 사건전개과정",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "사건전개과정"
+        },
+        {
+          "section": "6. 결론",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "표지와 조사자 명단 면은 쪽번호가 없고 인쇄쪽 1은 사건 요약 면이다. 최대 냉각률은 약 110 ℃/hr로 제한치 55.6 ℃/hr를 초과한 것으로 서술되나 구조 건전성에는 영향이 없다고 평가되었다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "사건 이전 세부경위(붙임 2): 원자로 제어정지(9.14) 후 정지 중 작업으로 중간정비 시 수행 예정이던 25건(4.16 kV 안전모선 A계열 차단기 점검·내부청소 포함)을 결정했고, 주기-5827(열적과부하보호장치 시험)은 최초 계획에 없다가 추가 선정되었으나 정지 중 작업계획에는 반영되지 않았다. 안전모선 A계열 휴전(9.16 11:20~11:44) 시 MCR 경보창 ‘Inoperable’ 점멸이 휴전 영향 기기(110여 개) 구분을 위해 해제되지 않았고 꼬리표는 발행되지 않았으며, 주기-5827은 시험원이 현장운전원 동행 없이 17개 밸브를 시험했다. 시험 후 복귀를 위해 ‘RESET’을 눌렀으나 MCR 경보 외에는 보호계전기 Reset 여부를 확인할 수 없었다. 23:00~23:40경 모선 가압 후 MCR 운전원 4인이 핸드스위치로 ‘Inoperable’ 지시를 동시에 해소하던 중 CS-V035 핸드스위치가 2회 이상 조작되어 밸브열림 신호가 제어기 메모리에 저장되었다. 9.17 05:10경 CS TRN A Inoperable 경보가 해소되지 않았으나 운전원이 이를 확인하지 못했고 종합-3010 단계 5.5로 모드 4 진입조건을 확인했으며, 09:35 모드 4에 진입하면서 원자로건물살수계통 A계열 운전불능 경보와 CS-V035 핸드스위치 지시에 주의집중이 소홀했다. 11:00경 시험원이 MCC Trouble 경보가 전일 시험과 관련됨을 확인하고도 MCR 운전원과 협의하지 않았고, 14:17 시험원이 MCR 통보와 운전원 통제 없이 차단기 4개의 RESET 버튼을 눌러 보호계전기가 Reset되자 저장된 개방신호로 CS-V035가 열렸다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "붙임 2 사건발생전 세부경위",
+          "printed_pages": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "사건발생 전 세부경위"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        }
+      ],
+      "limitation": "핸드스위치 오조작의 세부(어떤 버튼을 눌렀는지)는 텍스트 추출이 불완전해 해석이 일부 불확실하다. 작업 일정 결정자와 승인 경위는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "KINS의 기여·근본원인: 이 사건은 정지냉각 중 정지냉각 열교환기 출구 격리밸브(CS-V033)가 절차서 오류로 개방된 상태(잠재적 고장)에서 CS-V035가 인적오류로 개방되어 발생했다. 근본원인은 1) 시운전조직의 지연 구성으로 발전소 친숙화 부족과 운영준비 기간 부족 등 시운전 조직·인력의 부실, 2) 표준원전에 대한 잦은 설계변경에 비해 설계·운영 연계관리가 부족하고 설계-절차서 불일치 등 절차서·설계관리의 부실, 3) 운전원의 주제어실 기기 상태 점검 등 기본임무 소홀과 시험원의 현장기기 임의조작 등 규정·절차서 미준수이다. 시운전 조직·인력 취약은 핵심인력 주도 시운전 경험이 단절된 상태에서 신규직원·무경험자 위주로 인력이 최소화되고 조직 구성이 지연된 것으로 확인되었다. 또한 CS-V035가 모드 5에서 4로 변경될 때 ‘운전불가능(Inoperable)’ 상태로 유지되었음이 운영기술지침서 위반으로 확인되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "4.가 운전조치 및 비상대응의 적절성",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전모드 변경 시 운영기술지침서 위반"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        },
+        {
+          "section": "3. 재가동을 위한 사전 확인 필요항목 설정 및 점검",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 점검 항목"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 상세"
+        }
+      ],
+      "limitation": "‘잦은 설계변경’의 구체 건수와 설계변경 반영 지연 경위는 서술되지 않았다. 절차서 오류의 구체 내용(CS-V033 개방 지시 위치)은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "운전원 대응과 비상대응: 운전원은 정지냉각계통 저-저 유량 경보와 가압기 저수위 경보, 압력 급감으로 비정상을 인지해 비상운전절차(우선-02, 비상-02)에 진입, RCP 정지, 유출수 차단과 수동 안전주입을 수행했고 KINS는 이를 적절하다고 평가했다. 다만 비정상 확인 후 누설 부위를 확인하기까지 약 37분이 걸렸는데 이는 절차와 교육훈련에 고려되지 않은 비정상 상황이었기 때문이라고 확인했다. 백색비상은 발령이 약 40분 지연되었고 자동동보시스템의 연락기관 누락이 있어 방재 대응체계 재검토가 필요하다고 평가되었다(방재 분야는 별도 보고서).",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "4.가 운전조치 및 비상대응의 적절성",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전조치 및 비상대응의 적절성"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "운전조치 및 비상대응 상세 평가"
+        },
+        {
+          "section": "2.가 시간대별 사건 경위",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 경위"
+        }
+      ],
+      "limitation": "비상 발령이 지연된 의사결정 경위와 발령 기준 판단은 이 보고서에 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "재발방지 대책: 단기(50개 조치) — 주제어실 핸드스위치·PCS 운전원/정비원 교육 강화, 주제어실 통보 등 작업 절차 교육, 업무 시작 전 인적오류 예방기법 교육, 선행호기 대비 설비 개선 대상 절차서 종합 검토와 정지냉각계통 운전절차서 개정, 신월성 1,2호기 운전인력의 시운전 지원팀 추가 배치와 운전경험 전수, 시험·정비 관리·통제 강화와 발전운영팀 역할 강화. 중장기(65개 조치, 이 중 16개 항목 후속 확인) — 비상통신 회선 증설, PCS 작동불능 시 밸브 열림신호 인지 방안, 열동과부하계전기 운영 타당성 검토, 설계변경사항의 절차서 반영체계 개선, 시운전 조직·인력 투입 계획, 설계관리 개선, 안전문화 제고 방안, 안전문화 자체 평가 추진 계획, 본사 차원의 시운전 조직·설계관리·안전문화·교육훈련·운영관리 종합 대책. 유사 단일고장 누설 가능 부위 평가로 SI-V669/668, SI-V170/180에 꼬리표와 자물쇠 조치를 했다. KINS는 단기 대책을 향후 유사 사례 방지를 위한 최소한의 적절한 대책으로 평가하고 중장기 대책의 내실 있는 이행이 필요하며 규제 차원의 시정조치를 별도로 요구할 계획이라고 서술했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "유사 부위 점검"
+        },
+        {
+          "section": "4.다 재발방지대책의 적절성",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책의 적절성"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "항목별 상세 평가"
+        },
+        {
+          "section": "5. 향후 계획",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "향후 계획"
+        }
+      ],
+      "limitation": "중장기 대책의 이행과 효과는 보고서 시점에 확인되지 않았다. 규제 시정조치의 구체 내용은 이 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "영향 평가: 핵연료는 붕괴열이 작아 핵비등이탈 조건에 도달하지 않았고 최대 핵연료 온도 계산값이 약 171.5 ℃로 건전성이 유지되었다. RCS 최대 냉각률(약 110 ℃/hr)이 제한치(55.6 ℃/hr)를 초과했으나 KEPIC 코드 허용기준을 벗어나지 않았다. RCP와 정지냉각펌프는 제작사 평가와 기동시험으로 건전성이 확인되었으나 RCP는 가열부터 임계 후까지 성능변수를 지속 확인하기로 했다. 살수 노출 기기는 제염, 점검, 시험, 교체로 건전성을 확인했고 붕산부식 검사 강화가 필요하다고 서술했다. 액체폐기물은 12회 배출되었고 방사능 농도는 제한치의 최대 0.5 %였으며 종사자 집단선량은 7.5 man-mSv(최대 0.83 mSv)로 확인되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "4.라 구조물, 계통 및 기기의 건전성 확인",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "구조물, 계통 및 기기의 건전성 확인"
+        },
+        {
+          "section": "4.마 살수에 의한 영향평가 및 조치의 적절성",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "살수에 의한 영향평가"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            22,
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "항목별 상세 평가"
+        }
+      ],
+      "limitation": "일부 기기의 성능은 재기동 이후 확인할 예정이다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-028-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS는 시험원과 운전원의 규정·절차서 미준수를 근본원인의 하나로 확인했고 운영기술지침서 위반을 확인했다(CLAUDE-F03). 안전 규정과 절차의 중요성을 인식하고 준수한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "4.가 운전조치 및 비상대응의 적절성",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전모드 변경 시 운영기술지침서 위반"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        },
+        {
+          "section": "3. 재가동을 위한 사전 확인 필요항목 설정 및 점검",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 점검 항목"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 상세"
+        }
+      ],
+      "counterevidence_or_limitation": "개인 의도에 대한 서술은 없다. WP4·PA2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-028-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS는 운전원의 주제어실 기기 상태 점검 등 기본임무 소홀을 근본원인으로 확인했고, 운전원이 CS TRN A Inoperable 경보를 해소하지 못한 채 모드 4 진입조건을 확인하고 CS-V035 핸드스위치 지시에 주의집중이 소홀했다고 서술했다(CLAUDE-F02, CLAUDE-F03). 안전을 위한 본인 업무의 책임을 이해하고 실천한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2 사건발생전 세부경위",
+          "printed_pages": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "사건발생 전 세부경위"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        },
+        {
+          "section": "4.가 운전조치 및 비상대응의 적절성",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전모드 변경 시 운영기술지침서 위반"
+        },
+        {
+          "section": "3. 재가동을 위한 사전 확인 필요항목 설정 및 점검",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 점검 항목"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 상세"
+        }
+      ],
+      "counterevidence_or_limitation": "교대 인수인계(9.17 00:00, 08:00)에서 경보 상태가 전달되었는지는 서술되지 않았다. 심리를 추정하지 않았다. WP4·QA4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-028-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "시험원과 MCR 운전원, 작업감독자와 운전원 사이의 상태 공유가 이루어지지 않은 채 휴전·시험·가압이 진행되었다(CLAUDE-F02). 조직 안팎으로 소통하고 협력한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2 사건발생전 세부경위",
+          "printed_pages": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "사건발생 전 세부경위"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        }
+      ],
+      "counterevidence_or_limitation": "CO1과 사실을 공유하며 팀워크 전반에 대한 KINS 평가는 서술되지 않아 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-028-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘불확실성 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "운전원이 경보 상태와 핸드스위치 지시에 주의집중이 소홀했다고 KINS가 서술했고 이전에 휴전 후 경보 해소 과정에서 4인이 동시에 핸드스위치를 조작했다(CLAUDE-F02). 발생 가능한 실수와 잠재 문제를 인지하고 대비한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2 사건발생전 세부경위",
+          "printed_pages": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "사건발생 전 세부경위"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        }
+      ],
+      "counterevidence_or_limitation": "‘주의집중 소홀’은 KINS 서술이며 인식 수준에 대한 직접 근거는 없다. 별도 근거가 필요하다. PA2와 사실을 공유한다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-028-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "시험원은 MCC Trouble 경보가 전일 시험과 관련됨을 확인하고도 MCR 운전원에게 알리거나 협의하지 않았고 14:17 차단기 RESET 전 MCR 통보와 운전원 통제 없이 조치했으며, 시험 종료 보고는 페이징 폰으로 이루어졌다(CLAUDE-F02). 모든 업무 활동에서 원자력안전을 염두에 두고 소통한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2 사건발생전 세부경위",
+          "printed_pages": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "사건발생 전 세부경위"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        }
+      ],
+      "counterevidence_or_limitation": "MCR과 시험원 간 통보 규정이 있었는지는 서술되지 않았다. 원전운영자는 주제어실 통보 등 작업 절차 교육을 수행했다(CLAUDE-F05)."
+    },
+    {
+      "review_key": "ROOT-028-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS는 시운전조직의 지연 구성으로 발전소 친숙화와 운영준비 기간이 부족했고 핵심인력이 아닌 신규직원·무경험자 위주로 시운전 인력이 최소화되었다고 확인했으며, 원전운영자는 신월성 1,2호기 운전인력 지원과 시운전 조직·인력 투입 계획을 수립했다(CLAUDE-F03, CLAUDE-F05). 리더가 인력과 설비 등 자원을 원자력안전을 위해 이용 가능하도록 지원한다는 정의와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "4.가 운전조치 및 비상대응의 적절성",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전모드 변경 시 운영기술지침서 위반"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        },
+        {
+          "section": "3. 재가동을 위한 사전 확인 필요항목 설정 및 점검",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 점검 항목"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 상세"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "유사 부위 점검"
+        },
+        {
+          "section": "4.다 재발방지대책의 적절성",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책의 적절성"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "항목별 상세 평가"
+        },
+        {
+          "section": "5. 향후 계획",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "향후 계획"
+        }
+      ],
+      "counterevidence_or_limitation": "조직 구성 지연의 경영 판단 경위는 서술되지 않았다. 본사 수준의 정책 지원 필요성이 KINS에 의해 언급되었다(붙임 3)."
+    },
+    {
+      "review_key": "ROOT-028-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "시험원이 현장운전원 동행 없이 17개 밸브를 시험했고 휴전·시험·가압이 MCR 경보 외에 확인되지 않은 상태로 진행되었으며 감독자는 페이징 폰으로 시험 종료를 알렸다(CLAUDE-F02). 리더가 현장을 자주 방문해 관찰·코칭하고 규정 준수를 강조한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2 사건발생전 세부경위",
+          "printed_pages": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "사건발생 전 세부경위"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        }
+      ],
+      "counterevidence_or_limitation": "감독자의 현장 확인 활동은 서술되지 않았다. 후보 의견이다. WP1·LA6와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-028-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "표준원전에 대한 잦은 설계변경과 시운전 조직의 지연 구성에 대응하는 연계관리가 부족했고 원전운영자는 설계변경 반영체계 개선과 본사 차원의 시운전 조직·설계관리 대책을 수립했다(CLAUDE-F03, CLAUDE-F05). 변화를 체계적으로 평가하고 관리한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "4.가 운전조치 및 비상대응의 적절성",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전모드 변경 시 운영기술지침서 위반"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        },
+        {
+          "section": "3. 재가동을 위한 사전 확인 필요항목 설정 및 점검",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 점검 항목"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 상세"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "유사 부위 점검"
+        },
+        {
+          "section": "4.다 재발방지대책의 적절성",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책의 적절성"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "항목별 상세 평가"
+        },
+        {
+          "section": "5. 향후 계획",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "향후 계획"
+        }
+      ],
+      "counterevidence_or_limitation": "WP2와 사실을 공유하며 ‘리더의 변화 관리’ 해석에 따라 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-028-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "시험 시 현장운전원이 동행하지 않았고 시험원이 MCR 통보 없이 조치했으며 원전운영자는 발전운영팀의 역할을 강화하고 시험·정비 관리·통제를 강화하기로 했다(CLAUDE-F02, CLAUDE-F05). 리더가 역할·책임·권한을 명확히 규정한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2 사건발생전 세부경위",
+          "printed_pages": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "사건발생 전 세부경위"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "유사 부위 점검"
+        },
+        {
+          "section": "4.다 재발방지대책의 적절성",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책의 적절성"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "항목별 상세 평가"
+        },
+        {
+          "section": "5. 향후 계획",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "향후 계획"
+        }
+      ],
+      "counterevidence_or_limitation": "역할 규정의 내용과 변경 전후는 서술되지 않아 후보 의견이다. WP1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-028-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘보수적 성향’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 선행호기인 신월성 1,2호기의 운전인력을 신고리 1호기 시운전 지원팀으로 추가 배치하고 운전경험 전수 대책을 수립했다(CLAUDE-F05). 운전경험을 체계적으로 활용하고 조치한다는 정의와 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "유사 부위 점검"
+        },
+        {
+          "section": "4.다 재발방지대책의 적절성",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책의 적절성"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "항목별 상세 평가"
+        },
+        {
+          "section": "5. 향후 계획",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "향후 계획"
+        }
+      ],
+      "counterevidence_or_limitation": "계획 단계이며 이행 효과는 확인되지 않았다."
+    },
+    {
+      "review_key": "ROOT-028-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 안전문화에 대한 자체 평가 추진 계획을 수립했고 시운전 조직·안전문화 제고 방안 등 5개 조치를 제시했다(CLAUDE-F05, 붙임 3). 프로그램·관행·성과를 비판적으로 평가한다는 정의와 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "유사 부위 점검"
+        },
+        {
+          "section": "4.다 재발방지대책의 적절성",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책의 적절성"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "항목별 상세 평가"
+        },
+        {
+          "section": "5. 향후 계획",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "향후 계획"
+        }
+      ],
+      "counterevidence_or_limitation": "계획 단계이며 평가 결과는 확인되지 않았다."
+    },
+    {
+      "review_key": "ROOT-028-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 선행호기 대비 설비 개선 대상 관련 절차서를 종합 검토하고 문제점이 확인된 정지냉각계통 운전절차서 등을 개정했다(CLAUDE-F05). 외부 정보를 활용해 안전성능을 높인다는 정의와 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "유사 부위 점검"
+        },
+        {
+          "section": "4.다 재발방지대책의 적절성",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책의 적절성"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "항목별 상세 평가"
+        },
+        {
+          "section": "5. 향후 계획",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "향후 계획"
+        }
+      ],
+      "counterevidence_or_limitation": "절차서 비교의 범위와 방법은 서술되지 않았다."
+    },
+    {
+      "review_key": "ROOT-028-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "운전원이 누설 부위를 확인하는 데 약 37분이 걸린 것은 절차와 교육훈련에 고려되지 않은 비정상 상황이었기 때문이라고 KINS가 확인했고, 원전운영자는 주제어실 핸드스위치·PCS 운전원/정비원 교육과 모의제어 기반 교육을 강화했다(CLAUDE-F04, CLAUDE-F05). 높은 수준의 교육훈련으로 전문 인력을 양성한다는 정의와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "4.가 운전조치 및 비상대응의 적절성",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전조치 및 비상대응의 적절성"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "운전조치 및 비상대응 상세 평가"
+        },
+        {
+          "section": "2.가 시간대별 사건 경위",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 경위"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "유사 부위 점검"
+        },
+        {
+          "section": "4.다 재발방지대책의 적절성",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책의 적절성"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "항목별 상세 평가"
+        },
+        {
+          "section": "5. 향후 계획",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "향후 계획"
+        }
+      ],
+      "counterevidence_or_limitation": "신규직원·무경험자 위주 인력 구성(CLAUDE-F03)과 사실을 공유한다. 교육 이수 이력은 서술되지 않았다."
+    },
+    {
+      "review_key": "ROOT-028-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 파악’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 평가’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "KINS는 단일고장으로 RCS 냉각재가 누설될 수 있는 부위의 평가를 요구했고 원전운영자는 SI-V669/668, SI-V170/180에 꼬리표와 자물쇠 조치를 했으며 KINS는 적합하다고 평가했다(CLAUDE-F05). 문제를 시의적절하게 조치한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "유사 부위 점검"
+        },
+        {
+          "section": "4.다 재발방지대책의 적절성",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책의 적절성"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "항목별 상세 평가"
+        },
+        {
+          "section": "5. 향후 계획",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "향후 계획"
+        }
+      ],
+      "counterevidence_or_limitation": "누설 가능 부위 평가의 범위와 후속 이행은 서술되지 않았다."
+    },
+    {
+      "review_key": "ROOT-028-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-028-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "정지 중 안전모선 휴전 작업과 주기-5827 시험이 정지 중 작업계획에 반영되지 않은 채 수행되었고, 휴전 시 꼬리표가 발행되지 않았으며, 시험원이 현장운전원 동행 없이 17개 밸브를 시험했고, 시험 후 보호계전기 Reset 확인이 가능한 수단이 없었다(CLAUDE-F02). 원자력안전을 최우선으로 작업계획을 수립·시행한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2 사건발생전 세부경위",
+          "printed_pages": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "사건발생 전 세부경위"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        }
+      ],
+      "counterevidence_or_limitation": "휴전·시험 작업의 승인 경위와 시험 추가 결정자는 서술되지 않았다. 작업 감독은 LA2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-028-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS는 표준원전에 대한 잦은 설계변경에 비해 설계·운영 연계관리가 부족했다고 확인했고, 원전운영자는 설계변경사항의 절차서 반영체계 개선과 설계관리 개선을 중장기 대책으로 수립했다(CLAUDE-F03, CLAUDE-F05). 설비 변경 시 체계적이고 엄격한 프로세스를 적용한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "4.가 운전조치 및 비상대응의 적절성",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전모드 변경 시 운영기술지침서 위반"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        },
+        {
+          "section": "3. 재가동을 위한 사전 확인 필요항목 설정 및 점검",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 점검 항목"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 상세"
+        }
+      ],
+      "counterevidence_or_limitation": "신규 호기의 시운전 단계 특성(설계변경이 많은 시기)이 반영된 서술이다. 설계변경 건수는 서술되지 않았다. WP3·LA5와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-028-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS는 설계-절차서 불일치 등 절차서·설계관리의 부실을 근본원인으로 확인했고 CS-V033이 절차서 오류로 개방된 상태였다고 서술했으며 원전운영자는 정지냉각계통 운전절차서 등을 개정했다(CLAUDE-F03, CLAUDE-F05). 문서가 완벽하고 정확하며 최신이라는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "4.가 운전조치 및 비상대응의 적절성",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전모드 변경 시 운영기술지침서 위반"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        },
+        {
+          "section": "3. 재가동을 위한 사전 확인 필요항목 설정 및 점검",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 점검 항목"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 상세"
+        }
+      ],
+      "counterevidence_or_limitation": "절차서 오류의 세부는 서술되지 않았다. WP2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-028-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS는 시험원의 현장기기 임의조작(MCR 통보·운전원 통제 없이 차단기 RESET)과 운전원의 기기 상태 점검 소홀 등 규정·절차서 미준수를 근본원인으로 확인했고 CS-V035가 모드 변경 시 운전불가능 상태로 유지된 것은 운영기술지침서 위반이라고 확인했다(CLAUDE-F02, CLAUDE-F03). 프로세스·절차·작업지침을 준수한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "붙임 2 사건발생전 세부경위",
+          "printed_pages": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "pdf_pages": [],
+          "summary": "사건발생 전 세부경위"
+        },
+        {
+          "section": "4.나 원인평가의 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가"
+        },
+        {
+          "section": "4.가 운전조치 및 비상대응의 적절성",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전모드 변경 시 운영기술지침서 위반"
+        },
+        {
+          "section": "3. 재가동을 위한 사전 확인 필요항목 설정 및 점검",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 점검 항목"
+        },
+        {
+          "section": "붙임 3 재가동 사전 안전성 확인 항목별 상세 평가 결과",
+          "printed_pages": [
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "원인평가 상세"
+        }
+      ],
+      "counterevidence_or_limitation": "절차서에 오류(CS-V033 개방)가 있었다는 KINS 서술이 함께 있다(CLAUDE-F03). PA1·PA2·WP3와 사실을 공유한다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(f80140a0…73e4)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 901,625 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2010-11호(100917SK1)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 23이고 큐 기대 물리 페이지는 25이다. PDF 텍스트 추출이 가능했고 큐의 SHA-256·페이지(25)와 일치했다. 표지와 조사자 명단 면은 쪽번호가 없고 사건 요약 면 끝이 ‘- 1 -’이다. 붙임 1(살수 경로·사건 개략도)과 그림 2-1은 그림이라 확인하지 못했다. 이 보고서는 재가동 사전안전성확인 검토결과로 근본원인 분석에 따른 규제 시정조치는 별도로 서술하겠다고 적고 있다. Drive에는 파일 크기가 다른 같은 제목 사본(462,731 bytes)이 있었으나 큐와 일치하는 파일만 사용했다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(물리 페이지 = 인쇄쪽 + 2(표지, 조사자 명단 2면)로 추정한다. 면 끝 ‘- N -’ 표기를 기준으로 했다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 면 경계에 ±1쪽 불확실성이 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 붙임 1 그림, 그림 1(살수 개략도)·그림 2-1(비정상 개방 원인)은 이미지라 확인하지 못했다. 붙임 3 표는 텍스트가 섞여 일부 해석이 불확실하다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 안전주입 총량을 사건 요약·본문(423톤 살수)과 붙임 3(437톤 안전주입, 427톤 액체폐기물)에서 서로 다른 값으로 서술한다. 백색비상 발령 지연을 붙임 3은 ‘40분’으로 서술하나 사건 발생(14:17)과 발령(15:00)의 차는 43분이다. 사건 요약의 ‘상업운전일 2010.5.19’는 운영허가일이다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 신규 호기 시운전 중 사건으로 KINS가 시운전 조직·인력 부실, 설계변경·절차서 관리 부실, 운전원·시험원의 기본임무 소홀과 규정·절차서 미준수를 근본원인으로 직접 서술하고 운영기술지침서 위반도 확인해 선정이 많다. 다만 재가동 사전안전성 확인 보고서라 규제 시정조치와 근본원인 분석 결과는 별도 보고서로 미루었다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-028와는 무관한 사건이며 ROOT-028 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

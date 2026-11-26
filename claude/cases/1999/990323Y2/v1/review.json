@@ -1,0 +1,631 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-035",
+  "event_id": "990323Y2",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "1999-03-23_증기덤프밸브 동작불량에 의한 증기발생기 수위제어 실패로 원자로정지.pdf",
+    "report_number": "1402-99-02",
+    "report_date": "1999-03-23",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(1쪽 요약 양식 전체(관리번호·발생일시·제목·요약·코드); 인쇄쪽 1~1 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-035 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-035의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "1999.3.23 23:51 주발전기 고장에 의한 정지 후 기동 과정(원자로 출력 약 14 %)의 영광 2호기에서 증기발생기 잉여 증기를 복수기로 덤프하던 중 복수기 덤프밸브 그룹 1의 3개 밸브 중 1개가 압력균형밸브 작동 불량으로 열리지 않아 원자로와 터빈 출력 편차가 커지면서 그룹 2의 밸브 6개가 열렸다. 증기가 과다 방출되어 증기발생기 압력이 떨어지고 수위가 급상승해 터빈 정지 및 급수차단신호가 발생했고, 주급수 공급과 수위 회복을 시도했으나 주급수차단밸브가 압력잠김으로 개방이 지연되어 증기발생기 저-저 수위 신호로 원자로가 자동 정지되었다. 주요 안전변수는 정상 범위였다. 3.24 02:38 임계, 3.25 05:14 계통병입.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "머리 정보(관리번호·발생일시·제목·등급)",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "머리 정보"
+        },
+        {
+          "section": "요약(1쪽 본문)",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "요약"
+        }
+      ],
+      "limitation": "이 PDF는 1쪽 요약 양식(관리번호 1402-99-02)이며 본 조사보고서가 아니다. 원문 PDF의 텍스트 층이 없어 OCR로 추출했고 일부 숫자·영문이 깨져 있다. 보고서 작성일은 없다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "문제점(요약 서술): 복수기 덤프밸브의 압력균형밸브 동작불량 외에 운전원의 상황 예측 미흡과 설비의 특성·기능에 대한 이해 부족이 문제점으로 드러났다. 즉 덤프밸브의 동작불량을 사전에 인지하고도 조치가 미흡했고, 주급수 조절밸브가 낮은 개도에서 예민하게 동작하는 특성이 있어 원자로 출력 약 15 %에서 터빈을 기동하는 것이 가장 적합하다는 운전경험을 적절히 반영하지 못하고 운전했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "요약(1쪽 본문)",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "요약"
+        }
+      ],
+      "limitation": "서술 주체(작성 기관)는 명시되지 않았다. ‘사전 인지’의 구체 시점과 내용, 어떤 조치가 미흡했는지는 서술되지 않았다. ‘약 15 %’의 수치는 OCR 오류 가능성이 있다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "조치: 복수기 증기덤프밸브를 분해점검했고 기동운전절차서를 저출력 운전 시 과도상태를 방지할 수 있도록 개정했으며, 증기발생기 수위제어계통을 변경했다(변경 내용은 OCR로 판독 불가).",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "요약 조치 및 복구 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "조치 및 복구 단락"
+        }
+      ],
+      "limitation": "이행·효과 확인은 서술되지 않았다. 수위제어계통 변경 내용은 판독 불가이다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "등급평가 단락: 등급평가 과정에서 종사자의 절차서 준수 불이행에 의한 ‘안전문화 결여’를 적용해 등급을 상향 조정하여 최종적으로 1등급으로 판정했다고 서술한다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "요약 등급평가 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "등급평가 단락"
+        }
+      ],
+      "limitation": "이 단락은 등급평가 결과의 서술이며 사건 사실의 근거가 아니다. ‘절차서 준수 불이행’의 구체 행위는 서술되지 않았다. 독립 분석의 근거로 쓰지 않고 판단보류의 단서로만 기록했다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-035-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "덤프밸브의 동작불량을 사전에 인지하고도 조치가 미흡했다고 요약이 서술했다(CLAUDE-F02). 불확실할 때 중단하고 리스크를 평가·관리한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "요약(1쪽 본문)",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "요약"
+        }
+      ],
+      "counterevidence_or_limitation": "‘사전 인지’의 시점과 내용, 구체적 조치가 서술되지 않아 후보 의견이다. CL1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-035-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 소통’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘변화 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘보수적 성향’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "요약은 주급수 조절밸브가 낮은 개도에서 예민한 동작특성을 갖고 있어 원자로 출력 약 15 % 정도에서 터빈을 기동하는 것이 가장 적합하다는 운전경험을 적절히 반영하지 못하고 운전했다고 서술했다(CLAUDE-F02). 운전경험을 시의적절하게 분석·반영한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "요약(1쪽 본문)",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "요약"
+        }
+      ],
+      "counterevidence_or_limitation": "서술 주체가 명시되지 않았고 운전경험의 출처(내부·외부)도 서술되지 않았다. QA2·CL4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-035-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자체 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘벤치마킹’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "운전원의 상황 예측 미흡과 설비의 특성·기능 이해 부족이 문제점으로 서술되었고 조치에 기동운전절차서 개정이 포함되었다(CLAUDE-F02, CLAUDE-F03). 교육훈련으로 전문 인력을 양성한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "요약(1쪽 본문)",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "요약"
+        },
+        {
+          "section": "요약 조치 및 복구 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "조치 및 복구 단락"
+        }
+      ],
+      "counterevidence_or_limitation": "교육훈련이나 시뮬레이터 훈련 내용은 서술되지 않았다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-035-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 파악’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 평가’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "복수기 덤프밸브를 분해점검하고 기동운전절차서를 개정하며 수위제어계통을 변경했다(CLAUDE-F03). 문제를 시의적절하게 조치한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "요약 조치 및 복구 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "조치 및 복구 단락"
+        }
+      ],
+      "counterevidence_or_limitation": "조치의 이행과 효과는 서술되지 않았다."
+    },
+    {
+      "review_key": "ROOT-035-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘작업 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘설계 여유도’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-035-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "기동운전절차서를 저출력 운전 시 과도상태를 방지할 수 있도록 개정했다(CLAUDE-F03). 문서가 정확하고 완벽하다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "요약 조치 및 복구 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "조치 및 복구 단락"
+        }
+      ],
+      "counterevidence_or_limitation": "개정 전 절차서의 결함은 서술되지 않아 후보 의견이다. CL1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-035-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "등급평가 단락이 종사자의 ‘절차서 준수 불이행’을 언급한다(CLAUDE-F04). 프로세스·절차를 준수한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "요약 등급평가 단락",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "등급평가 단락"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 요약 본문에 절차 불이행 행위가 서술되지 않았고 등급평가 서술에만 나타나 근거가 부족하다. 별도 근거가 필요하여 판단보류한다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(13d80baa…5407)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 905,688 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '1402-99-02호(990323Y2)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 1이고 큐 기대 물리 페이지는 1이다. 이 PDF는 1쪽 요약 양식(관리번호 1402-99-02)이며 KINS 조사보고서 본문이 아니다. 원문 PDF의 텍스트 층이 없어 OCR(한국어)로 추출했고 일부 숫자·영문이 깨져 있다. 큐의 SHA-256·페이지(1)와 일치했다. 보고서 작성일이 없어 날짜는 사건발생일(1999-03-23)로 부호화했다. 호기 표기는 파일명과 큐에서 영광 2호기로 확인했고 문서 본문에는 호기가 표기되지 않았다. Drive에는 같은 날짜의 다른 사건 파일(주발전기 보호계전기 동작, 크기 168,543 bytes)이 있었으나 큐와 크기가 일치하는 파일만 사용했다. 요약 마지막의 등급평가 단락은 사건 사실이 아니어서 분석 근거로 쓰지 않았다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(1쪽 문서이며 인쇄쪽 번호가 없어 PDF 1쪽을 인쇄쪽 1로 사용한다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 특이사항 없음(1쪽 문서).",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 코드 표기의 숫자와 증기발생기 수위제어계통 변경 내용은 OCR로 판독 불가이다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 요약 서술에 원자로 출력이 14 %(머리 정보)와 약 15 %(문제점 서술)로 나오나 서로 다른 지표(사건 시 출력 vs 적합한 터빈 기동 출력)이다. 사건 발생일시(23:51)와 복구일시(3.24 02:38)는 임계 도달 시각이며 계통병입은 3.25 05:14이다. 호기는 본문에 서술되지 않았다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 PDF는 1쪽 요약 양식이라 사건 사실과 문제점이 간략하다. 요약이 서술한 ‘운전경험 미반영’(CL1)만 직접 근거로 선정하고 사전 인지 후 조치 미흡, 설비 이해 부족, 절차서 개정은 후보로 두었다. 등급평가 단락의 ‘절차서 준수 불이행’ 서술은 구체 행위가 없어 WP4를 판단보류로 처리했다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-035와는 무관한 사건이며 ROOT-035 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

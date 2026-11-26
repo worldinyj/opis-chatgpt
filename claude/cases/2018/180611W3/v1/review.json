@@ -1,0 +1,1262 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-013",
+  "event_id": "180611W3",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2018-06-11_월성3호기_계획예방정비_중_가압기_배수밸브_오조작에_의한_원자로냉각재_ᄂ.pdf",
+    "report_number": "2018-6",
+    "report_date": "2018-08-27",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 요약, 1~5장, 붙임 1~8(붙임 4·5·6·7·8의 그림·표 일부는 텍스트로만 확인); 인쇄쪽 1~44 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-013 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-013의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2018.6.11(월) 월성 3호기 제16차 계획예방정비를 위해 원자로를 정지(14:31, 운전모드 3)하고 냉각재계통 냉각·감압을 하던 중 18:35경 가압기 격리 절차 단계에서 RO차장이 현장운전원에게 가압기 격리밸브(3332-MV1) 균압밸브(V19) 열림 확인을 지시했다. 현장운전원이 균압밸브(V19)가 아닌 배수밸브(3332-V14)를 확인해 닫혀 있다고 보고했고 RO차장의 개방 지시(18:40)에 따라 V14를 개방(18:41)해 냉각재 약 4,078 kg이 원자로건물 안으로 누설되었다(약 259.1 kg 소외 배출, 삼중수소 1.25×10^13 Bq로 운영기술지침서 월간기준의 13.32 %). 약 25분 뒤(19:06) 밸브를 닫아 누설이 차단되었다. 작업자 최대 피폭선량은 2.53 mSv로 한도 이내였고 소외 영향은 미미했다(보고서 2018-6호, 2018-08-27 발행).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1,
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "사건 개요와 보고 기준"
+        },
+        {
+          "section": "2.2 시간대별 사건 경위",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 경위"
+        }
+      ],
+      "limitation": "인명 성명은 마스킹되어 인용하지 않았다. 일부 시각은 ‘경’ 표기(면담 근거)이다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "인적오류예방기법 적용 미흡: 현장운전원은 명패가 없어 V19로 확정할 수 없었음에도 배관 확인 등 사전점검·자기진단 없이 밸브 번호와 상태를 보고했고, RO차장과 현장운전원은 밸브 상태가 정상(열림)과 불일치(닫힘)하다는 점에 의문을 갖는 태도가 부족했으며, 명패가 없는 밸브를 조작하는 불확실성이 있었으나 작업을 중단하지 않았다(‘정지·재확인·지원요청’ 등 상황인식 수단 미적용). 현장운전원은 V14가 V20과 맞은편 대칭 위치에 있고 형태·조작방식이 같아 V19로 오인했다고 진술했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1.1 인적오류예방기법 적용 적절성 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "인적오류예방기법 적용"
+        },
+        {
+          "section": "3.1 사건 전개과정 및 조치 확인",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "누설 직전~오개방 경위"
+        },
+        {
+          "section": "붙임 1 사건 위치도 및 운전원 대응",
+          "printed_pages": [
+            28,
+            29
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 대응 상세"
+        }
+      ],
+      "limitation": "당시 운전원의 내면 판단은 면담 진술에 의존한다. 인적오류 예방기법 적용 여부는 KINS 판단이다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "교육훈련: 주제어실 운전원의 재교육에는 시뮬레이터 실습과 관리자 관찰(표준안전-1013) 프로그램이 있으나, 현장운전원의 재교육(반기 1회)에는 현장 기기 위치·조작방식을 확인하는 실습이 부족했고 이행 점검용 관리자 관찰 프로그램이 포함되지 않았으며 이번 발전소 정지 절차와 관련된 도상훈련도 하지 않았다. KINS는 인적오류 예방기법 체화, 기본수칙 준수, 현장기기 위치 확인·조작을 위한 교육·훈련 활동이 미흡했다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1.1 인적오류예방기법 적용 적절성 검토",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "교육 프로그램 점검"
+        },
+        {
+          "section": "3.2.1.5 오개방 원인 종합 의견",
+          "printed_pages": [
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "종합 의견"
+        }
+      ],
+      "limitation": "교육시간·과목 구성은 갖추어져 있다고 보고서가 기술했다. 개별 운전원의 이수 실적은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "2인 1조(동시확인) 규정과 절차서: 이번 단계(균압밸브 열림 확인)는 ‘동시확인’ 기법이 적용되는 냉각재 압력·수위 제어모드 전환 작업의 세부 단계였으나, 세부 단계에서는 수행자·동시확인자에 현장운전원이 포함되는지 불분명했고 절차서 작성기준(표준행정-9084A)에도 ‘동시확인’의 적용 단계가 세부 작업인지 상위 작업인지 명확하지 않았다. 확인만 하는 단계에서 실제 밸브 조작이 수행되었으므로 표준운영-2035A의 2인 1조 규정이 적용될 필요가 있었다고 KINS는 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1.1 인적오류예방기법 적용 적절성 검토",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "2인 1조 규정 적용"
+        },
+        {
+          "section": "3.2.1.5 오개방 원인 종합 의견",
+          "printed_pages": [
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "종합 의견"
+        }
+      ],
+      "limitation": "절차서 작성자의 의도는 서술되지 않았다. 확인 단계에서 조작이 이루어진 것은 오인 때문이다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "밸브 명패와 잠금장치 관리: V14에는 운영단계 밸브 명패가 설치되지 않았고(건설 당시 명패는 있었으나 번호 식별이 어려움) 기기명패 관리지침(발전지침-2014-14)대로 관리되지 않았다. 책임구역 점검은 운전상태·외관 중심이어서 명패 부재를 확인하지 않았고 4주기 OH마다 V14 동작·육안점검을 했으나 명패 확인 기록이 없었다. 가압기 배수밸브는 오개방 시 냉각재가 누설될 수 있는 기기임에도 체인·자물쇠 등 잠금장치가 없었고, 잠금장치 관리지침(발전지침-2121-01)에는 관리대상 기기 선정기준이 없어 부서 요청에 따라 관리되고 있었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1.2 밸브 명패관리 적절성 검토",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "밸브 명패관리"
+        },
+        {
+          "section": "3.2.1.4 기타 기기 관리 및 작업환경 등 적절성 검토",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "잠금장치 관리"
+        }
+      ],
+      "limitation": "점검 기록이 없다는 서술이며 점검 미수행으로 단정하지 않는다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "의사소통: RO차장은 현장운전원의 밸브 상태 확인과 개방 조작 결과를 발전팀장에게 보고하지 않았다. 운전행위 표준지침(표준지침-3035-01)은 절차서대로 수행할 수 없는 경우 즉시 발전팀장에게 보고하도록 하고 있었으나 사건 당시 지키지 않았다. 한편 누설 인지 후 현장운전원은 밸브 개방 과정의 이상한 점을 다시 생각해 RO차장에게 해당 밸브를 닫아도 되는지 문의했고 RO차장이 허락해 19:06경 밸브를 닫아 누설이 차단되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1.3 운전조직의 의사소통 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "운전조직 의사소통"
+        },
+        {
+          "section": "3.1 사건 전개과정 및 조치 확인",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "누설 인지 후 밸브 폐쇄 경위"
+        }
+      ],
+      "limitation": "문의가 늦은 시점과 이유는 진술에 의존한다. 밸브 폐쇄는 누설 경보와 수집탱크 점검 뒤에 이루어졌다."
+    },
+    {
+      "id": "CLAUDE-F07",
+      "summary": "작업환경: 조작 구역은 조명 3개 중 2개만 켜져 조도 19~48 lux로 밸브 인식이 어려웠고 저녁식사 시간(18:00~19:00)에 수행되었으며 밸브가 배관 후면에 있어 명패 확인에 휴대용 조명이 필요했다(구역 설계 조도는 320 lux, 실측 450 lux 이상은 개방 공간·통로 포함 측정치).",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1.4 기타 기기 관리 및 작업환경 등 적절성 검토",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "작업환경 검토"
+        }
+      ],
+      "limitation": "조도가 오인 원인이라는 직접 인과는 KINS가 단정하지 않았다. 식사 시간 수행의 영향은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F08",
+      "summary": "인력 충원: 사건 당시 당직 발전1팀의 RO차장은 2017.1부터 장기 공석으로 타 발전팀에서 지속 대근 지원 중이었고 월성 3·4호기 발전팀 운전조 구성 7명이 공석(6개월 이상 공석 3명)이었다. KINS는 RO차장의 대근이 사건의 직접원인이라고 판단하기는 어려우나 주제어실 운전조 근무를 위해 정원 유지가 바람직하다고 보았고, 원전운영자는 사건조사 과정에서 3명을 충원했다. 전 원전 현장 발전과장(LA) 등 공석이 다수이며 UAE 사업 등이 원인으로 서술되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1.4 기타 기기 관리 및 작업환경 등 적절성 검토",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "발전팀 대근과 결원"
+        },
+        {
+          "section": "붙임 2 발전팀 운전원 미 확보현황 및 충원계획",
+          "printed_pages": [
+            30
+          ],
+          "pdf_pages": [],
+          "summary": "발전팀 운전원 미충원 현황"
+        }
+      ],
+      "limitation": "직접 인과는 KINS가 인정하지 않았다. 충원 계획의 이행은 후속 확인 대상이다."
+    },
+    {
+      "id": "CLAUDE-F09",
+      "summary": "과거 인적오류 사건 재발방지대책 유효성: 원전운영자는 최근 10년 보고대상 인적실수 22건 중 밸브·차단기 오조작 6건의 재발방지대책 28건을 검토해 세 가지가 미흡했다고 제시했고 KINS는 평가가 적절하다고 판단했다. (1) 신고리 1호기(2010.8.27)·한울 5호기(2013.7.5) 후속 교육은 일방적 이론 강의·개인학습이었고 현장운전원 대상 실습이 없었다. (2) 한울 5호기 후속의 운전원 기본수칙은 연 2회(1회 1시간) 교육에 그쳐 종사자별 체화 정도가 달랐을 수 있었다. (3) 월성 2호기(2008.12.4)·한울 5호기 후속의 과도상태 유발 밸브 식별·잠금 강화가 원인 발생 계통에 한정되어 중수누설 가능 밸브의 운영관리가 미흡했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.2 기존 인적실수 보고대상사건 재발방지대책 유효성 검토",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책 유효성 검토"
+        },
+        {
+          "section": "붙임 3 오조작 관련 보고대상 사건 재발방지대책 유효성 검토 결과",
+          "printed_pages": [
+            31,
+            32,
+            33
+          ],
+          "pdf_pages": [],
+          "summary": "인적오류 관련 사건 목록과 유효성 검토"
+        }
+      ],
+      "limitation": "28건 중 12건은 계통 상이 등으로 제외되었다. 대책 효과 자체의 정량 평가는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F10",
+      "summary": "중수수집계통 배수펌프 전단 스트레이너 막힘이 사건 발생에는 영향이 없었으나 원자로건물 누설량에 상당 부분 기여했다고 평가되었다(배수펌프 운전에도 수위가 내려가지 않아 운전원이 스트레이너 막힘으로 판단해 2회 청소). 원전운영자는 정상 배수 시 누설이 약 2,034 kg 감소했을 것으로 평가했고 스트레이너 점검주기가 기존에 없었다. 이물질은 방사성 부식생성물이었다. 개선으로 선기동 펌프는 스트레이너 유지, 후기동 펌프는 제거하고 OH마다 분해점검을 PM에 반영하며 수위증가율 경보를 신설하기로 했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.3 중수수집계통 스트레이너 이물질 영향 검토",
+          "printed_pages": [
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "스트레이너 이물질 영향 검토"
+        },
+        {
+          "section": "3.5 재발방지대책 적절성 확인결과",
+          "printed_pages": [
+            22,
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "스트레이너 개선"
+        }
+      ],
+      "limitation": "수치는 원전운영자 평가이며 KINS가 적절하다고 판단했다. 계산 입력은 재계산하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F11",
+      "summary": "운전 대응과 영향: 원자로건물 자동 격리신호 조건에 해당하지 않았고 원전운영자는 삼중수소 측정주기를 8시간에서 4시간으로, 기체유출물 삼중수소 평가주기를 1일에서 2시간으로 단축하고 환기·배기계통을 수동정지했다(최초 삼중수소 측정은 사건 후 약 1시간 경과한 20:06). 방사선작업허가서(SRWP)에 따라 누설 냉각재를 회수했고 작업자 29명 중 최대 피폭 2.53 mSv(한도의 13 %)였다. 누설 총량 약 4,078 kg, 소외 환경시료와 주민 예상피폭선량은 기준 이내였고 KINS는 대응이 적절하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.3.1 운전 대응 평가",
+          "printed_pages": [
+            16,
+            17
+          ],
+          "pdf_pages": [],
+          "summary": "운전 대응 평가"
+        },
+        {
+          "section": "3.3.2 누설 냉각수 회수조치",
+          "printed_pages": [
+            17,
+            18
+          ],
+          "pdf_pages": [],
+          "summary": "누설 냉각수 회수조치"
+        },
+        {
+          "section": "3.4 소내·외 방사선 영향 및 환경영향 확인",
+          "printed_pages": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "pdf_pages": [],
+          "summary": "방사선 영향 확인"
+        }
+      ],
+      "limitation": "소외 영향 수치는 보고서의 원전운영자 평가를 인용했다. 삼중수소 농도 변동 그래프는 확인하지 못했다."
+    },
+    {
+      "id": "CLAUDE-F12",
+      "summary": "원전운영자의 재발방지 조치: 단기(완료) — 기기명패·식별표시 관리지침 개정과 밸브명패 전수점검(3호기 14,948개 점검·245개 추가 부착, 4호기 12,029개 점검·295개 추가 부착), 잠금장치 관리지침 개정과 추가 설치(3호기 142→192개 등), 스트레이너 운영방법 변경, 현장운전원 교육·순시점검 및 코칭 지침, 단독수행 금지(첫 수행 직무·경험 부족 운전원) 규정. 장기(~2019.10) — 감시카메라 5개소 추가, 수위증가율 경보 신설, 동시확인 적용 단계 명확화(표준행정-9084A 개정), 운전원 재교육·현장직무교육 강화(기본수칙 교육 확대, 현장 밸브 사진 교육, 기동·정지 절차 도상훈련 추가), 기본수칙 분야 WANO 전문가 기술지원, 운전조직·인적요소 관리 유효성 검토(2020년까지 매년 제출). KINS는 보완요구사항 없이 대책이 적절하고 재가동은 문제가 없다고 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.5 재발방지대책 적절성 확인결과",
+          "printed_pages": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책"
+        },
+        {
+          "section": "4. 보완 요구사항",
+          "printed_pages": [
+            25
+          ],
+          "pdf_pages": [],
+          "summary": "보완 요구사항 없음"
+        },
+        {
+          "section": "5. 결론",
+          "printed_pages": [
+            25
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "장기대책 이행과 효과는 보고서 시점에 확인되지 않았다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-013-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "명패가 없는 밸브를 조작하는 불확실성이 있었으나 현장운전원과 RO차장이 작업을 중단하지 않았다는 점을 KINS가 인적오류예방기법 미적용 사례로 직접 서술했다(CLAUDE-F02). 불확실할 경우 작업을 중단하고 재개 전 리스크를 평가·관리한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1.1 인적오류예방기법 적용 적절성 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "인적오류예방기법 적용"
+        },
+        {
+          "section": "3.1 사건 전개과정 및 조치 확인",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "누설 직전~오개방 경위"
+        },
+        {
+          "section": "붙임 1 사건 위치도 및 운전원 대응",
+          "printed_pages": [
+            28,
+            29
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 대응 상세"
+        }
+      ],
+      "counterevidence_or_limitation": "현장운전원은 누설 인지 후 스스로 밸브 조작에 의문을 가져 폐쇄를 문의했다(CLAUDE-F06). 개인 판단 내면은 진술에 의존한다. QA3·QA4·WP4와 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-013-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "현장운전원이 밸브 상태 불일치에, RO차장이 정상(열림)과 다른 ‘닫힘’ 보고에 의문을 갖는 태도가 부족했다고 KINS가 직접 서술했다(CLAUDE-F02). 정확하지 않다고 판단될 때 의문을 제기한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1.1 인적오류예방기법 적용 적절성 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "인적오류예방기법 적용"
+        },
+        {
+          "section": "3.1 사건 전개과정 및 조치 확인",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "누설 직전~오개방 경위"
+        },
+        {
+          "section": "붙임 1 사건 위치도 및 운전원 대응",
+          "printed_pages": [
+            28,
+            29
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 대응 상세"
+        }
+      ],
+      "counterevidence_or_limitation": "누설 후에는 현장운전원이 이상한 점을 떠올려 문의했다(CLAUDE-F06). 사실이 QA2와 같은 장면이다."
+    },
+    {
+      "review_key": "ROOT-013-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "현장운전원의 사전점검·자기진단이 미흡했다고 서술되었다(CLAUDE-F02). 발생 가능한 실수와 잠재 리스크를 인지하고 대비한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1.1 인적오류예방기법 적용 적절성 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "인적오류예방기법 적용"
+        },
+        {
+          "section": "3.1 사건 전개과정 및 조치 확인",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "누설 직전~오개방 경위"
+        },
+        {
+          "section": "붙임 1 사건 위치도 및 운전원 대응",
+          "printed_pages": [
+            28,
+            29
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 대응 상세"
+        }
+      ],
+      "counterevidence_or_limitation": "심리(자만 등)는 추정하지 않았고 KINS는 기법 적용 미흡으로만 서술했다. QA2와 사실을 공유한다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-013-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "RO차장이 현장운전원의 밸브 확인·개방 결과를 발전팀장에게 보고하지 않았고 이는 표준지침-3035-01에 반한다(CLAUDE-F06). 모든 업무 활동에서 원자력안전을 염두에 두고 소통한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1.3 운전조직의 의사소통 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "운전조직 의사소통"
+        },
+        {
+          "section": "3.1 사건 전개과정 및 조치 확인",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "누설 인지 후 밸브 폐쇄 경위"
+        }
+      ],
+      "counterevidence_or_limitation": "발전팀장은 누설 후 충수펌프 교체운전 등을 지시했다(CLAUDE-F06). 현장운전원↔RO차장 간 소통(문의·지시·보고)은 이루어졌다. WP4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-013-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "당직 RO차장이 2017.1부터 장기 공석으로 타 팀에서 대근했고 월성 3·4호기 운전조 7명이 결원이었으며 KINS는 정원 유지가 바람직하다고 보았다(CLAUDE-F08). 인력 등 자원을 원자력안전을 위해 이용 가능하게 지원한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F08"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1.4 기타 기기 관리 및 작업환경 등 적절성 검토",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "발전팀 대근과 결원"
+        },
+        {
+          "section": "붙임 2 발전팀 운전원 미 확보현황 및 충원계획",
+          "printed_pages": [
+            30
+          ],
+          "pdf_pages": [],
+          "summary": "발전팀 운전원 미충원 현황"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 대근이 사건의 직접원인이라고 판단하기 어렵다고 명시했다. UAE 사업 등 결원 사유가 서술되었다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-013-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "현장운전원 재교육에 관리자 관찰 프로그램이 없다는 점(CLAUDE-F03)은 리더의 현장 관찰·코칭 방식을 토의하기 좋은 소재이다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1.1 인적오류예방기법 적용 적절성 검토",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "교육 프로그램 점검"
+        },
+        {
+          "section": "3.2.1.5 오개방 원인 종합 의견",
+          "printed_pages": [
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "종합 의견"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS가 리더의 현장 관찰 행동 자체를 평가하지 않았다. 선정 근거가 아니다."
+    },
+    {
+      "review_key": "ROOT-013-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘변화 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "명패 없는 밸브를 조작하고 절차서대로 할 수 없는 상황을 상급자에게 보고하지 않은 의사결정이 보수적이었는지 판단할 수 있다(CLAUDE-F02, CLAUDE-F06). 의사결정 시 안전을 고려해 보수적이고 신중함을 견지한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1.1 인적오류예방기법 적용 적절성 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "인적오류예방기법 적용"
+        },
+        {
+          "section": "3.1 사건 전개과정 및 조치 확인",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "누설 직전~오개방 경위"
+        },
+        {
+          "section": "붙임 1 사건 위치도 및 운전원 대응",
+          "printed_pages": [
+            28,
+            29
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 대응 상세"
+        },
+        {
+          "section": "3.2.1.3 운전조직의 의사소통 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "운전조직 의사소통"
+        },
+        {
+          "section": "3.1 사건 전개과정 및 조치 확인",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "누설 인지 후 밸브 폐쇄 경위"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 의사결정 보수성을 직접 평가하지 않았고 QA2·CO1로 평가했다. 별도 근거가 필요하다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-013-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "신고리 1호기(2010)·한울 5호기(2013)·월성 2호기(2008) 사건의 후속조치가 이론 강의 중심이거나 원인 계통에 한정되어 중수누설 가능 밸브 관리로 확대되지 않았다(CLAUDE-F09). 운전경험을 체계적으로 분석하고 시의적절하게 조치한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F09"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 기존 인적실수 보고대상사건 재발방지대책 유효성 검토",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책 유효성 검토"
+        },
+        {
+          "section": "붙임 3 오조작 관련 보고대상 사건 재발방지대책 유효성 검토 결과",
+          "printed_pages": [
+            31,
+            32,
+            33
+          ],
+          "pdf_pages": [],
+          "summary": "인적오류 관련 사건 목록과 유효성 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "후속조치는 전파·교육과 잠금장치 설치 등으로 시행되었다(CLAUDE-F09). 원전운영자가 스스로 유효성을 평가했다(PI2 긍정). PI3·CL4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-013-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "책임구역 점검과 4주기 OH 밸브점검이 운전상태·외관 중심이어서 명패 부재를 발견하지 못했다(CLAUDE-F05). 프로그램과 관행에 대한 비판적·객관적 평가를 정기적으로 수행한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1.2 밸브 명패관리 적절성 검토",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "밸브 명패관리"
+        },
+        {
+          "section": "3.2.1.4 기타 기기 관리 및 작업환경 등 적절성 검토",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "잠금장치 관리"
+        }
+      ],
+      "counterevidence_or_limitation": "점검 프로그램은 존재했다. 명패 부재 확인 기록이 없다는 서술이며 점검 미수행으로 단정할 수 없다. WP4와 사실을 공유한다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-013-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 운전원 기본수칙 분야에서 WANO 전문가의 기술지원과 타 발전소 인적오류 사례 교육을 계획했다(CLAUDE-F12). 지식·기술·안전성능 향상을 위한 벤치마킹과 연결되는 사후 조치이다.",
+      "fact_ids": [
+        "CLAUDE-F12"
+      ],
+      "source_refs": [
+        {
+          "section": "3.5 재발방지대책 적절성 확인결과",
+          "printed_pages": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책"
+        },
+        {
+          "section": "4. 보완 요구사항",
+          "printed_pages": [
+            25
+          ],
+          "pdf_pages": [],
+          "summary": "보완 요구사항 없음"
+        },
+        {
+          "section": "5. 결론",
+          "printed_pages": [
+            25
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "counterevidence_or_limitation": "이행은 예정 단계이고 사건 이전 벤치마킹 수준은 서술되지 않았다."
+    },
+    {
+      "review_key": "ROOT-013-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "현장운전원 재교육에 현장 실습이 부족하고 관리자 관찰 프로그램이 없으며 관련 도상훈련이 실시되지 않았다고 KINS가 인적오류 기저원인으로 판단했다(CLAUDE-F03). 높은 수준의 교육훈련을 통한 전문 인력 양성과 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1.1 인적오류예방기법 적용 적절성 검토",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "교육 프로그램 점검"
+        },
+        {
+          "section": "3.2.1.5 오개방 원인 종합 의견",
+          "printed_pages": [
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "종합 의견"
+        }
+      ],
+      "counterevidence_or_limitation": "프로그램의 시간·과목 구성은 갖추어져 있었다(CLAUDE-F03). 주제어실 운전원은 시뮬레이터와 관찰이 있었다. CL1·PI3과 사실을 일부 공유한다."
+    },
+    {
+      "review_key": "ROOT-013-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 파악’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 최근 10년 인적오류 22건 중 6건의 대책 28건을 다시 평가했고 스트레이너 영향도 누설량과 수위 변화로 분석했으며 KINS가 적절하다고 판단했다(CLAUDE-F09, CLAUDE-F10). 원인·시정조치를 안전 중요도에 맞게 평가한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F09",
+        "CLAUDE-F10"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 기존 인적실수 보고대상사건 재발방지대책 유효성 검토",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책 유효성 검토"
+        },
+        {
+          "section": "붙임 3 오조작 관련 보고대상 사건 재발방지대책 유효성 검토 결과",
+          "printed_pages": [
+            31,
+            32,
+            33
+          ],
+          "pdf_pages": [],
+          "summary": "인적오류 관련 사건 목록과 유효성 검토"
+        },
+        {
+          "section": "3.2.3 중수수집계통 스트레이너 이물질 영향 검토",
+          "printed_pages": [
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "스트레이너 이물질 영향 검토"
+        },
+        {
+          "section": "3.5 재발방지대책 적절성 확인결과",
+          "printed_pages": [
+            22,
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "스트레이너 개선"
+        }
+      ],
+      "counterevidence_or_limitation": "평가는 사건 후 KINS 요구로 수행되었다. 사건 전 평가 수준은 서술되지 않았다."
+    },
+    {
+      "review_key": "ROOT-013-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "과거 인적오류 사건의 재발방지대책이 교육 실습 부족·기본수칙 체화 편차·적용 범위 한정으로 유효성이 미흡했다(CLAUDE-F09). 문제를 중요도에 따라 시의적절하고 효과적으로 조치한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F09"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.2 기존 인적실수 보고대상사건 재발방지대책 유효성 검토",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책 유효성 검토"
+        },
+        {
+          "section": "붙임 3 오조작 관련 보고대상 사건 재발방지대책 유효성 검토 결과",
+          "printed_pages": [
+            31,
+            32,
+            33
+          ],
+          "pdf_pages": [],
+          "summary": "인적오류 관련 사건 목록과 유효성 검토"
+        }
+      ],
+      "counterevidence_or_limitation": "CL1과 같은 사실이다. 대책은 이행되었고 유효성 확보가 미흡했다는 서술이다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-013-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘작업 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘설계 여유도’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-013-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "동시확인(2인 1조) 적용 단계가 절차서 세부 단계에서 수행 주체를 불분명하게 기술하고 절차서 작성기준에도 적용 단계가 명확하지 않았다(CLAUDE-F04). 문서 작성·관리가 완전하고 정확해야 한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1.1 인적오류예방기법 적용 적절성 검토",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "2인 1조 규정 적용"
+        },
+        {
+          "section": "3.2.1.5 오개방 원인 종합 의견",
+          "printed_pages": [
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "종합 의견"
+        }
+      ],
+      "counterevidence_or_limitation": "절차서 구성 자체는 갖추어져 있고 사건 후 개정이 계획되었다(CLAUDE-F12). WP4와 구분(문서 결함 vs 미이행)한다."
+    },
+    {
+      "review_key": "ROOT-013-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "인적오류예방기법·활용 절차(표준운영-2035A)의 상황인식 수단과 운전행위 표준지침(표준지침-3035-01)의 즉시 보고, 기기명패 관리지침(발전지침-2014-14)의 명패 부착이 이행되지 않았다(CLAUDE-F02, CLAUDE-F05, CLAUDE-F06). 프로세스·절차·작업지침을 준수한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F05",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1.1 인적오류예방기법 적용 적절성 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "인적오류예방기법 적용"
+        },
+        {
+          "section": "3.1 사건 전개과정 및 조치 확인",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "누설 직전~오개방 경위"
+        },
+        {
+          "section": "붙임 1 사건 위치도 및 운전원 대응",
+          "printed_pages": [
+            28,
+            29
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 대응 상세"
+        },
+        {
+          "section": "3.2.1.2 밸브 명패관리 적절성 검토",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "밸브 명패관리"
+        },
+        {
+          "section": "3.2.1.4 기타 기기 관리 및 작업환경 등 적절성 검토",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "잠금장치 관리"
+        },
+        {
+          "section": "3.2.1.3 운전조직의 의사소통 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "운전조직 의사소통"
+        },
+        {
+          "section": "3.1 사건 전개과정 및 조치 확인",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "누설 인지 후 밸브 폐쇄 경위"
+        }
+      ],
+      "counterevidence_or_limitation": "책임구역 점검은 수행되었으나 명패 부재 확인은 포함되지 않았다(CLAUDE-F05). 개인 동기는 서술되지 않았다. QA2·CO1·WP3과 사실을 공유한다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(f2186ad4…35fb)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 1,105,230 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2018-6호(180611W3)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 44이고 큐 기대 물리 페이지는 45이다. PDF 텍스트 추출은 가능했고 사건 요약은 인쇄쪽 1에서 시작하며 표지에는 쪽번호가 없다. 면 끝의 ‘- N -’ 표기에서 인쇄쪽 번호를 읽었고 큐 기대 물리 페이지(45)와 일치한다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(본문은 인쇄쪽 3(1. 개요)부터이며 물리 페이지 = 인쇄쪽 + 1(표지 1면)로 추정한다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 면 경계에 ±1쪽 불확실성이 있고 붙임 3~5의 표 면은 텍스트가 섞여 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 붙임 1 위치도·밸브 배치도, 붙임 4 운전변수 그래프, 붙임 6~8의 환경시료·피폭 표의 일부 수치, 중수증기회수계통 개략도 등 그림은 확인하지 못했다.",
+    "원본의 비공개 처리 구간(작업자 성명(마스킹), 일부 수치 표)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 2.2절 소제목이 ‘2016. 6. 11’로 적혀 있고(2018의 오기로 보임), 누설 회수량이 요약(3,819 kg)과 결론(3,818 kg)에서 다르며, 소외 삼중수소 배출 기간 표기가 부분적으로 다르다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 밸브 오조작이라는 인적오류와 교육훈련·절차·명패 관리를 폭넓게 다루어 선정 속성이 많다. 보고서가 지적한 직접 사실(인적오류예방기법 미적용, 의문 태도 부족, 불확실시 미중지, 동시확인 절차 불명확, 현장 실습 부족)에 근거해 선정했다. 같은 사실이 여러 속성에 연결되어 선정 개수를 독립 문제 수로 해석할 수 없다(제3장 3.6).",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-013와는 무관한 사건이며 ROOT-013 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

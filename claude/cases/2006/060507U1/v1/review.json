@@ -1,0 +1,988 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-030",
+  "event_id": "060507U1",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2006-05-07_울진1호기 원자로냉각재계통 가열 중 부적절한 안전주입 발생.pdf",
+    "report_number": "2006-8",
+    "report_date": "2006-05-22",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 조사자 명단, 사건 요약, 1~7장, 붙임 1(SOE)·붙임 5(안전주입 신호 논리) 텍스트; 인쇄쪽 1~18 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-030 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-030의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2006.5.7(일) 21:44 제14차 계획예방정비 마무리 단계에서 원자로냉각재계통 가열 중이던 울진 1호기(PWR 3Loops, 운전모드 4, RCS 25 bar·170 ℃)에서 증기발생기(S/G) B 주증기관 압력이 0으로 지시된 채 A, C 압력만 상승해 차압이 설정치 7 bar에 도달하면서 ‘주증기관 고차압’ 안전주입신호가 발생했다. 고압·저압 안전주입펌프, 격납용기 격리 1단계, 비상디젤발전기 등이 신호대로 동작했으며 RCS 압력은 25에서 32 bar로 상승했다. 운전원은 비상-1과 정지3-2 절차로 부적절한 안전주입을 확인해 종료했고 발전소는 모드 5로 안정 유지되었다. 방사성물질 방출은 없었다(보고서 2006-8호, 2006-5-22 발행).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "2. 사건의 경위",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "사건의 경위"
+        },
+        {
+          "section": "3.다 안전주입 신호 발생 후 발전소 거동 평가",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "안전주입 신호 발생 후 발전소 거동 평가"
+        },
+        {
+          "section": "5. 안전성 평가",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "안전성 평가"
+        }
+      ],
+      "limitation": "표지와 조사자 명단 면은 쪽번호가 없고 인쇄쪽 1은 사건 요약 면이다. 붙임 2의 계통 변수 그래프와 붙임 3·4·6·7의 그림은 이미지라 확인하지 못했다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "격리밸브 비정상 닫힘 원인: 2006.4.18 협력업체(삼창) 작업자가 주증기계통 압력계기 계열교정·계기교정을 작업지시서·교정결과보고서대로 수행하고 격리밸브를 열림으로 재배치한 것이 확인되었다. 그러나 교정 후 감독부서장(계측제어부장)이 격리밸브 고정 보강 작업을 공식 작업지시서 없이 구두로 지시했고 당일 작업도구가 없어 4.19에 수행했다. 이를 위해 열려 있던 격리밸브를 닫았으나 작업 후 재개방하지 않아 S/G B 압력전송기 격리밸브가 5.7까지 닫힌 채 남았다. KINS는 구두 지시 작업이어서 작업자가 작업 완료 후 계통 정상화 절차에 주의를 기울이지 못한 것으로 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "2.다 사건 전개 경위",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "사건 전개 경위"
+        },
+        {
+          "section": "3.가 격리밸브 비정상 닫힘 원인",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "격리밸브 비정상 닫힘 원인"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        }
+      ],
+      "limitation": "구두 지시의 필요성·승인 경위와 작업 후 확인(검증) 주체는 서술되지 않았다. 요약은 4.18, 본문은 4.19 작업으로 서술한다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "운전원 대응: 가열 중 21:30경 운전원이 S/G A, C는 약 6.5 bar인데 B만 0 bar임을 발견하고 계측제어부에 점검을 의뢰했으나 가열을 중지하는 등의 조치는 하지 않았고, 점검 중 차압이 계속 커져 7 bar에서 안전주입신호가 발생했다(약 14분). 운전원은 모드 4에서는 안전주입신호가 차단된다고 잘못 인식해 계측기 보완만으로 해결될 것으로 판단했다. 실제로는 5개 안전주입신호 중 3개만 차단되고 격납건물 고압력과 주증기관 고차압 신호는 차단되지 않는다. KINS는 운전원이 모드별 신호 차단을 정확히 인지했다면 부적절한 안전주입을 방지할 수도 있었다고 판단했고, 안전성 평가에서 정비 작업자의 실수와 운전원의 대응조치 미숙이 사건 원인이라고 서술했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "2.다 사건 전개 경위",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "격리밸브 정상화 후 조치"
+        },
+        {
+          "section": "3.나 비정상 지시 인지 후 미조치 이유",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "비정상 지시 인지 후 미조치 이유"
+        },
+        {
+          "section": "5. 안전성 평가",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "안전성 평가"
+        },
+        {
+          "section": "붙임 5 안전주입 신호 발생 논리",
+          "printed_pages": [
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "안전주입 신호 발생 논리"
+        }
+      ],
+      "limitation": "운전원이 ‘이상 징후가 없다’고 판단한 경위와 교대·주제어실 내 협의 내용은 서술되지 않았다. 운전원 수와 인수인계 상황은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "문서 불일치: 운영기술지침서(T/S)는 운전모드 4~9에서 안전주입신호 발생이 가능하도록 명시하나 비상운전절차서의 비상-1(안전주입에 따른 확인 및 원인분석) 적용 범위는 모드 9(출력운전)에서 모드 6(RRA 격리 정상중간정지)까지여서 모드 4, 5에서 안전주입신호가 발생하면 비상-1로 진입하지 못할 가능성이 있다. KINS는 이것이 T/S와 EOP 사이의 불일치 때문이라고 판단하고 충분한 검토와 조치가 필요하다고 평가했다. 이 사건에서는 운전원이 비상-1로 진입해 절차를 수행했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.라 T/S 및 EOP 적용의 적합성",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "T/S 및 EOP 적용의 적합성"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "6. 보완요구사항",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항"
+        }
+      ],
+      "limitation": "불일치가 설정된 시점과 경위는 서술되지 않았다. 해당 절차 범위가 설계에 근거한 것인지 여부도 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "사업자 조치와 KINS 보완요구: 사업자는 모든 안전관련 압력·유량·수위 전송기 격리밸브의 개방 상태를 점검했고, 종합운전절차서(종합-08)에 RCS 가열 시(120 ℃) 계측기 운전가능성·주증기관 압력편차 확인 추가, 계열교정(정기-034)에 교정 후 격리밸브 복구(열림 확인) 절차 추가, 안전관련 계측기 격리밸브 배열 확인 절차 작성, 운전원·정비원 교육 강화를 시행할 예정이다. KINS는 이를 적절하다고 평가했고, 울진 1,2호기에 대해 T/S와 EOP 간 적용 범위 상이의 보완 필요성과 운전모드별 안전주입 이용 가능성·신호 차단 논리의 적절성을 검토해 2006.6.30까지 계획을 제출하도록 요구했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "4. 사업자 조치사항",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "사업자 조치사항"
+        },
+        {
+          "section": "6. 보완요구사항",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항"
+        },
+        {
+          "section": "7. 결론",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "조치의 이행 여부와 효과는 보고서 시점에 확인되지 않았다(‘수행할 예정’ 서술 포함)."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-030-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "운전원이 S/G B 압력 0 지시를 발견하고도 가열을 중지하는 등의 조치 없이 계측기 점검만 의뢰했고, 이는 모드 4에서 안전주입신호가 차단된다는 잘못된 인식에 근거했다(CLAUDE-F03). KINS는 운전원의 대응조치 미흡이 사건 원인의 하나라고 서술했다. 불확실할 때 중단하고 리스크를 평가한다는 정의와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "2.다 사건 전개 경위",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "격리밸브 정상화 후 조치"
+        },
+        {
+          "section": "3.나 비정상 지시 인지 후 미조치 이유",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "비정상 지시 인지 후 미조치 이유"
+        },
+        {
+          "section": "5. 안전성 평가",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "안전성 평가"
+        },
+        {
+          "section": "붙임 5 안전주입 신호 발생 논리",
+          "printed_pages": [
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "안전주입 신호 발생 논리"
+        }
+      ],
+      "counterevidence_or_limitation": "운전원의 심리는 추정하지 않았다. KINS는 ‘이상 징후가 없었다’는 운전원 판단을 서술했다(CLAUDE-F03). CL4·DM2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-030-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "감독부서장이 구두로 작업을 지시했고, 운전원은 S/G B 압력 이상을 발견한 뒤 계측제어부에 점검을 의뢰했으나 가열 지속 여부에 대한 협의 내용은 서술되지 않았다(CLAUDE-F02, CLAUDE-F03). 모든 업무 활동에서 원자력안전을 염두에 두고 소통한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "2.다 사건 전개 경위",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "사건 전개 경위"
+        },
+        {
+          "section": "3.가 격리밸브 비정상 닫힘 원인",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "격리밸브 비정상 닫힘 원인"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "2.다 사건 전개 경위",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "격리밸브 정상화 후 조치"
+        },
+        {
+          "section": "3.나 비정상 지시 인지 후 미조치 이유",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "비정상 지시 인지 후 미조치 이유"
+        },
+        {
+          "section": "5. 안전성 평가",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "안전성 평가"
+        },
+        {
+          "section": "붙임 5 안전주입 신호 발생 논리",
+          "printed_pages": [
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "안전주입 신호 발생 논리"
+        }
+      ],
+      "counterevidence_or_limitation": "소통 실패를 직접 확인한 서술은 없어 후보 의견이다. WP1·QA2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-030-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘변화 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "운전원이 압력 지시 이상 상황에서 가열 운전을 계속했고 이것이 부적절한 안전주입에 이르렀다(CLAUDE-F03). 불확실한 상황에서 보수적으로 결정한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "2.다 사건 전개 경위",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "격리밸브 정상화 후 조치"
+        },
+        {
+          "section": "3.나 비정상 지시 인지 후 미조치 이유",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "비정상 지시 인지 후 미조치 이유"
+        },
+        {
+          "section": "5. 안전성 평가",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "안전성 평가"
+        },
+        {
+          "section": "붙임 5 안전주입 신호 발생 논리",
+          "printed_pages": [
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "안전주입 신호 발생 논리"
+        }
+      ],
+      "counterevidence_or_limitation": "‘보수적 의사결정’ 여부에 대한 KINS의 직접 평가는 없어 후보 의견이다. QA2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-030-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘운전 경험’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자체 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘벤치마킹’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS는 운전원이 모드별 안전주입신호 차단을 정확히 알았다면 부적절한 안전주입을 방지할 수 있었다고 판단했고 사업자는 운전원·정비원 교육을 강화하기로 했다(CLAUDE-F03, CLAUDE-F05). 전문 인력을 양성하는 교육훈련의 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "2.다 사건 전개 경위",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "격리밸브 정상화 후 조치"
+        },
+        {
+          "section": "3.나 비정상 지시 인지 후 미조치 이유",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "비정상 지시 인지 후 미조치 이유"
+        },
+        {
+          "section": "5. 안전성 평가",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "안전성 평가"
+        },
+        {
+          "section": "붙임 5 안전주입 신호 발생 논리",
+          "printed_pages": [
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "안전주입 신호 발생 논리"
+        },
+        {
+          "section": "4. 사업자 조치사항",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "사업자 조치사항"
+        },
+        {
+          "section": "6. 보완요구사항",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항"
+        },
+        {
+          "section": "7. 결론",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "counterevidence_or_limitation": "교육 이수 이력과 훈련 내용은 서술되지 않았다. QA2·DM2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-030-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 파악’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 평가’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "사업자는 모든 안전관련 압력·유량·수위 전송기 격리밸브 개방 상태를 점검하고 관련 절차서 개정과 격리밸브 배열 확인 절차 작성을 추진했으며 KINS는 적절하다고 평가했다(CLAUDE-F05). 문제를 시의적절하게 조치한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "4. 사업자 조치사항",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "사업자 조치사항"
+        },
+        {
+          "section": "6. 보완요구사항",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항"
+        },
+        {
+          "section": "7. 결론",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "counterevidence_or_limitation": "개정·교육은 ‘예정’ 단계이며 효과는 확인되지 않았다."
+    },
+    {
+      "review_key": "ROOT-030-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "공식 작업지시서 없이 감독부서장의 구두 지시로 격리밸브 고정 보강 작업이 수행되었고, 작업 후 계통 정상화(밸브 재개방)가 확인되지 않은 채 종료되었다(CLAUDE-F02). 원자력안전을 최우선으로 작업을 계획·시행한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "2.다 사건 전개 경위",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "사건 전개 경위"
+        },
+        {
+          "section": "3.가 격리밸브 비정상 닫힘 원인",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "격리밸브 비정상 닫힘 원인"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        }
+      ],
+      "counterevidence_or_limitation": "정식 교정 작업 자체는 절차대로 수행되었다고 확인되었다(CLAUDE-F02). WP3·WP4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-030-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘설계 여유도’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-030-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS는 T/S와 EOP 사이의 안전주입 적용 운전모드 불일치를 확인했고, 사업자는 교정 절차서에 복구 절차를 추가하는 등 관련 절차서를 개정할 예정이다(CLAUDE-F04, CLAUDE-F05). 문서가 완벽하고 정확하다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.라 T/S 및 EOP 적용의 적합성",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "T/S 및 EOP 적용의 적합성"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "6. 보완요구사항",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항"
+        },
+        {
+          "section": "4. 사업자 조치사항",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "사업자 조치사항"
+        },
+        {
+          "section": "7. 결론",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "counterevidence_or_limitation": "불일치는 이 사건의 직접 원인이 아니다(CLAUDE-F04). 사건에서 운전원은 비상-1에 진입했다. 교정 절차서의 복구 단계 부재는 보고서가 원인으로 직접 서술하지 않았다."
+    },
+    {
+      "review_key": "ROOT-030-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "작업자가 구두 지시 작업 후 계통 정상화 절차에 주의를 기울이지 못한 것으로 KINS가 판단했다(CLAUDE-F02). 프로세스·절차·지침을 준수한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "2.다 사건 전개 경위",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "사건 전개 경위"
+        },
+        {
+          "section": "3.가 격리밸브 비정상 닫힘 원인",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "격리밸브 비정상 닫힘 원인"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        }
+      ],
+      "counterevidence_or_limitation": "구두 지시 작업에는 따라야 할 정식 절차가 없었고 정식 교정 작업은 절차대로 수행되었다(CLAUDE-F02). 후보 의견이다. WP1과 사실을 공유한다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(b4a68f42…0e2e)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 863,091 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2006-8호(060507U1)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 18이고 큐 기대 물리 페이지는 20이다. PDF 텍스트 추출이 가능했고 큐의 SHA-256·페이지(20)와 일치했다. 표지와 조사자 명단 면은 쪽번호가 없고 사건 요약 면 끝이 ‘- 1 -’이다. 붙임 2(변수 거동 그래프), 붙임 3(현장 사진), 붙임 4(계통도), 붙임 6(운전모드별 이용 가능성 표), 붙임 7(EOP 화면)은 이미지·그림이라 확인하지 못했다. Drive에는 같은 크기의 복사본이 여럿 있었다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(물리 페이지 = 인쇄쪽 + 2(표지, 조사자 명단 2면)이다. 면 끝 ‘- N -’ 표기를 기준으로 했다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 면 경계에 ±1쪽 불확실성이 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 붙임 2~4, 6, 7의 그래프·사진·계통도·표·화면은 이미지라 확인하지 못했다. 붙임 1 SOE는 태그 기록이며 일부만 해석했다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 사건 요약은 교정 작업을 4월 18일로 서술하고 본문은 구두 지시 작업(밸브 닫음)을 4월 19일로 서술한다. 가열 시작 시각을 경위는 09:50, 본문은 09:30으로 적는다. 안전주입 발생 시각은 21:44:39이고 SOE는 21:43:42부터 기록한다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 사건은 KINS가 정비 작업자의 확인 미흡(구두 지시 작업)과 운전원의 대응 미숙(모드별 안전주입 신호 차단 오인)을 직접 원인으로 서술하고 T/S-EOP 불일치도 지적해 선정이 많지 않다. 문서·교육·작업관리 정도만 선정했고 판단·소통 영역은 후보이다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-030와는 무관한 사건이며 ROOT-030 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

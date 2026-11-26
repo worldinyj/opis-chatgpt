@@ -1,0 +1,887 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-031",
+  "event_id": "051106W1",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2005-11-06_월성1호기 비상발전기실 스프링클러 오작동에 의한 원자로건물 격리 신호 발생.pdf",
+    "report_number": "2005-14",
+    "report_date": "2005-11-10",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 조사자 명단, 사건 요약, 1~6장, 붙임 2 텍스트; 인쇄쪽 1~17 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-031 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-031의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2005.11.6(일) 02:28 91.5 % 출력(637 MWe)으로 정상 운전 중이던 월성 1호기(PHWR)에서 원자로건물 격리 신호가 발생해 원자로건물 환기계통 격리밸브 40개가 닫혔다(Box-up). 원인은 비상발전기 #2실 스프링클러 노즐 1개의 고장으로 분출된 소화수가 인접한 제2제어실(SCA)로 유입되어 지하의 방사선감시기 패널(P, Q 채널)이 오작동한 것이다. 원자로 정지·출력 변동은 없었고 필수안전기능이 유지되었으며 방사성물질 방출이 없었다. 비상발전기 #2는 침수되어 분해점검·시험 후 11.8 20:30에 복구되었다(보고서 2005-14호, 2005-11-10 발행).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "1. 사건 개요",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "사건 개요"
+        },
+        {
+          "section": "2. 사건 경위",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "사건 경위"
+        },
+        {
+          "section": "4. 안전성 평가",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "안전성 평가"
+        }
+      ],
+      "limitation": "표지와 조사자 명단 면은 쪽번호가 없고 인쇄쪽 3은 사건 요약 면이다(PDF 물리쪽과 인쇄쪽이 같다). 붙임 1의 SOE(PDF 12~13쪽)는 텍스트 추출이 되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "스프링클러 노즐 고장: 노즐의 Fusible Link가 이탈해 소화수가 분출했고, 노즐은 1981년 건설 당시 설치되어 24년이 경과해 노후화로 파손된 것으로 KINS가 추정했다. 사건 시각(02시경) 주변 작업이 없어 외부 충격 가능성은 없다고 판단했다. 월 1회 육안 점검(2005.10.6)과 연 1회 작동·기능 점검(2005.4.25~26)은 절차대로 수행되어 판정기준을 만족한 것으로 확인되었다. KINS는 파손 스프링클러 헤드의 상세 손상 원인 분석과 노후 헤드의 점검·정비(교체 포함) 강화를 요구했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.나 스프링클러 및 소화수 계통 오작동 원인",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "스프링클러 노즐 고장 원인"
+        },
+        {
+          "section": "5. 개선 및 보완요구 사항",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "개선 및 보완요구 사항"
+        }
+      ],
+      "limitation": "노후화는 KINS의 추정이며 상세 손상 원인 분석 결과는 보고서에 없다. 점검 절차가 노즐 노후도를 평가하는 내용인지는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "화재경보: 스프링클러가 오작동한 월성 1호기에서는 화재경보가 발생하지 않았고 소화펌프와 루프 배관을 공유하는 월성 2호기 주제어실에서 02:07 ‘Fire in Plant’ 경보가 발생했다. 이로 인해 1호기 사건에 대한 운전원 대응이 지연되었다고 KINS가 서술했다(2호기가 02:15 소화수계통 비정상을 1호기에 통보, 1호기 현장 점검). 1호기 경보 미발생 원인은 비상발전기실 스프링클러 모관 압력스위치 내부 부품 고착이었고, 이 스위치는 3년 주기 검교정(최근 2003.7.28)이었으며 예비경보(Trouble alarm) 기능이 없다. KINS는 화재 경보 기능의 검토·보완을 요구했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "2. 사건 경위",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 사건 전개 경위"
+        },
+        {
+          "section": "3.다 화재경보 발생 관련",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "화재경보 발생 관련"
+        },
+        {
+          "section": "5. 개선 및 보완요구 사항",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "개선 및 보완요구 사항"
+        }
+      ],
+      "limitation": "1호기 운전원이 2호기 통보 외에 독자적으로 이상을 인지할 수단이 있었는지는 서술되지 않았다. 압력스위치 고착 시점은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "소화수 침투 경로와 설계 취약성: 비상발전기 #2실의 소화수가 비상발전기 #1실을 거쳐 제2제어실로 유입되었고 각 실 사이에 방화벽·방화문이 있으나 아래쪽 틈새로 침투했다. 이어 제2제어실 1층 바닥의 신호선 관통부를 통해 지하층 천장과 방사선감시패널 상부로 침투했다. 사업자는 사건 후 방화문에 소화수 유입 방지턱을 설치했으나 KINS는 비상발전기실과 제2제어실의 소화수 영향을 배제할 근본대책이 추가로 필요하다고 평가했다. KINS는 월성 1,2,3,4호기에 격실간 소화수 유입 방지대책 수립과, 국내 전 원전에 소화계통 작동 시 인접 계통 영향 가능성 점검을 요구했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.가 원자로건물 격리 신호 발생 원인",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "원자로건물 격리 신호 발생 원인"
+        },
+        {
+          "section": "3.마 사업자 후속 조치 사항 평가",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "사업자 후속 조치 사항 평가"
+        },
+        {
+          "section": "5. 개선 및 보완요구 사항",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "개선 및 보완요구 사항"
+        }
+      ],
+      "limitation": "설계 단계의 격실 간 소화수 침투 평가 여부는 서술되지 않았다. 제2제어실의 방사선감시기가 물에 취약하다는 점은 붙임 2에 서술된다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "운전원 조치: 방사선감시회로 오작동에 의한 격리이므로 운전원은 비정상 운전절차(발1-5-301 AOP 68400) 대신 운전절차서(발1-5-083) ‘5.4.2.2 뜻하지 않게 잘못 운전된 경우의 복구’에 따라 복구했다. KINS는 격리 후 복구 절차가 두 절차서에 중복 기술되어 혼동 가능성이 있고, 두 절차서가 고압력·고방사능 이외의 고장으로 격리가 발생한 경우의 적용이 불분명하므로 명확히 명기하도록 개선이 필요하다고 평가했다. 반면 비상발전기 #2의 운전 불가 판단 후 운영기술지침서(3.3.2.6)에 따라 04:52 비상발전기 #1 부하시험을 수행한 것은 적절하다고 평가했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "2. 사건 경위",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 사건 전개 경위"
+        },
+        {
+          "section": "3.라 운전원 조치 사항 평가",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 조치 사항 평가"
+        },
+        {
+          "section": "5. 개선 및 보완요구 사항",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "개선 및 보완요구 사항"
+        }
+      ],
+      "limitation": "혼동 가능성은 KINS가 가능성으로 서술했으며 실제 혼동 사례는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "복구와 평가: 소화수가 침투한 방사선감시기 P, Q 채널은 예비품으로 교체해 시험했고 계전기 모듈 절연저항(1.38 kΩ 이상)과 전압(50±2 Vdc)을 확인했다. 제2정지계통 패널 3개 채널(G, H, J)은 영향이 없었고 일부 바닥·케이블 침수에도 기능이 유지되었다. 비상발전기 #2는 건조 후 정비절차에 따라 절연저항, 논리시험, 부하시험으로 복구를 확인했다. KINS는 사업자의 재발방지 조치(패널 교체·점검, 방지턱 설치)를 확인하고 장기적으로 보완요구사항(2005.12.30까지 이행계획 제출)이 필요하다고 결론지었다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.라 사건 후 기기 건전성 점검 결과",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "사건 후 기기 건전성 점검 결과"
+        },
+        {
+          "section": "6. 결론",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        },
+        {
+          "section": "붙임 2 제2제어실의 기능",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "제2제어실의 기능"
+        }
+      ],
+      "limitation": "보완요구사항의 이행은 보고서 시점에 확인되지 않았다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-031-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘불확실성 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 소통’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘변화 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘보수적 성향’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "KINS는 국내 전 원전에 소화계통 작동 시 인접 계통에 영향을 줄 수 있는 사건 발생 가능성을 점검하도록 요구했다(CLAUDE-F04). 운전경험을 다른 발전소에 반영한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가 원자로건물 격리 신호 발생 원인",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "원자로건물 격리 신호 발생 원인"
+        },
+        {
+          "section": "3.마 사업자 후속 조치 사항 평가",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "사업자 후속 조치 사항 평가"
+        },
+        {
+          "section": "5. 개선 및 보완요구 사항",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "개선 및 보완요구 사항"
+        }
+      ],
+      "counterevidence_or_limitation": "이 사건 이전의 유사 운전경험은 서술되지 않았다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-031-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자체 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘벤치마킹’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘교육 훈련’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 파악’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "KINS는 파손 스프링클러 헤드의 상세 손상 원인 분석과 소화수로 인한 영향을 배제할 근본대책 수립이 추가로 필요하다고 평가했다(CLAUDE-F02, CLAUDE-F04). 원인분석과 시정조치를 안전 중요도에 맞게 평가한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.나 스프링클러 및 소화수 계통 오작동 원인",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "스프링클러 노즐 고장 원인"
+        },
+        {
+          "section": "5. 개선 및 보완요구 사항",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "개선 및 보완요구 사항"
+        },
+        {
+          "section": "3.가 원자로건물 격리 신호 발생 원인",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "원자로건물 격리 신호 발생 원인"
+        },
+        {
+          "section": "3.마 사업자 후속 조치 사항 평가",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "사업자 후속 조치 사항 평가"
+        },
+        {
+          "section": "5. 개선 및 보완요구 사항",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "개선 및 보완요구 사항"
+        }
+      ],
+      "counterevidence_or_limitation": "사업자 분석의 범위는 서술되지 않았다. 후보 의견이다. WP2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-031-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "사업자는 영향 기기를 교체·건조·시험으로 복구하고 방화문에 소화수 유입 방지턱을 설치하는 등 재발방지 조치를 수행했다(CLAUDE-F04, CLAUDE-F06). 문제를 시의적절하게 조치한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.라 사건 후 기기 건전성 점검 결과",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "사건 후 기기 건전성 점검 결과"
+        },
+        {
+          "section": "6. 결론",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        },
+        {
+          "section": "붙임 2 제2제어실의 기능",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "제2제어실의 기능"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 방지턱 외에 근본대책이 추가로 필요하다고 평가해 부분적 조치이다."
+    },
+    {
+      "review_key": "ROOT-031-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘작업 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-031-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "건설 당시 설치되어 24년 경과한 스프링클러 노즐이 파손되었고 방화벽·방화문 틈새와 신호선 관통부를 통한 소화수 침투 경로가 설계에 고려되지 않은 것으로 보이며 KINS는 노후 헤드 점검·정비 강화와 격실간 소화수 유입 방지 근본대책을 요구했다(CLAUDE-F02, CLAUDE-F04). 설비의 설계 여유와 변경·관리를 엄격히 한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.나 스프링클러 및 소화수 계통 오작동 원인",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "스프링클러 노즐 고장 원인"
+        },
+        {
+          "section": "5. 개선 및 보완요구 사항",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "개선 및 보완요구 사항"
+        },
+        {
+          "section": "3.가 원자로건물 격리 신호 발생 원인",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "원자로건물 격리 신호 발생 원인"
+        },
+        {
+          "section": "3.마 사업자 후속 조치 사항 평가",
+          "printed_pages": [
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "사업자 후속 조치 사항 평가"
+        },
+        {
+          "section": "5. 개선 및 보완요구 사항",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "개선 및 보완요구 사항"
+        }
+      ],
+      "counterevidence_or_limitation": "설계 변경 프로세스에 대한 서술이 없고 노후화와 설계 취약성은 KINS의 추정·요구 수준이다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-031-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS는 원자로건물 격리 후 복구 절차가 두 절차서에 중복 기술되어 혼동 가능성이 있고 고압력·고방사능 이외의 고장에 의한 격리에 적용하는 경우가 불분명하다고 평가하고 절차서의 명확화를 요구했다(CLAUDE-F05). 문서가 정확하고 명확하다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "2. 사건 경위",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 사건 전개 경위"
+        },
+        {
+          "section": "3.라 운전원 조치 사항 평가",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 조치 사항 평가"
+        },
+        {
+          "section": "5. 개선 및 보완요구 사항",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "개선 및 보완요구 사항"
+        }
+      ],
+      "counterevidence_or_limitation": "이 사건에서 운전원은 적절한 절차로 복구했고 절차 혼동이 실제 발생하지는 않았다(CLAUDE-F05). 사건의 원인이 아니라 개선 사항이다."
+    },
+    {
+      "review_key": "ROOT-031-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "비상발전기 #2 운전 불가 판단 후 운영기술지침서 3.3.2.6에 따라 04:52 비상발전기 #1 부하시험을 수행해 정상을 확인했고 KINS는 적절하다고 평가했다(CLAUDE-F05). 운영기술지침서 등 절차를 준수한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "2. 사건 경위",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 사건 전개 경위"
+        },
+        {
+          "section": "3.라 운전원 조치 사항 평가",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 조치 사항 평가"
+        },
+        {
+          "section": "5. 개선 및 보완요구 사항",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "개선 및 보완요구 사항"
+        }
+      ],
+      "counterevidence_or_limitation": "격리 복구에 사용한 절차의 선택은 KINS가 개선 필요로 평가했다(CLAUDE-F05)."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(32cd0b8a…40cb)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 1,996,480 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2005-14호(051106W1)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 17이고 큐 기대 물리 페이지는 17이다. PDF 텍스트 추출이 가능했고 큐의 SHA-256·페이지(17)와 일치했다. 표지(1쪽)와 조사자 명단(2쪽)은 쪽번호가 없고 사건 요약 면 끝이 ‘- 3 -’이어서 인쇄쪽은 PDF 물리쪽과 같다. 붙임 1(SOE, PDF 12~13쪽)은 텍스트 추출이 되지 않았고 붙임 3~5의 평면도·사진은 이미지라 확인하지 못했다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(물리 페이지 = 인쇄쪽이다(표지·명단 면이 번호 없이 1, 2쪽으로 계산됨). 면 끝 ‘- N -’ 표기를 기준으로 했다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 특이사항 없음(경계 일치 확인).",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 붙임 1 SOE(텍스트 미추출), 붙임 3 평면도·침투 경로도, 붙임 4·5 현장 사진은 확인하지 못했다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 사건 요약은 원자로건물 격리를 11.6 07:33에 해제했다고 서술하나 시간대별 경위는 09:21:35에 격리 신호가 해제되었다고 서술한다. 3장에 ‘라’ 항목이 두 번 있다(사건 후 기기 건전성 점검, 운전원 조치 사항 평가). 사건 요약의 방사선감시 패널 ‘P, Q 채널’과 3.라의 ‘P1/P2 및 Q1/Q2’ 표기가 다르다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 사건은 KINS가 노후 스프링클러 노즐 파손(추정)과 격실 간 소화수 침투 경로를 원인으로, 압력스위치 고착과 예비경보 부재를 경보 미발생 원인으로 서술하나 개인·조직의 행동 원인은 거의 서술하지 않았다. 문서 개선(WP3)만 직접 근거로 선정하고 설비·운전경험·원인분석은 후보로 두었다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-031와는 무관한 사건이며 ROOT-031 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

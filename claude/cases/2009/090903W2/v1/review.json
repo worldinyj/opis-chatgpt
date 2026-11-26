@@ -1,0 +1,847 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-029",
+  "event_id": "090903W2",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2009-09-03_월성2호기_계획예방정비_기간중_역전력계전기_오작동에_의한_스위치야드ᄎ.pdf",
+    "report_number": "2009-9",
+    "report_date": "2009-12-28",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 조사자 명단, 사건 요약, 1~6장(전 쪽); 인쇄쪽 1~7 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-029 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-029의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2009.9.3(목) 10:08:46 제10차 계획예방정비(D+12일, 운전모드 5, 0 %) 중이던 월성 2호기(PHWR)에서 주발전기 CT 단자대 선간/절연저항 점검 중 주발전기 보호용 역전력계전기(32A)가 작동해 스위치야드 차단기 PCB 7300/7372가 개방되고 소외전원이 상실되었다. 기동용변압기와 예비디젤발전기(SDG) #1은 정비 중이었고 SDG #2가 10:09:07 자동기동해 안전모선에 전원을 공급했으며(약 24분), 10:41 PCB7300과 11:31~11:32 PCB7372를 투입하고 11:33 SDG #2를 정지했다. 안전기능 상실은 없었고 방사성물질 누출과 종사자 피폭도 없었다(보고서 2009-9호, 2009-12-28 발행). 재가동 사전안전성 확인 대상은 아니다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "1. 개요 및 2. 사건 경위",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "개요와 사건 경위"
+        },
+        {
+          "section": "3.가 사건전개과정",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "사건전개과정"
+        },
+        {
+          "section": "4. 안전성 평가",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "안전성 평가"
+        }
+      ],
+      "limitation": "표지와 조사자 명단 면은 쪽번호가 없고 인쇄쪽 1은 사건 요약 면이다. 조사자 명단 면의 쪽 표기는 ‘- 2 -’로 개요 면과 중복된다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "직접원인: 주발전기 CT 점검 중 동기탈조보호계전기(78Ry)에서 약 190 mV의 유도전압이 발생하고 있었고 점검에 사용된 나이프스위치의 특성으로 역전력계전기에 설정치(45 mA)를 초과하는 전류(약 108 mA)가 흐를 수 있게 되어 역전력계전기가 동작했다. KINS는 계통특성을 명확히 이해했거나 작업관리가 적절했다면 이 사건은 발생하지 않았을 것이라고 평가했고, 78Ry와 나이프스위치의 특성은 예상하기 어려운 조건이어서 하드웨어의 불확실한 부분은 운영·관리 측면에서 방어되어야 하므로 부적절한 작업관리를 소외전원상실의 근본원인으로 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.나 사건 원인 및 영향 분석",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "사건 원인 및 영향 분석"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "6. 결론",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "78Ry와 나이프스위치 특성이 이전에 알려져 있었는지는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "작업관리 오류: 주발전기 CT 점검원, 한수원 감독자 및 운전원들은 CT 점검을 위한 초기조건(발전기측 모선 차단기 PCB 7300/7372 개방, 주변압기 정지 등)이 변경되었으나 이를 재확인하지 않고 점검을 시행했다. KINS는 이 행위 자체가 직접 사건을 유발한 것은 아니나 중요 기여원인이고 불안전한 행동이라고 평가했다. 사건 유발조건으로는 서로 상이한 기기배열을 요구하는 작업수행 승인, 작업오더·작업허가조작서·계획예방정비 공정도 상 작업일정의 상이, 정비작업 초기조건이 반영되지 않은 공정도 작성, 소요시간·투입인력 중심의 계획예방정비 작업관리, 유사사건에서의 교훈 도출·반영 미흡, 명확하지 않은 작업관리 절차, 계통 상태에 대한 명확한 평가 미흡이 확인되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.나 사건 원인 및 영향 분석",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "작업관리 오류"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        }
+      ],
+      "limitation": "작업 승인과 공정 작성 주체(정비·운전·공정 부서)별 책임은 서술되지 않았다. CT 점검 작업자 2인의 경력·교육은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "원전운영자 분석의 한계: 원전운영자는 상세사건보고서에서 오작동 원인을 ‘동기탈조 보호계전기 유도전압 발생, 발전기 변류기 점검시기 부적절’로 결정했으나, KINS는 이 분석이 하드웨어 측면의 원인에 중점을 두고 작업관리 측면의 원인은 충분히 분석·평가하지 않은 것으로 판단했다. 또한 KINS는 최근 사건(2008.5 고리 3호기, 2009.1 고리 3호기, 2009.9 월성 2호기)과 전 사업소 계획예방정비 작업관리 실태를 분석해 작업관리 절차를 명확히 수립·운영하도록 요구했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3. 원전운영자 조치사항에 대한 평가",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "원전운영자 조치사항에 대한 평가"
+        },
+        {
+          "section": "5. 유사사건의 재발방지를 위한 대책",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건의 재발방지를 위한 대책"
+        }
+      ],
+      "limitation": "원전운영자의 상세사건보고서 자체는 이 보고서에 제시되지 않았다. KINS가 인용한 최근 사건들의 원인 유사성은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "재발방지 대책: 원전운영자 단기 — 주발전기 일반점검 절차서에서 CT 점검 항목 분리, 옥외개폐소 운전절차서의 주변압기 역가압 절차에 발전기 보호계전기 차단조치 및 확인절차 추가, O/H 공정·작업관리 개선 검토(주변압기 역가압 기간 작업 공정 재검토, 패키지 작업오더 관리 개선, 작업오더 적기 수행 관리). 장기 — 동기탈조 보호계전기 개선. KINS는 이 대책이 일부에 불과하다고 평가하고 전 발전소를 대상으로 계획예방정비 시 발전소 안전관점의 공정관리방안 수립·이행과, 최근 사건과 전 사업소별 계획예방정비 작업관리 실태 분석·평가를 통한 작업관리 절차 명확화(특히 작업일정 변경 시, 발전소 과도·공학적안전설비 작동을 초래할 수 있는 작업 중심)를 2010.1.29까지 계획으로 제출하도록 요구했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "5. 유사사건의 재발방지를 위한 대책",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건의 재발방지를 위한 대책"
+        },
+        {
+          "section": "6. 결론",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "원전운영자 대책의 이행과 효과는 보고서 시점에 확인되지 않았다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-029-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "초기조건 변경 후에도 계통 상태에 대한 명확한 평가가 미흡한 채 점검이 시행되었다(CLAUDE-F03). 불확실할 때 작업을 중단하고 리스크를 평가·관리한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.나 사건 원인 및 영향 분석",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "작업관리 오류"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        }
+      ],
+      "counterevidence_or_limitation": "작업자가 불확실성을 인지했는지는 서술되지 않았다. 후보 의견이다. WP1·WP4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-029-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "서로 상이한 기기배열을 요구하는 작업수행이 승인되고 초기조건 변경이 점검원·감독자·운전원 사이에서 재확인되지 않은 채 점검이 진행되었다(CLAUDE-F03). 모든 업무 활동에서 원자력안전을 염두에 두고 소통한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.나 사건 원인 및 영향 분석",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "작업관리 오류"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        }
+      ],
+      "counterevidence_or_limitation": "조직 간 실제 소통 내용은 서술되지 않았다. 후보 의견이다. WP1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-029-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "계획예방정비 중 작업일정 변경이 작업오더·허가조작서·공정도에 일관되게 반영되지 않았고 KINS는 작업일정 변경 시를 포함한 작업관리 절차의 명확화를 요구했다(CLAUDE-F03, CLAUDE-F05). 변화를 체계적으로 평가하고 관리한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.나 사건 원인 및 영향 분석",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "작업관리 오류"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "5. 유사사건의 재발방지를 위한 대책",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건의 재발방지를 위한 대책"
+        },
+        {
+          "section": "6. 결론",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "counterevidence_or_limitation": "‘변화’ 대상이 작업일정과 기기배열 변경이며 리더 차원의 변화 관리 활동은 서술되지 않아 후보 의견이다. WP1·WP3와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-029-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘보수적 성향’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS는 유사사건에서의 교훈 도출·반영 미흡을 사건 유발조건으로 확인했고 최근 사건(2008.5·2009.1 고리 3호기, 2009.9 월성 2호기)의 작업관리 실태를 분석·평가하도록 요구했다(CLAUDE-F03, CLAUDE-F04). 운전경험을 체계적으로 분석하고 시의적절하게 조치한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.나 사건 원인 및 영향 분석",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "작업관리 오류"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "3. 원전운영자 조치사항에 대한 평가",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "원전운영자 조치사항에 대한 평가"
+        },
+        {
+          "section": "5. 유사사건의 재발방지를 위한 대책",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건의 재발방지를 위한 대책"
+        }
+      ],
+      "counterevidence_or_limitation": "교훈 도출이 미흡했던 구체 사례와 절차는 서술되지 않았다. WP1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-029-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자체 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘벤치마킹’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘교육 훈련’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 파악’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원전운영자의 상세사건보고서가 하드웨어 측면의 원인에 중점을 두고 작업관리 측면의 원인은 충분하게 분석·평가하지 않았다고 KINS가 판단했다(CLAUDE-F04). 원인분석과 시정조치를 안전 중요도에 맞게 철저히 평가한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3. 원전운영자 조치사항에 대한 평가",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "원전운영자 조치사항에 대한 평가"
+        },
+        {
+          "section": "5. 유사사건의 재발방지를 위한 대책",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건의 재발방지를 위한 대책"
+        }
+      ],
+      "counterevidence_or_limitation": "원전운영자의 분석 범위와 이유는 서술되지 않았다. CL1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-029-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 CT 점검 항목 분리, 주변압기 역가압 절차 보완, O/H 공정·작업관리 개선 검토를 단기 대책으로 제시했고 KINS는 이를 일부 대책으로 평가하면서 추가 이행을 요구했다(CLAUDE-F05). 문제를 조치하려는 노력이 확인되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "5. 유사사건의 재발방지를 위한 대책",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건의 재발방지를 위한 대책"
+        },
+        {
+          "section": "6. 결론",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 대책이 일부라고 평가해 부분적 평가이다. 이행 효과는 확인되지 않았다."
+    },
+    {
+      "review_key": "ROOT-029-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS는 부적절한 작업관리를 소외전원상실의 근본원인으로 판단했고 서로 상이한 기기배열을 요구하는 작업수행 승인, 소요시간·투입인력 중심의 작업관리, 명확하지 않은 작업관리 절차를 사건 유발조건으로 확인했다(CLAUDE-F02, CLAUDE-F03). 원자력안전을 최우선으로 작업계획을 수립·시행한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.나 사건 원인 및 영향 분석",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "사건 원인 및 영향 분석"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "6. 결론",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "counterevidence_or_limitation": "역전력계전기 오작동은 예상하기 어려운 하드웨어 특성(78Ry 유도전압, 나이프스위치)과 결합된 것이다(CLAUDE-F02). WP3·CL1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-029-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘설계 여유도’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-029-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "작업오더, 작업허가조작서, 계획예방정비 공정도 상 작업일정이 상이했고 정비작업 초기조건이 반영되지 않은 공정도가 작성되었다고 KINS가 확인했다(CLAUDE-F03). 문서 작성·관리가 완벽하고 정확하며 최신이라는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.나 사건 원인 및 영향 분석",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "작업관리 오류"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        }
+      ],
+      "counterevidence_or_limitation": "어떤 문서가 최신이었는지와 불일치의 발생 경위는 서술되지 않았다. WP1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-029-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "점검원, 한수원 감독자, 운전원이 CT 점검을 위한 초기조건 변경을 재확인하지 않고 점검을 시행했고 KINS는 이를 불안전한 행동으로 평가했다(CLAUDE-F03). 프로세스·절차·작업지침을 준수한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.나 사건 원인 및 영향 분석",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "작업관리 오류"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        }
+      ],
+      "counterevidence_or_limitation": "초기조건 재확인이 절차서에 규정된 요건이었는지는 서술되지 않았고 직접 사건을 유발한 것이 아니라 중요 기여원인으로 서술되었다. 후보 의견이다. WP1과 사실을 공유한다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(67e06071…5cd8)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 340,760 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2009-9호(090903W2)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 7이고 큐 기대 물리 페이지는 9이다. PDF 텍스트 추출이 가능했고 큐의 SHA-256·페이지(9)와 일치했다. 표지는 쪽번호가 없고 조사자 명단 면의 쪽 표기가 ‘- 2 -’로 개요 면과 중복되며 사건 요약 면 끝이 ‘- 1 -’이다. 붙임은 없다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(물리 페이지 = 인쇄쪽 + 2(표지, 조사자 명단 2면)로 추정한다. 면 끝 ‘- N -’ 표기를 기준으로 했다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 조사자 명단 면의 쪽 표기 중복으로 면 경계에 ±1쪽 불확실성이 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 계통도, 점검 대상 CT 배치, 나이프스위치 구조 등 그림·사진은 이 보고서에 없다. 주석의 CT 점검 항목 수(CT 6개, 단자 18개)는 텍스트로 확인했다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: PCB7372 투입 시각을 사건 경위는 11:31, 3.가절은 11:32로 서술한다. 운전제한조건 번호를 경위는 3.10.1.2, 안전성 평가는 3.10.12로 적는다. 소외전원상실 시간은 SDG #2 전력공급 약 24분으로 서술되나 10:09:07~11:33:36은 약 84분이다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 사건은 계획예방정비 중 작업관리 실패가 근본원인이라는 KINS의 명확한 평가가 있으나 직접 원인은 예상하기 어려운 하드웨어 특성과의 결합이다. KINS 서술이 작업관리·문서·운전경험 반영·원인분석에 집중되어 WP1, WP3, CL1, PI2가 선정되었고 행동 수준의 서술(재확인 실패)은 후보로 두었다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-029와는 무관한 사건이며 ROOT-029 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

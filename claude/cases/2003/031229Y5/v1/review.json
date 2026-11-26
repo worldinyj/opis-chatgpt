@@ -1,0 +1,770 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-032",
+  "event_id": "031229Y5",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2003-12-29_영광5호기_탈염수_공급_모관_방사능_검출_원인_조사_위한_원자로_수동_정지.pdf",
+    "report_number": "2003-21",
+    "report_date": "2003-12-01",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 조사자 명단, 사건 요약, 1~5장, 6·7장(‘추후 작성 예정’), 첨부 1·4 텍스트(OCR); 인쇄쪽 1~14 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-032 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-032의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2003.12.29 19:00 100 % 출력으로 운전 중이던 영광 5호기에서 2차측 탈염수 공급 모관이 방사성물질로 오염된 원인을 조사하기 위해 원자로를 수동 정지했다. 12.22 23:32 기술지원 건물 공기조화설비 공기흡입구의 공기중 방사능 감시기가 경계값을 지시했고, 점검 끝에 출입통제건물 가습기 배수배관의 탈염수가 오염된 것이 확인되었다. 오염된 탈염수는 가습기 배수배관과 2차 화학실험실 배수배관을 통해 집수조로 모여 바다로 배출되었으며, 터빈건물 집수조 경로의 연간 유효선량은 기준치의 0.00156 %로 평가되었다. 안전관련 계통은 작동하지 않았고 원자로 안전에 미치는 영향은 없었다(보고서 2003-21호, 1차 보고, 2003-12 발행).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "개요"
+        },
+        {
+          "section": "5. 안전성 평가",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "안전성 평가"
+        }
+      ],
+      "limitation": "이 보고서는 ‘1차’ 보고서로 개선·보완요구사항과 결론이 ‘추후 작성 예정’이다. 원문 PDF의 텍스트 층이 없어 OCR로 추출했으며 숫자·단위·밸브번호가 많이 깨져 있다. 인쇄쪽 번호가 없어 PDF 물리쪽을 인쇄쪽으로 사용했다. 발행일은 ‘2003. 12’(일 미상)이다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "시간 경과: 열충격완충판 이탈 확인을 위해 12.21 원자로를 수동 정지했을 때 정지냉각계통이 운전되었고, 12.22 정지냉각계통 운전 과정에서 탈염수 공급 모관으로 오염이 역류한 것으로 추정되었다. 12.22 23:32 공기중 방사능 감시기가 경계값을 지시한 뒤 12.23~12.26 점검과 원인 조사가 이루어졌고, 12.27~12.28 2차측 탈염수 공급 모관의 방사선량률이 높음이 확인되었다. 사업자는 12.27 방출을 중단했고 12.29 19:00 누설부위 확인을 위해 원자로를 수동 정지(12.29 20:30 누설시험)했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2. 사건 경위",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 사건 경위"
+        },
+        {
+          "section": "3. 조사내용 및 확인사항(서문)",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "조사내용 및 확인사항"
+        },
+        {
+          "section": "3.마~사 배출경로·방출방사능·환경 방사선",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "방사성물질 배출경로"
+        }
+      ],
+      "limitation": "12.22~12.27 중 오염 의심 시점, 경계값 지시 후 조사 내용, 탈염수 계통 배출 허용 여부 판단 과정은 서술되지 않았다. 정지 시각 등 일부 숫자는 OCR 오류 가능성이 있다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "오염 경로 조사: 정지냉각계통과 탈염수 공급 모관 연결배관에는 솔레노이드 밸브 3개와 역류방지밸브 3개가 있고, 그중 정지냉각계통 측 솔레노이드 밸브는 안전등급 범주 B(밸브 닫힘 상태에서도 누설이 제한되지 않아 어느 정도 누설을 허용)이며 나머지 솔레노이드 밸브와 역류방지밸브는 비안전등급으로 사업자가 자체적으로 성능을 확인한다. KINS는 정지냉각계통 펌프 운전 시 이 밸브에 압력이 걸려 누설이 발생했고, 역류 방지 기능이 상실된 역지밸브를 거쳐 오염물질이 탈염수 공급 모관으로 유입된 것으로 추정했다. 누설 실증 시험에서 정지냉각계통 쪽에서 가압했을 때 후단 솔레노이드 밸브 뒤로 누설이 확인되었고, 역지밸브는 적정한 압력이 디스크에 걸릴 때만 역류방지 기능이 만족함이 확인되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.아 오염 경로 조사",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "오염 경로 조사"
+        },
+        {
+          "section": "3.아.3) 누설 실증 시험",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "누설 실증 시험"
+        },
+        {
+          "section": "첨부 1 관련 밸브 기능 및 사양",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "관련 밸브 기능 및 사양"
+        }
+      ],
+      "limitation": "‘역류 방지 기능 상실’의 원인(고장, 설계 한계 등)은 서술되지 않았다. 비안전 밸브의 가동중시험 항목은 OCR 판독이 불가능하다. 보고서는 후속 조사에서 역지밸브 전단 압력과 탈염수 모관 압력 관계의 추가 확인이 필요하다고 서술한다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "영향·조치 평가: 2차 화학실험실 교대근무자 5인 전신계측에서 내부오염자는 없었고 발전부 교대근무자 계측이 진행 중이었다. 공기조화설비실 가습기 설치구역과 터빈건물 2개 구역이 임시 방사선관리구역으로 설정되어 울타리·표지판·구역분리대와 방사선작업허가서의 수기 발행으로 관리되었고 KINS는 적절하다고 평가했다. 환경방사선 측정은 자연방사선 수준이었고 정밀분석이 진행 중이었다. 오염범위는 가습기 배수와 2차 실험실 배수 경로, 종합폐수처리설비(폐수조, 방류조, 활성탄 등)까지 확인되었고 탈염수 공급 모관 연결 각종 공급배관의 추가 오염도 조사가 수행되어야 한다고 평가했다. 우수관 집수조로 배출된 방사능은 계산 중이었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.나 오염범위",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "오염범위"
+        },
+        {
+          "section": "3.다~라 선량평가·임시 방사선 관리구역",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "선량평가·임시 방사선 관리구역"
+        },
+        {
+          "section": "3.마~사 배출경로·방출방사능·환경 방사선",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "방출방사능 및 환경 방사선"
+        },
+        {
+          "section": "4. 후속 조사 내용",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "후속 조사 내용"
+        }
+      ],
+      "limitation": "오염범위 확대 가능성은 KINS가 서술한 것이며 최종 범위는 보고서 시점에 미확정이다. 방출량 수치는 OCR 오류로 신뢰할 수 없어 본문에서 사용하지 않았다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-032-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "사업자는 오염 원인을 확인하고 제염하기 위해 12.29 원자로를 수동 정지하고 누설시험을 수행했다(CLAUDE-F01, CLAUDE-F02). 불확실할 때 중단하고 리스크를 평가한다는 정의와 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F01",
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "개요"
+        },
+        {
+          "section": "5. 안전성 평가",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "안전성 평가"
+        },
+        {
+          "section": "2. 사건 경위",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 사건 경위"
+        },
+        {
+          "section": "3. 조사내용 및 확인사항(서문)",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "조사내용 및 확인사항"
+        },
+        {
+          "section": "3.마~사 배출경로·방출방사능·환경 방사선",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "방사성물질 배출경로"
+        }
+      ],
+      "counterevidence_or_limitation": "정지 결정이 12.22 경계값 지시 이후 약 7일 만에 이루어졌고 그 판단 과정은 서술되지 않았다. 긍정 사례로만 판정한다."
+    },
+    {
+      "review_key": "ROOT-032-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 소통’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘변화 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘보수적 성향’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘운전 경험’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자체 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘벤치마킹’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘교육 훈련’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "12.22 경계값 지시 후 12.27~28에 탈염수 공급 모관의 높은 선량률이 확인되기까지 이상 징후 조사에 시간이 걸렸고(CLAUDE-F02), 이 기간 중 오염수가 바다로 배출되었다(CLAUDE-F01). 문제점 도출이 용이하도록 운영개선프로그램을 운영한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "2. 사건 경위",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 사건 경위"
+        },
+        {
+          "section": "3. 조사내용 및 확인사항(서문)",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "조사내용 및 확인사항"
+        },
+        {
+          "section": "3.마~사 배출경로·방출방사능·환경 방사선",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "방사성물질 배출경로"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 이 지연의 적절성을 평가하지 않았고 1차 보고서로 결론이 없다. CAP 운영 여부도 서술되지 않았다. 별도 근거가 필요하여 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-032-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 평가’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 해결’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "오염 발생 구역에 임시 방사선관리구역을 설정하고 울타리·표지판·구역분리대와 방사선작업허가서 수기 발행으로 출입·오염·피폭관리를 수행했으며 KINS는 적절하다고 평가했다(CLAUDE-F04). 방사선 작업을 안전 중심으로 계획·시행한다는 정의와 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.나 오염범위",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "오염범위"
+        },
+        {
+          "section": "3.다~라 선량평가·임시 방사선 관리구역",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "선량평가·임시 방사선 관리구역"
+        },
+        {
+          "section": "3.마~사 배출경로·방출방사능·환경 방사선",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "방출방사능 및 환경 방사선"
+        },
+        {
+          "section": "4. 후속 조사 내용",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "후속 조사 내용"
+        }
+      ],
+      "counterevidence_or_limitation": "오염 발견 전의 구역 관리는 서술되지 않았다."
+    },
+    {
+      "review_key": "ROOT-032-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "정지냉각계통과 탈염수 공급 모관 사이 연결배관에서 안전등급 범주 B 솔레노이드 밸브(누설 허용)와 비안전 역지밸브·솔레노이드 밸브가 오염 역류 방지 경계를 이루었고, 역지밸브는 적정 압력이 걸릴 때만 역류방지 기능이 만족함이 확인되었다(CLAUDE-F03). 설비의 설계 여유와 변경을 엄격히 관리한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.아 오염 경로 조사",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "오염 경로 조사"
+        },
+        {
+          "section": "3.아.3) 누설 실증 시험",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "누설 실증 시험"
+        },
+        {
+          "section": "첨부 1 관련 밸브 기능 및 사양",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "관련 밸브 기능 및 사양"
+        }
+      ],
+      "counterevidence_or_limitation": "설계 근거와 변경 이력은 서술되지 않았고 KINS는 후속 조사로 추가 확인이 필요하다고 서술한다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-032-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문서화’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-032-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘절차 준수’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(52201ea9…5a0c)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 287,427 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2003-21호(031229Y5)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 14이고 큐 기대 물리 페이지는 14이다. PDF에 텍스트 층이 없어 OCR(한국어)로 추출했으며 숫자·단위·밸브번호·방사능 수치가 많이 깨져 있다. 큐의 SHA-256·페이지(14)와 일치했다. 이 보고서는 ‘1차’ 보고서로 6장 개선·보완요구사항과 7장 결론이 ‘추후 작성 예정’이다. 발행일은 월만(2003. 12) 표기라 12월 1일로 부호화했다. 인쇄쪽 번호가 없어 PDF 물리쪽을 인쇄쪽으로 사용했다. 첨부 2·3(계통도, 사진)은 이미지이고 첨부 4(감시기 지시값)는 수치표라 해석하지 않았다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(인쇄쪽 번호가 없어 PDF 물리쪽을 인쇄쪽으로 사용한다(표지 1쪽, 명단 2쪽, 사건 요약 3쪽)). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 인쇄쪽 번호가 없어 인용 쪽은 PDF 물리쪽이며 OCR 오류로 면 경계가 부정확할 수 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 첨부 2 개략도, 첨부 3 사진, 첨부 4 감시기 지시값은 확인하지 못했다. 방사능 배출량·선량 수치와 밸브번호는 OCR 오류로 신뢰할 수 없어 본문에서 사용하지 않았다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 사건 요약은 연간 유효선량이 기준치의 0.00156 %라고 서술하나 개요는 터빈건물 집수조 경로만 해당하고 우수관 집수조 경로는 계산 중이라고 서술한다. 사건 개요는 정지냉각 후단 ‘사고후 시료채취계통’ 세정 배관을 오염원으로 추정하나 3장은 12.22 정지냉각계통 운전 중 역류로 설명한다. 보고서 번호 칸의 사건ID는 OCR상 ‘0312295’이며 큐의 031229Y5와 같은 사건으로 확인했다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 1차 보고서로 KINS가 원인·책임을 평가하지 않았고(결론 미작성) 오염 경로 추정과 환경 영향 평가, 후속 조사 항목만 서술한다. 따라서 선정 가능한 직접 근거가 부족해 설계·연결배관(WP2)만 후보로 선정하고 문제 파악(PI1)은 판단보류, 사업자의 수동 정지와 방사선 구역 관리는 긍정 사례로 분류했다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-032와는 무관한 사건이며 ROOT-032 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

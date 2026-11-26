@@ -1,0 +1,764 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-021",
+  "event_id": "140228Y2",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2014-02-28 _한빛 2호기 M-G set출력차단기의 부적절한 개방.pdf",
+    "report_number": "2014-3",
+    "report_date": "2014-03-07",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 요약, 1~5장(전 쪽); 인쇄쪽 1~9 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-021 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-021의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2014.2.28(금) 10:50 95.6 % 출력으로 운전 중이던 한빛 2호기에서 지진 시 원자로 자동정지 시스템(ASTS) 기능시험(주기-6762E, 6개월 주기) 중 제어봉 구동전원 공급용 전동발전기(M-G set) 출력차단기 2대가 부적절하게 개방되어 제어봉집합체가 낙하해 원자로가 정지했다. 제어봉 낙하로 정지해 원자로보호신호가 없어 터빈이 정지하지 않았고 증기발생기 압력이 64.6에서 61.4 kg/cm²로 감소하자 보상함수(Lead/Lag)로 계산된 주증기관 저-압력(설정치 41.14 kg/cm²) 신호가 발생해 안전주입(SI)이 작동했다. SI는 11:06에 종결되었고 약 16분간 약 29톤의 붕산수가 주입되었으며 안전기능이 유지되고 방사선 영향은 없었다(보고서 2014-3호, 2014-03-07 발행).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "개요와 보고 기준"
+        },
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 전개과정"
+        },
+        {
+          "section": "3.1.1 안전주입 및 원자로 자동정지 원인 평가",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "안전주입 및 원자로 자동정지 원인 평가"
+        },
+        {
+          "section": "3.2 발전소 계통·기기 거동 및 운전조치 평가",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "계통·기기 거동 평가"
+        }
+      ],
+      "limitation": "표지와 사건 요약 면은 쪽번호가 없고 인쇄쪽 1은 개요 면이다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "회로 오류와 설계변경 전파 미흡: M-G set 출력차단기 제어회로와 ASTS 채널트립 출력회로의 (-) 전원이 공통으로 연결되어 우회/차단 스위치를 열어도 시험용 가상 지진신호가 인가되면 M-G set의 Shunt Trip Relay가 작동해 출력차단기가 열리도록 회로가 잘못 설치되어 있었다(한빛 1,2호기를 제외한 국내 전 원전은 분리되어 있음). 이는 당초 설계오류와, 시공 중 타 발전소(고리 4호기, 2011.10 현장수정, 이후 고리 1,2호기 반영)에서의 오류 개선 설계변경이 이미 시공이 끝난 한빛 1발전소에 공급사의 수정내용 미통보로 반영되지 않아 발생했고, 한수원 설계변경관리절차서(표준정비-9044A rev.1)에 설계변경서 승인(2011.8.1) 후 추가 개정내용을 타 원전에 전파하는 절차가 없었다. KINS는 타 원전 동일 설비에 대한 공급사와 한수원의 설계확인·관리가 미흡했다고 확인했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3 ASTS 시험회로 오류 원인 평가",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "ASTS 시험회로 오류 원인 평가"
+        }
+      ],
+      "limitation": "설계변경 전파 절차 미비의 경위(누가 언제 전파 여부를 확인했는지)는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "시험 이력: 현장인수시험(2011.9)은 우회/차단 스위치를 닫은 상태에서 차단기 개방을 확인하는 절차였고, 설치 후 안정화 기간의 매 주기 기능시험은 M-G set가 미연결 상태였으며, M-G set 연결(2013.11) 후에는 스위치를 닫은 상태의 교정시험(주기-6762D)만 수행되어, 가압된 M-G set가 연결된 상태에서 스위치를 열고 지진모의신호를 주입하는 시험(주기-6762E)은 이번이 처음이었다. 이 때문에 회로 오류를 사전에 파악할 수 없었다고 KINS는 확인했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3 ASTS 시험회로 오류 원인 평가",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "시험 이력과 오류 확인 가능 여부"
+        }
+      ],
+      "limitation": "시험 조건 차이가 시험 설계 단계에서 검토되었는지는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "시험관리·절차·경보: ASTS는 원자로정지를 유발할 수 있는 설비인데도 기능시험이 중요시험으로 분류되지 않았고 작업전회의에서 ‘시험 중 원자로정지 유발 가능성’ 등 중요사항이 사전에 검토되지 않았다. 채널별 시험 중 M-G set 출력차단기 개방 여부를 확인하는 단계가 절차에 없었다. ASTS 패널화면에는 차단기 개방을 뜻하는 ‘Ch 1 Trip’이 표시된 직후 약 0.5초 이내에 사라져 시험원이 인지하기 어려웠고, 주제어실에 ‘ASTS Ch 1 Trip’ 경보가 발생했으나 운전원의 확인(Acknowledge)·Reset 과정에서 차단기가 열린 상태로 경보가 소멸되어 정상으로 인식했다. 경보절차서(‘Rod Drive M-G set Trouble’ 경보 발생)와 경보논리도(경보 미발생)의 기술이 달랐고 운전원은 경보절차서대로 경보를 예상했으나 발생하지 않아 개방을 인지하기 어려웠다고 면담에서 진술했다. 채널 1 시험 시 M-G set #1 차단기가 이미 열린 상태(운전원과 시험원 미인지)에서 채널 2 시험으로 #2도 열려 제어봉이 낙하했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3 ASTS 시험회로 오류 원인 평가",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "시험관리 및 절차"
+        },
+        {
+          "section": "3.1.3 ASTS 시험회로 오류 원인 평가",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "경보와 패널 표시"
+        }
+      ],
+      "limitation": "시험 중 운전원·시험원 간 소통 내용과 시험 지휘 체계는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "운전조치와 구조건전성: 운전원은 비상-0·보조-1.1 절차로 미임계와 비상디젤발전기 기동을 확인하고 고압안전주입펌프 1대를 정지해 SI를 종결했으며 RWST 재고를 회복(13:41경)해 운전제한조건을 만족시켰다(KINS: 적절). RCS 압력 163.4 kg/cm², 주증기계통 79.2 kg/cm²로 설계압력 이하였고 압력-온도 과도, 냉각·가열률(24.15/28.19 ℃/hr, 제한 55.6 ℃/hr), 피로(SI 발생빈도 설계 60회 이내, 한빛 2호기 두 번째)가 모두 허용범위 내였다. KINS는 ASTS 작동에 의한 M-G set 출력차단기 개방 때 SI가 발생할 수 있는 현재 설계개념의 타당성 평가를 요구했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2 발전소 계통·기기 거동 및 운전조치 평가",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "운전조치 평가"
+        },
+        {
+          "section": "3.3 안전주입에 따른 구조 건전성 평가",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "안전주입에 따른 구조 건전성 평가"
+        },
+        {
+          "section": "3.1.1 안전주입 및 원자로 자동정지 원인 평가",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "설계 타당성 평가 요구"
+        }
+      ],
+      "limitation": "수치는 보고서 제시 값이다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "재발방지 조치: 단기(완료) — ASTS 시험회로 오류 수정과 우회/차단 스위치 회로 변경 후 기능시험, M-G set 출력차단기 개방 시 주제어실 경보발생원 추가, ASTS 시험을 중요시험으로 분류하고 M-G set 출력차단기 닫힘 확인 절차를 추가하는 절차서 개정, 운전원·시험원 교육. 중장기 — 한수원 설계변경관리 절차서·구매관리 절차서 보완(설비기술검증위원회에서 추가변경사항 재검증, ~2014.6), 공급사 품질감사(~2014.6)와 계약 특수조건 개정(~2014.8), ASTS 신호에 의한 SI 가능성이 내재된 원전(WH형 등) 타당성 평가(~2014.8)와 설비개선, ASTS 패널화면에 시험 중 채널트립경보 확인·reset 기능 보완(~2014.12), 동일 설비가 설치된 한빛 1호기는 임시절차서(2014.3: 시험 전 Trip Relay 전원 차단)로 주기시험 후 차기 계획예방정비 때 회로 변경(2015.3). KINS는 대책이 적절하고 보완요구사항이 없으며 재가동은 기술적으로 문제가 없다고 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.4 재발방지대책 적절성 평가",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책 적절성 평가"
+        },
+        {
+          "section": "4. 보완요구사항",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항 없음"
+        },
+        {
+          "section": "5. 결론",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "한빛 1호기 임시절차의 효과와 중장기대책의 이행은 보고서 시점에 확인되지 않았다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-021-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "운전원이 ‘ASTS Ch 1 Trip’ 경보를 확인·Reset한 뒤 경보가 소멸되어 시스템이 정상인 것으로 인식했다(CLAUDE-F04). 불확실성을 확인한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 ASTS 시험회로 오류 원인 평가",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "시험관리 및 절차"
+        }
+      ],
+      "counterevidence_or_limitation": "경보 소멸이 설계된 동작이었고 경보절차서와 논리도가 달랐다(CLAUDE-F04). 운전원 판단의 직접 평가가 없다. 별도 근거가 필요하다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-021-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "작업전회의에서 시험 중 원자로정지 유발 가능성이 공유되지 않았고, 운전원과 시험원은 M-G set #1 차단기 개방을 서로 인지하지 못한 채 채널 2 시험을 진행했다(CLAUDE-F04). 모든 업무 활동에서 원자력안전을 염두에 두고 소통한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 ASTS 시험회로 오류 원인 평가",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "시험관리 및 절차"
+        }
+      ],
+      "counterevidence_or_limitation": "시험원-운전원 간 실제 대화는 서술되지 않았다. 후보 의견이다. WP1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-021-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "시공 중 확인된 문제점과 설계변경 사항이 다른 호기에 전파되는 체계가 없었고 원전운영자는 설계변경관리 절차서와 설비기술검증위원회 재검증으로 보완하기로 했다(CLAUDE-F02, CLAUDE-F06). 변화를 체계적으로 평가·관리한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 ASTS 시험회로 오류 원인 평가",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "ASTS 시험회로 오류 원인 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "WP2와 사실을 공유하며 ‘리더의 변화 관리’ 해석에 따라 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-021-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘보수적 성향’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "고리 4호기 설치 중 발견·수정된 문제(2011.10)가 이미 시공된 한빛 1발전소에는 반영되지 않았다(CLAUDE-F02). 운전·시공 경험을 체계적으로 활용한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 ASTS 시험회로 오류 원인 평가",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "ASTS 시험회로 오류 원인 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "‘운전경험’ 대상인지 설계·시공 정보인지 보고서가 구분하지 않았다. 후보 의견이다. WP2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-021-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자체 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘벤치마킹’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘교육 훈련’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 파악’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 회로 오류 수정과 함께 한빛 1호기 임시절차서, 공급사 품질감사·계약 특수조건 개정, WH형 원전의 SI 발생 가능성 타당성 평가까지 확대했다(CLAUDE-F05, CLAUDE-F06). 원인분석과 시정조치를 안전 중요도에 맞게 평가한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.4 재발방지대책 적절성 평가",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지대책 적절성 평가"
+        },
+        {
+          "section": "4. 보완요구사항",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항 없음"
+        },
+        {
+          "section": "5. 결론",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "counterevidence_or_limitation": "일부(SI 설계타당성 평가)는 KINS 요구에 따른 것이다(CLAUDE-F05). 이행 효과는 후속 확인 대상이다."
+    },
+    {
+      "review_key": "ROOT-021-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 해결’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-021-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원자로정지를 유발할 수 있는 ASTS 기능시험이 중요시험으로 분류되지 않았고 작업전회의에서 시험 중 원자로정지 유발 가능성이 검토되지 않았다(CLAUDE-F04). 안전을 우선해 작업을 계획·시행한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 ASTS 시험회로 오류 원인 평가",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "시험관리 및 절차"
+        }
+      ],
+      "counterevidence_or_limitation": "해당 시험은 6개월 주기로 반복 수행되던 시험이었다(CLAUDE-F03). 시험 조건(가압된 M-G set 연결)이 처음이라는 점은 사전에 검토되지 않았다. WP3·CO1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-021-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "ASTS 설계변경(타 원전 현장수정 사항)이 한빛 1발전소에 반영되지 않았고 한수원 설계변경관리절차서에 추가 개정내용의 타 원전 전파 절차가 없었으며 KINS가 설계확인·관리 미흡을 확인했다(CLAUDE-F02). 설비 변경 시 체계적이고 엄격한 프로세스를 적용한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 ASTS 시험회로 오류 원인 평가",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "ASTS 시험회로 오류 원인 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "ASTS 기본·상세설계는 설계사·공급사가 수행했고 당초 설계오류가 있었다(CLAUDE-F02). 공급사와 한수원의 책임 구분은 서술되지 않았다. LA5·CL1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-021-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "채널별 시험 절차에 M-G set 출력차단기 개방 확인 단계가 없었고 경보절차서(경보 발생)와 경보논리도(경보 미발생) 간 기술 차이가 있었다고 KINS가 확인했다(CLAUDE-F04). 문서가 정확하고 완전하다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 ASTS 시험회로 오류 원인 평가",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "시험관리 및 절차"
+        }
+      ],
+      "counterevidence_or_limitation": "절차서·논리도 중 어느 것이 실제와 맞는지는 서술되지 않았다. WP1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-021-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘절차 준수’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(4eb7c17d…f9e7)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 213,167 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2014-3호(140228Y2)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 9이고 큐 기대 물리 페이지는 11이다. PDF 텍스트 추출이 가능했고 큐의 SHA-256·페이지(11)와 일치했다. 표지와 사건 요약 면은 쪽번호가 없고 개요 면 끝이 ‘- 1 -’이다. 붙임은 없다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(물리 페이지 = 인쇄쪽 + 2(표지·요약 2면 무번호)로 추정한다. 면 끝 ‘- N -’ 표기를 기준으로 했다. 요약 면은 쪽번호가 없어 근거 쪽으로 인용하지 않았다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 면 경계에 ±1쪽 불확실성이 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. ASTS 회로도, 패널 화면, 압력·온도 과도 그림 등은 텍스트로 확인하지 못했다. 이 보고서에는 별도 붙임이 없다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 경보절차서(‘Rod Drive M-G set Trouble’ 경보 발생)와 경보논리도(경보 미발생)가 서로 다르게 기술되어 있다고 보고서가 지적했다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 설계변경 전파, 시험관리(중요시험 분류), 절차서·경보 문서의 정확성 등 업무 프로세스 요인을 KINS가 직접 서술해 일부를 선정했다. 한편 회로 오류 자체(설계 오류)와 보상함수에 의한 SI 발생은 설계 요인으로 속성 선정 대상으로 보지 않았다. 기술적 중요 사건이라는 것과 선정 개수는 별개이다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-021와는 무관한 사건이며 ROOT-021 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

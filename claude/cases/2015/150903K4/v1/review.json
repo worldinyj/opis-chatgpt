@@ -1,0 +1,784 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-017",
+  "event_id": "150903K4",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2015-09-03_고리 4호기 써지보호기 손상에 따른 원자로냉각재 펌프 B 정지로 인한 원자로 자도.pdf",
+    "report_number": "2015-05",
+    "report_date": "2015-09-14",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 요약, 1~5장(전 쪽); 인쇄쪽 1~9 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-017 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-017의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2015.9.3(목) 19:55경 100 % 출력으로 운전 중이던 고리 4호기에서 원자로냉각재펌프(RCP) B 전동기측 써지보호기(A상) 지락으로 지락계전기가 작동해 RCP B 주차단기와 후비차단기가 개방되고 펌프가 정지했으며 냉각재 저유량 원자로보호신호로 원자로가 자동정지했다(지락 후 약 1.7초). 비상운전절차 수행으로 안전기능이 확보되었고 방사성물질 방출은 없었다. 보고서 2015-4호(2015-09-14 발행, 쪽번호는 요약 1쪽부터).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "개요와 보고 기준"
+        },
+        {
+          "section": "2.2 시간대별 사건전개 과정",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 경과"
+        },
+        {
+          "section": "3.1.1 원자로 자동정지 원인",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 원인"
+        },
+        {
+          "section": "3.1.2 RCP B 전원공급차단기 개방원인",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "차단기 개방 원인"
+        }
+      ],
+      "limitation": "표지 면은 쪽번호가 없다. 요약 면은 면 끝 쪽번호 표기가 없어 1쪽으로 추정했다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "써지보호기 손상 원인과 정비절차서 오류: 손상 써지보호기는 부풀어 있고 절연저항이 10 kΩ(기준 100 MΩ)였으며 분해 시 극판 단락에 의한 탄화물질이 발견되었다. 관련 정비절차서(원자로냉각재펌프 전동기 서지 커패시터 점검)는 제작사 지침(웨스팅하우스 TB-04-5: 절연저항이 초기값의 50 % 이하면 교체 권고)과 달리 해석상 오류로 매 점검 시 2회 측정해 2차 측정값이 1차의 50 % 이상인지로 건전성을 판단하도록 되어 시험절차와 판정기준에 오류가 있었다. 제작사 기준대로 판정하면 손상품을 포함한 다수의 써지보호기가 열화로 교체 대상이었고, 사건 써지보호기는 2006년 208,000 MΩ에서 2014년 79,000 MΩ로 1/2 이상 감소해 있었다. KINS는 절차서가 제작사 권고와 다르게 운영되어 다수가 교체기한을 초과해 사용되었다는 평가가 적절하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3 전동기측 써지보호기(A상) 손상 원인",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 손상 원인"
+        }
+      ],
+      "limitation": "절차서 오류가 만들어진 시점·경위와 절차 개정 이력은 서술되지 않았다. 측정 수치는 보고서 제시 값이다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "써지보호기 제거 타당성: 원전운영자는 전동기측 써지보호기를 전수(39개: RCP 9, 복수펌프 12, 순환수펌프 18) 제거하기로 했다. 주차단기측에 써지보호기가 추가 설치되어(3호기 2015.9, 4호기 2014.9) 써지가 전동기로 유입되지 않고, 후비차단기 자동 작동 사례가 2건(한빛 2호기 1995, 고리 4호기 2015)으로 빈도가 미미하며, 커패시터형이라 단락 가능성이 있다는 점을 종합 고려했다. KINS는 해당 설비가 비안전등급이며 영향평가의 범위와 내용이 적절함을 확인했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.4 전동기측 써지보호기 제거 적절성 검토",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 제거 적절성"
+        }
+      ],
+      "limitation": "제거 후 전동기 절연에 대한 써지 영향은 장기과제(국내 원전 써지 영향평가, ~2017.12)로 남아 있다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "운전조치: 운전원은 비상-0·보조-0.1을 수행해 노심냉각 능력 등 안전기능을 적절히 확보했으나, 보조-0.1의 ‘RCS 온도 점검’ 중 급수유량 조절 단계가 지속된다고 판단해 주증기격리밸브(MSIV) 차단조치를 수행하지 않아 추가 증기소모 방지를 위한 운전원 조치가 미흡했고 과도 중 냉각재 온도가 273.5 ℃까지 감소했다(2015.8.8 한빛 2호기 정지 사례보다 약 8 ℃ 낮음). 또한 주급수펌프 C의 회전속도가 35 RPM으로 지시되는 것을 확인하고 증기누설 지점을 확인하려고 과도 종료·안정 시점(9.4 03:40)에 밸브 전단 응축수 배수밸브를 열어 증기소모량이 늘어 추가 과도가 발생했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1 발전소 계통·기기 거동 및 운전조치 평가",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "발전소 계통·기기 거동 및 운전조치 평가"
+        }
+      ],
+      "limitation": "MSIV 미차단 판단의 근거(어떤 지시를 보고 어떻게 판단했는지)는 서술되지 않았다. 안전기능은 유지되었다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "재발방지 조치: 단기(완료) — RCP B 전동기·차단기 건전성 점검, 전동기측 써지보호기 39개 제거, 주차단기측 써지보호기 점검(누설전류시험 만족), 주급수펌프 증기공급차단밸브 내부누설 확인 시 전단 수동차단밸브를 조작하도록 발전팀에 운전권고서 발행. 장기 — 주차단기측 써지보호기 점검기준(PMT) 수립(2015.12), 전기설비 정비절차서 판정기준 적합성 재검토(2016.6, 발전정지 관련 절차서 61건), 국내 원전 전력설비 써지 영향평가(~2017.12), 제작사 기술정보 처리 프로세스 개선·적용(2015.11), 단순 원자로 정지 시 1차측 온도제어 운전원 교육·훈련 강화(2016.6: 보조급수 유량 조절 시점·방법, MSIV 차단). KINS는 대책이 타당하고 보완요구사항이 없으며 재가동은 기술적으로 문제가 없다고 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.2.1 발전소 계통·기기 거동 및 운전조치 평가",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 재교육과 운전권고서"
+        },
+        {
+          "section": "3.3 재발방지 조치 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지 조치 적절성"
+        },
+        {
+          "section": "4. 보완요구사항",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항 없음"
+        },
+        {
+          "section": "5. 결론",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "장기대책의 이행과 효과는 보고서 시점에 확인되지 않았다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-017-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘불확실성 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 소통’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘변화 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "과도 종료 후 주급수펌프 증기누설 확인을 위해 응축수 배수밸브를 열어 추가 과도가 발생했다(CLAUDE-F04). 불확실한 상황에서 보수적으로 판단한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 발전소 계통·기기 거동 및 운전조치 평가",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "발전소 계통·기기 거동 및 운전조치 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "안정 상태에서 누설 지점을 확인하려는 의도였고 보수성 판단의 직접 서술이 없다. 별도 근거가 필요하다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-017-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "후비차단기 자동 작동 사례를 한빛 2호기(1995)와 이번 사건으로 검토해 써지 발생 빈도를 평가했다(CLAUDE-F03). 운전경험을 체계적으로 활용한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 전동기측 써지보호기 제거 적절성 검토",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 제거 적절성"
+        }
+      ],
+      "counterevidence_or_limitation": "운전경험 반영 프로세스의 작동 여부는 서술되지 않았다. 별도 근거가 필요하다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-017-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자체 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "제작사 기술지침(TB-04-5)과 정비절차서의 불일치를 확인하고 원전운영자가 제작사 기술정보 처리 프로세스 개선을 장기대책으로 제시했다(CLAUDE-F02, CLAUDE-F05). 외부 기술정보를 활용해 안전성능을 높인다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 전동기측 써지보호기(A상) 손상 원인",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 손상 원인"
+        },
+        {
+          "section": "3.2.1 발전소 계통·기기 거동 및 운전조치 평가",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 재교육과 운전권고서"
+        },
+        {
+          "section": "3.3 재발방지 조치 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지 조치 적절성"
+        },
+        {
+          "section": "4. 보완요구사항",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항 없음"
+        },
+        {
+          "section": "5. 결론",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "counterevidence_or_limitation": "제작사 정보 수신·반영 체계의 구체적 결함은 서술되지 않았다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-017-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "운전원의 MSIV 차단 시점 판단이 미흡해 원전운영자가 보조급수 유량 조절 시점·방법과 MSIV 차단 시점 교육·훈련 강화를 제시했다(CLAUDE-F04, CLAUDE-F05). 직원이 요구 직무를 수행할 지식과 기량을 갖추게 한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 발전소 계통·기기 거동 및 운전조치 평가",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "발전소 계통·기기 거동 및 운전조치 평가"
+        },
+        {
+          "section": "3.3 재발방지 조치 적절성",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지 조치 적절성"
+        },
+        {
+          "section": "4. 보완요구사항",
+          "printed_pages": [
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항 없음"
+        },
+        {
+          "section": "5. 결론",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "counterevidence_or_limitation": "교육 훈련 체계 자체의 결함은 서술되지 않았다. 유사 정지 사례(한빛 2호기 2015.8.8) 대비 8 ℃ 낮았다는 비교만 있다. WP4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-017-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 파악’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 써지보호기 육안·분해점검, 정비절차서 검토, 과거 측정 추이 분석으로 원인을 평가했고 61건의 절차서 판정기준을 재검토하고 제거의 영향평가를 수행했다(CLAUDE-F02, CLAUDE-F03, CLAUDE-F05). 원인분석과 시정조치를 폭넓게 평가한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 전동기측 써지보호기(A상) 손상 원인",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 손상 원인"
+        },
+        {
+          "section": "3.1.4 전동기측 써지보호기 제거 적절성 검토",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 제거 적절성"
+        }
+      ],
+      "counterevidence_or_limitation": "추이 분석은 KINS 요청으로 수행된 것으로 서술되었다(CLAUDE-F02). 이행 효과는 후속 확인 대상이다."
+    },
+    {
+      "review_key": "ROOT-017-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 해결’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘작업 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘설계 여유도’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-017-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "RCP 전동기 서지 커패시터 점검 정비절차서가 제작사 지침의 판정기준(초기값 50 % 이하 시 교체)과 다르게 작성되어 시험절차와 판정기준에 오류가 있었다고 KINS가 직접 확인했다(CLAUDE-F02). 문서가 완전하고 정확하며 최신 상태로 유지된다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 전동기측 써지보호기(A상) 손상 원인",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "써지보호기 손상 원인"
+        }
+      ],
+      "counterevidence_or_limitation": "절차서 오류가 만들어진 시점과 검토 이력은 서술되지 않았다. WP1과 사실을 공유한다. 후보가 아니라 KINS의 직접 서술이다."
+    },
+    {
+      "review_key": "ROOT-017-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "보조-0.1 ‘RCS 온도 점검’ 항목 수행 중 MSIV 차단조치를 수행하지 않아 운전원 조치가 미흡했다고 KINS가 평가했다(CLAUDE-F04). 프로세스·절차를 준수한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1 발전소 계통·기기 거동 및 운전조치 평가",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "발전소 계통·기기 거동 및 운전조치 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "급수유량 조절 단계가 지속된다는 판단에 따른 것으로 서술되었고 안전기능은 유지되었다(CLAUDE-F04). 판단 근거는 서술되지 않았다. DM2·CL4와 사실을 공유한다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(e84f694b…0901)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 183,781 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2015-05호(150903K4)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 9이고 큐 기대 물리 페이지는 10이다. PDF 텍스트 추출이 가능했고 큐의 SHA-256·페이지(10)와 일치했다. 표지에는 쪽번호가 없고 요약 면은 면 끝 쪽번호 표기가 없으며 개요 면 끝이 ‘- 2 -’이다. 붙임은 없다. 큐의 보고서 번호는 2015-05이나 본문 표기는 2015-4호(150903K4)이다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(물리 페이지 = 인쇄쪽 + 1(표지 1면)로 추정한다. 요약은 1쪽으로 추정하며 면 끝 ‘- N -’ 표기를 기준으로 했다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 요약 면의 쪽번호와 면 경계에 ±1쪽 불확실성이 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 전력계통 고장기록 파형과 설비 사진 등 그림은 텍스트로 확인하지 못했다. 이 보고서에는 별도 붙임이 없다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 표지 제목은 ‘원자로 자도’(PDF 파일명 표기)이며 본문은 ‘원자로 자동정지’로 서술된다. 보고서 번호 표기가 큐(2015-05)와 본문(2015-4호)이 다르다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 써지보호기 경년열화와 차단기 보호 협조라는 설비 원인이 중심이나, 정비절차서 판정기준 오류와 운전원의 MSIV 차단 미흡이라는 KINS의 직접 서술이 있어 일부를 선정했다. 기술적 중요 사건이라는 것과 안전문화 속성 선정 개수는 별개이다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-017와는 무관한 사건이며 ROOT-017 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

@@ -1,0 +1,829 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-023",
+  "event_id": "130117U1",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2013-01-17_울진1호기_출력_고증가율_신호_발생에_의한_원자로_자동정지.pdf",
+    "report_number": "2013-1",
+    "report_date": "2013-01-25",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 요약, 1~6장(전 쪽); 인쇄쪽 1~11 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-023 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-023의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2013.1.17(목) 11:19 100 % 출력 운전 중이던 울진 1호기에서 노외 핵계측계통 출력영역 채널 2에 출력 고증가율 신호가 발생한 상태로 채널 2 상·하부 출력 합산카드를 교체하던 중 채널 3에서도 출력 고증가율 신호(약 80 ms 동안 100 %→10 % 이하→100 %)가 발생해 2/4 논리가 만족되어 원자로가 자동정지했다. 정지 후 계통·기기는 설계대로 작동했고 운전원은 DEC 진단 후 정지-01 절차를 적용해 고온정지 안정상태를 유지했으며 필수안전기능이 유지되고 방사성물질 방출은 없었다(보고서 2013-1호, 2013-01-25 발행, 재가동 사전안전성평가 결과).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "2.2 시간대별 사건전개 과정",
+          "printed_pages": [
+            2,
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 경과"
+        },
+        {
+          "section": "3.1.1 원자로 자동정지 원인",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 원인"
+        },
+        {
+          "section": "3.3 발전소 계통·기기 거동 및 운전조치 평가",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "계통·기기 거동 및 운전조치 평가"
+        }
+      ],
+      "limitation": "표지는 쪽번호가 없고 사건 요약 면 끝이 ‘- 1 -’이다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "근본원인: 정지는 공급사(TFS)가 제작한 상·하부 출력 합산카드에 탄탈 커패시터가 극성이 반대로 설치된 영향이다. TFS는 스파이크 필터 기능 추가를 위한 설계 변경 시 커패시터 극성을 도면에 반대로 표기했고 이 오기가 설계 확인·검토 과정에서 발견되지 않았다. 또한 성능시험은 기존 합산카드 시험절차에 따른 일반적 부분별 입·출력 시험만 수행되고 새로 추가된 커패시터를 확인하는 항목이 반영되지 않아 최종 성능시험에서도 오류가 발견되지 않았다. 설계·제작 결함으로 합산카드 3개와 해당 3개 채널의 기능저하가 동시에 발생해 KINS는 공통원인고장(CCF) 범주로 분류했다. 재현시험에서 채널 1은 재현되었으나 채널 2·3은 재현되지 않았고, 운영자의 회로동작 특성 분석으로 극성 오설치 커패시터의 누설전류 급변·전기잡음이 채널 3의 급격한 출력변화와 채널 2의 스파이크를 일으킬 수 있음을 확인해 운영자 평가가 적절하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.2 출력 고증가율 신호 발생 원인",
+          "printed_pages": [
+            4,
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "출력 고증가율 신호 발생 원인"
+        },
+        {
+          "section": "3.1.3 상·하부 출력 합산카드 제작 오류 원인",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "합산카드 제작 오류 원인"
+        },
+        {
+          "section": "4. 안전성 평가",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "공통원인고장 범주"
+        }
+      ],
+      "limitation": "채널 2·3의 직접 재현은 되지 않았고 회로 분석으로 가능성을 확인했다. 공급사 내부 검토·시험체계는 KINS 서술 범위만 확인된다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "사전 징후와 대응: 2012.3.3~5.12 제18차 정비 중 노외 핵계측계통 전체를 핵분열함 검출기 방식으로 교체했고, 2012.8.5 채널 2에서 고출력 원자로정지 신호가 발생하자 공급사와 협의해 상·하부 합산카드에 커패시터를 추가하는 설계변경을 했다. 2012.12~2013.1 전출력 운전 중 채널 2·3에서 고출력 정지신호가 각 2회 추가 발생해 1.16 채널 1·2·3 합산카드를 커패시터 장착 카드로 교체했으나(14:04~15:27), 교체 후 채널 1에서 출력을 낮게(약 98 %) 지시하는 드리프트가, 채널 2에서 정지신호가 이전보다 더 잦게 발생(19:02 최초)했다. 운영자가 TFS에 문의하자 TFS가 극성 반대 설치 가능성을 제시했고 도면 검토 후 오기를 확인해 수정 도면을 송부했다(1.17). 운영자는 기존 합산카드에 커패시터를 정방향으로 수리 설치해 교체하려 했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.2 출력 고증가율 신호 발생 원인",
+          "printed_pages": [
+            4,
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "정지 전 경과"
+        },
+        {
+          "section": "2.2 시간대별 사건전개 과정",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 경과"
+        }
+      ],
+      "limitation": "채널 2·3에서 반복된 정지신호 중에도 전출력 운전을 이어간 판단 경위와 위험 검토 여부는 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "교체 작업 품질활동: 운영자는 1.17 커패시터를 정방향으로 수리 설치한 합산카드를 채널 2에 교체 설치했으나, 품질보증계획서 10.7항·11.5항에 따라 원래 합산카드에 부가된 최초 검사요건, 시험요건과 설계요건(또는 승인된 대안)으로 재검사·재시험을 한 뒤 설치했어야 하는 절차를 누락해 해당 규정을 만족하지 못했고 KINS는 검사지적사항을 발급했다. 이 작업은 채널 2 전원을 차단해 채널 2의 출력 고증가율 신호가 발생한 상태에서 수행되었고, 이때 채널 3이 정지신호를 내면서 2개 채널 정지신호 조건이 성립했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2 원전운영자 합산카드 교체 작업 평가",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "원전운영자 합산카드 교체 작업 평가"
+        },
+        {
+          "section": "3.1.1 원자로 자동정지 원인",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 원인"
+        }
+      ],
+      "limitation": "재검사·재시험 누락의 경위와 작업 승인 과정은 서술되지 않았다. 수리 설치 카드가 채널 3 신호에 영향을 주었다는 서술은 없다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "재발방지 조치: 단기(완료) — 커패시터 현장 설치 전 성능 확인과 설계도면 대비 회로 일치성 검토, 설치 후 극성 육안점검과 소자별 기능점검, 합산카드 4개 채널 교체 후 스파이크 감쇄·보호신호 건전성·응답시간 시험, 신호처리함 캐비넷 점검과 채널 3 전원공급기 예방 교체, 신호전송 구간 점검, 채널 2 신호 건전성 감시장비 설치(출력 안정 시까지). 장기 — 극성 오설치 합산카드 3개 정밀점검(2013.12, 제작사 장시간 가압시험), 검출기·케이블 정밀점검(2013.9), 합산카드 예비품 신규 확보(2013.4), 제작사 TFS 본사 품질보증 점검(2014.8), 적정 인가전압 검토(2014.8). KINS는 대책이 타당하고 보완요구사항이 없으며 재가동은 기술적으로 문제가 없다고 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.4 재발방지 조치 적절성",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지 조치 적절성"
+        },
+        {
+          "section": "5. 보완요구사항",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항 없음"
+        },
+        {
+          "section": "6. 결론",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "장기 조치의 이행과 효과는 보고서 시점에 확인되지 않았다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-023-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘불확실성 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 소통’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘변화 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘보수적 성향’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘운전 경험’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자체 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘벤치마킹’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘교육 훈련’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "교체 후 채널 1 드리프트와 채널 2 정지신호 증가를 공급사에 문의했고 TFS가 극성 반대 설치 가능성을 제시해 원인을 확인한 점은 문제를 파악하고 외부와 협의한 긍정 사례이다(CLAUDE-F03).",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2 출력 고증가율 신호 발생 원인",
+          "printed_pages": [
+            4,
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "정지 전 경과"
+        },
+        {
+          "section": "2.2 시간대별 사건전개 과정",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 경과"
+        }
+      ],
+      "counterevidence_or_limitation": "문제 인지와 문의가 즉시 이루어졌는지는 서술되지 않았다. 부분적 평가이다."
+    },
+    {
+      "review_key": "ROOT-023-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "반복된 고출력 정지신호의 원인이 합산카드 제작 오류로 확인된 것은 교체 후 이상이 심화되고 공급사에 문의한 이후이다(CLAUDE-F02, CLAUDE-F03). 문제를 평가하고 원인을 분석한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2 출력 고증가율 신호 발생 원인",
+          "printed_pages": [
+            4,
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "출력 고증가율 신호 발생 원인"
+        },
+        {
+          "section": "3.1.3 상·하부 출력 합산카드 제작 오류 원인",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "합산카드 제작 오류 원인"
+        },
+        {
+          "section": "4. 안전성 평가",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "공통원인고장 범주"
+        },
+        {
+          "section": "2.2 시간대별 사건전개 과정",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 경과"
+        }
+      ],
+      "counterevidence_or_limitation": "2012.8 설계변경 시점의 원인분석 내용이 서술되지 않았고 공급사 협의로 진행되었다. 별도 근거가 필요하다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-023-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "2012.8 이후 채널 2·3에서 고출력 정지신호가 반복되었고(2012.8, 2012.12~2013.1 각 2회) 교체 후 채널 1 드리프트와 채널 2 정지신호 증가가 나타난 뒤에야 공급사에 원인을 문의했으며 그동안 전출력 운전이 이어졌다(CLAUDE-F03). 문제를 시의적절하게 조치한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2 출력 고증가율 신호 발생 원인",
+          "printed_pages": [
+            4,
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "정지 전 경과"
+        },
+        {
+          "section": "2.2 시간대별 사건전개 과정",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 경과"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 운영자의 사전 대응을 부적절하다고 서술하지 않았다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-023-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-023-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "채널 2 전원을 차단해 채널 2의 출력 고증가율 신호가 발생한 상태로 교체작업을 수행하던 중 채널 3 신호로 2/4 조건이 성립해 정지했다(CLAUDE-F04). 작업 계획 시 안전을 우선한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2 원전운영자 합산카드 교체 작업 평가",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "원전운영자 합산카드 교체 작업 평가"
+        },
+        {
+          "section": "3.1.1 원자로 자동정지 원인",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 원인"
+        }
+      ],
+      "counterevidence_or_limitation": "작업계획 단계에서 정지 가능성이 검토되었는지는 서술되지 않았고 KINS도 계획의 적절성을 판단하지 않았다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-023-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "스파이크 필터 추가 설계변경(2012.8)에서 도면 극성 오기가 설계 확인·검토에서 발견되지 않았고 성능시험 항목에 새 커패시터 확인이 반영되지 않았다(CLAUDE-F02, CLAUDE-F03). 설비 변경 시 체계적 프로세스를 따른다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02",
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2 출력 고증가율 신호 발생 원인",
+          "printed_pages": [
+            4,
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "출력 고증가율 신호 발생 원인"
+        },
+        {
+          "section": "3.1.3 상·하부 출력 합산카드 제작 오류 원인",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "합산카드 제작 오류 원인"
+        },
+        {
+          "section": "4. 안전성 평가",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "공통원인고장 범주"
+        },
+        {
+          "section": "2.2 시간대별 사건전개 과정",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 경과"
+        }
+      ],
+      "counterevidence_or_limitation": "설계 확인·시험 범위는 공급사 활동으로 서술되었고 운영자의 설계변경 검증 활동은 서술되지 않아 후보 의견으로 둔다."
+    },
+    {
+      "review_key": "ROOT-023-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "설계도면에 탄탈 커패시터 극성이 반대로 표기되었고 이를 확인·검토 과정에서 발견하지 못했다(CLAUDE-F02). 정확한 문서화를 한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2 출력 고증가율 신호 발생 원인",
+          "printed_pages": [
+            4,
+            5,
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "출력 고증가율 신호 발생 원인"
+        },
+        {
+          "section": "3.1.3 상·하부 출력 합산카드 제작 오류 원인",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [],
+          "summary": "합산카드 제작 오류 원인"
+        },
+        {
+          "section": "4. 안전성 평가",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "공통원인고장 범주"
+        }
+      ],
+      "counterevidence_or_limitation": "도면은 공급사 문서이며 운영자 문서관리 활동은 직접 서술되지 않았다. 후보 의견이다. WP2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-023-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "운영자가 정방향으로 수리한 합산카드를 채널 2에 설치하면서 품질보증계획서 10.7항·11.5항이 요구하는 재검사·재시험을 누락해 KINS가 검사지적사항을 발급했다(CLAUDE-F04). 프로세스·절차를 준수한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2 원전운영자 합산카드 교체 작업 평가",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "원전운영자 합산카드 교체 작업 평가"
+        },
+        {
+          "section": "3.1.1 원자로 자동정지 원인",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 원인"
+        }
+      ],
+      "counterevidence_or_limitation": "정지의 직접 원인은 공급사의 커패시터 극성 오설치이다(CLAUDE-F02). 재검사 누락이 정지 발생에 영향을 주었다는 서술은 없다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(b7d1693b…b20d)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 414,786 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2013-1호(130117U1)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 11이고 큐 기대 물리 페이지는 12이다. PDF 텍스트 추출이 가능했고 큐의 SHA-256·페이지(12)와 일치했다. 표지에는 쪽번호가 없고 사건 요약 면 끝이 ‘- 1 -’이다. 붙임은 없다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(물리 페이지 = 인쇄쪽 + 1(표지 1면)로 추정한다. 면 끝 ‘- N -’ 표기를 기준으로 했다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 면 경계에 ±1쪽 불확실성이 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 노외 핵계측계통 회로도, 합산카드 사진, 재현시험 파형 등은 텍스트로 확인하지 못했다. 이 보고서에는 별도 붙임이 없다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 없음",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 사건은 공급사의 설계·제작 결함이 직접원인이어서 운영조직의 행동에 관한 KINS 서술이 제한적이다. 운영자 측 사실은 교체 작업 품질활동 누락(검사지적)과 반복 이상징후 대응 경과 정도이며, 선정 개수가 적은 것은 이를 반영한 것이다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-023와는 무관한 사건이며 ROOT-023 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

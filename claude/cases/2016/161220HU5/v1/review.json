@@ -1,0 +1,776 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-015",
+  "event_id": "161220HU5",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2016-12-20_한울 5호기 원자로 HJTC배기구 누설 정비를 위한.pdf",
+    "report_number": "2016-23",
+    "report_date": "2017-02-03",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 요약, 1~6장(전 쪽); 인쇄쪽 1~16 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-015 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-015의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2016.12.19(월) 22:55경 100 % 출력으로 운전 중이던 한울 5호기에서 원자로 수위계측기(HJTC) B 배기구 벤트볼 부위의 원자로냉각재 누설이 확인되었다. 운전 중 정비가 불가능해 12.20 00:00부터 출력을 감발해 08:00에 원자로를 수동정지했고, 12.21 10:09경 대기압·상온 조건에 도달한 뒤 19:00경 분해해 벤트볼 손상을 확인했다. 누설량은 약 0.055 gpm으로 운영기술지침서 운전제한조건(확인누설 10 gpm, 미확인누설 1 gpm)보다 낮았고 총 누설량은 888.8 L로 평가되었으며 방사선 영향은 미미했다(보고서 2016-23호, 2017-02-03 발행).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1,
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "사건 개요와 보고 기준"
+        },
+        {
+          "section": "2.2 시간대별 사건전개 과정",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 경과"
+        }
+      ],
+      "limitation": "표지 면은 쪽번호가 없어 인용하지 않았다. 일부 시각은 ‘경’ 표기이다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "누설 탐지와 대응: 12.18 12:00경 운전원이 격납건물 집수조 수위 증가와 VCT 수위 감소를 인지해 정기절차서(정기-3431B)로 누설량을 약 0.05 gpm으로 확인했고(12.19 06:00 최종 0.055 gpm), 12.19 09:00경 격납건물 점검조를 편성해 외벽부터 원자로까지 순차 점검해 22:55에 HJTC B 배기구 누설을 확인했다. 비정상운전절차서(비정상-3431A)의 대응 기준은 미확인누설 0.5 gpm이어서 이 누설은 그 수준 미만이었다. 현장조치(플랜지 너트 조임)로 누설이 차단되지 않아 정지를 결정했다. KINS는 운전조치가 적절했다고 평가했고, 원전운영자는 비정상운전에 해당하는 누설 조건을 0.5 gpm에서 0.05 gpm으로 낮추고 누설 확인 시 점검방법·지침을 마련하는 대책을 제시했으며 KINS는 소량 누설부터 체계적으로 대응하는 조치로 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "누설 징후 인지와 점검"
+        },
+        {
+          "section": "3.3 운전 및 대응 조치 평가",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전 및 대응 조치 평가"
+        }
+      ],
+      "limitation": "초기 인지부터 부위 확인까지 약 2일의 점검 과정은 보고서가 적절하다고 평가했다. 시료·계산 수치는 재계산하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "직접원인: 누설은 2016.6 한울 5호기 계획예방정비 중 새로 설치된 벤트볼(직경 4.7 mm, 스테인리스여야 함)이 탄소강 재질이어서 약 6개월간 붕산수 환경에서 부식되어 밀봉기능을 상실해 발생했다. 누설이 없던 HJTC A의 벤트볼은 스테인리스였다. KINS는 입회 확인과 재질 성분분석 검토로 원전운영자가 제시한 누설경로·직접원인이 타당하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.4 누설 원인 점검",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "누설 원인 점검"
+        }
+      ],
+      "limitation": "분해 전 조임력 확인으로 밀봉부 정비 과정의 조임 문제는 없었다고 서술되었다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "탄소강 벤트볼 혼입 원인: 2015.9 긴급 정비용 자재(지입)로 A 업체(중간 공급업체 2곳 경유)와 구매계약해 4개가 납품되었는데 구매 시 규격·재질을 확인할 품질보증서는 요청했으나 재질 적합성을 확인할 재료성적서는 요구하지 않았다. 유통업체는 200~300개 볼을 한 박스로 재질별 관리하다 소량 주문 때 박스를 뜯어 팔아 품질관리 소홀 시 부적합 재질이 혼입될 수 있었다. 또한 벤트볼은 품질등급 S로 관리되고 있었으며 한울 5호기 부품 정보를 처음 등록할 때 품질등급 분류 기준이 명확하지 않아 S로 분류되었다고 원전운영자가 평가했다. KINS는 이 요인들이 종합되어 혼입·설치되었다는 평가가 타당하다고 보았고, 벤트볼은 설계문서상 압력경계 부품이 아닌 밀봉기능 부품이어서 Q등급이 아닌 것은 요건 위배가 아니나 품질등급 설정은 공학적 판단이 필요해 설계사 판단이나 상세 기준이 있어야 오류를 줄일 수 있다고 정리했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.5 탄소강 벤트볼 설치 원인 및 정비 결과",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "탄소강 벤트볼 설치 원인"
+        }
+      ],
+      "limitation": "2014~2015년 구매 벤트볼 14개는 모두 사용되었으며 이번 건 외에 이상이 없었다고 서술되었다. 최초 품질등급 분류 시점과 담당은 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "유사부위 점검: 한울 5호기의 밀봉용 볼은 HJTC와 CEDM 벤트볼 2종이며 CEDM 벤트볼은 2016.7경 모두 A등급 자재로 교체되고 누설이 없었다. 원자로냉각재계통 압력경계 기계부품(283개), 계측기용 피팅(56개), 밀봉자재(510개)와 기계분야 안전등급 설비 부품(11,854개)의 품질등급 적절성을 점검했고 HJTC 벤트볼 이외의 S등급 사용은 없었다. 신월성 1·2, 신고리 1·2호기에서도 S등급 HJTC 벤트볼을 사용하나 원공급사 스테인리스임을 서류와 예비품 성분분석으로 확인했고 신월성 1호기는 A등급으로 교체했다. KINS는 적절하다고 평가했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.7 유사 부위 점검",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "유사 부위 점검"
+        },
+        {
+          "section": "3.9 재발방지조치 점검",
+          "printed_pages": [
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "품질등급 분류 점검 범위"
+        }
+      ],
+      "limitation": "점검 개수와 대상은 원전운영자 제시 값이다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "영향 점검: 붕산 부식 검사(주기-9201)로 원자로 상부헤드 등 주변 기기에 붕산 부식이 없음을 확인했고 CEDM 코일·절연저항과 HJTC도 이상이 없었다. 소내외 방사선 감시기에 유의미한 변동이 없었고 12.19~12.31 작업자 215명의 집단선량은 41.43 man-mSv, 최대 개인선량은 2.17 mSv로 한도 미만이었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.6 누설에 의해 영향받은 기기 건전성 점검",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "영향받은 기기 건전성"
+        },
+        {
+          "section": "3.8 방사선 영향 점검",
+          "printed_pages": [
+            11,
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "방사선 영향 점검"
+        },
+        {
+          "section": "4. 안전성 평가",
+          "printed_pages": [
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "안전성 평가"
+        }
+      ],
+      "limitation": "선량은 원전운영자 제시 값이다."
+    },
+    {
+      "id": "CLAUDE-F07",
+      "summary": "재발방지 조치: 단기(완료) — 붕산부식 평가와 석출물 제거, 제어봉제어설비 건전성 시험, HJTC 벤트볼 교체(A등급 웨스팅하우스 공급자재), 분해조립·배기 후 누설점검을 포함한 정비절차 개선, 누설률 감시 강화, HJTC 밀봉부품 품질등급 S에서 A로 상향과 교육·경험전파. 중장기 — 미량 누설(0.05 gpm) 대응 표준지침 개발(~2017.6), 품질등급 분류 기준 세분화(~2017.3), 구매관리 강화(HJTC 밀봉부품은 원제작사 구매·재료성적서, 재질에 따라 성능 차이가 나는 자재는 인수검사 시 재료성적서 요구 의무화 방안, ~2017.4), 긴급 소요자재 구매 체크리스트(~2017.2), 전 원전 안전등급 부품 품질등급 재검토와 설계변경서 작성 시 품질등급 부여·기준 마련(~2017.4). KINS는 대책이 적절하고 보완요구사항이 없으며 재가동은 기술적으로 문제가 없다고 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.9 재발방지조치 점검",
+          "printed_pages": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "재발방지조치 점검"
+        },
+        {
+          "section": "5. 보완요구사항",
+          "printed_pages": [
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "보완요구사항 없음"
+        },
+        {
+          "section": "6. 결론",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "중장기 대책의 이행과 효과는 보고서 시점에 확인되지 않았다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-015-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘규정’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘불확실성 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 소통’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘변화 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘보수적 성향’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘운전 경험’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자체 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘벤치마킹’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘교육 훈련’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "운전원은 비정상절차 대응 기준(0.5 gpm)에 못 미치는 미량(0.055 gpm) 변화를 집수조·VCT 수위 추이에서 인지해 누설을 감시하고 점검조를 편성해 누설부위를 찾았다(CLAUDE-F02). 문제점을 조기에 도출하는 활동으로 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1 사건 전개과정 확인결과",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "누설 징후 인지와 점검"
+        },
+        {
+          "section": "3.3 운전 및 대응 조치 평가",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전 및 대응 조치 평가"
+        }
+      ],
+      "counterevidence_or_limitation": "최초 징후 인지 후 부위 확인까지 약 2일이 걸렸다. CAP 등록 여부는 서술되지 않았다."
+    },
+    {
+      "review_key": "ROOT-015-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 혼입 경로(구매·유통·품질등급)를 분석하고 원자로냉각재계통·안전등급 부품 11,000여 개와 타 원전 HJTC 벤트볼까지 품질등급과 재질을 점검했다(CLAUDE-F04, CLAUDE-F05). 원인분석과 시정조치를 안전 중요도에 맞게 평가한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.5 탄소강 벤트볼 설치 원인 및 정비 결과",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "탄소강 벤트볼 설치 원인"
+        },
+        {
+          "section": "3.7 유사 부위 점검",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "유사 부위 점검"
+        },
+        {
+          "section": "3.9 재발방지조치 점검",
+          "printed_pages": [
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "품질등급 분류 점검 범위"
+        }
+      ],
+      "counterevidence_or_limitation": "점검 개수는 원전운영자 제시 값이다. 이행 효과는 후속 확인 대상이다."
+    },
+    {
+      "review_key": "ROOT-015-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문제 해결’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-015-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "긴급 정비용 자재를 중간 공급업체 2곳을 거쳐 구매하면서 재질 확인용 재료성적서를 요구하지 않았고 박스 소분 판매 단계의 혼입 가능성을 관리하지 못했다(CLAUDE-F04). 원전운영자는 긴급 소요자재 구매 체크리스트와 재료성적서 요구 의무화 방안을 마련했다(CLAUDE-F07). 안전을 우선해 작업계획·시행 프로세스를 운영한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.5 탄소강 벤트볼 설치 원인 및 정비 결과",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "탄소강 벤트볼 설치 원인"
+        }
+      ],
+      "counterevidence_or_limitation": "자재 구매 절차가 정비 ‘작업 계획’ 프로세스인지는 보고서가 구분하지 않았다. 구매 시 품질보증서는 요청했다(CLAUDE-F04). 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-015-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "압력경계 밀봉기능 부품(벤트볼)의 품질등급 설정 오류 가능성이 확인되었고 전 원전 안전등급 부품 품질등급을 재검토했다(CLAUDE-F04, CLAUDE-F05). 안전설비 유지·변경 시 체계적이고 엄격한 프로세스를 적용한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.5 탄소강 벤트볼 설치 원인 및 정비 결과",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "탄소강 벤트볼 설치 원인"
+        },
+        {
+          "section": "3.7 유사 부위 점검",
+          "printed_pages": [
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "유사 부위 점검"
+        },
+        {
+          "section": "3.9 재발방지조치 점검",
+          "printed_pages": [
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "품질등급 분류 점검 범위"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 벤트볼의 Q등급 미분류가 요건 위배가 아니라고 판단했다. 설계 여유도 문제로 볼 직접 근거가 부족하다. 별도 근거가 필요하다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-015-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "벤트볼 부품 정보를 등록할 때 품질등급 분류 기준이 명확하지 않아 S등급으로 분류되었고 KINS는 상세 판단기준이 있어야 오류를 줄일 수 있다고 정리했다(CLAUDE-F04). 문서 작성·관리가 완전하고 정확하다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.5 탄소강 벤트볼 설치 원인 및 정비 결과",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "탄소강 벤트볼 설치 원인"
+        }
+      ],
+      "counterevidence_or_limitation": "분류 기준 문서의 결함 범위와 시점은 서술되지 않았고 KINS는 요건 위배는 아니라고 평가했다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-015-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘절차 준수’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(34e2ac6c…eb4c)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 463,157 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2016-23호(161220HU5)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 16이고 큐 기대 물리 페이지는 17이다. PDF 텍스트 추출이 가능했고 큐의 SHA-256·페이지(17)와 일치했다. 표지에는 쪽번호가 없고 요약은 인쇄쪽 1에서 시작한다. 붙임은 없다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(물리 페이지 = 인쇄쪽 + 1(표지 1면)로 추정한다. 면 끝 ‘- N -’ 표기를 기준으로 했다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 면 경계에 ±1쪽 불확실성이 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 누설 개략도, 격납건물·환경 방사선 추이 그래프 등 그림은 텍스트로 확인하지 못했다. 이 보고서에는 별도 붙임이 없다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 개요는 격납건물 누설 확인을 ‘12.19 22:55’로, 3.1절은 ‘21:10 증기 누설, 22:55 배기구 확인’으로 구분해 적고, 최종 누설량 단위가 gpm과 L/day로 병기된다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 자재 재질 부적합이라는 설비·품질 문제가 중심이고 안전문화를 직접 다룬 항목이 없어 선정이 적다. 구매·품질등급 분류 기준의 문서·프로세스 한계를 후보 의견으로 연결했다. 소량 누설 감시와 폭넓은 확대 점검은 긍정 사례로 기록했다. 기술적 중요 사건이라는 것과 안전문화 속성 선정 개수는 별개이다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-015와는 무관한 사건이며 ROOT-015 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

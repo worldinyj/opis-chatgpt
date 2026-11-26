@@ -1,0 +1,905 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-014",
+  "event_id": "170327K4",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2017-03-28_고리4호기_증기발생기_A_수실_배수관_배수_밸브_용접부_누설부위_정비를_위한_원.pdf",
+    "report_number": "2017-2",
+    "report_date": "2018-04-05",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 요약, 1~6장(전 쪽); 인쇄쪽 1~16 범위). 도해·회로도·사진·그래프 이미지 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-014 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-014의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "2017.3.27 23시 24분경 100 % 출력으로 운전 중이던 고리 4호기에서 증기발생기 ‘A’ 수실 배수관 배수밸브(BB-V070) 소켓용접부의 원자로냉각재 누설(최대 약 10 mm, 깊이 6 mm 관통)이 확인되어 운영기술지침서 운전제한조건 3.4.13(원자로압력경계 누설 없음)에 따라 수동 출력감발을 거쳐 3.28 05:11 원자로를 수동정지하고 3.29 03:45 저온정지(운전모드 5)에 진입했다. 총 누설량은 약 413.86 L로 평가되었고 방사선 영향은 미미했다(보고서 2017-2호, 2018-04-05 발행).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1,
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "사건 개요와 보고 기준"
+        },
+        {
+          "section": "2. 사건 경위",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "사건 경위"
+        }
+      ],
+      "limitation": "표지 면은 쪽번호가 없어 인용하지 않았다. 보고서가 사건 발생 약 1년 뒤에 발행되었다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "누설 탐지와 대응: 3.25 22:00경 집수조 수위 증가가 인지되어 일지에 ‘일시적 현상인지 관찰 필요’로 기재되었고, 3.26 11:25경 증가율이 약 2.2배로 높아지자 비정상절차서(비정상-3431A, RCS 누설)와 정기절차서(정기-3431B)로 점검했으나 주요 변수 변화가 없어 2차측 누설로 판단했다. 3.27 오후 현장점검에서 SG A 하부의 초당 1방울 누설을 확인했고 두 차례 시료분석에서 붕소농도가 정상의 약 2배(932 ppm)여서 1차계통 누설로 판단, 23:24 BB-V070 용접부 누설을 확인해 원자로 수동정지를 결정했다. KINS는 누설량(0.111~0.230 m3/day)이 경보치(1.2 m3/day)보다 적었으나 비정상절차서에 따른 점검과 운전제한조건 적용, 제한시간 내 정지·냉각이 적절했다고 평가했다. KINS 자체 평가는 습도계 반응으로 3.25 18:20경 최초 누설이 시작되었다고 판단했다. 원전운영자는 집수조 수위·방사능·습도·온도 중 하나라도 비정상이면 즉시 누설량을 평가하도록 절차를 보완했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "2. 사건 경위",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "누설 징후와 점검 경위"
+        },
+        {
+          "section": "3.1.1.1 운전 및 대응 조치 적절성",
+          "printed_pages": [
+            5,
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전 및 대응 조치"
+        },
+        {
+          "section": "3.1.1.2 원자로냉각재 총 누설량 평가",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "총 누설량 평가"
+        },
+        {
+          "section": "4. 원전운영자 재발방지대책 적절성",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "절차 보완"
+        }
+      ],
+      "limitation": "초기 징후 후 약 1.5일 동안의 판단 근거는 면담·일지 서술에 의존한다. 습도 자료 기반 최초 누설 시점은 KINS 자체 평가이다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "직접원인: 배수관 설계·형상 변경으로 고유진동수가 바뀌어 운전 중 진동과 공진이 생기고 약 5주기 동안 진동피로가 누적되어 소켓용접부에 관통결함이 생겼다. 2004년 미국 Catawba 2호기 운전경험을 반영해 2006.3 증기발생기 배수노즐 재질을 Alloy 600에서 690으로 바꿀 때 형상이 변경되었고, 2010.5 밸브 교체와 2011.9(제20차 OH) 밸브간 배관길이 변경(47.6→53.7 cm) 때 설계지침에 따른 진동저감 기술평가가 미흡했다. 2011.10 출력상승 중 측정한 SG A 배수관 진동은 출력 80 %에서 고진동(최대 81.5 mm/s)이었으나 후속조치가 이루어지지 않았다. KINS는 원전운영자의 평가가 타당하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.2.1 사건 원인분석 및 평가",
+          "printed_pages": [
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "원자로냉각재 누설 원인분석과 평가"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약의 원인"
+        }
+      ],
+      "limitation": "고진동 측정 후 조치 부재의 사유와 책임은 서술되지 않았다. 일부 그림은 확인하지 못했다."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "운전경험 반영: 2008.6 고리 3호기 SG ‘B’ 배수밸브 소켓용접부 진동피로·용입불량 누설 사건 후 소구경 소켓용접부 관리방안을 수립(2008.12·2011.5)하고 6주기 비파괴검사를 해 왔으나 설계·형상 변경 시 진동 재평가는 반영되지 않았다. KINS는 고리 3·4호기의 최근 10년 보고대상 사건 14건(후속조치 158건)의 이행을 점검해 13건의 추가 보완사항을 도출했고, 근본원인분석 시 관련 절차 이행 적절성과 운전경험활용보고서 작성 미흡 등 10건은 2017.9.30까지 보완했으며 운전경험 반영체계 개선 3건은 표준지침-2036-01에 반영해 2018.2.22 개정했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.2.3 유사사건 검토",
+          "printed_pages": [
+            11,
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건 검토와 후속조치 이행 점검"
+        }
+      ],
+      "limitation": "13건의 세부 내용은 서술되지 않았다. 2008년 사건과 이번 사건의 원인은 일부 다르다고 보고서가 구분했다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "유사부위 확대점검: 안전등급 2인치 이하 소켓용접부 그룹 1(305개소)과 그룹 2(293개소)를 PAUT·PT로 전수 점검해 지시(용입불량) 6개소를 발견하고 정비 기간에 보수·교체했다. KINS는 파면검사로 이들이 진동피로가 아닌 용입불량임을 확인했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.1.2.2 유사부위 확대점검",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "유사부위 확대점검"
+        }
+      ],
+      "limitation": "2인치 이하 배관은 가동중검사 면제 대상이나 원전운영자가 자율 점검했다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "방사선 영향: 소내외 방사선 준위는 평상시 범위였고 작업자 140명에게 특수방사선작업허가서가 발급되었으며 2017년 개인 최대 연간선량은 8.48 mSv(타 원전 포함 10.02 mSv), 2018년 증기발생기 배수관 관막음까지는 1.70 mSv로 선량한도(50 mSv/yr) 이내로 관리되었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.1.1.3 방사선 영향 평가",
+          "printed_pages": [
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "방사선 영향 평가"
+        }
+      ],
+      "limitation": "선량은 원전운영자 제시 값이다."
+    },
+    {
+      "id": "CLAUDE-F07",
+      "summary": "재발방지 조치: 단기(완료) — 누설량 점검·평가 절차 보완(전 원전 전파), 운전경험 활용·원인분석 지침 개정(근본원인분석 팀장을 부서장으로 변경, 원인분석팀 독립성, 유사상태 확대검토 반영), 증기발생기 수실 배수관 제거·관막음 설계변경, 고리 3·4호기 소켓용접부 확대 비파괴검사, 최근 10년 보고사건 이행 전수점검, 설계·형상 변경 시 진동 재평가 절차 수립(표준정비-9034B, 4022 개정). 장기 — 동일 노형 수실 배수관 설계개선(고리 2, 한빛 1·2호기, ~2018.11), 소켓용접부 관리 표준지침 개발(~2018.12), 수동정지 유발 가능 연결배관까지 검사관리 확대(~2020.6), 소구경배관 지지대 설치요건 재평가(~2020.12). KINS는 대책이 적절하고 유사사건 재발방지 추가대책은 없다고 판단했으며 재가동은 기술적으로 문제가 없다고 보았다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "4. 원전운영자 재발방지대책 적절성",
+          "printed_pages": [
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "단기대책"
+        },
+        {
+          "section": "4. 원전운영자 재발방지대책 적절성",
+          "printed_pages": [
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "장기대책"
+        },
+        {
+          "section": "5. 유사사건의 재발방지를 위한 대책",
+          "printed_pages": [
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "추가 재발방지 대책 없음"
+        },
+        {
+          "section": "6. 결론",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "limitation": "장기대책 이행과 효과는 보고서 시점에 확인되지 않았다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-014-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원전운영자는 압력경계 누설을 확인하자 운영기술지침서 운전제한조건 3.4.13을 적용해 정지를 결정하고 제한시간(6시간 내 모드 3) 내에 원자로를 정지·냉각했다(CLAUDE-F02). 규정과 절차를 준수하는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "2. 사건 경위",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "누설 징후와 점검 경위"
+        },
+        {
+          "section": "3.1.1.1 운전 및 대응 조치 적절성",
+          "printed_pages": [
+            5,
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전 및 대응 조치"
+        },
+        {
+          "section": "3.1.1.2 원자로냉각재 총 누설량 평가",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "총 누설량 평가"
+        },
+        {
+          "section": "4. 원전운영자 재발방지대책 적절성",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "절차 보완"
+        }
+      ],
+      "counterevidence_or_limitation": "누설량이 경보치보다 적은 단계에서 시작한 점검은 절차 기반이었다. 초기 판단(2차측 누설)은 이후 시료분석으로 수정되었다."
+    },
+    {
+      "review_key": "ROOT-014-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 책임의식’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘팀워크’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘원자력의 특수성’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘불확실성 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘가정상황 확인’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자만 방지’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘업무 소통’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 근거’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘투명한 정보 공유’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자원’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘현장 순시’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘인센티브, 보상 및 징벌’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘전략적 안전방침’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘변화 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘역할, 책임 및 권한’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘지속적 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘리더의 솔선수범’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘일관적 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "누설량이 경보치(1.2 m3/day)보다 적었으나 붕소농도 분석으로 1차계통 누설을 확인하고 압력경계 누설로 판단해 수동정지를 결정했다(CLAUDE-F02). 의사결정 시 안전을 고려해 보수적으로 판단한 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "2. 사건 경위",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "누설 징후와 점검 경위"
+        },
+        {
+          "section": "3.1.1.1 운전 및 대응 조치 적절성",
+          "printed_pages": [
+            5,
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전 및 대응 조치"
+        },
+        {
+          "section": "3.1.1.2 원자로냉각재 총 누설량 평가",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "총 누설량 평가"
+        },
+        {
+          "section": "4. 원전운영자 재발방지대책 적절성",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "절차 보완"
+        }
+      ],
+      "counterevidence_or_limitation": "초기에 2차측 누설로 판단한 시간이 약 1일 있었다. 결정 과정의 상급자 협의는 서술되지 않았다."
+    },
+    {
+      "review_key": "ROOT-014-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의사결정 책임’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘분명한 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘의견 존중’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘높은 신뢰’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘갈등 해소’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2008.6 고리 3호기 유사 사건의 후속조치가 소켓용접부 검사관리에 집중되어 설계·형상 변경 시 진동 재평가로 이어지지 않았고, 최근 10년 사건 14건의 후속조치 점검에서 13건의 보완과 운전경험 반영체계 개선 3건이 필요했다(CLAUDE-F04). 운전경험을 체계적으로 분석하고 시의적절하게 조치한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2.3 유사사건 검토",
+          "printed_pages": [
+            11,
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건 검토와 후속조치 이행 점검"
+        }
+      ],
+      "counterevidence_or_limitation": "2008년 후속조치(소켓용접부 관리방안 수립·6주기 비파괴검사)는 이행되었고 2008년 원인은 용입불량 중심이어서 이번 고주기 진동피로와 다르다고 보고서가 구분했다(CLAUDE-F04). 2004년 Catawba 사례는 반영되었다(CLAUDE-F03)."
+    },
+    {
+      "review_key": "ROOT-014-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘자체 진단’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘벤치마킹’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘교육 훈련’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "3.25 22:00경 집수조 수위 증가가 ‘일시적 현상인지 관찰 필요’로 일지에 기재되었고 이후 3.26 비정상절차서를 적용했다(CLAUDE-F02). 문제점 도출이 용이하도록 CAP을 운영한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "2. 사건 경위",
+          "printed_pages": [
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "누설 징후와 점검 경위"
+        },
+        {
+          "section": "3.1.1.1 운전 및 대응 조치 적절성",
+          "printed_pages": [
+            5,
+            6,
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "운전 및 대응 조치"
+        },
+        {
+          "section": "3.1.1.2 원자로냉각재 총 누설량 평가",
+          "printed_pages": [
+            7
+          ],
+          "pdf_pages": [],
+          "summary": "총 누설량 평가"
+        },
+        {
+          "section": "4. 원전운영자 재발방지대책 적절성",
+          "printed_pages": [
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "절차 보완"
+        }
+      ],
+      "counterevidence_or_limitation": "CAP 통지 발행 여부가 서술되지 않았다. KINS는 대응이 적절했다고 평가했다. 별도 근거가 필요하다. 판단보류한다."
+    },
+    {
+      "review_key": "ROOT-014-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "10년 사건 후속조치 점검에서 근본원인분석 시 관련 절차 이행 적절성과 운전경험활용보고서 작성 미흡 등이 도출되었고 원인분석 팀장의 독립성과 유사상태 확대검토가 절차에 반영되었다(CLAUDE-F04, CLAUDE-F07). 원인분석과 시정조치를 안전 중요도에 맞게 철저히 평가한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2.3 유사사건 검토",
+          "printed_pages": [
+            11,
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건 검토와 후속조치 이행 점검"
+        },
+        {
+          "section": "4. 원전운영자 재발방지대책 적절성",
+          "printed_pages": [
+            13,
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "단기대책"
+        },
+        {
+          "section": "4. 원전운영자 재발방지대책 적절성",
+          "printed_pages": [
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "장기대책"
+        },
+        {
+          "section": "5. 유사사건의 재발방지를 위한 대책",
+          "printed_pages": [
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "추가 재발방지 대책 없음"
+        },
+        {
+          "section": "6. 결론",
+          "printed_pages": [
+            15,
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "결론"
+        }
+      ],
+      "counterevidence_or_limitation": "원인분석 미흡의 구체 사례와 이번 사건과의 관계는 서술되지 않았다. CL1과 사실을 공유한다. 후보 의견이다."
+    },
+    {
+      "review_key": "ROOT-014-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011.10 출력상승 중 SG A 배수관에서 고진동(최대 81.5 mm/s)이 측정되었으나 관련 후속조치가 이루어지지 않았고 이후 약 5주기 동안 진동피로가 누적되었다(CLAUDE-F03). 문제를 중요도에 따라 시의적절하고 효과적으로 조치한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2.1 사건 원인분석 및 평가",
+          "printed_pages": [
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "원자로냉각재 누설 원인분석과 평가"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약의 원인"
+        }
+      ],
+      "counterevidence_or_limitation": "고진동이 안전 문제로 평가·등록되었는지는 서술되지 않았다. WP2·CL1과 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-014-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘경향 분석’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전중시 업무환경 정책’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘안전건의 프로세스’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘작업 관리’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2006.3 배수노즐 형상 변경, 2010.5 밸브 교체, 2011.9 배관길이 변경 때 설계지침에 따른 진동저감 기술평가가 미흡했고 배관길이 변경은 설계문서 변경 검토 없이 이루어졌다(CLAUDE-F03, CLAUDE-F07). 설계 변경 시 체계적이고 엄격한 프로세스를 적용한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2.1 사건 원인분석 및 평가",
+          "printed_pages": [
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "원자로냉각재 누설 원인분석과 평가"
+        },
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약의 원인"
+        }
+      ],
+      "counterevidence_or_limitation": "2006년 변경은 Catawba 사례를 반영한 응력부식균열 대책 목적이었다(CLAUDE-F03). 변경관리 절차는 사건 후 개정되었다(CLAUDE-F07). 일부 그림·계산은 확인하지 못했다. PI3·CL1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-014-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘문서화’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-014-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "‘절차 준수’과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(28bf6cf2…23c2)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 375,547 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2017-2호(170327K4)'와 본문으로 했다. Drive 검색 결과에 보인 다른 사건 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 16이고 큐 기대 물리 페이지는 17이다. PDF 텍스트 추출이 가능했고 큐의 SHA-256·페이지(17)와 일치했다. 표지에는 쪽번호가 없고 요약은 인쇄쪽 1에서 시작한다. 붙임은 없다. 쪽수 차이를 보정하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(물리 페이지 = 인쇄쪽 + 1(표지 1면)로 추정한다. 면 끝 ‘- N -’ 표기를 기준으로 했다). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 면 경계에 ±1쪽 불확실성이 있다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 수식·그림·표·설정값이 일부 깨지거나 비공개 처리되어 있다. 표지부터 붙임 끝까지 전체 텍스트를 읽었다. 결함부위 사진과 절단면, 운전변수 그래프 등 그림은 텍스트로 확인하지 못했다. 이 보고서에는 별도 붙임이 없다.",
+    "원본의 비공개 처리 구간(특이사항 없음)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 총 누설량이 요약·평가에서 413.86 L와 413.78 L로 달리 적혀 있고, 사건 발생 시각이 ‘23시 24분’(누설 확인)과 ‘05시 11분’(정지)로 구분되어 쓰였다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 진동피로에 의한 설비 결함이 중심이고 안전문화를 직접 다룬 항목이 없어 선정이 적다. 설계변경 시 진동평가 미흡(WP2)과 고진동 후속 미조치(PI3), 과거 유사사건 반영 한계(CL1)가 중심이다. 기술적 중요 사건이라는 것과 안전문화 속성 선정 개수는 별개이다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-014와는 무관한 사건이며 ROOT-014 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

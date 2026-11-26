@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "model": "CLAUDE",
+  "queue_id": "ROOT-015",
+  "event_id": "161220HU5",
+  "artifact_status": "STORED",
+  "integration_status": "HOLD",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+  "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+  "reported_hash_matches_queue": false,
+  "reported_pages_match_queue": false,
+  "source_zip": "CLAUDE_ROOT-015_161220HU5_v1.zip",
+  "source_zip_sha256": "326dfd7826eb46d1d6f430eacb03c7d11133c3953f76d5241473f03c17a8df6b",
+  "files": [
+    {
+      "name": "report.md",
+      "sha256": "6d583ee26b75ba180e1810f42ecd338d7d4dc670b446826335df3c9e46f30531",
+      "blob": "dc1d060058cf89101e7183c386c454d708570fa0"
+    },
+    {
+      "name": "review.json",
+      "sha256": "ff243314438a9b25412e5b4e12606539b8ddc6f80c8ee4d5511b2af20184917b",
+      "blob": "4daadd719e2487a0986570c513b1ab2a545a357f"
+    },
+    {
+      "name": "excel_import.csv",
+      "sha256": "0dfc05b42a4d747d6e016778ebe56f5cc2903111d3498f56ecd36e8e22fcae67",
+      "blob": "622c7b805d7d8385e59fd6ee9008de34860bb11f"
+    },
+    {
+      "name": "validation.md",
+      "sha256": "c5c03b8f61bce8a985f240a138593ab1ebc019e7855df84dc00c3c3f84f8655a",
+      "blob": "9ca9a6beb945860f8c8aff24e56209894fb4d1a0"
+    }
+  ],
+  "role_counts": {
+    "D": 0,
+    "I": 2,
+    "A": 1,
+    "H": 0,
+    "P": 2,
+    "N": 35
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "zip_exact_paths": "PASS",
+    "zip_symlink_size_check": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "json_duplicate_keys": "PASS",
+    "schema_draft202012_with_format_checker": "PASS",
+    "schema_reference_blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+    "csv_json_decision_rationale": "MATCH",
+    "csv_source_detail": "MATCH_SECTION_PRINTED_PAGE_FACT_ID",
+    "fact_count": 7,
+    "fact_reference_check": "PASS",
+    "attribute_source_ref_membership": "PASS",
+    "report_csv_fact_id_reference": "PASS",
+    "report_and_validation_role_counts": "MATCH",
+    "printed_page_range": "WITHIN_QUEUE_EXPECTED_PAGE_BOUND",
+    "pdf_physical_page_range": "NOT_EXECUTED",
+    "csv_formula_prefix_check": "PASS",
+    "reported_source_identity": "REPORT_NUMBER_AND_EVENT_ID_MATCH_PDF_VERSION_UNVERIFIED",
+    "submitted_progress_constraints": "WARNING_REUSED_ROOT_008_FIELDS",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "제출본에서 원본 PDF 바이너리 SHA-256 및 물리 페이지 수 확인 불가. 큐 기대 물리 페이지 17쪽, 제출 참조 인쇄쪽 최대 16쪽. 독립적인 원본 재검사는 수행하지 않음.",
+    "과거 ROOT-038 교육영상 전사문 노출을 공개했고 이번 사건 근거로 미사용했다는 제출자 진술. 독립성 검토 대기.",
+    "제출 진행기록에서 ROOT-008과 동일한 제약사항 문구가 확인되어 활성 진행기록에는 이 사건 review.json 및 validation.md의 제약사항을 반영함."
+  ],
+  "submitted_progress_path": "claude/submissions/2026-11-27_progress_batch_submitted.json",
+  "approved": false,
+  "can_ship": false,
+  "revision": "v1",
+  "submitted_progress_discrepancy": {
+    "reused_root_008_case_constraints": [
+      "물리 페이지 미확인(인쇄쪽 최대 30, 기대 33)",
+      "도해·경보 목록·파형·그래프 이미지 미확인, 비공개 구간 미복원",
+      "재투입 의사결정 판단은 원전운영자 평가·붙임 5 요약에 의존",
+      "설비·의사결정 중심 보고서로 N 24개"
+    ],
+    "active_constraints_basis": "ROOT-015 review.json and validation.md; original progress preserved unchanged"
+  }
+}
