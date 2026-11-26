@@ -210,7 +210,7 @@
         "claude/cases/2021/210712K3/v1/validation.md"
       ],
       "zip": "CLAUDE_ROOT-009_210712K3_v1.zip",
-      "github_commit_sha": null,
+      "github_commit_sha": "9b59b486982698a4e768dd0cc0e51f54e82c3749",
       "checks": "Original validation.md; intake and submitted progress discrepancy in INTAKE_STATUS.json.",
       "constraints": [
         "PDF 바이너리 미접근: sha256=null, PDF_READ_HASH_UNAVAILABLE",
@@ -221,8 +221,7 @@
         "이전 ROOT-038 교육영상 전사문 노출 사실 공개; ROOT-009 분석에 미사용이라는 제출자 진술; 독립성 확인 대기",
         "제출 progress(1).json의 ROOT-009 constraints에 ROOT-008 내용이 남아 있어 원본은 별도 보존하고 활성 진행기록의 제약사항은 ROOT-009 review.json 및 validation.md에 근거하여 기록함"
       ],
-      "integration_status": "HOLD",
-      "commit_reference_note": "Commit recorded in follow-up."
+      "integration_status": "HOLD"
     }
   ],
   "next_queue_id": "ROOT-010",
