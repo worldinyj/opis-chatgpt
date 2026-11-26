@@ -2,13 +2,15 @@
   "track": "B",
   "branch": "develop/gemini-quality",
   "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
-  "phase": "B03",
-  "status": "VALIDATOR_IMPLEMENTED_SYNTHETIC_TESTED",
+  "phase": "B03-R1",
+  "status": "ACTUAL_INPUT_AUDIT_COMPLETED_FORMAT_CANDIDATES",
   "completed": [
     "B01",
-    "B02"
+    "B02",
+    "B03",
+    "B03-R1_AUDIT"
   ],
-  "next": "B03-R1",
+  "next": "B04",
   "hold_count": 7,
   "approved": false,
   "can_ship": false,
@@ -20,5 +22,10 @@
   "pdf_binary_verified": false,
   "synthetic_tests_passed": 17,
   "synthetic_tests_failed": 0,
-  "actual_case_tests_executed": false
+  "actual_case_tests_executed": true,
+  "actual_test_method": "INDEPENDENT_JS_CONNECTOR_AUDIT_NOT_PYTHON_CLI",
+  "actual_cases_audited": 7,
+  "original_artifacts_sha256_matched": 28,
+  "format_candidates": 6,
+  "manual_source_hold": 1
 }
