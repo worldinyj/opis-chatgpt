@@ -1,0 +1,1200 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-017",
+  "event_id": "150903K4",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2015-09-03_고리 4호기 써지보호기 손상에 따른 원자로냉각재 펌프 B 정지로 인한 원자로 자도.pdf",
+    "report_number": "2015-05호(150903K4)",
+    "report_date": "2015-09-14",
+    "sha256": "e84f694b3a279a4bbd801bc85a227fad9aa3f38d7021b9477bf13038e37e0901",
+    "pdf_page_count": 10,
+    "reading_scope": "원본 PDF 전 10쪽 텍스트 추출(9,291자) 및 본문 전체(표지, 사건 요약, 1장 개요~5장 결론, PDF 1~10쪽) 정밀 판독 완료. 로컬 바이너리 SHA-256 해시·파일 크기(183,781 bytes)·페이지 수(10쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 KINS 원본 조사보고서(2015-05호)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "2015.09.03.(목) 100% 정격열출력(1,041 MWe) 정상운전 중이던 고리 4호기에서 19:55:00.244에 RCP 'B' 전동기측 써지보호기('A'상) 지락(873 A, 173 ms 지속)이 발생했다. 19:55:00.427 지락계전기(250GS, 250G; 최소동작 30 A·지연 100 ms) 작동으로 13.8 kV 비안전모선(NA-S01) 주차단기 및 후비차단기가 동시 개방되어 RCP 'B'가 정지되었고, 19:55:01.952 원자로냉각재 저유량 원자로보호신호 발생으로 원자로가 자동정지(19:55:02.022 터빈정지)되었다. 보호계전기·차단기 작동은 설계대로 적합했고 소내·외 방사성물질 방출은 없었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~3.1.2절, 3.2.1절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            7
+          ],
+          "summary": "RCP 'B' 전동기측 'A'상 써지보호기 지락(873 A, 173 ms)으로 차단기 개방 및 원자로 자동정지"
+        }
+      ],
+      "limitation": "표지 보고서 번호는 '2015-05호(150903K4)', 요약 표제는 '2015-4호(150903K4)'로 상이하게 표기되어 있으며 별도 INES 등급 평가 절은 미수록."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "손상된 'A'상 써지보호기는 측면이 부풀어 올라 있었고 절연저항이 10.0 kΩ(기준 100 MΩ, 정상 B/C상 36~40 GΩ), 분해점검 결과 커패시터 극판 단락·탄화가 확인되었다. 정비절차서(KR34E-431-MT-I-006A-Q)가 제작사 지침(Westinghouse TB-04-5: '절연저항이 초기 측정값의 50% 이하가 되면 교체')을 오해석하여 '매 점검 시 2회 절연저항을 측정하고 2차 결과가 1차 결과의 50% 이상이면 합격'으로 잘못 규정하고 있었다. 실제로는 2006년 208,000 MΩ에서 2014년 79,000 MΩ으로 1/2 이상 감소하는 등 다수 써지보호기가 교체기한을 초과한 열화 상태였으나 경향분석 및 교체가 이루어지지 못했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        }
+      ],
+      "limitation": "절차서 오해석이 최초 작성·개정된 연도와 담당자 경위는 원문에 미수록."
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "13.8 kV 비안전모선 고압차단기반 설비개선(고리 4호기 '14.09, 고리 3호기 '15.09) 시 주차단기측 써지보호기가 추가 설치되어 전동기측 커패시터형 써지보호기의 역할이 축소되었음에도, 단락 고장 가능성이 있는 전동기측 설비 정리와 주차단기측 써지보호기 점검기준(PMT) 수립이 연계되지 않았다. 사건 후 원전운영자는 13.8 kV 비안전모선 부하 전동기측 써지보호기 39개(RCP 9·복수펌프 12·순환수펌프 18)를 전수 제거하고 주차단기측 유전정접 점검을 완료했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.4절, 3.3절",
+          "printed_pages": [
+            5,
+            7
+          ],
+          "pdf_pages": [
+            6,
+            8
+          ],
+          "summary": "'14.09 주차단기측 써지보호기 추가 후 전동기측 정리·PMT 미연계 및 사건 후 39개 전수 제거"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F04",
+      "summary": "원자로 자동정지 후 운전원은 비상운전절차서(비상-0, 보조-0.1)를 수행해 노심냉각 등 안전기능을 확보했으나, 보조-0.1의 1.0 'RCS 온도 점검' 수행 중 급수유량 조절 단계가 지속되고 있는 것으로 판단해 주증기격리밸브(MSIV) 차단조치를 수행하지 않았다. 이로 인해 추가 증기소모 방지가 미흡하여 과도 중 원자로냉각재 온도가 273.5℃까지 감소(유사사례 '15.08.08 한빛 2호기 대비 약 8℃ 낮음)했으며, 장기대책으로 1차측 온도제어·MSIV 차단 시점 운전원 교육·훈련 강화가 수립되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.2.1절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "보조-0.1 수행 중 MSIV 차단조치 미흡으로 RCS 온도 273.5℃ 과냉각 및 교육훈련 강화 대책"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F05",
+      "summary": "원자로·터빈 정지 후 주급수펌프 'C'의 회전속도가 35 RPM을 지시하자, 과도가 종료되어 안정된 시점(9.4 03:40)에 운전원이 증기누설 지점 확인을 위해 밸브 전단의 응축수 배수밸브를 개방했으나 증기소모량 증가로 추가적인 과도현상이 발생했다. 단기대책으로 주급수펌프 증기공급차단밸브 내부누설 확인 시 전단 수동차단밸브를 조작하도록 발전팀에 운전권고서가 발행되었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.2.1절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "안정 후 주급수펌프 'C' 누설 확인 중 응축수 배수밸브 개방으로 추가 과도 발생 및 운전권고서 발행"
+        }
+      ],
+      "limitation": "9.4 요일 표기가 본문에 '9.4(목)'으로 오기(2015.9.3이 목요일이므로 9.4는 금요일)."
+    },
+    {
+      "id": "GEMINI-F06",
+      "summary": "원전운영자는 단기조치(RCP 'B' 전동기·차단기 건전성 점검, 13.8 kV 전동기측 써지보호기 39개 전수 제거, 주차단기측 유전정접 점검, 주급수펌프 전단 수동차단밸브 조작 운전권고서 발행)를 완료하고, 장기조치(주차단기측 써지보호기 PMT 수립['15.12], 발전정지 관련 전기설비 정비절차서 61건 판정기준 적합성 재검토['16.06], 국내 원전 전력설비 써지 영향평가 및 대책 수립[본사, '17.12], 제작사 기술정보 처리 프로세스 개선[본사, '15.11], 단순 원자로정지 시 1차측 온도제어 운전원 교육·훈련 강화['16.06])를 수립했다. KINS는 보완요구사항 없음 및 재가동 문제 없음으로 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 완료, 5개 분야 장기대책 수립 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "limitation": "장기조치는 보고서 발행일('15.09.14) 기준 '15.11~'17.12월 이행 예정 상태."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-017-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "제작사 기술지침(TB-04-5)의 정확한 해석·반영 기준과 발전정지 관련 전기설비 정비절차서(61건 재검토 대상) 판정기준의 적합성 검증 규정이 미흡하여 오류가 장기간 방치되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 완료, 5개 분야 장기대책 수립 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "보호계전기 작동 및 사건 후 RCP 'B' 건전성 점검·39개 전수 제거는 적절히 이행됨."
+    },
+    {
+      "review_key": "ROOT-017-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "제작사 지침 오해석 절차서 작성·운영 및 2014년 79,000 MΩ 측정 시 실무자의 책임의식 미흡 정황이 있으나, 보고서가 개인별 귀책을 직접 규명하지 않아 판단보류로 분류한다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        }
+      ],
+      "counterevidence_or_limitation": "절차서 작성·검토자 및 2014년 점검 담당자 면담 기록은 원문에 미수록."
+    },
+    {
+      "review_key": "ROOT-017-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 부서·구성원 간 협업 부재나 팀워크 결함이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "고압 RCP 전원공급 회로의 지락·원자로 자동정지를 유발할 수 있는 써지보호기의 절연저항이 2006년 208,000 MΩ에서 2014년 79,000 MΩ으로 반감되었음에도 당일 2회 측정 비교에만 의존한 점은 주요 설비의 안전 중요도 인식 부족을 보여준다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        }
+      ],
+      "counterevidence_or_limitation": "전동기측 써지보호기 자체는 비안전등급 설비이나 손상 시 원자로 자동정지로 직결됨."
+    },
+    {
+      "review_key": "ROOT-017-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "정비절차서의 '당일 2회 측정 후 2차값이 1차값의 50% 이상이면 합격'이라는 비합리적 기준의 불확실성을 확인하지 않고 장기 운영했고, 정지 안정 후 주급수펌프 'C' 35 RPM 누설 확인 시에도 응축수 배수밸브 개방에 따른 증기소모·과도 영향을 확인하지 않고 조작했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        },
+        {
+          "section": "3.2.1절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "안정 후 주급수펌프 'C' 누설 확인 중 응축수 배수밸브 개방으로 추가 과도 발생 및 운전권고서 발행"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 발전팀에 전단 수동차단밸브 조작 운전권고서를 발행함."
+    },
+    {
+      "review_key": "ROOT-017-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "제작사 지침(초기값 대비 50% 이하 시 교체)을 당일 1·2차 측정값 비교로 오해석해 열화된 써지보호기를 정상으로 가정했고, 원자로 정지 후 보조-0.1 수행 중에도 급수유량 조절이 지속 중이라 가정해 MSIV 차단을 생략하여 RCS 과냉각(273.5℃)을 초래했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        },
+        {
+          "section": "3.2.1절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "보조-0.1 수행 중 MSIV 차단조치 미흡으로 RCS 온도 273.5℃ 과냉각 및 교육훈련 강화 대책"
+        }
+      ],
+      "counterevidence_or_limitation": "비상-0·보조-0.1 수행을 통해 노심냉각 등 핵심 안전기능 자체는 유지됨."
+    },
+    {
+      "review_key": "ROOT-017-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "장기간(2006~2015) 당일 2회 측정 비교 방식으로 매번 합격 판정이 반복되면서 절차서 오류에 무감각해진 자만 정황이 있으나, 관련 면담·조직진단 근거가 원문에 없어 판단보류로 분류한다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        }
+      ],
+      "counterevidence_or_limitation": "정비원·관리자의 인식 상태를 확인할 직접 조사 기록이 원문에 미수록."
+    },
+    {
+      "review_key": "ROOT-017-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직·작업자 간 의사소통 오류가 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 특정 의사결정의 기술적 근거 소통 실패를 직접 지적하는 근거는 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서상 보고대상 사건 보고 및 조사 협조 과정에서 정보 은폐나 투명성 결여를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 인력·예산·예비품 등 자원 부족이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 경영진·관리자의 현장 순시 부족을 사건 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "2014년 9월 13.8 kV 비안전모선 고압차단기반 설비개선으로 주차단기측 써지보호기를 추가 설치하면서, 역할이 축소되고 단락 고장 위험이 있는 전동기측 써지보호기 제거와 주차단기측 PMT 수립을 연계하지 못한 변화관리 미흡이 확인된다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4절, 3.3절",
+          "printed_pages": [
+            5,
+            7
+          ],
+          "pdf_pages": [
+            6,
+            8
+          ],
+          "summary": "'14.09 주차단기측 써지보호기 추가 후 전동기측 정리·PMT 미연계 및 사건 후 39개 전수 제거"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 완료, 5개 분야 장기대책 수립 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 전동기측 39개 전수 제거 및 주차단기측 PMT 수립('15.12)을 추진함."
+    },
+    {
+      "review_key": "ROOT-017-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 부서·직책 간 역할·책임·권한 혼선이 사건에 기여했다는 직접 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "당일 2회 측정치만 비교하는 정비절차서 판정기준 오류가 2006년 이후 2015년 사건 시점까지 장기간 수정되지 않고 운영된 점은 절차서·정비품질에 대한 지속적 진단 미흡을 보여준다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 완료, 5개 분야 장기대책 수립 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 발전정지 관련 전기설비 정비절차서 61건의 판정기준 적합성 재검토를 추진함."
+    },
+    {
+      "review_key": "ROOT-017-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "제작사 기술지침(Westinghouse TB-04-5)을 정비절차서에 정확히 해석·반영·검증하는 프로세스가 미흡해 판정기준 오류가 발생·지속되었으며, 장기대책으로 본사 차원의 '제작사 기술정보 처리 프로세스 개선 및 적용'이 수립되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 완료, 5개 분야 장기대책 수립 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 요약 및 3.3절 장기조치 6번에서 제작사 기술정보 처리 프로세스 개선을 명시)."
+    },
+    {
+      "review_key": "ROOT-017-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "과도 중 추가 증기소모 방지를 위한 MSIV 차단을 생략해 RCS 온도가 273.5℃까지 저하되었고, 안정 후 주급수펌프 'C' 누설 확인 시에도 전단 수동차단밸브 격리 없이 응축수 배수밸브를 개방해 추가 과도를 초래한 비보수적 운전 판단이 확인되었다.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "보조-0.1 수행 중 MSIV 차단조치 미흡으로 RCS 온도 273.5℃ 과냉각 및 교육훈련 강화 대책"
+        },
+        {
+          "section": "3.2.1절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "안정 후 주급수펌프 'C' 누설 확인 중 응축수 배수밸브 개방으로 추가 과도 발생 및 운전권고서 발행"
+        }
+      ],
+      "counterevidence_or_limitation": "핵심 안전기능(노심냉각·방사성물질 격리)은 정상 유지되었으며 사건 후 운전권고서 및 교육 강화 대책을 수립함."
+    },
+    {
+      "review_key": "ROOT-017-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 책임 소재 불명확이나 회피를 직접 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "제작사 기술권고서(Westinghouse TB-04-5)가 제시한 '초기 측정값 대비 50% 이하 시 교체' 기준을 오해석해 정비절차서에 잘못 반영함으로써 손상 설비를 포함한 다수 써지보호기가 교체기한을 초과해 사용되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 완료, 5개 분야 장기대책 수립 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 본사 차원의 제작사 기술정보 처리 프로세스 개선 및 국내 원전 전력설비 써지 영향평가를 수립함."
+    },
+    {
+      "review_key": "ROOT-017-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "정비절차서의 판정기준 오류와 다수 써지보호기의 교체기한 초과를 자체 진단으로 사전 적발하지 못해 사건 이후 61건의 전기설비 정비절차서 판정기준 적합성 재검토를 추진하게 되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 완료, 5개 분야 장기대책 수립 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 KINS 요청에 따라 과거 주기점검 경향분석을 수행하여 다수 열화 사실을 확인함."
+    },
+    {
+      "review_key": "ROOT-017-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 외부 기관 벤치마킹 누락이 사건 원인이라는 직접 서술은 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "비상운전절차서 보조-0.1 수행 중 MSIV 차단조치 미흡으로 RCS 온도가 273.5℃까지 과냉각(유사사례 한빛 2호기 대비 약 8℃ 낮음)됨에 따라, 운전원 재교육과정에 보조급수유량 제어 및 MSIV 차단 시점 교육·훈련 강화 대책이 수립되었다.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "보조-0.1 수행 중 MSIV 차단조치 미흡으로 RCS 온도 273.5℃ 과냉각 및 교육훈련 강화 대책"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 완료, 5개 분야 장기대책 수립 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "원자로 정지 후 비상-0·보조-0.1 수행을 통한 핵심 안전기능 유지 자체는 적절히 수행됨."
+    },
+    {
+      "review_key": "ROOT-017-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "손상된 'A'상 써지보호기의 절연저항이 2006년 208,000 MΩ에서 2014년 79,000 MΩ으로 1/2 이상 감소하는 등 다수 써지보호기가 열화 상태였음에도 부적절한 판정기준으로 인해 사건 전까지 문제를 파악하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 육안·분해점검 및 과거 기록 검토를 통해 절연열화 원인을 정확히 규명함."
+    },
+    {
+      "review_key": "ROOT-017-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "매 점검 시 1·2차 측정값만 비교하는 잘못된 판정기준을 적용함으로써 초기값 대비 50% 이상 저하된 실제 절연열화 및 내부 단락 위험을 정상으로 오판·과소평가했다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 전동기측 써지보호기 제거에 따른 써지 영향평가는 KINS로부터 적절성을 인정받음."
+    },
+    {
+      "review_key": "ROOT-017-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 사건 전 써지보호기 열화나 절차서 오류를 인지하고도 시정을 지연·방치했다는 근거는 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2006년(208,000 MΩ)과 2014년(79,000 MΩ)의 절연저항 주기점검 기록이 확보되어 있었음에도 초기 측정값 대비 장기 경향분석을 수행하지 않고 매 점검 시 당일 2회 측정값만 비교하여 열화 추세를 포착하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        }
+      ],
+      "counterevidence_or_limitation": "사건조사팀 요청에 따라 사후 경향분석을 실시하여 다수 써지보호기 교체 필요성을 확인함."
+    },
+    {
+      "review_key": "ROOT-017-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-017-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "잘못된 정비절차서 판정기준으로 다수 써지보호기가 교체기한을 초과해 장기 사용되었고, '14.09 추가된 주차단기측 써지보호기의 PMT도 미수립 상태였으며, 정지 안정 후 주급수펌프 'C' 누설 확인 시 전단 수동차단밸브 대신 응축수 배수밸브를 개방해 추가 과도를 유발했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F05",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        },
+        {
+          "section": "3.1.4절, 3.3절",
+          "printed_pages": [
+            5,
+            7
+          ],
+          "pdf_pages": [
+            6,
+            8
+          ],
+          "summary": "'14.09 주차단기측 써지보호기 추가 후 전동기측 정리·PMT 미연계 및 사건 후 39개 전수 제거"
+        },
+        {
+          "section": "3.2.1절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "안정 후 주급수펌프 'C' 누설 확인 중 응축수 배수밸브 개방으로 추가 과도 발생 및 운전권고서 발행"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 완료, 5개 분야 장기대책 수립 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 전동기측 39개 전수 제거, 주차단기측 유전정접 점검 및 운전권고서 발행을 완료함."
+    },
+    {
+      "review_key": "ROOT-017-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "RCP 전동기 절연 및 보호계전기·차단기 설계 자체는 적합했으며, 경년열화된 전동기측 써지보호기의 미교체가 원인이었다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "설계 결함이 아닌 정비절차서 판정기준 오류 및 경년열화 미교체."
+    },
+    {
+      "review_key": "ROOT-017-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "정비절차서(KR34E-431-MT-I-006A-Q)에 제작사 지침(TB-04-5)이 잘못 반영되어 시험·판정기준 오류가 발생했고, 주차단기측 써지보호기 점검기준(PMT)과 주급수펌프 증기공급차단밸브 내부누설 확인 시 전단 수동차단밸브 조작 지침이 미비했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F05",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.1.3절",
+          "printed_pages": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "summary": "Westinghouse TB-04-5 오해석으로 정비절차서 판정기준 오류, 208,000→79,000 MΩ 열화 미교체"
+        },
+        {
+          "section": "3.1.4절, 3.3절",
+          "printed_pages": [
+            5,
+            7
+          ],
+          "pdf_pages": [
+            6,
+            8
+          ],
+          "summary": "'14.09 주차단기측 써지보호기 추가 후 전동기측 정리·PMT 미연계 및 사건 후 39개 전수 제거"
+        },
+        {
+          "section": "3.2.1절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "안정 후 주급수펌프 'C' 누설 확인 중 응축수 배수밸브 개방으로 추가 과도 발생 및 운전권고서 발행"
+        },
+        {
+          "section": "사건 요약, 3.3~5장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            10
+          ],
+          "summary": "단기조치 완료, 5개 분야 장기대책 수립 및 KINS 재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 운전권고서 발행 완료 및 61건 전기설비 정비절차서 재검토·주차단기측 PMT 수립을 추진함."
+    },
+    {
+      "review_key": "ROOT-017-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원자로 자동정지 후 운전원이 비상-0·보조-0.1을 수행하며 안전기능을 확보했으나, 보조-0.1 1.0 'RCS 온도 점검'에서 추가 증기소모 방지를 위한 MSIV 차단조치를 수행하지 않아 RCS 온도가 273.5℃까지 과냉각되었다.",
+      "fact_ids": [
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.2.1절, 3.3절",
+          "printed_pages": [
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "보조-0.1 수행 중 MSIV 차단조치 미흡으로 RCS 온도 273.5℃ 과냉각 및 교육훈련 강화 대책"
+        }
+      ],
+      "counterevidence_or_limitation": "비상-0 및 보조-0.1의 전반적 수행을 통해 노심냉각·정지상태 유지·방사성물질 격리 등 필수안전기능은 적절히 유지됨."
+    }
+  ],
+  "limitations": [
+    "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않음.",
+    "표지 보고서 번호('2015-05호')와 요약 표제('2015-4호') 간 번호 표기 차이 및 본문 p.6 날짜 요일 오기('9.4(목)', 실제 금요일)가 존재함.",
+    "정비절차서(KR34E-431-MT-I-006A-Q) 오해석이 최초 발생한 시점과 담당자 경위는 원문에 미수록.",
+    "장기조치 5개 분야는 보고서 발행일('15.09.14) 기준 '15.11~'17.12월 이행 예정 상태임.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
