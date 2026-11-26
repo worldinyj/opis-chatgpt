@@ -175,8 +175,31 @@
         "설비·과거 대책 중심 보고서로 N 25개"
       ],
       "integration_status": "HOLD"
+    },
+    {
+      "queue_id": "ROOT-008",
+      "event_id": "220908SW2",
+      "status": "STORED",
+      "artifact_paths": [
+        "claude/cases/2022/220908SW2/v1/report.md",
+        "claude/cases/2022/220908SW2/v1/review.json",
+        "claude/cases/2022/220908SW2/v1/excel_import.csv",
+        "claude/cases/2022/220908SW2/v1/validation.md"
+      ],
+      "zip": "CLAUDE_ROOT-008_220908SW2_v1.zip",
+      "github_commit_sha": "83490dce212bf061cfe08e0feb97acb2cb2847ad",
+      "checks": "Original validation.md; independent intake in INTAKE_STATUS.json.",
+      "constraints": [
+        "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
+        "PDF 바이너리 미접근: sha256=null, PDF_READ_HASH_UNAVAILABLE",
+        "물리 페이지 미확인(인쇄쪽 최대 30, 기대 33)",
+        "도해·경보 목록·파형·그래프 이미지 미확인, 비공개 구간 미복원",
+        "재투입 의사결정 판단은 원전운영자 평가·붙임 5 요약에 의존",
+        "설비·의사결정 중심 보고서로 N 24개"
+      ],
+      "integration_status": "HOLD"
     }
   ],
-  "next_queue_id": "ROOT-008",
+  "next_queue_id": "ROOT-009",
   "next_status": "NOT_STARTED"
 }
