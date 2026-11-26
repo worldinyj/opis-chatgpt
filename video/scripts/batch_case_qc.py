@@ -10,6 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 WORKER = ROOT / "video/scripts/final_case_qc.py"
+A4 = ROOT / "video/scripts/render_report_a4.py"
 
 def read(p):
     return json.loads(p.read_text(encoding="utf-8"))
@@ -71,11 +72,11 @@ def save(out, head, mode, rows, expected):
     data = {"source_commit": head, "mode": mode, "selected": expected,
             "processed": len(rows), "counts": counts, "rows": rows,
             "can_ship": False, "approval_mutation": False,
-            "a4_render": "NOT_IN_WORKER_SCOPE"}
+            "a4_render": "SKIPPED" if mode == "CONTRACTS_ONLY" else "SEE_CASE_ROWS"}
     tmp = out / "summary.json.tmp"
     tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     tmp.replace(out / "summary.json")
-    fields = ["queue_id","event_id","case","status","contract_passed","contract_total","error","result_path"]
+    fields = ["queue_id","event_id","case","status","contract_passed","contract_total","ppt_contract_status","a4_status","a4_pages","a4_flags","error","result_path"]
     with (out / "summary.csv.tmp").open("w", encoding="utf-8-sig", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         w.writeheader()
@@ -106,14 +107,16 @@ def main():
     if out.is_relative_to(ROOT):
         parser.error("output must be outside repository")
     out.mkdir(parents=True, exist_ok=False)
-    mode = "CONTRACTS_ONLY" if args.contracts_only else "CONTRACTS_AND_PPT_RENDER"
+    mode = "CONTRACTS_ONLY" if args.contracts_only else "CONTRACTS_PPT_AND_A4_RENDER"
     rows = []
     save(out, head, mode, rows, len(cases))
     for q,e,case in cases:
         rel = case.relative_to(ROOT).as_posix()
         dest = out / q
         row = {"queue_id":q,"event_id":e,"case":rel,"status":"ERROR","contract_passed":None,
-               "contract_total":None,"error":"","result_path":str(Path(q)/"qc.json")}
+               "contract_total":None,"error":"","result_path":str(Path(q)/"qc.json"),
+               "ppt_contract_status":"ERROR","a4_status":"SKIPPED" if args.contracts_only else "PENDING",
+               "a4_pages":None,"a4_flags":""}
         try:
             if subprocess.check_output(["git","rev-parse","HEAD"],cwd=ROOT,text=True).strip()!=head:
                 raise RuntimeError("HEAD changed during batch")
@@ -134,6 +137,32 @@ def main():
         except Exception as exc:
             row["error"] = repr(exc)
             dest.mkdir(exist_ok=True)
+        row["ppt_contract_status"] = row["status"]
+        if not args.contracts_only:
+            try:
+                if subprocess.check_output(["git","rev-parse","HEAD"],cwd=ROOT,text=True).strip()!=head:
+                    raise RuntimeError("HEAD changed before A4 render")
+                blob = subprocess.check_output(["git","rev-parse",head+":"+rel+"/report.md"],cwd=ROOT,text=True).strip()
+                a4out = dest / "a4"
+                run = subprocess.run([sys.executable,str(A4),str(case/"report.md"),"--out",str(a4out),
+                                      "--expected-blob",blob],cwd=ROOT,capture_output=True,text=True,timeout=args.timeout)
+                (dest/"a4_stdout.log").write_text(run.stdout,encoding="utf-8")
+                (dest/"a4_stderr.log").write_text(run.stderr,encoding="utf-8")
+                a4 = read(a4out/"report_a4_qc.json")
+                if a4["source_hash"]["git_blob"] != blob or not (a4out/"report_a4.pdf").is_file():
+                    raise ValueError("A4 provenance or PDF missing")
+                if subprocess.check_output(["git","rev-parse","HEAD"],cwd=ROOT,text=True).strip()!=head:
+                    raise RuntimeError("HEAD changed during A4 render")
+                if run.returncode not in (0,1) or bool(a4["flags"]) != (run.returncode == 1):
+                    raise ValueError("A4 exit status mismatch")
+                row.update(a4_status=a4["status"],a4_pages=a4["pages"],a4_flags="; ".join(a4["flags"]))
+                if a4["flags"] and row["status"] == "RENDERED_MANUAL_REVIEW_REQUIRED":
+                    row["status"] = "REVIEW_RENDER_FLAGS"
+            except Exception as exc:
+                row["a4_status"] = "ERROR"
+                row["error"] += "; A4: " + repr(exc)
+                if row["status"] == "RENDERED_MANUAL_REVIEW_REQUIRED":
+                    row["status"] = "ERROR"
         rows.append(row)
         save(out,head,mode,rows,len(cases))
         print(q,e,row["status"],flush=True)

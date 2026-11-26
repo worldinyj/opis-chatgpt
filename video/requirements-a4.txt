@@ -1,0 +1,5 @@
+# A4 renderer tested with these versions; system font/runtime dependencies documented separately.
+weasyprint==68.0
+mistune==3.2.1
+beautifulsoup4>=4.12,<5
+pymupdf==1.26.7
