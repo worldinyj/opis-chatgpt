@@ -1,0 +1,91 @@
+{
+  "event_id": "121126U6",
+  "queue_id": "ROOT-025",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "2ef9e3be85b96e4c8bbe9d1d0ae67cc1430c21cd",
+  "learning_ledger_blob": "2def61947bb1d4fca5ccd27bb709d133176ed880",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08"
+      ],
+      "rationale": "절차 목적 설명 불완전",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05",
+        "F09"
+      ],
+      "rationale": "해당 업무 교육 미실시 및 경험 부족",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F06",
+        "F09"
+      ],
+      "rationale": "업무 중복·일정 관리 기여",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F10"
+      ],
+      "rationale": "정비현황 전달 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PA3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F10",
+        "F13"
+      ],
+      "rationale": "조간 협력 및 확인 공백",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F12",
+        "F13"
+      ],
+      "rationale": "확인 가정과 잠재 오류 대비 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F03",
+        "F11",
+        "F16"
+      ],
+      "rationale": "요구 절차 미이행",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F12",
+        "F16"
+      ],
+      "rationale": "확인 가정 및 순서 위반과 판단 프로세스 구분",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

@@ -1,0 +1,90 @@
+{
+  "event_id": "250314SH2",
+  "queue_id": "ROOT-005",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "beb3c5689c19e0ae77c4377e2f37e12bb775bd39",
+  "learning_ledger_blob": "3eca81a6a313856a156ab1b5b5d81bf9368d6b8d",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04"
+      ],
+      "rationale": "업무 간 영향 고려 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07",
+        "F09"
+      ],
+      "rationale": "관련 상황 고려사항·평가절차 보완 필요",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05",
+        "F10"
+      ],
+      "rationale": "상태정보 및 부서 협조 보완",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F09",
+        "F10"
+      ],
+      "rationale": "당시 절차에 따른 판단, 중단 실패 미입증",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA4",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F04",
+        "F07"
+      ],
+      "rationale": "잠재 위험 대비의 행동 근거 추가",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F09"
+      ],
+      "rationale": "절차에 따른 판단과 판단체계 보완 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F09",
+        "F10"
+      ],
+      "rationale": "선제 대응 긍정과 초기 판단을 분리",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F09",
+        "F11"
+      ],
+      "rationale": "평가 보완 요구와 실제 평가 실패 범위 확인",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

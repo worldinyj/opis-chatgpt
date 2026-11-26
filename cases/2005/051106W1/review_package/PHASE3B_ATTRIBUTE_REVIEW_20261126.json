@@ -1,0 +1,117 @@
+{
+  "event_id": "051106W1",
+  "queue_id": "ROOT-031",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "50b6155107b1bb5bbe62ecf50233074c69a3fc6c",
+  "learning_ledger_blob": "dd8f77ec5dcfff37861a5c69f687b67dea1f277a",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F06",
+        "F07",
+        "F08",
+        "F23"
+      ],
+      "rationale": "기존 점검 준수·기준 만족, 향후 강화 요구",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F02",
+        "F21"
+      ],
+      "rationale": "연계 영향과 설계 변경 관리 결함 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F17",
+        "F18"
+      ],
+      "rationale": "복구 문서 중복 및 적용범위 불명확",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F09",
+        "F12"
+      ],
+      "rationale": "경보 문제와 불확실시 중단 행동 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA4",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F06",
+        "F08",
+        "F23"
+      ],
+      "rationale": "고장·추가 점검 요구만으로 위험 대비 실패 확정 불가",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA7",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F06",
+        "F07",
+        "F23"
+      ],
+      "rationale": "리더의 지속적 진단 결함 직접 자료 없음",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI1",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F09",
+        "F10",
+        "F11"
+      ],
+      "rationale": "경보·인지와 CAP 접근성 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F04",
+        "F23"
+      ],
+      "rationale": "추가 원인분석 요구만으로 이전 평가 실패 입증 불가",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI3",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F20",
+        "F21",
+        "F24"
+      ],
+      "rationale": "초기 개선 후 추가 대책 요구, 효과 실패 미확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F23"
+      ],
+      "rationale": "타 호기 확대 검토 요구와 기존 경험관리 실패 구분",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

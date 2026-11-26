@@ -1,0 +1,82 @@
+{
+  "event_id": "240908HB6",
+  "queue_id": "ROOT-002",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "986d9ffcf7e7a4101da6ffa17c2065747f250cd9",
+  "learning_ledger_blob": "3af4fc19ab890b6285dbca1da0d97cd2b783306e",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05",
+        "F06"
+      ],
+      "rationale": "시험 범위 및 확인 업무관리 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F03",
+        "F05"
+      ],
+      "rationale": "변경 검증 미흡, 정량 여유도 단정 금지",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F03",
+        "F04",
+        "F06"
+      ],
+      "rationale": "도면·구매문서 및 절차 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F06"
+      ],
+      "rationale": "상태 판단과 불확실시 중단 증거 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA4",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F05",
+        "F06"
+      ],
+      "rationale": "잠재 문제 대비의 독립 근거 확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F05",
+        "F09"
+      ],
+      "rationale": "시험 대체·보고 판단의 체계적 평가 근거",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F09",
+        "F14"
+      ],
+      "rationale": "초기 판단 오류와 사후 적절한 시정 구분",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

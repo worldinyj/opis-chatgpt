@@ -1,0 +1,112 @@
+{
+  "event_id": "090903W2",
+  "queue_id": "ROOT-029",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "532f2bfcc3a4a83f4ec79ed2bb4a3b2d4e389491",
+  "learning_ledger_blob": "36351bfed38db88fab3591db3a827344f90f5e24",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F06",
+        "F09",
+        "F15"
+      ],
+      "rationale": "작업관리 실패 직접 평가",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07",
+        "F08",
+        "F11"
+      ],
+      "rationale": "일정·조건 문서 불일치",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F06",
+        "F12"
+      ],
+      "rationale": "승인 및 상태평가 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F09",
+        "F12"
+      ],
+      "rationale": "일정 중심 관리와 보수적 판단 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04",
+        "F12"
+      ],
+      "rationale": "조건 변화와 잠재 위험 재확인 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F03",
+        "F14"
+      ],
+      "rationale": "설비 불확실성과 설계여유도 관리 구별",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F16"
+      ],
+      "rationale": "작업관리 원인평가 부족",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F10"
+      ],
+      "rationale": "유사사건 교훈 반영 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F04",
+        "F11"
+      ],
+      "rationale": "명확한 요구 절차와 불이행 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PA1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F04",
+        "F11"
+      ],
+      "rationale": "규정 인식 독립 근거 없음",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

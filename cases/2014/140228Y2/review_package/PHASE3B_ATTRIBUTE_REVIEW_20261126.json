@@ -1,0 +1,60 @@
+{
+  "event_id": "140228Y2",
+  "queue_id": "ROOT-021",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "2bbac2a05032f418656cfde5c93296a840a44514",
+  "learning_ledger_blob": "fdea4b56504c3e02984d8bff02fe260017e233aa",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "LA5",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08"
+      ],
+      "rationale": "설계변경 전파 절차 미비",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F06",
+        "F07"
+      ],
+      "rationale": "설계 확인 및 변경 반영 오류",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07"
+      ],
+      "rationale": "공급사 수정정보 미통보",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F09",
+        "F10"
+      ],
+      "rationale": "중요시험 분류 및 사전검토 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F11",
+        "F13"
+      ],
+      "rationale": "절차의 확인 단계 및 설명 불일치",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

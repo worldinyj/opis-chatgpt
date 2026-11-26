@@ -1,0 +1,79 @@
+{
+  "event_id": "110621K2",
+  "queue_id": "ROOT-026",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "8728a52aaf71babf2e34c768f1e6ad8ac151f9d2",
+  "learning_ledger_blob": "def230a01a158df29055c58d1add1e9f1798b933",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "LA5",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F03",
+        "F06"
+      ],
+      "rationale": "설계변경 관리 검토 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04",
+        "F05"
+      ],
+      "rationale": "변경 검증 부족, 정량 여유도 단정 금지",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F10"
+      ],
+      "rationale": "중요기기 및 관련 업무관리 연계 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F05",
+        "F06"
+      ],
+      "rationale": "제3자 검토와 판단 프로세스 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07"
+      ],
+      "rationale": "조직 간 소통 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F09"
+      ],
+      "rationale": "도면 오류 및 검토 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07",
+        "F08"
+      ],
+      "rationale": "운전경험 교훈 반영 미흡",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

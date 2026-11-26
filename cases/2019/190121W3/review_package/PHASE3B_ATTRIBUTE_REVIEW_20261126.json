@@ -1,0 +1,60 @@
+{
+  "event_id": "190121W3",
+  "queue_id": "ROOT-012",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "d0de539d2328641a1c922c5fde15b8db83504087",
+  "learning_ledger_blob": "4c630109385e929db1ed2bf15267f28dc1446764",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "DM1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F09"
+      ],
+      "rationale": "기술근거 파악 부족과 판단 프로세스 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA6",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F15"
+      ],
+      "rationale": "본사 책임 명확화 계획만으로 과거 권한 결함 확정 불가",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05",
+        "F09"
+      ],
+      "rationale": "경험 반영 지연·기술근거 이해 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05",
+        "F06"
+      ],
+      "rationale": "후속 개선 지연, 일부 반영 인정",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F09",
+        "F16"
+      ],
+      "rationale": "절차 작성 기술근거 및 자료 정합성 문제",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

@@ -1,0 +1,79 @@
+{
+  "event_id": "160227HB1",
+  "queue_id": "ROOT-016",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "1da8a4df7f132c9a2814c086943e8896dcf2726e",
+  "learning_ledger_blob": "de0af49aa2df3d4d4a9501afcb086ab0de2b1ada",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05",
+        "F06"
+      ],
+      "rationale": "점검·교체 기준과 유효성 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08",
+        "F10"
+      ],
+      "rationale": "운전경험 후속관리 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F09",
+        "F10"
+      ],
+      "rationale": "관리 원인 및 CAP 분석 보완 요구",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08",
+        "F10"
+      ],
+      "rationale": "시정조치 및 개선 전 관리 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F14"
+      ],
+      "rationale": "요구 상태 확인 절차 미수행",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA6",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F16"
+      ],
+      "rationale": "역할·책임·권한 불명확",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F16"
+      ],
+      "rationale": "보고·소통 방법 불명확",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

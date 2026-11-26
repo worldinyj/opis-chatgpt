@@ -1,0 +1,1554 @@
+{
+  "phase": "3-B",
+  "date": "2026-11-26",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "scope": 37,
+  "prior_cases": 9,
+  "new_cases": 28,
+  "reviewed_cases": 37,
+  "core_codes": 285,
+  "evidence_counts": {
+    "I": 77,
+    "D": 165,
+    "H": 39,
+    "P": 4
+  },
+  "legacy_index_candidates": 282,
+  "confirmed_weakness_count": null,
+  "approved_attribute_entries": 0,
+  "rows": [
+    {
+      "queue_id": "ROOT-001",
+      "event_id": "250112W2",
+      "review_file": "cases/2025/250112W2/review_package/PHASE3A_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "QA2",
+        "QA3",
+        "QA4",
+        "WP2",
+        "WP3",
+        "WP4"
+      ],
+      "indirect_review_candidates": [
+        "PA1",
+        "CO1",
+        "DM2",
+        "WP1"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "PA1",
+        "QA2",
+        "QA3",
+        "QA4",
+        "CO1",
+        "DM2",
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-002",
+      "event_id": "240908HB6",
+      "review_file": "cases/2024/240908HB6/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP1",
+        "WP2",
+        "WP3"
+      ],
+      "indirect_review_candidates": [
+        "QA2",
+        "QA4",
+        "DM1",
+        "PI2"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "QA2",
+        "QA4",
+        "DM1",
+        "PI2"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-003",
+      "event_id": "240513W4",
+      "review_file": "cases/2024/240513W4/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "CO1",
+        "CO3",
+        "DM1",
+        "CL4",
+        "WP1",
+        "WP3",
+        "WP4"
+      ],
+      "indirect_review_candidates": [
+        "QA4",
+        "DM2",
+        "PI2"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "QA4",
+        "CO1",
+        "CO3",
+        "DM1",
+        "DM2",
+        "CL4",
+        "PI2",
+        "WP1",
+        "WP3",
+        "WP4"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-004",
+      "event_id": "240319W3",
+      "review_file": "cases/2024/240319W3/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "CO1",
+        "LA6",
+        "CL1",
+        "PI1",
+        "PI2",
+        "PI3",
+        "WP1",
+        "WP3"
+      ],
+      "indirect_review_candidates": [
+        "QA4",
+        "WP4"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "QA4",
+        "CO1",
+        "LA6",
+        "CL1",
+        "PI1",
+        "PI2",
+        "PI3",
+        "WP1",
+        "WP3",
+        "WP4"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-005",
+      "event_id": "250314SH2",
+      "review_file": "cases/2025/250314SH2/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP1",
+        "WP3",
+        "CO1"
+      ],
+      "indirect_review_candidates": [
+        "QA4",
+        "DM1",
+        "DM2",
+        "PI2"
+      ],
+      "education_only": [
+        "QA2"
+      ],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP1",
+        "WP3",
+        "CO1",
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2",
+        "PI2"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-006",
+      "event_id": "230405W2",
+      "review_file": "cases/2023/230405W2/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "QA4",
+        "CO1",
+        "LA5",
+        "DM1",
+        "WP1",
+        "WP3",
+        "WP4"
+      ],
+      "indirect_review_candidates": [
+        "DM2"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "QA4",
+        "CO1",
+        "LA5",
+        "DM1",
+        "DM2",
+        "WP1",
+        "WP3",
+        "WP4"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-007",
+      "event_id": "221222K3",
+      "review_file": "cases/2022/221222K3/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "LA1",
+        "CL1",
+        "CL3",
+        "PI2",
+        "WP1"
+      ],
+      "indirect_review_candidates": [
+        "WP2",
+        "WP3"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "LA1",
+        "CL1",
+        "CL3",
+        "PI2",
+        "WP1",
+        "WP2",
+        "WP3"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-008",
+      "event_id": "220908SW2",
+      "review_file": "cases/2022/220908SW2/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "QA4",
+        "DM1",
+        "PI1",
+        "PI2",
+        "WP1",
+        "WP3"
+      ],
+      "indirect_review_candidates": [
+        "QA2",
+        "DM2"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "QA2",
+        "QA4",
+        "DM1",
+        "DM2",
+        "PI1",
+        "PI2",
+        "WP1",
+        "WP3"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-009",
+      "event_id": "210712K3",
+      "review_file": "cases/2021/210712K3/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "CL1",
+        "PI3",
+        "WP1",
+        "WP3"
+      ],
+      "indirect_review_candidates": [
+        "LA5",
+        "PI2"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "LA5",
+        "CL1",
+        "PI2",
+        "PI3",
+        "WP1",
+        "WP3"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-010",
+      "event_id": "200719HU6",
+      "review_file": "cases/2020/200719HU6/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "QA4",
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4"
+      ],
+      "indirect_review_candidates": [
+        "PA2",
+        "LA5",
+        "DM1",
+        "DM2"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "PA2",
+        "QA4",
+        "LA5",
+        "DM1",
+        "DM2",
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-011",
+      "event_id": "190510HB1",
+      "review_file": "cases/2019/190510HB1/review_package/PHASE3A_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "CO1",
+        "LA1",
+        "LA5",
+        "LA6",
+        "DM2",
+        "DM3",
+        "CL1",
+        "PI1",
+        "PI3",
+        "WP1",
+        "WP4"
+      ],
+      "indirect_review_candidates": [
+        "PA1",
+        "PA2",
+        "QA2",
+        "QA3",
+        "LA3",
+        "DM1"
+      ],
+      "education_only": [
+        "CL2"
+      ],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "PA1",
+        "PA2",
+        "QA2",
+        "QA3",
+        "CO1",
+        "LA1",
+        "LA3",
+        "LA5",
+        "LA6",
+        "DM1",
+        "DM2",
+        "DM3",
+        "CL1",
+        "CL2",
+        "PI1",
+        "PI3",
+        "WP1",
+        "WP4"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-012",
+      "event_id": "190121W3",
+      "review_file": "cases/2019/190121W3/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "CL1",
+        "PI3",
+        "WP3"
+      ],
+      "indirect_review_candidates": [
+        "DM1"
+      ],
+      "education_only": [
+        "LA6"
+      ],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "DM1",
+        "LA6",
+        "CL1",
+        "PI3",
+        "WP3"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-013",
+      "event_id": "180611W3",
+      "review_file": "cases/2018/180611W3/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "QA2",
+        "QA3",
+        "CO1",
+        "WP1",
+        "WP4",
+        "CL4",
+        "CL1",
+        "PI3"
+      ],
+      "indirect_review_candidates": [],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "QA2",
+        "QA3",
+        "CO1",
+        "WP1",
+        "WP4",
+        "CL4",
+        "CL1",
+        "PI3"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-014",
+      "event_id": "170327K4",
+      "review_file": "cases/2017/170327K4/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "LA5",
+        "WP2",
+        "WP3",
+        "PI3",
+        "CL1"
+      ],
+      "indirect_review_candidates": [],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "LA5",
+        "WP2",
+        "WP3",
+        "PI3",
+        "CL1"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-015",
+      "event_id": "161220HU5",
+      "review_file": "cases/2016/161220HU5/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP1",
+        "DM1"
+      ],
+      "indirect_review_candidates": [
+        "QA4"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP1",
+        "DM1",
+        "QA4"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-016",
+      "event_id": "160227HB1",
+      "review_file": "cases/2016/160227HB1/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP1",
+        "CL1",
+        "PI2",
+        "PI3",
+        "WP4",
+        "LA6",
+        "CO1"
+      ],
+      "indirect_review_candidates": [],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP1",
+        "CL1",
+        "PI2",
+        "PI3",
+        "WP4",
+        "LA6",
+        "CO1"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-017",
+      "event_id": "150903K4",
+      "review_file": "cases/2015/150903K4/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP3",
+        "WP1"
+      ],
+      "indirect_review_candidates": [
+        "CL1",
+        "DM2"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP3",
+        "CL1",
+        "WP1",
+        "DM2"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-018",
+      "event_id": "141017Y3",
+      "review_file": "cases/2014/141017Y3/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP3",
+        "CO1",
+        "DM2",
+        "PI2"
+      ],
+      "indirect_review_candidates": [
+        "WP1",
+        "LA5"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP1",
+        "WP3",
+        "LA5",
+        "CO1",
+        "DM2",
+        "PI2"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-019",
+      "event_id": "141001Y12",
+      "review_file": "cases/2014/141001Y12/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP1",
+        "WP3",
+        "QA4",
+        "CO1"
+      ],
+      "indirect_review_candidates": [
+        "CL1",
+        "LA6",
+        "LA5"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP1",
+        "WP3",
+        "QA4",
+        "CL1",
+        "CO1",
+        "LA6",
+        "LA5"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-020",
+      "event_id": "140617W4",
+      "review_file": "cases/2014/140617W4/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "PI2",
+        "PI3",
+        "CL1",
+        "WP1",
+        "WP2"
+      ],
+      "indirect_review_candidates": [],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "PI2",
+        "PI3",
+        "CL1",
+        "WP1",
+        "WP2"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-021",
+      "event_id": "140228Y2",
+      "review_file": "cases/2014/140228Y2/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "LA5",
+        "WP2",
+        "CO3",
+        "WP1",
+        "WP3"
+      ],
+      "indirect_review_candidates": [],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "LA5",
+        "WP2",
+        "CO3",
+        "WP1",
+        "WP3"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-022",
+      "event_id": "130414KR4",
+      "review_file": "cases/2013/130414KR4/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP1",
+        "PA3",
+        "WP4"
+      ],
+      "indirect_review_candidates": [
+        "CL4",
+        "LA6",
+        "DM1"
+      ],
+      "education_only": [
+        "PI2"
+      ],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP1",
+        "PI2",
+        "CL4",
+        "PA3",
+        "LA6",
+        "WP4",
+        "DM1"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-023",
+      "event_id": "130117U1",
+      "review_file": "cases/2013/130117U1/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "LA5",
+        "WP2",
+        "WP3",
+        "WP1",
+        "WP4"
+      ],
+      "indirect_review_candidates": [],
+      "education_only": [
+        "PI2"
+      ],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "LA5",
+        "WP2",
+        "WP3",
+        "WP1",
+        "WP4",
+        "PI2"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-024",
+      "event_id": "061011U2",
+      "review_file": "cases/2006/061011U2/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP1",
+        "DM2",
+        "WP4",
+        "WP3",
+        "CL4"
+      ],
+      "indirect_review_candidates": [
+        "DM1",
+        "PA1",
+        "QA2",
+        "CL1"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP1",
+        "DM1",
+        "DM2",
+        "WP4",
+        "PA1",
+        "WP3",
+        "CL4",
+        "QA2",
+        "CL1"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-025",
+      "event_id": "121126U6",
+      "review_file": "cases/2012/121126U6/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP3",
+        "CL4",
+        "WP1",
+        "CO3",
+        "PA3",
+        "QA4",
+        "WP4"
+      ],
+      "indirect_review_candidates": [
+        "DM1"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP3",
+        "CL4",
+        "WP1",
+        "CO3",
+        "PA3",
+        "QA4",
+        "WP4",
+        "DM1"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-026",
+      "event_id": "110621K2",
+      "review_file": "cases/2011/110621K2/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "LA5",
+        "WP2",
+        "WP1",
+        "CO1",
+        "WP3",
+        "CL1"
+      ],
+      "indirect_review_candidates": [
+        "DM1"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "LA5",
+        "WP2",
+        "WP1",
+        "DM1",
+        "CO1",
+        "WP3",
+        "CL1"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-027",
+      "event_id": "110419K34",
+      "review_file": "cases/2011/110419K34/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP1",
+        "WP4",
+        "CO1",
+        "WP3",
+        "QA4"
+      ],
+      "indirect_review_candidates": [
+        "PA1",
+        "CL4",
+        "DM1",
+        "WP2",
+        "DM2"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP1",
+        "WP4",
+        "PA1",
+        "CL4",
+        "CO1",
+        "WP3",
+        "DM1",
+        "QA4",
+        "WP2",
+        "DM2"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-028",
+      "event_id": "100917SK1",
+      "review_file": "cases/2010/100917SK1/review_package/PHASE3A_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "LA1",
+        "LA5",
+        "WP3",
+        "CO1",
+        "WP1",
+        "WP4"
+      ],
+      "indirect_review_candidates": [
+        "CL1",
+        "CL4",
+        "PA1",
+        "LA6",
+        "QA4"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "LA1",
+        "CL1",
+        "CL4",
+        "LA5",
+        "WP3",
+        "PA1",
+        "CO1",
+        "LA6",
+        "WP1",
+        "WP4",
+        "QA4"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-029",
+      "event_id": "090903W2",
+      "review_file": "cases/2009/090903W2/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP1",
+        "WP3",
+        "DM1",
+        "QA4",
+        "PI2",
+        "CL1"
+      ],
+      "indirect_review_candidates": [
+        "DM2",
+        "WP2",
+        "WP4",
+        "PA1"
+      ],
+      "education_only": [],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP1",
+        "WP3",
+        "DM1",
+        "DM2",
+        "QA4",
+        "WP2",
+        "PI2",
+        "CL1",
+        "WP4",
+        "PA1"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-030",
+      "event_id": "060507U1",
+      "review_file": "cases/2006/060507U1/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP1",
+        "WP3",
+        "QA4"
+      ],
+      "indirect_review_candidates": [
+        "WP4",
+        "PA1",
+        "CO1",
+        "QA2",
+        "DM1"
+      ],
+      "education_only": [
+        "CL4",
+        "PI2"
+      ],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "PA1",
+        "CO1",
+        "QA2",
+        "QA4",
+        "DM1",
+        "CL4",
+        "PI2"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-031",
+      "event_id": "051106W1",
+      "review_file": "cases/2005/051106W1/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP3"
+      ],
+      "indirect_review_candidates": [
+        "WP2"
+      ],
+      "education_only": [
+        "WP1",
+        "QA2",
+        "QA4",
+        "LA7",
+        "PI1",
+        "PI2",
+        "PI3",
+        "CL1"
+      ],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "QA2",
+        "QA4",
+        "LA7",
+        "PI1",
+        "PI2",
+        "PI3",
+        "CL1"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-032",
+      "event_id": "031229Y5",
+      "review_file": "cases/2003/031229Y5/review_package/PHASE3A_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [],
+      "indirect_review_candidates": [],
+      "education_only": [
+        "QA2",
+        "QA3",
+        "PI1",
+        "PI2",
+        "PI3",
+        "WP2",
+        "WP1"
+      ],
+      "positive_learning": [
+        "DM2"
+      ],
+      "legacy_index_candidates": [
+        "QA2",
+        "QA3",
+        "PI1",
+        "PI2",
+        "PI3",
+        "WP2",
+        "WP1",
+        "DM2"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-033",
+      "event_id": "020405U4",
+      "review_file": "cases/2002/020405U4/review_package/PHASE3A_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [],
+      "indirect_review_candidates": [],
+      "education_only": [
+        "QA2",
+        "PI1",
+        "PI2",
+        "PI3"
+      ],
+      "positive_learning": [
+        "WP4",
+        "DM2"
+      ],
+      "legacy_index_candidates": [
+        "QA2",
+        "PI1",
+        "PI2",
+        "PI3"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-034",
+      "event_id": "001117K1",
+      "review_file": "cases/2000/001117K1/review_package/PHASE3A_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP3"
+      ],
+      "indirect_review_candidates": [
+        "WP1"
+      ],
+      "education_only": [
+        "QA2",
+        "QA3",
+        "CL4",
+        "PI2"
+      ],
+      "positive_learning": [
+        "WP4"
+      ],
+      "legacy_index_candidates": [
+        "WP3",
+        "WP1",
+        "QA2",
+        "QA3",
+        "CL4",
+        "PI2"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-035",
+      "event_id": "990323Y2",
+      "review_file": "cases/1999/990323Y2/review_package/PHASE3A_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "WP4",
+        "PI3",
+        "CL1"
+      ],
+      "indirect_review_candidates": [
+        "CL4",
+        "WP1"
+      ],
+      "education_only": [
+        "PI1",
+        "QA2"
+      ],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP4",
+        "PI1",
+        "PI3",
+        "QA2",
+        "CL4",
+        "CL1",
+        "WP1"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-036",
+      "event_id": "970117-1502",
+      "review_file": "cases/1997/970117-1502/review_package/PHASE3A_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [
+        "PI3",
+        "DM2",
+        "WP1",
+        "WP3"
+      ],
+      "indirect_review_candidates": [
+        "WP4",
+        "PA2"
+      ],
+      "education_only": [
+        "PI1",
+        "QA2"
+      ],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "PI1",
+        "PI3",
+        "DM2",
+        "WP1",
+        "WP3",
+        "WP4",
+        "QA2",
+        "PA2"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-037",
+      "event_id": "941020-1301",
+      "review_file": "cases/1994/941020-1301/review_package/PHASE3A_ATTRIBUTE_REVIEW_20261126.json",
+      "direct_review_candidates": [],
+      "indirect_review_candidates": [],
+      "education_only": [
+        "WP1",
+        "WP3",
+        "CL4",
+        "LA1",
+        "PI3"
+      ],
+      "positive_learning": [],
+      "legacy_index_candidates": [
+        "WP1",
+        "WP3",
+        "CL4",
+        "LA1",
+        "PI3"
+      ],
+      "approved_attributes": [],
+      "review_status": "PENDING_EXPERT",
+      "can_ship": false
+    }
+  ],
+  "frequency": [
+    {
+      "code": "WP1",
+      "name": "작업 관리",
+      "legacy_index_count": 34,
+      "D": 27,
+      "I": 4,
+      "H": 3,
+      "P": 0
+    },
+    {
+      "code": "WP3",
+      "name": "문서화",
+      "legacy_index_count": 28,
+      "D": 26,
+      "I": 1,
+      "H": 1,
+      "P": 0
+    },
+    {
+      "code": "PI2",
+      "name": "문제 평가",
+      "legacy_index_count": 18,
+      "D": 7,
+      "I": 4,
+      "H": 7,
+      "P": 0
+    },
+    {
+      "code": "WP4",
+      "name": "절차 준수",
+      "legacy_index_count": 18,
+      "D": 14,
+      "I": 4,
+      "H": 0,
+      "P": 2
+    },
+    {
+      "code": "CL1",
+      "name": "운전 경험",
+      "legacy_index_count": 17,
+      "D": 12,
+      "I": 4,
+      "H": 1,
+      "P": 0
+    },
+    {
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "legacy_index_count": 16,
+      "D": 5,
+      "I": 11,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "QA4",
+      "name": "자만 방지",
+      "legacy_index_count": 16,
+      "D": 9,
+      "I": 6,
+      "H": 1,
+      "P": 0
+    },
+    {
+      "code": "CO1",
+      "name": "업무 소통",
+      "legacy_index_count": 14,
+      "D": 12,
+      "I": 2,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "DM2",
+      "name": "보수적 성향",
+      "legacy_index_count": 14,
+      "D": 4,
+      "I": 9,
+      "H": 0,
+      "P": 2
+    },
+    {
+      "code": "PI3",
+      "name": "문제 해결",
+      "legacy_index_count": 14,
+      "D": 10,
+      "I": 0,
+      "H": 4,
+      "P": 0
+    },
+    {
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "legacy_index_count": 14,
+      "D": 2,
+      "I": 5,
+      "H": 7,
+      "P": 0
+    },
+    {
+      "code": "WP2",
+      "name": "설계 여유도",
+      "legacy_index_count": 13,
+      "D": 8,
+      "I": 4,
+      "H": 1,
+      "P": 0
+    },
+    {
+      "code": "CL4",
+      "name": "교육 훈련",
+      "legacy_index_count": 11,
+      "D": 4,
+      "I": 4,
+      "H": 3,
+      "P": 0
+    },
+    {
+      "code": "LA5",
+      "name": "변화 관리",
+      "legacy_index_count": 11,
+      "D": 7,
+      "I": 4,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "PI1",
+      "name": "문제 파악",
+      "legacy_index_count": 8,
+      "D": 3,
+      "I": 0,
+      "H": 5,
+      "P": 0
+    },
+    {
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "legacy_index_count": 7,
+      "D": 3,
+      "I": 3,
+      "H": 1,
+      "P": 0
+    },
+    {
+      "code": "PA1",
+      "name": "규정",
+      "legacy_index_count": 7,
+      "D": 0,
+      "I": 7,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "legacy_index_count": 5,
+      "D": 2,
+      "I": 1,
+      "H": 2,
+      "P": 0
+    },
+    {
+      "code": "LA1",
+      "name": "자원",
+      "legacy_index_count": 4,
+      "D": 3,
+      "I": 0,
+      "H": 1,
+      "P": 0
+    },
+    {
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "legacy_index_count": 3,
+      "D": 3,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "legacy_index_count": 3,
+      "D": 0,
+      "I": 3,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "PA3",
+      "name": "팀워크",
+      "legacy_index_count": 2,
+      "D": 2,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "CL2",
+      "name": "자체 진단",
+      "legacy_index_count": 1,
+      "D": 0,
+      "I": 0,
+      "H": 1,
+      "P": 0
+    },
+    {
+      "code": "CL3",
+      "name": "벤치마킹",
+      "legacy_index_count": 1,
+      "D": 1,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "legacy_index_count": 1,
+      "D": 1,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "legacy_index_count": 1,
+      "D": 0,
+      "I": 1,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "LA7",
+      "name": "지속적 진단",
+      "legacy_index_count": 1,
+      "D": 0,
+      "I": 0,
+      "H": 1,
+      "P": 0
+    },
+    {
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "legacy_index_count": 0,
+      "D": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "CO4",
+      "name": "방침",
+      "legacy_index_count": 0,
+      "D": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "LA2",
+      "name": "현장 순시",
+      "legacy_index_count": 0,
+      "D": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "legacy_index_count": 0,
+      "D": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "legacy_index_count": 0,
+      "D": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "PI4",
+      "name": "경향 분석",
+      "legacy_index_count": 0,
+      "D": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "legacy_index_count": 0,
+      "D": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "legacy_index_count": 0,
+      "D": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "legacy_index_count": 0,
+      "D": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "WE1",
+      "name": "분명한 존중",
+      "legacy_index_count": 0,
+      "D": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "WE2",
+      "name": "의견 존중",
+      "legacy_index_count": 0,
+      "D": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "legacy_index_count": 0,
+      "D": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    },
+    {
+      "code": "WE4",
+      "name": "갈등 해소",
+      "legacy_index_count": 0,
+      "D": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0
+    }
+  ],
+  "limitations": [
+    "Only existing fact and learning ledgers inspected, not original PDFs. Author review proposals, not independent or expert validation.",
+    "Only core learning codes classified; additional and low relevance codes not individually adjudicated.",
+    "No production index, media or approval changes. Positive class counts are explicit core learning only; positive counterevidence also exists within other classes.",
+    "New reference IDs checked for syntax and against visually inspected ledger content; automated fact reference validation not yet run."
+  ],
+  "next": "PHASE_3_C_NORMALIZE_40_ATTRIBUTE_ROLE_FIELDS_AND_VALIDATE_REFERENCES",
+  "can_ship": false
+}

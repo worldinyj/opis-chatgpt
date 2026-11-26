@@ -1,0 +1,52 @@
+{
+  "event_id": "150903K4",
+  "queue_id": "ROOT-017",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "6ca7d06fea3261843be5d63d4a89542f7be1159b",
+  "learning_ledger_blob": "067138afa4d106f8b17a68ec8c1439c5d6d1b870",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04",
+        "F06"
+      ],
+      "rationale": "제작사 지침 반영 오류",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F04",
+        "F14"
+      ],
+      "rationale": "제작사 기술정보와 체계적 운전경험 관리 구별",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05",
+        "F06"
+      ],
+      "rationale": "부적절한 정비 판정기준 운영",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F09",
+        "F10"
+      ],
+      "rationale": "상태 판단 미흡과 보수성의 독립 근거",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

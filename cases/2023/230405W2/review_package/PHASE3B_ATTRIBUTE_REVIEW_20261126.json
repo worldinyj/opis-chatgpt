@@ -1,0 +1,93 @@
+{
+  "event_id": "230405W2",
+  "queue_id": "ROOT-006",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "680393f2fbbaa77fa7d790abdb6f184022524967",
+  "learning_ledger_blob": "75521a1684e0b64f8c5262f1391d2c6efac5e157",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "QA4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F12",
+        "F13"
+      ],
+      "rationale": "반복 경험에 따른 조건 오인·확인 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F11"
+      ],
+      "rationale": "착수 통보 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA5",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04",
+        "F06",
+        "F07"
+      ],
+      "rationale": "관리체계 변경 및 검토 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08",
+        "F09",
+        "F10"
+      ],
+      "rationale": "위험 검토·허가 판단 절차 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F09",
+        "F10"
+      ],
+      "rationale": "보수적 판단의 독립 근거 확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08",
+        "F11"
+      ],
+      "rationale": "업무계획·리스크 관리 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F06"
+      ],
+      "rationale": "필요 조건 정보 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F02",
+        "F07",
+        "F13"
+      ],
+      "rationale": "착수 요건 및 확인 절차 미이행",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

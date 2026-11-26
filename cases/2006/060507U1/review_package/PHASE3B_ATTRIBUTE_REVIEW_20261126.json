@@ -1,0 +1,113 @@
+{
+  "event_id": "060507U1",
+  "queue_id": "ROOT-030",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "4fefedf38e43a9a04bd1216778b9a685ecb6a040",
+  "learning_ledger_blob": "5ce3042f627c24540676f6e435ccaa7826842d1d",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F03",
+        "F05",
+        "F06"
+      ],
+      "rationale": "공식 업무관리와 완료 확인 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F14"
+      ],
+      "rationale": "문서 간 적용범위 불일치",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F05",
+        "F06"
+      ],
+      "rationale": "요구 절차 조항 대조 필요, 최초 업무 적절",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PA1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F05",
+        "F07"
+      ],
+      "rationale": "규정 인식과 업무행동 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F03",
+        "F08"
+      ],
+      "rationale": "구두 지시 자체보다 소통 충분성 근거 필요",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F08",
+        "F09",
+        "F10"
+      ],
+      "rationale": "상황 오인과 불확실시 중단 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07",
+        "F09"
+      ],
+      "rationale": "정상화 확인 및 잠재 위험 인식 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F09",
+        "F10"
+      ],
+      "rationale": "판단 오류와 일관적 프로세스 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL4",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F18",
+        "F19"
+      ],
+      "rationale": "교육 강화 요구만으로 기존 교육 결함 확정 불가",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F15",
+        "F23"
+      ],
+      "rationale": "조사팀 원인평가 적절 평가, 보완 요구와 실패 구분",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

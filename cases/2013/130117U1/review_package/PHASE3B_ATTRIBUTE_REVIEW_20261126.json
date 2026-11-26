@@ -1,0 +1,71 @@
+{
+  "event_id": "130117U1",
+  "queue_id": "ROOT-023",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "e75125c6f381d7f2c4b2c1d534122343676b5f7e",
+  "learning_ledger_blob": "34c86bbff8bd4c9db78a49332e91559a0f5663c8",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "LA5",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F13",
+        "F14"
+      ],
+      "rationale": "변경 설계·시험 검토 미흡, 공급사 범위 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F13",
+        "F14"
+      ],
+      "rationale": "변경 확인 절차 결함",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F13"
+      ],
+      "rationale": "설계도면 오류",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F14",
+        "F15"
+      ],
+      "rationale": "시험 및 품질활동 관리 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F15"
+      ],
+      "rationale": "품질보증계획 요건 불충족",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F09",
+        "F10",
+        "F12"
+      ],
+      "rationale": "재현 한계에 대한 추가 분석 및 적절 평가, 미진 증거 아님",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

@@ -1,0 +1,69 @@
+{
+  "event_id": "210712K3",
+  "queue_id": "ROOT-009",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "aba8eb400d5c37f16bd030655ad562b52650c3a5",
+  "learning_ledger_blob": "d9a85e288a4f4a6f69197c3e78f8b45095683fcf",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "LA5",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F11",
+        "F13"
+      ],
+      "rationale": "기준 변경 평가·리더 관리 근거 추가",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F10",
+        "F12"
+      ],
+      "rationale": "과거 대책 반영 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F07",
+        "F13"
+      ],
+      "rationale": "해석 한계와 평가 프로세스 미흡 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F12"
+      ],
+      "rationale": "결정된 교체 대책의 이행 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F12"
+      ],
+      "rationale": "유지보수 업무 반영 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F12"
+      ],
+      "rationale": "절차·품목·직무 문서 미반영",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

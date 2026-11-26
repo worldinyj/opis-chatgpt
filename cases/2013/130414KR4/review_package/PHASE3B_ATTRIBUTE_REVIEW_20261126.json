@@ -1,0 +1,80 @@
+{
+  "event_id": "130414KR4",
+  "queue_id": "ROOT-022",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "06ac8609627ba159acc4c84130c5943227a84f12",
+  "learning_ledger_blob": "51c71e542a42e6cca13baaea2e4210452379ba3c",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07",
+        "F15"
+      ],
+      "rationale": "업무 완료 확인·조정 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "H",
+      "fact_refs": [
+        "F08",
+        "F11"
+      ],
+      "rationale": "원인 및 영향평가는 적절 평가, 미진 근거 미확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL4",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F12",
+        "F13"
+      ],
+      "rationale": "교육 경험 있음, 실제 경험 부족과 교육체계 결함 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PA3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F15"
+      ],
+      "rationale": "업무 중복으로 감시·조정 어려움",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA6",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F16"
+      ],
+      "rationale": "감독 실행 미흡과 역할 규정 결함 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07",
+        "F12",
+        "F18"
+      ],
+      "rationale": "절차 위반 지적",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F18"
+      ],
+      "rationale": "진단 오류와 일관적 판단 프로세스 구분",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

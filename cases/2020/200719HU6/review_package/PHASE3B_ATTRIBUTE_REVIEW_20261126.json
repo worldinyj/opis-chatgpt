@@ -1,0 +1,100 @@
+{
+  "event_id": "200719HU6",
+  "queue_id": "ROOT-010",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "54cc4cd515d5fa0853ac1ac9dd231dbd785dfa08",
+  "learning_ledger_blob": "08853717efc036e7932665288ef23f32772400c1",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "PA2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F09",
+        "F10"
+      ],
+      "rationale": "책임 이해와 확인 행동 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F09",
+        "F10"
+      ],
+      "rationale": "자기진단 및 확인 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA5",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F12"
+      ],
+      "rationale": "시공 오류와 변경관리 체계 평가 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F06",
+        "F07"
+      ],
+      "rationale": "판단 과정의 일관성 추가 확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F13",
+        "F15"
+      ],
+      "rationale": "상태 판단 오류와 신중성 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05",
+        "F07"
+      ],
+      "rationale": "계획 및 위험 검토 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F12"
+      ],
+      "rationale": "변경 구현 오류, 정량 여유도 단정 금지",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05",
+        "F06"
+      ],
+      "rationale": "계획서 정보 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04",
+        "F15"
+      ],
+      "rationale": "지침·정해진 방법 미이행",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

@@ -1,0 +1,108 @@
+{
+  "event_id": "240319W3",
+  "queue_id": "ROOT-004",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "19cdf6413010af3eab3d720d0e6601b1fdaee47b",
+  "learning_ledger_blob": "8d1a17745f20fdb32d240e9b23976c3ead3a2993",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "QA4",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F04",
+        "F09"
+      ],
+      "rationale": "위험 대비와 관리체계 결함 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F12"
+      ],
+      "rationale": "연락 곤란 및 직접 보고의 양면",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA6",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F15"
+      ],
+      "rationale": "관리 업무분장 부재",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07",
+        "F10"
+      ],
+      "rationale": "기존 교훈의 불충분한 반영",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F11"
+      ],
+      "rationale": "CAP 미이행 명시",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F10",
+        "F11"
+      ],
+      "rationale": "조치 충분성·유효성 평가 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07",
+        "F15"
+      ],
+      "rationale": "일부 권고 및 정비 미이행",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F14"
+      ],
+      "rationale": "작업계획 관리 미이행",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04",
+        "F08",
+        "F09"
+      ],
+      "rationale": "절차 및 이력관리 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F14"
+      ],
+      "rationale": "요구 절차 조항과 불이행 근거 대조 필요",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

@@ -1,0 +1,42 @@
+{
+  "event_id": "161220HU5",
+  "queue_id": "ROOT-015",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "4d133f64f24362aa9ef7876fbafb36074f03ae78",
+  "learning_ledger_blob": "6a5d70344c0530b5c225b0a712789072bc08ddff",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08",
+        "F10"
+      ],
+      "rationale": "구매 품질 확인 및 분류 기준 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F10",
+        "F11"
+      ],
+      "rationale": "판단기준 불명확, 요건 위반은 아님",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA4",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F07",
+        "F09"
+      ],
+      "rationale": "잠재 혼입 위험과 대비 행동의 독립 근거",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

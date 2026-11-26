@@ -1,0 +1,78 @@
+{
+  "event_id": "141001Y12",
+  "queue_id": "ROOT-019",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "4f0f234e471d72c963976f9a6b531cd8e6698ec6",
+  "learning_ledger_blob": "f93ecd0a4d674c32ddfe9b4dfec9dbc26f594d22",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F03",
+        "F10"
+      ],
+      "rationale": "위험 작업 분류·사전 검토 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F06"
+      ],
+      "rationale": "시험 문서 대상 구분 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05",
+        "F08"
+      ],
+      "rationale": "작업조건 차이 대비·주의 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F05"
+      ],
+      "rationale": "직접 작업경험과 조직적 경험 반영 구별",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04"
+      ],
+      "rationale": "주의사항 전달 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA6",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F09"
+      ],
+      "rationale": "감독업무 중복과 역할 규정 결함 구별",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA5",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F05",
+        "F16"
+      ],
+      "rationale": "작업조건 차이와 변화관리 체계 구분",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

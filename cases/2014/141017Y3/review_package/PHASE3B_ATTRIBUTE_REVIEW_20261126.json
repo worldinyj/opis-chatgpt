@@ -1,0 +1,70 @@
+{
+  "event_id": "141017Y3",
+  "queue_id": "ROOT-018",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "5f4bf67572182b0f41805b328415abf66a5fd962",
+  "learning_ledger_blob": "4ed0249086a025c2645d6efa5d8ce3fa6ccc7e83",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F07",
+        "F08",
+        "F12"
+      ],
+      "rationale": "유입원 미확인, 사전 관리 결함 범위 확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F03",
+        "F09"
+      ],
+      "rationale": "절차 정의 및 교정 문서 오류",
+      "proposed_review_only": true
+    },
+    {
+      "code": "LA5",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F09"
+      ],
+      "rationale": "절차 개정 오류와 변경관리 평가 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F02"
+      ],
+      "rationale": "부서 통보 지연",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F15"
+      ],
+      "rationale": "초기 평가 비보수적이라는 지적",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F15",
+        "F16"
+      ],
+      "rationale": "초기 영향 평가 범위·핵종 누락",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

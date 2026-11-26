@@ -1,0 +1,103 @@
+{
+  "event_id": "061011U2",
+  "queue_id": "ROOT-024",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "834595d65daae49640f5527e444912a515df98fe",
+  "learning_ledger_blob": "065ca5cf803000c19ccbf218fad4b2c43e385ed2",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05",
+        "F06"
+      ],
+      "rationale": "정비품질 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F07",
+        "F15"
+      ],
+      "rationale": "진단 오류와 일관된 판단 과정 구별",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F09",
+        "F16"
+      ],
+      "rationale": "안전 우선·보수적 판단 문제 명시",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F10",
+        "F15"
+      ],
+      "rationale": "운영기술지침 위반",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PA1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F10",
+        "F16"
+      ],
+      "rationale": "규정 중요성 인식과 위반 행동 분리",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08",
+        "F11"
+      ],
+      "rationale": "비정상대응 절차 및 호기별 구분 부족",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08",
+        "F12",
+        "F13"
+      ],
+      "rationale": "훈련 부적절 및 모의훈련 차이",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F07",
+        "F17"
+      ],
+      "rationale": "불확실시 중단·재평가의 직접 근거 추가",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F14",
+        "F26"
+      ],
+      "rationale": "경험 영향 및 후속 권고와 경험관리 결함 구분",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

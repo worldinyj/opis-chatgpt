@@ -1,0 +1,89 @@
+{
+  "event_id": "220908SW2",
+  "queue_id": "ROOT-008",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "f3069e0390ea8a71cadf00aa6ce4bd22a080da03",
+  "learning_ledger_blob": "c0ecb8f593134acb477e7fe237670a335060d157",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "QA2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F07",
+        "F08"
+      ],
+      "rationale": "불확실시 중단·재개 전 평가 근거 확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07",
+        "F10"
+      ],
+      "rationale": "설비특성 이해 및 사전 검토 부족",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F10"
+      ],
+      "rationale": "최초 현상 및 조치 적절성 상세 검토 부족",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F05",
+        "F08",
+        "F10"
+      ],
+      "rationale": "합동검토 인정, 신중성 별도 근거",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F09"
+      ],
+      "rationale": "CAP 조치 미적용 명시",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F10"
+      ],
+      "rationale": "원인·조치 평가 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F09",
+        "F10"
+      ],
+      "rationale": "정식 작업관리 미적용",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F06"
+      ],
+      "rationale": "해당 비정상조건 절차 부재",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

@@ -1,0 +1,111 @@
+{
+  "event_id": "110419K34",
+  "queue_id": "ROOT-027",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "d3e1e536cae877671dc10955c28c89c5d6d5a4a5",
+  "learning_ledger_blob": "7c3def0ac53e445703a6fc3c9eff37126c5fe531",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F02",
+        "F04",
+        "F05"
+      ],
+      "rationale": "업무관리·감독 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08",
+        "F09",
+        "F10"
+      ],
+      "rationale": "절차 준수 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PA1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F08",
+        "F09"
+      ],
+      "rationale": "규정 인식과 이행 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL4",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F07",
+        "F15"
+      ],
+      "rationale": "친숙화 부족과 교육체계 결함 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F06"
+      ],
+      "rationale": "실제 업무 보고 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F08",
+        "F10"
+      ],
+      "rationale": "절차 오류 및 계획 변경 미반영",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F05"
+      ],
+      "rationale": "단독 판단과 일관적 프로세스 결함 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F12"
+      ],
+      "rationale": "잠재 위험 사전 미인지",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F12",
+        "F22"
+      ],
+      "rationale": "안전영향 및 독립성 요구와 설계관리 결함 범위",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F03",
+        "F05"
+      ],
+      "rationale": "일정 압박과 보수성 저해의 연결 확인",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

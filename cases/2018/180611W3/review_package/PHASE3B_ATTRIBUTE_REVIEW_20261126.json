@@ -1,0 +1,88 @@
+{
+  "event_id": "180611W3",
+  "queue_id": "ROOT-013",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "fbff79c6b21d2a8f374acb281e01cbeac984442d",
+  "learning_ledger_blob": "394e79d69955ffbc71672fc72bd52228f676da78",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "QA2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F02"
+      ],
+      "rationale": "불확실시 중지 기법 미흡 명시",
+      "proposed_review_only": true
+    },
+    {
+      "code": "QA3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F02"
+      ],
+      "rationale": "의문 태도 기법 미흡 명시",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F06"
+      ],
+      "rationale": "상태·결과 보고 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04",
+        "F07"
+      ],
+      "rationale": "확인 기법 및 업무환경 관리 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F05",
+        "F06"
+      ],
+      "rationale": "지침 준수 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F03",
+        "F11"
+      ],
+      "rationale": "현장 실습 및 교육 실효성 부족",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F10",
+        "F11"
+      ],
+      "rationale": "과거 대책 적용 범위 한계",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F11"
+      ],
+      "rationale": "기존 개선대책 실효성 한계",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

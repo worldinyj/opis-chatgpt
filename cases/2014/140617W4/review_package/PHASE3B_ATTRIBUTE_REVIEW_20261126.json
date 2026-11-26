@@ -1,0 +1,59 @@
+{
+  "event_id": "140617W4",
+  "queue_id": "ROOT-020",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "d386d0139dbbb49f11059feb631dd4bd921cfce9",
+  "learning_ledger_blob": "84f92f13608786a023128650f1269265bb0ceb19",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "PI2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F09"
+      ],
+      "rationale": "과거 원인분석 범위 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F10"
+      ],
+      "rationale": "후속 검사주기 부적절",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04",
+        "F09",
+        "F10"
+      ],
+      "rationale": "과거 경험 후속 반영 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F10"
+      ],
+      "rationale": "검사 계획 적절성 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP2",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F07"
+      ],
+      "rationale": "시공 적합성 결함, 당초 설계기준 적합 인정",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}

@@ -1,0 +1,109 @@
+{
+  "event_id": "240513W4",
+  "queue_id": "ROOT-003",
+  "source_commit": "4ef4a209321e9ab731c349ce3f150b1777d15cd3",
+  "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+  "fact_ledger_blob": "111d0a099413975d3974ddcdd06e13c4e882c378",
+  "learning_ledger_blob": "7d9dfc13ecf0eb3fbc8264437a15351ebf5be73b",
+  "scope": "Existing paired ledgers inspected in author review; original PDF not reopened; no expert determination.",
+  "codes": [
+    {
+      "code": "QA4",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F04",
+        "F05"
+      ],
+      "rationale": "위험 대비의 행동 근거 별도 확인",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F11"
+      ],
+      "rationale": "상황정보 전달 누락",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CO3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F13"
+      ],
+      "rationale": "기록·정보 공유 미흡, 은폐 의도 단정 금지",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F12"
+      ],
+      "rationale": "보고 판단의 기술적 의미 검토 부족",
+      "proposed_review_only": true
+    },
+    {
+      "code": "DM2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F09",
+        "F12"
+      ],
+      "rationale": "판단 오류와 보수성 부족 구분",
+      "proposed_review_only": true
+    },
+    {
+      "code": "CL4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F03",
+        "F10"
+      ],
+      "rationale": "교육 내용 누락 및 이론교육 부족",
+      "proposed_review_only": true
+    },
+    {
+      "code": "PI2",
+      "evidence_class": "I",
+      "fact_refs": [
+        "F12",
+        "F15"
+      ],
+      "rationale": "보고 판단과 문제 평가 프로세스 구별",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP1",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F04",
+        "F07"
+      ],
+      "rationale": "종합 작업관리 및 정비기준 부재",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP3",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F03",
+        "F13"
+      ],
+      "rationale": "절차·일지 관리 미흡",
+      "proposed_review_only": true
+    },
+    {
+      "code": "WP4",
+      "evidence_class": "D",
+      "fact_refs": [
+        "F02",
+        "F14"
+      ],
+      "rationale": "요구 절차 이행 누락",
+      "proposed_review_only": true
+    }
+  ],
+  "can_ship": false
+}
