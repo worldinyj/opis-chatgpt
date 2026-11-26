@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "baseline_id": "CHATGPT_BASELINE_V1",
+  "created_date": "2026-11-26",
+  "repository": "worldinyj/opis-chatgpt",
+  "baseline_commit": "859512721debe4f5441accec97c8aa64f030c1fd",
+  "phase3e_commit": "9cab7d2d84143b335f601c28c9550d09cd504a05",
+  "scope": {
+    "case_count": 38,
+    "attribute_count": 40,
+    "review_rows": 1520,
+    "role_counts": {
+      "I": 80,
+      "A": 717,
+      "D": 173,
+      "N": 506,
+      "H": 40,
+      "P": 4
+    },
+    "selected": 253,
+    "deferred": 717,
+    "not_selected": 550,
+    "approved": 0,
+    "confirmed_weakness_count": null
+  },
+  "protected_prefixes": [
+    "cases/"
+  ],
+  "protected_paths": [
+    "index/phase3d_expert_review_queue_20261126_v2.json",
+    "index/phase3c_attribute_roles_20261126_v2.csv",
+    "index/phase3d_expert_decisions_20261126_v2.csv",
+    "index/phase3e_integration_audit_20261126.md",
+    "standards/safety_culture_40.json",
+    "standards/safety_culture_40.md",
+    "index/independent_source_queue_v1.json",
+    "prompts/independent_ai_review_v1.0.md",
+    "standards/independent_ai_review_v1.schema.json",
+    "index/phase3d_link_review_20261126.json",
+    "prompts/independent_ai_master_workflow_v1.1.md"
+  ],
+  "reference_blobs": [
+    {
+      "path": "index/phase3d_expert_review_queue_20261126_v2.json",
+      "blob": "a06ceb0e3be71e72946523f1d1a20d4e118f07f2"
+    },
+    {
+      "path": "index/phase3c_attribute_roles_20261126_v2.csv",
+      "blob": "dc31991642ec522e67a25928cff0f52dc16b363b"
+    },
+    {
+      "path": "index/phase3d_expert_decisions_20261126_v2.csv",
+      "blob": "99240510caec4d69baa0956047554d27c5fa719d"
+    },
+    {
+      "path": "index/phase3e_integration_audit_20261126.md",
+      "blob": "067bc0fff63820041bea496fcca4e0dcfc71b06d"
+    },
+    {
+      "path": "standards/safety_culture_40.json",
+      "blob": "8dd238647998d31c2fa872968fe519925cd12670"
+    },
+    {
+      "path": "standards/safety_culture_40.md",
+      "blob": "d61c9bd73f2ce5eaa14d8ecb13e3df57b9742a9d"
+    },
+    {
+      "path": "index/independent_source_queue_v1.json",
+      "blob": "8336cf23bcfda080d1856d6ef5143b70e18e8235"
+    },
+    {
+      "path": "prompts/independent_ai_review_v1.0.md",
+      "blob": "d34b9a7686798b29a11d016cc1c51c75536b402c"
+    },
+    {
+      "path": "standards/independent_ai_review_v1.schema.json",
+      "blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3"
+    },
+    {
+      "path": "index/phase3d_link_review_20261126.json",
+      "blob": "e8dda08fefb980b9bee911237eaacaedb2a48b64"
+    },
+    {
+      "path": "prompts/independent_ai_master_workflow_v1.1.md",
+      "blob": "c31667d1ef3c15fe4feb2f17bc9176bb893f4ba0"
+    }
+  ],
+  "case_packets": [
+    {
+      "queue_id": "ROOT-001",
+      "event_id": "250112W2",
+      "path": "cases/2025/250112W2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "674e97af5d105403ee854c266bda0a6a8549f9b3",
+      "candidate_count": 10,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-002",
+      "event_id": "240908HB6",
+      "path": "cases/2024/240908HB6/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "28a9853c0c1f64a59c2ab83dffbfff01b7d0e9dd",
+      "candidate_count": 7,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-003",
+      "event_id": "240513W4",
+      "path": "cases/2024/240513W4/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "830a527a0c8b9c32e8468fb66a44d7a679377314",
+      "candidate_count": 10,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-004",
+      "event_id": "240319W3",
+      "path": "cases/2024/240319W3/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "3880fdd0174a75dbc542c15eef613026fac47eae",
+      "candidate_count": 10,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-005",
+      "event_id": "250314SH2",
+      "path": "cases/2025/250314SH2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "ba72723b66a54e5efca0207551549b53caba908a",
+      "candidate_count": 7,
+      "education_positive_count": 1
+    },
+    {
+      "queue_id": "ROOT-006",
+      "event_id": "230405W2",
+      "path": "cases/2023/230405W2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "95985051789b977fcdfd6f76332cebb49c7fc988",
+      "candidate_count": 8,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-007",
+      "event_id": "221222K3",
+      "path": "cases/2022/221222K3/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "1db5f4811b0b69c3faadf8fb83f083c02a76a41c",
+      "candidate_count": 7,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-008",
+      "event_id": "220908SW2",
+      "path": "cases/2022/220908SW2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "bf84850e1ae141939f6c9edd75bc51816be01151",
+      "candidate_count": 8,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-009",
+      "event_id": "210712K3",
+      "path": "cases/2021/210712K3/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "a418512391c7679e958e274b32aede0992298014",
+      "candidate_count": 6,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-010",
+      "event_id": "200719HU6",
+      "path": "cases/2020/200719HU6/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "f56819ae76b8323d63e6b46be3d60340b170b67a",
+      "candidate_count": 9,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-011",
+      "event_id": "190510HB1",
+      "path": "cases/2019/190510HB1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "2d3bde2d491677c69f5414f2b020d794990d6c0a",
+      "candidate_count": 17,
+      "education_positive_count": 1
+    },
+    {
+      "queue_id": "ROOT-012",
+      "event_id": "190121W3",
+      "path": "cases/2019/190121W3/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "29adde9e1e057d518cc093f80d5b76a9100097cb",
+      "candidate_count": 4,
+      "education_positive_count": 1
+    },
+    {
+      "queue_id": "ROOT-013",
+      "event_id": "180611W3",
+      "path": "cases/2018/180611W3/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "bfee1d6e259a8af35d216c9a17436fc770f8b6bb",
+      "candidate_count": 8,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-014",
+      "event_id": "170327K4",
+      "path": "cases/2017/170327K4/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "4f41c651ae8044589f52d29f7b3808ec67f1e0d4",
+      "candidate_count": 5,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-015",
+      "event_id": "161220HU5",
+      "path": "cases/2016/161220HU5/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "f73ca8d7e784f91b54dc424b9394659d86e4788c",
+      "candidate_count": 3,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-016",
+      "event_id": "160227HB1",
+      "path": "cases/2016/160227HB1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "ffede0ebe45c3afcd099294fcdab40d5898e04f1",
+      "candidate_count": 7,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-017",
+      "event_id": "150903K4",
+      "path": "cases/2015/150903K4/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "4a8a5bbfad18ca636505ac11c96e505b608204da",
+      "candidate_count": 4,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-018",
+      "event_id": "141017Y3",
+      "path": "cases/2014/141017Y3/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "9ee085e202eae1e8db236ca2fa17221744f267ef",
+      "candidate_count": 6,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-019",
+      "event_id": "141001Y12",
+      "path": "cases/2014/141001Y12/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "6c7b07fdcdaa6fdd0b260e2a93c31bd19c1e3826",
+      "candidate_count": 7,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-020",
+      "event_id": "140617W4",
+      "path": "cases/2014/140617W4/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "35ef8c71da27f57bf20487094a0c8f7f78571112",
+      "candidate_count": 5,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-021",
+      "event_id": "140228Y2",
+      "path": "cases/2014/140228Y2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "51629840d5b2ca4ea7174e866a42337561431f45",
+      "candidate_count": 5,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-022",
+      "event_id": "130414KR4",
+      "path": "cases/2013/130414KR4/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "440a427a662d1d8da2a3fe6574fa72fe6ae8313b",
+      "candidate_count": 6,
+      "education_positive_count": 1
+    },
+    {
+      "queue_id": "ROOT-023",
+      "event_id": "130117U1",
+      "path": "cases/2013/130117U1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "6bbc5dea0c6f6a47dad5c4d77f2c014d98560457",
+      "candidate_count": 5,
+      "education_positive_count": 1
+    },
+    {
+      "queue_id": "ROOT-024",
+      "event_id": "061011U2",
+      "path": "cases/2006/061011U2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "006aca65f7c7117b6549f57a8ca3a8a4b1c5fdc9",
+      "candidate_count": 9,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-025",
+      "event_id": "121126U6",
+      "path": "cases/2012/121126U6/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "0dbdd0249835230a0f81d3bc374025252de83533",
+      "candidate_count": 8,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-026",
+      "event_id": "110621K2",
+      "path": "cases/2011/110621K2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "81ec73012a4bd439f99cfec303ccf3a63626a640",
+      "candidate_count": 7,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-027",
+      "event_id": "110419K34",
+      "path": "cases/2011/110419K34/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "f42da1ca1d74afb6d84eb01e170c85553fd5f083",
+      "candidate_count": 10,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-028",
+      "event_id": "100917SK1",
+      "path": "cases/2010/100917SK1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "2b5ede73f13986cfc2c4a8342fbbbd13acfaa73c",
+      "candidate_count": 11,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-029",
+      "event_id": "090903W2",
+      "path": "cases/2009/090903W2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "3cac942da4484ae21a28de2a4817e31090e47ebf",
+      "candidate_count": 10,
+      "education_positive_count": 0
+    },
+    {
+      "queue_id": "ROOT-030",
+      "event_id": "060507U1",
+      "path": "cases/2006/060507U1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "5e4037ee40232dfe9e52b6a46b3b60ed9a3487ed",
+      "candidate_count": 8,
+      "education_positive_count": 2
+    },
+    {
+      "queue_id": "ROOT-031",
+      "event_id": "051106W1",
+      "path": "cases/2005/051106W1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "1e874d216c685851872b32ed56807f61c1d33fdd",
+      "candidate_count": 2,
+      "education_positive_count": 8
+    },
+    {
+      "queue_id": "ROOT-032",
+      "event_id": "031229Y5",
+      "path": "cases/2003/031229Y5/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "0b9037ec37e3c6d27709e104475c8bb8243f5e17",
+      "candidate_count": 0,
+      "education_positive_count": 8
+    },
+    {
+      "queue_id": "ROOT-033",
+      "event_id": "020405U4",
+      "path": "cases/2002/020405U4/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "55a6dee72d5bbcd4fb1d42b6899b670bb9f3ad3d",
+      "candidate_count": 0,
+      "education_positive_count": 6
+    },
+    {
+      "queue_id": "ROOT-034",
+      "event_id": "001117K1",
+      "path": "cases/2000/001117K1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "5a1c9bc2e8b2be21e0a8022f1ed2db9884a0f100",
+      "candidate_count": 2,
+      "education_positive_count": 5
+    },
+    {
+      "queue_id": "ROOT-035",
+      "event_id": "990323Y2",
+      "path": "cases/1999/990323Y2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "6a98e26896b1a80cbb85b09933f4a8ee8c196c5b",
+      "candidate_count": 5,
+      "education_positive_count": 2
+    },
+    {
+      "queue_id": "ROOT-036",
+      "event_id": "970117-1502",
+      "path": "cases/1997/970117-1502/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "362e7860e9712392ca4231c2d0279a20b82fe847",
+      "candidate_count": 6,
+      "education_positive_count": 2
+    },
+    {
+      "queue_id": "ROOT-037",
+      "event_id": "941020-1301",
+      "path": "cases/1994/941020-1301/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "0eebb814f5300449491e995c0c06fa989f2e3514",
+      "candidate_count": 0,
+      "education_positive_count": 5
+    },
+    {
+      "queue_id": "ROOT-038",
+      "event_id": "250919W2",
+      "path": "cases/2025/250919W2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+      "blob": "92dd2520710131b9ab5a1bdfcad2b4add809cc19",
+      "candidate_count": 11,
+      "education_positive_count": 1
+    }
+  ],
+  "baseline_csv": "baseline/CHATGPT_BASELINE_V1.csv",
+  "verification": {
+    "mode": "PINNED_COMMIT_TREE_COMPARISON",
+    "phase3e_to_pre_freeze_main": "No cases/ or existing protected analysis files modified in 10-commit comparison; shared workflow additions only.",
+    "packet_blobs": "Phase 3-E directly verified; carried forward via unchanged cases/ comparison.",
+    "full_tree_inventory": "Derive from pinned commit locally with git ls-tree/git diff; individual report/media blobs not independently enumerated in this operation.",
+    "original_pdf_reinspection": "NOT_EXECUTED",
+    "semantic_revalidation": "NOT_EXECUTED"
+  },
+  "can_ship": false
+}
