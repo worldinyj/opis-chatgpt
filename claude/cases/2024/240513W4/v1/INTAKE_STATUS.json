@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "model": "CLAUDE",
+  "queue_id": "ROOT-003",
+  "event_id": "240513W4",
+  "artifact_status": "STORED",
+  "integration_status": "HOLD",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+  "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+  "reported_hash_matches_queue": false,
+  "reported_pages_match_queue": false,
+  "source_zip": "CLAUDE_ROOT-003_240513W4_v1.zip",
+  "source_zip_sha256": "3d65bae2e90817b5e06fcdc7cd1223ddf770f5c4deaccd923600bac09bfce359",
+  "files": [
+    {
+      "name": "excel_import.csv",
+      "blob": "01bd9e8f3b28dc4c1300f7518cacafba043cfc1c",
+      "sha256": "da21d522de5c3662aa0092875ebf6bfc9c22b8b17dc709199e7c6b324bfe796f"
+    },
+    {
+      "name": "report.md",
+      "blob": "b2d19e7cbf346fa9cd48df633638247728419e63",
+      "sha256": "5cc1fa8e4234cf7a0c0451c70edaf78f92ee14e8c54d47408336cc262394cb7f"
+    },
+    {
+      "name": "review.json",
+      "blob": "ad864654c593d084adae70a6c35e83b501c30c09",
+      "sha256": "ad8bc926b64e750840fc23a64d1818cbabd90500dae0552da59f5171ce2ceb16"
+    },
+    {
+      "name": "validation.md",
+      "blob": "c34b735cbfd0b45d2aaeaba9b868553987de25c5",
+      "sha256": "174637a3a4b74d1d7bbcb58d7c852cd420771664d56b28cb63715be327dd9787"
+    }
+  ],
+  "role_counts": {
+    "D": 11,
+    "P": 3,
+    "A": 7,
+    "H": 2,
+    "I": 6,
+    "N": 11
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "csv_json_decision_rationale": "MATCH",
+    "fact_reference_check": "PASS",
+    "csv_formula_prefix_check": "PASS",
+    "pdf_page_reference_bounds": "NOT_EXECUTED",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "schema_keyword_subset": "PASS",
+    "fact_count": 20,
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Original PDF hash and physical pages unverified; appendices 7–11 and images not inspected, prior other-case transcript exposure disclosed; integration HOLD.",
+    "No fresh original source review or expert approval."
+  ],
+  "approved": false,
+  "can_ship": false
+}
