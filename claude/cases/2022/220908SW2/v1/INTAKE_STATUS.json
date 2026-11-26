@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "model": "CLAUDE",
+  "queue_id": "ROOT-008",
+  "event_id": "220908SW2",
+  "artifact_status": "STORED",
+  "integration_status": "HOLD",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+  "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+  "reported_hash_matches_queue": false,
+  "reported_pages_match_queue": false,
+  "source_zip": "CLAUDE_ROOT-008_220908SW2_v1.zip",
+  "source_zip_sha256": "06c510ed92093a5512a642d06c33745fef3087cbbb6eb9625a4e68a5395652ca",
+  "files": [
+    {
+      "name": "report.md",
+      "blob": "be35f33d3f43b2bfdc8a92d6db7d76244637da1a",
+      "sha256": "11e7e071fb66e804da5d7a7febcbc7f59334d2e9e5c2abcfbe8cdfafb7388afe"
+    },
+    {
+      "name": "review.json",
+      "blob": "aab0017460eb3b4cd0ee3050cf6f70b425d4fb92",
+      "sha256": "f98b221f1ab852b7998e129e824907869244cb10c8eef6b24c019b9169182658"
+    },
+    {
+      "name": "excel_import.csv",
+      "blob": "2831272a6ae72e7447b98cf3936f0145f22dbb49",
+      "sha256": "0689a22256dd471c2222d901ded8e0887c079e51737d757f986a953f5d48cf05"
+    },
+    {
+      "name": "validation.md",
+      "blob": "f29ae6e442e0c959d328e855b778167958b19e16",
+      "sha256": "0b65270616e759d373e984f3622367d6ed9837891bf3aba55972262ac10dd9db"
+    }
+  ],
+  "submitted_progress": {
+    "path": "claude/submissions/ROOT-008_progress_submitted.json",
+    "blob": "45ab0a489c794465960f11e25b8679b7e53b01c7",
+    "sha256": "eae27a005561e71152877775e4b41e010478d6c4dbfc26f3f158a4a0ff9bd565"
+  },
+  "role_counts": {
+    "D": 6,
+    "I": 3,
+    "A": 3,
+    "H": 1,
+    "P": 3,
+    "N": 24
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "zip_path_safety": "PASS",
+    "csv_json_decision_rationale": "MATCH",
+    "fact_reference_check": "PASS",
+    "report_csv_complete_fact_id_reference": "PASS",
+    "report_truncated_fact_id_reference": "WARNING_ONE_TRUNCATED_ID_IN_SUMMARY_TABLE",
+    "report_json_attribute_role_decision": "MATCH",
+    "csv_formula_prefix_check": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "json_duplicate_keys": "PASS",
+    "schema_reconstructed_draft202012": "PASS",
+    "schema_reference_blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+    "fact_count": 9,
+    "reported_source_identity": "MATCH",
+    "printed_page_range": "PASS_1_TO_28_WITHIN_REPORTED_30",
+    "pdf_physical_page_range": "NOT_EXECUTED",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Original PDF hash and physical page count not verified (null, expected physical count 33). All physical page reference arrays empty; printed page range only checked.",
+    "Earlier other-case ROOT-038 education-video transcript exposure disclosed; reported not used for ROOT-008. Independent review required; HOLD.",
+    "One abbreviated fact ID CLAUDE-F0… appears in report summary table; complete fact IDs and CSV fact references match JSON. Original bytes preserved.",
+    "Draft202012Validator and FormatChecker run against locally reconstructed schema constraints from retrieved repository schema, not byte-identical schema file.",
+    "No independent original source review or expert approval."
+  ],
+  "approved": false,
+  "can_ship": false
+}
