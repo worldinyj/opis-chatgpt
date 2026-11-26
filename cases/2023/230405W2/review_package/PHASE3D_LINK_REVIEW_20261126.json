@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "event_id": "230405W2",
+  "queue_id": "ROOT-006",
+  "code": "WP1",
+  "standard_definition": "원자력안전을 최우선적으로 고려하여 작업계획을 수립하고 시행하는 프로세스를 운영한다.",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_blob": "a8b5402fa9ef6dc70e2d9573d15463d4e2cab1b3",
+    "fact_ledger_blob": "680393f2fbbaa77fa7d790abdb6f184022524967",
+    "learning_ledger_blob": "75521a1684e0b64f8c5262f1391d2c6efac5e157",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670"
+  },
+  "learning_id": "L01",
+  "original_review_class": "D",
+  "original_review_fact_ids": [
+    "F08",
+    "F11"
+  ],
+  "original_learning_fact_ids": [
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07"
+  ],
+  "related_existing_learning_fact_ids": [
+    "F04",
+    "F07"
+  ],
+  "author_disposition": "SUPPLEMENTAL_SCOPE",
+  "author_rationale": "기존 L01은 관리기준 변경과 검토의 문제를 다룬다. F08·F11은 구체적 계획·위험관리 이행의 별도 근거이다. F04·F07은 관리 기준 및 검토 과정의 보조 근거이며 기존 메시지 전체를 대체하지 않는다.",
+  "expert_question": "관리 기준 변경에 대한 검토와 실제 업무계획의 이행을 구분해 평가할 수 있는가?",
+  "review_status": "PENDING_EXPERT",
+  "proposed_role_change": null,
+  "learning_change_applied": false,
+  "original_warning_retained": true,
+  "original_pdf_reinspection": "PENDING",
+  "can_ship": false
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "event_id": "200719HU6",
+  "queue_id": "ROOT-010",
+  "code": "WP3",
+  "standard_definition": "문서 작성 및 관리는 완벽하고 정확하며 최신의 상태를 유지한다.",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_blob": "90d44bddc0e588cca8590652111abedd2d4814bf",
+    "fact_ledger_blob": "54cc4cd515d5fa0853ac1ac9dd231dbd785dfa08",
+    "learning_ledger_blob": "08853717efc036e7932665288ef23f32772400c1",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670"
+  },
+  "learning_id": "L01",
+  "original_review_class": "D",
+  "original_review_fact_ids": [
+    "F05",
+    "F06"
+  ],
+  "original_learning_fact_ids": [
+    "F03",
+    "F04",
+    "F09",
+    "F10",
+    "F11"
+  ],
+  "related_existing_learning_fact_ids": [
+    "F04"
+  ],
+  "author_disposition": "SUPPLEMENTAL_SCOPE",
+  "author_rationale": "F05·F06의 문서 정보 누락은 WP3의 구체적 근거이다. 기존 학습의 F04는 기록·식별 관리라는 관련 범위를 지원하나 동일한 문서 결함은 아니다. 문서의 정확성과 확인 행동을 분리한다.",
+  "expert_question": "문서의 정보 완전성 문제와 실제 확인행동 문제를 구분했는가?",
+  "review_status": "PENDING_EXPERT",
+  "proposed_role_change": null,
+  "learning_change_applied": false,
+  "original_warning_retained": true,
+  "original_pdf_reinspection": "PENDING",
+  "can_ship": false
+}

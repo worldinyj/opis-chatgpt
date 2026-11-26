@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "event_id": "190510HB1",
+  "queue_id": "ROOT-011",
+  "code": "DM2",
+  "standard_definition": "모든 종사자는 의사결정 시 원자력안전을 고려하여 보수적이고 신중함을 견지한다.",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_blob": "0f597627ee408e2dbe7dd8b26f014035ca68f22f",
+    "fact_ledger_blob": "935f291edd569d5edf9f1da0df7e936598b14572",
+    "learning_ledger_blob": "6fc4f3bd862876c56af1cf987f1a920f64f543c6",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670"
+  },
+  "learning_id": "L01",
+  "original_review_class": "D",
+  "original_review_fact_ids": [
+    "F13",
+    "F14",
+    "F16"
+  ],
+  "original_learning_fact_ids": [
+    "F03",
+    "F05",
+    "F06",
+    "F07"
+  ],
+  "related_existing_learning_fact_ids": [],
+  "author_disposition": "SEPARATE_LEARNING_QUESTION",
+  "author_rationale": "기존 L01은 작업 범위와 위험 재평가 중심이다. F13·F16의 판단 및 요구 조치 문제와 F14의 보수적 판단 저해 우려는 별도의 판단 근거 학습으로 다룬다. F14가 개인의 직접 동기라는 해석은 금지한다.",
+  "expert_question": "안전 중심의 신중한 판단과 생산 관련 우려를 어떻게 구분해 평가할 것인가?",
+  "review_status": "PENDING_EXPERT",
+  "proposed_role_change": null,
+  "learning_change_applied": false,
+  "original_warning_retained": true,
+  "original_pdf_reinspection": "PENDING",
+  "can_ship": false
+}

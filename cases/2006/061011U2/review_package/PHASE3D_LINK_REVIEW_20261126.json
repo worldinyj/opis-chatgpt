@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "event_id": "061011U2",
+  "queue_id": "ROOT-024",
+  "code": "QA2",
+  "standard_definition": "모든 종사자는 불확실할 경우 작업을 중단하고 작업 재개 전 리스크를 평가하고 관리한다.",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_blob": "cafcf775e8e3e5ef4e13b721bb41f0c55d69196b",
+    "fact_ledger_blob": "834595d65daae49640f5527e444912a515df98fe",
+    "learning_ledger_blob": "065ca5cf803000c19ccbf218fad4b2c43e385ed2",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670"
+  },
+  "learning_id": "L03",
+  "original_review_class": "I",
+  "original_review_fact_ids": [
+    "F07",
+    "F17"
+  ],
+  "original_learning_fact_ids": [
+    "F08",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F16",
+    "F20",
+    "F22",
+    "F23",
+    "F24",
+    "F25",
+    "F26"
+  ],
+  "related_existing_learning_fact_ids": [],
+  "author_disposition": "EXPERT_RECLASSIFICATION_REQUIRED",
+  "author_rationale": "기존 L03은 교육·훈련 및 경험의 적합성이다. F07·F17의 판단 오류만으로 불확실시 작업 중단 및 재개 전 리스크 평가 미흡을 입증하지 못한다. I 유지 여부 또는 H 전환을 전문가에게 제안하고 사실 ID를 억지로 추가하지 않는다.",
+  "expert_question": "불확실성 인지, 중단·재평가의 요구와 실제 이행에 대한 근거가 있는가? 없다면 교육 가설로 전환할 것인가?",
+  "review_status": "PENDING_EXPERT",
+  "proposed_role_change": [
+    "I",
+    "H"
+  ],
+  "learning_change_applied": false,
+  "original_warning_retained": true,
+  "original_pdf_reinspection": "PENDING",
+  "can_ship": false
+}

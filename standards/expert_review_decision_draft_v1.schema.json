@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OPIS expert review decision draft",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "event_id",
+    "packet_blob",
+    "reviewer",
+    "review_date",
+    "decisions",
+    "approval"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "packet_blob": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{40}$"
+    },
+    "reviewer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "review_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "decision",
+          "fact_ids",
+          "reason"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}[1-8]$"
+          },
+          "decision": {
+            "enum": [
+              "PENDING",
+              "CONFIRM_WEAKNESS",
+              "REJECT_WEAKNESS",
+              "RECLASSIFY_EDUCATION",
+              "RECLASSIFY_POSITIVE",
+              "REQUEST_MORE_EVIDENCE"
+            ]
+          },
+          "fact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "approval": {
+      "const": false
+    }
+  }
+}

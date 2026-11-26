@@ -1,0 +1,253 @@
+{
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "method": "Six normalized records, paired fact and learning ledgers and standard definitions re-read; author proposals only.",
+  "records": [
+    {
+      "schema_version": "1.0",
+      "event_id": "240319W3",
+      "queue_id": "ROOT-004",
+      "code": "WP1",
+      "standard_definition": "원자력안전을 최우선적으로 고려하여 작업계획을 수립하고 시행하는 프로세스를 운영한다.",
+      "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+      "provenance": {
+        "normalized_blob": "256845032e67f7f5a64512209a927cca1cd99f7c",
+        "fact_ledger_blob": "19cdf6413010af3eab3d720d0e6601b1fdaee47b",
+        "learning_ledger_blob": "8d1a17745f20fdb32d240e9b23976c3ead3a2993",
+        "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670"
+      },
+      "learning_id": "L02",
+      "original_review_class": "D",
+      "original_review_fact_ids": [
+        "F14"
+      ],
+      "original_learning_fact_ids": [
+        "F04",
+        "F05",
+        "F08",
+        "F09",
+        "F17"
+      ],
+      "related_existing_learning_fact_ids": [
+        "F08",
+        "F09"
+      ],
+      "author_disposition": "SEPARATE_SCOPE_AND_CORROBORATION",
+      "author_rationale": "F14는 별도의 후속 업무계획 관리 지적이다. 기존 L02는 정비·이력 관리에 초점이 있다. 두 업무 범위를 하나의 원인으로 합치지 않고, F08·F09는 기존 학습의 관리 범위 보조 근거로만 연결한다.",
+      "expert_question": "정비 이력 및 감시계획 관리의 충분성과 별도 후속 업무계획 문제를 각각 평가할 수 있는가?",
+      "review_status": "PENDING_EXPERT",
+      "proposed_role_change": null,
+      "learning_change_applied": false,
+      "original_warning_retained": true,
+      "original_pdf_reinspection": "PENDING",
+      "can_ship": false
+    },
+    {
+      "schema_version": "1.0",
+      "event_id": "230405W2",
+      "queue_id": "ROOT-006",
+      "code": "WP1",
+      "standard_definition": "원자력안전을 최우선적으로 고려하여 작업계획을 수립하고 시행하는 프로세스를 운영한다.",
+      "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+      "provenance": {
+        "normalized_blob": "a8b5402fa9ef6dc70e2d9573d15463d4e2cab1b3",
+        "fact_ledger_blob": "680393f2fbbaa77fa7d790abdb6f184022524967",
+        "learning_ledger_blob": "75521a1684e0b64f8c5262f1391d2c6efac5e157",
+        "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670"
+      },
+      "learning_id": "L01",
+      "original_review_class": "D",
+      "original_review_fact_ids": [
+        "F08",
+        "F11"
+      ],
+      "original_learning_fact_ids": [
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07"
+      ],
+      "related_existing_learning_fact_ids": [
+        "F04",
+        "F07"
+      ],
+      "author_disposition": "SUPPLEMENTAL_SCOPE",
+      "author_rationale": "기존 L01은 관리기준 변경과 검토의 문제를 다룬다. F08·F11은 구체적 계획·위험관리 이행의 별도 근거이다. F04·F07은 관리 기준 및 검토 과정의 보조 근거이며 기존 메시지 전체를 대체하지 않는다.",
+      "expert_question": "관리 기준 변경에 대한 검토와 실제 업무계획의 이행을 구분해 평가할 수 있는가?",
+      "review_status": "PENDING_EXPERT",
+      "proposed_role_change": null,
+      "learning_change_applied": false,
+      "original_warning_retained": true,
+      "original_pdf_reinspection": "PENDING",
+      "can_ship": false
+    },
+    {
+      "schema_version": "1.0",
+      "event_id": "200719HU6",
+      "queue_id": "ROOT-010",
+      "code": "WP3",
+      "standard_definition": "문서 작성 및 관리는 완벽하고 정확하며 최신의 상태를 유지한다.",
+      "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+      "provenance": {
+        "normalized_blob": "90d44bddc0e588cca8590652111abedd2d4814bf",
+        "fact_ledger_blob": "54cc4cd515d5fa0853ac1ac9dd231dbd785dfa08",
+        "learning_ledger_blob": "08853717efc036e7932665288ef23f32772400c1",
+        "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670"
+      },
+      "learning_id": "L01",
+      "original_review_class": "D",
+      "original_review_fact_ids": [
+        "F05",
+        "F06"
+      ],
+      "original_learning_fact_ids": [
+        "F03",
+        "F04",
+        "F09",
+        "F10",
+        "F11"
+      ],
+      "related_existing_learning_fact_ids": [
+        "F04"
+      ],
+      "author_disposition": "SUPPLEMENTAL_SCOPE",
+      "author_rationale": "F05·F06의 문서 정보 누락은 WP3의 구체적 근거이다. 기존 학습의 F04는 기록·식별 관리라는 관련 범위를 지원하나 동일한 문서 결함은 아니다. 문서의 정확성과 확인 행동을 분리한다.",
+      "expert_question": "문서의 정보 완전성 문제와 실제 확인행동 문제를 구분했는가?",
+      "review_status": "PENDING_EXPERT",
+      "proposed_role_change": null,
+      "learning_change_applied": false,
+      "original_warning_retained": true,
+      "original_pdf_reinspection": "PENDING",
+      "can_ship": false
+    },
+    {
+      "schema_version": "1.0",
+      "event_id": "190510HB1",
+      "queue_id": "ROOT-011",
+      "code": "DM2",
+      "standard_definition": "모든 종사자는 의사결정 시 원자력안전을 고려하여 보수적이고 신중함을 견지한다.",
+      "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+      "provenance": {
+        "normalized_blob": "0f597627ee408e2dbe7dd8b26f014035ca68f22f",
+        "fact_ledger_blob": "935f291edd569d5edf9f1da0df7e936598b14572",
+        "learning_ledger_blob": "6fc4f3bd862876c56af1cf987f1a920f64f543c6",
+        "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670"
+      },
+      "learning_id": "L01",
+      "original_review_class": "D",
+      "original_review_fact_ids": [
+        "F13",
+        "F14",
+        "F16"
+      ],
+      "original_learning_fact_ids": [
+        "F03",
+        "F05",
+        "F06",
+        "F07"
+      ],
+      "related_existing_learning_fact_ids": [],
+      "author_disposition": "SEPARATE_LEARNING_QUESTION",
+      "author_rationale": "기존 L01은 작업 범위와 위험 재평가 중심이다. F13·F16의 판단 및 요구 조치 문제와 F14의 보수적 판단 저해 우려는 별도의 판단 근거 학습으로 다룬다. F14가 개인의 직접 동기라는 해석은 금지한다.",
+      "expert_question": "안전 중심의 신중한 판단과 생산 관련 우려를 어떻게 구분해 평가할 것인가?",
+      "review_status": "PENDING_EXPERT",
+      "proposed_role_change": null,
+      "learning_change_applied": false,
+      "original_warning_retained": true,
+      "original_pdf_reinspection": "PENDING",
+      "can_ship": false
+    },
+    {
+      "schema_version": "1.0",
+      "event_id": "061011U2",
+      "queue_id": "ROOT-024",
+      "code": "QA2",
+      "standard_definition": "모든 종사자는 불확실할 경우 작업을 중단하고 작업 재개 전 리스크를 평가하고 관리한다.",
+      "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+      "provenance": {
+        "normalized_blob": "cafcf775e8e3e5ef4e13b721bb41f0c55d69196b",
+        "fact_ledger_blob": "834595d65daae49640f5527e444912a515df98fe",
+        "learning_ledger_blob": "065ca5cf803000c19ccbf218fad4b2c43e385ed2",
+        "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670"
+      },
+      "learning_id": "L03",
+      "original_review_class": "I",
+      "original_review_fact_ids": [
+        "F07",
+        "F17"
+      ],
+      "original_learning_fact_ids": [
+        "F08",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F16",
+        "F20",
+        "F22",
+        "F23",
+        "F24",
+        "F25",
+        "F26"
+      ],
+      "related_existing_learning_fact_ids": [],
+      "author_disposition": "EXPERT_RECLASSIFICATION_REQUIRED",
+      "author_rationale": "기존 L03은 교육·훈련 및 경험의 적합성이다. F07·F17의 판단 오류만으로 불확실시 작업 중단 및 재개 전 리스크 평가 미흡을 입증하지 못한다. I 유지 여부 또는 H 전환을 전문가에게 제안하고 사실 ID를 억지로 추가하지 않는다.",
+      "expert_question": "불확실성 인지, 중단·재평가의 요구와 실제 이행에 대한 근거가 있는가? 없다면 교육 가설로 전환할 것인가?",
+      "review_status": "PENDING_EXPERT",
+      "proposed_role_change": [
+        "I",
+        "H"
+      ],
+      "learning_change_applied": false,
+      "original_warning_retained": true,
+      "original_pdf_reinspection": "PENDING",
+      "can_ship": false
+    },
+    {
+      "schema_version": "1.0",
+      "event_id": "060507U1",
+      "queue_id": "ROOT-030",
+      "code": "WP3",
+      "standard_definition": "문서 작성 및 관리는 완벽하고 정확하며 최신의 상태를 유지한다.",
+      "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+      "provenance": {
+        "normalized_blob": "a46bb0f849e5b4d4719340f4d6d3694239ba938f",
+        "fact_ledger_blob": "4fefedf38e43a9a04bd1216778b9a685ecb6a040",
+        "learning_ledger_blob": "5ce3042f627c24540676f6e435ccaa7826842d1d",
+        "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670"
+      },
+      "learning_id": "L01",
+      "original_review_class": "D",
+      "original_review_fact_ids": [
+        "F14"
+      ],
+      "original_learning_fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F16",
+        "F17"
+      ],
+      "related_existing_learning_fact_ids": [
+        "F05"
+      ],
+      "author_disposition": "SEPARATE_SCOPE_AND_CORROBORATION",
+      "author_rationale": "F14는 문서 간 적용범위 불일치, F05는 추가 업무의 공식 문서화 문제이다. 관련되지만 서로 다른 근거이다. F02의 최초 업무 적절 평가도 유지한다. F14를 기존 업무 완료 메시지의 단일 원인으로 취급하지 않는다.",
+      "expert_question": "업무지시 문서화와 문서 간 정합성을 구분하고 적절했던 업무 범위도 보존했는가?",
+      "review_status": "PENDING_EXPERT",
+      "proposed_role_change": null,
+      "learning_change_applied": false,
+      "original_warning_retained": true,
+      "original_pdf_reinspection": "PENDING",
+      "can_ship": false
+    }
+  ],
+  "author_reviewed": 6,
+  "role_reclassification_required": 1,
+  "production_changes": 0,
+  "can_ship": false
+}
