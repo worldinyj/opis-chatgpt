@@ -1,0 +1,1007 @@
+{
+  "schema_version": "1.0",
+  "event_id": "060507U1",
+  "queue_id": "ROOT-030",
+  "standard_version": "1.0",
+  "analysis_version": "0.1.0",
+  "source_commit": "a715bf4fd6aaaf0dbb8c99e35751674d2997f7e9",
+  "provenance": {
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "fact_ledger_blob": "4fefedf38e43a9a04bd1216778b9a685ecb6a040",
+    "learning_ledger_blob": "5ce3042f627c24540676f6e435ccaa7826842d1d",
+    "review_blob": "1d9ffc3761507025a9ae478297ac28355f7ce291",
+    "review_path": "cases/2006/060507U1/review_package/PHASE3B_ATTRIBUTE_REVIEW_20261126.json",
+    "phase3b_summary_blob": "46a8592a933fa6c92461113b490b2bbb114be68d",
+    "source_sha256": "b4a68f422f2e90d7c84e8d9cd6d8255c353bbd83a84c6e7459ec8d52fe0d0e2e"
+  },
+  "entries": [
+    {
+      "code": "PA1",
+      "name": "규정",
+      "principle": "PA",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "legacy_index_candidate": true,
+      "legacy_learning_core": true,
+      "legacy_additional": false,
+      "review_scope": "CORE_AUTHOR_REVIEW",
+      "evidence": {
+        "classification": "I",
+        "fact_refs": [
+          "F05",
+          "F07"
+        ],
+        "rationale": "규정 인식과 업무행동 구분",
+        "source_refs": [
+          {
+            "fact_id": "F05",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.가",
+            "pdf_pages": [
+              6
+            ],
+            "printed_pages": [
+              4
+            ]
+          },
+          {
+            "fact_id": "F07",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.가",
+            "pdf_pages": [
+              6
+            ],
+            "printed_pages": [
+              4
+            ]
+          }
+        ]
+      },
+      "learning_ids": [
+        "L01"
+      ],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "principle": "PA",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "PA3",
+      "name": "팀워크",
+      "principle": "PA",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "principle": "QA",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "principle": "QA",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "legacy_index_candidate": true,
+      "legacy_learning_core": true,
+      "legacy_additional": false,
+      "review_scope": "CORE_AUTHOR_REVIEW",
+      "evidence": {
+        "classification": "I",
+        "fact_refs": [
+          "F08",
+          "F09",
+          "F10"
+        ],
+        "rationale": "상황 오인과 불확실시 중단 구분",
+        "source_refs": [
+          {
+            "fact_id": "F08",
+            "kind": "OBSERVED_FACT",
+            "section": "2.다; 3.나",
+            "pdf_pages": [
+              6
+            ],
+            "printed_pages": [
+              4
+            ]
+          },
+          {
+            "fact_id": "F09",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.나",
+            "pdf_pages": [
+              7
+            ],
+            "printed_pages": [
+              5
+            ]
+          },
+          {
+            "fact_id": "F10",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.나",
+            "pdf_pages": [
+              7
+            ],
+            "printed_pages": [
+              5
+            ]
+          }
+        ]
+      },
+      "learning_ids": [
+        "L02"
+      ],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "principle": "QA",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "QA4",
+      "name": "자만 방지",
+      "principle": "QA",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "legacy_index_candidate": true,
+      "legacy_learning_core": true,
+      "legacy_additional": false,
+      "review_scope": "CORE_AUTHOR_REVIEW",
+      "evidence": {
+        "classification": "D",
+        "fact_refs": [
+          "F07",
+          "F09"
+        ],
+        "rationale": "정상화 확인 및 잠재 위험 인식 미흡",
+        "source_refs": [
+          {
+            "fact_id": "F07",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.가",
+            "pdf_pages": [
+              6
+            ],
+            "printed_pages": [
+              4
+            ]
+          },
+          {
+            "fact_id": "F09",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.나",
+            "pdf_pages": [
+              7
+            ],
+            "printed_pages": [
+              5
+            ]
+          }
+        ]
+      },
+      "learning_ids": [
+        "L02"
+      ],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "CO1",
+      "name": "업무 소통",
+      "principle": "CO",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "legacy_index_candidate": true,
+      "legacy_learning_core": true,
+      "legacy_additional": false,
+      "review_scope": "CORE_AUTHOR_REVIEW",
+      "evidence": {
+        "classification": "I",
+        "fact_refs": [
+          "F03",
+          "F08"
+        ],
+        "rationale": "구두 지시 자체보다 소통 충분성 근거 필요",
+        "source_refs": [
+          {
+            "fact_id": "F03",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.가",
+            "pdf_pages": [
+              6
+            ],
+            "printed_pages": [
+              4
+            ]
+          },
+          {
+            "fact_id": "F08",
+            "kind": "OBSERVED_FACT",
+            "section": "2.다; 3.나",
+            "pdf_pages": [
+              6
+            ],
+            "printed_pages": [
+              4
+            ]
+          }
+        ]
+      },
+      "learning_ids": [
+        "L01"
+      ],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "principle": "CO",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "principle": "CO",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "CO4",
+      "name": "방침",
+      "principle": "CO",
+      "role": "INSUFFICIENT_OR_LOW_RELEVANCE_LEGACY",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": false,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "LA1",
+      "name": "자원",
+      "principle": "LA",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "LA2",
+      "name": "현장 순시",
+      "principle": "LA",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "principle": "LA",
+      "role": "INSUFFICIENT_OR_LOW_RELEVANCE_LEGACY",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": false,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "principle": "LA",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "LA5",
+      "name": "변화 관리",
+      "principle": "LA",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "principle": "LA",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "LA7",
+      "name": "지속적 진단",
+      "principle": "LA",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "principle": "LA",
+      "role": "INSUFFICIENT_OR_LOW_RELEVANCE_LEGACY",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": false,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "principle": "DM",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "legacy_index_candidate": true,
+      "legacy_learning_core": true,
+      "legacy_additional": false,
+      "review_scope": "CORE_AUTHOR_REVIEW",
+      "evidence": {
+        "classification": "I",
+        "fact_refs": [
+          "F09",
+          "F10"
+        ],
+        "rationale": "판단 오류와 일관적 프로세스 구분",
+        "source_refs": [
+          {
+            "fact_id": "F09",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.나",
+            "pdf_pages": [
+              7
+            ],
+            "printed_pages": [
+              5
+            ]
+          },
+          {
+            "fact_id": "F10",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.나",
+            "pdf_pages": [
+              7
+            ],
+            "printed_pages": [
+              5
+            ]
+          }
+        ]
+      },
+      "learning_ids": [
+        "L02"
+      ],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "DM2",
+      "name": "보수적 성향",
+      "principle": "DM",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "principle": "DM",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "WE1",
+      "name": "분명한 존중",
+      "principle": "WE",
+      "role": "INSUFFICIENT_OR_LOW_RELEVANCE_LEGACY",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": false,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "WE2",
+      "name": "의견 존중",
+      "principle": "WE",
+      "role": "INSUFFICIENT_OR_LOW_RELEVANCE_LEGACY",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": false,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "principle": "WE",
+      "role": "INSUFFICIENT_OR_LOW_RELEVANCE_LEGACY",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": false,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "WE4",
+      "name": "갈등 해소",
+      "principle": "WE",
+      "role": "INSUFFICIENT_OR_LOW_RELEVANCE_LEGACY",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": false,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "CL1",
+      "name": "운전 경험",
+      "principle": "CL",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "CL2",
+      "name": "자체 진단",
+      "principle": "CL",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "CL3",
+      "name": "벤치마킹",
+      "principle": "CL",
+      "role": "INSUFFICIENT_OR_LOW_RELEVANCE_LEGACY",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": false,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "CL4",
+      "name": "교육 훈련",
+      "principle": "CL",
+      "role": "EDUCATION_ONLY",
+      "legacy_index_candidate": true,
+      "legacy_learning_core": true,
+      "legacy_additional": false,
+      "review_scope": "CORE_AUTHOR_REVIEW",
+      "evidence": {
+        "classification": "H",
+        "fact_refs": [
+          "F18",
+          "F19"
+        ],
+        "rationale": "교육 강화 요구만으로 기존 교육 결함 확정 불가",
+        "source_refs": [
+          {
+            "fact_id": "F18",
+            "kind": "OBSERVED_FACT",
+            "section": "4",
+            "pdf_pages": [
+              9
+            ],
+            "printed_pages": [
+              7
+            ]
+          },
+          {
+            "fact_id": "F19",
+            "kind": "REPORTED_ASSESSMENT",
+            "section": "4",
+            "pdf_pages": [
+              9
+            ],
+            "printed_pages": [
+              7
+            ]
+          }
+        ]
+      },
+      "learning_ids": [
+        "L02"
+      ],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "PI1",
+      "name": "문제 파악",
+      "principle": "PI",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "PI2",
+      "name": "문제 평가",
+      "principle": "PI",
+      "role": "EDUCATION_ONLY",
+      "legacy_index_candidate": true,
+      "legacy_learning_core": true,
+      "legacy_additional": false,
+      "review_scope": "CORE_AUTHOR_REVIEW",
+      "evidence": {
+        "classification": "H",
+        "fact_refs": [
+          "F15",
+          "F23"
+        ],
+        "rationale": "조사팀 원인평가 적절 평가, 보완 요구와 실패 구분",
+        "source_refs": [
+          {
+            "fact_id": "F15",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.라",
+            "pdf_pages": [
+              9
+            ],
+            "printed_pages": [
+              7
+            ]
+          },
+          {
+            "fact_id": "F23",
+            "kind": "REPORTED_ASSESSMENT",
+            "section": "7",
+            "pdf_pages": [
+              11
+            ],
+            "printed_pages": [
+              9
+            ]
+          }
+        ]
+      },
+      "learning_ids": [
+        "L03"
+      ],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "PI3",
+      "name": "문제 해결",
+      "principle": "PI",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "PI4",
+      "name": "경향 분석",
+      "principle": "PI",
+      "role": "INSUFFICIENT_OR_LOW_RELEVANCE_LEGACY",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": false,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "principle": "RC",
+      "role": "INSUFFICIENT_OR_LOW_RELEVANCE_LEGACY",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": false,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "principle": "RC",
+      "role": "INSUFFICIENT_OR_LOW_RELEVANCE_LEGACY",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": false,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "WP1",
+      "name": "작업 관리",
+      "principle": "WP",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "legacy_index_candidate": true,
+      "legacy_learning_core": true,
+      "legacy_additional": false,
+      "review_scope": "CORE_AUTHOR_REVIEW",
+      "evidence": {
+        "classification": "D",
+        "fact_refs": [
+          "F03",
+          "F05",
+          "F06"
+        ],
+        "rationale": "공식 업무관리와 완료 확인 미흡",
+        "source_refs": [
+          {
+            "fact_id": "F03",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.가",
+            "pdf_pages": [
+              6
+            ],
+            "printed_pages": [
+              4
+            ]
+          },
+          {
+            "fact_id": "F05",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.가",
+            "pdf_pages": [
+              6
+            ],
+            "printed_pages": [
+              4
+            ]
+          },
+          {
+            "fact_id": "F06",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.가",
+            "pdf_pages": [
+              6
+            ],
+            "printed_pages": [
+              4
+            ]
+          }
+        ]
+      },
+      "learning_ids": [
+        "L01"
+      ],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "WP2",
+      "name": "설계 여유도",
+      "principle": "WP",
+      "role": "ADDITIONAL_REVIEW_PENDING",
+      "legacy_index_candidate": false,
+      "legacy_learning_core": false,
+      "legacy_additional": true,
+      "review_scope": "LEGACY_ONLY_NOT_INDIVIDUALLY_REVIEWED",
+      "evidence": null,
+      "learning_ids": [],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "WP3",
+      "name": "문서화",
+      "principle": "WP",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "legacy_index_candidate": true,
+      "legacy_learning_core": true,
+      "legacy_additional": false,
+      "review_scope": "CORE_AUTHOR_REVIEW",
+      "evidence": {
+        "classification": "D",
+        "fact_refs": [
+          "F14"
+        ],
+        "rationale": "문서 간 적용범위 불일치",
+        "source_refs": [
+          {
+            "fact_id": "F14",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.라",
+            "pdf_pages": [
+              9
+            ],
+            "printed_pages": [
+              7
+            ]
+          }
+        ]
+      },
+      "learning_ids": [
+        "L01"
+      ],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    },
+    {
+      "code": "WP4",
+      "name": "절차 준수",
+      "principle": "WP",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "legacy_index_candidate": true,
+      "legacy_learning_core": true,
+      "legacy_additional": false,
+      "review_scope": "CORE_AUTHOR_REVIEW",
+      "evidence": {
+        "classification": "I",
+        "fact_refs": [
+          "F05",
+          "F06"
+        ],
+        "rationale": "요구 절차 조항 대조 필요, 최초 업무 적절",
+        "source_refs": [
+          {
+            "fact_id": "F05",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.가",
+            "pdf_pages": [
+              6
+            ],
+            "printed_pages": [
+              4
+            ]
+          },
+          {
+            "fact_id": "F06",
+            "kind": "INVESTIGATOR_FINDING",
+            "section": "3.가",
+            "pdf_pages": [
+              6
+            ],
+            "printed_pages": [
+              4
+            ]
+          }
+        ]
+      },
+      "learning_ids": [
+        "L01"
+      ],
+      "expert_status": "PENDING",
+      "expert_decision": null
+    }
+  ],
+  "counts": {
+    "INDIRECT_REVIEW_CANDIDATE": 5,
+    "ADDITIONAL_REVIEW_PENDING": 19,
+    "DIRECT_REVIEW_CANDIDATE": 3,
+    "INSUFFICIENT_OR_LOW_RELEVANCE_LEGACY": 11,
+    "EDUCATION_ONLY": 2
+  },
+  "legacy": {
+    "index_candidates": [
+      "WP1",
+      "WP3",
+      "WP4",
+      "PA1",
+      "CO1",
+      "QA2",
+      "QA4",
+      "DM1",
+      "CL4",
+      "PI2"
+    ],
+    "learning_core": [
+      "WP1",
+      "WP3",
+      "WP4",
+      "PA1",
+      "CO1",
+      "QA2",
+      "QA4",
+      "DM1",
+      "CL4",
+      "PI2"
+    ],
+    "additional_review": [
+      "PA2",
+      "PA3",
+      "QA1",
+      "QA3",
+      "CO2",
+      "CO3",
+      "LA1",
+      "LA2",
+      "LA4",
+      "LA5",
+      "LA6",
+      "LA7",
+      "DM2",
+      "DM3",
+      "CL1",
+      "CL2",
+      "PI1",
+      "PI3",
+      "WP2"
+    ],
+    "approved_attributes": []
+  },
+  "changes": {
+    "excluded_from_proposed_weakness_view": [
+      "CL4",
+      "PI2"
+    ],
+    "learning_not_in_legacy_index": [],
+    "source_data_mutated": false
+  },
+  "validation": {
+    "status": "PASS_STRUCTURAL",
+    "errors": [],
+    "warnings": [
+      {
+        "code": "WP3",
+        "type": "NO_SHARED_LEARNING_FACT",
+        "note": "Review evidence and existing learning evidence do not intersect; assess meaning, do not auto-edit."
+      },
+      {
+        "type": "LEGACY_INDEX_NON_WEAKNESS_ROLE",
+        "codes": [
+          "CL4",
+          "PI2"
+        ]
+      }
+    ],
+    "semantic_validation": "PENDING",
+    "original_pdf_reinspection": "PENDING"
+  },
+  "approved_attributes": [],
+  "confirmed_weakness_count": null,
+  "can_ship": false
+}
