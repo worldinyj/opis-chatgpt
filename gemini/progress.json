@@ -5,17 +5,17 @@
   "branch": "main",
   "total_cases": 38,
   "summary": {
-    "analysis_completed_count": 28,
-    "github_stored_count": 28,
+    "analysis_completed_count": 29,
+    "github_stored_count": 29,
     "exported_pending_upload_count": 0,
-    "not_started_count": 10,
+    "not_started_count": 9,
     "blocked_count": 0
   },
   "next_case": {
-    "queue_id": "ROOT-028",
-    "event_id": "100917SK1",
-    "event_year": 2010,
-    "drive_filename_hint": "2010-09-17_신고리 1호기시운전중 살수격리밸브의 비정상.pdf"
+    "queue_id": "ROOT-029",
+    "event_id": "090903W2",
+    "event_year": 2009,
+    "drive_filename_hint": "2009-09-03_월성2호기_계획예방정비_기간중_역전력계전기_오작동에_의한_스위치야드ᄎ.pdf"
   },
   "updated_at": "2026-11-26",
   "cases": [
@@ -415,14 +415,15 @@
       "queue_id": "ROOT-028",
       "event_id": "100917SK1",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "PASS",
       "artifact_path": "gemini/cases/2010/100917SK1/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
+      "zip_filename": "GEMINI_ROOT-028_100917SK1_v1(1).zip",
+      "github_commit_sha": "e0a3d0961334e6e38037a5336bf48e0a5a4fcf23",
+      "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "updated_at": "2026-11-26",
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-029",
