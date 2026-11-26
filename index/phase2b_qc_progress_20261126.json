@@ -1,0 +1,403 @@
+{
+  "date": "2026-11-26",
+  "phase": "2-B",
+  "source_commit": "ae15fda9973a194e4558f8e921e949487da460e3",
+  "scope": 37,
+  "repository_js_contract_cases_passed": 3,
+  "repository_js_contract_tests_passed": 42,
+  "remaining_js_cases": 34,
+  "full_python_contracts": "NOT_RUN_AS_CORPUS",
+  "ppt_actual_render": "NOT_RUN_AS_CORPUS",
+  "a4": "NOT_IN_EXISTING_WORKER_SCOPE",
+  "local_dns": "GITHUB_DNS_FAILURE",
+  "connector_batch_limit": "EXCEEDED_ON_22_CALL_ATTEMPT; per-case actual checks performed instead",
+  "runner_test": {
+    "date": "2026-11-26",
+    "test_kind": "SYNTHETIC_FIXTURE_SUBPROCESS_INTEGRATION",
+    "runner_git_blob": "1c048714b2f1cd51f4437dd964b48f105d8b3b43",
+    "local_runner_blob_verified": true,
+    "method": "Temporary local Git repository with 4 fictional cases and a synthetic worker returning expected QC data; real subprocess, JSON/CSV aggregation and exit codes. No actual contract/renderer worker execution in fixture.",
+    "python_compile": "PASS",
+    "tests": [
+      {
+        "name": "all_contracts",
+        "exit": 1,
+        "counts": {
+          "PASS_CONTRACT_ONLY": 2,
+          "FAIL_CONTRACT": 1,
+          "ERROR": 1
+        },
+        "processed": 4
+      },
+      {
+        "name": "all_render",
+        "exit": 1,
+        "counts": {
+          "RENDERED_MANUAL_REVIEW_REQUIRED": 1,
+          "FAIL_CONTRACT": 1,
+          "REVIEW_RENDER_FLAGS": 1,
+          "ERROR": 1
+        },
+        "processed": 4
+      },
+      {
+        "name": "select_retry",
+        "exit": 0,
+        "counts": {
+          "PASS_CONTRACT_ONLY": 1
+        },
+        "processed": 1
+      },
+      {
+        "name": "select_event",
+        "exit": 0,
+        "counts": {
+          "PASS_CONTRACT_ONLY": 1
+        },
+        "processed": 1
+      }
+    ],
+    "tracked_clean": true,
+    "checks_passed": 4,
+    "checks_total": 4,
+    "actual_full_corpus_integration": "PENDING",
+    "can_ship": false
+  },
+  "rows": [
+    {
+      "queue_id": "ROOT-001",
+      "event_id": "250112W2",
+      "repository_js_qc": "PASS_14_OF_14",
+      "record_path": "cases/2025/250112W2/review_package/REPOSITORY_JS_CONTRACT_QC_20261126.json",
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-002",
+      "event_id": "240908HB6",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-003",
+      "event_id": "240513W4",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-004",
+      "event_id": "240319W3",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-005",
+      "event_id": "250314SH2",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-006",
+      "event_id": "230405W2",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-007",
+      "event_id": "221222K3",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-008",
+      "event_id": "220908SW2",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-009",
+      "event_id": "210712K3",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-010",
+      "event_id": "200719HU6",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-011",
+      "event_id": "190510HB1",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-012",
+      "event_id": "190121W3",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-013",
+      "event_id": "180611W3",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-014",
+      "event_id": "170327K4",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-015",
+      "event_id": "161220HU5",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-016",
+      "event_id": "160227HB1",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-017",
+      "event_id": "150903K4",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-018",
+      "event_id": "141017Y3",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-019",
+      "event_id": "141001Y12",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-020",
+      "event_id": "140617W4",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-021",
+      "event_id": "140228Y2",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-022",
+      "event_id": "130414KR4",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-023",
+      "event_id": "130117U1",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-024",
+      "event_id": "061011U2",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-025",
+      "event_id": "121126U6",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-026",
+      "event_id": "110621K2",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-027",
+      "event_id": "110419K34",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-028",
+      "event_id": "100917SK1",
+      "repository_js_qc": "PASS_14_OF_14",
+      "record_path": "cases/2010/100917SK1/review_package/REPOSITORY_JS_CONTRACT_QC_20261126.json",
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-029",
+      "event_id": "090903W2",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-030",
+      "event_id": "060507U1",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-031",
+      "event_id": "051106W1",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-032",
+      "event_id": "031229Y5",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-033",
+      "event_id": "020405U4",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-034",
+      "event_id": "001117K1",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-035",
+      "event_id": "990323Y2",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-036",
+      "event_id": "970117-1502",
+      "repository_js_qc": "PENDING_NOT_EXECUTED_IN_PHASE2B",
+      "record_path": null,
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    },
+    {
+      "queue_id": "ROOT-037",
+      "event_id": "941020-1301",
+      "repository_js_qc": "PASS_14_OF_14",
+      "record_path": "cases/1994/941020-1301/review_package/REPOSITORY_JS_CONTRACT_QC_20261126.json",
+      "full_python_contract": "PENDING_INTEGRATION",
+      "ppt_render": "NOT_REASSESSED_IN_PHASE2B",
+      "a4": "NOT_IN_WORKER_SCOPE"
+    }
+  ],
+  "next": "RUN_CORPUS_CONTRACTS_AND_RENDER_IN_CHECKOUT; ADD_A4_REPORT_RENDERER",
+  "can_ship": false
+}

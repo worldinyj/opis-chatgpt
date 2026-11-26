@@ -3,6 +3,7 @@
 import argparse
 import csv
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -18,6 +19,9 @@ def scope(root):
     events = read(root / "index/events.json")
     items = queue["items"]
     ids = [i["event_id"] for i in items]
+    queue_ids = [i["queue_id"] for i in items]
+    if not queue_ids or len(set(queue_ids)) != len(queue_ids) or any(not re.fullmatch(r"ROOT-[0-9]{3}", x) for x in queue_ids):
+        raise ValueError("Invalid or duplicate root queue ID")
     if any(not x for x in ids) or len(set(ids)) != len(ids):
         raise ValueError("Unregistered or duplicate intake event ID")
     by_id = {}
@@ -52,7 +56,11 @@ def classify(result, returncode, contracts_only):
     p = result.get("ppt")
     if not p:
         return "ERROR"
-    if p.get("replacement_glyph_pages"):
+    summary = p.get("summary", {})
+    if not summary.get("slides") or summary.get("notes_present") is None or summary.get("pdf_text_flags") is None or summary.get("top_level_bounds_flags") is None:
+        return "ERROR"
+    if (p.get("replacement_glyph_pages") or summary["notes_present"] != summary["slides"]
+            or summary["pdf_text_flags"] or summary["top_level_bounds_flags"]):
         return "REVIEW_RENDER_FLAGS"
     return "RENDERED_MANUAL_REVIEW_REQUIRED"
 

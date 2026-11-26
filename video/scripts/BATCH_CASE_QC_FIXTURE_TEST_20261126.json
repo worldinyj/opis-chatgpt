@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-26",
+  "test_kind": "SYNTHETIC_FIXTURE_SUBPROCESS_INTEGRATION",
+  "runner_git_blob": "1c048714b2f1cd51f4437dd964b48f105d8b3b43",
+  "local_runner_blob_verified": true,
+  "method": "Temporary local Git repository with 4 fictional cases and a synthetic worker returning expected QC data; real subprocess, JSON/CSV aggregation and exit codes. No actual contract/renderer worker execution in fixture.",
+  "python_compile": "PASS",
+  "tests": [
+    {
+      "name": "all_contracts",
+      "exit": 1,
+      "counts": {
+        "PASS_CONTRACT_ONLY": 2,
+        "FAIL_CONTRACT": 1,
+        "ERROR": 1
+      },
+      "processed": 4
+    },
+    {
+      "name": "all_render",
+      "exit": 1,
+      "counts": {
+        "RENDERED_MANUAL_REVIEW_REQUIRED": 1,
+        "FAIL_CONTRACT": 1,
+        "REVIEW_RENDER_FLAGS": 1,
+        "ERROR": 1
+      },
+      "processed": 4
+    },
+    {
+      "name": "select_retry",
+      "exit": 0,
+      "counts": {
+        "PASS_CONTRACT_ONLY": 1
+      },
+      "processed": 1
+    },
+    {
+      "name": "select_event",
+      "exit": 0,
+      "counts": {
+        "PASS_CONTRACT_ONLY": 1
+      },
+      "processed": 1
+    }
+  ],
+  "tracked_clean": true,
+  "checks_passed": 4,
+  "checks_total": 4,
+  "actual_full_corpus_integration": "PENDING",
+  "can_ship": false
+}
