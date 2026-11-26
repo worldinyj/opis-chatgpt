@@ -141,7 +141,7 @@
         "claude/cases/2023/230405W2/v1/validation.md"
       ],
       "zip": "CLAUDE_ROOT-006_230405W2_v1.zip",
-      "github_commit_sha": null,
+      "github_commit_sha": "92b9b4fe28f3f93e39467885ed48ec9208e03847",
       "checks": "Original validation.md; intake in INTAKE_STATUS.json.",
       "constraints": [
         "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
@@ -151,8 +151,7 @@
         "작업자·감독자 행동은 붙임 2의 원전운영자 설명 요약에 의존",
         "리더십 계열 속성 다수 N(작업관리 중심 보고서)"
       ],
-      "integration_status": "HOLD",
-      "commit_reference_note": "Commit recorded in follow-up."
+      "integration_status": "HOLD"
     }
   ],
   "next_queue_id": "ROOT-007",
