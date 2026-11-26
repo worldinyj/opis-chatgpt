@@ -166,12 +166,11 @@
       "validation_status": "PASS",
       "artifact_path": "gemini/cases/2020/200719HU6/v1/",
       "zip_filename": "GEMINI_ROOT-010_200719HU6_v1.zip",
-      "github_commit_sha": null,
+      "github_commit_sha": "f220a4537796a1a6858dfe3e954731a89aa930ba",
       "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
       "updated_at": "2026-11-26",
-      "integration_status": "PENDING_INTEGRATION",
-      "commit_reference_note": "Commit recorded in follow-up."
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-011",
