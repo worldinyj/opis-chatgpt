@@ -1,0 +1,1301 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-025",
+  "event_id": "121126U6",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2012-11-26 _울진 6호기계획예방정비 중부적절한 안전주입.pdf",
+    "report_number": "2012-17호(121126U6)",
+    "report_date": "2012-12-03",
+    "sha256": "25c453c50ef696f2e0a0500376c6de63080d7d21c320ee945576dafc2bffab27",
+    "pdf_page_count": 12,
+    "reading_scope": "원본 PDF 전 12쪽 텍스트 추출(11,765자) 및 본문 전체(표지, 사건 요약, 1장 개요~5장 결론, PDF 1~12쪽) 정밀 판독 완료. 로컬 바이너리 SHA-256 해시·파일 크기(504,858 bytes)·페이지 수(12쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 KINS 원본 조사보고서(2012-17호)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "2012.11.26.(월) 01:03 울진 6호기 제6차 계획예방정비 중 발전소 기동을 위해 고온정지(운전모드 4, 출력 0%, RCS 압력 35 kg/cm²·온도 171℃) 상태에서 원자로냉각재계통(RCS)을 승압하던 중, 안전주입 우회신호 자동해제 압력(35 kg/cm²)에 도달하는 즉시 가압기 저압력 오신호(설정치 111 kg/cm² 잔존)로 안전주입작동신호(SIAS)·격납건물격리작동신호(CIAS) A/B계열 및 비상디젤발전기(EDG) A/B계열이 자동기동되어 약 30톤의 붕산수가 주입되었다(원안위 고시 제2012-85호 별표 3.2 보고 및 안전성 확인·승인 대상).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2.2절, 3.3.1절",
+          "printed_pages": [
+            1,
+            2,
+            6
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            8
+          ],
+          "summary": "운전모드 4 승압 중 35 kg/cm² 도달 즉시 가압기 저압력 오신호(111 kg/cm²)로 SIAS/CIAS 및 EDG A/B 자동기동(약 30톤 주입)"
+        }
+      ],
+      "limitation": "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않음."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "계측제어팀 정비원이 제6차 계획예방정비 중 정기시험(정기-6711C, 원자로보호계통 교정, '12.10.26~11.24)을 완료한 뒤 절차서 '11.1 계통복귀' 단계(시험용 고정 설정치 111→7 kg/cm² 초기화)를 누락했다. KINS 면담·서류조사 결과 ① 해당 정비원은 이전 울진 5호기 OH 시 교육 목적 부분 참여 경험만 있고 '11.1 계통복귀' 단계는 미경험이며 금번 작업 교육도 미이수했고, ② 10.26~11.26 짧은 기간에 직접정비 5건·감독업무 15건 등 총 20개 작업을 동시 수행해 집중력이 저하되었으며, ③ 발전소 재기동 일정에 따른 시간 압박으로 야간(11.24 토 22:00~23:30)에 작업을 수행했고, ④ 정기-6711C '11.1 계통복귀' 절에 PM 모듈 간 설정치 오류 설명만 있고 설정값 초기화 의미가 불완전하게 기술되어 있어 정비원이 계통복귀를 생략해도 된다고 오판했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "2012.11.25 05:00 종합-3001(상온정지→고온대기)에 진입한 운전조 5팀은 초기조건 4.1.7(RPS/ESFAS 운전가능상태 확인)에서 상태등·경보창만 확인하고 해당 정비원으로부터 정비현황을 보고받지 않았으며 별도 확인 조치도 수행하지 않아 잘못된 설정치(111 kg/cm²)가 방치되었다. 이어 5팀·4팀·6팀·3팀 등 4개 교대조 모두가 3.4.5(안전주입 설정치 확인)를 확인하지 않았고, 11.26 00:30 승압을 수행한 3팀(Night 조)도 5.36 단계 전 '주의사항'(가압기 저압력 설정치 재확인)을 '선행 운전조가 당연히 확인했을 것'이라 가정해 누락(Self-Checking 미흡)했다. KINS는 선행조(5·4·6팀)는 후행조(3팀)가 확인할 것으로, 후행조(3팀)는 선행조(5팀)가 확인했을 것으로 서로 떠넘긴 일련의 부주의가 누적되었다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F04",
+      "summary": "안전주입 발생 직후 운전원은 SIAS 오동작으로 신속 진단하고 비정상-3712B(SIAS 오동작)에 착수했으나, 절차서 순서(HPSI A/B 정지 → LPSI A/B 정지)를 따르지 않고 유량 미형성 LPSI A/B를 먼저 정지(01:06)한 뒤 11분 후 HPSI A/B를 정지(01:17)하는 비순차적 수행을 했다. 이로 인해 가압기 수위가 예상보다 많이 증가하자 사건 발생 33분 후(01:46) 발전팀장 판단으로 격납건물 유출유로 격리밸브(CV-V515/516/523)를 수동 개방해 LCO 3.6.3.1을 적용(02:10 해제)했으며, KINS는 이를 절차서 미준수로 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "사건 요약, 2.2절, 3.2.2절, 5장",
+          "printed_pages": [
+            1,
+            2,
+            6,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            8,
+            11
+          ],
+          "summary": "비정상-3712B HPSI/LPSI 비순차 정지 및 가압기 수위 증가에 따른 유출유로 격리밸브 수동개방(LCO 3.6.3.1 적용) 절차 미준수"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F05",
+      "summary": "안전주입 발생 시 SIAS·CIAS·CREVAS 및 EDG(10초 이내 도달)·HPSIP·LPSIP 등 모든 공학적안전설비 기기가 FSAR 표 7.3-15·16·18 기준에 따라 정상 작동했고, RCS 압력-온도 과도(171→156.7℃, 34.7→72.5 kg/cm²), 최대 냉각률(9.76℉/hr ≤ 100℉/hr), 열응력(온도차 253.8℉ ≤ 310℉), 피로빈도(1회/설계 40회) 및 소내외 방사선 영향 모두 기준 이내로 안전성에 문제가 없음을 확인했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.2.1절, 3.3절",
+          "printed_pages": [
+            5,
+            6,
+            7
+          ],
+          "pdf_pages": [
+            7,
+            8,
+            9
+          ],
+          "summary": "안전계통 기기 정상 작동, 구조건전성(압력-온도·냉각률·열응력·피로) 만족 및 방사선 영향 없음 확인"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F06",
+      "summary": "원전운영자는 단기조치(정비 수행 SPV 686건·LOV 26건[1건 추후점검]·SI 7건 기기 계통복귀 전량 재점검, 종합-3001~3003 주의사항 인적오류예방기법 및 Hold Point 시범설정, 울진 3발 종사자 안전문화 특별교육)를 완료하고, 장기조치(울진 5·6호기 고유설비 전문교육, 운전원 직무수행능력인증제도[JQC] '13 상반기 시행, 발전팀 '안전운전원' 보직 신설 '13 상반기, 종합-3001~3009 전면 개선·인수인계점 스탬프·Hold Point 절차화, 계측제어팀 18개월 정·주기시험절차서 계통복귀 상세기술 개정, 표준형 EOP 비교검토, 모드변경 정·주기시험 오더 행정종결 후 모드변경 수행)를 수립했다. KINS는 보완요구사항 없음 및 기술적 측면에서 안전성 문제 없음으로 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.4~5장",
+          "printed_pages": [
+            8,
+            9,
+            10
+          ],
+          "pdf_pages": [
+            2,
+            10,
+            11,
+            12
+          ],
+          "summary": "단기조치 완료, 장기조치 수립(JQC·안전운전원·종합절차서 전면개선·오더종결관리) 및 KINS 안전성 적정 판단"
+        }
+      ],
+      "limitation": "LOV 전기분야 20건 중 1건 추후점검 및 장기조치 다수는 발행일('12.12.03) 기준 '13년 상반기 이후 이행 예정 상태."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-025-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "계측제어팀 정비원의 정기-6711C '11.1 계통복귀' 누락, 4개 교대 운전조(5·4·6·3팀)의 종합-3001 4.1.7·3.4.5·5.36 주의사항 미준수, 그리고 사건 후 비정상-3712B HPSI/LPSI 정지 순서 미준수 및 유출유로 격리밸브 수동개방 등 다단계 절차·규정 미준수가 사건 발생과 복구 미흡을 직접 초래했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        },
+        {
+          "section": "사건 요약, 2.2절, 3.2.2절, 5장",
+          "printed_pages": [
+            1,
+            2,
+            6,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            8,
+            11
+          ],
+          "summary": "비정상-3712B HPSI/LPSI 비순차 정지 및 가압기 수위 증가에 따른 유출유로 격리밸브 수동개방(LCO 3.6.3.1 적용) 절차 미준수"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.1~3.2절 및 결론에서 전 과정의 절차 미준수를 직접 원인으로 명시)."
+    },
+    {
+      "review_key": "ROOT-025-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "정비원이 계통 이해 부족으로 계통복귀를 생략해도 된다고 오판했고, 4개 교대 운전조(특히 승압 수행 3팀의 Self-Checking 미흡)가 초기조건·주의사항 확인을 누락했으며, 사건 후에도 비정상절차서상 펌프 정지 순서를 임의로 변경해 가압기 수위 상승을 야기했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        },
+        {
+          "section": "사건 요약, 2.2절, 3.2.2절, 5장",
+          "printed_pages": [
+            1,
+            2,
+            6,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            8,
+            11
+          ],
+          "summary": "비정상-3712B HPSI/LPSI 비순차 정지 및 가압기 수위 증가에 따른 유출유로 격리밸브 수동개방(LCO 3.6.3.1 적용) 절차 미준수"
+        }
+      ],
+      "counterevidence_or_limitation": "절차서 불완전 기술, 20개 작업 집중 및 야간 시간압박 등 조직·환경 요인이 복합 작용함."
+    },
+    {
+      "review_key": "ROOT-025-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "종합-3001을 이어 수행한 선행조(5·4·6팀)는 후행조(3팀)가 확인할 것으로, 후행조(3팀)는 선행조(5팀)가 확인했을 것으로 서로 미루며 교대 협업이 단절되었고, 계측제어팀 정비원과 주제어실(5팀) 간 정비완료·계통복귀 현황 공유 협업도 작동하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        }
+      ],
+      "counterevidence_or_limitation": "장기조치로 '인수인계점' 스탬프 활용 및 정·주기시험 오더 행정종결 후 모드변경 수행 방안을 수립함."
+    },
+    {
+      "review_key": "ROOT-025-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "안전주입 우회해제 직전의 핵심 보호계통 설정치(가압기 저압력 가변설정치)를 정비원이 임의 생략하고 4개 운전조가 연속 간과했으며, 재기동 일정 압박 속 야간 작업 및 복구 중 비정상절차서 비순차 수행 등 원자력 안전 특수성 인식 부족이 드러났다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        },
+        {
+          "section": "사건 요약, 2.2절, 3.2.2절, 5장",
+          "printed_pages": [
+            1,
+            2,
+            6,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            8,
+            11
+          ],
+          "summary": "비정상-3712B HPSI/LPSI 비순차 정지 및 가압기 수위 증가에 따른 유출유로 격리밸브 수동개방(LCO 3.6.3.1 적용) 절차 미준수"
+        }
+      ],
+      "counterevidence_or_limitation": "단기조치로 울진 3발 종사자 대상 절차준수·인적오류 예방기법 안전문화 특별교육을 시행함."
+    },
+    {
+      "review_key": "ROOT-025-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "정비원이 '11.1 계통복귀' 단계의 초기화 의미를 정확히 이해하지 못한 불확실 상태에서 확인·질의 없이 생략했고, 운전조 5팀과 3팀도 정비현황과 가압기 저압력 설정치(111 kg/cm²)를 직접 확인하지 않은 채 승압을 진행했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        }
+      ],
+      "counterevidence_or_limitation": "안전주입 발생 직후에는 가압기 수위·압력 및 격납용기 압력을 확인해 SIAS 오동작을 신속히 진단함."
+    },
+    {
+      "review_key": "ROOT-025-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "정비원은 계통복귀가 채널별 유효숫자 일치용이라 가정해 생략해도 된다고 오판했고, 선행조(5·4·6팀)는 후행조(3팀)가 확인할 것이라, 후행조(3팀)는 선행조(5팀)가 당연히 확인했을 것이라 가정해 검증 없이 승압했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.1.1~3.1.2절에서 정비원 오판과 교대조 간 상호 가정·Self-Checking 미흡을 핵심 원인으로 명시)."
+    },
+    {
+      "review_key": "ROOT-025-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "운전모드 변경 전 반드시 확인해야 할 안전주입 설정치 주의사항(3.4.5·5.36)을 4개 교대 운전조(5·4·6·3팀)가 연속적으로 간과하고 타 교대조 확인에 의존한 안일함이 인적오류 누적에 간접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        }
+      ],
+      "counterevidence_or_limitation": "단기조치로 Hold Point 시범설정 및 인적오류 예방기법 추가 적용을 완료함."
+    },
+    {
+      "review_key": "ROOT-025-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "계측제어팀 정비원이 발전소보호계통 교정 및 계통복귀 현황을 주제어실(5팀)에 보고하지 않았고, 4개 교대 운전조(5→4→6→3팀) 간에도 가압기 저압력 설정치 확인 여부에 대한 인수인계 의사소통이 단절되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        },
+        {
+          "section": "사건 요약, 3.4~5장",
+          "printed_pages": [
+            8,
+            9,
+            10
+          ],
+          "pdf_pages": [
+            2,
+            10,
+            11,
+            12
+          ],
+          "summary": "단기조치 완료, 장기조치 수립(JQC·안전운전원·종합절차서 전면개선·오더종결관리) 및 KINS 안전성 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "장기조치로 '인수인계점' 스탬프 활용 및 오더 행정종결 후 모드변경 수행 체계를 수립함."
+    },
+    {
+      "review_key": "ROOT-025-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 근거 설명 부족을 지적하는 내용이 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "원안위 고시 보고사항 보고, 관계자 면담 및 KINS 현장조사 협조가 투명하게 이루어졌다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "계측제어팀 정비원 1명에게 10.26~11.26 짧은 기간 동안 직접정비 5건·감독업무 15건 등 총 20개 작업이 집중 배정되어 집중력이 저하되었고, 발전팀 인적자원 보강 필요성으로 장기조치에 '안전운전원' 보직 신설('13 상반기)이 수립되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "사건 요약, 3.4~5장",
+          "printed_pages": [
+            8,
+            9,
+            10
+          ],
+          "pdf_pages": [
+            2,
+            10,
+            11,
+            12
+          ],
+          "summary": "단기조치 완료, 장기조치 수립(JQC·안전운전원·종합절차서 전면개선·오더종결관리) 및 KINS 안전성 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.1.1절 표에서 20개 작업 집중 목록과 집중력 저하를 직접 근거로 제시함)."
+    },
+    {
+      "review_key": "ROOT-025-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "미경험·미교육 정비원이 야간 시간대에 안전주입 유발 핵심 보호계통 교정을 수행하고 계통복귀를 누락하는 과정과 4개 교대조의 주의사항 연속 누락에 대한 현장 관리감독이 미흡했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 발전팀장은 안전주입 복구 시 LCO 3.6.3.1을 적용했으나 비순차 펌프정지·수동개방으로 절차 미준수 판정을 받음."
+    },
+    {
+      "review_key": "ROOT-025-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 설비·조직 변경에 따른 변화관리 미흡을 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "4개 교대 운전조(5·4·6·3팀) 사이에서 종합-3001의 3.4.5(안전주입 설정치 확인) 수행 책임이 명확히 구분되지 않아 선행조는 후행조가, 후행조는 선행조가 확인했을 것으로 서로 미루는 현상이 발생했다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        },
+        {
+          "section": "사건 요약, 3.4~5장",
+          "printed_pages": [
+            8,
+            9,
+            10
+          ],
+          "pdf_pages": [
+            2,
+            10,
+            11,
+            12
+          ],
+          "summary": "단기조치 완료, 장기조치 수립(JQC·안전운전원·종합절차서 전면개선·오더종결관리) 및 KINS 안전성 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "장기조치로 중요단계 Hold Point 절차화 및 인수인계점 스탬프를 도입함."
+    },
+    {
+      "review_key": "ROOT-025-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 지속적 자체진단 체계 결여를 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "운전모드 변경 전 정·주기시험 결과를 시험부서 종결서명으로만 확인하고 오더 행정종결·설정치 Hold Point 검증 없이 모드변경을 허용한 의사결정 프로세스가 미흡했고, 복구 중에도 절차 순서와 달리 LPSI를 먼저 정지하고 유출유로 격리밸브를 수동 개방했다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F04",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        },
+        {
+          "section": "사건 요약, 2.2절, 3.2.2절, 5장",
+          "printed_pages": [
+            1,
+            2,
+            6,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            8,
+            11
+          ],
+          "summary": "비정상-3712B HPSI/LPSI 비순차 정지 및 가압기 수위 증가에 따른 유출유로 격리밸브 수동개방(LCO 3.6.3.1 적용) 절차 미준수"
+        },
+        {
+          "section": "사건 요약, 3.4~5장",
+          "printed_pages": [
+            8,
+            9,
+            10
+          ],
+          "pdf_pages": [
+            2,
+            10,
+            11,
+            12
+          ],
+          "summary": "단기조치 완료, 장기조치 수립(JQC·안전운전원·종합절차서 전면개선·오더종결관리) 및 KINS 안전성 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "장기조치로 서명 및 오더 행정처리 종결 후 모드변경 수행 방안을 수립함."
+    },
+    {
+      "review_key": "ROOT-025-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "발전소 재기동 계획에 따른 시간 압박으로 야간(11.24 22:00~23:30)에 보호계통 교정을 마무리하며 계통복귀를 생략했고, 운전모드 변경(모드 5→4→3 승압) 과정에서도 가압기 저압력 설정치를 직접 확인하지 않은 채 승압을 강행한 비보수적 의사결정이 안전주입을 초래했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        }
+      ],
+      "counterevidence_or_limitation": "단기조치로 SPV 686건·LOV 26건·SI 7건 기기의 계통복귀 상태를 전량 재점검함."
+    },
+    {
+      "review_key": "ROOT-025-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 책임 회피나 권한 충돌이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 과거 유사 사건 운전경험 미반영이 사건에 기여했다는 직접 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 정기 자체 진단 체계 결함을 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 외부 기관 벤치마킹 누락이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "계측제어팀 정비원이 울진 5호기 OH 시 '11.1 계통복귀'를 제외한 일부만 교육 목적으로 참여했고 금번 발전소보호계통 교정 작업 교육은 전혀 받지 않은 상태에서 계통 이해 부족으로 계통복귀를 누락했다(장기조치로 고유설비 전문교육 및 JQC 직무수행능력인증제도 시행).",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "사건 요약, 3.4~5장",
+          "printed_pages": [
+            8,
+            9,
+            10
+          ],
+          "pdf_pages": [
+            2,
+            10,
+            11,
+            12
+          ],
+          "summary": "단기조치 완료, 장기조치 수립(JQC·안전운전원·종합절차서 전면개선·오더종결관리) 및 KINS 안전성 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.1.1절에서 교육 미이수·경험 부족·기기 이해 부족을 핵심 원인으로 명시)."
+    },
+    {
+      "review_key": "ROOT-025-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "11.24 23:30 계통복귀 누락 이후 11.25 05:00 종합-3001 진입부터 11.26 01:03 안전주입 발생까지 약 25시간 동안 4개 교대 운전조(5·4·6·3팀)가 초기조건(4.1.7) 및 주의사항(3.4.5, 5.36)에서 잘못된 가압기 저압력 설정치(111 kg/cm²)를 식별하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        }
+      ],
+      "counterevidence_or_limitation": "안전주입 발생 직후에는 1분 만에 SIAS 오동작을 식별·진단해 비정상-3712B에 착수함."
+    },
+    {
+      "review_key": "ROOT-025-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "안전주입 발생 직후 가압기 수위·압력 및 격납용기 압력을 확인해 SIAS 오동작으로 신속 진단했으며, 식별된 문제의 평가 미흡 근거는 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 사건 전 인지된 결함의 시정조치를 지연·방치했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 설비·오류 경향분석 체계 결함이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "정비원 1명에게 20개 작업을 집중 배정하고, 발전소 재기동 일정 압박으로 야간 시간대(22:00~23:30)에 작업을 수행하게 했으며, 미교육·미경험 정비원에게 핵심 보호계통 교정을 맡긴 뒤 계통복귀 확인 없이 모드변경 승압을 진행한 작업관리 결함이 직접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        }
+      ],
+      "counterevidence_or_limitation": "단기조치로 SPV·LOV·SI 유발기기 계통복귀 전량 재점검을 완료함."
+    },
+    {
+      "review_key": "ROOT-025-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "안전주입 시 공학적안전설비 기기 작동 및 구조건전성(압력-온도·냉각률·열응력·피로) 설계 기준을 모두 만족했으며 설계 결함 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-025-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "정기시험 절차서(정기-6711C '11.1 계통복귀')에 시험 설정값 초기화(111→7 kg/cm²) 의미가 불완전하게 기술되어 정비원 오판을 유발했고, 종합운전절차서(종합-3001)도 설정치 확인이 단순 주의사항에 머물러 Hold Point 및 단계별 반복확인·인수인계점 절차가 미비했다(KINS 결론: '완결성이 부족한 종합절차서').",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        },
+        {
+          "section": "사건 요약, 3.4~5장",
+          "printed_pages": [
+            8,
+            9,
+            10
+          ],
+          "pdf_pages": [
+            2,
+            10,
+            11,
+            12
+          ],
+          "summary": "단기조치 완료, 장기조치 수립(JQC·안전운전원·종합절차서 전면개선·오더종결관리) 및 KINS 안전성 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "단기조치로 종합-3001~3003 Hold Point 시범설정 및 장기조치로 종합-3001~3009·계측제어 18개월 절차서 전면 개정을 수립함."
+    },
+    {
+      "review_key": "ROOT-025-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "정비원의 정기-6711C '11.1 계통복귀' 누락, 4개 운전조의 종합-3001 초기조건(4.1.7)·주의사항(3.4.5, 5.36) 연속 누락, 그리고 사건 후 비정상-3712B HPSI/LPSI 정지 순서 미준수 및 유출유로 격리밸브 수동개방 등 전 과정의 절차 미준수가 직접 기여했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1절, 3.1.1절",
+          "printed_pages": [
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            6
+          ],
+          "summary": "미교육·미경험 정비원 20개 작업 집중·야간 시간압박 및 정기-6711C 불완전 기술로 11.1 계통복귀 누락"
+        },
+        {
+          "section": "3.1절, 3.1.2절",
+          "printed_pages": [
+            2,
+            4,
+            5
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7
+          ],
+          "summary": "정비현황 미보고·초기조건 4.1.7 확인 미흡 및 4개 교대조(5·4·6·3팀)의 3.4.5·5.36 주의사항 연속 누락(Self-Checking 미흡)"
+        },
+        {
+          "section": "사건 요약, 2.2절, 3.2.2절, 5장",
+          "printed_pages": [
+            1,
+            2,
+            6,
+            9
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            8,
+            11
+          ],
+          "summary": "비정상-3712B HPSI/LPSI 비순차 정지 및 가압기 수위 증가에 따른 유출유로 격리밸브 수동개방(LCO 3.6.3.1 적용) 절차 미준수"
+        }
+      ],
+      "counterevidence_or_limitation": "안전주입 발생 직후 비정상-3712B 신속 착수 및 발전소 안정화 자체는 완료함."
+    }
+  ],
+  "limitations": [
+    "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않음.",
+    "단기조치 중 LOV 유발기기 전기분야 20건 중 1건은 추후점검 예정이며, 장기조치(JQC·안전운전원·종합절차서 전면개선·계측제어 18개월 절차서 개정 등)는 보고서 발행일('12.12.03) 기준 '13년 상반기 이후 이행 예정 상태임.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
