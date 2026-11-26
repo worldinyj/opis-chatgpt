@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0",
+  "event_id": "941020-1301",
+  "queue_id": "ROOT-037",
+  "priority": "P1_EVIDENCE_BOUNDARY",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_path": "cases/1994/941020-1301/review_package/ATTRIBUTE_ROLES_V1.json",
+    "normalized_blob": "fcbfd1e502511062361ce8c3a1760bd3c5426118",
+    "metadata_blob": "7d38b5ab33ecfc08ce31231e0ce23d08b45ec5d2",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "link_index_blob": "e8dda08fefb980b9bee911237eaacaedb2a48b64",
+    "source_sha256": "6a20318b90cbc8e50836467dd741a9f8d56ad710fb8f1bf301e8d4af5922b23f"
+  },
+  "source_paths": {
+    "report": "cases/1994/941020-1301/report.md",
+    "fact_ledger": "cases/1994/941020-1301/media/fact_ledger.json",
+    "learning_ledger": "cases/1994/941020-1301/media/learning_ledger.json"
+  },
+  "candidates": [],
+  "education_and_positive": [
+    {
+      "code": "LA1",
+      "name": "자원",
+      "definition": "리더는 인력, 설비 및 예산 등의 자원이 원자력안전을 위해 이용 가능하도록 지원한다.",
+      "role": "EDUCATION_ONLY",
+      "fact_ids": [
+        "F10"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F10",
+          "kind": "OBSERVED_FACT",
+          "section": "사건 요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        }
+      ],
+      "author_rationale": "추가 자원; 이전 부족 미확인",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "CL4",
+      "name": "교육 훈련",
+      "definition": "높은 수준의 교육훈련을 통해 전문 인력을 양성하고 엄격한 원자력안전 기준을 강조한다.",
+      "role": "EDUCATION_ONLY",
+      "fact_ids": [
+        "F09"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F09",
+          "kind": "OBSERVED_FACT",
+          "section": "사건 요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        }
+      ],
+      "author_rationale": "대응 향상 대책; 기존 교육 실패 미확인",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "PI3",
+      "name": "문제 해결",
+      "definition": "원자력안전에 대한 문제를 중요도에 따라 시의 적절하고 효과적으로 조치한다.",
+      "role": "EDUCATION_ONLY",
+      "fact_ids": [
+        "F07",
+        "F12",
+        "F14"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F07",
+          "kind": "OBSERVED_FACT",
+          "section": "사건 요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        },
+        {
+          "fact_id": "F12",
+          "kind": "OBSERVED_FACT",
+          "section": "사건 요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        },
+        {
+          "fact_id": "F14",
+          "kind": "SOURCE_LIMITATION",
+          "section": "전체",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        }
+      ],
+      "author_rationale": "효과 미확인과 실패 구분",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP1",
+      "name": "작업 관리",
+      "definition": "원자력안전을 최우선적으로 고려하여 작업계획을 수립하고 시행하는 프로세스를 운영한다.",
+      "role": "EDUCATION_ONLY",
+      "fact_ids": [
+        "F07",
+        "F11"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F07",
+          "kind": "OBSERVED_FACT",
+          "section": "사건 요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        },
+        {
+          "fact_id": "F11",
+          "kind": "OBSERVED_FACT",
+          "section": "사건 요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        }
+      ],
+      "author_rationale": "후속 관리기준 개선; 기존 실패 증거 아님",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP3",
+      "name": "문서화",
+      "definition": "문서 작성 및 관리는 완벽하고 정확하며 최신의 상태를 유지한다.",
+      "role": "EDUCATION_ONLY",
+      "fact_ids": [
+        "F08"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F08",
+          "kind": "OBSERVED_FACT",
+          "section": "사건 요약",
+          "pdf_pages": [
+            1
+          ],
+          "printed_pages": [
+            1
+          ]
+        }
+      ],
+      "author_rationale": "후속 문서 보완; 이전 결함 미확인",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    }
+  ],
+  "additional_review_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "CO1",
+    "CO2",
+    "LA2",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM2",
+    "CL1",
+    "PI1",
+    "PI2",
+    "WP2"
+  ],
+  "legacy_unselected_codes": [
+    "QA4",
+    "CO3",
+    "CO4",
+    "LA3",
+    "LA8",
+    "DM3",
+    "WE1",
+    "WE2",
+    "WE3",
+    "WE4",
+    "CL2",
+    "CL3",
+    "PI4",
+    "RC1",
+    "RC2",
+    "WP4"
+  ],
+  "metadata_checks": [
+    {
+      "key": "candidate_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "additional_review_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "insufficient_or_low_relevance_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "approved_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    }
+  ],
+  "validation": {
+    "status": "PASS_STRUCTURAL",
+    "errors": [],
+    "notes": []
+  },
+  "expert_status": "PENDING",
+  "expert_reviewer": null,
+  "expert_review_date": null,
+  "approved_attributes": [],
+  "confirmed_weakness_count": null,
+  "can_ship": false
+}

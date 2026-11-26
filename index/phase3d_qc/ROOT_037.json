@@ -1,0 +1,41 @@
+[
+  {
+    "path": "cases/1994/941020-1301/review_package/EXPERT_REVIEW_PACKET_V1.json",
+    "event_id": "941020-1301",
+    "queue_id": "ROOT-037",
+    "priority": "P1_EVIDENCE_BOUNDARY",
+    "candidates": 0,
+    "education": 5,
+    "metadata": [
+      {
+        "key": "candidate_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "additional_review_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "insufficient_or_low_relevance_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      },
+      {
+        "key": "approved_attributes",
+        "status": "MATCH",
+        "metadata_only": [],
+        "normalized_only": []
+      }
+    ],
+    "validation": {
+      "status": "PASS_STRUCTURAL",
+      "errors": [],
+      "notes": []
+    }
+  }
+]
