@@ -1,0 +1,1272 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-023",
+  "event_id": "130117U1",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2013-01-17_울진1호기_출력_고증가율_신호_발생에_의한_원자로_자동정지.pdf",
+    "report_number": "2013-1호(130117U1)",
+    "report_date": "2013-01-25",
+    "sha256": "b7d1693b6d9e22b589f2f5efcd0389ce09901b8a4278c9e5a789f07e9882b20d",
+    "pdf_page_count": 12,
+    "reading_scope": "원본 PDF 전 12쪽 텍스트 추출(10,250자) 및 본문 전체(표지, 사건 요약, 1장 개요~6장 결론, PDF 1~12쪽) 정밀 판독 완료. 로컬 바이너리 SHA-256 해시·파일 크기(414,786 bytes)·페이지 수(12쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 KINS 원본 조사보고서(2013-1호)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "2013.01.17.(목) 11:19:04 전 출력 운전(운전모드 9, 원자로출력 100%, 전기출력 1,009 MWe) 중인 울진 1호기에서 노외 핵계측계통(ENIS) 출력영역 채널 2 상·하부 출력 합산카드 재교체 작업을 위해 11:11:12 채널 2 전원을 차단(채널 2 출력 고증가율 신호 발생)한 상태에서, 11:19:04 채널 3 측정출력이 약 80 ms 동안 100%→10% 이하→100%로 급감·급증하며 채널 3 출력 고증가율(설정치 5%/2sec) 신호가 발생해 2/4 논리 만족으로 원자로가 자동정지되었다(원안위 고시 제2012-85호 별표 3.1 보고 및 재가동 승인 대상).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~3.1.1절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "summary": "채널 2 전원차단 교체 중 채널 3 출력 급감·증(80 ms)에 따른 2/4 출력 고증가율 원자로 자동정지"
+        }
+      ],
+      "limitation": "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않으며, 표지에는 '2013-01호', 요약에는 '2013-1호'로 표기됨."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "울진 1호기는 제18차 계획예방정비('12.3.3~5.12) 중 기존 3종 중성자 검출기를 40년 장수명 핵분열함(Fission Chamber) 검출기만으로 구성된 신규 노외 핵계측계통(공급사 미국 TFS사, Thermo Fisher Scientific)으로 교체했으나, '12.8.5 채널 2 고출력 정지신호(109%) 및 '12.12~'13.1 채널 2·3 각 2회 추가 발생에 따라 스파이크 필터용 탄탈(Tantal) 커패시터를 추가하는 설계변경을 TFS와 협의해 제작 합산카드 3장을 공급받았다. 2013.01.16 채널 1·2·3 합산카드를 일괄 교체(14:04~15:27)한 직후 채널 1은 출력 드리프트(100%→~98%), 채널 2는 19:02부터 고출력 정지신호가 이전보다 빈번히 발생했고, TFS 도면 재검토 결과('13.1.17) 탄탈 커패시터 극성 표기 오류로 역극성 설치된 사실이 확인되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.2절 [원자로 정지 전]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "summary": "TFS사 설계변경 합산카드 3장 일괄 교체 후 채널 1 드리프트·채널 2 고출력 신호 빈발 및 커패시터 역극성 표기 오류 확인"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "원자로 정지 후 TFS 공급 합산카드 3장(채널 1·2·3) 모두 커패시터 극성이 반대로 설치된 것을 육안 확인했다. 재현시험에서 채널 1 드리프트는 재현되었으나 채널 2·3 스파이크/급감·증은 미재현되어 회로동작 특성 분석을 수행한 결과, 역극성 탄탈 커패시터 고장으로 누설전류가 순간 급증·감할 경우 채널 3과 같은 출력전압 급감·증(출력 고증가율 신호)이, 전기잡음 발생 시 채널 2와 같은 잦은 스파이크가 발생할 수 있음이 확인되었다. KINS는 이 사건이 설계·제작 결함에 의해 안전계통 합산카드 3개 및 3개 채널 기능 저하가 동시 발생한 공통원인고장(CCF) 범주에 해당한다고 평가했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.2절 [원자로 정지 후], 4장",
+          "printed_pages": [
+            5,
+            6,
+            10
+          ],
+          "pdf_pages": [
+            6,
+            7,
+            11
+          ],
+          "summary": "3개 채널 역극성 육안 확인, 회로동작 특성 분석 및 안전계통 공통원인고장(CCF) 해당 평가"
+        }
+      ],
+      "limitation": "재현시험에서는 채널 1 드리프트만 재현되고 채널 2·3 현상은 미재현되어 회로동작 특성 분석 및 주변기기 점검으로 원인을 규명함."
+    },
+    {
+      "id": "GEMINI-F04",
+      "summary": "TFS사의 제작 오류 원인을 점검한 결과, ① 스파이크 필터용 탄탈 커패시터 추가 설계변경 시 설계도면에 극성을 반대로 표기했으나 설계 확인·검토 과정에서 이를 발견하지 못했고, ② 제작 후 최종 성능시험에서도 기존 합산카드 시험절차에 따른 일반 입·출력 확인만 수행하고 설계변경으로 새로 추가된 커패시터 성능을 확인하는 시험항목을 반영하지 않아 극성 오설치를 걸러내지 못했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "TFS사 설계도면 극성 오기 검토 누락 및 최종 성능시험에 신규 커패시터 확인 항목 미반영"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F05",
+      "summary": "원전운영자는 2013.01.17 TFS 수정 도면에 따라 기존 합산카드에 커패시터를 정방향으로 수리 설치해 채널 2와 재교체했으나, 품질보증계획서 제10.7항 및 제11.5항에 따라 최초 검사요건·시험요건·설계요건 또는 승인된 대안에 따른 재검사 및 재시험을 실시하지 않고 채널 2에 교체 설치한 사실이 확인되어 KINS로부터 검사지적사항을 발급받았다. 또한 1월 16일 역극성 오류 카드 3장을 채널 1·2·3에 동시 교체 설치하고, 1월 17일 채널 1·3에 여전히 역극성 의심 카드가 잔존한 전 출력 운전 상태에서 채널 2 전원을 차단(1/4 트립)해 교체작업을 진행하다 채널 3 오동작과 겹쳐 원자로가 정지되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "2.2절, 3.1.2절, 3.2절",
+          "printed_pages": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "summary": "품질보증계획서 제10.7항·제11.5항 재검사·재시험 누락(검사지적사항 발급) 및 채널 1·3 결함 카드 잔존 상태 채널 2 전원차단 교체"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F06",
+      "summary": "원자로 자동정지 후 터빈우회증기계통·가압기 압력/수위 제어계통·급수유량제어계통 등 1·2차 계통·기기가 설계대로 작동했고, 운전원은 DEC(진단 및 진입) 절차서 진단에 따라 비상운전절차서 정지-01(원자로 비상정지)을 적용해 고온정지 안정상태 및 필수안전기능을 적절히 유지했으며, 방사선 증가나 환경 방출도 없었다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.3절, 4장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            10
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            11
+          ],
+          "summary": "정지 후 안전계통 정상 작동, 운전원 DEC·정지-01 절차 적절 수행 및 방사선 영향 없음 확인"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F07",
+      "summary": "원전운영자는 단기조치(커패시터 성능·설계도면 일치성 검토 후 기존 합산카드 4개 현장 설치·극성 육안 및 소자별 기능점검, 4개 채널 교체 및 스파이크 감쇄·응답시간 기능시험, 신호처리함 캐비넷 점검·채널 3 전원공급기 예방교체, 신호전송 구간 점검, 채널 2 감시장비 설치)를 완료하고, 장기조치(역극성 오설치 3개 카드 TFS 정밀점검['13.12], 제19차 OH 검출기·케이블 TFS 정밀점검['13.9] 및 필요시 제20차 OH 교체['15.3], 신규 합산카드 예비품 확보['13.4], 본사 차원 TFS 품질보증검사['14.8], 검출기 적정 인가전압 검토['14.8])를 수립했다. KINS는 보완요구사항 없음 및 기술적 측면에서 재가동 문제 없음으로 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.4절, 5~6장",
+          "printed_pages": [
+            1,
+            8,
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            2,
+            9,
+            10,
+            11,
+            12
+          ],
+          "summary": "단기조치 5건 완료, 장기조치 5건 수립 및 KINS 보완요구사항 없음·재가동 적정 판단"
+        }
+      ],
+      "limitation": "장기조치 5건은 보고서 발행일('13.01.25) 기준 '13.04~'15.03월 순차 이행 예정 상태."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-023-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원전운영자가 2013.01.17 TFS 수정 도면에 따라 커패시터를 정방향으로 수리 설치한 합산카드를 채널 2에 교체 설치하면서 품질보증계획서 제10.7항 및 제11.5항의 재검사·재시험 규정을 미준수해 KINS로부터 검사지적사항을 발급받았다.",
+      "fact_ids": [
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "2.2절, 3.1.2절, 3.2절",
+          "printed_pages": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "summary": "품질보증계획서 제10.7항·제11.5항 재검사·재시험 누락(검사지적사항 발급) 및 채널 1·3 결함 카드 잔존 상태 채널 2 전원차단 교체"
+        }
+      ],
+      "counterevidence_or_limitation": "원자로 정지 후 운전원의 비상운전절차서(DEC·정지-01) 준수는 적절했음."
+    },
+    {
+      "review_key": "ROOT-023-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "제작사(TFS)가 설계도면 극성 오기를 검토에서 걸러내지 못하고 성능시험에 신규 커패시터 항목을 반영하지 않았으며, 원전운영자도 수리 합산카드 교체 전 재검사·재시험 및 1월 16일 일괄 교체 전 육안·기능 검증 책임을 다하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "TFS사 설계도면 극성 오기 검토 누락 및 최종 성능시험에 신규 커패시터 확인 항목 미반영"
+        },
+        {
+          "section": "2.2절, 3.1.2절, 3.2절",
+          "printed_pages": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "summary": "품질보증계획서 제10.7항·제11.5항 재검사·재시험 누락(검사지적사항 발급) 및 채널 1·3 결함 카드 잔존 상태 채널 2 전원차단 교체"
+        }
+      ],
+      "counterevidence_or_limitation": "정지 후에는 커패시터 성능·도면 일치성 비교, 육안점검 및 채널별 응답시간 시험을 철저히 수행함."
+    },
+    {
+      "review_key": "ROOT-023-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 부서 간 협업 실패나 팀워크 결여가 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원자로보호계통인 노외 핵계측계통 출력영역 3개 채널(1·2·3)에 TFS 설계변경 합산카드를 전 출력 운전 중 일괄 교체해 공통원인고장(CCF)을 유발했고, 채널 1·3에 역극성 의심 카드가 남아 있는 상태에서 채널 2 전원을 차단(1/4 트립)하고 미검증 수리 카드를 설치하려 한 안전 특수성 인식 부족이 드러났다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2절 [원자로 정지 전]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "summary": "TFS사 설계변경 합산카드 3장 일괄 교체 후 채널 1 드리프트·채널 2 고출력 신호 빈발 및 커패시터 역극성 표기 오류 확인"
+        },
+        {
+          "section": "3.1.2절 [원자로 정지 후], 4장",
+          "printed_pages": [
+            5,
+            6,
+            10
+          ],
+          "pdf_pages": [
+            6,
+            7,
+            11
+          ],
+          "summary": "3개 채널 역극성 육안 확인, 회로동작 특성 분석 및 안전계통 공통원인고장(CCF) 해당 평가"
+        },
+        {
+          "section": "2.2절, 3.1.2절, 3.2절",
+          "printed_pages": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "summary": "품질보증계획서 제10.7항·제11.5항 재검사·재시험 누락(검사지적사항 발급) 및 채널 1·3 결함 카드 잔존 상태 채널 2 전원차단 교체"
+        }
+      ],
+      "counterevidence_or_limitation": "정지 후 채널 2에 감시장비를 설치해 출력 안정 시까지 건전성을 감시하는 보완조치를 시행함."
+    },
+    {
+      "review_key": "ROOT-023-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "설계변경(커패시터 추가) 후 공급된 합산카드 3장의 극성 설치상태와 변경 성능에 대한 불확실성을 사전 확인하지 않았고, 1월 16일 교체 직후 채널 1 드리프트·채널 2 고출력 신호 빈발로 3장 모두 역극성 가능성이 제기되었음에도 채널 3의 오동작 불확실성을 확인하지 않은 채 채널 2 전원을 차단했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2절 [원자로 정지 전]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "summary": "TFS사 설계변경 합산카드 3장 일괄 교체 후 채널 1 드리프트·채널 2 고출력 신호 빈발 및 커패시터 역극성 표기 오류 확인"
+        },
+        {
+          "section": "3.1.2절 [원자로 정지 후], 4장",
+          "printed_pages": [
+            5,
+            6,
+            10
+          ],
+          "pdf_pages": [
+            6,
+            7,
+            11
+          ],
+          "summary": "3개 채널 역극성 육안 확인, 회로동작 특성 분석 및 안전계통 공통원인고장(CCF) 해당 평가"
+        },
+        {
+          "section": "2.2절, 3.1.2절, 3.2절",
+          "printed_pages": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "summary": "품질보증계획서 제10.7항·제11.5항 재검사·재시험 누락(검사지적사항 발급) 및 채널 1·3 결함 카드 잔존 상태 채널 2 전원차단 교체"
+        }
+      ],
+      "counterevidence_or_limitation": "정지 후 재현시험·회로동작 특성 분석 및 신호전송 구간·캐비넷 점검으로 원인을 규명함."
+    },
+    {
+      "review_key": "ROOT-023-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "제작사(TFS)가 공급한 설계변경 카드가 정상일 것이라는 가정, 기존 성능시험 절차만으로 충분할 것이라는 가정, 그리고 동일 역극성 카드가 설치된 채널 3이 채널 2 교체 중 정상 유지될 것이라는 가정에 도전·검증하지 않아 2/4 논리 원자로 자동정지를 초래했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2절 [원자로 정지 전]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "summary": "TFS사 설계변경 합산카드 3장 일괄 교체 후 채널 1 드리프트·채널 2 고출력 신호 빈발 및 커패시터 역극성 표기 오류 확인"
+        },
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "TFS사 설계도면 극성 오기 검토 누락 및 최종 성능시험에 신규 커패시터 확인 항목 미반영"
+        },
+        {
+          "section": "2.2절, 3.1.2절, 3.2절",
+          "printed_pages": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "summary": "품질보증계획서 제10.7항·제11.5항 재검사·재시험 누락(검사지적사항 발급) 및 채널 1·3 결함 카드 잔존 상태 채널 2 전원차단 교체"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.1.3절 및 4장에서 설계변경 시험 누락과 3개 채널 CCF를 핵심 요인으로 명시)."
+    },
+    {
+      "review_key": "ROOT-023-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서상 안일함 자체를 직접 원인으로 지적하는 근거는 없다(핵심은 설계·시험 검증 누락과 품질보증 규정 미준수).",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "1월 16일 이상 발생 후 TFS에 즉시 문의해 1월 17일 수정도면을 수령했으며, 의사소통 실패가 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 근거 설명 부족을 지적하는 내용이 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "원안위 고시 보고사항 보고, 재현시험 미재현 사실 공개 및 회로동작 특성 분석 제출 등 KINS 조사에 투명하게 협조했다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 인력·예산·장비 등 자원 부족이 사건의 원인으로 작용했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "제작사(TFS)의 설계변경 도면 검토 및 성능시험 품질에 대한 원전운영자의 감독이 미흡해 장기조치로 본사 차원 TFS 품질보증검사('14.8)가 수립되었고, 1월 17일 현장 수리 합산카드 교체 과정에서도 재검사·재시험 이행 감독이 미흡했다.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F05",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "TFS사 설계도면 극성 오기 검토 누락 및 최종 성능시험에 신규 커패시터 확인 항목 미반영"
+        },
+        {
+          "section": "2.2절, 3.1.2절, 3.2절",
+          "printed_pages": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "summary": "품질보증계획서 제10.7항·제11.5항 재검사·재시험 누락(검사지적사항 발급) 및 채널 1·3 결함 카드 잔존 상태 채널 2 전원차단 교체"
+        },
+        {
+          "section": "사건 요약, 3.4절, 5~6장",
+          "printed_pages": [
+            1,
+            8,
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            2,
+            9,
+            10,
+            11,
+            12
+          ],
+          "summary": "단기조치 5건 완료, 장기조치 5건 수립 및 KINS 보완요구사항 없음·재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "정지 후 단기조치에서는 도면 일치성 검토·극성 육안점검·채널 기능시험을 완료함."
+    },
+    {
+      "review_key": "ROOT-023-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "신규 노외 핵계측계통 교체 후 스파이크 필터용 탄탈 커패시터를 추가하는 설계변경 과정에서 제작사(TFS)의 도면 검토·신규 커패시터 성능시험 항목 반영과 운영자의 인수·수리 후 재검사/재시험 및 3개 채널 일괄 적용 위험 통제 등 변화관리가 실패해 공통원인고장(CCF)을 초래했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2절 [원자로 정지 전]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "summary": "TFS사 설계변경 합산카드 3장 일괄 교체 후 채널 1 드리프트·채널 2 고출력 신호 빈발 및 커패시터 역극성 표기 오류 확인"
+        },
+        {
+          "section": "3.1.2절 [원자로 정지 후], 4장",
+          "printed_pages": [
+            5,
+            6,
+            10
+          ],
+          "pdf_pages": [
+            6,
+            7,
+            11
+          ],
+          "summary": "3개 채널 역극성 육안 확인, 회로동작 특성 분석 및 안전계통 공통원인고장(CCF) 해당 평가"
+        },
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "TFS사 설계도면 극성 오기 검토 누락 및 최종 성능시험에 신규 커패시터 확인 항목 미반영"
+        },
+        {
+          "section": "2.2절, 3.1.2절, 3.2절",
+          "printed_pages": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "summary": "품질보증계획서 제10.7항·제11.5항 재검사·재시험 누락(검사지적사항 발급) 및 채널 1·3 결함 카드 잔존 상태 채널 2 전원차단 교체"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.1.3절·3.2절·4장에서 설계변경 검증 누락과 CCF를 핵심 원인으로 명시)."
+    },
+    {
+      "review_key": "ROOT-023-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직·담당자 간 역할·책임·권한 혼선을 지적하는 직접 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 지속적 자체진단 체계 결여를 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "품질보증계획서 제10.7항·제11.5항에 따른 재검사·재시험 절차를 거치지 않고 수리 합산카드를 채널 2에 설치하기로 결정했고, 동일 설계변경 카드 3장을 안전계통 3개 채널에 일괄 교체·운전하는 과정의 공통원인고장(CCF) 위험 검토 프로세스가 결여되어 있었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2절 [원자로 정지 전]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "summary": "TFS사 설계변경 합산카드 3장 일괄 교체 후 채널 1 드리프트·채널 2 고출력 신호 빈발 및 커패시터 역극성 표기 오류 확인"
+        },
+        {
+          "section": "3.1.2절 [원자로 정지 후], 4장",
+          "printed_pages": [
+            5,
+            6,
+            10
+          ],
+          "pdf_pages": [
+            6,
+            7,
+            11
+          ],
+          "summary": "3개 채널 역극성 육안 확인, 회로동작 특성 분석 및 안전계통 공통원인고장(CCF) 해당 평가"
+        },
+        {
+          "section": "2.2절, 3.1.2절, 3.2절",
+          "printed_pages": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "summary": "품질보증계획서 제10.7항·제11.5항 재검사·재시험 누락(검사지적사항 발급) 및 채널 1·3 결함 카드 잔존 상태 채널 2 전원차단 교체"
+        }
+      ],
+      "counterevidence_or_limitation": "정지 후에는 단기·장기 대책을 수립하고 채널 2 감시장비를 설치해 건전성을 확인함."
+    },
+    {
+      "review_key": "ROOT-023-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "1월 16일 일괄 교체한 3개 채널 합산카드 모두 역극성 설치 가능성이 확인된 상태에서, 전 출력(100%) 운전 중 채널 3에 결함 카드가 잔존한 채 채널 2 전원을 차단(1/4 트립)하고 재검사·재시험도 거치지 않은 수리 카드로 교체를 강행한 비보수적 의사결정이 원자로정지로 이어졌다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2절 [원자로 정지 전]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "summary": "TFS사 설계변경 합산카드 3장 일괄 교체 후 채널 1 드리프트·채널 2 고출력 신호 빈발 및 커패시터 역극성 표기 오류 확인"
+        },
+        {
+          "section": "2.2절, 3.1.2절, 3.2절",
+          "printed_pages": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "summary": "품질보증계획서 제10.7항·제11.5항 재검사·재시험 누락(검사지적사항 발급) 및 채널 1·3 결함 카드 잔존 상태 채널 2 전원차단 교체"
+        }
+      ],
+      "counterevidence_or_limitation": "정지 후에는 출력영역 4개 채널 전체를 도면 대조·기능시험 완료 후 재가동하는 보수적 조치를 완료함."
+    },
+    {
+      "review_key": "ROOT-023-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 책임 회피나 지연이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 과거 유사 사건 운전경험 미반영이 사건에 기여했다는 직접 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "장기조치로 TFS사의 설계·제작·구매 관리체계에 대한 본사 차원 품질보증검사('14.8)를 수립했으나, 보고서가 기존 자체진단·공급사 감사 체계의 결함 여부를 직접 평가하지 않아 판단보류로 분류한다.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "TFS사 설계도면 극성 오기 검토 누락 및 최종 성능시험에 신규 커패시터 확인 항목 미반영"
+        },
+        {
+          "section": "사건 요약, 3.4절, 5~6장",
+          "printed_pages": [
+            1,
+            8,
+            9,
+            10,
+            11
+          ],
+          "pdf_pages": [
+            2,
+            9,
+            10,
+            11,
+            12
+          ],
+          "summary": "단기조치 5건 완료, 장기조치 5건 수립 및 KINS 보완요구사항 없음·재가동 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "기존 제작사 품질감사 이력은 원문에 상세 미수록."
+    },
+    {
+      "review_key": "ROOT-023-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 외부 기관 벤치마킹 누락이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 작업자·운전원의 교육훈련 또는 자격 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "TFS사의 설계도면 극성 오기 및 최종 성능시험에서의 오설치 미식별과 원전운영자의 1월 16일 교체 전 육안·기능점검 미식별로 인해 커패시터가 역극성으로 설치된 합산카드 3장이 출력영역 3개 채널에 동시 설치되었다(정지 후 육안점검으로 역극성 즉시 확인).",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2절 [원자로 정지 전]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "summary": "TFS사 설계변경 합산카드 3장 일괄 교체 후 채널 1 드리프트·채널 2 고출력 신호 빈발 및 커패시터 역극성 표기 오류 확인"
+        },
+        {
+          "section": "3.1.2절 [원자로 정지 후], 4장",
+          "printed_pages": [
+            5,
+            6,
+            10
+          ],
+          "pdf_pages": [
+            6,
+            7,
+            11
+          ],
+          "summary": "3개 채널 역극성 육안 확인, 회로동작 특성 분석 및 안전계통 공통원인고장(CCF) 해당 평가"
+        },
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "TFS사 설계도면 극성 오기 검토 누락 및 최종 성능시험에 신규 커패시터 확인 항목 미반영"
+        }
+      ],
+      "counterevidence_or_limitation": "정지 후 단기조치로 커패시터 극성 육안점검 및 소자별 기능점검을 완료함."
+    },
+    {
+      "review_key": "ROOT-023-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "1월 16일 채널 1 드리프트와 채널 2 고출력 정지신호 빈발 이후 TFS로부터 역극성 설치 가능성을 통보받고도, 동일 카드가 설치된 채널 3에서 출력 고증가율 오동작이 발생해 채널 2 전원차단과 겹쳐 2/4 논리 원자로정지로 이어질 위험을 사전에 평가하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2절 [원자로 정지 전]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "summary": "TFS사 설계변경 합산카드 3장 일괄 교체 후 채널 1 드리프트·채널 2 고출력 신호 빈발 및 커패시터 역극성 표기 오류 확인"
+        },
+        {
+          "section": "3.1.2절 [원자로 정지 후], 4장",
+          "printed_pages": [
+            5,
+            6,
+            10
+          ],
+          "pdf_pages": [
+            6,
+            7,
+            11
+          ],
+          "summary": "3개 채널 역극성 육안 확인, 회로동작 특성 분석 및 안전계통 공통원인고장(CCF) 해당 평가"
+        },
+        {
+          "section": "2.2절, 3.1.2절, 3.2절",
+          "printed_pages": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "summary": "품질보증계획서 제10.7항·제11.5항 재검사·재시험 누락(검사지적사항 발급) 및 채널 1·3 결함 카드 잔존 상태 채널 2 전원차단 교체"
+        }
+      ],
+      "counterevidence_or_limitation": "정지 후 회로동작 특성 분석을 통해 역극성 탄탈 커패시터 누설전류 급변 메커니즘을 규명함."
+    },
+    {
+      "review_key": "ROOT-023-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "1월 16일 이상현상 인지 직후 TFS에 문의하고 다음 날 즉시 재교체에 착수해 시정조치 지연 근거는 없다(검증 절차 누락은 PA1·WP1에서 평가).",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 설비·오류 경향분석 체계 결함이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-023-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "전 출력 운전 중 안전계통 출력영역 3개 채널(1·2·3)에 신규 설계변경 합산카드를 사전 검증 없이 일괄 교체했고, 역극성 오류 확인 후에도 채널 3 결함 카드가 잔존한 상태에서 품질보증 재검사·재시험 없이 채널 2 전원차단 교체작업을 진행한 작업관리 미흡이 원자로정지로 직결되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2절 [원자로 정지 전]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "summary": "TFS사 설계변경 합산카드 3장 일괄 교체 후 채널 1 드리프트·채널 2 고출력 신호 빈발 및 커패시터 역극성 표기 오류 확인"
+        },
+        {
+          "section": "3.1.2절 [원자로 정지 후], 4장",
+          "printed_pages": [
+            5,
+            6,
+            10
+          ],
+          "pdf_pages": [
+            6,
+            7,
+            11
+          ],
+          "summary": "3개 채널 역극성 육안 확인, 회로동작 특성 분석 및 안전계통 공통원인고장(CCF) 해당 평가"
+        },
+        {
+          "section": "2.2절, 3.1.2절, 3.2절",
+          "printed_pages": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "summary": "품질보증계획서 제10.7항·제11.5항 재검사·재시험 누락(검사지적사항 발급) 및 채널 1·3 결함 카드 잔존 상태 채널 2 전원차단 교체"
+        }
+      ],
+      "counterevidence_or_limitation": "정지 후 4개 채널 합산카드 기능시험·스파이크 감쇄·응답시간 점검을 완료함."
+    },
+    {
+      "review_key": "ROOT-023-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "제작사(TFS)가 합산카드 설계변경 도면에 탄탈 커패시터 극성을 반대로 표기하고 역극성으로 제작·공급함에 따라 안전계통인 노외 핵계측계통 3개 채널의 기능 저하(공통원인고장, CCF)를 직접 유발했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.2절 [원자로 정지 전]",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "summary": "TFS사 설계변경 합산카드 3장 일괄 교체 후 채널 1 드리프트·채널 2 고출력 신호 빈발 및 커패시터 역극성 표기 오류 확인"
+        },
+        {
+          "section": "3.1.2절 [원자로 정지 후], 4장",
+          "printed_pages": [
+            5,
+            6,
+            10
+          ],
+          "pdf_pages": [
+            6,
+            7,
+            11
+          ],
+          "summary": "3개 채널 역극성 육안 확인, 회로동작 특성 분석 및 안전계통 공통원인고장(CCF) 해당 평가"
+        },
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "TFS사 설계도면 극성 오기 검토 누락 및 최종 성능시험에 신규 커패시터 확인 항목 미반영"
+        }
+      ],
+      "counterevidence_or_limitation": "원자로 자동정지 후 1·2차 안전계통 기기 자체는 설계대로 정상 작동함."
+    },
+    {
+      "review_key": "ROOT-023-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "제작사(TFS)가 커패시터가 추가된 합산카드의 최종 성능시험을 수행하면서 기존 합산카드 시험절차에 따른 일반 입·출력 확인만 수행하고 신규 커패시터 성능 확인 항목을 시험절차에 반영하지 않아 극성 오설치를 걸러내지 못했다.",
+      "fact_ids": [
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3절",
+          "printed_pages": [
+            6
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "TFS사 설계도면 극성 오기 검토 누락 및 최종 성능시험에 신규 커패시터 확인 항목 미반영"
+        }
+      ],
+      "counterevidence_or_limitation": "정지 후 단기조치에서는 TFS사 작업절차서에 따라 커패시터 설치·육안점검·기능시험을 수행함."
+    },
+    {
+      "review_key": "ROOT-023-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원자로 자동정지 발생 후 운전원이 DEC(진단 및 진입) 절차서 진단에 따라 비상운전절차서 정지-01(원자로 비상정지)을 절차대로 적절히 수행하여 고온정지 안정상태 및 필수안전기능을 유지한 긍정·방어 요소(P)로 평가한다.",
+      "fact_ids": [
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.3절, 4장",
+          "printed_pages": [
+            1,
+            7,
+            8,
+            10
+          ],
+          "pdf_pages": [
+            2,
+            8,
+            9,
+            11
+          ],
+          "summary": "정지 후 안전계통 정상 작동, 운전원 DEC·정지-01 절차 적절 수행 및 방사선 영향 없음 확인"
+        }
+      ],
+      "counterevidence_or_limitation": "정비 단계의 품질보증계획서 제10.7항·제11.5항 재검사·재시험 미준수는 PA1에서 별도 직접기여(D)로 평가함."
+    }
+  ],
+  "limitations": [
+    "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않으며, 표지에는 '2013-01호', 요약에는 '2013-1호'로 표기됨.",
+    "재현시험에서 채널 1 드리프트는 재현되었으나 채널 2 스파이크 및 채널 3 출력 급감·증은 미재현되어 회로동작 특성 분석과 주변기기 점검 결과로 원인을 규명함.",
+    "장기조치 5건(TFS 정밀점검, 제19차 OH 검출기·케이블 점검, 예비품 확보, TFS 품질보증검사, 인가전압 검토)은 보고서 발행일('13.01.25) 기준 '13.04~'15.03월 순차 이행 예정 상태임.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
