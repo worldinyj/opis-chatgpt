@@ -20,5 +20,10 @@
     "passed": 0,
     "total": 14
   },
-  "next_step": "OUTPUT_AND_FORMAL_CONTRACT_QC"
+  "next_step": "FULL_PYTHON_SCHEMA_AND_OUTPUT_QC",
+  "repository_js_contract_checks": {
+    "passed": 14,
+    "total": 14,
+    "full_python_schema_validation": "PENDING"
+  }
 }

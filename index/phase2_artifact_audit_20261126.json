@@ -1,0 +1,769 @@
+{
+  "schema_version": "1.0",
+  "phase": "PHASE_2",
+  "date": "2026-11-26",
+  "audited_commit": "d3684c23ca2af4c0507061bf32bc9bc0f29c5e38",
+  "method": "Recursive Git tree plus root intake and event index join. Presence only, no assertion of content, actual rendering or expert approval.",
+  "counts": {
+    "root_cases": 37,
+    "reports": 37,
+    "complete_media_inputs": 37,
+    "media_input_files": 296,
+    "exactly_one_pptx": 37,
+    "generic_inputs": 37,
+    "validation_json": 33,
+    "validation_md_only": 4,
+    "validation_either": 37,
+    "review_states": 37,
+    "case_pdf_files": 0
+  },
+  "rows": [
+    {
+      "queue_id": "ROOT-001",
+      "event_id": "250112W2",
+      "base": "cases/2025/250112W2/",
+      "status": "ALREADY_REGISTERED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2025/250112W2/media/classroom_ppt/OPIS_250112W2_Generic_16_Draft.pptx",
+          "git_blob": "7f2852ca55a2c97467360de8e453a40380930185",
+          "size": 324046
+        }
+      ],
+      "generic_input": true,
+      "validation_json": false,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-002",
+      "event_id": "240908HB6",
+      "base": "cases/2024/240908HB6/",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2024/240908HB6/media/classroom_ppt/OPIS_240908HB6_Generic_16_Draft.pptx",
+          "git_blob": "ee4a43ed3b2a1fdf2cfc486a782f5e54d44c9608",
+          "size": 317130
+        }
+      ],
+      "generic_input": true,
+      "validation_json": false,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-003",
+      "event_id": "240513W4",
+      "base": "cases/2024/240513W4/",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2024/240513W4/media/classroom_ppt/OPIS_240513W4_Generic_16_Draft.pptx",
+          "git_blob": "284cd605f37b664ddb7bfbd7466b63626eca4346",
+          "size": 325840
+        }
+      ],
+      "generic_input": true,
+      "validation_json": false,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-004",
+      "event_id": "240319W3",
+      "base": "cases/2024/240319W3/",
+      "status": "DRAFT_REGISTERED_RENDER_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2024/240319W3/media/classroom_ppt/OPIS_240319W3_Generic_16_Draft.pptx",
+          "git_blob": "0403f08057cac894e3cf3d6697377f674cf08d13",
+          "size": 322388
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-005",
+      "event_id": "250314SH2",
+      "base": "cases/2025/250314SH2/",
+      "status": "ALREADY_REGISTERED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2025/250314SH2/media/classroom_ppt/OPIS_250314SH2_Generic_16_Draft.pptx",
+          "git_blob": "54684b5b6f039df9bc7cafc6965755fafe0ab93b",
+          "size": 320397
+        }
+      ],
+      "generic_input": true,
+      "validation_json": false,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-006",
+      "event_id": "230405W2",
+      "base": "cases/2023/230405W2/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2023/230405W2/media/classroom_ppt/OPIS_230405W2_Generic_16_Draft.pptx",
+          "git_blob": "f85852e547d4a2694c7f06b42bd016fbfaadd2f3",
+          "size": 326298
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-007",
+      "event_id": "221222K3",
+      "base": "cases/2022/221222K3/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2022/221222K3/media/classroom_ppt/OPIS_221222K3_Generic_16_Draft.pptx",
+          "git_blob": "e7e2456e199ca1728024fd151f1925e1d4e72942",
+          "size": 318135
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-008",
+      "event_id": "220908SW2",
+      "base": "cases/2022/220908SW2/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2022/220908SW2/media/classroom_ppt/OPIS_220908SW2_Generic_16_Draft.pptx",
+          "git_blob": "514ae3a1b7a297a58667cfeb08548648adb6cccb",
+          "size": 314436
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-009",
+      "event_id": "210712K3",
+      "base": "cases/2021/210712K3/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2021/210712K3/media/classroom_ppt/OPIS_210712K3_Generic_16_Draft.pptx",
+          "git_blob": "1af689016367126dfd97688c8e9a0ffef09778bf",
+          "size": 314412
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-010",
+      "event_id": "200719HU6",
+      "base": "cases/2020/200719HU6/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2020/200719HU6/media/classroom_ppt/OPIS_200719HU6_Generic_16_Draft.pptx",
+          "git_blob": "e299842f4e2b49e233989995d3eb29c014d25fa0",
+          "size": 320700
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-011",
+      "event_id": "190510HB1",
+      "base": "cases/2019/190510HB1/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2019/190510HB1/media/classroom_ppt/OPIS_190510HB1_Generic_16_Draft.pptx",
+          "git_blob": "71970f135ee48a6189ba8d7b7edf286ab7643fbc",
+          "size": 331172
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-012",
+      "event_id": "190121W3",
+      "base": "cases/2019/190121W3/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2019/190121W3/media/classroom_ppt/OPIS_190121W3_Generic_16_Draft.pptx",
+          "git_blob": "908f3646ac274c2cefd9a37398bf21bc4abba86f",
+          "size": 318577
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-013",
+      "event_id": "180611W3",
+      "base": "cases/2018/180611W3/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2018/180611W3/media/classroom_ppt/OPIS_180611W3_Generic_16_Draft.pptx",
+          "git_blob": "bd908d6977f327ccbbe0a8210502dc12cb394068",
+          "size": 319082
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-014",
+      "event_id": "170327K4",
+      "base": "cases/2017/170327K4/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2017/170327K4/media/classroom_ppt/OPIS_170327K4_Generic_16_Draft.pptx",
+          "git_blob": "a33b295fdbcc405a6dd9deb624f39b943de7a346",
+          "size": 316221
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-015",
+      "event_id": "161220HU5",
+      "base": "cases/2016/161220HU5/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2016/161220HU5/media/classroom_ppt/OPIS_161220HU5_Generic_16_Draft.pptx",
+          "git_blob": "73270c8f7be60b83820b3a429625587eb1622922",
+          "size": 313590
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-016",
+      "event_id": "160227HB1",
+      "base": "cases/2016/160227HB1/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2016/160227HB1/media/classroom_ppt/OPIS_160227HB1_Generic_16_Draft.pptx",
+          "git_blob": "ca698eda05aef56318c7c97d49cb93c85bf531d0",
+          "size": 318964
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-017",
+      "event_id": "150903K4",
+      "base": "cases/2015/150903K4/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2015/150903K4/media/classroom_ppt/OPIS_150903K4_Generic_16_Draft.pptx",
+          "git_blob": "d76eb1d3b8d6f81e598455db2e7f8156d6a51870",
+          "size": 313783
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-018",
+      "event_id": "141017Y3",
+      "base": "cases/2014/141017Y3/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2014/141017Y3/media/classroom_ppt/OPIS_141017Y3_Generic_16_Draft.pptx",
+          "git_blob": "d387d179dd297eaab6c30b8971a21603c10b6914",
+          "size": 318969
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-019",
+      "event_id": "141001Y12",
+      "base": "cases/2014/141001Y12/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2014/141001Y12/media/classroom_ppt/OPIS_141001Y12_Generic_16_Draft.pptx",
+          "git_blob": "65a5633df9eddd873aa2fe79d1ffda2b94b7b8fc",
+          "size": 318881
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-020",
+      "event_id": "140617W4",
+      "base": "cases/2014/140617W4/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2014/140617W4/media/classroom_ppt/OPIS_140617W4_Generic_16_Draft.pptx",
+          "git_blob": "84e3794784024693a6905125c475507a4939fc04",
+          "size": 334743
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-021",
+      "event_id": "140228Y2",
+      "base": "cases/2014/140228Y2/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2014/140228Y2/media/classroom_ppt/OPIS_140228Y2_Generic_16_Draft.pptx",
+          "git_blob": "f1efbf7e245613befb3da857350a2a399dfe6139",
+          "size": 339524
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-022",
+      "event_id": "130414KR4",
+      "base": "cases/2013/130414KR4/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2013/130414KR4/media/classroom_ppt/OPIS_130414KR4_Generic_16_Draft.pptx",
+          "git_blob": "4e8c88653d33e537d8b152f351afc0b2c249451f",
+          "size": 353329
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-023",
+      "event_id": "130117U1",
+      "base": "cases/2013/130117U1/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2013/130117U1/media/classroom_ppt/OPIS_130117U1_Generic_16_Draft.pptx",
+          "git_blob": "a7a7a3760ff33a127987df148474ab7114d893fd",
+          "size": 345266
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-024",
+      "event_id": "061011U2",
+      "base": "cases/2006/061011U2/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2006/061011U2/media/classroom_ppt/OPIS_061011U2_Generic_16_Draft.pptx",
+          "git_blob": "11658269ae822b4891b71cd9beae42441e3ed5f5",
+          "size": 350404
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-025",
+      "event_id": "121126U6",
+      "base": "cases/2012/121126U6/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2012/121126U6/media/classroom_ppt/OPIS_121126U6_Generic_16_Draft.pptx",
+          "git_blob": "e7dbaf386b63ec5aee2c5cdf4f59a30e0d14424f",
+          "size": 353023
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-026",
+      "event_id": "110621K2",
+      "base": "cases/2011/110621K2/",
+      "status": "DRAFT_REGISTERED_TECHNICALLY_VERIFIED",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2011/110621K2/media/classroom_ppt/OPIS_110621K2_Generic_16_Draft.pptx",
+          "git_blob": "3a8ee893cf542fd9b6117a6a7da3fb74754511b7",
+          "size": 348839
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-027",
+      "event_id": "110419K34",
+      "base": "cases/2011/110419K34/",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2011/110419K34/media/classroom_ppt/OPIS_110419K34_Generic_16_Draft.pptx",
+          "git_blob": "f4ea53e8c9fa2d2834fffe4bc32b5a5f5b439afb",
+          "size": 352392
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": true,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-028",
+      "event_id": "100917SK1",
+      "base": "cases/2010/100917SK1/",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2010/100917SK1/media/classroom_ppt/OPIS_100917SK1_Generic_16_Draft.pptx",
+          "git_blob": "62b18e15adf51e67e37a65de52955b993f7a68f7",
+          "size": 345227
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": false,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-029",
+      "event_id": "090903W2",
+      "base": "cases/2009/090903W2/",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2009/090903W2/media/classroom_ppt/OPIS_090903W2_16_Draft.pptx",
+          "git_blob": "eb027a8b5f28632e0bdc412e331f209254c91eb4",
+          "size": 256143
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": false,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-030",
+      "event_id": "060507U1",
+      "base": "cases/2006/060507U1/",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2006/060507U1/media/classroom_ppt/OPIS_060507U1_16_Draft.pptx",
+          "git_blob": "8bbe2f26f3c696acf53aecf19f7502dc67e03ea4",
+          "size": 251268
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": false,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-031",
+      "event_id": "051106W1",
+      "base": "cases/2005/051106W1/",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2005/051106W1/media/classroom_ppt/OPIS_051106W1_16_Draft.pptx",
+          "git_blob": "2309550a4870966d15a0e71c6d984e6f8f58d055",
+          "size": 251421
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": false,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-032",
+      "event_id": "031229Y5",
+      "base": "cases/2003/031229Y5/",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2003/031229Y5/media/classroom_ppt/OPIS_031229Y5_16_Draft.pptx",
+          "git_blob": "87aa0f969d16dedd8b0db5e8dc0e5340299f3a6d",
+          "size": 251735
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": false,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-033",
+      "event_id": "020405U4",
+      "base": "cases/2002/020405U4/",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2002/020405U4/media/classroom_ppt/OPIS_020405U4_16_Draft.pptx",
+          "git_blob": "e645f76c5de553677022460c2a5b18f7b06975ae",
+          "size": 250728
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": false,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-034",
+      "event_id": "001117K1",
+      "base": "cases/2000/001117K1/",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/2000/001117K1/media/classroom_ppt/OPIS_001117K1_16_Draft.pptx",
+          "git_blob": "ed28de8bfffa0ff4d201ca9bc2aa838f5a25fdf8",
+          "size": 251030
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": false,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-035",
+      "event_id": "990323Y2",
+      "base": "cases/1999/990323Y2/",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/1999/990323Y2/media/classroom_ppt/OPIS_990323Y2_16_Draft.pptx",
+          "git_blob": "691c056488ec2beb5d85ccb22d7d9a9029781b00",
+          "size": 250596
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": false,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-036",
+      "event_id": "970117-1502",
+      "base": "cases/1997/970117-1502/",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/1997/970117-1502/media/classroom_ppt/OPIS_970117-1502_16_Draft.pptx",
+          "git_blob": "a3637bea9432232f37d35c80dfa808d729067a8d",
+          "size": 250696
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": false,
+      "review_state": true,
+      "case_pdf_files": []
+    },
+    {
+      "queue_id": "ROOT-037",
+      "event_id": "941020-1301",
+      "base": "cases/1994/941020-1301/",
+      "status": "DRAFT_REGISTERED_RENDER_PENDING",
+      "report": true,
+      "media_contract_inputs": 8,
+      "pptx": [
+        {
+          "path": "cases/1994/941020-1301/media/classroom_ppt/OPIS_941020-1301_16_Draft.pptx",
+          "git_blob": "4b57274e8a352343b7baecd7f1b4cc4fe0a632b2",
+          "size": 250697
+        }
+      ],
+      "generic_input": true,
+      "validation_json": true,
+      "validation_md": false,
+      "review_state": true,
+      "case_pdf_files": []
+    }
+  ],
+  "followup_count": 13,
+  "blockers": [
+    "Local GitHub DNS resolution failed: git ls-remote cannot resolve github.com.",
+    "No checked-out corpus in local execution environment; formal Python schema and rendered outputs not executed."
+  ],
+  "next": "CORPUS_FORMAL_CONTRACT_AND_RENDER_QC",
+  "can_ship": false
+}

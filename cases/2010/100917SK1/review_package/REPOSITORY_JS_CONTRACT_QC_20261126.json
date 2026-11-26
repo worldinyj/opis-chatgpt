@@ -1,0 +1,86 @@
+{
+  "event_id": "100917SK1",
+  "source_commit": "d3684c23ca2af4c0507061bf32bc9bc0f29c5e38",
+  "method": "Executed the actual repository validate_contract.mjs source in a JS isolate, changing only export declarations for invocation. Schema subset checker 8, relations 4, batch 2. Not full Draft202012Validator or Node CLI.",
+  "validator_sha": "08ad964d1e8c2e63d1a1c540bc6ce76562afe1f8",
+  "schema_shas": {
+    "fact_ledger": "fa01cf02838812104fb795d7adc316f4d7571290",
+    "learning_ledger": "6ccc8e0e68d8666c5065e15a74717533453777c3",
+    "discussion_action": "1f3399a6c476f9cb09202a73beb29b670cacb904",
+    "production": "8d9c26261df7f572829a79f1b35136079937ed2d",
+    "batch_job": "c163a72c7be0f5edac9ecb04d1d9c1e1c79330fd"
+  },
+  "input_shas": {
+    "fact_ledger.json": "27fef75bdc372fad50df3ed541b1cb9b404f2228",
+    "learning_ledger.json": "7bf91ae8a578f54895c54ea9b4c67c642a175903",
+    "discussion_action/manifest.json": "cb04de007a9d8a35cbd963fd8a107b6e9e30aaf4",
+    "incident_understanding/production.json": "dc59101ea9019ec59fc25fb72758750c1bae4c61",
+    "safety_culture_learning/production.json": "e4fb549519056e3b097b11cf6b47cca57ba3f6f6",
+    "shorts/SHORT-01/production.json": "b0030eae7b277f98d4e701b9fe3af38005a38bf7",
+    "safety_culture_learning/batch_job.example.json": "38293907fbdbe4f1257fa3e92c66219f96ae4352",
+    "shorts/SHORT-01/batch_job.example.json": "526cc6eef31da8d6d4d252246e4a7c9396ebf081"
+  },
+  "passed": 14,
+  "total": 14,
+  "results": [
+    {
+      "test": "schema fact_ledger.json",
+      "errors": []
+    },
+    {
+      "test": "schema learning_ledger.json",
+      "errors": []
+    },
+    {
+      "test": "schema discussion_action/manifest.json",
+      "errors": []
+    },
+    {
+      "test": "schema incident_understanding/production.json",
+      "errors": []
+    },
+    {
+      "test": "schema safety_culture_learning/production.json",
+      "errors": []
+    },
+    {
+      "test": "schema shorts/SHORT-01/production.json",
+      "errors": []
+    },
+    {
+      "test": "schema safety_culture_learning/batch_job.example.json",
+      "errors": []
+    },
+    {
+      "test": "schema shorts/SHORT-01/batch_job.example.json",
+      "errors": []
+    },
+    {
+      "test": "relations discussion_action/manifest.json",
+      "errors": []
+    },
+    {
+      "test": "relations incident_understanding/production.json",
+      "errors": []
+    },
+    {
+      "test": "relations safety_culture_learning/production.json",
+      "errors": []
+    },
+    {
+      "test": "relations shorts/SHORT-01/production.json",
+      "errors": []
+    },
+    {
+      "test": "batch safety_culture_learning/batch_job.example.json",
+      "errors": []
+    },
+    {
+      "test": "batch shorts/SHORT-01/batch_job.example.json",
+      "errors": []
+    }
+  ],
+  "full_python_schema_validation": "PENDING",
+  "render": "PENDING",
+  "can_ship": false
+}
