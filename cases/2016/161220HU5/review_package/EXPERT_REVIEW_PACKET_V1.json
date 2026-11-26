@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0",
+  "event_id": "161220HU5",
+  "queue_id": "ROOT-015",
+  "priority": "P3_STANDARD_REVIEW",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_path": "cases/2016/161220HU5/review_package/ATTRIBUTE_ROLES_V1.json",
+    "normalized_blob": "6d9aba674a5711ac7e6960b955963b1880b5d9a8",
+    "metadata_blob": "807476264b44d4ce0a74082b5a7ed8b00ef8bd66",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "link_index_blob": "e8dda08fefb980b9bee911237eaacaedb2a48b64",
+    "source_sha256": "34e2ac6c379e64c4e05a23a68ea85382c809cbbe2b75db2d519968a6cc37eb4c"
+  },
+  "source_paths": {
+    "report": "cases/2016/161220HU5/report.md",
+    "fact_ledger": "cases/2016/161220HU5/media/fact_ledger.json",
+    "learning_ledger": "cases/2016/161220HU5/media/learning_ledger.json"
+  },
+  "candidates": [
+    {
+      "code": "QA4",
+      "name": "자만 방지",
+      "definition": "모든 종사자는 발생 가능한 실수, 잠재적인 문제 및 리스크를 인지하고 대비한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F07",
+        "F09"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F07",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "3.5 원인분석 결과",
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "printed_pages": [
+            9,
+            10
+          ]
+        },
+        {
+          "fact_id": "F09",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.5 원인분석 결과",
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "printed_pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "author_rationale": "잠재 혼입 위험과 대비 행동의 독립 근거",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "definition": "모든 종사자는 의사결정 시 일관적이고 체계적인 방법을 사용한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F10",
+        "F11"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F10",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.5 원인분석 결과",
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "printed_pages": [
+            9,
+            10
+          ]
+        },
+        {
+          "fact_id": "F11",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.5 원인분석 결과",
+          "pdf_pages": [
+            11
+          ],
+          "printed_pages": [
+            10
+          ]
+        }
+      ],
+      "author_rationale": "판단기준 불명확, 요건 위반은 아님",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP1",
+      "name": "작업 관리",
+      "definition": "원자력안전을 최우선적으로 고려하여 작업계획을 수립하고 시행하는 프로세스를 운영한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F08",
+        "F10"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F08",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.5 원인분석 결과",
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "printed_pages": [
+            9,
+            10
+          ]
+        },
+        {
+          "fact_id": "F10",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.5 원인분석 결과",
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "printed_pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "author_rationale": "구매 품질 확인 및 분류 기준 미흡",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    }
+  ],
+  "education_and_positive": [],
+  "additional_review_codes": [
+    "PA2",
+    "PA3",
+    "QA1",
+    "CO1",
+    "CO3",
+    "LA5",
+    "LA6",
+    "LA7",
+    "CL1",
+    "CL2",
+    "CL4",
+    "PI2",
+    "PI3",
+    "WP2",
+    "WP3"
+  ],
+  "legacy_unselected_codes": [
+    "PA1",
+    "QA2",
+    "QA3",
+    "CO2",
+    "CO4",
+    "LA1",
+    "LA2",
+    "LA3",
+    "LA4",
+    "LA8",
+    "DM2",
+    "DM3",
+    "WE1",
+    "WE2",
+    "WE3",
+    "WE4",
+    "CL3",
+    "PI1",
+    "PI4",
+    "RC1",
+    "RC2",
+    "WP4"
+  ],
+  "metadata_checks": [
+    {
+      "key": "candidate_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "additional_review_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "insufficient_or_low_relevance_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "approved_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    }
+  ],
+  "validation": {
+    "status": "PASS_STRUCTURAL",
+    "errors": [],
+    "notes": []
+  },
+  "expert_status": "PENDING",
+  "expert_reviewer": null,
+  "expert_review_date": null,
+  "approved_attributes": [],
+  "confirmed_weakness_count": null,
+  "can_ship": false
+}

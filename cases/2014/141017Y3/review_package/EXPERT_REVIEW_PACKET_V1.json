@@ -1,0 +1,348 @@
+{
+  "schema_version": "1.0",
+  "event_id": "141017Y3",
+  "queue_id": "ROOT-018",
+  "priority": "P3_STANDARD_REVIEW",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_path": "cases/2014/141017Y3/review_package/ATTRIBUTE_ROLES_V1.json",
+    "normalized_blob": "5d2c81f5458945b4720d000948e91caa6fd22bfe",
+    "metadata_blob": "9223dfd6be5935be884e67c05d09e85e2f9dee70",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "link_index_blob": "e8dda08fefb980b9bee911237eaacaedb2a48b64",
+    "source_sha256": "97685ba3c52fa3cbc1335b5b2c1a79248c63a291c0433808bdf50a143ec9e050"
+  },
+  "source_paths": {
+    "report": "cases/2014/141017Y3/report.md",
+    "fact_ledger": "cases/2014/141017Y3/media/fact_ledger.json",
+    "learning_ledger": "cases/2014/141017Y3/media/learning_ledger.json"
+  },
+  "candidates": [
+    {
+      "code": "CO1",
+      "name": "업무 소통",
+      "definition": "모든 종사자는 모든 업무 활동에서 원자력안전을 염두에 두고 소통한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F02"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F02",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.1",
+          "pdf_pages": [
+            7,
+            9
+          ],
+          "printed_pages": [
+            6,
+            8
+          ]
+        }
+      ],
+      "author_rationale": "부서 통보 지연",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "LA5",
+      "name": "변화 관리",
+      "definition": "리더는 원자력안전 최우선 방침이 유지되도록 변화를 체계적으로 평가하고 관리한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F09"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F09",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.1",
+          "pdf_pages": [
+            12,
+            13,
+            14
+          ],
+          "printed_pages": [
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "author_rationale": "절차 개정 오류와 변경관리 평가 구분",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "DM2",
+      "name": "보수적 성향",
+      "definition": "모든 종사자는 의사결정 시 원자력안전을 고려하여 보수적이고 신중함을 견지한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F15"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F15",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.4.1",
+          "pdf_pages": [
+            17,
+            18
+          ],
+          "printed_pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "author_rationale": "초기 평가 비보수적이라는 지적",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "PI2",
+      "name": "문제 평가",
+      "definition": "문제에 대한 원인분석 및 시정조치를 원자력안전의 중요도에 맞게 철저히 평가한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F15",
+        "F16"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F15",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.4.1",
+          "pdf_pages": [
+            17,
+            18
+          ],
+          "printed_pages": [
+            16,
+            17
+          ]
+        },
+        {
+          "fact_id": "F16",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.4.2",
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "printed_pages": [
+            17,
+            18
+          ]
+        }
+      ],
+      "author_rationale": "초기 영향 평가 범위·핵종 누락",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP1",
+      "name": "작업 관리",
+      "definition": "원자력안전을 최우선적으로 고려하여 작업계획을 수립하고 시행하는 프로세스를 운영한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F07",
+        "F08",
+        "F12"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F07",
+          "kind": "SOURCE_LIMITATION",
+          "section": "3.1.3",
+          "pdf_pages": [
+            11,
+            12
+          ],
+          "printed_pages": [
+            10,
+            11
+          ]
+        },
+        {
+          "fact_id": "F08",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.3; 3.5",
+          "pdf_pages": [
+            12,
+            23
+          ],
+          "printed_pages": [
+            11,
+            22
+          ]
+        },
+        {
+          "fact_id": "F12",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.1",
+          "pdf_pages": [
+            15
+          ],
+          "printed_pages": [
+            14
+          ]
+        }
+      ],
+      "author_rationale": "유입원 미확인, 사전 관리 결함 범위 확인",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP3",
+      "name": "문서화",
+      "definition": "문서 작성 및 관리는 완벽하고 정확하며 최신의 상태를 유지한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F03",
+        "F09"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F03",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.1",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "printed_pages": [
+            8,
+            9
+          ]
+        },
+        {
+          "fact_id": "F09",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.1",
+          "pdf_pages": [
+            12,
+            13,
+            14
+          ],
+          "printed_pages": [
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "author_rationale": "절차 정의 및 교정 문서 오류",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    }
+  ],
+  "education_and_positive": [],
+  "additional_review_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "QA4",
+    "CO3",
+    "LA6",
+    "LA7",
+    "DM1",
+    "CL1",
+    "CL2",
+    "CL4",
+    "PI3",
+    "PI4",
+    "WP2",
+    "WP4"
+  ],
+  "legacy_unselected_codes": [
+    "CO2",
+    "CO4",
+    "LA1",
+    "LA2",
+    "LA3",
+    "LA4",
+    "LA8",
+    "DM3",
+    "WE1",
+    "WE2",
+    "WE3",
+    "WE4",
+    "CL3",
+    "PI1",
+    "RC1",
+    "RC2"
+  ],
+  "metadata_checks": [
+    {
+      "key": "candidate_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "additional_review_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "insufficient_or_low_relevance_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "approved_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    }
+  ],
+  "validation": {
+    "status": "PASS_STRUCTURAL",
+    "errors": [],
+    "notes": []
+  },
+  "expert_status": "PENDING",
+  "expert_reviewer": null,
+  "expert_review_date": null,
+  "approved_attributes": [],
+  "confirmed_weakness_count": null,
+  "can_ship": false
+}

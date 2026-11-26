@@ -1,0 +1,273 @@
+{
+  "schema_version": "1.0",
+  "event_id": "170327K4",
+  "queue_id": "ROOT-014",
+  "priority": "P3_STANDARD_REVIEW",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_path": "cases/2017/170327K4/review_package/ATTRIBUTE_ROLES_V1.json",
+    "normalized_blob": "340632440df7057872bebadf7a29b96d1179c0a6",
+    "metadata_blob": "b47570a84c67671d9f8e664ae1e48038eaba3d84",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "link_index_blob": "e8dda08fefb980b9bee911237eaacaedb2a48b64",
+    "source_sha256": "28bf6cf2a650b8281d56edc2a49c968e36fa8a3887d7077042c1f37806eb23c2"
+  },
+  "source_paths": {
+    "report": "cases/2017/170327K4/report.md",
+    "fact_ledger": "cases/2017/170327K4/media/fact_ledger.json",
+    "learning_ledger": "cases/2017/170327K4/media/learning_ledger.json"
+  },
+  "candidates": [
+    {
+      "code": "LA5",
+      "name": "변화 관리",
+      "definition": "리더는 원자력안전 최우선 방침이 유지되도록 변화를 체계적으로 평가하고 관리한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F09"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F09",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.2.1 나; 4 단기대책 6",
+          "pdf_pages": [
+            10,
+            11,
+            15
+          ],
+          "printed_pages": [
+            9,
+            10,
+            14
+          ]
+        }
+      ],
+      "author_rationale": "변경 기술평가 및 검토 미흡",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "CL1",
+      "name": "운전 경험",
+      "definition": "운전경험은 체계적이고 효과적으로 수집하고 분석하며 그 결과는 시의 적절하게 조치한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F14",
+        "F15"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F14",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.2.3 나",
+          "pdf_pages": [
+            14
+          ],
+          "printed_pages": [
+            13
+          ]
+        },
+        {
+          "fact_id": "F15",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.2.3 나",
+          "pdf_pages": [
+            14
+          ],
+          "printed_pages": [
+            13
+          ]
+        }
+      ],
+      "author_rationale": "운전경험 반영·보고 체계 미흡",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "PI3",
+      "name": "문제 해결",
+      "definition": "원자력안전에 대한 문제를 중요도에 따라 시의 적절하고 효과적으로 조치한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F10"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F10",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.2.1 나",
+          "pdf_pages": [
+            11
+          ],
+          "printed_pages": [
+            10
+          ]
+        }
+      ],
+      "author_rationale": "인지된 이상에 후속조치 미이행",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP2",
+      "name": "설계 여유도",
+      "definition": "설계 여유도 내에서 설비를 운영하고 변경 시에는 체계적이고 엄격한 프로세스를 적용한다. 특히, 핵분열물질 방어, 심층 방어 및 안전설비 유지 등에 주의를 기울인다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F09"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F09",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.2.1 나; 4 단기대책 6",
+          "pdf_pages": [
+            10,
+            11,
+            15
+          ],
+          "printed_pages": [
+            9,
+            10,
+            14
+          ]
+        }
+      ],
+      "author_rationale": "변경시 엄격한 검토 부족",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP3",
+      "name": "문서화",
+      "definition": "문서 작성 및 관리는 완벽하고 정확하며 최신의 상태를 유지한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F09"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F09",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.2.1 나; 4 단기대책 6",
+          "pdf_pages": [
+            10,
+            11,
+            15
+          ],
+          "printed_pages": [
+            9,
+            10,
+            14
+          ]
+        }
+      ],
+      "author_rationale": "설계문서 검토 누락",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    }
+  ],
+  "education_and_positive": [],
+  "additional_review_codes": [
+    "PA2",
+    "PA3",
+    "QA4",
+    "CO1",
+    "CO3",
+    "LA6",
+    "LA7",
+    "DM1",
+    "CL2",
+    "PI1",
+    "PI2",
+    "PI4",
+    "WP1",
+    "WP4"
+  ],
+  "legacy_unselected_codes": [
+    "PA1",
+    "QA1",
+    "QA2",
+    "QA3",
+    "CO2",
+    "CO4",
+    "LA1",
+    "LA2",
+    "LA3",
+    "LA4",
+    "LA8",
+    "DM2",
+    "DM3",
+    "WE1",
+    "WE2",
+    "WE3",
+    "WE4",
+    "CL3",
+    "CL4",
+    "RC1",
+    "RC2"
+  ],
+  "metadata_checks": [
+    {
+      "key": "candidate_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "additional_review_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "insufficient_or_low_relevance_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "approved_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    }
+  ],
+  "validation": {
+    "status": "PASS_STRUCTURAL",
+    "errors": [],
+    "notes": []
+  },
+  "expert_status": "PENDING",
+  "expert_reviewer": null,
+  "expert_review_date": null,
+  "approved_attributes": [],
+  "confirmed_weakness_count": null,
+  "can_ship": false
+}
