@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "model": "GEMINI",
+  "queue_id": "ROOT-014",
+  "event_id": "170327K4",
+  "artifact_status": "STORED",
+  "integration_status": "HOLD",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "SELF_ATTESTED_NO_OTHER_AI_OUTPUTS_SEEN",
+  "source_verification": "BINARY_HASH_VERIFIED",
+  "reported_hash_matches_queue": true,
+  "reported_pages_match_queue": true,
+  "source_zip": "GEMINI_ROOT-014_170327K4_v1.zip",
+  "source_zip_sha256": "9ca3409a6dcb4de1adddfef15c8f337ebce711746fa488c2ffcb6aa3bfbc152f",
+  "files": [
+    {
+      "name": "report.md",
+      "blob": "2c0842aa3c90b85ae721e80ae5cab1517d8ff476",
+      "sha256": "9f2949f8271aada63932748515356701bddb2a1f389d15f82b163c675cce30d0"
+    },
+    {
+      "name": "review.json",
+      "blob": "594e6ec2269aa5232a85568ad70b0bfdab699bf0",
+      "sha256": "2854835296c0e8a56a59536c655867e27f6a67b28263d36805190e108402664c"
+    },
+    {
+      "name": "excel_import.csv",
+      "blob": "520636f2dd6e4b5d33d3ded20f82a2e88a1f5c2c",
+      "sha256": "b3fa6ef9344e16a1f324ac6a7beb868c510663b0483f87868b1e57b97be9300c"
+    },
+    {
+      "name": "validation.md",
+      "blob": "c87315219f71aa85a56f5c17ad52c5eab6a7bded",
+      "sha256": "14f910b4aa298d7b03e043cf0e3f6592d3ca2b8d780ae98d510726eafc09939a"
+    }
+  ],
+  "role_counts": {
+    "D": 11,
+    "I": 8,
+    "A": 2,
+    "H": 0,
+    "P": 1,
+    "N": 18
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "zip_exact_paths": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "json_duplicate_keys": "PASS",
+    "schema_reconstructed_draft202012": "PASS",
+    "schema_reference_blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+    "csv_json_decision": "MATCH",
+    "csv_json_rationale": "FAIL_EXACT_MATCH_40_OF_40_ROLE_PREFIX_ONLY",
+    "csv_json_rationale_after_role_prefix_removal": "MATCH_40_OF_40",
+    "fact_count": 7,
+    "fact_reference_check": "PASS",
+    "report_csv_fact_id_reference": "PASS",
+    "pdf_page_range_check": "PASS",
+    "csv_formula_prefix_check": "PASS",
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "All 40 CSV rationale fields add a bracketed role prefix absent from JSON; the rest of each rationale is identical. The repository prompt requires exact equality. Preserve submitted bytes and hold integration pending correction or authorized resolution.",
+    "Reported PDF hash and page count match neutral queue; importer did not independently rehash PDF.",
+    "Independence self-attestation; no semantic reinspection or expert approval.",
+    "Draft202012Validator and FormatChecker executed against locally reconstructed schema constraints from fetched repository schema, not byte-identical schema file.",
+    "No submitted progress.json in ZIP.",
+    "Report number formatting differs from queue: 2017-2호(170327K4) versus 2017-2; identity matches."
+  ],
+  "approved": false,
+  "can_ship": false
+}
