@@ -1,0 +1,911 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-034",
+  "event_id": "001117K1",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2000-11-17_계획예방정비중 증기발생기 저저 수위 시험신호에 의한 원자로 정지.pdf",
+    "report_number": "00-001-00",
+    "report_date": "2000-12-12",
+    "sha256": "cf7f06887e0bcd6ec8fba8b3f7c3502513db866bff518a05bb16de330e1016a0",
+    "pdf_page_count": 8,
+    "reading_scope": "원본 PDF 전 8쪽(스캔 이미지, 텍스트 레이어 0자)을 150dpi PNG로 변환해 제출 공문(1쪽), 보고서 본문 1/5~5/5(2~6쪽), 붙임 1 소내 전산기 Event Log(7쪽), 붙임 2 원자로 보호계통 논리도(8쪽)를 전수 시각 정밀 판독 완료. 로컬 바이너리 SHA-256·파일 크기(924,278 bytes)·페이지 수(8쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 원본 보고서(00-001-00)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "2000.11.17 20:43:05 고리 1호기(PWR 58만7천kW급, 웨스팅하우스, 상업운전 1978.04.29)가 계획예방정비 중 영출력 원자로 특성시험을 완료(17:00)하고 저출력(5%) 특성시험을 위해 원자로 출력 2%(터빈발전기 0 MWe)로 출력증발하던 중, 보조급수펌프 운전가능성 시험(1-9-117) 관련 터빈구동 보조급수펌프를 주제어실 원자로보호계통 시험패널(XCL-5A/5B)에서 자동기동신호('증기발생기 저-저 수위' 시험신호)를 발생시켜 기동하는 순간 SG 저-저 수위 시험신호에 의해 원자로가 자동정지되었다. RCS 온도는 288℃에서 무부하 온도 286℃로 안정되었고 방사선·안전성 영향은 없었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "I~III장, 붙임 1~2",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            7,
+            8
+          ],
+          "summary": "출력 2%에서 1-9-117 시험 중 XCL-5A/5B 시험패널 SG 저저 수위 시험신호 발생으로 원자로 자동정지 및 안전성 무영향"
+        }
+      ],
+      "limitation": "본 문서는 KINS 독립조사보고서가 아닌 한국전력공사(사업자) 제출 사고·고장 보고서(공문 1쪽 + 본문 1/5~5/5 + 붙임 2쪽)이며 별도 INES 등급 기재가 없음."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "보고서 IV.1 근본원인으로 ① 보조급수펌프 운전가능성 시험(1-9-117) 절차서에 터빈구동 보조급수펌프 기동방법이 명확하게 기술되어 있지 않아 운전원이 시험패널(XCL-5A/5B)에서 펌프 자동기동신호를 발생시켜 기동한 점, ② 운전원이 시험패널에서 펌프 자동기동신호 발생 시 원자로 정지신호가 동시에 발생하는 것(붙임 2 논리도상 2/3 논리가 RX TRIP과 TBN Driven AFP Start에 동시 연결)을 인지하지 못한 점이 명시되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "II.3절, IV.1절, 붙임 2",
+          "printed_pages": [
+            2,
+            3,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            8
+          ],
+          "summary": "1-9-117 절차서 기동방법 불명확 및 운전원의 XCL-5A/5B 시험신호→원자로 정지 동시발생 미인지"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "원자로 정지 직후 운전원은 비상운전절차서(비상-0, 원자로 정지 또는 안전주입) 및 원자로 정지 후 확인 점검(0-9-701)을 수행했고, PNSC를 소집해 정지원인 점검 및 발전소 안전정지 상태 확인 후 재임계를 승인받아 11.18 01:15 임계 도달, 21:10 계통병입, 11.21 23:58 정격출력(100%/601 MWe)에 도달했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "II.2절, III장",
+          "printed_pages": [
+            2,
+            3
+          ],
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "summary": "비상-0·0-9-701 수행, PNSC 소집·재임계 승인 및 정상 복구"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F04",
+      "summary": "재발방지대책 및 교훈으로 ① 1-9-117 절차서에 '펌프기동 시험을 위해 보호논리 채널(XCL-5A/B)의 시험신호 발생 스위치 절대 조작금지' 및 '주제어실 터빈제어반에서 개폐 스위치를 조작하여 펌프를 기동' 문구 삽입·개정, ② 원자로 정지 관련 중요 시험 시 절차서 사전검토 및 사전교육 철저, ③ 절차서 작성·검토 시 조치내용 구체화로 조작자 임의 판단 조작 방지 및 중요 시험 시 사전교육·이중 확인의 중요성이 제시되었다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "IV.2~3절, V장",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "summary": "1-9-117 절차서 기동방법·조작금지 명시 개정, 사전교육 철저 및 이중 확인 교훈 도출"
+        }
+      ],
+      "limitation": "없음"
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-034-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "운전원이 터빈구동 보조급수펌프 기동방법이 불명확한 상태에서 임의 판단으로 원자로보호계통 시험패널(XCL-5A/5B)의 시험신호를 발생시켜 원자로 자동정지를 유발했다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "I~III장, 붙임 1~2",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            7,
+            8
+          ],
+          "summary": "출력 2%에서 1-9-117 시험 중 XCL-5A/5B 시험패널 SG 저저 수위 시험신호 발생으로 원자로 자동정지 및 안전성 무영향"
+        },
+        {
+          "section": "II.3절, IV.1절, 붙임 2",
+          "printed_pages": [
+            2,
+            3,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            8
+          ],
+          "summary": "1-9-117 절차서 기동방법 불명확 및 운전원의 XCL-5A/5B 시험신호→원자로 정지 동시발생 미인지"
+        },
+        {
+          "section": "IV.2~3절, V장",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "summary": "1-9-117 절차서 기동방법·조작금지 명시 개정, 사전교육 철저 및 이중 확인 교훈 도출"
+        }
+      ],
+      "counterevidence_or_limitation": "1-9-117 절차서의 기동방법 불명확성이 복합 작용함."
+    },
+    {
+      "review_key": "ROOT-034-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원자로가 임계(출력 2%)로 출력증발 중인 상태에서 원자로보호계통 시험패널(XCL-5A/5B)의 SG 저-저 수위 시험신호 스위치를 조작해 펌프를 기동하려 한 안전 특수성 인식 부족이 드러났다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "I~III장, 붙임 1~2",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            7,
+            8
+          ],
+          "summary": "출력 2%에서 1-9-117 시험 중 XCL-5A/5B 시험패널 SG 저저 수위 시험신호 발생으로 원자로 자동정지 및 안전성 무영향"
+        },
+        {
+          "section": "II.3절, IV.1절, 붙임 2",
+          "printed_pages": [
+            2,
+            3,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            8
+          ],
+          "summary": "1-9-117 절차서 기동방법 불명확 및 운전원의 XCL-5A/5B 시험신호→원자로 정지 동시발생 미인지"
+        }
+      ],
+      "counterevidence_or_limitation": "정지 후 안전계통 정상 유지 및 방사선 영향은 없었음."
+    },
+    {
+      "review_key": "ROOT-034-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "보조급수펌프 기동방법이 절차서(1-9-117)에 명확히 기술되어 있지 않았음에도 원자로보호계통 논리(RX TRIP 동시 연동)에 미치는 영향을 사전 확인·해소하지 않고 시험패널을 조작했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "II.3절, IV.1절, 붙임 2",
+          "printed_pages": [
+            2,
+            3,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            8
+          ],
+          "summary": "1-9-117 절차서 기동방법 불명확 및 운전원의 XCL-5A/5B 시험신호→원자로 정지 동시발생 미인지"
+        },
+        {
+          "section": "IV.2~3절, V장",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "summary": "1-9-117 절차서 기동방법·조작금지 명시 개정, 사전교육 철저 및 이중 확인 교훈 도출"
+        }
+      ],
+      "counterevidence_or_limitation": "없음."
+    },
+    {
+      "review_key": "ROOT-034-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "운전원이 시험패널(XCL-5A/5B)에서 펌프 자동기동신호를 발생시키면 원자로 정지 없이 펌프만 기동될 것이라는 가정에 도전·검증하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "II.3절, IV.1절, 붙임 2",
+          "printed_pages": [
+            2,
+            3,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            8
+          ],
+          "summary": "1-9-117 절차서 기동방법 불명확 및 운전원의 XCL-5A/5B 시험신호→원자로 정지 동시발생 미인지"
+        }
+      ],
+      "counterevidence_or_limitation": "논리도 확인 및 이중확인이 사전에 수행되지 못함."
+    },
+    {
+      "review_key": "ROOT-034-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "보고서 V장 교훈에서 지적한 바와 같이 절차서 조치내용이 구체적이지 않은 상태에서 체계적 확인 절차 없이 조작자의 임의 판단으로 시험패널을 조작해 원자로 정지를 초래했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "II.3절, IV.1절, 붙임 2",
+          "printed_pages": [
+            2,
+            3,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            8
+          ],
+          "summary": "1-9-117 절차서 기동방법 불명확 및 운전원의 XCL-5A/5B 시험신호→원자로 정지 동시발생 미인지"
+        },
+        {
+          "section": "IV.2~3절, V장",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "summary": "1-9-117 절차서 기동방법·조작금지 명시 개정, 사전교육 철저 및 이중 확인 교훈 도출"
+        }
+      ],
+      "counterevidence_or_limitation": "없음."
+    },
+    {
+      "review_key": "ROOT-034-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "출력 2% 임계 운전 중 터빈구동 보조급수펌프 기동을 위해 터빈제어반 개폐 스위치가 아닌 원자로보호계통 시험패널(XCL-5A/5B)의 정지 연계 시험신호를 발생시킨 비보수적 의사결정이 원자로 정지로 이어졌다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "I~III장, 붙임 1~2",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            2,
+            3,
+            4,
+            7,
+            8
+          ],
+          "summary": "출력 2%에서 1-9-117 시험 중 XCL-5A/5B 시험패널 SG 저저 수위 시험신호 발생으로 원자로 자동정지 및 안전성 무영향"
+        },
+        {
+          "section": "II.3절, IV.1절, 붙임 2",
+          "printed_pages": [
+            2,
+            3,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            8
+          ],
+          "summary": "1-9-117 절차서 기동방법 불명확 및 운전원의 XCL-5A/5B 시험신호→원자로 정지 동시발생 미인지"
+        },
+        {
+          "section": "IV.2~3절, V장",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "summary": "1-9-117 절차서 기동방법·조작금지 명시 개정, 사전교육 철저 및 이중 확인 교훈 도출"
+        }
+      ],
+      "counterevidence_or_limitation": "정지 후에는 PNSC 소집 및 안전정지 확인 후 재임계를 승인받음."
+    },
+    {
+      "review_key": "ROOT-034-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "운전원이 시험패널(XCL-5A/5B)에서 SG 저-저 수위 자동기동신호 발생 시 원자로 정지신호가 동시에 발생하는 논리 구조를 인지하지 못했고, 재발방지대책으로 원자로 정지 관련 중요 시험 사전교육 철저가 제시되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "II.3절, IV.1절, 붙임 2",
+          "printed_pages": [
+            2,
+            3,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            8
+          ],
+          "summary": "1-9-117 절차서 기동방법 불명확 및 운전원의 XCL-5A/5B 시험신호→원자로 정지 동시발생 미인지"
+        },
+        {
+          "section": "IV.2~3절, V장",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "summary": "1-9-117 절차서 기동방법·조작금지 명시 개정, 사전교육 철저 및 이중 확인 교훈 도출"
+        }
+      ],
+      "counterevidence_or_limitation": "없음."
+    },
+    {
+      "review_key": "ROOT-034-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "보조급수펌프 운전가능성 시험(1-9-117) 절차서의 기동방법 누락과 XCL-5A/5B 시험신호의 원자로 정지 연계 위험을 시험 전 절차서 검토 및 이중확인으로 식별하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "II.3절, IV.1절, 붙임 2",
+          "printed_pages": [
+            2,
+            3,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            8
+          ],
+          "summary": "1-9-117 절차서 기동방법 불명확 및 운전원의 XCL-5A/5B 시험신호→원자로 정지 동시발생 미인지"
+        },
+        {
+          "section": "IV.2~3절, V장",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "summary": "1-9-117 절차서 기동방법·조작금지 명시 개정, 사전교육 철저 및 이중 확인 교훈 도출"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 절차서 개정 및 교훈 도출을 통해 문제점을 식별·개선함."
+    },
+    {
+      "review_key": "ROOT-034-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "원자로 정지 관련 중요 시험(1-9-117)을 임계 출력 2%에서 수행하면서도 사전 절차서 검토, 사전교육 및 이중확인 없이 시험을 진행한 작업관리 미흡이 정지를 유발했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "II.3절, IV.1절, 붙임 2",
+          "printed_pages": [
+            2,
+            3,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            8
+          ],
+          "summary": "1-9-117 절차서 기동방법 불명확 및 운전원의 XCL-5A/5B 시험신호→원자로 정지 동시발생 미인지"
+        },
+        {
+          "section": "IV.2~3절, V장",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "summary": "1-9-117 절차서 기동방법·조작금지 명시 개정, 사전교육 철저 및 이중 확인 교훈 도출"
+        }
+      ],
+      "counterevidence_or_limitation": "없음."
+    },
+    {
+      "review_key": "ROOT-034-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 보고서에 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-034-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "보고서 IV.1 근본원인으로 명시된 바와 같이 1-9-117 절차서에 터빈구동 보조급수펌프 기동방법(터빈제어반 개폐 스위치 조작) 및 보호논리 채널(XCL-5A/B) 시험신호 발생 스위치 조작금지 사항이 명확히 기술되어 있지 않았다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "II.3절, IV.1절, 붙임 2",
+          "printed_pages": [
+            2,
+            3,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            8
+          ],
+          "summary": "1-9-117 절차서 기동방법 불명확 및 운전원의 XCL-5A/5B 시험신호→원자로 정지 동시발생 미인지"
+        },
+        {
+          "section": "IV.2~3절, V장",
+          "printed_pages": [
+            3,
+            4
+          ],
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "summary": "1-9-117 절차서 기동방법·조작금지 명시 개정, 사전교육 철저 및 이중 확인 교훈 도출"
+        }
+      ],
+      "counterevidence_or_limitation": "재발방지대책으로 1-9-117 절차서를 명확히 개정함."
+    },
+    {
+      "review_key": "ROOT-034-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "원자로 자동정지 후 운전원이 비상운전절차서(비상-0)와 정지 후 확인점검(0-9-701)을 수행하고, PNSC 소집을 통해 정지원인 점검 및 발전소 안전정지 상태 확인 후 재임계 승인을 거쳐 복구한 긍정·방어 요소(P)로 평가한다.",
+      "fact_ids": [
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "II.2절, III장",
+          "printed_pages": [
+            2,
+            3
+          ],
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "summary": "비상-0·0-9-701 수행, PNSC 소집·재임계 승인 및 정상 복구"
+        }
+      ],
+      "counterevidence_or_limitation": "사전 시험 수행 시 임의 판단 조작은 PA2·DM1·WP3에서 별도 직접기여(D)로 평가함."
+    }
+  ],
+  "limitations": [
+    "본 문서는 KINS 독립조사보고서가 아닌 한국전력공사(사업자) 제출 사고·고장 보고서(8쪽 이미지 스캔본)임.",
+    "별도 INES 등급 평가가 기재되어 있지 않음.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
