@@ -1,0 +1,16 @@
+{
+  "track": "B",
+  "branch": "develop/gemini-quality",
+  "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
+  "phase": "B01",
+  "status": "DIAGNOSED",
+  "completed": [
+    "B01"
+  ],
+  "next": "B02",
+  "hold_count": 7,
+  "approved": false,
+  "can_ship": false,
+  "eligible_for_three_ai_consensus": false,
+  "main_merge": false
+}

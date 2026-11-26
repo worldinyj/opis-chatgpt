@@ -1,0 +1,1122 @@
+{
+  "schema_version": "1.0",
+  "phase": "B01",
+  "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
+  "scope": "Gemini HOLD only",
+  "reference_blobs": {
+    "standards/independent_ai_review_v1.schema.json": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+    "standards/safety_culture_40.json": "8dd238647998d31c2fa872968fe519925cd12670",
+    "index/independent_source_queue_v1.json": "8336cf23bcfda080d1856d6ef5143b70e18e8235",
+    "prompts/independent_ai_review_v1.0.md": "d34b9a7686798b29a11d016cc1c51c75536b402c"
+  },
+  "totals": {
+    "cases": 7,
+    "rows": 280,
+    "rationale": 240,
+    "source_missing": 123,
+    "empty_noncanonical": 127,
+    "pinned_files": 35
+  },
+  "method": "Read actual review.json and excel_import.csv at source_ref. Parse quoted CSV; compare 40 keys, results, exact rationale and matching bracketed role prefix, fact ID sets. Locator omission screening: JSON source_refs has location, CSV has neither matching section text nor recognizable page notation. Check union of linked fact pages against attribute pages; blank-reference marker exact match. Prior intake checks are historical, not newly executed. Verify 35 pinned blobs against tree.",
+  "cases": [
+    {
+      "queue_id": "ROOT-004",
+      "event_id": "240319W3",
+      "source_path": "gemini/cases/2024/240319W3/v1/",
+      "original_files": [
+        {
+          "name": "report.md",
+          "blob": "d486eaa9704c72ce1d398fe94c751b3cd2724e61",
+          "sha256": "eb8d4cf6f382033427874a8feb4abfe9f6e96be2981ef1519fa9bd1f1bedfbdb",
+          "path": "gemini/cases/2024/240319W3/v1/report.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "review.json",
+          "blob": "e7ae07c610fae3d348fcf4550052f85cb708718f",
+          "sha256": "de596c28212c486e1eab015b6bb7e4be32f885781c7432104484f2a27ba1c2eb",
+          "path": "gemini/cases/2024/240319W3/v1/review.json",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "excel_import.csv",
+          "blob": "9027bdfd172d0d930498ca74673a4cf8ab4686c5",
+          "sha256": "e64f87122a2a72a2ef7f8261c4b613c314073db121b55b3b82491141f8df3119",
+          "path": "gemini/cases/2024/240319W3/v1/excel_import.csv",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "validation.md",
+          "blob": "457342c92ab36c01abde20a2e69600535f116818",
+          "sha256": "5aa7c17a68b95be29ec3a81ae936a65d018250277fb7145462a5c22dfe6dcfaf",
+          "path": "gemini/cases/2024/240319W3/v1/validation.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "INTAKE_STATUS.json",
+          "path": "gemini/cases/2024/240319W3/v1/INTAKE_STATUS.json",
+          "blob": "cda75df915b236026c63cd4813d6e84325177b03"
+        }
+      ],
+      "source_zip_sha256": "1cab5c4b062c31b81970d43bb98baef8973fabd73b66b4c8082276b7dd2818e0",
+      "original_role_counts": {
+        "D": 16,
+        "I": 7,
+        "A": 5,
+        "H": 0,
+        "P": 2,
+        "N": 10
+      },
+      "expected_pdf": {
+        "report_number": "2024-03",
+        "sha256": "fdb886161c5c51b07b2ac823068feb5d6b6a4a5216f303aeda7ffc1a14969ccf",
+        "pages": 88,
+        "size_bytes": 11276268
+      },
+      "prior_checks": {
+        "zip_crc": "PASS",
+        "zip_exact_paths": "PASS",
+        "artifact_git_blob_sha": "MATCH_ORIGINAL",
+        "attribute_count": 40,
+        "standard_code_name": "PASS",
+        "json_duplicate_keys": "PASS",
+        "schema_draft202012_with_format_checker": "PASS",
+        "schema_reference_blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+        "csv_json_decision": "MATCH",
+        "csv_json_rationale": "MATCH",
+        "csv_json_rationale_after_role_prefix_removal": "MATCH_40_OF_40",
+        "csv_source_detail": "PASS",
+        "csv_source_rows_missing_details": [],
+        "fact_count": 19,
+        "fact_reference_check": "PASS",
+        "attribute_source_ledger_printed_page_check": "FAIL",
+        "attribute_source_ledger_differences": {
+          "DM3": [
+            68,
+            69
+          ]
+        },
+        "report_csv_fact_id_reference": "PASS",
+        "report_and_validation_role_counts": "MATCH",
+        "pdf_page_range_check": "NOT_EXECUTED_NO_PHYSICAL_PAGE_REFERENCES",
+        "csv_formula_prefix_check": "PASS",
+        "reported_source_identity": "REPORT_NUMBER_MATCH_BINARY_IDENTITY_UNVERIFIED",
+        "original_pdf_binary_reinspection": "NOT_EXECUTED",
+        "semantic_source_reinspection": "NOT_EXECUTED"
+      },
+      "prior_limitations": [
+        "Submitter could not retrieve the PDF binary and reported neither a hash nor a physical page count. The cover number matches the queue. Importer did not independently reopen or hash the PDF.",
+        "Independence is self-attested. Semantic source reinspection and expert approval were not performed.",
+        "No submitted progress.json in the ZIP.",
+        "Reported cover number formatting 2024-03호(240319W3) matches queue report 2024-03.",
+        "Some attribute printed-page references are absent from the linked fact ledger entries: {'DM3': [68, 69]}"
+      ],
+      "diagnosis": {
+        "rows": 40,
+        "unique_keys": 40,
+        "key_errors": [],
+        "decision_mismatches": [],
+        "fact_id_set_mismatches": [],
+        "rationale_mismatch_count": 0,
+        "matching_role_prefix_only_count": 0,
+        "source_locator_missing_codes": [],
+        "empty_source_noncanonical_codes": [
+          "CO2",
+          "CO4",
+          "LA2",
+          "LA3",
+          "WE1",
+          "WE2",
+          "WE3",
+          "WE4",
+          "RC1",
+          "RC2"
+        ],
+        "fact_ledger_page_gaps": [
+          {
+            "code": "DM3",
+            "fact_id": "GEMINI-F14",
+            "printed_pages": [
+              68,
+              69
+            ]
+          }
+        ]
+      },
+      "proposed_route": "MANUAL_SOURCE_REVIEW_AND_FORMAT_CANDIDATE",
+      "status": "DIAGNOSED_HOLD",
+      "eligible_for_three_ai_consensus": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-014",
+      "event_id": "170327K4",
+      "source_path": "gemini/cases/2017/170327K4/v1/",
+      "original_files": [
+        {
+          "name": "report.md",
+          "blob": "2c0842aa3c90b85ae721e80ae5cab1517d8ff476",
+          "sha256": "9f2949f8271aada63932748515356701bddb2a1f389d15f82b163c675cce30d0",
+          "path": "gemini/cases/2017/170327K4/v1/report.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "review.json",
+          "blob": "594e6ec2269aa5232a85568ad70b0bfdab699bf0",
+          "sha256": "2854835296c0e8a56a59536c655867e27f6a67b28263d36805190e108402664c",
+          "path": "gemini/cases/2017/170327K4/v1/review.json",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "excel_import.csv",
+          "blob": "520636f2dd6e4b5d33d3ded20f82a2e88a1f5c2c",
+          "sha256": "b3fa6ef9344e16a1f324ac6a7beb868c510663b0483f87868b1e57b97be9300c",
+          "path": "gemini/cases/2017/170327K4/v1/excel_import.csv",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "validation.md",
+          "blob": "c87315219f71aa85a56f5c17ad52c5eab6a7bded",
+          "sha256": "14f910b4aa298d7b03e043cf0e3f6592d3ca2b8d780ae98d510726eafc09939a",
+          "path": "gemini/cases/2017/170327K4/v1/validation.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "INTAKE_STATUS.json",
+          "path": "gemini/cases/2017/170327K4/v1/INTAKE_STATUS.json",
+          "blob": "a4eebda6434d1fa939c7fd8e2860bc58c60db93d"
+        }
+      ],
+      "source_zip_sha256": "9ca3409a6dcb4de1adddfef15c8f337ebce711746fa488c2ffcb6aa3bfbc152f",
+      "original_role_counts": {
+        "D": 11,
+        "I": 8,
+        "A": 2,
+        "H": 0,
+        "P": 1,
+        "N": 18
+      },
+      "expected_pdf": {
+        "report_number": "2017-2",
+        "sha256": "28bf6cf2a650b8281d56edc2a49c968e36fa8a3887d7077042c1f37806eb23c2",
+        "pages": 17,
+        "size_bytes": 375547
+      },
+      "prior_checks": {
+        "zip_crc": "PASS",
+        "zip_exact_paths": "PASS",
+        "artifact_git_blob_sha": "MATCH_ORIGINAL",
+        "attribute_count": 40,
+        "standard_code_name": "PASS",
+        "json_duplicate_keys": "PASS",
+        "schema_reconstructed_draft202012": "PASS",
+        "schema_reference_blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+        "csv_json_decision": "MATCH",
+        "csv_json_rationale": "FAIL_EXACT_MATCH_40_OF_40_ROLE_PREFIX_ONLY",
+        "csv_json_rationale_after_role_prefix_removal": "MATCH_40_OF_40",
+        "fact_count": 7,
+        "fact_reference_check": "PASS",
+        "report_csv_fact_id_reference": "PASS",
+        "pdf_page_range_check": "PASS",
+        "csv_formula_prefix_check": "PASS",
+        "reported_source_identity": "MATCH",
+        "original_pdf_binary_reinspection": "NOT_EXECUTED",
+        "semantic_source_reinspection": "NOT_EXECUTED"
+      },
+      "prior_limitations": [
+        "All 40 CSV rationale fields add a bracketed role prefix absent from JSON; the rest of each rationale is identical. The repository prompt requires exact equality. Preserve submitted bytes and hold integration pending correction or authorized resolution.",
+        "Reported PDF hash and page count match neutral queue; importer did not independently rehash PDF.",
+        "Independence self-attestation; no semantic reinspection or expert approval.",
+        "Draft202012Validator and FormatChecker executed against locally reconstructed schema constraints from fetched repository schema, not byte-identical schema file.",
+        "No submitted progress.json in ZIP.",
+        "Report number formatting differs from queue: 2017-2호(170327K4) versus 2017-2; identity matches."
+      ],
+      "diagnosis": {
+        "rows": 40,
+        "unique_keys": 40,
+        "key_errors": [],
+        "decision_mismatches": [],
+        "fact_id_set_mismatches": [],
+        "rationale_mismatch_count": 40,
+        "matching_role_prefix_only_count": 40,
+        "source_locator_missing_codes": [
+          "PA1",
+          "PA2",
+          "QA1",
+          "QA2",
+          "QA3",
+          "QA4",
+          "CO2",
+          "LA5",
+          "LA6",
+          "LA7",
+          "DM1",
+          "DM2",
+          "CL1",
+          "CL2",
+          "PI1",
+          "PI2",
+          "PI3",
+          "PI4",
+          "WP1",
+          "WP2",
+          "WP3",
+          "WP4"
+        ],
+        "empty_source_noncanonical_codes": [
+          "PA3",
+          "CO1",
+          "CO3",
+          "CO4",
+          "LA1",
+          "LA2",
+          "LA3",
+          "LA4",
+          "LA8",
+          "DM3",
+          "WE1",
+          "WE2",
+          "WE3",
+          "WE4",
+          "CL3",
+          "CL4",
+          "RC1",
+          "RC2"
+        ],
+        "fact_ledger_page_gaps": []
+      },
+      "proposed_route": "DERIVED_CSV_ONLY_CANDIDATE",
+      "status": "DIAGNOSED_HOLD",
+      "eligible_for_three_ai_consensus": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-015",
+      "event_id": "161220HU5",
+      "source_path": "gemini/cases/2016/161220HU5/v1/",
+      "original_files": [
+        {
+          "name": "report.md",
+          "blob": "22c880d75f14fb1378c5ebe964a0c2af9a93a51e",
+          "sha256": "daf552d90a4f544987b367a03bddeafb9dffc257030cfd326d3b894aec54fc78",
+          "path": "gemini/cases/2016/161220HU5/v1/report.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "review.json",
+          "blob": "7022c20f0d1b7c2a9e4cff38b8521cf0d8db57c8",
+          "sha256": "c9cff5274ee79932985dda4bfb1a2816591c3e53d011e89f5b41742b2671f51a",
+          "path": "gemini/cases/2016/161220HU5/v1/review.json",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "excel_import.csv",
+          "blob": "a469528e535c5e2d8fda2ad8710eb08801987d2b",
+          "sha256": "4d6366a2b20e694621fb3ce587ce785fee1af6f6ea98da25f87c1196a25dad52",
+          "path": "gemini/cases/2016/161220HU5/v1/excel_import.csv",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "validation.md",
+          "blob": "fe51c75c6c4c29a135f2fd5e71c98f009d330944",
+          "sha256": "17c04075356eadf91b364a6e214fb85fddc118f3ec68adb67441479acb90f8c5",
+          "path": "gemini/cases/2016/161220HU5/v1/validation.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "INTAKE_STATUS.json",
+          "path": "gemini/cases/2016/161220HU5/v1/INTAKE_STATUS.json",
+          "blob": "0fd44ec9b2f8696b9f467a04e29e490f0c70103d"
+        }
+      ],
+      "source_zip_sha256": "8a11fead12a578420b9524104b7b67a1153ad6c7765cb36ba5cfbc289a0b3479",
+      "original_role_counts": {
+        "D": 8,
+        "I": 5,
+        "A": 2,
+        "H": 0,
+        "P": 2,
+        "N": 23
+      },
+      "expected_pdf": {
+        "report_number": "2016-23",
+        "sha256": "34e2ac6c379e64c4e05a23a68ea85382c809cbbe2b75db2d519968a6cc37eb4c",
+        "pages": 17,
+        "size_bytes": 463157
+      },
+      "prior_checks": {
+        "zip_crc": "PASS",
+        "zip_exact_paths": "PASS",
+        "artifact_git_blob_sha": "MATCH_ORIGINAL",
+        "attribute_count": 40,
+        "standard_code_name": "PASS",
+        "json_duplicate_keys": "PASS",
+        "schema_reconstructed_draft202012": "PASS",
+        "schema_reference_blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+        "csv_json_decision": "MATCH",
+        "csv_json_rationale": "FAIL_EXACT_MATCH_40_OF_40_ROLE_PREFIX_ONLY",
+        "csv_json_rationale_after_role_prefix_removal": "MATCH_40_OF_40",
+        "csv_source_detail": "FAIL_SECTION_AND_PAGE_DETAILS_OMITTED_FOR_REFERENCED_ROWS",
+        "fact_count": 7,
+        "fact_reference_check": "PASS",
+        "report_csv_fact_id_reference": "PASS",
+        "pdf_page_range_check": "PASS",
+        "csv_formula_prefix_check": "PASS",
+        "reported_source_identity": "MATCH",
+        "original_pdf_binary_reinspection": "NOT_EXECUTED",
+        "semantic_source_reinspection": "NOT_EXECUTED"
+      },
+      "prior_limitations": [
+        "All 40 CSV rationale fields add a bracketed role prefix absent from JSON; all rationale bodies match. Repository prompt requires exact equality.",
+        "CSV source column lists report number and fact IDs but omits section and page details for rows with JSON source references (17 rows).",
+        "Preserve submitted bytes and hold integration pending correction or authorized resolution.",
+        "Reported PDF hash and page count match neutral queue; importer did not independently rehash PDF.",
+        "Independence self-attestation; no semantic reinspection or expert approval.",
+        "Draft202012Validator and FormatChecker executed against locally reconstructed schema constraints from fetched repository schema, not byte-identical schema file.",
+        "No submitted progress.json in ZIP.",
+        "Report number formatting differs from queue: 2016-23호(161220HU5) versus 2016-23; identity matches."
+      ],
+      "diagnosis": {
+        "rows": 40,
+        "unique_keys": 40,
+        "key_errors": [],
+        "decision_mismatches": [],
+        "fact_id_set_mismatches": [],
+        "rationale_mismatch_count": 40,
+        "matching_role_prefix_only_count": 40,
+        "source_locator_missing_codes": [
+          "PA1",
+          "PA2",
+          "QA1",
+          "QA2",
+          "QA3",
+          "CO2",
+          "LA1",
+          "LA7",
+          "DM1",
+          "DM2",
+          "CL2",
+          "PI1",
+          "PI2",
+          "PI4",
+          "WP1",
+          "WP3",
+          "WP4"
+        ],
+        "empty_source_noncanonical_codes": [
+          "PA3",
+          "QA4",
+          "CO1",
+          "CO3",
+          "CO4",
+          "LA2",
+          "LA3",
+          "LA4",
+          "LA5",
+          "LA6",
+          "LA8",
+          "DM3",
+          "WE1",
+          "WE2",
+          "WE3",
+          "WE4",
+          "CL1",
+          "CL3",
+          "CL4",
+          "PI3",
+          "RC1",
+          "RC2",
+          "WP2"
+        ],
+        "fact_ledger_page_gaps": []
+      },
+      "proposed_route": "DERIVED_CSV_ONLY_CANDIDATE",
+      "status": "DIAGNOSED_HOLD",
+      "eligible_for_three_ai_consensus": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-017",
+      "event_id": "150903K4",
+      "source_path": "gemini/cases/2015/150903K4/v1/",
+      "original_files": [
+        {
+          "name": "report.md",
+          "blob": "0e8dbb631081566bcfa61910a139f8e2fdfe3a6d",
+          "sha256": "af1642dbebc310058b9bcfafabf7170d9917643ee4dd4f18d55a79ee8f6a4082",
+          "path": "gemini/cases/2015/150903K4/v1/report.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "review.json",
+          "blob": "141e11dd0c20fbe31dc6e41b093e9388a26671af",
+          "sha256": "65318ba45bc985a9b7a267c311c56dc104375a51665996de5d6dbfa30651775c",
+          "path": "gemini/cases/2015/150903K4/v1/review.json",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "excel_import.csv",
+          "blob": "759281c8b3682678e8c0cbf426b113dc46991006",
+          "sha256": "ede09244729cefdd5936300556ea71bbdeb432833c61bb3e64cca0659cd122ae",
+          "path": "gemini/cases/2015/150903K4/v1/excel_import.csv",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "validation.md",
+          "blob": "f4a0cdff082d9f7d2198b2d15dae987f88b5d471",
+          "sha256": "3226e9a9c48f6d0dd08545a49358dacb402cf77f1e805527a29d474a1fb25656",
+          "path": "gemini/cases/2015/150903K4/v1/validation.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "INTAKE_STATUS.json",
+          "path": "gemini/cases/2015/150903K4/v1/INTAKE_STATUS.json",
+          "blob": "bf5572216b9889725a5fc164c971ca24bd545c9a"
+        }
+      ],
+      "source_zip_sha256": "cacb7ea4200e51498c13b4697a785410629731eff99db90f1c042363818d6c6c",
+      "original_role_counts": {
+        "D": 11,
+        "I": 6,
+        "A": 2,
+        "H": 0,
+        "P": 0,
+        "N": 21
+      },
+      "expected_pdf": {
+        "report_number": "2015-05",
+        "sha256": "e84f694b3a279a4bbd801bc85a227fad9aa3f38d7021b9477bf13038e37e0901",
+        "pages": 10,
+        "size_bytes": 183781
+      },
+      "prior_checks": {
+        "zip_crc": "PASS",
+        "zip_exact_paths": "PASS",
+        "artifact_git_blob_sha": "MATCH_ORIGINAL",
+        "attribute_count": 40,
+        "standard_code_name": "PASS",
+        "json_duplicate_keys": "PASS",
+        "schema_draft202012_with_format_checker": "PASS",
+        "schema_reference_blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+        "csv_json_decision": "MATCH",
+        "csv_json_rationale": "FAIL_EXACT_MATCH_40_OF_40_ROLE_PREFIX_ONLY",
+        "csv_json_rationale_after_role_prefix_removal": "MATCH_40_OF_40",
+        "csv_source_detail": "FAIL_SECTION_AND_PAGE_DETAILS_OMITTED_FOR_REFERENCED_ROWS",
+        "csv_source_rows_missing_details": [
+          "PA1",
+          "PA2",
+          "QA1",
+          "QA2",
+          "QA3",
+          "QA4",
+          "LA5",
+          "LA7",
+          "DM1",
+          "DM2",
+          "CL1",
+          "CL2",
+          "CL4",
+          "PI1",
+          "PI2",
+          "PI4",
+          "WP1",
+          "WP3",
+          "WP4"
+        ],
+        "fact_count": 6,
+        "fact_reference_check": "PASS",
+        "report_csv_fact_id_reference": "PASS",
+        "report_and_validation_role_counts": "MATCH",
+        "pdf_page_range_check": "PASS",
+        "csv_formula_prefix_check": "PASS",
+        "reported_source_identity": "MATCH",
+        "original_pdf_binary_reinspection": "NOT_EXECUTED",
+        "semantic_source_reinspection": "NOT_EXECUTED"
+      },
+      "prior_limitations": [
+        "Reported PDF SHA-256 and physical page count match the neutral queue. Importer did not independently reopen or hash the original PDF.",
+        "Independence is self-attested. Semantic source reinspection and expert approval were not performed.",
+        "No submitted progress.json in the ZIP.",
+        "Reported cover number formatting 2015-05호(150903K4) matches queue report 2015-05.",
+        "CSV rationale adds a role prefix in 40/40 rows. Removing only the matching role prefix yields exact JSON rationale equality. The standard requires exact original equality.",
+        "CSV source omits section and page details in 19 rows with JSON source references. Fact IDs match."
+      ],
+      "diagnosis": {
+        "rows": 40,
+        "unique_keys": 40,
+        "key_errors": [],
+        "decision_mismatches": [],
+        "fact_id_set_mismatches": [],
+        "rationale_mismatch_count": 40,
+        "matching_role_prefix_only_count": 40,
+        "source_locator_missing_codes": [
+          "PA1",
+          "PA2",
+          "QA1",
+          "QA2",
+          "QA3",
+          "QA4",
+          "LA5",
+          "LA7",
+          "DM1",
+          "DM2",
+          "CL1",
+          "CL2",
+          "CL4",
+          "PI1",
+          "PI2",
+          "PI4",
+          "WP1",
+          "WP3",
+          "WP4"
+        ],
+        "empty_source_noncanonical_codes": [
+          "PA3",
+          "CO1",
+          "CO2",
+          "CO3",
+          "CO4",
+          "LA1",
+          "LA2",
+          "LA3",
+          "LA4",
+          "LA6",
+          "LA8",
+          "DM3",
+          "WE1",
+          "WE2",
+          "WE3",
+          "WE4",
+          "CL3",
+          "PI3",
+          "RC1",
+          "RC2",
+          "WP2"
+        ],
+        "fact_ledger_page_gaps": []
+      },
+      "proposed_route": "DERIVED_CSV_ONLY_CANDIDATE",
+      "status": "DIAGNOSED_HOLD",
+      "eligible_for_three_ai_consensus": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-018",
+      "event_id": "141017Y3",
+      "source_path": "gemini/cases/2014/141017Y3/v1/",
+      "original_files": [
+        {
+          "name": "report.md",
+          "blob": "4ef34e484e512ffb7188598f0c6c71c2f0beb372",
+          "sha256": "779423c5886b6bc08ae902f441b53a0a56ec12cc69e52901442e6bbfe44f0093",
+          "path": "gemini/cases/2014/141017Y3/v1/report.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "review.json",
+          "blob": "1db8de8f2d33cee4023da6d0b080b79af6c0510d",
+          "sha256": "4e8f1bc965776c9da006290b7ffdf2f202f079d4e0e1f4cf6132a0e4e3844600",
+          "path": "gemini/cases/2014/141017Y3/v1/review.json",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "excel_import.csv",
+          "blob": "b19e35050b74f2dc619e466744298db4678b1282",
+          "sha256": "3697282d8b04933d66f21f533dd371514d8a2d089f98fd06f3592facae3d0eab",
+          "path": "gemini/cases/2014/141017Y3/v1/excel_import.csv",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "validation.md",
+          "blob": "06e39552185ac8e07fea3590b2dfc90559937b68",
+          "sha256": "f8801ddde6616763d96f0a2ca7b1871986f054c63d5772fef4312e90af0815ec",
+          "path": "gemini/cases/2014/141017Y3/v1/validation.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "INTAKE_STATUS.json",
+          "path": "gemini/cases/2014/141017Y3/v1/INTAKE_STATUS.json",
+          "blob": "0c285f4c61c35f4204b61ff455e6fd2f11e6ac42"
+        }
+      ],
+      "source_zip_sha256": "72722b728c040df6fab5f9e8b95832c64b14203700eb15f5acbb29301947938d",
+      "original_role_counts": {
+        "D": 14,
+        "I": 5,
+        "A": 2,
+        "H": 0,
+        "P": 1,
+        "N": 18
+      },
+      "expected_pdf": {
+        "report_number": "2014-16",
+        "sha256": "97685ba3c52fa3cbc1335b5b2c1a79248c63a291c0433808bdf50a143ec9e050",
+        "pages": 25,
+        "size_bytes": 2250865
+      },
+      "prior_checks": {
+        "zip_crc": "PASS",
+        "zip_exact_paths": "PASS",
+        "artifact_git_blob_sha": "MATCH_ORIGINAL",
+        "attribute_count": 40,
+        "standard_code_name": "PASS",
+        "json_duplicate_keys": "PASS",
+        "schema_draft202012_with_format_checker": "PASS",
+        "schema_reference_blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+        "csv_json_decision": "MATCH",
+        "csv_json_rationale": "FAIL_EXACT_MATCH_40_OF_40_ROLE_PREFIX_ONLY",
+        "csv_json_rationale_after_role_prefix_removal": "MATCH_40_OF_40",
+        "csv_source_detail": "FAIL_SECTION_AND_PAGE_DETAILS_OMITTED_FOR_REFERENCED_ROWS",
+        "csv_source_rows_missing_details": [
+          "PA1",
+          "PA2",
+          "QA1",
+          "QA2",
+          "QA3",
+          "QA4",
+          "CO1",
+          "CO2",
+          "LA1",
+          "LA2",
+          "LA5",
+          "LA7",
+          "DM1",
+          "DM2",
+          "CL2",
+          "PI1",
+          "PI2",
+          "PI3",
+          "WP1",
+          "WP2",
+          "WP3",
+          "WP4"
+        ],
+        "fact_count": 8,
+        "fact_reference_check": "PASS",
+        "report_csv_fact_id_reference": "PASS",
+        "report_and_validation_role_counts": "MATCH",
+        "pdf_page_range_check": "PASS",
+        "csv_formula_prefix_check": "PASS",
+        "reported_source_identity": "MATCH",
+        "original_pdf_binary_reinspection": "NOT_EXECUTED",
+        "semantic_source_reinspection": "NOT_EXECUTED"
+      },
+      "prior_limitations": [
+        "Reported PDF SHA-256 and physical page count match the neutral queue. Importer did not independently reopen or hash the original PDF.",
+        "Independence is self-attested. Semantic source reinspection and expert approval were not performed.",
+        "No submitted progress.json in the ZIP.",
+        "Reported cover number formatting 2014-16호(141017Y3) matches queue report 2014-16.",
+        "CSV rationale adds a role prefix in 40/40 rows. Removing only the matching role prefix yields exact JSON rationale equality. The standard requires exact original equality.",
+        "CSV source omits section and page details in 22 rows with JSON source references. Fact IDs match."
+      ],
+      "diagnosis": {
+        "rows": 40,
+        "unique_keys": 40,
+        "key_errors": [],
+        "decision_mismatches": [],
+        "fact_id_set_mismatches": [],
+        "rationale_mismatch_count": 40,
+        "matching_role_prefix_only_count": 40,
+        "source_locator_missing_codes": [
+          "PA1",
+          "PA2",
+          "QA1",
+          "QA2",
+          "QA3",
+          "QA4",
+          "CO1",
+          "CO2",
+          "LA1",
+          "LA2",
+          "LA5",
+          "LA7",
+          "DM1",
+          "DM2",
+          "CL2",
+          "PI1",
+          "PI2",
+          "PI3",
+          "WP1",
+          "WP2",
+          "WP3",
+          "WP4"
+        ],
+        "empty_source_noncanonical_codes": [
+          "PA3",
+          "CO3",
+          "CO4",
+          "LA3",
+          "LA4",
+          "LA6",
+          "LA8",
+          "DM3",
+          "WE1",
+          "WE2",
+          "WE3",
+          "WE4",
+          "CL1",
+          "CL3",
+          "CL4",
+          "PI4",
+          "RC1",
+          "RC2"
+        ],
+        "fact_ledger_page_gaps": []
+      },
+      "proposed_route": "DERIVED_CSV_ONLY_CANDIDATE",
+      "status": "DIAGNOSED_HOLD",
+      "eligible_for_three_ai_consensus": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-019",
+      "event_id": "141001Y12",
+      "source_path": "gemini/cases/2014/141001Y12/v1/",
+      "original_files": [
+        {
+          "name": "report.md",
+          "blob": "aa9256b003f7eb0695f655aef5bbff539666c1e5",
+          "sha256": "fb1ee1d598385c509632c1701cfebf00908b8b335f609519f25afc5528987b1a",
+          "path": "gemini/cases/2014/141001Y12/v1/report.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "review.json",
+          "blob": "646d93b93433f90a0c36ed9dbd119ce77cd982c3",
+          "sha256": "13951047b6543bb280114d153b43c916ffe4573989fd4553285a19f87a811b51",
+          "path": "gemini/cases/2014/141001Y12/v1/review.json",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "excel_import.csv",
+          "blob": "5fc2c9b78a6ae9e7c71b38c6d16b547c83e5e489",
+          "sha256": "52da0a93ff99ac292050f0676ca18984fce2031d872e6c40afa2fb1e34b3e53a",
+          "path": "gemini/cases/2014/141001Y12/v1/excel_import.csv",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "validation.md",
+          "blob": "ce3af8bae8bccb1eba7eb3fe9df54659a7cbd9b0",
+          "sha256": "3487685834ff3b6132799127811febd9a1200d33619c0b327d02887a85e9ebba",
+          "path": "gemini/cases/2014/141001Y12/v1/validation.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "INTAKE_STATUS.json",
+          "path": "gemini/cases/2014/141001Y12/v1/INTAKE_STATUS.json",
+          "blob": "a2926a59a15604eace7548bc8f246548f34b9f74"
+        }
+      ],
+      "source_zip_sha256": "9ab385dbafb18305d5b01dea9c019ff105a3e4605f1c45ec781603a133a3cd2a",
+      "original_role_counts": {
+        "D": 14,
+        "I": 5,
+        "A": 2,
+        "H": 0,
+        "P": 1,
+        "N": 18
+      },
+      "expected_pdf": {
+        "report_number": "2014-14",
+        "sha256": "3845ad254c76c6b2d6d83ea4bf3731af175c8b177f40b3b903468b2ba59277c3",
+        "pages": 10,
+        "size_bytes": 184823
+      },
+      "prior_checks": {
+        "zip_crc": "PASS",
+        "zip_exact_paths": "PASS",
+        "artifact_git_blob_sha": "MATCH_ORIGINAL",
+        "attribute_count": 40,
+        "standard_code_name": "PASS",
+        "json_duplicate_keys": "PASS",
+        "schema_draft202012_with_format_checker": "PASS",
+        "schema_reference_blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+        "csv_json_decision": "MATCH",
+        "csv_json_rationale": "FAIL_EXACT_MATCH_40_OF_40_ROLE_PREFIX_ONLY",
+        "csv_json_rationale_after_role_prefix_removal": "MATCH_40_OF_40",
+        "csv_source_detail": "FAIL_SECTION_AND_PAGE_DETAILS_OMITTED_FOR_REFERENCED_ROWS",
+        "csv_source_rows_missing_details": [
+          "PA1",
+          "PA2",
+          "PA3",
+          "QA1",
+          "QA2",
+          "QA3",
+          "QA4",
+          "CO1",
+          "CO2",
+          "LA1",
+          "LA2",
+          "LA5",
+          "DM1",
+          "DM2",
+          "CL1",
+          "CL4",
+          "PI1",
+          "PI2",
+          "WP1",
+          "WP2",
+          "WP3",
+          "WP4"
+        ],
+        "fact_count": 7,
+        "fact_reference_check": "PASS",
+        "report_csv_fact_id_reference": "PASS",
+        "report_and_validation_role_counts": "MATCH",
+        "pdf_page_range_check": "PASS",
+        "csv_formula_prefix_check": "PASS",
+        "reported_source_identity": "MATCH",
+        "original_pdf_binary_reinspection": "NOT_EXECUTED",
+        "semantic_source_reinspection": "NOT_EXECUTED"
+      },
+      "prior_limitations": [
+        "Reported PDF SHA-256 and physical page count match the neutral queue. Importer did not independently reopen or hash the original PDF.",
+        "Independence is self-attested. Semantic source reinspection and expert approval were not performed.",
+        "No submitted progress.json in the ZIP.",
+        "Reported cover number formatting 2014-14호(141001Y12) matches queue report 2014-14.",
+        "CSV rationale adds a role prefix in 40/40 rows. Removing only the matching role prefix yields exact JSON rationale equality. The standard requires exact original equality.",
+        "CSV source omits section and page details in 22 rows with JSON source references. Fact IDs match."
+      ],
+      "diagnosis": {
+        "rows": 40,
+        "unique_keys": 40,
+        "key_errors": [],
+        "decision_mismatches": [],
+        "fact_id_set_mismatches": [],
+        "rationale_mismatch_count": 40,
+        "matching_role_prefix_only_count": 40,
+        "source_locator_missing_codes": [
+          "PA1",
+          "PA2",
+          "PA3",
+          "QA1",
+          "QA2",
+          "QA3",
+          "QA4",
+          "CO1",
+          "CO2",
+          "LA1",
+          "LA2",
+          "LA5",
+          "DM1",
+          "DM2",
+          "CL1",
+          "CL4",
+          "PI1",
+          "PI2",
+          "WP1",
+          "WP2",
+          "WP3",
+          "WP4"
+        ],
+        "empty_source_noncanonical_codes": [
+          "CO3",
+          "CO4",
+          "LA3",
+          "LA4",
+          "LA6",
+          "LA7",
+          "LA8",
+          "DM3",
+          "WE1",
+          "WE2",
+          "WE3",
+          "WE4",
+          "CL2",
+          "CL3",
+          "PI3",
+          "PI4",
+          "RC1",
+          "RC2"
+        ],
+        "fact_ledger_page_gaps": []
+      },
+      "proposed_route": "DERIVED_CSV_ONLY_CANDIDATE",
+      "status": "DIAGNOSED_HOLD",
+      "eligible_for_three_ai_consensus": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "queue_id": "ROOT-020",
+      "event_id": "140617W4",
+      "source_path": "gemini/cases/2014/140617W4/v1/",
+      "original_files": [
+        {
+          "name": "report.md",
+          "blob": "62e6e70f5b55fa32aac61b13024fde84e09f7c2f",
+          "sha256": "e264e02d736f5317cd6ec6aea3fab6136d295f94b8f142041d0da1c1e8c906a2",
+          "path": "gemini/cases/2014/140617W4/v1/report.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "review.json",
+          "blob": "9eb09141006eb8484ba393a83f247da3ac56889d",
+          "sha256": "fb81bc1d719cc95df18765d6a203193516c96e2a8d5cb6ac99b357c3b4e9b693",
+          "path": "gemini/cases/2014/140617W4/v1/review.json",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "excel_import.csv",
+          "blob": "364ada1dee3b19a863d290bb815f0ec727a1bfcb",
+          "sha256": "fe102cd3e9a1ca746d99c6c4a305c8f826783fa5559513d846d6c5d71573a386",
+          "path": "gemini/cases/2014/140617W4/v1/excel_import.csv",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "validation.md",
+          "blob": "adc395476126987440f3fa9f1fb41f692b5e9837",
+          "sha256": "0c2c77f990f3391c75a7dabd8335f5ac816a4b339374e55be1d33894554a3089",
+          "path": "gemini/cases/2014/140617W4/v1/validation.md",
+          "sha256_basis": "prior intake record; current Git tree blob matched"
+        },
+        {
+          "name": "INTAKE_STATUS.json",
+          "path": "gemini/cases/2014/140617W4/v1/INTAKE_STATUS.json",
+          "blob": "78b910d6e308c1329ea94ce57fc6a637faf5d1d6"
+        }
+      ],
+      "source_zip_sha256": "eb37204836a8c8d312d0c812a4d4e1b71e0a29872d883b1970a20e079639da42",
+      "original_role_counts": {
+        "D": 11,
+        "I": 7,
+        "A": 2,
+        "H": 0,
+        "P": 1,
+        "N": 19
+      },
+      "expected_pdf": {
+        "report_number": "2014-8",
+        "sha256": "f578b6d2433e71b59b1fc03ad0abb4548737ee1a050c3496f1d1a351f5f7777f",
+        "pages": 17,
+        "size_bytes": 253914
+      },
+      "prior_checks": {
+        "zip_crc": "PASS",
+        "zip_exact_paths": "PASS",
+        "artifact_git_blob_sha": "MATCH_ORIGINAL",
+        "attribute_count": 40,
+        "standard_code_name": "PASS",
+        "json_duplicate_keys": "PASS",
+        "schema_draft202012_with_format_checker": "PASS",
+        "schema_reference_blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+        "csv_json_decision": "MATCH",
+        "csv_json_rationale": "FAIL_EXACT_MATCH_40_OF_40_ROLE_PREFIX_ONLY",
+        "csv_json_rationale_after_role_prefix_removal": "MATCH_40_OF_40",
+        "csv_source_detail": "FAIL_SECTION_AND_PAGE_DETAILS_OMITTED_FOR_REFERENCED_ROWS",
+        "csv_source_rows_missing_details": [
+          "PA1",
+          "PA2",
+          "QA1",
+          "QA2",
+          "QA3",
+          "QA4",
+          "LA2",
+          "LA5",
+          "LA7",
+          "DM1",
+          "DM2",
+          "CL1",
+          "CL2",
+          "PI1",
+          "PI2",
+          "PI3",
+          "PI4",
+          "WP1",
+          "WP2",
+          "WP3",
+          "WP4"
+        ],
+        "fact_count": 7,
+        "fact_reference_check": "PASS",
+        "report_csv_fact_id_reference": "PASS",
+        "report_and_validation_role_counts": "MATCH",
+        "pdf_page_range_check": "PASS",
+        "csv_formula_prefix_check": "PASS",
+        "reported_source_identity": "MATCH",
+        "original_pdf_binary_reinspection": "NOT_EXECUTED",
+        "semantic_source_reinspection": "NOT_EXECUTED"
+      },
+      "prior_limitations": [
+        "Reported PDF SHA-256 and physical page count match the neutral queue. Importer did not independently reopen or hash the original PDF.",
+        "Independence is self-attested. Semantic source reinspection and expert approval were not performed.",
+        "No submitted progress.json in the ZIP.",
+        "Reported cover number formatting 2014-8호(140617W4) matches queue report 2014-8.",
+        "CSV rationale adds a role prefix in 40/40 rows. Removing only the matching role prefix yields exact JSON rationale equality. The standard requires exact original equality.",
+        "CSV source omits section and page details in 21 rows with JSON source references. Fact IDs match."
+      ],
+      "diagnosis": {
+        "rows": 40,
+        "unique_keys": 40,
+        "key_errors": [],
+        "decision_mismatches": [],
+        "fact_id_set_mismatches": [],
+        "rationale_mismatch_count": 40,
+        "matching_role_prefix_only_count": 40,
+        "source_locator_missing_codes": [
+          "PA1",
+          "PA2",
+          "QA1",
+          "QA2",
+          "QA3",
+          "QA4",
+          "LA2",
+          "LA5",
+          "LA7",
+          "DM1",
+          "DM2",
+          "CL1",
+          "CL2",
+          "PI1",
+          "PI2",
+          "PI3",
+          "PI4",
+          "WP1",
+          "WP2",
+          "WP3",
+          "WP4"
+        ],
+        "empty_source_noncanonical_codes": [
+          "PA3",
+          "CO1",
+          "CO2",
+          "CO3",
+          "CO4",
+          "LA1",
+          "LA3",
+          "LA4",
+          "LA6",
+          "LA8",
+          "DM3",
+          "WE1",
+          "WE2",
+          "WE3",
+          "WE4",
+          "CL3",
+          "CL4",
+          "RC1",
+          "RC2"
+        ],
+        "fact_ledger_page_gaps": []
+      },
+      "proposed_route": "DERIVED_CSV_ONLY_CANDIDATE",
+      "status": "DIAGNOSED_HOLD",
+      "eligible_for_three_ai_consensus": false,
+      "approved": false,
+      "can_ship": false
+    }
+  ],
+  "limitations": [
+    "Original PDFs not opened or independently hashed; no semantic adjudication.",
+    "No fresh formal JSON Schema execution or ZIP rehash; original SHA-256 fields transcribed from prior intake.",
+    "Locator screening detects absence, not correctness or exhaustive source alignment. Further validator must check all reference fields and any fact-ID/empty-reference edge case.",
+    "No change to model decisions, active progress, intake status or approval."
+  ],
+  "approved": false,
+  "can_ship": false
+}
