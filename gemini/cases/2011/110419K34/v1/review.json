@@ -1,0 +1,1297 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-027",
+  "event_id": "110419K34",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2011-04-19_고리3호기_계획예방정비_중_인적오류로_인한_지락으로_고리3_4호기_안전모선_저저.pdf",
+    "report_number": "2011-07호(110419K3,4)",
+    "report_date": "2011-11-03",
+    "sha256": "4086f8961a4e8cf00819db5df9d69d4cb6283d46452d4f5d099719a605018fa3",
+    "pdf_page_count": 12,
+    "reading_scope": "원본 PDF 전 12쪽 텍스트 추출(10,532자) 및 본문 전체(표지, 조사자 명단, 사건 요약, 1장 개요~7장 결론, 붙임 1 개략도, PDF 1~12쪽) 정밀 판독 완료. 로컬 바이너리 SHA-256 해시·파일 크기(510,723 bytes)·페이지 수(12쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 KINS 원본 조사보고서(2011-07호)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "2011.04.19.(화) 13:43 고리 3호기 계획예방정비 중(운전모드 6 핵연료장전 공정, EDG-B 정비 중) 및 고리 4호기 100% 출력운전(운전모드 1) 중, 3호기 SUT B계열 휴전작업('11.4.17~19, SWYD 차단기 7500/7572 개방, 4호기 LCO 3.8.1 72시간 적용 중)으로 3·4호기 모든 안전모선이 1개 소외전원(SUT A계열)에만 의존하던 상태에서, 협력업체(KPS) 작업자가 가압 중인 3호기 13.8 kV 비안전모선 A계열 상비분리모선(NSPB) 점검구를 오개방·청소하다 3상 도선 간 순간지락(90 A 수준)이 발생했다. SUT A계열 비율차동계전기(587AA) 동작으로 SWYD 차단기 7400/7472가 자동 개방되어 3·4호기 4.16 kV 안전모선 A/B계열 전체에 소외전원 상실(LOOP)·저전압(LOV)이 발생했고, 3호기 EDG-A와 4호기 EDG-A/B가 자동기동되었다(4호기 EDG-A는 약 7분 지연 후 13:50 운전원 수동조치로 부하 투입, 14:57 SUT B 가압, 15:13~15:53 안전모선 소외전원 복구, 4.20 04:05 SUT A 복귀; 교과부고시 제2009-37호 별표 2.마 및 동일부지 2개호기 이상 소외교류전원 상실 재가동 승인 대상).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2.나절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "summary": "3호기 가압 13.8 kV A계열 NSPB 오개방 지락으로 3·4호기 안전모선 동시 LOOP·EDG 기동 및 4호기 EDG-A 7분 지연"
+        }
+      ],
+      "limitation": "본 보고서에는 별도 INES 등급 평가 절이 수록되어 있지 않으며, PDF p.12(붙임 1)는 개략도 이미지로 수록됨."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "한수원 감독자는 사건 당일 3호기 13.8 kV NSPB B계열 점검을 협력업체(KPS) 작업조장과 협의했고, KPS 작업조장은 이를 KPS 분임조장에게 일임했다. KPS 분임조장이 작업위치 판단 시 단독판단으로 휴전 중인 B계열이 아닌 가압 중인 A계열 점검을 작업조원 3인에게 잘못 지시했으며, 한수원 감독자는 작업수행 내용을 보고받지 못했고 현장에는 한수원 감독자와 KPS 작업조장 모두 없는 상태에서 작업자 3명(울진·영광 파견자 2명 + 경력 4개월 인턴사원 1명 — 기기 친숙화 미흡)만 투입되어 검전도 시행하지 않은 채 점검구를 개방·청소하다 지락을 유발했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "KINS는 인적오류의 2대 기여요소로 ① 작업관리·감독 미흡(당일 18시까지 B계열 휴전작업 완료 심리적 압박, A계열 작업 시 임시 설치했던 가설물[비계] 미제거, 분임조장 단독판단 및 한수원/KPS 감독 미흡, 외부 파견·인턴 중심 작업조 기기 친숙화 미흡)과 ② KPS 정비절차서 미준수(가설물 설치/철거 승인 절차 미준수, 절차서 내 가설물 설치/철거 내용 오류, 정비절차서 초기조건 계통격리 사전확인 항목 미수행, 점검대상 목록 표에 따르지 않은 임의 작업수행·계획 변경 미반영)를 도출했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F04",
+      "summary": "4호기 EDG-A 부하 투입이 약 7분 지연된 원인은 3호기 SWYD 차단기 점검 시 역가압 인명손상 방지를 위해 4호기 대체전원 차단기(A-PB-S01-15)를 인출(Rack-out)해 둔 상태였기 때문이다. 해당 차단기 b접점은 개방(Open) 시 '1', 투입(Close) 시 '0', 인출(Rack-out) 시에도 물리적 상실로 '0' 신호를 발생시켜, 저전압 시 AAC DG Tie 차단기(A-PB-S01-26) 개방논리가 형성되지 않았다. 이로 인해 4호기는 1개 소외전원 운전불가능 + 1대 EDG 운전불가능(운영기술지침서 3.8.1 조치 4, 제한시간 12시간) 상태였음에도 원전운영자가 전력계통 정렬 시 이를 사전에 인지하지 못한 채 12시간 이상 잠재 리스크 상태로 운전했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.나절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "차단기 인출(Rack-out) 시 b접점 '0' 신호 오류로 AAC DG Tie 미개방·EDG-A 7분 지연 및 LCO 3.8.1 조치 4(12시간) 미인지 초과"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F05",
+      "summary": "2009년 4건·2010년 2건 등 최근 3년간 안전모선 저전압·소외전원상실 사건이 6건(고리 3호기 '09.1.16 계획예방정비 중 4호기 SUT 계전기 파급, 영광 2호기 '09.6.24 1·2호기 동시 안전모선 LOV 등 3건이 계획예방정비 중 발생)이나 반복되었고, 고리 3·4호기 소외전력 선로 공유 및 3호기 정비 중 4호기 안전모선 독립성 상실이라는 취약한 설계·운전 조건이 존재했음에도 호기 간 독립성 확보와 계획예방정비 중 LOV 예방조치·운전경험 반영이 미흡했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "5장, 7장",
+          "printed_pages": [
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "summary": "최근 3년 LOV·LOOP 6건(정비 중 3건) 반복, 호기 간 독립성 상실 및 운전경험 반영 미흡"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F06",
+      "summary": "사건 발생 후 3호기(핵연료 이송기 안전 정지 유지)와 4호기(100% 정상 출력운전 유지)는 3호기 EDG-A·4호기 EDG-B 자동기동 및 4호기 운전원의 7분 후 AAC DG Tie 차단기 수동 개방(EDG-A 투입), 비정상-49 수행 및 3·4호기 LCO 적용·소외전원 복구로 안전하게 안정화되었고, 소내외 방사선량률 변동이나 외부방출은 없었다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 2절, 5장, 7장",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            9
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            9,
+            11
+          ],
+          "summary": "사건 후 4호기 운전원 AAC DG Tie 수동개방·비정상-49 수행·소외전원 복구 적절 및 방사선 영향 없음 확인"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F07",
+      "summary": "원전운영자는 고리 3호기 안전모선 B계열 실증시험으로 차단기 인출 시 Test Jack 연결에 의한 AAC DG Tie 차단기 개방을 입증했고, ① 외부 파견인원 단독 작업조 편성 금지·협력업체 교육 강화, ② 고전압 충전부 식별표시 개선·한수원/협력업체 감독 강화, ③ 변압기 휴전작업 시 물리적 방벽 설치·휴전기간 최소화, ④ 차단기 인출 시 Test Jack 연결(미인출 시 DC OFF) 절차서 반영, ⑤ SUT 2개·안전모선 2개 중 2개 이상 동시고장 대응 비정상절차서 보완 개정, ⑥ 장기적으로 2012.08 통합스위치야드 건설 시 고리 3·4호기 SUT 수전회로 분리('12.9 3호기부터 이설) 대책을 수립했다. KINS는 보완요구사항 없음 및 재발방지조치 적절(타 발전소 경험반영 필요 권고)로 판단했다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.나절, 4장, 6~7장",
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "summary": "Test Jack 실증시험 완료, 협력업체·고전압 관리·절차서 개정·SUT 수전회로 분리 등 재발방지대책 수립 및 KINS 적정 판단"
+        }
+      ],
+      "limitation": "6장 제목이 '유사사건의 재발방지를 위한 대책'('없음.')으로 편집 오기되어 있으며(실제 보완요구사항 절), 장기 SUT 수전회로 분리('12.9~) 및 비정상절차서 개정은 발행일('11.11.03) 기준 추진 예정 상태."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-027-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KPS 작업자가 정비절차서의 가설물 설치/철거 승인 절차, 초기조건 계통격리 사전확인, 점검대상 목록 표 및 검전 절차를 모두 미준수하고 임의로 작업했고, 4호기는 차단기 인출로 EDG-A가 운전불가능한 상태(운영기술지침서 3.8.1 조치 4, 제한시간 12시간)였음에도 인지하지 못한 채 12시간 이상 운전했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        },
+        {
+          "section": "3.나절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "차단기 인출(Rack-out) 시 b접점 '0' 신호 오류로 AAC DG Tie 미개방·EDG-A 7분 지연 및 LCO 3.8.1 조치 4(12시간) 미인지 초과"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 발생 후 운전원은 비정상-49 및 LCO 3.8.2 적용·소외전원 복구 절차를 적절히 수행함."
+    },
+    {
+      "review_key": "ROOT-027-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KPS 분임조장의 작업위치 단독 오판·오지시, KPS 작업조원 3인의 검전·계통격리 확인 없는 가압 모선 개방·청소, 한수원 감독자 및 KPS 작업조장의 현장 부재 등 구성원별 직무수행 결함이 지락을 직접 유발했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        }
+      ],
+      "counterevidence_or_limitation": "작업조 3인이 타 본부 파견자 2명과 경력 4개월 인턴 1명으로 편성되고 A계열 비계가 미제거된 환경 요인이 복합 작용함."
+    },
+    {
+      "review_key": "ROOT-027-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "한수원 감독자에서 KPS 작업조장, KPS 분임조장, 파견·인턴 작업조원 3인으로 이어지는 다단계 작업 위임 과정에서 원전운영자와 협력업체 간 현장 확인·협업 공조가 단절되어 오작업이 발생했다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        }
+      ],
+      "counterevidence_or_limitation": "구체적 협력업체 내부 협의 경위는 원문에 상세 미수록."
+    },
+    {
+      "review_key": "ROOT-027-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "3·4호기 모든 안전모선이 1개 소외전원(SUT A)에만 의존하고 4호기가 100% 출력운전 중이며 3호기는 핵연료 장전 중인 초고위험 조건에서, 가압 중인 13.8 kV A계열 모선을 검전·격리확인·감독 없이 개방·청소하고 4호기 차단기 인출이 EDG-A 투입논리에 미치는 영향을 미검토한 안전 특수성 인식 부족이 드러났다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2.나절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "summary": "3호기 가압 13.8 kV A계열 NSPB 오개방 지락으로 3·4호기 안전모선 동시 LOOP·EDG 기동 및 4호기 EDG-A 7분 지연"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        },
+        {
+          "section": "3.나절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "차단기 인출(Rack-out) 시 b접점 '0' 신호 오류로 AAC DG Tie 미개방·EDG-A 7분 지연 및 LCO 3.8.1 조치 4(12시간) 미인지 초과"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 고전압 충전부 식별표시 개선 및 변압기 휴전작업 시 물리적 방벽 설치 대책을 수립함."
+    },
+    {
+      "review_key": "ROOT-027-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "A계열 작업 시 설치했던 비계(가설물)가 미제거되어 작업위치 혼동 요인이 존재했음에도 계통격리 사전확인 및 검전을 수행하지 않았고, 4호기 차단기(A-PB-S01-15) 인출 시 b접점 상실이 AAC DG Tie 차단기 개방논리에 미치는 불확실성도 사전 확인하지 않았다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        },
+        {
+          "section": "3.나절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "차단기 인출(Rack-out) 시 b접점 '0' 신호 오류로 AAC DG Tie 미개방·EDG-A 7분 지연 및 LCO 3.8.1 조치 4(12시간) 미인지 초과"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 고리 3호기 안전모선 B계열 실증시험으로 Test Jack 연결 효과를 검증함."
+    },
+    {
+      "review_key": "ROOT-027-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KPS 분임조장이 A계열에 남아 있던 비계 등을 보고 B계열 휴전 구역이라 단독 가정해 지시했고, 작업조원도 휴전 상태일 것이라 가정해 검전·격리확인을 생략했으며, 운영자도 차단기 인출 시 개방신호가 정상 제공될 것이라 가정해 LCO 3.8.1 조치 4(12시간) 해당 여부를 검증하지 않았다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        },
+        {
+          "section": "3.나절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "차단기 인출(Rack-out) 시 b접점 '0' 신호 오류로 AAC DG Tie 미개방·EDG-A 7분 지연 및 LCO 3.8.1 조치 4(12시간) 미인지 초과"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.가~나절에서 분임조장 단독판단, 무검전 및 전력계통 정렬 시 미인지를 직접 명시함)."
+    },
+    {
+      "review_key": "ROOT-027-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안일함 자체를 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "한수원 감독자→KPS 작업조장→KPS 분임조장으로 작업이 일임되는 과정에서 작업위치 지시 오류가 발생했고, 한수원 감독자는 실제 작업수행 내용을 보고받지 못해 가압 모선 오작업을 사전 차단하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.가절에서 작업지시 오류 및 한수원 감독자 미보고를 직접 원인으로 명시)."
+    },
+    {
+      "review_key": "ROOT-027-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 근거 설명 부족을 지적하는 내용이 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고대상 사건 보고, 실증시험 수행 및 KINS 현장조사 협조가 투명하게 이루어졌다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "13.8 kV 고압모선 점검 작업조 3명 중 2명이 울진·영광에서 파견된 인원이고 1명은 경력 4개월 인턴사원으로 편성되어 고리 3호기 설비 친숙화가 전혀 없는 인력 배치 결함이 직접 기여했다(후속대책: 외부 파견인원 단독 작업조 편성 금지).",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        },
+        {
+          "section": "3.나절, 4장, 6~7장",
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "summary": "Test Jack 실증시험 완료, 협력업체·고전압 관리·절차서 개정·SUT 수전회로 분리 등 재발방지대책 수립 및 KINS 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.가절에서 파견자 2명·경력 4개월 인턴 1명 편성을 주요 기여요소로 명시)."
+    },
+    {
+      "review_key": "ROOT-027-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KINS가 핵심 원인으로 명시한 바와 같이, 작업위치 선택 시 분임조장 단독판단에 맡겨졌고 실제 작업 현장에는 한수원 감독자와 KPS 작업조장이 모두 부재하여 가압 중인 13.8 kV A계열 모선 개방을 감독·차단하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        }
+      ],
+      "counterevidence_or_limitation": "후속대책으로 고전압 충전부 관리 강화 및 한수원/협력업체 감독 강화를 수립함."
+    },
+    {
+      "review_key": "ROOT-027-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 설비·조직 변경에 따른 변화관리 미흡을 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직·담당자 간 역할·책임·권한 혼선 자체를 지적하는 직접 근거는 없다(작업 위임·감독 부재는 CO1·LA2에서 평가).",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 지속적 자체진단 체계 결여를 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "작업대상 선택 단계에서 분임조장의 단독판단으로 작업이 진행되었고, 3호기 SWYD 정비 중 4호기 차단기(A-PB-S01-15) 인출에 따른 전력계통 정렬 및 운영기술지침서 3.8.1 조치 4(12시간) 영향 검토 의사결정 프로세스가 결여되어 있었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        },
+        {
+          "section": "3.나절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "차단기 인출(Rack-out) 시 b접점 '0' 신호 오류로 AAC DG Tie 미개방·EDG-A 7분 지연 및 LCO 3.8.1 조치 4(12시간) 미인지 초과"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 차단기 인출 시 Test Jack 연결(미인출 시 DC OFF)을 절차서에 반영함."
+    },
+    {
+      "review_key": "ROOT-027-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "당일 18시까지 B계열 휴전작업을 완료해야 한다는 심리적 압박 속에서, 3·4호기 전체 안전모선이 단일 소외전원(SUT A)에 의존하는 고위험 정렬 상태임에도 검전·계통격리 확인·감독 없이 작업을 강행한 비보수적 판단이 동시 LOOP를 초래했다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2.나절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "summary": "3호기 가압 13.8 kV A계열 NSPB 오개방 지락으로 3·4호기 안전모선 동시 LOOP·EDG 기동 및 4호기 EDG-A 7분 지연"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        }
+      ],
+      "counterevidence_or_limitation": "후속대책으로 변압기 휴전작업 시 물리적 방벽 설치 및 휴전기간 최소화 대책을 수립함."
+    },
+    {
+      "review_key": "ROOT-027-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 의사결정 책임 회피나 권한 충돌이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2009년 4건·2010년 2건 등 최근 3년간 6건의 안전모선 저전압·소외전원상실 사건(고리 3호기 '09.1.16 4호기 SUT 계전기 파급, 영광 2호기 '09.6.24 1·2호기 동시 LOV 등 계획예방정비 중 3건)이 반복되었음에도 계획예방정비 중 LOV 방지 및 호기 간 독립성 교훈이 충분히 환류되지 못했다.",
+      "fact_ids": [
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "5장, 7장",
+          "printed_pages": [
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "summary": "최근 3년 LOV·LOOP 6건(정비 중 3건) 반복, 호기 간 독립성 상실 및 운전경험 반영 미흡"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS는 타 발전소에도 Test Jack 절차 및 호기 간 동시 전원상실 교훈을 적절히 반영할 것을 권고함."
+    },
+    {
+      "review_key": "ROOT-027-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 정기 자체 진단 체계 결함을 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 직접 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 외부 기관 벤치마킹 누락이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "작업조 3명이 울진·영광 파견자 2명과 경력 4개월 인턴 1명으로 구성되어 고리 3호기 기기 친숙화가 미흡했고 검전·격리확인 기본 역량이 결여되어 후속대책으로 협력업체 교육 강화가 수립되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        },
+        {
+          "section": "3.나절, 4장, 6~7장",
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "summary": "Test Jack 실증시험 완료, 협력업체·고전압 관리·절차서 개정·SUT 수전회로 분리 등 재발방지대책 수립 및 KINS 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.가절에서 기기 친숙화 미흡을 직접 기여요소로 명시)."
+    },
+    {
+      "review_key": "ROOT-027-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "A계열 미제거 비계에 따른 오인 위험, 가압 중인 A계열 모선 개방 전 검전 미수행, 그리고 4호기 차단기(A-PB-S01-15) 인출 시 b접점 상실로 EDG-A 자동투입이 불가능한 상태(운영기술지침서 3.8.1 조치 4, 12시간 초과)를 사전 식별하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        },
+        {
+          "section": "3.나절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "차단기 인출(Rack-out) 시 b접점 '0' 신호 오류로 AAC DG Tie 미개방·EDG-A 7분 지연 및 LCO 3.8.1 조치 4(12시간) 미인지 초과"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 발생 후 4호기 운전원은 7분 만에 AAC DG Tie 차단기 미개방 원인을 파악해 수동 개방함."
+    },
+    {
+      "review_key": "ROOT-027-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "3호기 SUT B 휴전 및 SWYD 차단기 정비로 3·4호기 전체 안전모선이 1개 소외전원에 의존하고 4호기 차단기(A-PB-S01-15)를 인출한 복합 전력계통 정렬이 단일 오류 시 2개 호기 동시 LOOP와 4호기 EDG-A 불능으로 직결되는 위험성을 사전 평가하지 못했다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2.나절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "summary": "3호기 가압 13.8 kV A계열 NSPB 오개방 지락으로 3·4호기 안전모선 동시 LOOP·EDG 기동 및 4호기 EDG-A 7분 지연"
+        },
+        {
+          "section": "3.나절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "차단기 인출(Rack-out) 시 b접점 '0' 신호 오류로 AAC DG Tie 미개방·EDG-A 7분 지연 및 LCO 3.8.1 조치 4(12시간) 미인지 초과"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.나절 및 5장에서 전력계통 정렬 시 미인지와 잠재 리스크 존재를 명시)."
+    },
+    {
+      "review_key": "ROOT-027-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 사건 전 인지된 결함의 시정조치를 지연·방치했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 설비·오류 경향분석 체계 결함이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-027-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "당일 18시 완료 일정 압박, A계열 임시 가설물(비계) 미제거, 외부 파견·인턴 중심 작업조 편성, 한수원/KPS 감독 부재, 고전압 충전부 식별표시 및 물리적 방벽 미비, 계통격리·검전 누락 등 전반적 작업관리 결함이 사건을 직접 초래했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        },
+        {
+          "section": "3.나절, 4장, 6~7장",
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "summary": "Test Jack 실증시험 완료, 협력업체·고전압 관리·절차서 개정·SUT 수전회로 분리 등 재발방지대책 수립 및 KINS 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "후속대책으로 물리적 방벽 설치, 식별표시 개선, 파견인원 단독조 금지 및 감독 강화를 수립함."
+    },
+    {
+      "review_key": "ROOT-027-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "고리 3·4호기 소외전력 수전회로 공유 구조(3호기 정비 시 4호기 안전모선 독립성 상실)와, 차단기 인출(Rack-out) 시 투입(Close)과 동일하게 '0' 신호를 발생시켜 AAC DG Tie 차단기 자동개방 논리가 마비되는 제어회로 설계 취약성이 2개 호기 동시 LOOP 및 4호기 EDG-A 7분 지연을 직접 유발했다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F04",
+        "GEMINI-F05",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2.나절",
+          "printed_pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "summary": "3호기 가압 13.8 kV A계열 NSPB 오개방 지락으로 3·4호기 안전모선 동시 LOOP·EDG 기동 및 4호기 EDG-A 7분 지연"
+        },
+        {
+          "section": "3.나절",
+          "printed_pages": [
+            5,
+            6
+          ],
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "summary": "차단기 인출(Rack-out) 시 b접점 '0' 신호 오류로 AAC DG Tie 미개방·EDG-A 7분 지연 및 LCO 3.8.1 조치 4(12시간) 미인지 초과"
+        },
+        {
+          "section": "5장, 7장",
+          "printed_pages": [
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "summary": "최근 3년 LOV·LOOP 6건(정비 중 3건) 반복, 호기 간 독립성 상실 및 운전경험 반영 미흡"
+        },
+        {
+          "section": "3.나절, 4장, 6~7장",
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "summary": "Test Jack 실증시험 완료, 협력업체·고전압 관리·절차서 개정·SUT 수전회로 분리 등 재발방지대책 수립 및 KINS 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "장기대책으로 2012.08 통합스위치야드 건설 시 고리 3·4호기 SUT 수전회로 분리('12.9~)를 추진함."
+    },
+    {
+      "review_key": "ROOT-027-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KPS 정비절차서 내 가설물 설치/철거 관련 내용 오류, 차단기 인출 시 Test Jack 연결 절차 미비, 그리고 SUT 2개·4.16 kV 안전모선 2개 중 2개 이상 동시고장 시 신속 조치를 위한 비정상절차서 미흡이 확인되었다.",
+      "fact_ids": [
+        "GEMINI-F03",
+        "GEMINI-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        },
+        {
+          "section": "3.나절, 4장, 6~7장",
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "summary": "Test Jack 실증시험 완료, 협력업체·고전압 관리·절차서 개정·SUT 수전회로 분리 등 재발방지대책 수립 및 KINS 적정 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "후속대책으로 Test Jack 절차 반영 및 동시고장 대응 비정상절차서 보완 개정을 수립함."
+    },
+    {
+      "review_key": "ROOT-027-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "KPS 작업자가 정비절차서의 가설물 설치/철거 승인 절차, 초기조건 계통격리 사전확인, 점검대상 목록 표 준수 및 검전 절차를 미준수하고 임의로 작업해 가압 모선 지락을 직접 유발했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "summary": "KPS 분임조장 단독 오지시, 한수원 감독자·작업조장 현장 부재 및 파견·인턴 작업조 검전 미시행"
+        },
+        {
+          "section": "3.가절",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [
+            7
+          ],
+          "summary": "일정 압박·비계 미제거·감독 미흡·친숙화 미흡 및 KPS 정비절차서 오류·4개 절차 미준수 도출"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 발생 후 3·4호기 운전원의 AAC DG Tie 차단기 수동개방, 비정상-49 수행 및 LCO 적용·소외전원 복구는 적절했음(GEMINI-F06)."
+    }
+  ],
+  "limitations": [
+    "본 보고서 번호 원문 표기는 '2011-07호(110419K3,4)'(중립 큐 event_id는 110419K34)이며, 별도 INES 등급 평가 절은 수록되어 있지 않음.",
+    "본문 6장 제목이 '6. 유사사건의 재발방지를 위한 대책'('없음.')으로 편집 오기되어 있으며(실제 운영자 대책은 4장, 6장은 보완요구사항 절), PDF p.12(붙임 1)는 사건전개 개략도 이미지로 수록됨.",
+    "장기 SUT 수전회로 분리('12.9 3호기부터 이설) 및 동시고장 대응 비정상절차서 보완 개정은 보고서 발행일('11.11.03) 기준 추진 예정 상태임.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

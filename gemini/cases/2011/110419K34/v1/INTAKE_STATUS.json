@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "model": "GEMINI",
+  "queue_id": "ROOT-027",
+  "event_id": "110419K34",
+  "artifact_status": "STORED",
+  "integration_status": "PENDING_INTEGRATION",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "SELF_ATTESTED_NO_OTHER_AI_OUTPUTS_SEEN",
+  "source_verification": "BINARY_HASH_VERIFIED",
+  "reported_hash_matches_queue": true,
+  "reported_pages_match_queue": true,
+  "source_zip": "GEMINI_ROOT-027_110419K34_v1.zip",
+  "source_zip_sha256": "abcda26cfbe95ebbbd1f491df9c51e71b980117b70ce76c0fe45d67072a8ebaa",
+  "files": [
+    {
+      "name": "report.md",
+      "blob": "66ef3164c71b0d3aaa6289b3bc95b4a48099b367",
+      "sha256": "36ccb0e3d0dbc8abab9ee907dffaa2aac375f860992313b815297e8f6e6d5c00"
+    },
+    {
+      "name": "review.json",
+      "blob": "40a3251371503db85f4f29b5b2aca4c31b8e5e3a",
+      "sha256": "0ed4d9d29e3f27e8df8b4d8a24c64322310d1d58618dfc507e07d4b3963f7ed8"
+    },
+    {
+      "name": "excel_import.csv",
+      "blob": "301a84854d2461413194c0d91d26d814583a940e",
+      "sha256": "166bbe095d688e3e183fe6f638c461d410ea6b56913422bd901271648d9b9fe7"
+    },
+    {
+      "name": "validation.md",
+      "blob": "f2cb95c2a9b9a8f687c390fedfebe4d5d6eae06b",
+      "sha256": "1237cdea6a612db675f47d269c090b58b50f07b34bd20335c0c2084a5b55f2ba"
+    }
+  ],
+  "role_counts": {
+    "D": 18,
+    "I": 1,
+    "A": 0,
+    "H": 0,
+    "P": 0,
+    "N": 21
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "zip_exact_paths": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "json_duplicate_keys": "PASS",
+    "schema_draft202012_with_format_checker": "PASS",
+    "schema_reference_blob": "01041a91f7fd2ca08806c0aa3ac84048f0747de3",
+    "csv_json_decision": "MATCH",
+    "csv_json_rationale": "MATCH",
+    "csv_json_rationale_after_role_prefix_removal": "MATCH_40_OF_40",
+    "csv_source_detail": "EXACT_MATCH_WITH_FACT_IDS_AND_LOCATIONS",
+    "csv_source_rows_missing_details": [],
+    "fact_count": 7,
+    "fact_reference_check": "PASS",
+    "attribute_source_ledger_printed_page_check": "PASS",
+    "attribute_source_ledger_differences": {},
+    "report_csv_fact_id_reference": "PASS",
+    "report_and_validation_role_counts": "MATCH",
+    "pdf_page_range_check": "PASS",
+    "csv_formula_prefix_check": "PASS",
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Reported PDF SHA-256 and physical page count match the neutral queue. Importer did not independently reopen or hash the original PDF.",
+    "Independence is self-attested. Semantic source reinspection and expert approval were not performed.",
+    "No submitted progress.json in the ZIP.",
+    "Reported cover number formatting 2011-07호(110419K3,4) matches queue report 2011-07."
+  ],
+  "approved": false,
+  "can_ship": false,
+  "revision": "v1"
+}
