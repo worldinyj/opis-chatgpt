@@ -1,0 +1,291 @@
+{
+  "schema_version": "1.0",
+  "event_id": "140228Y2",
+  "queue_id": "ROOT-021",
+  "priority": "P3_STANDARD_REVIEW",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_path": "cases/2014/140228Y2/review_package/ATTRIBUTE_ROLES_V1.json",
+    "normalized_blob": "ab2962cd1c2865946a5cb3cee95835d73d62c52a",
+    "metadata_blob": "12336d5ca971b453fa8d6d49d934bba484ee2db9",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "link_index_blob": "e8dda08fefb980b9bee911237eaacaedb2a48b64",
+    "source_sha256": "4eb7c17d9d60fb5c15f3a986d30c543d4d34e0262cefdc49c3bebdf58fc1f9e7"
+  },
+  "source_paths": {
+    "report": "cases/2014/140228Y2/report.md",
+    "fact_ledger": "cases/2014/140228Y2/media/fact_ledger.json",
+    "learning_ledger": "cases/2014/140228Y2/media/learning_ledger.json"
+  },
+  "candidates": [
+    {
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "definition": "모든 종사자는 수직•수평 관계에 있는 직원 및 조직과 투명하고 솔직하게 정보를 공유하고 소통한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F07"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F07",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.3 설계변경 관리",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "printed_pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "author_rationale": "공급사 수정정보 미통보",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "LA5",
+      "name": "변화 관리",
+      "definition": "리더는 원자력안전 최우선 방침이 유지되도록 변화를 체계적으로 평가하고 관리한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F08"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F08",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.3 설계변경 관리",
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            5
+          ]
+        }
+      ],
+      "author_rationale": "설계변경 전파 절차 미비",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP1",
+      "name": "작업 관리",
+      "definition": "원자력안전을 최우선적으로 고려하여 작업계획을 수립하고 시행하는 프로세스를 운영한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F09",
+        "F10"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F09",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.3 시험관리 및 절차",
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            5
+          ]
+        },
+        {
+          "fact_id": "F10",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.3 시험관리 및 절차",
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            5
+          ]
+        }
+      ],
+      "author_rationale": "중요시험 분류 및 사전검토 미흡",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP2",
+      "name": "설계 여유도",
+      "definition": "설계 여유도 내에서 설비를 운영하고 변경 시에는 체계적이고 엄격한 프로세스를 적용한다. 특히, 핵분열물질 방어, 심층 방어 및 안전설비 유지 등에 주의를 기울인다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F06",
+        "F07"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F06",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.3 설계변경 관리",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "printed_pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "fact_id": "F07",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.3 설계변경 관리",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "printed_pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "author_rationale": "설계 확인 및 변경 반영 오류",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP3",
+      "name": "문서화",
+      "definition": "문서 작성 및 관리는 완벽하고 정확하며 최신의 상태를 유지한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F11",
+        "F13"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F11",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.3 시험관리 및 절차",
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            5
+          ]
+        },
+        {
+          "fact_id": "F13",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.3 시험관리 및 절차",
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            5
+          ]
+        }
+      ],
+      "author_rationale": "절차의 확인 단계 및 설명 불일치",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    }
+  ],
+  "education_and_positive": [],
+  "additional_review_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "LA1",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM2",
+    "CL1",
+    "CL2",
+    "CL3",
+    "CL4",
+    "PI1",
+    "PI2",
+    "PI3",
+    "WP4"
+  ],
+  "legacy_unselected_codes": [
+    "CO4",
+    "LA2",
+    "LA3",
+    "LA4",
+    "LA8",
+    "DM3",
+    "WE1",
+    "WE2",
+    "WE3",
+    "WE4",
+    "PI4",
+    "RC1",
+    "RC2"
+  ],
+  "metadata_checks": [
+    {
+      "key": "candidate_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "additional_review_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "insufficient_or_low_relevance_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "approved_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    }
+  ],
+  "validation": {
+    "status": "PASS_STRUCTURAL",
+    "errors": [],
+    "notes": []
+  },
+  "expert_status": "PENDING",
+  "expert_reviewer": null,
+  "expert_review_date": null,
+  "approved_attributes": [],
+  "confirmed_weakness_count": null,
+  "can_ship": false
+}

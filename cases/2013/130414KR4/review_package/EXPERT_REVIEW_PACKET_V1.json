@@ -1,0 +1,390 @@
+{
+  "schema_version": "1.0",
+  "event_id": "130414KR4",
+  "queue_id": "ROOT-022",
+  "priority": "P2_ROLE_BOUNDARY",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_path": "cases/2013/130414KR4/review_package/ATTRIBUTE_ROLES_V1.json",
+    "normalized_blob": "3e7970ea2b9930452e5043e7b24d12e885921896",
+    "metadata_blob": "db2215cda34b6dce0783069c64ffc87a6319af28",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "link_index_blob": "e8dda08fefb980b9bee911237eaacaedb2a48b64",
+    "source_sha256": "c5a6c0d26079b71cc81f850eba75c884d00fc601b7cf245d7ff0ddb125af4f77"
+  },
+  "source_paths": {
+    "report": "cases/2013/130414KR4/report.md",
+    "fact_ledger": "cases/2013/130414KR4/media/fact_ledger.json",
+    "learning_ledger": "cases/2013/130414KR4/media/learning_ledger.json"
+  },
+  "candidates": [
+    {
+      "code": "PA3",
+      "name": "팀워크",
+      "definition": "모든 종사자는 원자력안전이 유지될 수 있도록 본인의 업무에 대해 조직 안팎으로 소통하고 협력한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F15"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F15",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.1.2",
+          "pdf_pages": [
+            9
+          ],
+          "printed_pages": [
+            8
+          ]
+        }
+      ],
+      "author_rationale": "업무 중복으로 감시·조정 어려움",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "definition": "리더는 원자력안전을 보장하기 위하여 역할, 책임 및 권한을 명확히 규정한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F16"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F16",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.1.2",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "printed_pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "author_rationale": "감독 실행 미흡과 역할 규정 결함 구분",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "definition": "모든 종사자는 의사결정 시 일관적이고 체계적인 방법을 사용한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F18"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F18",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.2",
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "printed_pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "author_rationale": "진단 오류와 일관적 판단 프로세스 구분",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "CL4",
+      "name": "교육 훈련",
+      "definition": "높은 수준의 교육훈련을 통해 전문 인력을 양성하고 엄격한 원자력안전 기준을 강조한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F12",
+        "F13"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F12",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.1.1–3.2.1.2",
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "fact_id": "F13",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.1.2",
+          "pdf_pages": [
+            8
+          ],
+          "printed_pages": [
+            7
+          ]
+        }
+      ],
+      "author_rationale": "교육 경험 있음, 실제 경험 부족과 교육체계 결함 구분",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP1",
+      "name": "작업 관리",
+      "definition": "원자력안전을 최우선적으로 고려하여 작업계획을 수립하고 시행하는 프로세스를 운영한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F07",
+        "F15"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F07",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.3",
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "printed_pages": [
+            5,
+            6
+          ]
+        },
+        {
+          "fact_id": "F15",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.1.2",
+          "pdf_pages": [
+            9
+          ],
+          "printed_pages": [
+            8
+          ]
+        }
+      ],
+      "author_rationale": "업무 완료 확인·조정 미흡",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP4",
+      "name": "절차 준수",
+      "definition": "모든 종사자는 프로세스, 절차 및 작업 지침을 준수한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F07",
+        "F12",
+        "F18"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F07",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.3",
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "printed_pages": [
+            5,
+            6
+          ]
+        },
+        {
+          "fact_id": "F12",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.1.1–3.2.1.2",
+          "pdf_pages": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "printed_pages": [
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "fact_id": "F18",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.2",
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "printed_pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "author_rationale": "절차 위반 지적",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    }
+  ],
+  "education_and_positive": [
+    {
+      "code": "PI2",
+      "name": "문제 평가",
+      "definition": "문제에 대한 원인분석 및 시정조치를 원자력안전의 중요도에 맞게 철저히 평가한다.",
+      "role": "EDUCATION_ONLY",
+      "fact_ids": [
+        "F08",
+        "F11"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F08",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.1.3",
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            6
+          ]
+        },
+        {
+          "fact_id": "F11",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.3.1.2",
+          "pdf_pages": [
+            14
+          ],
+          "printed_pages": [
+            13
+          ]
+        }
+      ],
+      "author_rationale": "원인 및 영향평가는 적절 평가, 미진 근거 미확인",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    }
+  ],
+  "additional_review_codes": [
+    "PA1",
+    "PA2",
+    "QA1",
+    "QA2",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "CO3",
+    "LA1",
+    "LA4",
+    "LA7",
+    "LA8",
+    "DM2",
+    "DM3",
+    "CL1",
+    "CL2",
+    "CL3",
+    "PI1",
+    "PI3",
+    "WP2",
+    "WP3"
+  ],
+  "legacy_unselected_codes": [
+    "CO4",
+    "LA2",
+    "LA3",
+    "LA5",
+    "WE1",
+    "WE2",
+    "WE3",
+    "WE4",
+    "PI4",
+    "RC1",
+    "RC2"
+  ],
+  "metadata_checks": [
+    {
+      "key": "candidate_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "additional_review_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "insufficient_or_low_relevance_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "approved_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    }
+  ],
+  "validation": {
+    "status": "PASS_STRUCTURAL",
+    "errors": [],
+    "notes": []
+  },
+  "expert_status": "PENDING",
+  "expert_reviewer": null,
+  "expert_review_date": null,
+  "approved_attributes": [],
+  "confirmed_weakness_count": null,
+  "can_ship": false
+}
