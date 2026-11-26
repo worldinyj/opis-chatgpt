@@ -1,0 +1,1236 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-007",
+  "event_id": "221222K3",
+  "model": {
+    "provider": "CLAUDE",
+    "version": "claude-sonnet-5-5",
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2022-12-22_고리3호기_발전기_여자변압기_고압측_케이블_접속부_손상에_의한_터빈_발전ᄀ.pdf",
+    "report_number": "2022-12",
+    "report_date": "2023-01-05",
+    "sha256": null,
+    "pdf_page_count": null,
+    "reading_scope": "Google Drive 커넥터의 PDF 텍스트 추출본 전체(표지, 사건 요약, 1~4장, 붙임 1~10, 비공개 사유서; 인쇄쪽 1~30 범위). 사진·그림·그래프 이미지와 붙임 8 측정값 미확인, 비공개 구간 미복원.",
+    "verification": "PDF_READ_HASH_UNAVAILABLE"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "분석 입력은 공통 프롬프트 V1.0, 표준 JSON, 출력 스키마, 워크플로 문서, 중립 큐의 ROOT-007 항목, KINS 원본 보고서(Google Drive 텍스트 추출본)로 한정했다. 다른 AI의 사건 분석·취약속성·사실/교훈 원장·통합 Excel·등급평가위원회 자료·타 모델 폴더는 열람하지 않았다(Drive 검색 결과의 파일명만 확인). 참고: 세션 앞부분(다른 사건 ROOT-038)에서 교육용 영상 전사문 1건을 열람했으며 ROOT-007의 분석 근거로 사용하지 않았다."
+  },
+  "facts": [
+    {
+      "id": "CLAUDE-F01",
+      "summary": "고리3호기가 정상운전(운전모드 1, 출력 99.7 %) 중이던 2022.12.22 08:24경 발전기 보호계전기(지락과전압계전기, 과여자계전기)가 작동해 터빈/발전기가 자동정지하고 연동 신호(P-8)로 원자로가 자동정지했다. 증기발생기 저-저수위에서 보조급수펌프가 설계대로 자동기동했다. 고시 별표 3.1항(원자로 정지), 3.2항(보조급수펌프 자동기동) 해당 보고대상사건이다(보고서 2022-12호, 발행 2023-01-05).",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약",
+          "printed_pages": [
+            1
+          ],
+          "pdf_pages": [],
+          "summary": "사건 요약"
+        },
+        {
+          "section": "1. 개요",
+          "printed_pages": [
+            2
+          ],
+          "pdf_pages": [],
+          "summary": "사건 개요와 보고 기준"
+        },
+        {
+          "section": "2.2 사건 전개과정",
+          "printed_pages": [
+            2,
+            3
+          ],
+          "pdf_pages": [],
+          "summary": "시간대별 전개"
+        }
+      ],
+      "limitation": "표지·조사자 면은 쪽번호가 없어 인용하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F02",
+      "summary": "직접원인: 여자변압기 C상 고압측 케이블 접속부에서 실제 지락이 발생해 주발전기 중성점 접지변압기에서 최대 11.4 kV가 발생했고, 지락과전압계전기(359G)와 과여자계전기(324)가 설정치 초과를 검출해 정상 작동했다. 육안점검에서 케이블 접속부 열수축튜브에 약 6 cm 길이의 손상·탄화 흔적과 절연파괴 흔적(hole) 2개소가 확인되었다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.1 원자로 자동정지 원인",
+          "printed_pages": [
+            4
+          ],
+          "pdf_pages": [],
+          "summary": "원자로 자동정지 직접원인"
+        },
+        {
+          "section": "3.1.2 주발전기 보호계전기 작동 원인",
+          "printed_pages": [
+            4,
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "보호계전기 작동과 지락 확인"
+        },
+        {
+          "section": "3.1.3 여자변압기 고압측 케이블 종단접속부 손상 원인",
+          "printed_pages": [
+            5
+          ],
+          "pdf_pages": [],
+          "summary": "육안점검 결과"
+        }
+      ],
+      "limitation": "일부 설정치·시지연 수치는 비공개 처리되어 있다."
+    },
+    {
+      "id": "CLAUDE-F03",
+      "summary": "접속부 손상의 원인은 열수축튜브 시공 중 가열 불량이다. 분해점검에서 열수축튜브가 쉽게 벗겨지고 레진 흡착 흔적이 거의 없어 접착력이 부족했고, 반도전층 말단부 근처에 공극(틈새)과 추가 아크 흔적이 있어 공극에 전계가 집중되어 절연이 파괴된 것으로 평가되었다. 열수축형 종단접속부는 조립형보다 시공불량을 일으킬 수 있는 절차가 많고(탈피 시 절연물 손상, 마스틱 테이핑 불균일·누락, 가열 미흡·국부과열, 스커트 비틀림) 작업자 숙련도 영향이 크다. 케이블 절연물·제작·수분 유입·단말부품 미설치·절연체 표면 흠집은 원인에서 배제되었다. KINS는 원인분석이 적절하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.3 여자변압기 고압측 케이블 종단접속부 손상 원인",
+          "printed_pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "육안·분해점검과 시공절차 분석"
+        },
+        {
+          "section": "붙임 3 전문분석기관 케이블 분해점검 결과",
+          "printed_pages": [
+            20,
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "전문분석기관 분해점검"
+        },
+        {
+          "section": "붙임 4 종단접속부 종류 및 특성 비교",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "열수축형·조립형 비교"
+        },
+        {
+          "section": "붙임 5 열수축형 접속부와 조립형 접속부 시공절차",
+          "printed_pages": [
+            24
+          ],
+          "pdf_pages": [],
+          "summary": "시공절차별 위험 단계"
+        }
+      ],
+      "limitation": "열수축 가열 작업을 수행한 작업자와 당시 시공 상태 기록은 보고서에 없다. 사건 케이블은 2011.12 교체 시 시공된 것이다(CLAUDE-F05)."
+    },
+    {
+      "id": "CLAUDE-F04",
+      "summary": "점검이력: C상 케이블은 2011.12 교체 후 사건까지 케이블 점검 이력에 특이사항이 없어 열수축튜브 종단접속부를 교체하지 않고 사용했다. 부분방전시험이 케이블의 국부 손상을 찾는 데 가장 유효한 방법이고 고리3호기가 지속 수행해 왔으나, 사건 직전 계획예방정비(2021.7)에서는 부분방전시험 전문인력을 확보하지 못하고 여자변압기 고압케이블 PMT가 발전소 상황에 따라 선택적으로 시험하도록 되어 있어 시험을 실시하지 않았다. 2022.1부터 제도 개선으로 고압케이블 부분방전시험이 필수 적용되도록 전파되어 다음 주기부터 수행할 예정이었다. KINS는 PMT 선택적 적용과 전문인력 미확보로 부분방전시험이 수행되지 않은 점이 개선 필요하다고 판단했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.4 여자변압기 C상 케이블 점검이력 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "점검이력과 부분방전시험 미실시"
+        }
+      ],
+      "limitation": "부분방전시험을 수행했더라도 결함을 검출했을지는 보고서에 서술되지 않는다. 절연저항·유전정접 측정은 계속 수행되었고 이상이 없었다."
+    },
+    {
+      "id": "CLAUDE-F05",
+      "summary": "동일 부위의 유사사건이 이전에 두 번 있었다: 2011.12.14 고리3호기(여자변압기 C상 고압측 케이블 접속부 절연파괴, 원인 마스틱 테이프 미부착과 열수축튜브 가열 불량), 2013.11.28 고리1호기(A상, 절연체 표면 흠집과 열수축튜브 가열 불량). KINS는 세부 원인은 다르나 열수축튜브 종단접속부 시공불량이라는 공통 원인이 있다고 확인했고, 두 사건의 재발방지대책(예: 전력케이블 시공 지침 제정, 접속부 건전성 점검방법 개선)은 이행된 것으로 확인했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건과 대책 이행 확인"
+        },
+        {
+          "section": "붙임 6 유사사건 사례 및 고장원인 검토",
+          "printed_pages": [
+            25
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건 비교"
+        }
+      ],
+      "limitation": "이행된 대책이 효과적이지 않았다는 점이 유효성 평가(CLAUDE-F06)에서 다루어진다."
+    },
+    {
+      "id": "CLAUDE-F06",
+      "summary": "원전운영자의 재발방지대책 유효성 평가를 KINS가 적절하다고 확인한 내용: 1) 2011년 대책 수립 때 조립형 종단접속부는 원전 사용 경험이 없어 신뢰성 검증이 안 되어 적용하지 못했는데, 한국전력은 열수축형에서 조립형으로 전환하고 있었으나 원전운영자는 유사업계 전체를 검토하지 못하고 원전산업계만 검토했다. 2) 2013년 고리1호기 대책은 성능점검 후 불만족일 때만 교체하도록 되어 고리3호기는 점검이 만족되어 열수축형을 계속 사용했다. 3) 부분방전시험의 주기적 수행이 대책에서 누락되었다(1회성 점검 후 완료, 유전정접으로 충분하다고 판단). 4) 2011.12 시공 시에는 시공지침(2012.1.20 작성)이 없어 시공업체 경험과 작업자 숙련도에 의존했고, 조속한 설비 복구(12.15 재가동 착수)에만 집중해 시공품질 확보 노력이 부족했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "대책 유효성 평가 결과"
+        }
+      ],
+      "limitation": "이 평가는 원전운영자가 사건 후 수행한 것이다. 2011년 당시의 의사결정자와 검토 범위의 세부 기록은 보고서에 없다."
+    },
+    {
+      "id": "CLAUDE-F07",
+      "summary": "유사 설비의 대응: 2013년 대책 후 점검에서 고리2호기와 월성2,3,4호기는 부분방전 증상이 확인되어 열수축형 종단접속부를 조립형으로 교체했다. 고리3호기는 점검 결과가 건전해 열수축형을 유지했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "타 호기 교체"
+        },
+        {
+          "section": "붙임 7 여자변압기 고압케이블 종단접속부 교체 및 설치현황",
+          "printed_pages": [
+            26
+          ],
+          "pdf_pages": [],
+          "summary": "발전소별 교체·설치 현황"
+        }
+      ],
+      "limitation": "교체 호기 선정은 점검 결과에 따른 것으로 서술된다."
+    },
+    {
+      "id": "CLAUDE-F08",
+      "summary": "사건 후 고리3호기 여자변압기 A,B,C상 종단접속부를 조립형으로 전면 교체했다. 경험 반영 시공 절차서, 30년 이상 시공자격 경력자, 품질감독 입회, 특수공기구를 사용했고 절연저항·내전압·부분방전·유전정접 시험이 모두 판정기준을 만족했다. KINS는 시공이 적절하다고 판단했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.2 케이블 종단접속부 시공방식 변경 및 시공 적절성 검토",
+          "printed_pages": [
+            11,
+            12
+          ],
+          "pdf_pages": [],
+          "summary": "조립형 전면 교체와 시공 품질"
+        },
+        {
+          "section": "붙임 8 고압케이블 종단접속부 교체 후 시험 결과",
+          "printed_pages": [
+            27
+          ],
+          "pdf_pages": [],
+          "summary": "교체 후 시험 결과"
+        }
+      ],
+      "limitation": "시험 측정값은 표에서 확인하지 못했다(판정 '정상'만 추출됨)."
+    },
+    {
+      "id": "CLAUDE-F09",
+      "summary": "주제어실 운전원은 비상운전절차서(원자로트립 및 SI, 원자로트립시 조치, 안전기능상태 추적도)를 수행해 필수안전기능 만족을 확인했고 08:30 종료 후 고온대기 상태를 유지했다. 이후 RCS 온도·증기발생기 수위 조절을 위해 보조급수펌프를 수동정지하며 동작신호를 우회해 운전제한조건 3.3.2의 보조급수 자동작동논리 2계열이 운전불가능해져 LCO 3.0.3을 적용(08:28)했고 신호 정상화 후 해제(10:32)했다. KINS는 운전조치가 적절했다고 확인했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.3.1 운전원 대응조치 검토",
+          "printed_pages": [
+            12,
+            13
+          ],
+          "pdf_pages": [],
+          "summary": "운전원 대응"
+        },
+        {
+          "section": "3.3.2 발전소 계통·기기 거동 및 안전성영향 검토",
+          "printed_pages": [
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "LCO 적용·해제"
+        }
+      ],
+      "limitation": "운전원 개인별 행동과 판단 세부는 보고서에 서술되지 않았다."
+    },
+    {
+      "id": "CLAUDE-F10",
+      "summary": "안전기능은 미임계 유지, 보조급수펌프 운전, 증기덤프계통 압력제어로 유지되었고 소내모선 전원은 UAT에서 SUT로 절체되어 원자로냉각재펌프 등이 정상 운전되었다. 사건 전후 방사선 이상이나 환경 방출은 없었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.3.2 발전소 계통·기기 거동 및 안전성영향 검토",
+          "printed_pages": [
+            13,
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "계통 거동과 방사선 영향"
+        }
+      ],
+      "limitation": "수치는 원전운영자 자료를 KINS가 검토한 결과이며 이 분석에서 재계산하지 않았다."
+    },
+    {
+      "id": "CLAUDE-F11",
+      "summary": "KINS는 정지원전에 쓰는 개시사건 접근법으로 기초 INES 등급을 0등급으로 검토했다(최종 등급은 사건등급평가위원회가 결정 예정).",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "3.4 사건등급(INES) 관련사항 검토",
+          "printed_pages": [
+            14
+          ],
+          "pdf_pages": [],
+          "summary": "기초 INES 0등급 사전 검토"
+        }
+      ],
+      "limitation": "이 분석은 INES 등급을 판단하지 않는다."
+    },
+    {
+      "id": "CLAUDE-F12",
+      "summary": "원전운영자는 단기 대책 4건(손상 케이블 교체와 A,B,C상 전체 조립형 변경·건전성 시험, 케이블 탈피 시공 Mock-up 사전교육·훈련과 취약개소 품질검사 입회, 영향 설비·유사부위(열수축형 설치 13.8·4.16 kV 안전등급·발전정지유발기기) 점검, 22 kV 고압케이블 매주기 부분방전시험)을 완료했고 중장기 2건(고리4호기·한울1,2호기 여자변압기 케이블 접속부 조립형 교체 ~2023.10, 상시감시형 부분방전 진단설비 도입 검토 ~2024.12)을 제시했다. KINS는 원인분석에 근거한 적절한 조치로 판단했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "3.5 재발방지대책 적절성 평가",
+          "printed_pages": [
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "단기·중장기 대책"
+        },
+        {
+          "section": "4. 결론",
+          "printed_pages": [
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "결론의 대책 적절성 판단"
+        }
+      ],
+      "limitation": "대책 이행 증빙과 효과 확인은 보고서에 없다. 중장기 대책은 예정 사항이다."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-007-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "개인의 규정 인식과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "업무 책임의식과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "팀워크와 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "H",
+      "review_result": "미선정",
+      "rationale": "송전 설비 케이블 접속부의 시공 품질 하나(열수축튜브 가열 불량)가 발전소 정지로 이어졌고 같은 부위에서 세 번째 정지 사건이 되었다(CLAUDE-F03, CLAUDE-F05). 원자력 설비의 복잡성과 사소해 보이는 시공이 갖는 영향을 토론하기 좋은 소재이다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 여자변압기 고압측 케이블 종단접속부 손상 원인",
+          "printed_pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "육안·분해점검과 시공절차 분석"
+        },
+        {
+          "section": "붙임 3 전문분석기관 케이블 분해점검 결과",
+          "printed_pages": [
+            20,
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "전문분석기관 분해점검"
+        },
+        {
+          "section": "붙임 4 종단접속부 종류 및 특성 비교",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "열수축형·조립형 비교"
+        },
+        {
+          "section": "붙임 5 열수축형 접속부와 조립형 접속부 시공절차",
+          "printed_pages": [
+            24
+          ],
+          "pdf_pages": [],
+          "summary": "시공절차별 위험 단계"
+        },
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건과 대책 이행 확인"
+        },
+        {
+          "section": "붙임 6 유사사건 사례 및 고장원인 검토",
+          "printed_pages": [
+            25
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건 비교"
+        }
+      ],
+      "counterevidence_or_limitation": "보고서는 인식 수준을 서술하지 않아 미진 행동의 근거로 쓰기 어렵다. 선정 근거가 아니다."
+    },
+    {
+      "review_key": "ROOT-007-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "불확실할 때 확인·중단하는 행동과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "가정 상황 확인과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "케이블 점검 결과에 이상이 없어 열수축형 접속부를 교체하지 않고 사용했고, 유전정접 시험으로 건전성 확인이 충분하다고 판단해 부분방전시험을 대책에서 뺐다(CLAUDE-F04, CLAUDE-F06). 건전하다는 판단에 안주하지 않고 잠재 위험을 대비한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 여자변압기 C상 케이블 점검이력 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "점검이력과 부분방전시험 미실시"
+        },
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "대책 유효성 평가 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "보고서에 안일함을 직접 서술한 문장이 없고 심리는 추정하지 않는다. DM2·WP2와 사실을 공유한다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-007-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "업무 소통과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "의사결정 근거 소통과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "투명한 정보 공유와 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "안전 우선 방침 전파와 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "사건 직전 계획예방정비에서 부분방전시험 전문인력을 확보하지 못해 시험을 수행하지 못했다(CLAUDE-F04). 리더가 안전에 필요한 인력 등 자원을 제공한다는 정의와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 여자변압기 C상 케이블 점검이력 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "점검이력과 부분방전시험 미실시"
+        }
+      ],
+      "counterevidence_or_limitation": "인력 미확보의 원인(채용·계약 등)과 결정 계층은 보고서에 없다. LA4·WP2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-007-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 현장 순시·코칭과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "보상·징벌과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "고압케이블 PMT가 부분방전시험을 발전소 상황에 따라 선택적으로 하도록 되어 있어 2022.1 제도 개선 이전에는 전사적으로 필수가 아니었고(CLAUDE-F04), 2011년 복구는 조속한 재가동에 집중해 시공품질 확보 노력이 부족했다고 평가되었다(CLAUDE-F06). 안전을 우선하는 전략적 방침과 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 여자변압기 C상 케이블 점검이력 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "점검이력과 부분방전시험 미실시"
+        },
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "대책 유효성 평가 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "2011년 우선순위 판단은 원전운영자의 사건 후 평가이며 당시 의사결정 기록은 보고서에 없다. LA1·DM2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-007-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "2013년 대책이 성능점검 후 불만족일 때만 교체하도록 정해져 열수축형이 유지되었고(CLAUDE-F06), 부분방전시험 필수 적용 제도 개선은 2022.1에야 전파되었다(CLAUDE-F04). 변화를 체계적으로 평가·관리한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 여자변압기 C상 케이블 점검이력 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "점검이력과 부분방전시험 미실시"
+        },
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "대책 유효성 평가 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "변경 관리의 직접 서술이 아니라 대책 설계의 한계로 서술되어 PI3·CL1과 사실을 공유한다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-007-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "역할·책임·권한과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더 수준의 지속적 진단과 관련하여 구분할 조사 사실이 보고서에 없다(부분방전시험 미실시는 WP2에서 평가). 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "리더의 솔선수범과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "일관적 의사결정 프로세스와 관련하여 구분할 조사 사실이 보고서에 직접 서술되어 있지 않다(대책 설계는 LA5·PI3에서 평가). 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "2011년 대책 수립 때 신뢰성 검증이 안 된 조립형을 적용하지 않고 열수축형을 유지했으며, 2013년 대책에서 유전정접으로 충분하다고 판단해 주기적 부분방전시험을 뺐다(CLAUDE-F06). 불확실할 때 보수적으로 판단하고 시스템 영향을 검토한다는 정의와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "대책 유효성 평가 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "당시 판단은 입수 가능했던 원전 경험에 근거한 것이고 이후 평가에서 한계가 확인되었다. QA4·CL3와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-007-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "의사결정 책임과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "상호 존중과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "의견 존중과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "신뢰와 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "갈등 해소와 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011년 고리3호기와 2013년 고리1호기의 동일 부위 사건 후 대책이 이행되었으나 조립형 종단접속부 미적용, 부분방전시험의 주기 적용 누락, 시공지침 부재라는 한계가 있어 같은 부위에서 세 번째 정지가 발생했다(CLAUDE-F05, CLAUDE-F06). 운전경험을 체계적으로 수집·분석하고 시의 적절히 조치한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F06",
+        "CLAUDE-F07"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건과 대책 이행 확인"
+        },
+        {
+          "section": "붙임 6 유사사건 사례 및 고장원인 검토",
+          "printed_pages": [
+            25
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건 비교"
+        },
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "대책 유효성 평가 결과"
+        },
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "타 호기 교체"
+        },
+        {
+          "section": "붙임 7 여자변압기 고압케이블 종단접속부 교체 및 설치현황",
+          "printed_pages": [
+            26
+          ],
+          "pdf_pages": [],
+          "summary": "발전소별 교체·설치 현황"
+        }
+      ],
+      "counterevidence_or_limitation": "대책은 이행되었고 타 호기는 증상 확인 후 조립형으로 교체했다(CLAUDE-F07). 유효성 평가는 사건 후 수행되었고 KINS가 적절하다고 확인했다. PI3·CL3과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-007-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "자체 진단과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011년 대책 수립 때 한국전력이 열수축형에서 조립형으로 전환하고 있었으나 원전운영자는 유사업계 전체를 검토하지 못하고 원전산업계만 검토했다(CLAUDE-F06). 외부 기관·타 산업의 모범 사례를 활용한다는 정의와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "대책 유효성 평가 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "이는 원전운영자가 사건 후 스스로 확인한 한계이며 KINS가 적절하다고 확인했다. 당시 검토 범위 결정의 근거는 보고서에 없다. CL1·DM2와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-007-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "사건 후 케이블 탈피 시공에 대한 Mock-up 사전교육과 훈련, 취약개소 품질검사 입회를 시행했다(CLAUDE-F12). 교육훈련으로 작업 역량을 확보한다는 정의와 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F12"
+      ],
+      "source_refs": [
+        {
+          "section": "3.5 재발방지대책 적절성 평가",
+          "printed_pages": [
+            14,
+            15
+          ],
+          "pdf_pages": [],
+          "summary": "단기·중장기 대책"
+        },
+        {
+          "section": "4. 결론",
+          "printed_pages": [
+            16
+          ],
+          "pdf_pages": [],
+          "summary": "결론의 대책 적절성 판단"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 후 대책이며 교육 이행의 효과 확인은 보고서에 없다."
+    },
+    {
+      "review_key": "ROOT-007-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "문제 파악과 CAP 연계와 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "사건 후 분해점검, 시공절차 분석, 전문분석기관 시험으로 케이블 불량·수분·단말부품 미설치·표면 흠집 등을 배제하며 원인을 좁혔고, 과거 두 사건의 재발방지대책 유효성을 평가해 한계를 도출했다(CLAUDE-F03, CLAUDE-F06). 문제를 철저히 평가한다는 정의와 연결되는 긍정 사례이다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 여자변압기 고압측 케이블 종단접속부 손상 원인",
+          "printed_pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "육안·분해점검과 시공절차 분석"
+        },
+        {
+          "section": "붙임 3 전문분석기관 케이블 분해점검 결과",
+          "printed_pages": [
+            20,
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "전문분석기관 분해점검"
+        },
+        {
+          "section": "붙임 4 종단접속부 종류 및 특성 비교",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "열수축형·조립형 비교"
+        },
+        {
+          "section": "붙임 5 열수축형 접속부와 조립형 접속부 시공절차",
+          "printed_pages": [
+            24
+          ],
+          "pdf_pages": [],
+          "summary": "시공절차별 위험 단계"
+        },
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "대책 유효성 평가 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "KINS가 원인분석과 유효성 평가가 적절하다고 확인했다. 사건 전 평가 수준은 CL1·PI3에서 평가한다."
+    },
+    {
+      "review_key": "ROOT-007-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "2011년·2013년 사건의 대책이 이행되었으나 동일 부위의 같은 시공불량이 2022년 사건으로 이어졌고, 대책에서 부분방전시험이 누락되고 조립형이 적용되지 않았다(CLAUDE-F05, CLAUDE-F06). 문제를 효과적으로 해결한다는 정의와 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F05",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건과 대책 이행 확인"
+        },
+        {
+          "section": "붙임 6 유사사건 사례 및 고장원인 검토",
+          "printed_pages": [
+            25
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건 비교"
+        },
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "대책 유효성 평가 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "대책 이행 사실은 확인되었고(CLAUDE-F05) 효과성 부족은 사건 후 유효성 평가에서 드러났다. CL1과 사실을 공유하며 독립 사건 수로 중복 집계하지 않는다."
+    },
+    {
+      "review_key": "ROOT-007-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "2011년, 2013년, 2022년 세 차례 여자변압기 고압측 케이블 접속부 절연파괴가 발생했으나 사건 전에 이 반복을 경향으로 분석해 조치한 서술은 없다(CLAUDE-F05). 경향을 주기적으로 분석한다는 정의와 연결될 수 있다.",
+      "fact_ids": [
+        "CLAUDE-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            9,
+            10
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건과 대책 이행 확인"
+        },
+        {
+          "section": "붙임 6 유사사건 사례 및 고장원인 검토",
+          "printed_pages": [
+            25
+          ],
+          "pdf_pages": [],
+          "summary": "유사사건 비교"
+        }
+      ],
+      "counterevidence_or_limitation": "사건 전 경향 분석 여부는 보고서에 직접 서술되지 않는다. CL1과 사실을 공유한다. 별도 근거가 필요하다."
+    },
+    {
+      "review_key": "ROOT-007-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "우려 제기 권리·의무 정책과 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "안전건의 프로세스와 관련하여 구분할 조사 사실이 보고서에 없다. 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    },
+    {
+      "review_key": "ROOT-007-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011.12 케이블 교체 시 시공지침이 작성(2012.1.20)되기 전에 시공되어 작업이 시공업체 경험과 작업자 숙련도에 의존했고, 조속한 복구에 집중해 시공품질 확보 노력이 부족했다(CLAUDE-F06). 숙련도 영향이 큰 열수축 가열 불량이 지락으로 이어졌다(CLAUDE-F03). 작업을 안전 우선으로 계획·시행하는 프로세스와 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 여자변압기 고압측 케이블 종단접속부 손상 원인",
+          "printed_pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "육안·분해점검과 시공절차 분석"
+        },
+        {
+          "section": "붙임 3 전문분석기관 케이블 분해점검 결과",
+          "printed_pages": [
+            20,
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "전문분석기관 분해점검"
+        },
+        {
+          "section": "붙임 4 종단접속부 종류 및 특성 비교",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "열수축형·조립형 비교"
+        },
+        {
+          "section": "붙임 5 열수축형 접속부와 조립형 접속부 시공절차",
+          "printed_pages": [
+            24
+          ],
+          "pdf_pages": [],
+          "summary": "시공절차별 위험 단계"
+        },
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "대책 유효성 평가 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "결함이 있었던 시공은 사건 11년 전 작업이며 당시 지침이 없었던 것으로 평가되어 현재 프로세스와 구분된다. WP3·LA4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-007-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "열수축형 종단접속부를 점검 결과가 건전하다는 이유로 11년간 교체 없이 사용했고, 케이블 국부 손상을 찾는 데 가장 유효한 부분방전시험이 사건 직전 계획예방정비에서 수행되지 않았다(CLAUDE-F03, CLAUDE-F04). 안전 관련 설비를 유지·관리한다는 정의와 직접 연결된다(WP2는 설계 여유도와 설비 유지).",
+      "fact_ids": [
+        "CLAUDE-F03",
+        "CLAUDE-F04"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.3 여자변압기 고압측 케이블 종단접속부 손상 원인",
+          "printed_pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [],
+          "summary": "육안·분해점검과 시공절차 분석"
+        },
+        {
+          "section": "붙임 3 전문분석기관 케이블 분해점검 결과",
+          "printed_pages": [
+            20,
+            21,
+            22
+          ],
+          "pdf_pages": [],
+          "summary": "전문분석기관 분해점검"
+        },
+        {
+          "section": "붙임 4 종단접속부 종류 및 특성 비교",
+          "printed_pages": [
+            23
+          ],
+          "pdf_pages": [],
+          "summary": "열수축형·조립형 비교"
+        },
+        {
+          "section": "붙임 5 열수축형 접속부와 조립형 접속부 시공절차",
+          "printed_pages": [
+            24
+          ],
+          "pdf_pages": [],
+          "summary": "시공절차별 위험 단계"
+        },
+        {
+          "section": "3.1.4 여자변압기 C상 케이블 점검이력 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "점검이력과 부분방전시험 미실시"
+        }
+      ],
+      "counterevidence_or_limitation": "절연저항·유전정접 측정은 지속 수행되어 이상이 없었다(CLAUDE-F04). 부분방전시험 수행이 결함을 검출했을지는 알 수 없다. QA4·LA1과 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-007-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "2011년 시공 당시 고압케이블 종단접속부 시공지침이 없었고(CLAUDE-F06), 고압케이블 PMT가 부분방전시험을 선택적으로 시행하도록 되어 2022.1 개정 전에는 필수가 아니었으며 대책에는 주기적 부분방전시험이 누락되었다(CLAUDE-F04, CLAUDE-F06). 문서의 정확성·완전성과 직접 연결된다.",
+      "fact_ids": [
+        "CLAUDE-F04",
+        "CLAUDE-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "3.1.4 여자변압기 C상 케이블 점검이력 검토",
+          "printed_pages": [
+            8,
+            9
+          ],
+          "pdf_pages": [],
+          "summary": "점검이력과 부분방전시험 미실시"
+        },
+        {
+          "section": "3.1.5 유사사건 사례 및 관련 재발방지대책 적절성 검토",
+          "printed_pages": [
+            10,
+            11
+          ],
+          "pdf_pages": [],
+          "summary": "대책 유효성 평가 결과"
+        }
+      ],
+      "counterevidence_or_limitation": "시공지침은 2012.1에 제정되었고 PMT는 2022.1에 개정되었다(CLAUDE-F04, CLAUDE-F05). WP1·LA4와 사실을 공유한다."
+    },
+    {
+      "review_key": "ROOT-007-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "절차·규정 이행과 관련하여 구분할 조사 사실이 보고서에 없다(PMT의 선택적 적용은 규정상 허용된 사항으로 서술됨). 해당 원문 근거 없음.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "근거 부재이며 양호하다는 판정이 아니다."
+    }
+  ],
+  "limitations": [
+    "원본 PDF 바이너리에 접근하지 못했다(Google Drive 직접 다운로드가 실행환경 프록시에서 차단됨). SHA-256을 계산하지 않았으며 source.sha256=null, verification=PDF_READ_HASH_UNAVAILABLE로 기록한다. 큐의 기대 SHA-256(f3826f42…a2de)은 비교 기준일 뿐 검증 완료로 간주하지 않는다.",
+    "Google Drive 파일 크기 1,348,406 bytes는 큐의 기대 크기와 일치하나(메타데이터 대조) 이것이 판본 동일성을 증명하지 않는다. Drive에는 같은 크기의 사본이 여러 개 있으며 사건 식별은 파일명이 아니라 표지 '2022-12호(221222K3)'와 본문으로 했다. Drive 검색 결과에 보인 다른 파일은 열람하지 않았다.",
+    "PDF 물리 페이지 수와 쪽 매핑을 확인하지 못했다. 추출 텍스트의 인쇄 쪽번호는 최대 30이고 큐 기대 물리 페이지는 32이다. 표지·조사자 면(번호 없음) 2면이 더해져 차이가 생긴 것으로 추정하나 확인하지 않았으며 쪽수 차이를 보정하지 않는다. 비공개 사유서가 인용하는 쪽(2~28쪽)은 본문 인쇄 쪽번호 체계와 일치하는 것으로 보이나 물리쪽을 보증하지 않는다. 모든 source_refs의 pdf_pages는 빈 배열이고 통합 시 판본·물리쪽 확인이 필요하다.",
+    "인쇄 쪽번호는 추출 텍스트의 '- N -' 표기를 각 면의 끝 표지로 보고 정했다(사건 요약을 인쇄쪽 1, 1. 개요 시작 면을 인쇄쪽 2). 면 경계는 추출 순서에 의존하므로 ±1쪽 오차 가능성이 있다. 붙임 3의 면 분할(20~22쪽)과 붙임 5의 표 구간(24쪽)은 추출 순서상 확실하지 않아 인접 면으로 추정했다.",
+    "분석은 Google Drive 커넥터의 PDF 텍스트 추출본에 기반하며 일부 수치·설정치·절차서 번호가 비공개 처리되어 있다. 표지부터 붙임 10과 비공개 사유서까지 전체 텍스트를 읽었다. 사진·그림·그래프·사건전개 도해와 붙임 8 시험 측정값 표(판정만 추출됨)는 직접 확인하지 못했다.",
+    "원본의 비공개 처리 구간(지식재산 관련 정보, 일부 설정치·시지연 수치, 절차서 번호)은 복원하지 않았다.",
+    "보고서 내 표기 차이를 보정하지 않고 기록만 했다: 3.1.1에서 원자로 정지 시각이 08:24:52.915, 보조급수펌프 기동 시각이 08:25:59로 표기된 부분(2.2절)과 08:24:59 표기가 혼재하고, 3.1.5의 2011년 시공 일자와 지침 작성일(2012.1.20)이 병기된다. 붙임 4 표는 추출 과정에서 열이 섞여 있다.",
+    "D/I 후보는 AI의 독립 의견이며 전문가 승인이 아니다. 원인 D/R/C 분류는 AI 교육용 재분류이다(KINS 공식 근본원인 코드 체계는 원본에서 확인되지 않음). 보고서는 공식 규제기관 평가나 현장 작업지침이 아니다.",
+    "미선정(H/P/N)은 해당 속성이 양호하다는 의미가 아니다. N은 현재 원본에서 근거가 확인되지 않았음을 뜻한다. 이 보고서는 설비 결함 원인과 과거 대책 유효성 중심이어서 개인 행동·소통·리더십·존중 계열 속성 다수가 N이다. 2011년 의사결정 관련 판단(CL3, DM2, LA4, WP1)은 원전운영자가 사건 후 수행한 유효성 평가를 KINS가 적절하다고 확인한 서술에 근거한다.",
+    "이 세션의 이전 사건(ROOT-038) 작업 초기에 사용자가 제공한 링크 1건이 원본 PDF가 아니라 해당 사건의 교육용 내레이션 영상이었고 그 전사문을 열람했다. ROOT-007과는 무관한 사건이며 ROOT-007 분석에는 사용하지 않았다. 독립성 판단은 사용자 결정이다."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}

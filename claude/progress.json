@@ -152,8 +152,32 @@
         "리더십 계열 속성 다수 N(작업관리 중심 보고서)"
       ],
       "integration_status": "HOLD"
+    },
+    {
+      "queue_id": "ROOT-007",
+      "event_id": "221222K3",
+      "status": "STORED",
+      "artifact_paths": [
+        "claude/cases/2022/221222K3/v1/report.md",
+        "claude/cases/2022/221222K3/v1/review.json",
+        "claude/cases/2022/221222K3/v1/excel_import.csv",
+        "claude/cases/2022/221222K3/v1/validation.md"
+      ],
+      "zip": "CLAUDE_ROOT-007_221222K3_v1.zip",
+      "github_commit_sha": null,
+      "checks": "Original validation.md; intake in INTAKE_STATUS.json.",
+      "constraints": [
+        "GitHub 쓰기 불가(GH_TOKEN 무효)로 저장하지 않음",
+        "PDF 바이너리 미접근: sha256=null, PDF_READ_HASH_UNAVAILABLE",
+        "물리 페이지 미확인(인쇄쪽 최대 30, 기대 32)",
+        "사진·그림·그래프와 붙임 8 측정값 미확인, 비공개 구간 미복원",
+        "2011년 의사결정 관련 판단은 사건 후 원전운영자 유효성 평가에 의존",
+        "설비·과거 대책 중심 보고서로 N 25개"
+      ],
+      "integration_status": "HOLD",
+      "commit_reference_note": "Commit recorded in follow-up."
     }
   ],
-  "next_queue_id": "ROOT-007",
+  "next_queue_id": "ROOT-008",
   "next_status": "NOT_STARTED"
 }

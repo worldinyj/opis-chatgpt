@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "model": "CLAUDE",
+  "queue_id": "ROOT-007",
+  "event_id": "221222K3",
+  "artifact_status": "STORED",
+  "integration_status": "HOLD",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+  "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+  "reported_hash_matches_queue": false,
+  "reported_pages_match_queue": false,
+  "source_zip": "CLAUDE_ROOT-007_221222K3_v1.zip",
+  "source_zip_sha256": "86d0ffec63e636a204ba566069b0f4821c6238b45e0e4fada68de6cb2f8485a5",
+  "files": [
+    {
+      "name": "report.md",
+      "blob": "a02810faba4b11579e70c162c26e312cc3f31edd",
+      "sha256": "b000e6d294e2a4813a6d92526a1b017842fcbb5b81e426e56d5c2df31491fde3"
+    },
+    {
+      "name": "review.json",
+      "blob": "c992b5ee2a89f10603433378952da08e31f8d9f6",
+      "sha256": "0e41807d4c4c5464c50c7759da216375ded999e99f4d06dc910c96a15dfa8c04"
+    },
+    {
+      "name": "excel_import.csv",
+      "blob": "9ec1412271dca61188b02b9d242733b6f221b5d6",
+      "sha256": "c57c6fc6f496b13c0efc1dfa65c1ec9e1908edfe3cd8261b8de08c585db975bb"
+    },
+    {
+      "name": "validation.md",
+      "blob": "61dec0eb471a2cb380470c9f973406063a8faaa5",
+      "sha256": "b1a3f64194c3c4210f943da3d181cecc6fb3d5c37f62edc5f1624f3023bfd0db"
+    }
+  ],
+  "role_counts": {
+    "N": 25,
+    "H": 1,
+    "A": 3,
+    "I": 4,
+    "D": 5,
+    "P": 2
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "zip_path_safety": "PASS",
+    "csv_json_decision_rationale": "MATCH",
+    "fact_reference_check": "PASS",
+    "report_csv_fact_id_reference": "PASS",
+    "csv_formula_prefix_check": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "schema_keyword_subset": "PASS",
+    "fact_count": 12,
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Original PDF hash and physical pages unverified; photos/diagrams/graphs and appendix 8 measurements not inspected; prior other-case transcript exposure disclosed; integration HOLD.",
+    "No fresh original source review or expert approval."
+  ],
+  "approved": false,
+  "can_ship": false
+}
