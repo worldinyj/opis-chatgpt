@@ -5,17 +5,17 @@
   "branch": "main",
   "total_cases": 38,
   "summary": {
-    "analysis_completed_count": 22,
-    "github_stored_count": 22,
+    "analysis_completed_count": 23,
+    "github_stored_count": 23,
     "exported_pending_upload_count": 0,
-    "not_started_count": 16,
+    "not_started_count": 15,
     "blocked_count": 0
   },
   "next_case": {
-    "queue_id": "ROOT-022",
-    "event_id": "130414KR4",
+    "queue_id": "ROOT-023",
+    "event_id": "130117U1",
     "event_year": 2013,
-    "drive_filename_hint": "2013-04-14_고리 4호기 증기발생기 이물질 신호 점검을 위한 수동 정지 및 냉각 중 부적.pdf"
+    "drive_filename_hint": "2013-01-17_울진1호기_출력_고증가율_신호_발생에_의한_원자로_자동정지.pdf"
   },
   "updated_at": "2026-11-26",
   "cases": [
@@ -246,16 +246,16 @@
     {
       "queue_id": "ROOT-016",
       "event_id": "160227HB1",
-      "revision": "v1",
+      "revision": "v2",
       "status": "STORED",
-      "validation_status": "FAIL",
-      "artifact_path": "gemini/cases/2016/160227HB1/v1/",
-      "zip_filename": "GEMINI_ROOT-016_160227HB1_v1 (1).zip",
-      "github_commit_sha": "450e86f71d102cee2f6ec5bd7a75c2dd32ada856",
+      "validation_status": "PASS",
+      "artifact_path": "gemini/cases/2016/160227HB1/v2/",
+      "zip_filename": "GEMINI_ROOT-016_160227HB1_v1 (2).zip",
+      "github_commit_sha": "fe70b27634ddae39f64cbdce99dc5714d6e26e09",
       "source_verification": "BINARY_HASH_VERIFIED",
-      "blocker": "CSV rationale differs from JSON by role prefix in 40/40 rows. CSV source omits section/page information in 23 rows with JSON source references. Original files preserved.",
+      "blocker": null,
       "updated_at": "2026-11-26",
-      "integration_status": "HOLD"
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-017",
@@ -316,29 +316,30 @@
     {
       "queue_id": "ROOT-021",
       "event_id": "140228Y2",
-      "revision": "v1",
+      "revision": "v2",
       "status": "STORED",
-      "validation_status": "FAIL",
-      "artifact_path": "gemini/cases/2014/140228Y2/v1/",
-      "zip_filename": "GEMINI_ROOT-021_140228Y2_v1.zip",
-      "github_commit_sha": "450e86f71d102cee2f6ec5bd7a75c2dd32ada856",
+      "validation_status": "PASS",
+      "artifact_path": "gemini/cases/2014/140228Y2/v2/",
+      "zip_filename": "GEMINI_ROOT-021_140228Y2_v1 (2).zip",
+      "github_commit_sha": "fe70b27634ddae39f64cbdce99dc5714d6e26e09",
       "source_verification": "BINARY_HASH_VERIFIED",
-      "blocker": "CSV rationale differs from JSON by role prefix in 40/40 rows. CSV source omits section/page information in 21 rows with JSON source references. Original files preserved.",
+      "blocker": null,
       "updated_at": "2026-11-26",
-      "integration_status": "HOLD"
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-022",
       "event_id": "130414KR4",
       "revision": "v1",
-      "status": "NOT_STARTED",
-      "validation_status": "NOT_EXECUTED",
+      "status": "STORED",
+      "validation_status": "PASS",
       "artifact_path": "gemini/cases/2013/130414KR4/v1/",
-      "zip_filename": null,
-      "github_commit_sha": null,
-      "source_verification": null,
+      "zip_filename": "GEMINI_ROOT-022_130414KR4_v1.zip",
+      "github_commit_sha": "fe70b27634ddae39f64cbdce99dc5714d6e26e09",
+      "source_verification": "BINARY_HASH_VERIFIED",
       "blocker": null,
-      "updated_at": "2026-11-26T12:08:00+09:00"
+      "updated_at": "2026-11-26",
+      "integration_status": "PENDING_INTEGRATION"
     },
     {
       "queue_id": "ROOT-023",
