@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "event_id": "220908SW2",
+  "queue_id": "ROOT-008",
+  "priority": "P3_STANDARD_REVIEW",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_path": "cases/2022/220908SW2/review_package/ATTRIBUTE_ROLES_V1.json",
+    "normalized_blob": "85a844f863267f025d860f86c54d24c738a81751",
+    "metadata_blob": "90e10ce58e3002231d8f9e34a8e9a3333e5beeaa",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "link_index_blob": "e8dda08fefb980b9bee911237eaacaedb2a48b64",
+    "source_sha256": "827d36bc3a702a9e171ec267d2dea16c881a6a4023818a96bcfdca5ca345a1c7"
+  },
+  "source_paths": {
+    "report": "cases/2022/220908SW2/report.md",
+    "fact_ledger": "cases/2022/220908SW2/media/fact_ledger.json",
+    "learning_ledger": "cases/2022/220908SW2/media/learning_ledger.json"
+  },
+  "candidates": [
+    {
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "definition": "모든 종사자는 불확실할 경우 작업을 중단하고 작업 재개 전 리스크를 평가하고 관리한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F07",
+        "F08"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F07",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.3,3.2.4",
+          "pdf_pages": [
+            9,
+            12
+          ],
+          "printed_pages": [
+            7,
+            10
+          ]
+        },
+        {
+          "fact_id": "F08",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "붙임5",
+          "pdf_pages": [
+            27,
+            28
+          ],
+          "printed_pages": [
+            25,
+            26
+          ]
+        }
+      ],
+      "author_rationale": "불확실시 중단·재개 전 평가 근거 확인",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "QA4",
+      "name": "자만 방지",
+      "definition": "모든 종사자는 발생 가능한 실수, 잠재적인 문제 및 리스크를 인지하고 대비한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F07",
+        "F10"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F07",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.3,3.2.4",
+          "pdf_pages": [
+            9,
+            12
+          ],
+          "printed_pages": [
+            7,
+            10
+          ]
+        },
+        {
+          "fact_id": "F10",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.4",
+          "pdf_pages": [
+            12
+          ],
+          "printed_pages": [
+            10
+          ]
+        }
+      ],
+      "author_rationale": "설비특성 이해 및 사전 검토 부족",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "definition": "모든 종사자는 의사결정 시 일관적이고 체계적인 방법을 사용한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F10"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F10",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.4",
+          "pdf_pages": [
+            12
+          ],
+          "printed_pages": [
+            10
+          ]
+        }
+      ],
+      "author_rationale": "최초 현상 및 조치 적절성 상세 검토 부족",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "DM2",
+      "name": "보수적 성향",
+      "definition": "모든 종사자는 의사결정 시 원자력안전을 고려하여 보수적이고 신중함을 견지한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F05",
+        "F08",
+        "F10"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F05",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.4,붙임5",
+          "pdf_pages": [
+            12,
+            27,
+            28
+          ],
+          "printed_pages": [
+            10,
+            25,
+            26
+          ]
+        },
+        {
+          "fact_id": "F08",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "붙임5",
+          "pdf_pages": [
+            27,
+            28
+          ],
+          "printed_pages": [
+            25,
+            26
+          ]
+        },
+        {
+          "fact_id": "F10",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.4",
+          "pdf_pages": [
+            12
+          ],
+          "printed_pages": [
+            10
+          ]
+        }
+      ],
+      "author_rationale": "합동검토 인정, 신중성 별도 근거",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "PI1",
+      "name": "문제 파악",
+      "definition": "원자력안전에 대한 문제점 도출이 용이하도록 운영개선프로그램(CAP)을 운영한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F09"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F09",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.4,붙임5",
+          "pdf_pages": [
+            12,
+            28
+          ],
+          "printed_pages": [
+            10,
+            26
+          ]
+        }
+      ],
+      "author_rationale": "CAP 조치 미적용 명시",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "PI2",
+      "name": "문제 평가",
+      "definition": "문제에 대한 원인분석 및 시정조치를 원자력안전의 중요도에 맞게 철저히 평가한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F10"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F10",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.4",
+          "pdf_pages": [
+            12
+          ],
+          "printed_pages": [
+            10
+          ]
+        }
+      ],
+      "author_rationale": "원인·조치 평가 미흡",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP1",
+      "name": "작업 관리",
+      "definition": "원자력안전을 최우선적으로 고려하여 작업계획을 수립하고 시행하는 프로세스를 운영한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F09",
+        "F10"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F09",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.4,붙임5",
+          "pdf_pages": [
+            12,
+            28
+          ],
+          "printed_pages": [
+            10,
+            26
+          ]
+        },
+        {
+          "fact_id": "F10",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.4",
+          "pdf_pages": [
+            12
+          ],
+          "printed_pages": [
+            10
+          ]
+        }
+      ],
+      "author_rationale": "정식 작업관리 미적용",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP3",
+      "name": "문서화",
+      "definition": "문서 작성 및 관리는 완벽하고 정확하며 최신의 상태를 유지한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F06"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F06",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.4",
+          "pdf_pages": [
+            11,
+            12
+          ],
+          "printed_pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "author_rationale": "해당 비정상조건 절차 부재",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    }
+  ],
+  "education_and_positive": [],
+  "additional_review_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA3",
+    "CO1",
+    "CO2",
+    "LA1",
+    "LA4",
+    "LA5",
+    "LA6",
+    "LA7",
+    "DM3",
+    "CL1",
+    "CL2",
+    "CL4",
+    "PI3",
+    "PI4",
+    "WP2",
+    "WP4"
+  ],
+  "legacy_unselected_codes": [
+    "CO3",
+    "CO4",
+    "LA2",
+    "LA3",
+    "LA8",
+    "WE1",
+    "WE2",
+    "WE3",
+    "WE4",
+    "CL3",
+    "RC1",
+    "RC2"
+  ],
+  "metadata_checks": [
+    {
+      "key": "candidate_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "additional_review_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "insufficient_or_low_relevance_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "approved_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    }
+  ],
+  "validation": {
+    "status": "PASS_STRUCTURAL",
+    "errors": [],
+    "notes": []
+  },
+  "expert_status": "PENDING",
+  "expert_reviewer": null,
+  "expert_review_date": null,
+  "approved_attributes": [],
+  "confirmed_weakness_count": null,
+  "can_ship": false
+}

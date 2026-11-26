@@ -1,0 +1,332 @@
+{
+  "schema_version": "1.0",
+  "event_id": "210712K3",
+  "queue_id": "ROOT-009",
+  "priority": "P3_STANDARD_REVIEW",
+  "source_commit": "40072c2b91d56ed8d38957aa6acda1d8635a42a7",
+  "provenance": {
+    "normalized_path": "cases/2021/210712K3/review_package/ATTRIBUTE_ROLES_V1.json",
+    "normalized_blob": "05d97c79a0d66cd0d3bb84c472240a1ed079bbde",
+    "metadata_blob": "19ec05412f648a78825a27815ddf463d21a26372",
+    "standard_blob": "8dd238647998d31c2fa872968fe519925cd12670",
+    "link_index_blob": "e8dda08fefb980b9bee911237eaacaedb2a48b64",
+    "source_sha256": "b675b726c7d6fd8136aff5757beae3148d00aedd59a49416156a0e6fe7360b7b"
+  },
+  "source_paths": {
+    "report": "cases/2021/210712K3/report.md",
+    "fact_ledger": "cases/2021/210712K3/media/fact_ledger.json",
+    "learning_ledger": "cases/2021/210712K3/media/learning_ledger.json"
+  },
+  "candidates": [
+    {
+      "code": "LA5",
+      "name": "변화 관리",
+      "definition": "리더는 원자력안전 최우선 방침이 유지되도록 변화를 체계적으로 평가하고 관리한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F11",
+        "F13"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F11",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.3.2",
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "printed_pages": [
+            16,
+            17
+          ]
+        },
+        {
+          "fact_id": "F13",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.3.2",
+          "pdf_pages": [
+            19
+          ],
+          "printed_pages": [
+            17
+          ]
+        }
+      ],
+      "author_rationale": "기준 변경 평가·리더 관리 근거 추가",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "CL1",
+      "name": "운전 경험",
+      "definition": "운전경험은 체계적이고 효과적으로 수집하고 분석하며 그 결과는 시의 적절하게 조치한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F10",
+        "F12"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F10",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.3.2",
+          "pdf_pages": [
+            18,
+            19
+          ],
+          "printed_pages": [
+            16,
+            17
+          ]
+        },
+        {
+          "fact_id": "F12",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.3.2",
+          "pdf_pages": [
+            19,
+            20
+          ],
+          "printed_pages": [
+            17,
+            18
+          ]
+        }
+      ],
+      "author_rationale": "과거 대책 반영 미흡",
+      "learning_ids": [
+        "L02"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "PI2",
+      "name": "문제 평가",
+      "definition": "문제에 대한 원인분석 및 시정조치를 원자력안전의 중요도에 맞게 철저히 평가한다.",
+      "role": "INDIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F07",
+        "F13"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F07",
+          "kind": "REPORTED_ASSESSMENT",
+          "section": "3.2.3.1",
+          "pdf_pages": [
+            12,
+            14,
+            16,
+            17
+          ],
+          "printed_pages": [
+            10,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "fact_id": "F13",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.3.2",
+          "pdf_pages": [
+            19
+          ],
+          "printed_pages": [
+            17
+          ]
+        }
+      ],
+      "author_rationale": "해석 한계와 평가 프로세스 미흡 구분",
+      "learning_ids": [
+        "L03"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "PI3",
+      "name": "문제 해결",
+      "definition": "원자력안전에 대한 문제를 중요도에 따라 시의 적절하고 효과적으로 조치한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F12"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F12",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.3.2",
+          "pdf_pages": [
+            19,
+            20
+          ],
+          "printed_pages": [
+            17,
+            18
+          ]
+        }
+      ],
+      "author_rationale": "결정된 교체 대책의 이행 누락",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP1",
+      "name": "작업 관리",
+      "definition": "원자력안전을 최우선적으로 고려하여 작업계획을 수립하고 시행하는 프로세스를 운영한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F12"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F12",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.3.2",
+          "pdf_pages": [
+            19,
+            20
+          ],
+          "printed_pages": [
+            17,
+            18
+          ]
+        }
+      ],
+      "author_rationale": "유지보수 업무 반영 누락",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    },
+    {
+      "code": "WP3",
+      "name": "문서화",
+      "definition": "문서 작성 및 관리는 완벽하고 정확하며 최신의 상태를 유지한다.",
+      "role": "DIRECT_REVIEW_CANDIDATE",
+      "fact_ids": [
+        "F12"
+      ],
+      "source_refs": [
+        {
+          "fact_id": "F12",
+          "kind": "INVESTIGATOR_FINDING",
+          "section": "3.2.3.2",
+          "pdf_pages": [
+            19,
+            20
+          ],
+          "printed_pages": [
+            17,
+            18
+          ]
+        }
+      ],
+      "author_rationale": "절차·품목·직무 문서 미반영",
+      "learning_ids": [
+        "L01"
+      ],
+      "link_review": null,
+      "expert_question": "표준 정의와 원본의 지적이 실제로 부합하는가? 반증·범위·추가 근거를 확인할 것.",
+      "decision": "PENDING",
+      "reviewer_reason": null
+    }
+  ],
+  "education_and_positive": [],
+  "additional_review_codes": [
+    "PA1",
+    "PA2",
+    "PA3",
+    "QA1",
+    "QA2",
+    "QA3",
+    "QA4",
+    "CO1",
+    "CO2",
+    "LA1",
+    "LA4",
+    "LA6",
+    "LA7",
+    "DM1",
+    "DM2",
+    "CL2",
+    "CL4",
+    "PI1",
+    "PI4",
+    "WP2",
+    "WP4"
+  ],
+  "legacy_unselected_codes": [
+    "CO3",
+    "CO4",
+    "LA2",
+    "LA3",
+    "LA8",
+    "DM3",
+    "WE1",
+    "WE2",
+    "WE3",
+    "WE4",
+    "CL3",
+    "RC1",
+    "RC2"
+  ],
+  "metadata_checks": [
+    {
+      "key": "candidate_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "additional_review_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "insufficient_or_low_relevance_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    },
+    {
+      "key": "approved_attributes",
+      "status": "MATCH",
+      "metadata_only": [],
+      "normalized_only": []
+    }
+  ],
+  "validation": {
+    "status": "PASS_STRUCTURAL",
+    "errors": [],
+    "notes": []
+  },
+  "expert_status": "PENDING",
+  "expert_reviewer": null,
+  "expert_review_date": null,
+  "approved_attributes": [],
+  "confirmed_weakness_count": null,
+  "can_ship": false
+}
