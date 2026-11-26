@@ -1,0 +1,903 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.0",
+  "standard_version": "1.0",
+  "queue_id": "ROOT-032",
+  "event_id": "031229Y5",
+  "model": {
+    "provider": "GEMINI",
+    "version": null,
+    "run_date": "2026-11-26"
+  },
+  "source": {
+    "filename": "2003-12-29_영광5호기_탈염수_공급_모관_방사능_검출_원인_조사_위한_원자로_수동_정지.pdf",
+    "report_number": "2003-21호(031229Y5)",
+    "report_date": "2003-12",
+    "sha256": "52201ea999e1c9f61b2b3130056ded81162abb492f839b00227024d689035a0c",
+    "pdf_page_count": 14,
+    "reading_scope": "원본 PDF 전 14쪽(1차 조사보고서, 표지·조사자 명단·사건 요약·1~7장·첨부 1~4) 판독 완료. HWP 변환 커스텀 폰트 구간(PDF 7~12쪽)은 150dpi PNG 이미지 렌더링으로 시각 정밀 판독하였으며, 로컬 바이너리 SHA-256 해시·파일 크기(287,427 bytes)·페이지 수(14쪽) 일치 검증 완료(BINARY_HASH_VERIFIED).",
+    "verification": "BINARY_HASH_VERIFIED"
+  },
+  "independence": {
+    "other_ai_outputs_seen": false,
+    "notes": "ChatGPT·Claude 기존 산출물 및 통합 Excel을 일절 열람하지 않고 KINS 원본 조사보고서(1차, 2003-21호)와 안전문화 40개 세부속성 표준만을 근거로 독립 분석을 수행함."
+  },
+  "facts": [
+    {
+      "id": "GEMINI-F01",
+      "summary": "2003.12.29. 19:00 영광 5호기(PWR 2Loops, KHIC, 1000 MWe, 상업운전 '02.05.21)가 원자로 출력 100%(터빈-발전기 1,044 MWe, RCS 308.2℃, 158 kg/cm²) 정상운전 중, 12.22 23:32 기술지원실(TSC) 공기조화설비(HVAC) 공기흡입구 공기중 방사능 감시기(RE-054) 경계값 초과(1.0E-1 Bq/cc, 경계 지시값 5.7E-2 Bq/cc) 이후 12.27~28 2차측 탈염수 공급 모관 방사선량률 상승(ACB 가습기 배수배관 표면 최대 약 200 μSv/h)이 확인되어, 누설부위 확인·보수 및 오염 계통 제염을 위해 원자로를 수동정지하고 20:30 오염 유입경로 확인 누설시험을 수행했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2장, 3.가절, 첨부 4",
+          "printed_pages": [
+            3,
+            4,
+            5,
+            14
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            14
+          ],
+          "summary": "RE-054 경계값 초과 및 2차측 탈염수 공급 모관 방사선량률 상승 확인에 따른 12.29 원자로 수동정지 및 누설시험 수행"
+        }
+      ],
+      "limitation": "본 PDF에는 별도 인쇄쪽 번호가 표기되어 있지 않아 문서 순번(PDF 쪽번호 1~14)을 인쇄쪽으로 병기함; 보고서 발행일은 '2003. 12'(일 미기재)이며 별도 INES 등급 평가 절이 없음."
+    },
+    {
+      "id": "GEMINI-F02",
+      "summary": "탈염수 공급 모관의 오염 탈염수는 출입통제건물(ACB) 가습기 배수(Roof Drain → 우수관 집수조 → 액체폐기물 배수관 추정) 및 2차 화학실험실 배수(터빈건물 Condenser Pit Sump → 종합폐수처리설비)를 통해 바다로 배출되었으며, 종합폐수처리설비의 함유폐수조·화학폐수조·방류조(Pond) 및 활성탄 등 수처리 부산물도 오염되었다. 12.22~12.27(방출 중단) 사이 종합폐수처리설비 배출 방사능은 Mn-54(4.04E+06 Bq)·Co-58(5.58E+07 Bq)로, 소외 주민 연간 유효선량은 한수원 4.68×10⁻⁷ mSv / KINS 3.75×10⁻⁷ mSv(기준치 0.03 mSv의 0.00156%), 장기 등가선량은 한수원 1.84×10⁻⁷ mSv / KINS 1.52×10⁻⁷ mSv(기준치 0.1 mSv)로 미미하게 평가되었다. 화학부 2차실험실 5인 전신계측 내부오염 없음 및 3발전소·배수구·취수구 환경방사선 자연수준이 확인되었으나, 우수관 집수조 배출선량·액체 시료 정밀분석·도면(9-582-J107-005) 기반 추가 오염도 조사는 진행 중이었다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 1장, 3.나~사절, 5장",
+          "printed_pages": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "summary": "ACB 가습기·2차 화학실험실 배수 경로 통한 바다 배출(기준치 0.00156%), 종합폐수처리설비 Pond 오염 및 추가 오염도·우수관 선량 조사 진행 중"
+        }
+      ],
+      "limitation": "우수관 집수조 배출 방사선량, 액체 시료 정밀분석, 12.28 발전부 교대근무자 전신계측 및 전체 오염범위 조사가 1차 보고서 시점에 미완료 상태."
+    },
+    {
+      "id": "GEMINI-F03",
+      "summary": "열충격완충판 이탈 확인을 위한 12.21 원자로 수동정지 시 기동된 정지냉각계통(SDC, 운전압력 약 27 kg/cm²) 후단에 연결된 사고후 시료채취계통(PASS) 세정용 탈염수 공급배관(솔레노이드 밸브 SV041·SV098·SV097, 역지밸브 V1018·V1016·V1020)을 통한 방사성 냉각재 역류가 오염 원인으로 추정되었다. V041(안전등급 II)은 범주 B 밸브로 분류되어 닫힘 상태에서도 누설이 허용되고, 나머지 솔레노이드(V098·V097) 및 역지밸브(V1018·V1016·V1020)는 모두 비안전등급(T class, 가동중시험 N/A)으로 사업자 자체 확인 대상이었다. 실증시험 결과 V041 닫힘·전단 27 kg/cm² 가압 시 V097 후단으로 10 cc/min 누설이 발생했고 V1016 전단 압력이 약 4.5 kg/cm²로 낮아 역류방지 기능을 상실했다(V041 개방해 27 kg/cm² 인가 시 무누설). 다만 4.5 kg/cm² 이하 압력의 오염수가 더 높은(7 kg/cm²) 탈염수 공급 모관으로 유입된 정확한 메커니즘은 후속 확인이 필요했다.",
+      "kind": "INVESTIGATOR_FINDING",
+      "source_refs": [
+        {
+          "section": "1장, 3장 서두, 3.아절, 4.가절, 첨부 1~2",
+          "printed_pages": [
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12
+          ],
+          "summary": "SDC–PASS 탈염수 연결배관 V041(범주 B 누설허용) 및 비안전등급 V1016 저차압 역류방지 기능 상실(10 cc/min 누설) 실증 및 고압(7 kg/cm²) 모관 유입 경로 후속 확인 필요"
+        }
+      ],
+      "limitation": "4.5 kg/cm² 이하 압력에서 7 kg/cm² 탈염수 공급 모관으로 오염물질이 유입된 최종 기전은 4.가절에서 후속 조사 과제로 명시됨."
+    },
+    {
+      "id": "GEMINI-F04",
+      "summary": "2003.12.22 23:32 공기중 방사능 감시기(RE-054)가 경계값(5.72E-02 Bq/cc)을 초과한 1.0E-1 Bq/cc를 지시한 뒤 12.23~12.26 4일간 RE-054 점검 및 경계값 지시 원인 조사가 진행되었고(첨부 4 기록상 12.26 15:00~16:00 최대 2.80E+02 Bq/cc 급상승), 12.27~28에 2차측 탈염수 공급 모관 방사선량률 상승을 확인해 12.27 방출을 중단하고 12.29 19:00 원자로를 수동정지했다.",
+      "kind": "OBSERVED_FACT",
+      "source_refs": [
+        {
+          "section": "2.나절, 3.가절, 3.바절, 첨부 4",
+          "printed_pages": [
+            4,
+            5,
+            7,
+            14
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            7,
+            14
+          ],
+          "summary": "12.22 23:32 RE-054 경계값 초과 이후 12.23~26 원인 조사, 12.27 방출 중단 및 12.29 수동정지 경과"
+        }
+      ],
+      "limitation": "본 1차 보고서에는 12.22~12.27 사이 원인 규명·방출 중단 소요 기간에 대한 적정성 평가가 수록되어 있지 않음."
+    },
+    {
+      "id": "GEMINI-F05",
+      "summary": "사업자는 2차측 탈염수 오염 원인 확인과 오염 계통 제염을 위해 원자로를 수동정지했으며, 공기조화설비실 가습기 설치구역과 터빈건물 Sump 2개소를 임시 방사선관리구역으로 설정해 울타리·표지판·구역분리대 설치 및 수기 방사선작업허가서(RWP) 발행으로 출입·오염·피폭관리를 수행해 KINS로부터 적절하다고 평가받았다. 정지 전후 안전관련 계통 작동 없이 원자로 안전에 미친 영향은 없었다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.다~라절, 5장",
+          "printed_pages": [
+            3,
+            6,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            6,
+            8
+          ],
+          "summary": "원인 조사·제염 위한 원자로 수동정지, 임시 방사선관리구역·수기 RWP 관리 적절 평가 및 원자로 안전 무영향"
+        }
+      ],
+      "limitation": "없음"
+    },
+    {
+      "id": "GEMINI-F06",
+      "summary": "본 보고서는 2003.12.29~30 현장조사 직후 작성된 1차 조사보고서로서, 4장 후속 조사 내용 5개 항목(7 kg/cm² 모관 유입 경로 확인, 분기배관·계통 오염도 조사, 오염 계통·기기·섬프 제염, 종합폐수처리설비 Pond 제염·폐기물 처리, 저류 폐수 처리)이 진행·예정 상태이며, '6. 개선 및 보완요구사항'과 '7. 결론'은 모두 '추후 작성 예정'으로 미기재되어 있다.",
+      "kind": "REPORTED_ASSESSMENT",
+      "source_refs": [
+        {
+          "section": "1장, 3.나절, 3.사절, 4장, 6~7장",
+          "printed_pages": [
+            4,
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7,
+            8,
+            9
+          ],
+          "summary": "1차 보고서 한계: 후속 조사·제염 5개 항목 진행 중 및 6장(개선·보완요구사항)·7장(결론) '추후 작성 예정'"
+        }
+      ],
+      "limitation": "최종(2차) 조사보고서가 아닌 1차 보고서이므로 근본원인·개선요구사항·결론이 미확정 상태."
+    }
+  ],
+  "attributes": [
+    {
+      "review_key": "ROOT-032-PA1",
+      "code": "PA1",
+      "name": "규정",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 작업자나 운전원의 표준·절차 미준수가 사건을 유발했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "1차 보고서로 6장·7장이 추후 작성 예정이나 현재 수록된 사실상 개인 표준 위반 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-PA2",
+      "code": "PA2",
+      "name": "업무 책임의식",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 특정 구성원의 업무수행 책임 결여를 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-PA3",
+      "code": "PA3",
+      "name": "팀워크",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 부서 간 협업 단절을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-QA1",
+      "code": "QA1",
+      "name": "원자력의 특수성",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "방사성 1차측 정지냉각계통(SDC)과 출입통제건물(ACB) 가습기·2차 화학실험실 등 비관리구역에 연결된 2차측 탈염수 공급 모관 경계에서 안전등급 II 격리밸브(V041)를 누설 허용(범주 B)으로 분류하고 후단 격리·역지밸브를 모두 비안전등급(가동중시험 N/A)으로 운영해 교차오염 방호 인식이 미흡했다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1장, 3.나~사절, 5장",
+          "printed_pages": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "summary": "ACB 가습기·2차 화학실험실 배수 경로 통한 바다 배출(기준치 0.00156%), 종합폐수처리설비 Pond 오염 및 추가 오염도·우수관 선량 조사 진행 중"
+        },
+        {
+          "section": "1장, 3장 서두, 3.아절, 4.가절, 첨부 1~2",
+          "printed_pages": [
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12
+          ],
+          "summary": "SDC–PASS 탈염수 연결배관 V041(범주 B 누설허용) 및 비안전등급 V1016 저차압 역류방지 기능 상실(10 cc/min 누설) 실증 및 고압(7 kg/cm²) 모관 유입 경로 후속 확인 필요"
+        }
+      ],
+      "counterevidence_or_limitation": "최종 유입 기전 및 개선요구사항은 1차 보고서 시점에 후속 조사 예정 상태."
+    },
+    {
+      "review_key": "ROOT-032-QA2",
+      "code": "QA2",
+      "name": "불확실성 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 불확실한 상태에서 작업이나 운전을 강행했다는 직접 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "12.22~27 원인 조사 경과는 PI1(판단보류)에서 별도 기록함."
+    },
+    {
+      "review_key": "ROOT-032-QA3",
+      "code": "QA3",
+      "name": "가정상황 확인",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 특정 잘못된 가정에 도전하지 못해 사건이 발생했다는 직접 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-QA4",
+      "code": "QA4",
+      "name": "자만 방지",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 안일함 자체를 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-CO1",
+      "code": "CO1",
+      "name": "업무 소통",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 조직 내 의사소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-CO2",
+      "code": "CO2",
+      "name": "의사결정 근거",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 의사결정 근거 전달·설명 부족을 지적하는 내용이 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-CO3",
+      "code": "CO3",
+      "name": "투명한 정보 공유",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "사건 보고 및 KINS 현장조사(12.29~30) 협조가 투명하게 이루어졌다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-CO4",
+      "code": "CO4",
+      "name": "방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 경영진의 안전방침 소통 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-LA1",
+      "code": "LA1",
+      "name": "자원",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 인력·예산·장비 등 자원 부족이 사건의 원인으로 작용했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-LA2",
+      "code": "LA2",
+      "name": "현장 순시",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 현장 감독 실패가 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-LA3",
+      "code": "LA3",
+      "name": "인센티브, 보상 및 징벌",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 보상·징벌 또는 평가 제도가 사건에 영향을 미쳤다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-LA4",
+      "code": "LA4",
+      "name": "전략적 안전방침",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 기관의 전략적 안전방침 자체의 부재나 결함을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-LA5",
+      "code": "LA5",
+      "name": "변화 관리",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 조직·설비·절차 변경 과정의 변화관리 실패가 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-LA6",
+      "code": "LA6",
+      "name": "역할, 책임 및 권한",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 조직·담당자 간 역할·책임·권한 혼선을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-LA7",
+      "code": "LA7",
+      "name": "지속적 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 지속적 자체진단 체계 결여를 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-LA8",
+      "code": "LA8",
+      "name": "리더의 솔선수범",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 특정 리더의 솔선수범 부족을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-DM1",
+      "code": "DM1",
+      "name": "일관적 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 의사결정 프로세스 결여가 사건을 유발했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-DM2",
+      "code": "DM2",
+      "name": "보수적 성향",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "사업자가 2차측 탈염수 공급 모관의 방사선량률 상승을 확인한 뒤 오염 원인 규명(누설 실증시험)과 오염 계통 제염을 위해 100% 정상출력 운전 중이던 원자로를 12.29 19:00 자발적으로 수동정지한 보수적 의사결정(P)으로 평가한다.",
+      "fact_ids": [
+        "GEMINI-F01",
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1~2장, 3.가절, 첨부 4",
+          "printed_pages": [
+            3,
+            4,
+            5,
+            14
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            14
+          ],
+          "summary": "RE-054 경계값 초과 및 2차측 탈염수 공급 모관 방사선량률 상승 확인에 따른 12.29 원자로 수동정지 및 누설시험 수행"
+        },
+        {
+          "section": "사건 요약, 3.다~라절, 5장",
+          "printed_pages": [
+            3,
+            6,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            6,
+            8
+          ],
+          "summary": "원인 조사·제염 위한 원자로 수동정지, 임시 방사선관리구역·수기 RWP 관리 적절 평가 및 원자로 안전 무영향"
+        }
+      ],
+      "counterevidence_or_limitation": "12.22 RE-054 최초 경계값 지시 후 12.27 방출 중단까지 5일 경과의 적정성은 본 1차 보고서에 미평가되어 PI1(판단보류)로 별도 처리함."
+    },
+    {
+      "review_key": "ROOT-032-DM3",
+      "code": "DM3",
+      "name": "의사결정 책임",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 의사결정 책임 회피나 권한 충돌이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-WE1",
+      "code": "WE1",
+      "name": "분명한 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 구성원 간 상호 존중 결여를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-WE2",
+      "code": "WE2",
+      "name": "의견 존중",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 이견 무시나 의견 청취 부족을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-WE3",
+      "code": "WE3",
+      "name": "높은 신뢰",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 조직 내 신뢰 저하를 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-WE4",
+      "code": "WE4",
+      "name": "갈등 해소",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 조직 내 갈등 미해소 사례나 관련 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-CL1",
+      "code": "CL1",
+      "name": "운전 경험",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 과거 유사사건 교훈 미반영을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-CL2",
+      "code": "CL2",
+      "name": "자체 진단",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 정기 자체 진단 체계 결함을 직접 원인으로 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-CL3",
+      "code": "CL3",
+      "name": "벤치마킹",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 외부 기관 벤치마킹 누락이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-CL4",
+      "code": "CL4",
+      "name": "교육 훈련",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 운전원·정비원의 교육훈련 또는 자격 미흡이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-PI1",
+      "code": "PI1",
+      "name": "문제 파악",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "12.22 23:32 RE-054 공기중 방사능 감시기 경계값 초과(1.0E-1 Bq/cc) 이후 12.23~26 원인 조사가 진행되는 동안(12.26 최대 2.80E+02 Bq/cc) 12.27~28에야 2차측 탈염수 모관 오염을 확인해 5일간 배출이 지속되었으나, 본 1차 보고서에 해당 식별 지연의 원인·적정성 평가와 6~7장이 미수록되어 판단을 보류한다.",
+      "fact_ids": [
+        "GEMINI-F04",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "2.나절, 3.가절, 3.바절, 첨부 4",
+          "printed_pages": [
+            4,
+            5,
+            7,
+            14
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            7,
+            14
+          ],
+          "summary": "12.22 23:32 RE-054 경계값 초과 이후 12.23~26 원인 조사, 12.27 방출 중단 및 12.29 수동정지 경과"
+        },
+        {
+          "section": "1장, 3.나절, 3.사절, 4장, 6~7장",
+          "printed_pages": [
+            4,
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7,
+            8,
+            9
+          ],
+          "summary": "1차 보고서 한계: 후속 조사·제염 5개 항목 진행 중 및 6장(개선·보완요구사항)·7장(결론) '추후 작성 예정'"
+        }
+      ],
+      "counterevidence_or_limitation": "최종(2차) 조사보고서 확인 시 문제 식별 지연의 안전문화 기여 여부 재평가 필요."
+    },
+    {
+      "review_key": "ROOT-032-PI2",
+      "code": "PI2",
+      "name": "문제 평가",
+      "role": "A",
+      "review_result": "판단보류",
+      "rationale": "실증시험에서 V1016 전단 압력(4.5 kg/cm²)이 탈염수 공급 모관 압력(7 kg/cm²)보다 낮음에도 오염물질이 유입된 정확한 경로, 우수관 집수조 배출선량 계산, 액체 시료 정밀분석 및 도면(9-582-J107-005) 기준 추가 오염도 조사가 1차 보고서 시점에 미완료 상태이므로 평가 적정성 판단을 보류한다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03",
+        "GEMINI-F06"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1장, 3.나~사절, 5장",
+          "printed_pages": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "summary": "ACB 가습기·2차 화학실험실 배수 경로 통한 바다 배출(기준치 0.00156%), 종합폐수처리설비 Pond 오염 및 추가 오염도·우수관 선량 조사 진행 중"
+        },
+        {
+          "section": "1장, 3장 서두, 3.아절, 4.가절, 첨부 1~2",
+          "printed_pages": [
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12
+          ],
+          "summary": "SDC–PASS 탈염수 연결배관 V041(범주 B 누설허용) 및 비안전등급 V1016 저차압 역류방지 기능 상실(10 cc/min 누설) 실증 및 고압(7 kg/cm²) 모관 유입 경로 후속 확인 필요"
+        },
+        {
+          "section": "1장, 3.나절, 3.사절, 4장, 6~7장",
+          "printed_pages": [
+            4,
+            6,
+            7,
+            8,
+            9
+          ],
+          "pdf_pages": [
+            4,
+            6,
+            7,
+            8,
+            9
+          ],
+          "summary": "1차 보고서 한계: 후속 조사·제염 5개 항목 진행 중 및 6장(개선·보완요구사항)·7장(결론) '추후 작성 예정'"
+        }
+      ],
+      "counterevidence_or_limitation": "4장 후속 조사 완료 및 6~7장 작성 후 최종 평가 가능."
+    },
+    {
+      "review_key": "ROOT-032-PI3",
+      "code": "PI3",
+      "name": "문제 해결",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에는 6장(개선 및 보완요구사항)이 '추후 작성 예정'으로 되어 있으며 기존 시정조치 미이행을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "1차 보고서 시점에 개선·보완요구사항 미확정."
+    },
+    {
+      "review_key": "ROOT-032-PI4",
+      "code": "PI4",
+      "name": "경향 분석",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 설비·오류 경향분석 체계 결함이 사건에 기여했다는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-RC1",
+      "code": "RC1",
+      "name": "안전중시 업무환경 정책",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 안전문제 제기 정책이나 보복 우려와 관련된 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-RC2",
+      "code": "RC2",
+      "name": "안전건의 프로세스",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 안전건의·내부신고 프로세스 작동 미흡을 시사하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-WP1",
+      "code": "WP1",
+      "name": "작업 관리",
+      "role": "I",
+      "review_result": "선정",
+      "rationale": "정지냉각계통(SDC)과 탈염수 공급 모관 연결배관의 비안전등급 솔레노이드 밸브(V098·V097) 및 역지밸브(V1018·V1016·V1020)가 가동중시험 대상 외(N/A)로 사업자 자체 확인에 맡겨져 있었고, V1016 역류방지 기능 상실 및 V097·V098 누설이 사전 점검·정비관리로 예방되지 못했다.",
+      "fact_ids": [
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "1장, 3장 서두, 3.아절, 4.가절, 첨부 1~2",
+          "printed_pages": [
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12
+          ],
+          "summary": "SDC–PASS 탈염수 연결배관 V041(범주 B 누설허용) 및 비안전등급 V1016 저차압 역류방지 기능 상실(10 cc/min 누설) 실증 및 고압(7 kg/cm²) 모관 유입 경로 후속 확인 필요"
+        }
+      ],
+      "counterevidence_or_limitation": "구체적 과거 점검 이력은 본 1차 보고서에 미수록."
+    },
+    {
+      "review_key": "ROOT-032-WP2",
+      "code": "WP2",
+      "name": "설계 여유도",
+      "role": "D",
+      "review_result": "선정",
+      "rationale": "방사성 1차측 정지냉각계통(SDC, 27 kg/cm²)과 비방사성 2차측 탈염수 공급 모관 연결배관에서 안전등급 II 격리밸브(V041)가 닫힘 상태 누설 허용(범주 B)으로 분류되고 후단 솔레노이드(V098·V097) 및 역지밸브(V1018·V1016·V1020)가 모두 비안전등급(T class)이며, 실증시험에서 V1016 스윙 역지밸브가 저압(4.5 kg/cm²)에서 역류방지 기능을 상실해 10 cc/min 누설과 비관리구역 교차오염을 유발한 계통 경계·밸브 설계 취약성이 확인되었다.",
+      "fact_ids": [
+        "GEMINI-F02",
+        "GEMINI-F03"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 1장, 3.나~사절, 5장",
+          "printed_pages": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "summary": "ACB 가습기·2차 화학실험실 배수 경로 통한 바다 배출(기준치 0.00156%), 종합폐수처리설비 Pond 오염 및 추가 오염도·우수관 선량 조사 진행 중"
+        },
+        {
+          "section": "1장, 3장 서두, 3.아절, 4.가절, 첨부 1~2",
+          "printed_pages": [
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12
+          ],
+          "pdf_pages": [
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12
+          ],
+          "summary": "SDC–PASS 탈염수 연결배관 V041(범주 B 누설허용) 및 비안전등급 V1016 저차압 역류방지 기능 상실(10 cc/min 누설) 실증 및 고압(7 kg/cm²) 모관 유입 경로 후속 확인 필요"
+        }
+      ],
+      "counterevidence_or_limitation": "4.5 kg/cm² 이하 압력에서 7 kg/cm² 탈염수 모관으로 유입된 최종 기전은 4.가절에서 후속 조사 예정."
+    },
+    {
+      "review_key": "ROOT-032-WP3",
+      "code": "WP3",
+      "name": "문서화",
+      "role": "N",
+      "review_result": "미선정",
+      "rationale": "본 1차 조사보고서에 운전·정비 절차서 자체의 결함을 지적하는 근거가 없다.",
+      "fact_ids": [],
+      "source_refs": [],
+      "counterevidence_or_limitation": "원문에 관련 근거 없음."
+    },
+    {
+      "review_key": "ROOT-032-WP4",
+      "code": "WP4",
+      "name": "절차 준수",
+      "role": "P",
+      "review_result": "미선정",
+      "rationale": "오염 확인 후 사업자가 공기조화설비실 가습기 구역과 터빈건물 Sump 2개소를 임시 방사선관리구역으로 설정하고 울타리·표지판·구역분리대 설치 및 수기 방사선작업허가서(RWP) 발행을 통해 출입·오염·피폭관리를 적절히 수행한(KINS 3.라절 '적절함' 평가) 긍정·방어 요소(P)로 평가한다.",
+      "fact_ids": [
+        "GEMINI-F05"
+      ],
+      "source_refs": [
+        {
+          "section": "사건 요약, 3.다~라절, 5장",
+          "printed_pages": [
+            3,
+            6,
+            8
+          ],
+          "pdf_pages": [
+            3,
+            6,
+            8
+          ],
+          "summary": "원인 조사·제염 위한 원자로 수동정지, 임시 방사선관리구역·수기 RWP 관리 적절 평가 및 원자로 안전 무영향"
+        }
+      ],
+      "counterevidence_or_limitation": "없음(KINS 3.라절에서 임시 방사선관리구역 및 RWP 관리 적절성을 명시)."
+    }
+  ],
+  "limitations": [
+    "본 보고서는 2003.12.29~30 현장조사 직후 작성된 1차(중간) 조사보고서이며, '6. 개선 및 보완요구사항'과 '7. 결론'이 모두 '추후 작성 예정'으로 미기재되어 있음.",
+    "4장 후속 조사 항목(4.5 kg/cm² 이하 오염수의 7 kg/cm² 모관 유입 기전 확인, 분기배관·계통 오염도 조사, 우수관 집수조 배출선량 계산 및 액체 시료 정밀분석, 제염·폐수처리)이 미완료 상태임.",
+    "본 보고서에는 별도 INES 등급 평가 절 및 인쇄쪽 번호가 수록되어 있지 않으며, 발행일은 '2003. 12'(일 미기재)임.",
+    "샌드박스 환경 GitHub 쓰기 인증 정보 부재로 원격 커밋·푸시는 미수행(EXPORTED_PENDING_UPLOAD)."
+  ],
+  "status": "INDEPENDENT_DRAFT",
+  "approved": false,
+  "can_ship": false
+}
