@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "model": "GEMINI",
+  "queue_id": "ROOT-010",
+  "event_id": "200719HU6",
+  "artifact_status": "STORED",
+  "integration_status": "PENDING_INTEGRATION",
+  "eligible_for_three_ai_consensus": false,
+  "independence_status": "SELF_ATTESTED_NO_OTHER_AI_OUTPUTS_SEEN",
+  "source_verification": "BINARY_HASH_VERIFIED",
+  "reported_hash_matches_queue": true,
+  "reported_pages_match_queue": true,
+  "source_zip": "GEMINI_ROOT-010_200719HU6_v1.zip",
+  "source_zip_sha256": "2db348371f1a0b024989eb6c977b8c2f1dcf5652593b72d1f1b3f8b3aab18e64",
+  "files": [
+    {
+      "name": "report.md",
+      "blob": "bd7f97fb950832d957e3792c0a88cdee1c1f69d5",
+      "sha256": "3e1627ea03296cb0c3156b55f002933bfa15a21fe558a04d264c3a5f09d25054"
+    },
+    {
+      "name": "review.json",
+      "blob": "02a4697f6e651edcb57a67a6242237a4656608d9",
+      "sha256": "7bf7d15bfd800f2bc117e43e0ec7077ea139c86f4bd378a36bb0050e97dbe853"
+    },
+    {
+      "name": "excel_import.csv",
+      "blob": "8964cb42789954242e4aa4af71a39ca8e4db1bcd",
+      "sha256": "15c4e7bba311a03eebba26f7e28ef1697b01f12563efc6dcdf9628bbdac25b77"
+    },
+    {
+      "name": "validation.md",
+      "blob": "6592cfdba28ef1a724678d2b8542cd3d810cd38f",
+      "sha256": "df9bac4c56b4ebb8ccb2e9803b0d74679e7328acc4d85c9dcd22cf422f25d60e"
+    }
+  ],
+  "role_counts": {
+    "D": 12,
+    "I": 9,
+    "N": 16,
+    "A": 3
+  },
+  "intake_checks": {
+    "zip_crc": "PASS",
+    "zip_exact_paths": "PASS",
+    "artifact_git_blob_sha": "MATCH_ORIGINAL",
+    "attribute_count": 40,
+    "standard_code_name": "PASS",
+    "schema_keyword_subset": "PASS",
+    "csv_json_decision_rationale": "MATCH",
+    "fact_count": 15,
+    "fact_reference_check": "PASS",
+    "report_csv_fact_id_reference": "PASS",
+    "pdf_page_range_check": "PASS",
+    "csv_formula_prefix_check": "PASS",
+    "reported_source_identity": "MATCH",
+    "original_pdf_binary_reinspection": "NOT_EXECUTED",
+    "semantic_source_reinspection": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Reported PDF hash and page count match queue; importer did not independently rehash original PDF.",
+    "Independence self-attestation; no semantic reinspection or expert approval."
+  ],
+  "approved": false,
+  "can_ship": false
+}
