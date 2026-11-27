@@ -2,8 +2,8 @@
   "track": "C",
   "branch": "develop/integration-platform",
   "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
-  "phase": "C07-R1_PORTABLE_EXCEL",
-  "status": "PORTABLE_PLANNING_AND_FULL_SYNTHETIC_TARGET_SHEET_ROUNDTRIP_TESTED_NO_GO",
+  "phase": "C10-PRE_METADATA_CENSUS",
+  "status": "EXTERNAL_REGISTRATION_METADATA_CENSUS_COMPLETE_ELIGIBILITY_PENDING_NO_GO",
   "completed": [
     "C01",
     "C02",
@@ -29,9 +29,10 @@
     "C09_F4_LOCAL_RUNNER_PREPARATION",
     "C06_R1_LOCAL_DJANGO_PROJECT_PREPARATION",
     "C07_R1_PORTABLE_PLAN_VERIFY",
-    "C07_R1_FULL_SYNTHETIC_BOTH_MODEL_ROUNDTRIP"
+    "C07_R1_FULL_SYNTHETIC_BOTH_MODEL_ROUNDTRIP",
+    "C10_PRE_ALL76_REGISTRATION_METADATA_CENSUS"
   ],
-  "next": "C10_PRE_READ_ONLY_REGISTRATION_METADATA_CENSUS",
+  "next": "C10_PRE_R1_RAW_ARTIFACT_BYTE_VERIFICATION_AND_COMPATIBILITY_MAPPING",
   "actual_data_import": false,
   "tests_executed": true,
   "approved": false,
@@ -133,7 +134,7 @@
   "f3_status_samples": 7,
   "f3_artifact_blob_matches": 28,
   "f3_declared_artifact_hashes_present": 24,
-  "f3_full_status_census": false,
+  "f3_full_status_census": true,
   "f3_archive_compatibility_tests_passed": 9,
   "f3_archive_compatibility_tests_failed": 0,
   "f3_full_core_archive_restore_tested": false,
@@ -170,5 +171,18 @@
   "excel_write_dependency_removed": false,
   "local_runner_tests_rerun_passed": 7,
   "c07r1_current_tests_passed": 26,
-  "c07r1_current_tests_failed": 0
+  "c07r1_current_tests_failed": 0,
+  "c10_pre_external_status_files_checked": 76,
+  "c10_pre_external_artifact_blob_matches": 304,
+  "c10_pre_external_declared_sha256_valid": 300,
+  "c10_pre_external_declared_sha256_missing": 4,
+  "c10_pre_external_role_counts_valid": 76,
+  "c10_pre_external_metadata_issue_cases": 0,
+  "c10_pre_external_metadata_census": true,
+  "c10_pre_artifact_raw_bytes_rehashed": false,
+  "c10_pre_gemini_pending": 31,
+  "c10_pre_gemini_hold": 7,
+  "c10_pre_claude_hold": 38,
+  "c10_pre_external_eligible": 0,
+  "c10_pre_report": "integration_platform/docs/C10_PRE_METADATA_CENSUS_REPORT.md"
 }
