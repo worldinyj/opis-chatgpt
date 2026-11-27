@@ -2,15 +2,15 @@
   "track": "C",
   "branch": "develop/integration-platform",
   "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
-  "phase": "C03",
-  "status": "STAGING_PROTOTYPE_TESTED_ADAPTER_OPEN",
+  "phase": "C03-R1",
+  "status": "ADAPTER_BRIDGE_IMPLEMENTED_COMPATIBILITY_TESTED_FULL_CORE_OPEN",
   "completed": [
     "C01",
     "C02",
     "C02-R1",
     "C02-R2"
   ],
-  "next": "C03-R1",
+  "next": "C03-R1_CORE_VALIDATION",
   "actual_data_import": false,
   "tests_executed": true,
   "approved": false,
@@ -20,5 +20,9 @@
   "synthetic_tests_failed": 0,
   "synthetic_slots": 4560,
   "staging_tests_passed": 18,
-  "staging_tests_failed": 0
+  "staging_tests_failed": 0,
+  "parallel_next": "C04_PURE_ENGINE",
+  "adapter_tests_passed": 16,
+  "adapter_tests_failed": 0,
+  "full_core_bridge_tested": false
 }
