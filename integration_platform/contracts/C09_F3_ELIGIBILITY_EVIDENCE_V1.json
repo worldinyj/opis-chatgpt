@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "status": "DESIGN_ONLY_NOT_AUTHORIZATION",
+  "actual_eligibility_enabled": false,
+  "source_ref": "8775c5ae6249cf0f8bcd70d513e3296cbb46343e",
+  "requirements": [
+    {
+      "gate": "IDENTITY",
+      "required": [
+        "pinned queue and standard revision",
+        "independently measured PDF SHA-256 and physical pages",
+        "exact report/event mapping"
+      ]
+    },
+    {
+      "gate": "ARTIFACTS",
+      "required": [
+        "five mandatory files",
+        "measured original byte hashes and pinned Git blobs",
+        "derived lineage and explicit authorization if used"
+      ]
+    },
+    {
+      "gate": "INDEPENDENCE",
+      "required": [
+        "original disclosure preserved",
+        "independent QA reviewer evidence",
+        "exposure adjudicated or fresh independent submission"
+      ]
+    },
+    {
+      "gate": "EVIDENCE",
+      "required": [
+        "40 unique attributes",
+        "fact/source semantic review",
+        "JSON/CSV consistency",
+        "limitations retained"
+      ]
+    },
+    {
+      "gate": "DECISION",
+      "required": [
+        "authorized QA identity",
+        "decision time",
+        "exact immutable submission revision",
+        "validation evidence refs",
+        "reason",
+        "append-only decision and audit"
+      ]
+    }
+  ],
+  "states": {
+    "STORED": "registration only",
+    "PENDING_INTEGRATION": "not an eligible vote",
+    "HOLD": "not an eligible vote",
+    "ELIGIBLE": "requires all gates and explicit decision, not enabled"
+  },
+  "field_mapping": {
+    "role_counts": [
+      "role_counts",
+      "reported_counts"
+    ],
+    "missing_artifact_sha256": "PENDING_BYTE_VERIFICATION; never fabricate",
+    "source_verification": "reported metadata only, not independent reinspection",
+    "independence_status": "preserve exact disclosure; never replace with PASS"
+  },
+  "rules": [
+    "do not promote previously unverified source_revision in place",
+    "new immutable revision with measured evidence required",
+    "expert attribute decision separate from eligibility decision",
+    "no automatic use of B08 candidates",
+    "actual input and promotion disabled until C10 authorization and technical gates"
+  ],
+  "approved": false,
+  "can_ship": false
+}
