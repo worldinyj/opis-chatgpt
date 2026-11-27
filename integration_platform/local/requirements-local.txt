@@ -1,0 +1,6 @@
+# Local synthetic test dependencies (Python 3.12 recommended).
+Django>=5.2,<5.3
+jsonschema==4.26.0
+scikit-learn>=1.5,<2
+statsmodels>=0.14,<0.15
+# artifact_tool is environment-specific; C07 reports BLOCKED_DEPENDENCY if missing.

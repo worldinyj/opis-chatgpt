@@ -1,0 +1,1 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>OPIS 합성 로그인</title></head><body><main><h1>OPIS 전문가 검토 로그인</h1><p>로컬 합성 시험 전용. 실제 사건자료 입력 금지.</p><form method="post">{% csrf_token %}{{ form.as_p }}<input type="hidden" name="next" value="{{ next }}"><button type="submit">로그인</button></form></main></body></html>
