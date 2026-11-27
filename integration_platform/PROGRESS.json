@@ -2,8 +2,8 @@
   "track": "C",
   "branch": "develop/integration-platform",
   "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
-  "phase": "C06+C05-R1",
-  "status": "EXPERT_SERVICE_AND_GROUP_METRICS_TESTED_DJANGO_RUNTIME_OPEN",
+  "phase": "C07+C08",
+  "status": "EXCEL_AND_DASHBOARD_PROTOTYPES_TESTED_INTEGRATION_OPEN",
   "completed": [
     "C01",
     "C02",
@@ -13,9 +13,11 @@
     "C04_R1_COMPATIBILITY",
     "C05_PURE_METRICS",
     "C06_SERVICE_SYNTHETIC",
-    "C05_R1_GROUP_METRICS"
+    "C05_R1_GROUP_METRICS",
+    "C07_SYNTHETIC_COPY_PROTOTYPE",
+    "C08_STATIC_DASHBOARD_PROTOTYPE"
   ],
-  "next": "C06-R1",
+  "next": "C09_SYNTHETIC_INTEGRATION",
   "actual_data_import": false,
   "tests_executed": true,
   "approved": false,
@@ -26,7 +28,7 @@
   "synthetic_slots": 4560,
   "staging_tests_passed": 18,
   "staging_tests_failed": 0,
-  "parallel_next": "C07_EXCEL_COPY_DESIGN",
+  "parallel_next": "C07-R1_TEMPLATE_AND_FULL_COPY_VALIDATION",
   "adapter_tests_passed": 16,
   "adapter_tests_failed": 0,
   "full_core_bridge_tested": false,
@@ -48,5 +50,15 @@
   "django_runtime_blocker": "DJANGO_NOT_INSTALLED_PACKAGE_INSTALL_FAILED",
   "group_metrics_tests_passed": 6,
   "group_metrics_tests_failed": 0,
-  "group_metrics_reference_examples_passed": true
+  "group_metrics_reference_examples_passed": true,
+  "dashboard_next": "C08-R1_WEB_DB_LINKAGE",
+  "excel_tests_passed": 7,
+  "excel_tests_failed": 0,
+  "excel_actual_template_verified": false,
+  "excel_full_grid_plan_tested": true,
+  "excel_file_roundtrip_rows": 40,
+  "dashboard_tests_passed": 7,
+  "dashboard_tests_failed": 0,
+  "dashboard_synthetic_keys": 1520,
+  "dashboard_browser_tested": false
 }
