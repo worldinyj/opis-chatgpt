@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>OPIS 핵심 DB 검토</title></head><body>
+<main><h1>OPIS 핵심 DB 전문가 검토</h1><p>합성 시험 전용 · 실제 승인 및 배포 금지</p>
+<h2>{{ data.key }}</h2><p>스냅샷 {{ data.snapshot }} / {{ data.fingerprint }}</p><p>{{ data.status }}</p>
+{% if data.stale_review_required %}<p role="alert">이전 스냅샷의 검토 이력이 있습니다. 현재 판본을 다시 검토하십시오.</p>{% endif %}
+<table><thead><tr><th>모델</th><th>입력 상태</th><th>역할</th><th>판정</th></tr></thead><tbody>
+{% for vote in data.votes %}<tr><td>{{ vote.model }}</td><td>{{ vote.availability }}</td><td>{{ vote.role|default_if_none:"—" }}</td><td>{{ vote.result|default_if_none:"—" }}</td></tr>{% endfor %}</tbody></table>
+{% if data.latest %}<h2>현재 판본 최근 초안</h2><p>{{ data.latest.1 }} — {{ data.latest.2 }}</p><p>{{ data.latest.3 }} / {{ data.latest.4 }}</p>{% endif %}
+{% if data.can_edit %}<form method="post">{% csrf_token %}
+<input type="hidden" name="snapshot" value="{{ data.snapshot }}"><input type="hidden" name="fingerprint" value="{{ data.fingerprint }}"><input type="hidden" name="revision" value="{{ data.revision }}">
+<label for="decision">초안 판정</label><select id="decision" name="decision" required><option value="">선택</option><option value="SELECTED">선정</option><option value="NOT_SELECTED">미선정</option><option value="DEFERRED">판단보류</option></select>
+<label for="reason">판단 근거</label><textarea id="reason" name="reason" required maxlength="4000"></textarea><button type="submit">초안 기록</button>
+</form>{% else %}<p>읽기 전용 또는 입력 대기.</p>{% endif %}
+<p>원문 및 사실 대장 상세 조회는 후속 연결 대상입니다.</p></main></body></html>
