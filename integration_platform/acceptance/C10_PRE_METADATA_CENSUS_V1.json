@@ -1,0 +1,175 @@
+{
+  "source_ref": "8775c5ae6249cf0f8bcd70d513e3296cbb46343e",
+  "audit_ref": "da65cf2672ae700a5ee811efdd545f185bbabc78",
+  "method": "DECLARED_METADATA_AND_PINNED_TREE_BLOB_ONLY",
+  "shards": [
+    {
+      "path": "integration_platform/acceptance/c10_pre/gemini_00.json",
+      "blob": "c12b6574d493a108fd46e21a017a789801035b41",
+      "n": 8
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/gemini_08.json",
+      "blob": "42968b51ed3517393cce91c8e77585b28bc897b6",
+      "n": 8
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/gemini_16.json",
+      "blob": "1ab4351b25c37f796195dd851cbf8a1aa7345754",
+      "n": 8
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/gemini_24.json",
+      "blob": "243cb369f8da93aa0e2a92349321412f49cbc064",
+      "n": 8
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/gemini_32.json",
+      "blob": "b71dfc5d23589ca26d160f3bbc8ab3dd31f5d0f9",
+      "n": 6
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/claude_00.json",
+      "blob": "5141ff819867cbdd24507716d00ca1408a33b61a",
+      "n": 8
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/claude_08.json",
+      "blob": "ffba6a5a99665d5f154dbd14eadccb96f2550065",
+      "n": 8
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/claude_16.json",
+      "blob": "d2899b00c2653c5f972bab1ead75a1033173d808",
+      "n": 8
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/claude_24.json",
+      "blob": "2c5afe68328bd4fb3149e8155a49f16d7940badb",
+      "n": 8
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/claude_32.json",
+      "blob": "0a66557b607afb05de510eda300fdff8339196e8",
+      "n": 6
+    }
+  ],
+  "submissions": 76,
+  "distinct_model_queue": 76,
+  "artifacts": 304,
+  "blob_matches": 304,
+  "declared_sha256_valid": 300,
+  "role_count_valid": 76,
+  "source_zip_hash_declared": 76,
+  "metadata_issues": [],
+  "hash_missing": [
+    {
+      "model": "CLAUDE",
+      "queue": "ROOT-038",
+      "files": [
+        "report.md",
+        "review.json",
+        "excel_import.csv",
+        "validation.md"
+      ]
+    }
+  ],
+  "models": {
+    "GEMINI": {
+      "n": 38,
+      "unique_events": 38,
+      "integration": {
+        "PENDING_INTEGRATION": 31,
+        "HOLD": 7
+      },
+      "source": {
+        "BINARY_HASH_VERIFIED": 37,
+        "PDF_READ_HASH_UNAVAILABLE": 1
+      },
+      "independence": {
+        "SELF_ATTESTED_NO_OTHER_AI_OUTPUTS_SEEN": 38
+      },
+      "count_field": {
+        "role_counts": 38
+      },
+      "revision": {
+        "v1": 36,
+        "v2": 2
+      },
+      "hold_queue": [
+        "ROOT-004",
+        "ROOT-014",
+        "ROOT-015",
+        "ROOT-017",
+        "ROOT-018",
+        "ROOT-019",
+        "ROOT-020"
+      ]
+    },
+    "CLAUDE": {
+      "n": 38,
+      "unique_events": 38,
+      "integration": {
+        "HOLD": 38
+      },
+      "source": {
+        "PDF_READ_HASH_UNAVAILABLE": 38
+      },
+      "independence": {
+        "EXPOSURE_DISCLOSED_REVIEW_REQUIRED": 1,
+        "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED": 37
+      },
+      "count_field": {
+        "reported_counts": 1,
+        "role_counts": 37
+      },
+      "revision": {
+        "v1": 38
+      },
+      "hold_queue": [
+        "ROOT-038",
+        "ROOT-005",
+        "ROOT-001",
+        "ROOT-002",
+        "ROOT-003",
+        "ROOT-004",
+        "ROOT-006",
+        "ROOT-007",
+        "ROOT-008",
+        "ROOT-009",
+        "ROOT-010",
+        "ROOT-011",
+        "ROOT-012",
+        "ROOT-013",
+        "ROOT-014",
+        "ROOT-015",
+        "ROOT-016",
+        "ROOT-017",
+        "ROOT-018",
+        "ROOT-019",
+        "ROOT-020",
+        "ROOT-021",
+        "ROOT-022",
+        "ROOT-023",
+        "ROOT-024",
+        "ROOT-025",
+        "ROOT-026",
+        "ROOT-027",
+        "ROOT-028",
+        "ROOT-029",
+        "ROOT-030",
+        "ROOT-031",
+        "ROOT-032",
+        "ROOT-033",
+        "ROOT-034",
+        "ROOT-035",
+        "ROOT-036",
+        "ROOT-037"
+      ]
+    }
+  },
+  "approved": false,
+  "can_ship": false,
+  "actual_data_import": false,
+  "eligible_count": 0
+}
