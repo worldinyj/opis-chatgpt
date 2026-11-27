@@ -2,8 +2,8 @@
   "track": "B",
   "branch": "develop/gemini-quality",
   "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
-  "phase": "B07",
-  "status": "QUALITY_SYNTHESIS_READY_APPROVAL_GATES_OPEN",
+  "phase": "B08",
+  "status": "REVIEW_PACKET_READY_INDEPENDENT_REVIEW_AND_APPROVAL_PENDING",
   "completed": [
     "B01",
     "B02",
@@ -12,9 +12,10 @@
     "B04",
     "B05_SOURCE_AUDIT",
     "B06_FORMAT_RECHECK",
-    "B07"
+    "B07",
+    "B08_PACKET_PREPARATION"
   ],
-  "next": "B08",
+  "next": "INDEPENDENT_QA_AND_EXPLICIT_ELIGIBILITY_DECISION",
   "hold_count": 7,
   "approved": false,
   "can_ship": false,
@@ -42,5 +43,6 @@
   "format_rechecked_rows": 240,
   "format_recheck_errors": 0,
   "independent_reviewer_approval": false,
-  "format_candidates_for_review": 6
+  "format_candidates_for_review": 6,
+  "approval_packets": 7
 }
