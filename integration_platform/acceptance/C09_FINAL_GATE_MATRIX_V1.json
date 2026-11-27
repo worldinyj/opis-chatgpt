@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "date": "2026-11-27",
+  "evaluated_ref": "4781400efaa785a97f4ac1d4023942501723ecbb",
+  "main_ref": "8775c5ae6249cf0f8bcd70d513e3296cbb46343e",
+  "b_ref": "dafd93aec8949521e8207e311c3e7c57876029b6",
+  "status": "NO_GO",
+  "gates": [
+    {
+      "id": "G01",
+      "criterion": "기준판본/보호경로",
+      "status": "PASS_SCOPED",
+      "evidence": "C01 8 pins at fixed base ref match; main/B heads unchanged; runtime Git loader not executed",
+      "next": "C09-F1"
+    },
+    {
+      "id": "G02",
+      "criterion": "교차판정 규칙",
+      "status": "PASS_SYNTHETIC",
+      "evidence": "C01 7 scenarios and 729 valid slot combinations; 93 previous regressions",
+      "next": "C09-FINAL"
+    },
+    {
+      "id": "G03",
+      "criterion": "DB/판정/통계/HTML",
+      "status": "PASS_SYNTHETIC",
+      "evidence": "38 direct synthetic events 1520 keys 4560 slots, backup restore and integrity; not full import",
+      "next": "C09-FINAL"
+    },
+    {
+      "id": "G04",
+      "criterion": "외부 입력/기준선/원본 아카이브",
+      "status": "BLOCKED",
+      "evidence": "one-event ZIP+CSV bridge only; required fifth INTAKE_STATUS.json absent from four-file ZIP contract; original bytes/quarantine archive and multi-event mapping not implemented",
+      "next": "C09-F1"
+    },
+    {
+      "id": "G05",
+      "criterion": "적격성/스냅샷",
+      "status": "BLOCKED",
+      "evidence": "production source/independence decisions, mandatory artifact set, mixed-state builder, idempotent snapshot selection not ready",
+      "next": "C09-F2"
+    },
+    {
+      "id": "G06",
+      "criterion": "전문가 검토/승인",
+      "status": "BLOCKED",
+      "evidence": "synthetic draft core tests pass; real authenticated roles, explicit current snapshot, stale transition, final approval workflow pending",
+      "next": "C06-R1"
+    },
+    {
+      "id": "G07",
+      "criterion": "Django 웹/보안",
+      "status": "BLOCKED",
+      "evidence": "Django unavailable; authentication, CSRF, template, DB integration, deployment and permission tests not executed",
+      "next": "C06-R1"
+    },
+    {
+      "id": "G08",
+      "criterion": "Excel 복사본",
+      "status": "BLOCKED",
+      "evidence": "40 synthetic Gemini rows roundtrip; 1520-row plan only; real workbook unavailable; Claude/format/formula preservation pending",
+      "next": "C07-R1"
+    },
+    {
+      "id": "G09",
+      "criterion": "운영 DB/복구/감사",
+      "status": "BLOCKED",
+      "evidence": "bounded synthetic backup and writer lock pass; schema/trigger definitions, production migration, path allowlist, load and operational recovery not certified",
+      "next": "C09-F3"
+    },
+    {
+      "id": "G10",
+      "criterion": "대시보드/통계 운영",
+      "status": "BLOCKED",
+      "evidence": "static synthetic HTML and stats validated; live authorized DB API, real metadata, browser checks and expert progress pending",
+      "next": "C08-R1"
+    },
+    {
+      "id": "G11",
+      "criterion": "독립 QA 및 적격 심사",
+      "status": "BLOCKED",
+      "evidence": "Gemini PASS31 FAIL7 registration, HOLD7; Claude HOLD38; no explicit eligibility decision for actual materials; B08 independent QA pending",
+      "next": "B08/C10-PRE"
+    },
+    {
+      "id": "G12",
+      "criterion": "전체 회귀 및 최종 승인",
+      "status": "BLOCKED",
+      "evidence": "95 current unittest pass; 112 earlier cases not rerun; no full checkout or actual-data authorization",
+      "next": "C09-F3"
+    }
+  ],
+  "regression": {
+    "previous_cumulative": 205,
+    "rerun": 93,
+    "new_unittest": 2,
+    "current_pass": 95,
+    "current_fail": 0,
+    "previous_not_rerun": 112,
+    "cumulative_distinct_reported": 207,
+    "contract_cases": 7,
+    "valid_ballot_combinations": 729,
+    "full_checkout": false,
+    "verified_full_runtime_blobs": 18,
+    "prefix_core_sha256_matches": 3,
+    "staging_partial_verified": true,
+    "contract_pins_matched": 8
+  },
+  "approved": false,
+  "can_ship": false,
+  "main_merge": false,
+  "actual_data_import": false
+}
