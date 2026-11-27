@@ -23,6 +23,8 @@ SUITES = (
     ('C05-R1','analytics/c05_r1_groups.py',(),('sklearn','statsmodels'),6),
     ('C06','expert_review/c06_review.py',(),(),10),
     ('C07','excel/test_c07.py',(),('artifact_tool',),7),
+    ('C07-PORTABLE','excel/test_c07_portable.py',(),(),17),
+    ('C07-ROUNDTRIP','excel/test_c07_portable_roundtrip.py',(),('artifact_tool',),2),
     ('C08','dashboard/test_c08.py',(),(),7),
     ('C09-AB','tests/c09_core_e2e.py',(),(),9),
     ('C09-R1','tests/test_c09_guard.py',(),(),7),
@@ -60,7 +62,7 @@ def preflight(repo):
             raise ValueError('source pin mismatch: '+name)
         checked+=1
     if checked<20:raise ValueError('incomplete source tree')
-    for _,rel,_,_,_ in SUITES:
+    for rel in [row[1] for row in SUITES]+['excel/c07_portable.py']:
         path=root/rel
         if path.is_symlink() or not path.is_file() or blob(path.read_bytes())!=git(repo,'rev-parse','HEAD:integration_platform/'+rel).decode().strip():
             raise ValueError('suite file not committed or modified: '+rel)
