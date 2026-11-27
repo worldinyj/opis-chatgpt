@@ -2,8 +2,8 @@
   "track": "C",
   "branch": "develop/integration-platform",
   "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
-  "phase": "C04-R1+C05",
-  "status": "BRIDGE_COMPATIBILITY_AND_METRICS_TESTED_CORE_OPEN",
+  "phase": "C06+C05-R1",
+  "status": "EXPERT_SERVICE_AND_GROUP_METRICS_TESTED_DJANGO_RUNTIME_OPEN",
   "completed": [
     "C01",
     "C02",
@@ -11,9 +11,11 @@
     "C02-R2",
     "C04_PURE_ENGINE",
     "C04_R1_COMPATIBILITY",
-    "C05_PURE_METRICS"
+    "C05_PURE_METRICS",
+    "C06_SERVICE_SYNTHETIC",
+    "C05_R1_GROUP_METRICS"
   ],
-  "next": "C06_EXPERT_REVIEW_DESIGN",
+  "next": "C06-R1",
   "actual_data_import": false,
   "tests_executed": true,
   "approved": false,
@@ -24,7 +26,7 @@
   "synthetic_slots": 4560,
   "staging_tests_passed": 18,
   "staging_tests_failed": 0,
-  "parallel_next": "C03-R1_AND_C04-R1_FULL_CORE_VALIDATION",
+  "parallel_next": "C07_EXCEL_COPY_DESIGN",
   "adapter_tests_passed": 16,
   "adapter_tests_failed": 0,
   "full_core_bridge_tested": false,
@@ -34,9 +36,17 @@
   "availability_combinations_tested": 64,
   "consensus_synthetic_keys": 1520,
   "consensus_synthetic_slots": 4560,
-  "analytics_next": "C05-R1",
+  "analytics_next": "C05-R2_DB_LINKAGE",
   "consensus_bridge_compatibility_tests_passed": 9,
   "consensus_bridge_full_core_tested": false,
   "agreement_tests_passed": 9,
-  "agreement_synthetic_keys": 1520
+  "agreement_synthetic_keys": 1520,
+  "core_validation_next": "C03-R1_AND_C04-R1_FULL_CORE_VALIDATION",
+  "expert_service_tests_passed": 10,
+  "expert_service_tests_failed": 0,
+  "django_runtime_tested": false,
+  "django_runtime_blocker": "DJANGO_NOT_INSTALLED_PACKAGE_INSTALL_FAILED",
+  "group_metrics_tests_passed": 6,
+  "group_metrics_tests_failed": 0,
+  "group_metrics_reference_examples_passed": true
 }
