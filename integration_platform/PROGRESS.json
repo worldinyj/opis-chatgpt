@@ -2,15 +2,16 @@
   "track": "C",
   "branch": "develop/integration-platform",
   "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
-  "phase": "C03-R1",
-  "status": "ADAPTER_BRIDGE_IMPLEMENTED_COMPATIBILITY_TESTED_FULL_CORE_OPEN",
+  "phase": "C04",
+  "status": "PURE_ENGINE_TESTED_SNAPSHOT_BRIDGE_OPEN",
   "completed": [
     "C01",
     "C02",
     "C02-R1",
-    "C02-R2"
+    "C02-R2",
+    "C04_PURE_ENGINE"
   ],
-  "next": "C03-R1_CORE_VALIDATION",
+  "next": "C04-R1",
   "actual_data_import": false,
   "tests_executed": true,
   "approved": false,
@@ -21,8 +22,14 @@
   "synthetic_slots": 4560,
   "staging_tests_passed": 18,
   "staging_tests_failed": 0,
-  "parallel_next": "C04_PURE_ENGINE",
+  "parallel_next": "C03-R1_CORE_VALIDATION",
   "adapter_tests_passed": 16,
   "adapter_tests_failed": 0,
-  "full_core_bridge_tested": false
+  "full_core_bridge_tested": false,
+  "consensus_tests_passed": 14,
+  "consensus_tests_failed": 0,
+  "role_combinations_tested": 216,
+  "availability_combinations_tested": 64,
+  "consensus_synthetic_keys": 1520,
+  "consensus_synthetic_slots": 4560
 }
