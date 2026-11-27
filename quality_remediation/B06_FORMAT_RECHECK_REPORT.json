@@ -1,0 +1,92 @@
+{
+  "phase": "B06",
+  "date": "2026-11-27",
+  "status": "FORMAT_RECHECK_PASS_NOT_INDEPENDENT_APPROVAL",
+  "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
+  "candidate_ref": "15bf4b48799a10e057cf3586e9d7d9a53080ddb4",
+  "method": "Separate read-only connector audit; independent CSV field parser, per-key original JSON and CSV comparison, row_diff before/after comparison and source token parsing; same assistant, not independent human/model review.",
+  "checks": [
+    "original review and CSV Git blob match manifest",
+    "derived CSV blob match B04 register",
+    "provenance original blob and recorded SHA256 values match manifest; derived SHA256 field matches B04",
+    "40 unique ordered keys and first five columns unchanged",
+    "rationale equals original JSON and removes only exact role prefix",
+    "row_diff before/after role/result and values match",
+    "formula prefix check",
+    "empty source canonical",
+    "nonempty source report, section, printed pages, physical pages, fact ID exact serialization",
+    "section and page membership in linked fact ledger"
+  ],
+  "cases": [
+    {
+      "queue_id": "ROOT-014",
+      "rows": 40,
+      "empty": 18,
+      "nonempty": 22,
+      "blob": "0b2d813c11f704456177245b5494fbea9b907f83",
+      "errors": [],
+      "status": "FORMAT_RECHECK_PASS"
+    },
+    {
+      "queue_id": "ROOT-015",
+      "rows": 40,
+      "empty": 23,
+      "nonempty": 17,
+      "blob": "d69d52e8bfe8962602314d5c806a2664f95685dd",
+      "errors": [],
+      "status": "FORMAT_RECHECK_PASS"
+    },
+    {
+      "queue_id": "ROOT-017",
+      "rows": 40,
+      "empty": 21,
+      "nonempty": 19,
+      "blob": "4fcf9ff789c6b53a570471611581abcd68cd66d0",
+      "errors": [],
+      "status": "FORMAT_RECHECK_PASS"
+    },
+    {
+      "queue_id": "ROOT-018",
+      "rows": 40,
+      "empty": 18,
+      "nonempty": 22,
+      "blob": "1107da68cff3aed82a0d4f1889bdadf86dc833fe",
+      "errors": [],
+      "status": "FORMAT_RECHECK_PASS"
+    },
+    {
+      "queue_id": "ROOT-019",
+      "rows": 40,
+      "empty": 18,
+      "nonempty": 22,
+      "blob": "8f5324ff76a17fa3ca679748c84320d3196c1ba1",
+      "errors": [],
+      "status": "FORMAT_RECHECK_PASS"
+    },
+    {
+      "queue_id": "ROOT-020",
+      "rows": 40,
+      "empty": 19,
+      "nonempty": 21,
+      "blob": "d78f1d1deef55e2decc60f91e824941903a79907",
+      "errors": [],
+      "status": "FORMAT_RECHECK_PASS"
+    }
+  ],
+  "rows": 240,
+  "errors": 0,
+  "root004": {
+    "status": "MANUAL_LINKAGE_HOLD",
+    "reference": "B05_ROOT004_SOURCE_REINSPECTION.md"
+  },
+  "limitations": [
+    "Git blob recheck, no fresh SHA256 byte calculation in B06; reuse B04 byte audit.",
+    "No independent PDF reinspection of six cases; semantic adequacy not verified.",
+    "Same assistant ran separate verification; independent human/model approval remains pending.",
+    "All seven retain HOLD; no production activation."
+  ],
+  "approved": false,
+  "can_ship": false,
+  "eligible_for_three_ai_consensus": false,
+  "main_merge": false
+}
