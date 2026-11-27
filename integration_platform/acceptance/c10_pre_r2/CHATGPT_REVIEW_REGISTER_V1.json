@@ -1,0 +1,1649 @@
+{
+  "version": "1.0",
+  "scope": "INTERNAL_COORDINATION_ONLY_NOT_BLIND_REVIEWER_INPUT",
+  "refs": {
+    "source_ref": "8775c5ae6249cf0f8bcd70d513e3296cbb46343e",
+    "baseline_ref": "859512721debe4f5441accec97c8aa64f030c1fd",
+    "manifest": {
+      "path": "baseline/CHATGPT_BASELINE_V1.json",
+      "blob": "4759e068818a88c86719abd191efaa3d561d5f04"
+    },
+    "csv": {
+      "path": "baseline/CHATGPT_BASELINE_V1.csv",
+      "blob": "f5174189f9f76b044b92a1b23318cd8ffac9ef34"
+    },
+    "queue": {
+      "path": "index/independent_source_queue_v1.json",
+      "blob": "8336cf23bcfda080d1856d6ef5143b70e18e8235"
+    },
+    "standard": {
+      "path": "standards/safety_culture_40.json",
+      "blob": "8dd238647998d31c2fa872968fe519925cd12670"
+    },
+    "integration_contract": {
+      "ref": "44fd767f938b3f671923b51c71ec87ab470f2867",
+      "path": "integration_platform/contracts/INTEGRATION_CONTRACT_V1.json",
+      "blob": "05e458c5172a8956e743ad5d6f76c4eccab9d4c3"
+    }
+  },
+  "verification": {
+    "protected_case_tree_blobs": 1267,
+    "reference_blobs": 11,
+    "contract_blobs": 8,
+    "case_packet_blob_matches": 38,
+    "csv_rows": 1520,
+    "unique_review_keys": 1520,
+    "role_counts": {
+      "D": 173,
+      "I": 80,
+      "A": 717,
+      "H": 40,
+      "P": 4,
+      "N": 506
+    },
+    "raw_byte_sha256_recomputed": false,
+    "case_packet_contents_reviewed": false,
+    "original_matrix_recomparison": false
+  },
+  "records": [
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-001",
+      "event_id": "250112W2",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2025-01",
+        "sha256": "9a8fa2e68c80b7e7d6faa86e9988e2121fe2b673e7a24398bedbc0523fb007f4",
+        "physical_pages": 35,
+        "size_bytes": 1765325
+      },
+      "case_packet": {
+        "path": "cases/2025/250112W2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "674e97af5d105403ee854c266bda0a6a8549f9b3"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-002",
+      "event_id": "240908HB6",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2024-13",
+        "sha256": "62a1417f0743f9fd1d81ef4c93a83b81f77daf27547ff58922cc0bac2fdba7b3",
+        "physical_pages": 42,
+        "size_bytes": 3300962
+      },
+      "case_packet": {
+        "path": "cases/2024/240908HB6/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "28a9853c0c1f64a59c2ab83dffbfff01b7d0e9dd"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-003",
+      "event_id": "240513W4",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2024-7",
+        "sha256": "697459378f08da7fde030ed8521f9e95e31698704b12ce39b2e593cf6591b7a0",
+        "physical_pages": 77,
+        "size_bytes": 1924381
+      },
+      "case_packet": {
+        "path": "cases/2024/240513W4/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "830a527a0c8b9c32e8468fb66a44d7a679377314"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-004",
+      "event_id": "240319W3",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2024-03",
+        "sha256": "fdb886161c5c51b07b2ac823068feb5d6b6a4a5216f303aeda7ffc1a14969ccf",
+        "physical_pages": 88,
+        "size_bytes": 11276268
+      },
+      "case_packet": {
+        "path": "cases/2024/240319W3/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "3880fdd0174a75dbc542c15eef613026fac47eae"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-005",
+      "event_id": "250314SH2",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2025-03",
+        "sha256": "c79f5dab8a197d8b17e0addb985cf4a43640f610a74e0d5b188576dfc2589d4f",
+        "physical_pages": 35,
+        "size_bytes": 997678
+      },
+      "case_packet": {
+        "path": "cases/2025/250314SH2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "ba72723b66a54e5efca0207551549b53caba908a"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-006",
+      "event_id": "230405W2",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2023-3",
+        "sha256": "5d5db17b70d50fea89bebc950f05b767d75a5560f1c46471f5746065ad4d9e91",
+        "physical_pages": 25,
+        "size_bytes": 763939
+      },
+      "case_packet": {
+        "path": "cases/2023/230405W2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "95985051789b977fcdfd6f76332cebb49c7fc988"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-007",
+      "event_id": "221222K3",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2022-12",
+        "sha256": "f3826f42d33c26606b000ff208cf319cd6e8bd99a2b6b502d6930ebf8ffda2de",
+        "physical_pages": 32,
+        "size_bytes": 1348406
+      },
+      "case_packet": {
+        "path": "cases/2022/221222K3/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "1db5f4811b0b69c3faadf8fb83f083c02a76a41c"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-008",
+      "event_id": "220908SW2",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2022-09",
+        "sha256": "827d36bc3a702a9e171ec267d2dea16c881a6a4023818a96bcfdca5ca345a1c7",
+        "physical_pages": 33,
+        "size_bytes": 879048
+      },
+      "case_packet": {
+        "path": "cases/2022/220908SW2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "bf84850e1ae141939f6c9edd75bc51816be01151"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-009",
+      "event_id": "210712K3",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2021-10",
+        "sha256": "b675b726c7d6fd8136aff5757beae3148d00aedd59a49416156a0e6fe7360b7b",
+        "physical_pages": 36,
+        "size_bytes": 1063844
+      },
+      "case_packet": {
+        "path": "cases/2021/210712K3/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "a418512391c7679e958e274b32aede0992298014"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-010",
+      "event_id": "200719HU6",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2020-02",
+        "sha256": "ea3b42066aaf35d3e9d9fc8ebb61aad118afb20954f2dab8d3901e045237cabc",
+        "physical_pages": 54,
+        "size_bytes": 1597832
+      },
+      "case_packet": {
+        "path": "cases/2020/200719HU6/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "f56819ae76b8323d63e6b46be3d60340b170b67a"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-011",
+      "event_id": "190510HB1",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2019-07",
+        "sha256": "cc223c44b90fcc24a627cc267604575c5c852762cad40b40c507fc80666e9195",
+        "physical_pages": 122,
+        "size_bytes": 4440881
+      },
+      "case_packet": {
+        "path": "cases/2019/190510HB1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "2d3bde2d491677c69f5414f2b020d794990d6c0a"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-012",
+      "event_id": "190121W3",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2019-02",
+        "sha256": "5f44465de1f6b7de4f5e26303e0d1fa3bec9bcb0d31f774ef82095d7ef8c79ee",
+        "physical_pages": 55,
+        "size_bytes": 1635578
+      },
+      "case_packet": {
+        "path": "cases/2019/190121W3/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "29adde9e1e057d518cc093f80d5b76a9100097cb"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-013",
+      "event_id": "180611W3",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2018-6",
+        "sha256": "f2186ad481a70b208c90b6538a61fdb92b131069729910149ddb3d3ba32c35fb",
+        "physical_pages": 45,
+        "size_bytes": 1105230
+      },
+      "case_packet": {
+        "path": "cases/2018/180611W3/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "bfee1d6e259a8af35d216c9a17436fc770f8b6bb"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-014",
+      "event_id": "170327K4",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2017-2",
+        "sha256": "28bf6cf2a650b8281d56edc2a49c968e36fa8a3887d7077042c1f37806eb23c2",
+        "physical_pages": 17,
+        "size_bytes": 375547
+      },
+      "case_packet": {
+        "path": "cases/2017/170327K4/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "4f41c651ae8044589f52d29f7b3808ec67f1e0d4"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-015",
+      "event_id": "161220HU5",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2016-23",
+        "sha256": "34e2ac6c379e64c4e05a23a68ea85382c809cbbe2b75db2d519968a6cc37eb4c",
+        "physical_pages": 17,
+        "size_bytes": 463157
+      },
+      "case_packet": {
+        "path": "cases/2016/161220HU5/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "f73ca8d7e784f91b54dc424b9394659d86e4788c"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-016",
+      "event_id": "160227HB1",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2016-04",
+        "sha256": "fea42f164f8751a6a640ec8b1027f5ea3d64b02a316e924f9154b1f98d684f18",
+        "physical_pages": 15,
+        "size_bytes": 295319
+      },
+      "case_packet": {
+        "path": "cases/2016/160227HB1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "ffede0ebe45c3afcd099294fcdab40d5898e04f1"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-017",
+      "event_id": "150903K4",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2015-05",
+        "sha256": "e84f694b3a279a4bbd801bc85a227fad9aa3f38d7021b9477bf13038e37e0901",
+        "physical_pages": 10,
+        "size_bytes": 183781
+      },
+      "case_packet": {
+        "path": "cases/2015/150903K4/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "4a8a5bbfad18ca636505ac11c96e505b608204da"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-018",
+      "event_id": "141017Y3",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2014-16",
+        "sha256": "97685ba3c52fa3cbc1335b5b2c1a79248c63a291c0433808bdf50a143ec9e050",
+        "physical_pages": 25,
+        "size_bytes": 2250865
+      },
+      "case_packet": {
+        "path": "cases/2014/141017Y3/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "9ee085e202eae1e8db236ca2fa17221744f267ef"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-019",
+      "event_id": "141001Y12",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2014-14",
+        "sha256": "3845ad254c76c6b2d6d83ea4bf3731af175c8b177f40b3b903468b2ba59277c3",
+        "physical_pages": 10,
+        "size_bytes": 184823
+      },
+      "case_packet": {
+        "path": "cases/2014/141001Y12/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "6c7b07fdcdaa6fdd0b260e2a93c31bd19c1e3826"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-020",
+      "event_id": "140617W4",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2014-8",
+        "sha256": "f578b6d2433e71b59b1fc03ad0abb4548737ee1a050c3496f1d1a351f5f7777f",
+        "physical_pages": 17,
+        "size_bytes": 253914
+      },
+      "case_packet": {
+        "path": "cases/2014/140617W4/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "35ef8c71da27f57bf20487094a0c8f7f78571112"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-021",
+      "event_id": "140228Y2",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2014-3",
+        "sha256": "4eb7c17d9d60fb5c15f3a986d30c543d4d34e0262cefdc49c3bebdf58fc1f9e7",
+        "physical_pages": 11,
+        "size_bytes": 213167
+      },
+      "case_packet": {
+        "path": "cases/2014/140228Y2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "51629840d5b2ca4ea7174e866a42337561431f45"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-022",
+      "event_id": "130414KR4",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2013-03/04",
+        "sha256": "c5a6c0d26079b71cc81f850eba75c884d00fc601b7cf245d7ff0ddb125af4f77",
+        "physical_pages": 21,
+        "size_bytes": 505142
+      },
+      "case_packet": {
+        "path": "cases/2013/130414KR4/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "440a427a662d1d8da2a3fe6574fa72fe6ae8313b"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-023",
+      "event_id": "130117U1",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2013-1",
+        "sha256": "b7d1693b6d9e22b589f2f5efcd0389ce09901b8a4278c9e5a789f07e9882b20d",
+        "physical_pages": 12,
+        "size_bytes": 414786
+      },
+      "case_packet": {
+        "path": "cases/2013/130117U1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "6bbc5dea0c6f6a47dad5c4d77f2c014d98560457"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-024",
+      "event_id": "061011U2",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2006-16",
+        "sha256": "e5e57384290be5122ad9d9fde395ac38c57061deeaacc941ca274f07caef917c",
+        "physical_pages": 29,
+        "size_bytes": 7643152
+      },
+      "case_packet": {
+        "path": "cases/2006/061011U2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "006aca65f7c7117b6549f57a8ca3a8a4b1c5fdc9"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-025",
+      "event_id": "121126U6",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2012-17",
+        "sha256": "25c453c50ef696f2e0a0500376c6de63080d7d21c320ee945576dafc2bffab27",
+        "physical_pages": 12,
+        "size_bytes": 504858
+      },
+      "case_packet": {
+        "path": "cases/2012/121126U6/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "0dbdd0249835230a0f81d3bc374025252de83533"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-026",
+      "event_id": "110621K2",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2011-08",
+        "sha256": "e8bedf1d68e47eed941e90e950f30e971de1a1014664d3096801337f4d1d7355",
+        "physical_pages": 11,
+        "size_bytes": 364751
+      },
+      "case_packet": {
+        "path": "cases/2011/110621K2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "81ec73012a4bd439f99cfec303ccf3a63626a640"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-027",
+      "event_id": "110419K34",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2011-07",
+        "sha256": "4086f8961a4e8cf00819db5df9d69d4cb6283d46452d4f5d099719a605018fa3",
+        "physical_pages": 12,
+        "size_bytes": 510723
+      },
+      "case_packet": {
+        "path": "cases/2011/110419K34/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "f42da1ca1d74afb6d84eb01e170c85553fd5f083"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-028",
+      "event_id": "100917SK1",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2010-11",
+        "sha256": "f80140a0395ac3332c13a9b6a5de254f97475cfd1de124b9cbf8a4b74afe73e4",
+        "physical_pages": 25,
+        "size_bytes": 901625
+      },
+      "case_packet": {
+        "path": "cases/2010/100917SK1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "2b5ede73f13986cfc2c4a8342fbbbd13acfaa73c"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-029",
+      "event_id": "090903W2",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2009-9",
+        "sha256": "67e06071f2af223e884c59f1671e0724c893413bdd1319844706b73ad8a95cd8",
+        "physical_pages": 9,
+        "size_bytes": 340760
+      },
+      "case_packet": {
+        "path": "cases/2009/090903W2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "3cac942da4484ae21a28de2a4817e31090e47ebf"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-030",
+      "event_id": "060507U1",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2006-8",
+        "sha256": "b4a68f422f2e90d7c84e8d9cd6d8255c353bbd83a84c6e7459ec8d52fe0d0e2e",
+        "physical_pages": 20,
+        "size_bytes": 863091
+      },
+      "case_packet": {
+        "path": "cases/2006/060507U1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "5e4037ee40232dfe9e52b6a46b3b60ed9a3487ed"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-031",
+      "event_id": "051106W1",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2005-14",
+        "sha256": "32cd0b8a3ba57f7c9ee4c73c4bd7a71d2b61240dbca3eb5ab173dcab033440cb",
+        "physical_pages": 17,
+        "size_bytes": 1996480
+      },
+      "case_packet": {
+        "path": "cases/2005/051106W1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "1e874d216c685851872b32ed56807f61c1d33fdd"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-032",
+      "event_id": "031229Y5",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2003-21",
+        "sha256": "52201ea999e1c9f61b2b3130056ded81162abb492f839b00227024d689035a0c",
+        "physical_pages": 14,
+        "size_bytes": 287427
+      },
+      "case_packet": {
+        "path": "cases/2003/031229Y5/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "0b9037ec37e3c6d27709e104475c8bb8243f5e17"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-033",
+      "event_id": "020405U4",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2002-02",
+        "sha256": "a3dff667158b6c61f576f87221b4e458afd25e66ba3d31c712f3ea5aa4fc13cf",
+        "physical_pages": 6,
+        "size_bytes": 1017134
+      },
+      "case_packet": {
+        "path": "cases/2002/020405U4/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "55a6dee72d5bbcd4fb1d42b6899b670bb9f3ad3d"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-034",
+      "event_id": "001117K1",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "00-001-00",
+        "sha256": "cf7f06887e0bcd6ec8fba8b3f7c3502513db866bff518a05bb16de330e1016a0",
+        "physical_pages": 8,
+        "size_bytes": 924278
+      },
+      "case_packet": {
+        "path": "cases/2000/001117K1/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "5a1c9bc2e8b2be21e0a8022f1ed2db9884a0f100"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-035",
+      "event_id": "990323Y2",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "1402-99-02",
+        "sha256": "13d80baa4e31bb0bea57852824c684ae244783e43b5176dac64feba698f95407",
+        "physical_pages": 1,
+        "size_bytes": 905688
+      },
+      "case_packet": {
+        "path": "cases/1999/990323Y2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "6a98e26896b1a80cbb85b09933f4a8ee8c196c5b"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-036",
+      "event_id": "970117-1502",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "1502-97-02",
+        "sha256": "77c64ecd353163f6ae8b8ee108588eb850dd1ac38a9aff0bd913b2b53788ecee",
+        "physical_pages": 2,
+        "size_bytes": 502360
+      },
+      "case_packet": {
+        "path": "cases/1997/970117-1502/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "362e7860e9712392ca4231c2d0279a20b82fe847"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-037",
+      "event_id": "941020-1301",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "1301-1994-02",
+        "sha256": "6a20318b90cbc8e50836467dd741a9f8d56ad710fb8f1bf301e8d4af5922b23f",
+        "physical_pages": 1,
+        "size_bytes": 295684
+      },
+      "case_packet": {
+        "path": "cases/1994/941020-1301/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "0eebb814f5300449491e995c0c06fa989f2e3514"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    },
+    {
+      "model": "CHATGPT",
+      "queue_id": "ROOT-038",
+      "event_id": "250919W2",
+      "registration_status": "FROZEN_BASELINE",
+      "submission_revision": "CHATGPT_BASELINE_V1",
+      "expected_source": {
+        "report_number": "2025-07",
+        "sha256": "fb3348d2725396a03689556b717876d8d65c72a79dce6716ae1d8471fe6cec83",
+        "physical_pages": 40,
+        "size_bytes": 1114807
+      },
+      "case_packet": {
+        "path": "cases/2025/250919W2/review_package/EXPERT_REVIEW_PACKET_V1.json",
+        "blob": "92dd2520710131b9ab5a1bdfcad2b4add809cc19"
+      },
+      "row_count": 40,
+      "gates": {
+        "IDENTITY": "PENDING_INDEPENDENT_PDF_AND_SUBMISSION_BINDING",
+        "ARTIFACTS": "PINNED_TREE_AND_CSV_GRID_VERIFIED_RAW_HASH_AUDIT_PENDING",
+        "INDEPENDENCE": "PENDING_INDEPENDENT_REVIEW",
+        "EVIDENCE": "PENDING_PINNED_RATIONALE_AND_SEMANTIC_REVIEW",
+        "DECISION": "PENDING_AUTHORIZED_REVIEW"
+      },
+      "blockers": [
+        "BASELINE_ORIGINAL_BYTE_REPRODUCTION",
+        "PDF_IDENTITY_AND_BINDING",
+        "INDEPENDENCE_REVIEW",
+        "EVIDENCE_REVIEW",
+        "EXPLICIT_DECISION"
+      ],
+      "review_record": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence_refs": [],
+        "decision": null,
+        "reason": null
+      },
+      "eligible": false,
+      "approved": false,
+      "can_ship": false
+    }
+  ],
+  "approved": false,
+  "can_ship": false,
+  "actual_data_import": false
+}
