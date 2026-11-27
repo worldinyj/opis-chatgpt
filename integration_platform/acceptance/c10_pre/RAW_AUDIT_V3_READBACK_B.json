@@ -1,0 +1,299 @@
+{
+  "source_ref": "8775c5ae6249cf0f8bcd70d513e3296cbb46343e",
+  "census_ref": "65f0a7d2ca937593854f9dced404401bc579b23d",
+  "audit_ref": "d6ef66c3979138354a780503ef2bd5092205dce4",
+  "batch": "B",
+  "files": [
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_gemini_026_027_028.json",
+      "blob": "6a7c574ae995916b6125544806e0b8fd6e88f9f3",
+      "records": 3
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_claude_026_027_028.json",
+      "blob": "0586819831190c23fd028724bd66bdbff0a44531",
+      "records": 3
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_gemini_029_030_031.json",
+      "blob": "fc416e7f259811cbd7f5e63ac57a4bef57f0ffdf",
+      "records": 3
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_claude_029_030_031.json",
+      "blob": "2756c52329793c8c14c7286ebbcc672cdf62ba6e",
+      "records": 3
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_gemini_032_033_034.json",
+      "blob": "6c5e4d4386b8f41dc5e903bf3e94179e33654747",
+      "records": 3
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_claude_032_033_034.json",
+      "blob": "b30a2e305162a5c2a6d12e32a56c6972f638cb36",
+      "records": 3
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_gemini_035_036_037.json",
+      "blob": "f64b1947a4ce5f9c83b0f3262148860f958915c6",
+      "records": 3
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_claude_035_036_037.json",
+      "blob": "9de552b8b8291046725a97560457170b4cb57d58",
+      "records": 3
+    }
+  ],
+  "submissions": [
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-026",
+      "event_id": "110621K2",
+      "status_blob": "aa3331b1601e3cc699fcc50d17633858b2202491",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-027",
+      "event_id": "110419K34",
+      "status_blob": "e8f18ec0212e281e4c0f9cac01e8024a3567f9fc",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-028",
+      "event_id": "100917SK1",
+      "status_blob": "1e54d2569f3636bc9b283d6ad2ce02361dbd8006",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-026",
+      "event_id": "110621K2",
+      "status_blob": "c2cc7813cd0ef2f9b9f20ab03e221f2909d8e133",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-027",
+      "event_id": "110419K34",
+      "status_blob": "947e7938b5f8fd8a26c3497a734ae2fc46ffff41",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-028",
+      "event_id": "100917SK1",
+      "status_blob": "040aa56aa44bc319e44f2d17327a27e3443af8b0",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-029",
+      "event_id": "090903W2",
+      "status_blob": "1101650cb5942f74bc9b54832cc26370c20710ce",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-030",
+      "event_id": "060507U1",
+      "status_blob": "a77862c4dfcf6ba33d57dd09a486c9f2a6ff8340",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-031",
+      "event_id": "051106W1",
+      "status_blob": "cb1578b064b8d5184d4e469a35ca2f6ff354378f",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-029",
+      "event_id": "090903W2",
+      "status_blob": "53b95880b301fddf3c5b7af2e94534d87b4ba0b3",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-030",
+      "event_id": "060507U1",
+      "status_blob": "201507c30278b876861897e21f9974c7a6f81681",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-031",
+      "event_id": "051106W1",
+      "status_blob": "762621291d63a3ee16632f660fe57acce6d13593",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-032",
+      "event_id": "031229Y5",
+      "status_blob": "b66f9337270c9a14fd3eb03d8e2236d9b189e35e",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-033",
+      "event_id": "020405U4",
+      "status_blob": "6c15326b1b871f814b9e919a19cabe52a16e3f37",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-034",
+      "event_id": "001117K1",
+      "status_blob": "961a6635ee0271d874d983fe3791d469c8f4c7fc",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-032",
+      "event_id": "031229Y5",
+      "status_blob": "4a0d51d9bea5340afdd664327ed0c8859f0a212c",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-033",
+      "event_id": "020405U4",
+      "status_blob": "53bc92e4f96d006147414aa8ba7351627446e03d",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-034",
+      "event_id": "001117K1",
+      "status_blob": "3b7340a230a6c08af0fb7411b2e7baf80c8e89db",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-035",
+      "event_id": "990323Y2",
+      "status_blob": "e7989b752092d08979df02bea9b7c7ce1f0f7a90",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-036",
+      "event_id": "970117-1502",
+      "status_blob": "079a835f359b916a58e8fdb79d1144309b969282",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-037",
+      "event_id": "941020-1301",
+      "status_blob": "b323d0d741d72d82860d5424e3584fff03a930f2",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-035",
+      "event_id": "990323Y2",
+      "status_blob": "ddd8036b361b1fa46642f2379594cede12afdcb8",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-036",
+      "event_id": "970117-1502",
+      "status_blob": "1261d7f9df2414373355fd2cab862f249b5d7886",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-037",
+      "event_id": "941020-1301",
+      "status_blob": "5f6e1e7d3b6edaf7eb8ba45b853d365d79ea4177",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    }
+  ],
+  "checked_submissions": 24,
+  "checked_artifacts": 96,
+  "artifact_blob_matches": 96,
+  "sha256_matches": 96,
+  "checked_artifact_bytes": 1839692,
+  "checked_status_bytes": 78493,
+  "approved": false,
+  "can_ship": false,
+  "actual_data_import": false
+}
