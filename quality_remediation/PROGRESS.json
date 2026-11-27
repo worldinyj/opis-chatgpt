@@ -2,17 +2,18 @@
   "track": "B",
   "branch": "develop/gemini-quality",
   "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
-  "phase": "B05",
-  "status": "SOURCE_REINSPECTED_LINKAGE_HOLD",
+  "phase": "B06",
+  "status": "FORMAT_RECHECK_PASS_INDEPENDENT_APPROVAL_OPEN",
   "completed": [
     "B01",
     "B02",
     "B03",
     "B03-R1_AUDIT",
     "B04",
-    "B05_SOURCE_AUDIT"
+    "B05_SOURCE_AUDIT",
+    "B06_FORMAT_RECHECK"
   ],
-  "next": "B06",
+  "next": "B07",
   "hold_count": 7,
   "approved": false,
   "can_ship": false,
@@ -35,5 +36,9 @@
   "derived_csv_readback_hash_matches": 6,
   "root004_pdf_binary_verified": true,
   "root004_pdf_pages": 88,
-  "root004_fact_linkage_hold": true
+  "root004_fact_linkage_hold": true,
+  "format_rechecked_cases": 6,
+  "format_rechecked_rows": 240,
+  "format_recheck_errors": 0,
+  "independent_reviewer_approval": false
 }
