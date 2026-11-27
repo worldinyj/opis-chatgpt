@@ -1,0 +1,381 @@
+{
+  "ref": "8775c5ae6249cf0f8bcd70d513e3296cbb46343e",
+  "progress_blob": "4f38a2ad71c086c69f83e96b2b4218e7c2dc2354",
+  "model": "CLAUDE",
+  "start": 16,
+  "n": 8,
+  "method": "DECLARED_METADATA_AND_PINNED_TREE_BLOB_ONLY",
+  "records": [
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-016",
+      "event_id": "160227HB1",
+      "revision_path": "v1",
+      "status_blob": "923d97f78d2a2e91d8fbda37466d21bc9443afbf",
+      "path": "claude/cases/2016/160227HB1/v1/INTAKE_STATUS.json",
+      "declared_integration": "HOLD",
+      "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+      "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+      "source_zip_hash_declared": true,
+      "count_field": "role_counts",
+      "count_valid": true,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "declared_blob": "10f73e9a7a78f25c572d0333392b75eeea6dab73",
+          "tree_blob": "10f73e9a7a78f25c572d0333392b75eeea6dab73",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "review.json",
+          "declared_blob": "71e1537624ec9df71cc22af99346fec7f65ee442",
+          "tree_blob": "71e1537624ec9df71cc22af99346fec7f65ee442",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "excel_import.csv",
+          "declared_blob": "a60710fd824c68e8c48a2278508dadf7ae95be24",
+          "tree_blob": "a60710fd824c68e8c48a2278508dadf7ae95be24",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "validation.md",
+          "declared_blob": "e685fec37482eae3995176f806db730bdb7fc69c",
+          "tree_blob": "e685fec37482eae3995176f806db730bdb7fc69c",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        }
+      ],
+      "issues": [],
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-017",
+      "event_id": "150903K4",
+      "revision_path": "v1",
+      "status_blob": "f5e8792d2ea7185d581619444ddaf655b155efeb",
+      "path": "claude/cases/2015/150903K4/v1/INTAKE_STATUS.json",
+      "declared_integration": "HOLD",
+      "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+      "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+      "source_zip_hash_declared": true,
+      "count_field": "role_counts",
+      "count_valid": true,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "declared_blob": "037625ac43bba1e44e2b2d4b2e72a10cb932142b",
+          "tree_blob": "037625ac43bba1e44e2b2d4b2e72a10cb932142b",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "review.json",
+          "declared_blob": "8bf07838b851791f6384fbfcd8591b9e7df66d36",
+          "tree_blob": "8bf07838b851791f6384fbfcd8591b9e7df66d36",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "excel_import.csv",
+          "declared_blob": "39f8ef7b1171e8c8bd0ae6c0e4262b134e4b5ad5",
+          "tree_blob": "39f8ef7b1171e8c8bd0ae6c0e4262b134e4b5ad5",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "validation.md",
+          "declared_blob": "387f7d7e372ad4ee5918d614d373d6d18ba1b228",
+          "tree_blob": "387f7d7e372ad4ee5918d614d373d6d18ba1b228",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        }
+      ],
+      "issues": [],
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-018",
+      "event_id": "141017Y3",
+      "revision_path": "v1",
+      "status_blob": "18f218bcf2969efbaecd15b3f83e39d2d3b17954",
+      "path": "claude/cases/2014/141017Y3/v1/INTAKE_STATUS.json",
+      "declared_integration": "HOLD",
+      "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+      "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+      "source_zip_hash_declared": true,
+      "count_field": "role_counts",
+      "count_valid": true,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "declared_blob": "737ad61504fda41b8ffc7348bf213762d595d733",
+          "tree_blob": "737ad61504fda41b8ffc7348bf213762d595d733",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "review.json",
+          "declared_blob": "6ab6721ea932f4d02c43f7593734992072abbcce",
+          "tree_blob": "6ab6721ea932f4d02c43f7593734992072abbcce",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "excel_import.csv",
+          "declared_blob": "d2b68c5363653fa53264c5fcc15d5d204ca9f81b",
+          "tree_blob": "d2b68c5363653fa53264c5fcc15d5d204ca9f81b",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "validation.md",
+          "declared_blob": "e9b4994c952f3551f82e0343d6ddc7466f5e11ba",
+          "tree_blob": "e9b4994c952f3551f82e0343d6ddc7466f5e11ba",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        }
+      ],
+      "issues": [],
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-019",
+      "event_id": "141001Y12",
+      "revision_path": "v1",
+      "status_blob": "2d29fffffed71668643921defaa637c59c6cdf61",
+      "path": "claude/cases/2014/141001Y12/v1/INTAKE_STATUS.json",
+      "declared_integration": "HOLD",
+      "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+      "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+      "source_zip_hash_declared": true,
+      "count_field": "role_counts",
+      "count_valid": true,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "declared_blob": "d00043a6a5178bb3da675c67e96088420542910b",
+          "tree_blob": "d00043a6a5178bb3da675c67e96088420542910b",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "review.json",
+          "declared_blob": "f06a49a7ee7ad43bfaf1d34bb543e140eb196382",
+          "tree_blob": "f06a49a7ee7ad43bfaf1d34bb543e140eb196382",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "excel_import.csv",
+          "declared_blob": "f9b173fe33ebd9a0b99d43589e2d1c7b1a6dfaa8",
+          "tree_blob": "f9b173fe33ebd9a0b99d43589e2d1c7b1a6dfaa8",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "validation.md",
+          "declared_blob": "74ac8d14530c4060f1e1b3b5e8a9e119b33494dc",
+          "tree_blob": "74ac8d14530c4060f1e1b3b5e8a9e119b33494dc",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        }
+      ],
+      "issues": [],
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-020",
+      "event_id": "140617W4",
+      "revision_path": "v1",
+      "status_blob": "374eca12d25e1ed960351a42020f72bfc47d07c9",
+      "path": "claude/cases/2014/140617W4/v1/INTAKE_STATUS.json",
+      "declared_integration": "HOLD",
+      "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+      "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+      "source_zip_hash_declared": true,
+      "count_field": "role_counts",
+      "count_valid": true,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "declared_blob": "c2c0d466e44ae2a8bd593926ffe7c676df30a865",
+          "tree_blob": "c2c0d466e44ae2a8bd593926ffe7c676df30a865",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "review.json",
+          "declared_blob": "4a4038146e5aa5ba5e1b5c531c6210fda4d8fef6",
+          "tree_blob": "4a4038146e5aa5ba5e1b5c531c6210fda4d8fef6",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "excel_import.csv",
+          "declared_blob": "4fe78c8f1448109226e63b169e495a1c53136f91",
+          "tree_blob": "4fe78c8f1448109226e63b169e495a1c53136f91",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "validation.md",
+          "declared_blob": "00c3b0f55ed81de5bcf20af419f7eb892e3fe21d",
+          "tree_blob": "00c3b0f55ed81de5bcf20af419f7eb892e3fe21d",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        }
+      ],
+      "issues": [],
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-021",
+      "event_id": "140228Y2",
+      "revision_path": "v1",
+      "status_blob": "b5f4fdd3372b578b9f89192be26d21ab057e402e",
+      "path": "claude/cases/2014/140228Y2/v1/INTAKE_STATUS.json",
+      "declared_integration": "HOLD",
+      "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+      "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+      "source_zip_hash_declared": true,
+      "count_field": "role_counts",
+      "count_valid": true,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "declared_blob": "c06b9ecfe551af03750bfb633762b0da90a220e5",
+          "tree_blob": "c06b9ecfe551af03750bfb633762b0da90a220e5",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "review.json",
+          "declared_blob": "7d5abccd5c7e2bf4662d48fccad5986bbc5463d8",
+          "tree_blob": "7d5abccd5c7e2bf4662d48fccad5986bbc5463d8",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "excel_import.csv",
+          "declared_blob": "6129ec9c83436099650eb0a6b50675a47044f13f",
+          "tree_blob": "6129ec9c83436099650eb0a6b50675a47044f13f",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "validation.md",
+          "declared_blob": "08f37d9b02d059f224d6563481c9254b9c7a55b9",
+          "tree_blob": "08f37d9b02d059f224d6563481c9254b9c7a55b9",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        }
+      ],
+      "issues": [],
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-022",
+      "event_id": "130414KR4",
+      "revision_path": "v1",
+      "status_blob": "6a35ffe0173cc9e5a164731e1683e0f5bbd6a26d",
+      "path": "claude/cases/2013/130414KR4/v1/INTAKE_STATUS.json",
+      "declared_integration": "HOLD",
+      "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+      "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+      "source_zip_hash_declared": true,
+      "count_field": "role_counts",
+      "count_valid": true,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "declared_blob": "82917659288cf2bdcc55a2d6ceb2222979d60f42",
+          "tree_blob": "82917659288cf2bdcc55a2d6ceb2222979d60f42",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "review.json",
+          "declared_blob": "ec5971f1827d86c09057f5dc06d6af4589c15f7d",
+          "tree_blob": "ec5971f1827d86c09057f5dc06d6af4589c15f7d",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "excel_import.csv",
+          "declared_blob": "f751c8ed35cce56f878c86a7d15a226fe86263af",
+          "tree_blob": "f751c8ed35cce56f878c86a7d15a226fe86263af",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "validation.md",
+          "declared_blob": "f66a4ef49cab9db57f01bdc1a2590b123d412f50",
+          "tree_blob": "f66a4ef49cab9db57f01bdc1a2590b123d412f50",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        }
+      ],
+      "issues": [],
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-023",
+      "event_id": "130117U1",
+      "revision_path": "v1",
+      "status_blob": "30163e87a8316870ebb835b9adba0cfea5948289",
+      "path": "claude/cases/2013/130117U1/v1/INTAKE_STATUS.json",
+      "declared_integration": "HOLD",
+      "source_verification": "PDF_READ_HASH_UNAVAILABLE",
+      "independence_status": "OTHER_CASE_EXPOSURE_DISCLOSED_REVIEW_REQUIRED",
+      "source_zip_hash_declared": true,
+      "count_field": "role_counts",
+      "count_valid": true,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "declared_blob": "896eed81fcf86e777cc8d21f871a9c833b8fbf33",
+          "tree_blob": "896eed81fcf86e777cc8d21f871a9c833b8fbf33",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "review.json",
+          "declared_blob": "4ff9e0e1135ddfd617906a1457941cfcc7d2da91",
+          "tree_blob": "4ff9e0e1135ddfd617906a1457941cfcc7d2da91",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "excel_import.csv",
+          "declared_blob": "57b1792dc73294222048d736575a19aca0bfb41f",
+          "tree_blob": "57b1792dc73294222048d736575a19aca0bfb41f",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        },
+        {
+          "name": "validation.md",
+          "declared_blob": "6aed368d4a40fcf73d355e2c4506a1313b0a4a6e",
+          "tree_blob": "6aed368d4a40fcf73d355e2c4506a1313b0a4a6e",
+          "blob_match": true,
+          "declared_sha256_valid": true
+        }
+      ],
+      "issues": [],
+      "eligible": false
+    }
+  ],
+  "approved": false,
+  "can_ship": false,
+  "actual_data_import": false
+}
