@@ -1,0 +1,97 @@
+{
+  "source_ref": "8775c5ae6249cf0f8bcd70d513e3296cbb46343e",
+  "census_ref": "65f0a7d2ca937593854f9dced404401bc579b23d",
+  "scope": "PRIORITY_PILOT_NOT_FULL_CENSUS",
+  "method": "BASE64_RAW_BYTES_SHA1_GIT_BLOB_AND_SHA256",
+  "files": [
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_claude_pilot.json",
+      "blob": "092b6ab4aa2b14ebeb85f5c91799ac75b3a5cd10",
+      "records": 2
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_gemini_hold_pending_pilot.json",
+      "blob": "e1de71ed115b160fa18c33aeb62cf0ff81372b6d",
+      "records": 2
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_gemini_v2_pilot.json",
+      "blob": "c4f5d3f6d6874282a2d199869a1e43544cfd48ed",
+      "records": 2
+    }
+  ],
+  "checked_submissions": 6,
+  "total_external_submissions": 76,
+  "remaining_submissions": 70,
+  "checked_status_raw_bytes": 6,
+  "checked_artifacts": 24,
+  "total_external_artifacts": 304,
+  "remaining_artifacts": 280,
+  "artifact_blob_matches": 24,
+  "sha256_matches": 20,
+  "new_measurements_without_declaration": 4,
+  "sha256_mismatches": 0,
+  "checked_artifact_bytes": 838364,
+  "checked_status_bytes": 16312,
+  "submissions": [
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-038",
+      "event_id": "250919W2",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 0,
+      "new_measurements": 4,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-005",
+      "event_id": "250314SH2",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-038",
+      "event_id": "250919W2",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-004",
+      "event_id": "240319W3",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-016",
+      "event_id": "160227HB1",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-021",
+      "event_id": "140228Y2",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    }
+  ],
+  "full_census_executed": false,
+  "approved": false,
+  "can_ship": false,
+  "actual_data_import": false,
+  "acceptance_go": false
+}
