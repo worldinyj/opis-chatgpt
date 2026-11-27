@@ -2,16 +2,18 @@
   "track": "C",
   "branch": "develop/integration-platform",
   "source_ref": "fa145c17aff92e3ccf21ded05d0e85f545b0ab22",
-  "phase": "C04",
-  "status": "PURE_ENGINE_TESTED_SNAPSHOT_BRIDGE_OPEN",
+  "phase": "C04-R1+C05",
+  "status": "BRIDGE_COMPATIBILITY_AND_METRICS_TESTED_CORE_OPEN",
   "completed": [
     "C01",
     "C02",
     "C02-R1",
     "C02-R2",
-    "C04_PURE_ENGINE"
+    "C04_PURE_ENGINE",
+    "C04_R1_COMPATIBILITY",
+    "C05_PURE_METRICS"
   ],
-  "next": "C04-R1",
+  "next": "C06_EXPERT_REVIEW_DESIGN",
   "actual_data_import": false,
   "tests_executed": true,
   "approved": false,
@@ -22,7 +24,7 @@
   "synthetic_slots": 4560,
   "staging_tests_passed": 18,
   "staging_tests_failed": 0,
-  "parallel_next": "C03-R1_CORE_VALIDATION",
+  "parallel_next": "C03-R1_AND_C04-R1_FULL_CORE_VALIDATION",
   "adapter_tests_passed": 16,
   "adapter_tests_failed": 0,
   "full_core_bridge_tested": false,
@@ -31,5 +33,10 @@
   "role_combinations_tested": 216,
   "availability_combinations_tested": 64,
   "consensus_synthetic_keys": 1520,
-  "consensus_synthetic_slots": 4560
+  "consensus_synthetic_slots": 4560,
+  "analytics_next": "C05-R1",
+  "consensus_bridge_compatibility_tests_passed": 9,
+  "consensus_bridge_full_core_tested": false,
+  "agreement_tests_passed": 9,
+  "agreement_synthetic_keys": 1520
 }
