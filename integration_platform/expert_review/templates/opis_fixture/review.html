@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>OPIS 합성 전문가 검토</title></head>
+<body>
+<main>
+<h1>OPIS 전문가 검토 — 합성 시험 전용</h1>
+<p>실제 사건자료 사용 및 승인 금지.</p>
+<h2>{{ data.key }}</h2>
+<dl><dt>스냅샷</dt><dd>{{ data.fingerprint }}</dd><dt>교차판정</dt><dd>{{ data.status }}</dd><dt>검토 개정판</dt><dd>{{ data.revision }}</dd></dl>
+{% if data.stale_review_required %}<p role="alert">스냅샷 변경: 기존 검토를 자동 승계하지 않습니다.</p>{% endif %}
+<h2>합성 근거 기록</h2><pre>{{ data.payload }}</pre>
+{% if data.latest %}<h2>최근 검토 초안</h2><p>{{ data.latest.2 }} — {{ data.latest.3 }}</p><p>검토자: {{ data.latest.4 }}</p>{% endif %}
+{% if can_edit %}
+<form method="post">{% csrf_token %}
+<input type="hidden" name="fingerprint" value="{{ data.fingerprint }}">
+<input type="hidden" name="revision" value="{{ data.revision }}">
+<label for="decision">전문가 판단 초안</label>
+<select id="decision" name="decision" required><option value="">선택</option><option value="SELECTED">선정</option><option value="NOT_SELECTED">미선정</option><option value="DEFERRED">판단보류</option></select>
+<label for="reason">판단 근거</label><textarea id="reason" name="reason" required maxlength="4000"></textarea>
+<button type="submit">초안 기록</button>
+</form>
+{% else %}<p>읽기 전용 또는 입력 대기 상태.</p>{% endif %}
+</main></body></html>
