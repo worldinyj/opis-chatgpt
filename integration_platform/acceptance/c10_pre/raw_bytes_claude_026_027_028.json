@@ -1,0 +1,167 @@
+{
+  "source_ref": "8775c5ae6249cf0f8bcd70d513e3296cbb46343e",
+  "census_ref": "65f0a7d2ca937593854f9dced404401bc579b23d",
+  "method": "BASE64_RAW_BYTES_SHA1_GIT_BLOB_AND_SHA256",
+  "hash_selftest": true,
+  "records": [
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-026",
+      "event_id": "110621K2",
+      "status_path": "claude/cases/2011/110621K2/v1/INTAKE_STATUS.json",
+      "status_blob": "c2cc7813cd0ef2f9b9f20ab03e221f2909d8e133",
+      "status_sha256": "0262ac15a305f9889b0e8384adad98396d189280acb8bc131b27583601bdafce",
+      "status_bytes": 3781,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "bytes": 27136,
+          "expected_blob": "b9f8344a0c1b10c3258292bb0e286b8847dfe0f3",
+          "observed_blob": "b9f8344a0c1b10c3258292bb0e286b8847dfe0f3",
+          "blob_match": true,
+          "declared_sha256": "0671f1d8f3976cd418f5f3025431bec33c70f2e9ddae0c232533271741c1d02d",
+          "observed_sha256": "0671f1d8f3976cd418f5f3025431bec33c70f2e9ddae0c232533271741c1d02d",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "review.json",
+          "bytes": 38938,
+          "expected_blob": "a644f2076d08fef7d79b73b9c9c77e1981ba6210",
+          "observed_blob": "a644f2076d08fef7d79b73b9c9c77e1981ba6210",
+          "blob_match": true,
+          "declared_sha256": "148dc23e33e4c32c40f21788acc3b82346e5fef89e58189d2af90a2536939ecf",
+          "observed_sha256": "148dc23e33e4c32c40f21788acc3b82346e5fef89e58189d2af90a2536939ecf",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "excel_import.csv",
+          "bytes": 10855,
+          "expected_blob": "fa1bfdb870528a506a86e697050f5b0c499fb3b3",
+          "observed_blob": "fa1bfdb870528a506a86e697050f5b0c499fb3b3",
+          "blob_match": true,
+          "declared_sha256": "d47564fd84cd2631c449f541923d62693698e00d44495ddbbf05a0ca6435d477",
+          "observed_sha256": "d47564fd84cd2631c449f541923d62693698e00d44495ddbbf05a0ca6435d477",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "validation.md",
+          "bytes": 3551,
+          "expected_blob": "f5acc70d4c66b62bde52600d784d0f71ce8d4b55",
+          "observed_blob": "f5acc70d4c66b62bde52600d784d0f71ce8d4b55",
+          "blob_match": true,
+          "declared_sha256": "70ea040a149f90985db9eeafbc7fa2e8f420e04a467b03bddaec1028e105351c",
+          "observed_sha256": "70ea040a149f90985db9eeafbc7fa2e8f420e04a467b03bddaec1028e105351c",
+          "sha256_status": "MATCH"
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-027",
+      "event_id": "110419K34",
+      "status_path": "claude/cases/2011/110419K34/v1/INTAKE_STATUS.json",
+      "status_blob": "947e7938b5f8fd8a26c3497a734ae2fc46ffff41",
+      "status_sha256": "dc71ee6f0716c5fa28e00b714cde2757fbaa81afab7dc972d4764f3ad27c3853",
+      "status_bytes": 3783,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "bytes": 31009,
+          "expected_blob": "827698c7424d25a8e276f52324424d9bd92a1760",
+          "observed_blob": "827698c7424d25a8e276f52324424d9bd92a1760",
+          "blob_match": true,
+          "declared_sha256": "8419eff10ade0cef50ecd33f5ec35f7962d69d0a269e4d4ba1c3b12f0cb57545",
+          "observed_sha256": "8419eff10ade0cef50ecd33f5ec35f7962d69d0a269e4d4ba1c3b12f0cb57545",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "review.json",
+          "bytes": 41521,
+          "expected_blob": "0dca170178027a2f265bde533e49c0d14030eb5d",
+          "observed_blob": "0dca170178027a2f265bde533e49c0d14030eb5d",
+          "blob_match": true,
+          "declared_sha256": "9cd99bbc6c43d5545e1f2d0d529d258bec8a9cbd6316bbec4c1296f2e294537d",
+          "observed_sha256": "9cd99bbc6c43d5545e1f2d0d529d258bec8a9cbd6316bbec4c1296f2e294537d",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "excel_import.csv",
+          "bytes": 12092,
+          "expected_blob": "ad0e23229bb97e74ea31d0a21f731cbd335d764a",
+          "observed_blob": "ad0e23229bb97e74ea31d0a21f731cbd335d764a",
+          "blob_match": true,
+          "declared_sha256": "86bed6fd6394d48245b1c2d9972a1dd09b704b3695e2be32b8a067ef877b3a45",
+          "observed_sha256": "86bed6fd6394d48245b1c2d9972a1dd09b704b3695e2be32b8a067ef877b3a45",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "validation.md",
+          "bytes": 3556,
+          "expected_blob": "4fcaf2db93d5e6495b1330726c08581cb3f68376",
+          "observed_blob": "4fcaf2db93d5e6495b1330726c08581cb3f68376",
+          "blob_match": true,
+          "declared_sha256": "130b43033b983d794dcd8088a6a6bebe5819b6dba4b0a5c74156f01077e43f54",
+          "observed_sha256": "130b43033b983d794dcd8088a6a6bebe5819b6dba4b0a5c74156f01077e43f54",
+          "sha256_status": "MATCH"
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-028",
+      "event_id": "100917SK1",
+      "status_path": "claude/cases/2010/100917SK1/v1/INTAKE_STATUS.json",
+      "status_blob": "040aa56aa44bc319e44f2d17327a27e3443af8b0",
+      "status_sha256": "925a0b0ec449818195c6fc8bd349b6aa2800547efedea16941488c09ebb51727",
+      "status_bytes": 3784,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "bytes": 39850,
+          "expected_blob": "51ea3a1fe8aa4c97a26b8d10b371c98ca1d12ef4",
+          "observed_blob": "51ea3a1fe8aa4c97a26b8d10b371c98ca1d12ef4",
+          "blob_match": true,
+          "declared_sha256": "7ecfa07c9735eea3ed65e480401cb7c4ed33af55bba6846f7912a42f01c91165",
+          "observed_sha256": "7ecfa07c9735eea3ed65e480401cb7c4ed33af55bba6846f7912a42f01c91165",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "review.json",
+          "bytes": 60882,
+          "expected_blob": "e8d3f77ebab08df9cd97dc70b93b9a32b6a35853",
+          "observed_blob": "e8d3f77ebab08df9cd97dc70b93b9a32b6a35853",
+          "blob_match": true,
+          "declared_sha256": "68c0ce2c86b2c5dfd1241c485f5db12b9dcac24a0c4621ba8cfa3e1ae95a5faf",
+          "observed_sha256": "68c0ce2c86b2c5dfd1241c485f5db12b9dcac24a0c4621ba8cfa3e1ae95a5faf",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "excel_import.csv",
+          "bytes": 17760,
+          "expected_blob": "1926d1e3e4f00deccdbd51ebd6dfabfa7f0a46f7",
+          "observed_blob": "1926d1e3e4f00deccdbd51ebd6dfabfa7f0a46f7",
+          "blob_match": true,
+          "declared_sha256": "944cdf01f56e83e0f808908eb006f047767e01ed759f91327312e498cea5d4c2",
+          "observed_sha256": "944cdf01f56e83e0f808908eb006f047767e01ed759f91327312e498cea5d4c2",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "validation.md",
+          "bytes": 3559,
+          "expected_blob": "bd78531a1361287ba33a0a568d1b161944f0053a",
+          "observed_blob": "bd78531a1361287ba33a0a568d1b161944f0053a",
+          "blob_match": true,
+          "declared_sha256": "13cc09a52efffc5699f7b228f6c5cdd54e1ea667c3a48efaffb0b217a1bfcab6",
+          "observed_sha256": "13cc09a52efffc5699f7b228f6c5cdd54e1ea667c3a48efaffb0b217a1bfcab6",
+          "sha256_status": "MATCH"
+        }
+      ],
+      "eligible": false
+    }
+  ],
+  "approved": false,
+  "can_ship": false,
+  "actual_data_import": false
+}
