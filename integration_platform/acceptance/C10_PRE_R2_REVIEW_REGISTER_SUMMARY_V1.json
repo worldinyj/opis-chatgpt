@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "scope": "INTERNAL_COORDINATION_ONLY_NOT_BLIND_REVIEWER_INPUT",
+  "source_ref": "8775c5ae6249cf0f8bcd70d513e3296cbb46343e",
+  "prior_c_ref": "44fd767f938b3f671923b51c71ec87ab470f2867",
+  "b_ref": "dafd93aec8949521e8207e311c3e7c57876029b6",
+  "register_readback_ref": "578471813c4abe4c666942b92488dcb9b068d9ee",
+  "contract": {
+    "path": "integration_platform/contracts/C09_F3_ELIGIBILITY_EVIDENCE_V1.json",
+    "blob": "0a41ae76b9e80792b0e31f76c68e399bb503ae40"
+  },
+  "registers": [
+    {
+      "model": "CHATGPT",
+      "path": "integration_platform/acceptance/c10_pre_r2/CHATGPT_REVIEW_REGISTER_V1.json",
+      "blob": "0f4a8efde24f303d2561155662d3017523479812",
+      "count": 38
+    },
+    {
+      "model": "GEMINI",
+      "path": "integration_platform/acceptance/c10_pre_r2/GEMINI_REVIEW_REGISTER_V1.json",
+      "blob": "38f59eb3148c00d3ff732b83cf0812760be9d8e3",
+      "count": 38
+    },
+    {
+      "model": "CLAUDE",
+      "path": "integration_platform/acceptance/c10_pre_r2/CLAUDE_REVIEW_REGISTER_V1.json",
+      "blob": "42d7a1987fc6325c938bb9d23d761f8318375e74",
+      "count": 38
+    }
+  ],
+  "neutral_source_worklist": {
+    "path": "integration_platform/acceptance/c10_pre_r2/NEUTRAL_PDF_IDENTITY_WORKLIST_V1.json",
+    "blob": "66144ca2ce52b9849c9833d13cc3f23b217e5995",
+    "ref": "650faff9d2e3d0fe0ad51d9e8cb33b7f26d38232",
+    "count": 38
+  },
+  "verification": {
+    "unique_model_queue": 114,
+    "events": 38,
+    "models": 3,
+    "all_five_gates_present": 114,
+    "expected_source_mapping_matches": 114,
+    "decision_records_empty": 114,
+    "baseline_rows": 1520,
+    "baseline_protected_tree_blobs": 1267,
+    "external_raw_artifacts": 304,
+    "b08_original_pins": 35,
+    "derived_candidate_pins": 6,
+    "new_pdf_measurements": 0,
+    "prior_source_binary_evidence_refs": 1
+  },
+  "counts": {
+    "chatgpt_frozen_baseline": 38,
+    "gemini_pending": 31,
+    "gemini_hold": 7,
+    "claude_hold": 38,
+    "eligible": 0,
+    "authorized_decisions": 0
+  },
+  "blocker_counts": {
+    "BASELINE_ORIGINAL_BYTE_REPRODUCTION": 38,
+    "PDF_IDENTITY_AND_BINDING": 38,
+    "INDEPENDENCE_REVIEW": 38,
+    "EVIDENCE_REVIEW": 38,
+    "EXPLICIT_DECISION": 114,
+    "PDF_TO_SUBMISSION_BINDING": 76,
+    "INDEPENDENT_QA": 76,
+    "SEMANTIC_EVIDENCE_REVIEW": 76,
+    "SOURCE_ZIP_RAW_BYTES_NOT_VERIFIED": 76,
+    "INDEPENDENT_PDF_MEASUREMENT_PENDING": 75,
+    "B08_HOLD_REVIEW": 7,
+    "DM3_FACT_LINKAGE_AND_SECTION_REVIEW": 1,
+    "DERIVED_CSV_AUTHORIZATION_PENDING": 6,
+    "OTHER_CASE_EXPOSURE_ADJUDICATION": 37,
+    "DIRECT_EXPOSURE_ADJUDICATION": 1,
+    "SHA256_DECLARATION_GAP_ADJUDICATION": 1
+  },
+  "priority_workstreams": [
+    {
+      "id": "P1",
+      "scope": "38 event neutral PDF identity measurement",
+      "note": "ROOT-004 prior B05 evidence available; new measurements not performed. Shared source identity does not verify model submission binding."
+    },
+    {
+      "id": "P2",
+      "scope": "Claude 38 independence and PDF binding",
+      "note": "ROOT-038 direct exposure and declaration gaps; 37 other-case exposure disclosures; separate authorized adjudication."
+    },
+    {
+      "id": "P3",
+      "scope": "Gemini B08 7 HOLD",
+      "note": "ROOT-004 DM3 linkage; six candidates require independent QA and authorization."
+    },
+    {
+      "id": "P4",
+      "scope": "Gemini 31 pending and ChatGPT 38 baseline",
+      "note": "Independent evidence/semantic review; baseline pinned bytes and rationale trace, no invented rationale."
+    }
+  ],
+  "reviewer_packet_policy": "Do not distribute this combined register or other-model results as blind reviewer input. Extract only one model's own case materials and neutral source/standard with access isolation. Registers are coordination records, not authorization or actual data import.",
+  "actual_data_import": false,
+  "approved": false,
+  "can_ship": false,
+  "main_merge": false,
+  "acceptance_go": false
+}
