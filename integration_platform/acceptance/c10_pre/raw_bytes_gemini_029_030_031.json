@@ -1,0 +1,167 @@
+{
+  "source_ref": "8775c5ae6249cf0f8bcd70d513e3296cbb46343e",
+  "census_ref": "65f0a7d2ca937593854f9dced404401bc579b23d",
+  "method": "BASE64_RAW_BYTES_SHA1_GIT_BLOB_AND_SHA256",
+  "hash_selftest": true,
+  "records": [
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-029",
+      "event_id": "090903W2",
+      "status_path": "gemini/cases/2009/090903W2/v1/INTAKE_STATUS.json",
+      "status_blob": "1101650cb5942f74bc9b54832cc26370c20710ce",
+      "status_sha256": "e75a0d82a518f85ba4d1b276af7d7a2f0f73c886bde0e40324578dca7eb0741c",
+      "status_bytes": 2959,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "bytes": 24194,
+          "expected_blob": "a4cdf7a0f4f68835e8afec391a705bbd20b58ebd",
+          "observed_blob": "a4cdf7a0f4f68835e8afec391a705bbd20b58ebd",
+          "blob_match": true,
+          "declared_sha256": "cdc9a12146cf70bb373c7ea19301d0c4a07787f4d327d6828ce896b721ed7894",
+          "observed_sha256": "cdc9a12146cf70bb373c7ea19301d0c4a07787f4d327d6828ce896b721ed7894",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "review.json",
+          "bytes": 46093,
+          "expected_blob": "68681f03b1843a956124f1f26283e333dcbe65e5",
+          "observed_blob": "68681f03b1843a956124f1f26283e333dcbe65e5",
+          "blob_match": true,
+          "declared_sha256": "fb0db3ec217d4365101fa98250b7432fafde5873c7491dda506220ea59206e6b",
+          "observed_sha256": "fb0db3ec217d4365101fa98250b7432fafde5873c7491dda506220ea59206e6b",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "excel_import.csv",
+          "bytes": 13559,
+          "expected_blob": "3b265bc25823c8fa1f41506da412b531e79398cc",
+          "observed_blob": "3b265bc25823c8fa1f41506da412b531e79398cc",
+          "blob_match": true,
+          "declared_sha256": "d5c1861c6426b909851e07e6a3d3b7d117d58c6c7abaa703381dd28a45ae896b",
+          "observed_sha256": "d5c1861c6426b909851e07e6a3d3b7d117d58c6c7abaa703381dd28a45ae896b",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "validation.md",
+          "bytes": 3383,
+          "expected_blob": "84f2cf60acb33fad91d52ee1bb3586fb9af9da9a",
+          "observed_blob": "84f2cf60acb33fad91d52ee1bb3586fb9af9da9a",
+          "blob_match": true,
+          "declared_sha256": "14cd17a06ed5b6755eeb92847f7226e809830e44b9874966e24ae6802b0f1853",
+          "observed_sha256": "14cd17a06ed5b6755eeb92847f7226e809830e44b9874966e24ae6802b0f1853",
+          "sha256_status": "MATCH"
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-030",
+      "event_id": "060507U1",
+      "status_path": "gemini/cases/2006/060507U1/v1/INTAKE_STATUS.json",
+      "status_blob": "a77862c4dfcf6ba33d57dd09a486c9f2a6ff8340",
+      "status_sha256": "45f21de9c7aa24cd244af4d5600584566eaf09b08c9d22383c7b276842e121c1",
+      "status_bytes": 2959,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "bytes": 23986,
+          "expected_blob": "ece3418f73b523b110db027cccd1b4295ea90558",
+          "observed_blob": "ece3418f73b523b110db027cccd1b4295ea90558",
+          "blob_match": true,
+          "declared_sha256": "f05bc78cf3cb41bd851c5dbea634605c24683f7fd11d5380e062fea4fa3b292a",
+          "observed_sha256": "f05bc78cf3cb41bd851c5dbea634605c24683f7fd11d5380e062fea4fa3b292a",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "review.json",
+          "bytes": 48688,
+          "expected_blob": "ceb6ed246bf22014de0793328c4943a2269cdfd7",
+          "observed_blob": "ceb6ed246bf22014de0793328c4943a2269cdfd7",
+          "blob_match": true,
+          "declared_sha256": "3e6314f30a9082aad644458d44727db5b40b8bb7511052a68afbad31e0ffa24c",
+          "observed_sha256": "3e6314f30a9082aad644458d44727db5b40b8bb7511052a68afbad31e0ffa24c",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "excel_import.csv",
+          "bytes": 14372,
+          "expected_blob": "7bbbd14b11da9bc3e04a4e1b74c9e928db81494a",
+          "observed_blob": "7bbbd14b11da9bc3e04a4e1b74c9e928db81494a",
+          "blob_match": true,
+          "declared_sha256": "e2c57be141f5f7f4d42cd0b01750b6dd726483d2d6024c7157484ce6eb8b4a70",
+          "observed_sha256": "e2c57be141f5f7f4d42cd0b01750b6dd726483d2d6024c7157484ce6eb8b4a70",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "validation.md",
+          "bytes": 3444,
+          "expected_blob": "cc69039d45b0ee5cc7e1abb09649dde8a17ddca1",
+          "observed_blob": "cc69039d45b0ee5cc7e1abb09649dde8a17ddca1",
+          "blob_match": true,
+          "declared_sha256": "404618d88e06ec37041f136edfd0c5108b264ab9fc668e33ee4263ef3d058a60",
+          "observed_sha256": "404618d88e06ec37041f136edfd0c5108b264ab9fc668e33ee4263ef3d058a60",
+          "sha256_status": "MATCH"
+        }
+      ],
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-031",
+      "event_id": "051106W1",
+      "status_path": "gemini/cases/2005/051106W1/v1/INTAKE_STATUS.json",
+      "status_blob": "cb1578b064b8d5184d4e469a35ca2f6ff354378f",
+      "status_sha256": "b591193652c043a4df455cc0ba719ff7b769e7d0d1c0b86091948dc95027228b",
+      "status_bytes": 2960,
+      "artifacts": [
+        {
+          "name": "report.md",
+          "bytes": 20232,
+          "expected_blob": "967186607bedbeea642751531f8167d310840157",
+          "observed_blob": "967186607bedbeea642751531f8167d310840157",
+          "blob_match": true,
+          "declared_sha256": "a01ba42fc86c3db04cdf114310d93d01c29f0a0e880ec2d6c0a8c22eb0b03bff",
+          "observed_sha256": "a01ba42fc86c3db04cdf114310d93d01c29f0a0e880ec2d6c0a8c22eb0b03bff",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "review.json",
+          "bytes": 40646,
+          "expected_blob": "cad8d6a0aa952cbe4c834771248d75111b0bf471",
+          "observed_blob": "cad8d6a0aa952cbe4c834771248d75111b0bf471",
+          "blob_match": true,
+          "declared_sha256": "9d8c4a14a8c1e6a3a078a5f80d3de1ddb0c7421d394ee6e79a4ace70f9d99ae8",
+          "observed_sha256": "9d8c4a14a8c1e6a3a078a5f80d3de1ddb0c7421d394ee6e79a4ace70f9d99ae8",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "excel_import.csv",
+          "bytes": 11590,
+          "expected_blob": "f99048742755e758dda8498ad7e107930ceb8ada",
+          "observed_blob": "f99048742755e758dda8498ad7e107930ceb8ada",
+          "blob_match": true,
+          "declared_sha256": "250f0f0c4f4edbf99e22e49b0f1bb8652333e2b59294ae2148a1b061be6b422a",
+          "observed_sha256": "250f0f0c4f4edbf99e22e49b0f1bb8652333e2b59294ae2148a1b061be6b422a",
+          "sha256_status": "MATCH"
+        },
+        {
+          "name": "validation.md",
+          "bytes": 3521,
+          "expected_blob": "d39a93d517e6f235401baf6535ebfd2e5e6cd086",
+          "observed_blob": "d39a93d517e6f235401baf6535ebfd2e5e6cd086",
+          "blob_match": true,
+          "declared_sha256": "a0f3da5cfb68a0096efcf66f73ce6c2db16e552d8b8712e94cf879a4a0b0ea05",
+          "observed_sha256": "a0f3da5cfb68a0096efcf66f73ce6c2db16e552d8b8712e94cf879a4a0b0ea05",
+          "sha256_status": "MATCH"
+        }
+      ],
+      "eligible": false
+    }
+  ],
+  "approved": false,
+  "can_ship": false,
+  "actual_data_import": false
+}
