@@ -1,0 +1,525 @@
+{
+  "source_ref": "8775c5ae6249cf0f8bcd70d513e3296cbb46343e",
+  "census_ref": "65f0a7d2ca937593854f9dced404401bc579b23d",
+  "audit_ref": "97632cf254ebca1fb15c5dee7d8850074a41923f",
+  "scope": "PARTIAL_PAIRED_PRIORITY_AUDIT",
+  "method": "BASE64_RAW_BYTES_SHA1_GIT_BLOB_AND_SHA256",
+  "files": [
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_claude_pilot.json",
+      "blob": "092b6ab4aa2b14ebeb85f5c91799ac75b3a5cd10",
+      "records": 2
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_gemini_hold_pending_pilot.json",
+      "blob": "e1de71ed115b160fa18c33aeb62cf0ff81372b6d",
+      "records": 2
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_gemini_v2_pilot.json",
+      "blob": "c4f5d3f6d6874282a2d199869a1e43544cfd48ed",
+      "records": 2
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_gemini_hold_014_015.json",
+      "blob": "4eb2715307afc0fbaa9b015dd655680c605335d2",
+      "records": 2
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_gemini_hold_017_018.json",
+      "blob": "31b411707d8c21374d389b9cb299c8e27105c696",
+      "records": 2
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_gemini_hold_019_020.json",
+      "blob": "8650bb9979f44d00859f399f9985a29c7168950a",
+      "records": 2
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_claude_hold_004_014.json",
+      "blob": "cbf5c53ce9ebe4d1f12213d927f51554fa455774",
+      "records": 2
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_claude_hold_015_017.json",
+      "blob": "52071b673e627f0479e5a0e6092cc352df3e453f",
+      "records": 2
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_claude_hold_018_019.json",
+      "blob": "955cd00cd240b5937c11fd8662da8659ec689e73",
+      "records": 2
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_claude_020_016.json",
+      "blob": "f5585c37b8c256eef767030b6ce160ea48ecd953",
+      "records": 2
+    },
+    {
+      "path": "integration_platform/acceptance/c10_pre/raw_bytes_counterpart_021_005.json",
+      "blob": "4faeb232b82c673f69536936a14e4b232f21b048",
+      "records": 2
+    }
+  ],
+  "previous_checked_submissions": 6,
+  "new_checked_submissions": 16,
+  "checked_submissions": 22,
+  "total_external_submissions": 76,
+  "remaining_submissions": 54,
+  "checked_status_raw_bytes": 22,
+  "checked_artifacts": 88,
+  "total_external_artifacts": 304,
+  "remaining_artifacts": 216,
+  "artifact_blob_matches": 88,
+  "sha256_matches": 84,
+  "new_measurements_without_declaration": 4,
+  "sha256_mismatches": 0,
+  "checked_artifact_bytes": 2326412,
+  "checked_status_bytes": 68916,
+  "paired_event_count": 11,
+  "paired_queues": [
+    "ROOT-004",
+    "ROOT-005",
+    "ROOT-014",
+    "ROOT-015",
+    "ROOT-016",
+    "ROOT-017",
+    "ROOT-018",
+    "ROOT-019",
+    "ROOT-020",
+    "ROOT-021",
+    "ROOT-038"
+  ],
+  "gemini_hold_queues": [
+    "ROOT-004",
+    "ROOT-014",
+    "ROOT-015",
+    "ROOT-017",
+    "ROOT-018",
+    "ROOT-019",
+    "ROOT-020"
+  ],
+  "submissions": [
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-038",
+      "event_id": "250919W2",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 0,
+      "new_measurements": 4,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-005",
+      "event_id": "250314SH2",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-038",
+      "event_id": "250919W2",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-004",
+      "event_id": "240319W3",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-016",
+      "event_id": "160227HB1",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-021",
+      "event_id": "140228Y2",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-014",
+      "event_id": "170327K4",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-015",
+      "event_id": "161220HU5",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-017",
+      "event_id": "150903K4",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-018",
+      "event_id": "141017Y3",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-019",
+      "event_id": "141001Y12",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-020",
+      "event_id": "140617W4",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-004",
+      "event_id": "240319W3",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-014",
+      "event_id": "170327K4",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-015",
+      "event_id": "161220HU5",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-017",
+      "event_id": "150903K4",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-018",
+      "event_id": "141017Y3",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-019",
+      "event_id": "141001Y12",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-020",
+      "event_id": "140617W4",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-016",
+      "event_id": "160227HB1",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-021",
+      "event_id": "140228Y2",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-005",
+      "event_id": "250314SH2",
+      "artifact_blob_matches": 4,
+      "sha256_matches": 4,
+      "new_measurements": 0,
+      "eligible": false
+    }
+  ],
+  "remaining": [
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-001"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-002"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-003"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-006"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-007"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-008"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-009"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-010"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-011"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-012"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-013"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-022"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-023"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-024"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-025"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-026"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-027"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-028"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-029"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-030"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-031"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-032"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-033"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-034"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-035"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-036"
+    },
+    {
+      "model": "GEMINI",
+      "queue_id": "ROOT-037"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-001"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-002"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-003"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-006"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-007"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-008"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-009"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-010"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-011"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-012"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-013"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-022"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-023"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-024"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-025"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-026"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-027"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-028"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-029"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-030"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-031"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-032"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-033"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-034"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-035"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-036"
+    },
+    {
+      "model": "CLAUDE",
+      "queue_id": "ROOT-037"
+    }
+  ],
+  "full_census_executed": false,
+  "approved": false,
+  "can_ship": false,
+  "actual_data_import": false,
+  "acceptance_go": false
+}
